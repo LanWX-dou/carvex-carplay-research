@@ -137,6 +137,9 @@ cd D:\carvex-research\android
 .\gradlew.bat :protocol-carplay:testDebugUnitTest :app:compileXiaomiDebugKotlin
 ```
 
+Android 插件与依赖优先使用阿里云镜像，缺少制品时查询官方仓库；Gradle Wrapper 9.8.1
+使用华为云镜像与官方 SHA-256 校验。仓库配置统一位于 `android/settings.gradle.kts`。
+
 Android 构建使用 `android/.signing/` 中随仓库公开的签名材料，详见
 [`android/README.md`](android/README.md#构建) 与
 [`android/AGENT.md`](android/AGENT.md)。缺少签名材料会在配置阶段直接失败，

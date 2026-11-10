@@ -368,6 +368,10 @@ python -B verify.py
 
 ### 6.3 Android
 
+Android 仓库统一在 `android/settings.gradle.kts` 配置：阿里云镜像优先，缺少制品时查询
+官方仓库，模块不得自行添加仓库。Gradle Wrapper 9.8.1 使用华为云镜像与官方 SHA-256
+校验；切换镜像时保留版本与校验，完整规则见 `android/AGENT.md`。
+
 ```powershell
 cd D:\carvex-research\android
 .\gradlew.bat :protocol-carplay:testDebugUnitTest :app:compileXiaomiDebugKotlin

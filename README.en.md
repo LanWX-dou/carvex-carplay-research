@@ -139,6 +139,10 @@ cd D:\carvex-research\android
 .\gradlew.bat :protocol-carplay:testDebugUnitTest :app:compileXiaomiDebugKotlin
 ```
 
+Android plugins and dependencies use Aliyun mirrors first, then official repositories
+for missing artifacts. Gradle Wrapper 9.8.1 uses Huawei Cloud with the official SHA-256
+checksum. Repositories are centralized in `android/settings.gradle.kts`.
+
 The Android build uses the signing material published under `android/.signing/`; see
 [`android/README.en.md`](android/README.en.md#build) and
 [`android/AGENT.en.md`](android/AGENT.en.md). Missing signing material is a

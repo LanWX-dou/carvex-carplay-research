@@ -383,6 +383,11 @@ missing; it is not a pass. Do not report a skipped evidence check as verified.
 
 ### 6.3 Android
 
+Android repositories are centralized in `android/settings.gradle.kts`: Aliyun mirrors
+first, then official repositories for missing artifacts; modules must not add repositories.
+Gradle Wrapper 9.8.1 uses Huawei Cloud with the official SHA-256 checksum. Preserve versions
+and verification when switching mirrors; see `android/AGENT.en.md` for the full rules.
+
 ```powershell
 cd D:\carvex-research\android
 .\gradlew.bat :protocol-carplay:testDebugUnitTest :app:compileXiaomiDebugKotlin
