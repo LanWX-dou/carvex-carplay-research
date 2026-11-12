@@ -1,0 +1,110 @@
+{
+  "result": "PASS",
+  "capstone": "5.0.7",
+  "imageSha256": "2b0a2010e6d2605e07d87f05659c932e03de34476a76431196a9bb58da7dc4fe",
+  "existingAuditOutput": [
+    "C18: SHA; 3 full slices; 76 anchors; 6 Mach-O imports; 7 block pointers; 8 selectors; subscriber/class/log strings OK (static only)",
+    "C16: SHA; 12 full slices; 31 anchors; 6 jump entries; empty-TLV boundary OK"
+  ],
+  "messages": {
+    "5000": {
+      "direction": "accessory-to-phone",
+      "function": "0x1001499f0",
+      "sourceSha256": "014e4ae80d660e26ce8b4cc145b4e0e6fad0478ae67de96cb302aa03165b86b7",
+      "instructionCount": 979,
+      "fullSliceMatchesImage": true
+    },
+    "5001": {
+      "direction": "phone-to-accessory",
+      "function": "0x1001465c4",
+      "sourceSha256": "8d6939980109213825f4a297ed01e8d9b527c3469eb1f8c16b6791511d721635",
+      "instructionCount": 447,
+      "fullSliceMatchesImage": true
+    },
+    "5002": {
+      "direction": "accessory-to-phone",
+      "function": "0x10014a93c",
+      "sourceSha256": "78cd90b8cf34f4ebe891db60f277e5da2912c23d8f56430f0d03210b1f6d639a",
+      "instructionCount": 57,
+      "fullSliceMatchesImage": true
+    },
+    "5003": {
+      "direction": "accessory-to-phone",
+      "function": "0x10014aa20",
+      "sourceSha256": "e0441d9df3d1a01313420e52f766c4fcebc75c276baa3ac75be31430e505cd04",
+      "instructionCount": 262,
+      "fullSliceMatchesImage": true
+    },
+    "5200": {
+      "direction": "accessory-to-phone",
+      "function": "0x10017527c",
+      "sourceSha256": "a469ba03ee05ee83112b30546ab32403cdc9b0d619537740cf7426674af6bb43",
+      "instructionCount": 432,
+      "fullSliceMatchesImage": true
+    },
+    "5201": {
+      "direction": "phone-to-accessory",
+      "function": "0x1000027f4",
+      "sourceSha256": "379712f8a4c97cf404ea6b348c406a56480d2806b5fb2dab994039b3b6ae4789",
+      "instructionCount": 587,
+      "fullSliceMatchesImage": true
+    },
+    "5202": {
+      "direction": "phone-to-accessory",
+      "function": "0x1001777c0",
+      "sourceSha256": "bb119539f0b24abb4d95ee63ebfe53e4894f3bbbd4e5940423a1bebbeac0de8d",
+      "instructionCount": 368,
+      "fullSliceMatchesImage": true
+    },
+    "5203": {
+      "direction": "accessory-to-phone",
+      "function": "0x10017593c",
+      "sourceSha256": "b59c6d7f436e31e24c4a3969d73ced33a4ec3134a37343852edbc5b8ada08bb2",
+      "instructionCount": 205,
+      "fullSliceMatchesImage": true
+    },
+    "5204": {
+      "direction": "phone-to-accessory",
+      "function": "0x100177d80",
+      "sourceSha256": "c83cce6631b53a0aa538d70bf5ce5febe2879dd1736853a5ce0eb34ee7ec567b",
+      "instructionCount": 399,
+      "fullSliceMatchesImage": true
+    }
+  },
+  "handlerRegistrations": 6,
+  "anchors": {
+    "0x100146ac8": [
+      "mov",
+      "w1, #0x5001"
+    ],
+    "0x100002a2c": [
+      "mov",
+      "w1, #0x5201"
+    ],
+    "0x1001779fc": [
+      "mov",
+      "w1, #0x5202"
+    ],
+    "0x100177f80": [
+      "mov",
+      "w1, #0x5204"
+    ],
+    "0x100002abc": [
+      "mov",
+      "w2, #1"
+    ],
+    "0x100002b0c": [
+      "mov",
+      "w2, #3"
+    ],
+    "0x100002ba4": [
+      "mov",
+      "w2, #7"
+    ],
+    "0x100002c0c": [
+      "mov",
+      "w2, #0xa"
+    ]
+  },
+  "boundary": "Static image/slice/branch checks; units, full field schemas, platform execution and vehicle behavior remain separately classified."
+}

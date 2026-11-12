@@ -8,7 +8,7 @@
 ## 0. 当前基线与逐字段对账
 
 - [x] 0.1 复核双方 HEAD、受影响源文件哈希及既有改动；补齐 `baseline.json` 与证据可用性清单。验收：每个实际输入可定位，历史快照与当前实现分开。
-- [ ] 0.2 从原字节/调用链核对 5000–5003、5200–5204 的方向、声明、字段/长度/顺序与失败路径。位置：`research/protocol/iap2_input_business_lifecycle`。验收：逐条列出 CONFIRMED/INFERRED/OPEN 及依据。
+- [x] 0.2 从原字节/调用链核对 5000–5003、5200–5204 的方向、声明、字段/长度/顺序与失败路径。位置：`research/protocol/iap2_input_business_lifecycle`。验收：逐条列出 CONFIRMED/INFERRED/OPEN 及依据。
 - [ ] 0.3 建立“宿主 → 快照 → 发布器 → wire → DiPlay 消费者”字段表，记录缺失/清除/零值、单位及能力。位置：两端相关 Kotlin 与 change 对账记录。验收：每个候选差异有复现入口或明确待证条件。
 
 ## 1. 业务生命周期与订阅归属
