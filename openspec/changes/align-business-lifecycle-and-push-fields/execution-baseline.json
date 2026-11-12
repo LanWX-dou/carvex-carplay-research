@@ -1,0 +1,206 @@
+{
+  "capturedAtUtc": "2026-11-12T15:14:54.755508+00:00",
+  "researchHead": "fabb9b2103bba1b4e42a1c0e10e2b2d5ab192ef1",
+  "historicalBaselinePreserved": true,
+  "scope": "Input identity and availability only; no firmware execution or vehicle acceptance.",
+  "repositories": {
+    "phone": {
+      "root": "C:/Users/admin/IdeaProjects/carvex-carplay-research/android",
+      "head": "6b6addc44273f6b294a52bcb45cd381c3a35a1a3",
+      "planningHead": "6b6addc44273f6b294a52bcb45cd381c3a35a1a3",
+      "worktree": "",
+      "files": {
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NowPlayingUpdate.kt": {
+          "sha256": "beb4cf930ac1453ad47f200a8a8a75983912d272d684806b5825c5d5e4cfc207",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NowPlayingArtwork.kt": {
+          "sha256": "1b1225a34ef3285cb4f9207ff77e2feba138064ccdafef076aac01ba5bb03cad",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NavigationPublisher.kt": {
+          "sha256": "ea643a6689d91a37ededc25ea95819a10958032ffbc106991d09b64186fea371",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NavigationGuidance.kt": {
+          "sha256": "9f6eeff267dc72b1353c65d64c444fd597947c9f40e5d020e65ce25fe5d96fe4",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/RuntimeIap.kt": {
+          "sha256": "a51eb1d24f2798498b5198dd41d4394e44b7580a565f057e01aa5616556e9d63",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/AirSession.kt": {
+          "sha256": "a70d989a52f6fb88da2516b8b754fa051678488f989c6c8c802066be14964902",
+          "matchesPlanningInput": true
+        },
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/Bootstrap.kt": {
+          "sha256": "64191f09088d302c65a29082c74186e5fb76799fb9caef9e6140b4c238f680e9",
+          "matchesPlanningInput": true
+        },
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/SessionController.kt": {
+          "sha256": "989e5582245ec693250b379862ec9ac879310185d6c54c9bbc3ebe823363cb46",
+          "matchesPlanningInput": true
+        },
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/HostMusicRelay.kt": {
+          "sha256": "d8e004014692de2832d0d5f8a1438ec37cc6691e8f95160222fef808cc67835f",
+          "matchesPlanningInput": true
+        },
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/HostNavigationRelay.kt": {
+          "sha256": "e9d80f5b5c0fdc91d995a5cf5841f7d420713b167092a4666403c7827922c674",
+          "matchesPlanningInput": true
+        },
+        "tools/receiver-interop/prepare.py": {
+          "sha256": "30a8b272a36e230bb75197081fbdac8fe8236103e640480c62d05361d6a8fa3e",
+          "matchesPlanningInput": true
+        },
+        "tools/receiver-interop/verify_results.py": {
+          "sha256": "d4d60dca773d37017805d47a70cf8349ab1edf1c4aa90c95aa60982c90dac7be",
+          "matchesPlanningInput": true
+        }
+      }
+    },
+    "receiver": {
+      "root": "C:/Users/admin/IdeaProjects/DiPlay",
+      "head": "615b32ce0b40cd0b99ce94ba23a512001553684f",
+      "planningHead": "615b32ce0b40cd0b99ce94ba23a512001553684f",
+      "worktree": "",
+      "files": {
+        "shared/src/main/java/com/shilapi/xcertplay/iap2/message/Iap2Messages.kt": {
+          "sha256": "56651f0707fb8c3490948e1a567521f96f3eee1222860985ae45c0b6c8a14471",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/transport/Iap2IdentificationClient.kt": {
+          "sha256": "3bfe7b00f306ffd7e8c316895b82827ff3a8820da44038f763039a910ee649e1",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/media/CarPlayPlaybackStatus.kt": {
+          "sha256": "2eedb5cd9d98958928428d4b704d84adbc5a9b2796b8a659e3c63a7960216dd4",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydClusterSong.kt": {
+          "sha256": "b41a65895bea0cdf4ca73ee455cf01f112f0e02bedf29c8e325070ddf97f0d44",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydHudRouteState.kt": {
+          "sha256": "a6f2c0623f3574c28589635d10c39555e3e4d5213a048fa6b93203646257202f",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydNavigationOutputs.kt": {
+          "sha256": "fbbc8cebb56a6e80df4aaa048e6c1833503a05dafa9d723318483a66708eb59b",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/hud/NavigationOutputWorker.kt": {
+          "sha256": "489a412dc1c01d1ad9c546dc8bd859b12b5382db2c7e402afe003a8a76c38b42",
+          "matchesPlanningInput": true
+        },
+        "shared/src/main/java/com/shilapi/xcertplay/orchestration/CarPlayController.kt": {
+          "sha256": "231afcdee9fcadf3d5a30ca2d2ea50c28fdb9092cb08f3a2fe81b91f9592ce98",
+          "matchesPlanningInput": true
+        },
+        "AGENTS.md": {
+          "sha256": "b8dd4b38eeb26c14373a29233ab815596f84e492db4161cd800e3ab01c196bfb",
+          "matchesPlanningInput": true
+        },
+        ".github/workflows/android.yml": {
+          "sha256": "b42c4a9935df6bc5b40fbf62c7e78f823de1a6ed4231e2e2da4b0a0ac452d75c",
+          "matchesPlanningInput": true
+        }
+      }
+    },
+    "research": {
+      "root": "C:/Users/admin/IdeaProjects/carvex-carplay-research",
+      "head": "fabb9b2103bba1b4e42a1c0e10e2b2d5ab192ef1",
+      "planningHead": "24e01eebf0bfbe60524c5773124cc94ff617c81b",
+      "worktree": "M openspec/changes/align-business-lifecycle-and-push-fields/tasks.md\n?? openspec/changes/align-business-lifecycle-and-push-fields/execution.md\n?? openspec/changes/align-business-lifecycle-and-push-fields/tools/",
+      "files": {
+        "research/protocol/iap2_input_business_lifecycle/spec/02-nowplaying.md": {
+          "sha256": "1d970d9609daba2747ccebae244392f274f2fe7aa768a3a157d14b05632fd39d",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/spec/03-navigation-hud.md": {
+          "sha256": "e3df09fed65d32ee74c91065cd3869fe74c61f111f306a61b009797201ae3a13",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/spec/05-gating-and-order.md": {
+          "sha256": "0d7f06fb4c5a54f8c73d98757a3cfa27e114b2ca31f3f84e663a0b50099c35c3",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/spec/06-lifecycle.md": {
+          "sha256": "b8f98a8196958b1ff09e9477a67a5b26f6b3f5a3b337ce973e492dfb7144a238",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/spec/07-cleanup.md": {
+          "sha256": "9c76f8264f2b3cc3ccb56b5d06e01ec99e0c13da318226f58fed6fbd991e2852",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/analysis/14-nowplaying-dataflow-audit.md": {
+          "sha256": "a1407096c9076514a6c868f0a11c24780341a54dca4aec51b0cf3890641ca67c",
+          "matchesPlanningInput": true
+        },
+        "research/protocol/iap2_input_business_lifecycle/analysis/12-lifecycle-and-empty-param-audit.md": {
+          "sha256": "fcee9d592eb9554d57ae4cc1cd255a46b1c73731e60a26475cf8eac52ea57740",
+          "matchesPlanningInput": true
+        }
+      }
+    }
+  },
+  "evidence": {
+    "research/protocol/iap2_input_business_lifecycle/source/firmware/accessoryd": {
+      "available": true,
+      "sha256": "2b0a2010e6d2605e07d87f05659c932e03de34476a76431196a9bb58da7dc4fe"
+    },
+    "firmware/ipsw/iPhone18,1_27.0.1_24A446_Restore.ipsw": {
+      "available": false,
+      "sha256": null
+    },
+    "research/protocol/iap2_input_business_lifecycle/tools/verify-nowplaying-audit.py": {
+      "available": true,
+      "sha256": "2a54562de6d00909f51b8dfe9759a170a83039b72ba01adae8e9be4e373b1013"
+    },
+    "research/protocol/iap2_input_business_lifecycle/tools/verify-lifecycle-audit.py": {
+      "available": true,
+      "sha256": "f1b10f6a3e971e6a8398e929ec4c681be9cb7e7a93e7ed6f3b5e19e8329f6ee0"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_1001499f0.s": {
+      "available": true,
+      "sha256": "014e4ae80d660e26ce8b4cc145b4e0e6fad0478ae67de96cb302aa03165b86b7"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_10014a93c.s": {
+      "available": true,
+      "sha256": "78cd90b8cf34f4ebe891db60f277e5da2912c23d8f56430f0d03210b1f6d639a"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_10014aa20.s": {
+      "available": true,
+      "sha256": "e0441d9df3d1a01313420e52f766c4fcebc75c276baa3ac75be31430e505cd04"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_10017527c.s": {
+      "available": true,
+      "sha256": "a469ba03ee05ee83112b30546ab32403cdc9b0d619537740cf7426674af6bb43"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_10017593c.s": {
+      "available": true,
+      "sha256": "b59c6d7f436e31e24c4a3969d73ced33a4ec3134a37343852edbc5b8ada08bb2"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_1000027f4.s": {
+      "available": true,
+      "sha256": "379712f8a4c97cf404ea6b348c406a56480d2806b5fb2dab994039b3b6ae4789"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_1001777c0.s": {
+      "available": true,
+      "sha256": "bb119539f0b24abb4d95ee63ebfe53e4894f3bbbd4e5940423a1bebbeac0de8d"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_10003021c.s": {
+      "available": true,
+      "sha256": "d2916b5539be3020d96d41f3cd3c46137e8acf4611f6cb8f971ad6b89c8109d4"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_1000302a0.s": {
+      "available": true,
+      "sha256": "e0e8a62db1c365412415a24adcbdf70609485fc27aa3e4d4a33a866decbba3cc"
+    },
+    "research/protocol/iap2_input_business_lifecycle/source/asm/accessoryd/f_100103210.s": {
+      "available": true,
+      "sha256": "192219983b743f5d2947db1b9f479312363a345b0793bb3814f1627e808f2ca8"
+    }
+  }
+}
