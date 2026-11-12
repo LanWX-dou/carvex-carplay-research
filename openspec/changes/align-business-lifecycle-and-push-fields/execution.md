@@ -95,6 +95,16 @@ git diff --check通过，任务1.4备份完成。没有打包/安装/实车验�
 140 suites/1159 tests，failure/error/skipped均0；生产解析器未改。git diff --check通过，备份任务2.1。
 没有打包/安装/实车验证。
 
+## 2.3 请求/实况分离（provider OPEN）
+
+5003原子解析为原始U32；只有ffffffff为auto。独立p2窗口订阅门、p0/p1无START-active门；
+request hook接受不冒充播放完成。生产无provider时拒绝且不回写快照/发送5001。
+[修正记录](../../../android/docs/fixes/2026-11-12-nowplaying-set-info-request.md)登记真实provider/单位/反馈仍OPEN，
+2.3完整验收保持未勾选。2.2手机提交为 `571530b`。
+首次编译误用不存在的U32 helper，改为大端ByteBuffer+无符号mask后，本轮协议单测和小米编译成功，
+76 tasks中7 executed/69 up-to-date；141 suites/1163 tests，failure/error/skipped均0。
+git diff --check通过，备份任务2.3；没有打包/安装/实车验证。
+
 ## 2.2 换曲媒体文本清除
 
 仅替换时显式清除旧已知媒体文本，省略未知数字；START初始默认消息保持独立顺序。
