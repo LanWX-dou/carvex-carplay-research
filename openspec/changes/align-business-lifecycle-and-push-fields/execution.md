@@ -118,3 +118,27 @@ git diff --check通过，备份任务2.3；没有打包/安装/实车验证。
 此次第二次仅协议单测重新执行，其余使用首次已成功的有效缓存报告；不记成全部重跑。
 `verify_results.py`通过，含新增换曲的全部实际接收合同无失败/跳过；摘要保存在本地task-2.2备份目录。
 git diff --check通过。未改DiPlay生产、未打包/安装/实车验证。
+
+## 2026-11-13 第2大项当前代码提交
+
+用户将提交粒度改为按大项；后续将验收范围简化为代码编译、实车另验，并明确要求先提交当前代码。
+此次合并提交剩余封面与接收状态改动，不重写此前逐小项提交的历史。
+
+2.4：封面5001引用及文件setup/data使用当前transfer/owner有效性门，writer分配序号前拒绝过期文件任务；
+本地取消不使RuntimeIap降级，guard不获取artwork monitor，close永久撤销图片与旧callback。
+详见[封面记录](../../../android/docs/fixes/2026-11-13-artwork-queued-revocation.md)。
+完整手机协议单测/小米编译成功：142 suites/1166 tests，failure/error为0；76 tasks中1 executed/75 up-to-date。
+新增真实writer两例最初因合成SYN fixture maxAck大于window失败，修正fixture后焦点及完整协议回归通过。
+
+2.5：DiPlay保留原始U8及已知状态；仪表活动包含seek，MediaSession区分stop/pause/seek/unknown，
+状态不重建元数据，新增音乐状态变化保持活动导航的回归。
+详见[接收修正记录](../../../android/docs/fixes/2026-11-13-nowplaying-receiver-state.md)。
+receiver-interop添加实际文件接收器及两个合同用例，输入尚未刷新/执行，不使用旧报告宣称通过。
+
+DiPlay完整CI未完成：首次Gradle9.5下载超时，镜像归档按仓库固定SHA256校验后补入缓存；
+离线配置缺foojay插件，联网重试越过插件配置但NDK28.2自动下载停在0字节，已取消本轮CI。
+尚未得到DiPlay编译或APK成功结论；实车未验证。2.4/2.5完整验收暂不勾选，2.3真实provider仍OPEN。
+受影响文件均已备份；仅提交列出的第2大项文件及android指针，不包含firmware既有修改。
+
+本轮代码提交：手机 `bfe3263`（封面撤销及接收合同），DiPlay `5436f91d`（播放状态消费者）。
+根仓库本次提交更新手机子模块指针并保存上述验证边界；本次提交操作未重新运行编译或测试。
