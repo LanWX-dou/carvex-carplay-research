@@ -38,3 +38,22 @@ C16/C18 及九个完整 body/六个注册/八个构造锚点复核通过；命�
 0.2 独立提交为 ed7425f。本项新增 [字段对账表](field-matrix.md)，登记当前音乐全部 Track 属性、导航核心及未启用扩展的源链、接收用途、缺失/清除/零、单位与能力边界；为每个候选差异指定测试入口或真实 provider/原字节/实车待证条件。
 
 两端生产 HEAD 未变。本项仅做源码对账；未运行 Gradle或实车验证。执行 baseline verifier 与 git diff --check 通过。
+
+## 1.1 音乐 bootstrap owner 修正
+
+手机提交 `27ee5f0`；0.3 文档提交 `0eba279`。
+删除无人消费的全局 pendingSubscription 和 Bluetooth 的虚假成功回调；无当前 Link 发布器时明确未支持，
+新 AirSession 必须独立认证并接收自己的 START。依据、差异与测试范围见
+[修正记录](../../../android/docs/fixes/2026-11-12-music-bootstrap-owner.md)。
+
+执行并成功退出（83 tasks：13 executed、70 up-to-date）：
+
+```powershell
+.\gradlew.bat :protocol-carplay:testDebugUnitTest :bridge:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache
+```
+
+协议/bridge JUnit 共148 suites、1213 tests，failure/error/skipped均0；新增真实Link/CSM边界用例确实在本轮XML中。
+按模块及文件名排序后拼接文件名+XML的SHA256为
+`0b20c2a3eb5aeddafb9a0f471248ece417fb3e027900c40d8a35068496b4428f`。
+默认编译没有加载接收源码。git diff --check通过；备份位于local-backups任务1.1目录。
+没有打包、安装或实车验证。Bluetooth音乐发布器未实现，完整Apple早期业务路径仍OPEN。
