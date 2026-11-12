@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "capturedLocalDate": "2026-11-12",
+  "purpose": "Planning source snapshot; no raw firmware replay, behavior test or vehicle acceptance performed.",
+  "researchHeadBeforePlan": "24e01eebf0bfbe60524c5773124cc94ff617c81b",
+  "existingRootChangesExcludedFromPlanCommit": [
+    ".gitignore",
+    "research/connection/spec/91-instrument-navigation-music-20261110.md",
+    "firmware submodule worktree changes"
+  ],
+  "inputs": {
+    "phone": {
+      "root": "C:/Users/admin/IdeaProjects/carvex-carplay-research/android",
+      "head": "6b6addc44273f6b294a52bcb45cd381c3a35a1a3",
+      "files": {
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NowPlayingUpdate.kt": "beb4cf930ac1453ad47f200a8a8a75983912d272d684806b5825c5d5e4cfc207",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NowPlayingArtwork.kt": "1b1225a34ef3285cb4f9207ff77e2feba138064ccdafef076aac01ba5bb03cad",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NavigationPublisher.kt": "ea643a6689d91a37ededc25ea95819a10958032ffbc106991d09b64186fea371",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NavigationGuidance.kt": "9f6eeff267dc72b1353c65d64c444fd597947c9f40e5d020e65ce25fe5d96fe4",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/RuntimeIap.kt": "a51eb1d24f2798498b5198dd41d4394e44b7580a565f057e01aa5616556e9d63",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/AirSession.kt": "a70d989a52f6fb88da2516b8b754fa051678488f989c6c8c802066be14964902",
+        "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/Bootstrap.kt": "64191f09088d302c65a29082c74186e5fb76799fb9caef9e6140b4c238f680e9",
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/SessionController.kt": "989e5582245ec693250b379862ec9ac879310185d6c54c9bbc3ebe823363cb46",
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/HostMusicRelay.kt": "d8e004014692de2832d0d5f8a1438ec37cc6691e8f95160222fef808cc67835f",
+        "bridge/src/main/java/io/github/iamr0s/carvex/session/HostNavigationRelay.kt": "e9d80f5b5c0fdc91d995a5cf5841f7d420713b167092a4666403c7827922c674",
+        "tools/receiver-interop/prepare.py": "30a8b272a36e230bb75197081fbdac8fe8236103e640480c62d05361d6a8fa3e",
+        "tools/receiver-interop/verify_results.py": "d4d60dca773d37017805d47a70cf8349ab1edf1c4aa90c95aa60982c90dac7be"
+      }
+    },
+    "receiver": {
+      "root": "C:/Users/admin/IdeaProjects/DiPlay",
+      "head": "615b32ce0b40cd0b99ce94ba23a512001553684f",
+      "files": {
+        "shared/src/main/java/com/shilapi/xcertplay/iap2/message/Iap2Messages.kt": "56651f0707fb8c3490948e1a567521f96f3eee1222860985ae45c0b6c8a14471",
+        "shared/src/main/java/com/shilapi/xcertplay/transport/Iap2IdentificationClient.kt": "3bfe7b00f306ffd7e8c316895b82827ff3a8820da44038f763039a910ee649e1",
+        "shared/src/main/java/com/shilapi/xcertplay/media/CarPlayPlaybackStatus.kt": "2eedb5cd9d98958928428d4b704d84adbc5a9b2796b8a659e3c63a7960216dd4",
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydClusterSong.kt": "b41a65895bea0cdf4ca73ee455cf01f112f0e02bedf29c8e325070ddf97f0d44",
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydHudRouteState.kt": "a6f2c0623f3574c28589635d10c39555e3e4d5213a048fa6b93203646257202f",
+        "shared/src/main/java/com/shilapi/xcertplay/hud/BydNavigationOutputs.kt": "fbbc8cebb56a6e80df4aaa048e6c1833503a05dafa9d723318483a66708eb59b",
+        "shared/src/main/java/com/shilapi/xcertplay/hud/NavigationOutputWorker.kt": "489a412dc1c01d1ad9c546dc8bd859b12b5382db2c7e402afe003a8a76c38b42",
+        "shared/src/main/java/com/shilapi/xcertplay/orchestration/CarPlayController.kt": "231afcdee9fcadf3d5a30ca2d2ea50c28fdb9092cb08f3a2fe81b91f9592ce98",
+        "AGENTS.md": "b8dd4b38eeb26c14373a29233ab815596f84e492db4161cd800e3ab01c196bfb",
+        ".github/workflows/android.yml": "b42c4a9935df6bc5b40fbf62c7e78f823de1a6ed4231e2e2da4b0a0ac452d75c"
+      }
+    },
+    "research": {
+      "root": "C:/Users/admin/IdeaProjects/carvex-carplay-research",
+      "head": "24e01eebf0bfbe60524c5773124cc94ff617c81b",
+      "files": {
+        "research/protocol/iap2_input_business_lifecycle/spec/02-nowplaying.md": "1d970d9609daba2747ccebae244392f274f2fe7aa768a3a157d14b05632fd39d",
+        "research/protocol/iap2_input_business_lifecycle/spec/03-navigation-hud.md": "e3df09fed65d32ee74c91065cd3869fe74c61f111f306a61b009797201ae3a13",
+        "research/protocol/iap2_input_business_lifecycle/spec/05-gating-and-order.md": "0d7f06fb4c5a54f8c73d98757a3cfa27e114b2ca31f3f84e663a0b50099c35c3",
+        "research/protocol/iap2_input_business_lifecycle/spec/06-lifecycle.md": "b8f98a8196958b1ff09e9477a67a5b26f6b3f5a3b337ce973e492dfb7144a238",
+        "research/protocol/iap2_input_business_lifecycle/spec/07-cleanup.md": "9c76f8264f2b3cc3ccb56b5d06e01ec99e0c13da318226f58fed6fbd991e2852",
+        "research/protocol/iap2_input_business_lifecycle/analysis/14-nowplaying-dataflow-audit.md": "a1407096c9076514a6c868f0a11c24780341a54dca4aec51b0cf3890641ca67c",
+        "research/protocol/iap2_input_business_lifecycle/analysis/12-lifecycle-and-empty-param-audit.md": "fcee9d592eb9554d57ae4cc1cd255a46b1c73731e60a26475cf8eac52ea57740"
+      }
+    }
+  }
+}

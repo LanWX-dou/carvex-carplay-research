@@ -1,0 +1,26 @@
+schema: spec-driven
+
+context: |
+  项目是 CarVeX 手机发送端与 CarPlay 车机接收端的协议研究及实现工作区。
+  手机实现位于 android/ 子模块；本次 DiPlay 接收端位于
+  C:/Users/admin/IdeaProjects/DiPlay，是独立 Git 仓库。
+  AGENT.md、android/AGENT.md 与 DiPlay/AGENTS.md 按各自作用域适用。
+  research/ 中的协议结论必须回溯原固件字节、调用链或绑定版本的运行证据。
+  既有实现和第三方接收代码用于对账，不能替代 Apple 发送端协议证据。
+  CONFIRMED、INFERRED、OPEN 分开记录；本地测试不等于实车验收。
+  任务、设计和交接说明使用中文；requirement 与 scenario 标题保持 OpenSpec 格式。
+  实施前检查工作区并备份受影响文件，不覆盖用户已有改动。
+  每完成一项独立任务，执行相应检查后提交一次；关联多个仓库时分别提交并关联任务号。
+
+rules:
+  proposal:
+    - 明确当前基线、两端范围、已完成行为及尚缺证据的边界。
+  design:
+    - 将固件事实、本地实现策略和待实车验证假设分别标注。
+    - 记录消息方向、会话所有权、提交前有效性检查和失败清理。
+  specs:
+    - 使用 SHALL 或 MUST 表达可验收要求，并提供 WHEN/THEN 场景。
+    - 未证实的宿主字段、单位及枚举不得作为既定协议行为。
+  tasks:
+    - 使用带编号的复选框，逐项列出修改位置、依据和验收条件。
+    - 缺少输入证据的任务保持未完成；不得将文档编写当作实现完成。
