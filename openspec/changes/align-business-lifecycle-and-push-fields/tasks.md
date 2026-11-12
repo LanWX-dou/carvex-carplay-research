@@ -16,7 +16,7 @@
 - [x] 1.1 核查并修正音乐 bootstrap 订阅的 owner 归属及全局 `pendingSubscription` 路径。位置：`SessionController`、`Bootstrap`、`AirSession`、`NowPlayingUpdate`。验收：同 owner 早期 START/STOP 顺序正确；其他端点及旧会话不能授予新 runtime 订阅。
 - [x] 1.2 为音乐未提交消息补业务订阅/会话有效性检查，覆盖 STOP、重订阅、失效和关闭。位置：`NowPlayingPublisher`、`AirSession`、`RuntimeIap`/`IapLink`。依据：R-6.8/6.14、本地在途任务策略。验收：writer 分配序号前拒绝过期任务，已提交分片保持可靠传输。
 - [ ] 1.3 对账实际挂起/恢复与业务门，区分 iAP2、平台休眠和流关闭。位置：实际生命周期 owner 及相关发布器。依据：R-6.1–6.6/6.13–6.15。验收：未确认恢复不放行业务，链路 ACK/重传不中断；未证恢复分支继续 OPEN。
-- [ ] 1.4 收口断开、失败、取消和新连接的快照授权/回调/定时器清理。位置：`SessionController`、`AirSession`、各业务 relay/资源 owner。验收：重复清理安全，迟到完成不影响新 owner，应用缓存不携带旧发送权限。
+- [x] 1.4 收口断开、失败、取消和新连接的快照授权/回调/定时器清理。位置：`SessionController`、`AirSession`、各业务 relay/资源 owner。验收：重复清理安全，迟到完成不影响新 owner，应用缓存不携带旧发送权限。
 
 ## 2. NowPlaying 字段与传输
 

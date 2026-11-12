@@ -76,3 +76,12 @@ git diff --check通过，任务1.2备份完成。没有打包/安装/实车验�
 本项[对账记录](lifecycle-boundaries.md)明确ACK、平台休眠、流关闭的区别及完整实施待证条件。
 1.3未勾选；没有把失败关闭称为挂起支持，没有新增transport行为或实车结论。
 继续独立推进无需该未证恢复路径的清理与字段任务。
+
+## 1.4 会话音乐清理
+
+手机提交 `43bf259`；relay注册Resources，close释放回调/快照、拒绝晚到update/attach，
+publisher永久close撤销待发送工作，AirSession停止/资源释放均关闭发布器，桥接释放图片及Air引用。
+详见[清理记录](../../../android/docs/fixes/2026-11-12-music-owner-cleanup.md)。
+本轮协议/bridge单测和小米编译成功（同1.1命令），83 tasks中12 executed/71 up-to-date。
+149 suites/1222 tests，failure/error/skipped均0；新增detach/close/真实writer关闭用例执行。
+git diff --check通过，任务1.4备份完成。没有打包/安装/实车验证；更细的封面引用撤销继续2.4。
