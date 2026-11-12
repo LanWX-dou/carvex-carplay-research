@@ -1,0 +1,84 @@
+Class #1263            -
+  Class descriptor  : 'Lsh/b;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lsh/b;)
+      name          : 'a'
+      type          : 'Lsh/b;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lsh/b;)
+      name          : 'b'
+      type          : 'Lfb/b;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lsh/b;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 3
+      insns size    : 24 16-bit code units
+1a0cc0:                                        |[1a0cc0] sh.b.<clinit>:()V
+1a0cd0: 2200 a30c                              |0000: new-instance v0, Lsh/b; // type@0ca3
+1a0cd4: 7010 db3a 0000                         |0002: invoke-direct {v0}, Lsh/b;.<init>:()V // method@3adb
+1a0cda: 6900 35ff                              |0005: sput-object v0, Lsh/b;.a:Lsh/b; // field@ff35
+1a0cde: 6200 40f2                              |0007: sget-object v0, Leb/d;.a:Leb/d; // field@f240
+1a0ce2: 7100 043b 0000                         |0009: invoke-static {}, Lth/a;.b:()Ljava/lang/String; // method@3b04
+1a0ce8: 0c01                                   |000c: move-result-object v1
+1a0cea: 1c02 9206                              |000d: const-class v2, Lfb/b; // type@0692
+1a0cee: 6e30 e81a 1002                         |000f: invoke-virtual {v0, v1, v2}, Leb/d;.d:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object; // method@1ae8
+1a0cf4: 0c00                                   |0012: move-result-object v0
+1a0cf6: 1f00 9206                              |0013: check-cast v0, Lfb/b; // type@0692
+1a0cfa: 6900 36ff                              |0015: sput-object v0, Lsh/b;.b:Lfb/b; // field@ff36
+1a0cfe: 0e00                                   |0017: return-void
+      catches       : (none)
+
+    #1              : (in Lsh/b;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+1a0d00:                                        |[1a0d00] sh.b.<init>:()V
+1a0d10: 7010 fd33 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@33fd
+1a0d16: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lsh/b;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;Ljava/util/List;)Ltj/o;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 32 16-bit code units
+1a0c70:                                        |[1a0c70] sh.b.a:(Ljava/lang/String;Ljava/util/List;)Ltj/o;
+1a0c80: 1a01 2875                              |0000: const-string v1, "vendorId" // string@7528
+1a0c84: 7120 dc36 1200                         |0002: invoke-static {v2, v1}, Lkotlin/jvm/internal/j;.f:(Ljava/lang/Object;Ljava/lang/String;)V // method@36dc
+1a0c8a: 1a01 ad72                              |0005: const-string v1, "toneTexts" // string@72ad
+1a0c8e: 7120 dc36 1300                         |0007: invoke-static {v3, v1}, Lkotlin/jvm/internal/j;.f:(Ljava/lang/Object;Ljava/lang/String;)V // method@36dc
+1a0c94: 2201 6f01                              |000a: new-instance v1, Lcb/f; // type@016f
+1a0c98: 7100 033b 0000                         |000c: invoke-static {}, Lth/a;.a:()Ljava/lang/String; // method@3b03
+1a0c9e: 0c00                                   |000f: move-result-object v0
+1a0ca0: 1f03 f30a                              |0010: check-cast v3, Ljava/lang/Iterable; // type@0af3
+1a0ca4: 7110 d636 0300                         |0012: invoke-static {v3}, Lkotlin/collections/q;.U:(Ljava/lang/Iterable;)Ljava/util/List; // method@36d6
+1a0caa: 0c03                                   |0015: move-result-object v3
+1a0cac: 7040 db04 0132                         |0016: invoke-direct {v1, v0, v2, v3}, Lcb/f;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V // method@04db
+1a0cb2: 6202 36ff                              |0019: sget-object v2, Lsh/b;.b:Lfb/b; // field@ff36
+1a0cb6: 7220 411b 1200                         |001b: invoke-interface {v2, v1}, Lfb/b;.a:(Lcb/f;)Ltj/o; // method@1b41
+1a0cbc: 0c01                                   |001e: move-result-object v1
+1a0cbe: 1101                                   |001f: return-object v1
+      catches       : (none)
+
+  source_file_idx   : 9145 (PersonalTtsRepo.kt)
+

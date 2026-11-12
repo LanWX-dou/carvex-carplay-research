@@ -1,0 +1,308 @@
+{
+    "status": {
+        "code": 200,
+        "error_type": "OK"
+    },
+    "data": [
+        {
+            "unitId": "703558010613535744",
+            "unitType": "scene",
+            "name": "兜底抽屉1",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["说来，我会的东西可多了，来试试"],
+                "cards": [
+                    {
+                        "cardId": "645590220040837120",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "历史上的今天",
+                        "subtitle": "百科",
+                        "describe": "有42万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9591a6a5b001c00f2b192516",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "历史上的今天",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "689565547897033728",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "今天天气",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9b7c4f7001400f39db9d70",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "今天天气",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703559005213037568",
+            "unitType": "scene",
+            "name": "兜底抽屉2",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["不知道吧🧐扫一扫找我就能搞定"],
+                "cards": [
+                    {
+                        "cardId": "671728386736918528",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "智能扫一扫",
+                        "subtitle": "精技能",
+                        "describe": "有38万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e20ba7b401000f8c3559a9",
+                        "bgColorStart": "#3F97FD",
+                        "bgColorEnd": "#77BCED",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "玩转扫一扫操作",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "653619400527578112",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "识别文档",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e519945c01800fac080f6f",
+                        "bgColorStart": "#E65CA8",
+                        "bgColorEnd": "#ED8798",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "识别文档",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703561467865075712",
+            "unitType": "scene",
+            "name": "兜底抽屉7",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["来点新东西吗？我还会些AI黑科技"],
+                "cards": [
+                    {
+                        "cardId": "644495705456508928",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "AI翻译",
+                        "subtitle": "翻译",
+                        "describe": "有46万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/9742bb7aa401400f87db3914",
+                        "bgColorStart": "#5643AE",
+                        "bgColorEnd": "#7E6AD6",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "打开对话翻译",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "669513282461108224",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "AI通话",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/94c16f098c01800fd062ec4c",
+                        "bgColorStart": "#4545E6",
+                        "bgColorEnd": "#7373FF",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "AI通话",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703559343626259456",
+            "unitType": "scene",
+            "name": "兜底抽屉3",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["有兴趣听冷知识吗？随时可以问我~"],
+                "cards": [
+                    {
+                        "cardId": "683686310082250752",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "苍蝇可以活多久",
+                        "subtitle": "智能问答",
+                        "describe": "有7万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97cf11126401c00f76297ce3",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "苍蝇能活多久",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "683686943065639936",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "南极有没有火山",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97cf1a4c4001800f0bed3f37",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "南极有火山吗",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703559481925044224",
+            "unitType": "scene",
+            "name": "兜底抽屉4",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["想让你更方便，我能一键打开它们"],
+                "cards": [
+                    {
+                        "cardId": "644240924381020160",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "省电模式",
+                        "subtitle": "系统工具",
+                        "describe": "有19万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/9750b1b06001800f17b7d518",
+                        "bgColorStart": "#3F97FD",
+                        "bgColorEnd": "#77BCED",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "省电模式",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "645634595999449088",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "打开手电筒",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9750d6828c01800f27d6b523",
+                        "bgColorStart": "#4545E6",
+                        "bgColorEnd": "#7373FF",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "打开手电筒",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703561074141563904",
+            "unitType": "scene",
+            "name": "兜底抽屉6",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["今天也要开心哦，让我来逗你笑吧🤭"],
+                "cards": [
+                    {
+                        "cardId": "64631194418081536",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "布朗熊你在干嘛",
+                        "subtitle": "运营活动",
+                        "describe": "有21万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/91625bd71801400f51e4d080",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "布朗熊你在干嘛",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "639491121185038336",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "给我跳个舞",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9c393266c800400f2621bfdc",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "给我跳个舞",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+
+        {
+            "unitId": "703559632051767296",
+            "unitType": "scene",
+            "name": "兜底抽屉5",
+            "isWhiteList": 1,
+            "scene": {
+                "bubbleText": ["说心里话…身体是革命的本钱💪"],
+                "cards": [
+                    {
+                        "cardId": "680129943476113408",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "吃什么可以增强免疫力",
+                        "subtitle": "健康",
+                        "describe": "有40万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9704e93ccc01800f5f62658e",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "吃什么可以增强免疫力",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "680129762290567168",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "可以养胃的食材",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97134958d401c00fab9aee04",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "可以养胃的食材",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "658713929823821824",
+            "unitType": "scene",
+            "name": "结束语",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": ["好啦，今天就聊到这里，下次见~"],
+                "cards": []
+            }
+        }
+    ],
+    "timeStamp": 1618487519027,
+    "requestId": "847ce28686a748368800329818eadcd1"
+}

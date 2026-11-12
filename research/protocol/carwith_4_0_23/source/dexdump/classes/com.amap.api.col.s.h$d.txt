@@ -1,0 +1,264 @@
+Class #7798            -
+  Class descriptor  : 'Lcom/amap/api/col/s/h$d;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ls/o0;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'o'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'p'
+      type          : 'Ljava/util/Map;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'q'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'r'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 's'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/amap/api/col/s/h$d;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Ls/n;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 7
+      ins           : 7
+      outs          : 3
+      insns size    : 25 16-bit code units
+3fcbdc:                                        |[3fcbdc] com.amap.api.col.s.h$d.<init>:(Landroid/content/Context;Ls/n;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3fcbec: 7030 19de 1002                         |0000: invoke-direct {v0, v1, v2}, Ls/o0;.<init>:(Landroid/content/Context;Ls/n;)V // method@de19
+3fcbf2: 5b03 7769                              |0003: iput-object v3, v0, Lcom/amap/api/col/s/h$d;.o:Ljava/lang/String; // field@6977
+3fcbf6: 1201                                   |0005: const/4 v1, #int 0 // #0
+3fcbf8: 5b01 7869                              |0006: iput-object v1, v0, Lcom/amap/api/col/s/h$d;.p:Ljava/util/Map; // field@6978
+3fcbfc: 5b04 7969                              |0008: iput-object v4, v0, Lcom/amap/api/col/s/h$d;.q:Ljava/lang/String; // field@6979
+3fcc00: 5b05 7a69                              |000a: iput-object v5, v0, Lcom/amap/api/col/s/h$d;.r:Ljava/lang/String; // field@697a
+3fcc04: 5b06 7b69                              |000c: iput-object v6, v0, Lcom/amap/api/col/s/h$d;.s:Ljava/lang/String; // field@697b
+3fcc08: 6201 4c69                              |000e: sget-object v1, Lcom/amap/api/col/s/dm$c;.b:Lcom/amap/api/col/s/dm$c; // field@694c
+3fcc0c: 6e20 2596 1000                         |0010: invoke-virtual {v0, v1}, Lcom/amap/api/col/s/dm;.g:(Lcom/amap/api/col/s/dm$c;)V // method@9625
+3fcc12: 6201 3e69                              |0013: sget-object v1, Lcom/amap/api/col/s/dm$a;.d:Lcom/amap/api/col/s/dm$a; // field@693e
+3fcc16: 6e20 2396 1000                         |0015: invoke-virtual {v0, v1}, Lcom/amap/api/col/s/dm;.e:(Lcom/amap/api/col/s/dm$a;)V // method@9623
+3fcc1c: 0e00                                   |0018: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'P'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 27 16-bit code units
+3fcadc:                                        |[3fcadc] com.amap.api.col.s.h$d.P:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+3fcaec: 7110 f10f 0200                         |0000: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0ff1
+3fcaf2: 0a00                                   |0003: move-result v0
+3fcaf4: 3900 1600                              |0004: if-nez v0, 001a // +0016
+3fcaf8: 7110 020a 0100                         |0006: invoke-static {v1}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0a02
+3fcafe: 0c00                                   |0009: move-result-object v0
+3fcb00: 6e10 ed09 0000                         |000a: invoke-virtual {v0}, Landroid/net/Uri;.buildUpon:()Landroid/net/Uri$Builder; // method@09ed
+3fcb06: 0c00                                   |000d: move-result-object v0
+3fcb08: 6e20 e709 2000                         |000e: invoke-virtual {v0, v2}, Landroid/net/Uri$Builder;.encodedAuthority:(Ljava/lang/String;)Landroid/net/Uri$Builder; // method@09e7
+3fcb0e: 0c02                                   |0011: move-result-object v2
+3fcb10: 6e10 e609 0200                         |0012: invoke-virtual {v2}, Landroid/net/Uri$Builder;.build:()Landroid/net/Uri; // method@09e6
+3fcb16: 0c02                                   |0015: move-result-object v2
+3fcb18: 6e10 030a 0200                         |0016: invoke-virtual {v2}, Landroid/net/Uri;.toString:()Ljava/lang/String; // method@0a03
+3fcb1e: 0c01                                   |0019: move-result-object v1
+3fcb20: 1101                                   |001a: return-object v1
+      catches       : 1
+        0x0000 - 0x001a
+          <any> -> 0x001a
+
+  Virtual methods   -
+    #0              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'L'
+      type          : '()[B'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 165 16-bit code units
+3fc95c:                                        |[3fc95c] com.amap.api.col.s.h$d.L:()[B
+3fc96c: 5440 baf9                              |0000: iget-object v0, v4, Ls/o0;.l:Landroid/content/Context; // field@f9ba
+3fc970: 7110 44dd 0000                         |0002: invoke-static {v0}, Ls/i;.U:(Landroid/content/Context;)Ljava/lang/String; // method@dd44
+3fc976: 0c00                                   |0005: move-result-object v0
+3fc978: 7110 f10f 0000                         |0006: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0ff1
+3fc97e: 0a01                                   |0009: move-result v1
+3fc980: 3901 1300                              |000a: if-nez v1, 001d // +0013
+3fc984: 2201 4f1d                              |000c: new-instance v1, Ljava/lang/StringBuilder; // type@1d4f
+3fc988: 7020 9cbc 0100                         |000e: invoke-direct {v1, v0}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@bc9c
+3fc98e: 6e10 b2bc 0100                         |0011: invoke-virtual {v1}, Ljava/lang/StringBuilder;.reverse:()Ljava/lang/StringBuilder; // method@bcb2
+3fc994: 0c00                                   |0014: move-result-object v0
+3fc996: 6e10 b7bc 0000                         |0015: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+3fc99c: 0c00                                   |0018: move-result-object v0
+3fc99e: 7110 eddd 0000                         |0019: invoke-static {v0}, Ls/m;.a:(Ljava/lang/String;)Ljava/lang/String; // method@dded
+3fc9a4: 0c00                                   |001c: move-result-object v0
+3fc9a6: 2201 f41d                              |001d: new-instance v1, Ljava/util/HashMap; // type@1df4
+3fc9aa: 7010 30bf 0100                         |001f: invoke-direct {v1}, Ljava/util/HashMap;.<init>:()V // method@bf30
+3fc9b0: 5442 7769                              |0022: iget-object v2, v4, Lcom/amap/api/col/s/h$d;.o:Ljava/lang/String; // field@6977
+3fc9b4: 7110 f10f 0200                         |0024: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0ff1
+3fc9ba: 0a02                                   |0027: move-result v2
+3fc9bc: 3802 0500                              |0028: if-eqz v2, 002d // +0005
+3fc9c0: 1a02 0000                              |002a: const-string v2, "" // string@0000
+3fc9c4: 2803                                   |002c: goto 002f // +0003
+3fc9c6: 5442 7769                              |002d: iget-object v2, v4, Lcom/amap/api/col/s/h$d;.o:Ljava/lang/String; // field@6977
+3fc9ca: 1a03 a587                              |002f: const-string v3, "authkey" // string@87a5
+3fc9ce: 7230 a7bf 3102                         |0031: invoke-interface {v1, v3, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fc9d4: 1a02 06e1                              |0034: const-string v2, "plattype" // string@e106
+3fc9d8: 1a03 a783                              |0036: const-string v3, "android" // string@83a7
+3fc9dc: 7230 a7bf 2103                         |0038: invoke-interface {v1, v2, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fc9e2: 5442 bbf9                              |003b: iget-object v2, v4, Ls/o0;.m:Ls/n; // field@f9bb
+3fc9e6: 6e10 12de 0200                         |003d: invoke-virtual {v2}, Ls/n;.d:()Ljava/lang/String; // method@de12
+3fc9ec: 0c02                                   |0040: move-result-object v2
+3fc9ee: 1a03 a4e2                              |0041: const-string v3, "product" // string@e2a4
+3fc9f2: 7230 a7bf 3102                         |0043: invoke-interface {v1, v3, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fc9f8: 5442 bbf9                              |0046: iget-object v2, v4, Ls/o0;.m:Ls/n; // field@f9bb
+3fc9fc: 6e10 13de 0200                         |0048: invoke-virtual {v2}, Ls/n;.e:()Ljava/lang/String; // method@de13
+3fca02: 0c02                                   |004b: move-result-object v2
+3fca04: 1a03 78fd                              |004c: const-string v3, "version" // string@fd78
+3fca08: 7230 a7bf 3102                         |004e: invoke-interface {v1, v3, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca0e: 1a02 36dd                              |0051: const-string v2, "output" // string@dd36
+3fca12: 1a03 dfb1                              |0053: const-string v3, "json" // string@b1df
+3fca16: 7230 a7bf 2103                         |0055: invoke-interface {v1, v2, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca1c: 2202 4f1d                              |0058: new-instance v2, Ljava/lang/StringBuilder; // type@1d4f
+3fca20: 7010 9abc 0200                         |005a: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+3fca26: 6003 9f01                              |005d: sget v3, Landroid/os/Build$VERSION;.SDK_INT:I // field@019f
+3fca2a: 6e20 a0bc 3200                         |005f: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@bca0
+3fca30: 6e10 b7bc 0200                         |0062: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+3fca36: 0c02                                   |0065: move-result-object v2
+3fca38: 1a03 2a85                              |0066: const-string v3, "androidversion" // string@852a
+3fca3c: 7230 a7bf 3102                         |0068: invoke-interface {v1, v3, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca42: 1a02 9f94                              |006b: const-string v2, "deviceId" // string@949f
+3fca46: 7230 a7bf 2100                         |006d: invoke-interface {v1, v2, v0}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca4c: 1a00 6cc4                              |0070: const-string v0, "manufacture" // string@c46c
+3fca50: 6202 a401                              |0072: sget-object v2, Landroid/os/Build;.MANUFACTURER:Ljava/lang/String; // field@01a4
+3fca54: 7230 a7bf 0102                         |0074: invoke-interface {v1, v0, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca5a: 5440 7869                              |0077: iget-object v0, v4, Lcom/amap/api/col/s/h$d;.p:Ljava/util/Map; // field@6978
+3fca5e: 3800 0d00                              |0079: if-eqz v0, 0086 // +000d
+3fca62: 7210 a4bf 0000                         |007b: invoke-interface {v0}, Ljava/util/Map;.isEmpty:()Z // method@bfa4
+3fca68: 0a00                                   |007e: move-result v0
+3fca6a: 3900 0700                              |007f: if-nez v0, 0086 // +0007
+3fca6e: 5440 7869                              |0081: iget-object v0, v4, Lcom/amap/api/col/s/h$d;.p:Ljava/util/Map; // field@6978
+3fca72: 7220 a8bf 0100                         |0083: invoke-interface {v1, v0}, Ljava/util/Map;.putAll:(Ljava/util/Map;)V // method@bfa8
+3fca78: 5440 baf9                              |0086: iget-object v0, v4, Ls/o0;.l:Landroid/content/Context; // field@f9ba
+3fca7c: 7110 32de 0000                         |0088: invoke-static {v0}, Ls/o;.c:(Landroid/content/Context;)Ljava/lang/String; // method@de32
+3fca82: 0c00                                   |008b: move-result-object v0
+3fca84: 1a02 c17f                              |008c: const-string v2, "abitype" // string@7fc1
+3fca88: 7230 a7bf 2100                         |008e: invoke-interface {v1, v2, v0}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fca8e: 5444 bbf9                              |0091: iget-object v4, v4, Ls/o0;.m:Ls/n; // field@f9bb
+3fca92: 6e10 16de 0400                         |0093: invoke-virtual {v4}, Ls/n;.g:()Ljava/lang/String; // method@de16
+3fca98: 0c04                                   |0096: move-result-object v4
+3fca9a: 1a00 d898                              |0097: const-string v0, "ext" // string@98d8
+3fca9e: 7230 a7bf 0104                         |0099: invoke-interface {v1, v0, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fcaa4: 7110 34de 0100                         |009c: invoke-static {v1}, Ls/o;.e:(Ljava/util/Map;)Ljava/lang/String; // method@de34
+3fcaaa: 0c04                                   |009f: move-result-object v4
+3fcaac: 7110 3ede 0400                         |00a0: invoke-static {v4}, Ls/o;.o:(Ljava/lang/String;)[B // method@de3e
+3fcab2: 0c04                                   |00a3: move-result-object v4
+3fcab4: 1104                                   |00a4: return-object v4
+      catches       : (none)
+
+    #1              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'M'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+3fcb30:                                        |[3fcb30] com.amap.api.col.s.h$d.M:()Ljava/lang/String;
+3fcb40: 1a00 5f09                              |0000: const-string v0, "3.0" // string@095f
+3fcb44: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+3fcab8:                                        |[3fcab8] com.amap.api.col.s.h$d.a:()Ljava/lang/String;
+3fcac8: 1a00 67ab                              |0000: const-string v0, "https://dualstack-arestapi.amap.com/v3/iasdkauth" // string@ab67
+3fcacc: 5411 7a69                              |0002: iget-object v1, v1, Lcom/amap/api/col/s/h$d;.r:Ljava/lang/String; // field@697a
+3fcad0: 7120 6296 1000                         |0004: invoke-static {v0, v1}, Lcom/amap/api/col/s/h$d;.P:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@9662
+3fcad6: 0c01                                   |0007: move-result-object v1
+3fcad8: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'o'
+      type          : '()Ljava/util/Map;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 23 16-bit code units
+3fcb9c:                                        |[3fcb9c] com.amap.api.col.s.h$d.o:()Ljava/util/Map;
+3fcbac: 5420 7b69                              |0000: iget-object v0, v2, Lcom/amap/api/col/s/h$d;.s:Ljava/lang/String; // field@697b
+3fcbb0: 7110 f10f 0000                         |0002: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0ff1
+3fcbb6: 0a00                                   |0005: move-result v0
+3fcbb8: 3900 0f00                              |0006: if-nez v0, 0015 // +000f
+3fcbbc: 2200 f41d                              |0008: new-instance v0, Ljava/util/HashMap; // type@1df4
+3fcbc0: 7010 30bf 0000                         |000a: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@bf30
+3fcbc6: 1a01 49ab                              |000d: const-string v1, "host" // string@ab49
+3fcbca: 5422 7b69                              |000f: iget-object v2, v2, Lcom/amap/api/col/s/h$d;.s:Ljava/lang/String; // field@697b
+3fcbce: 7230 a7bf 1002                         |0011: invoke-interface {v0, v1, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bfa7
+3fcbd4: 1100                                   |0014: return-object v0
+3fcbd6: 1202                                   |0015: const/4 v2, #int 0 // #0
+3fcbd8: 1102                                   |0016: return-object v2
+      catches       : (none)
+
+    #4              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'q'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+3fcb48:                                        |[3fcb48] com.amap.api.col.s.h$d.q:()Ljava/lang/String;
+3fcb58: 1a00 69ab                              |0000: const-string v0, "https://restsdk.amap.com/v3/iasdkauth" // string@ab69
+3fcb5c: 5411 7969                              |0002: iget-object v1, v1, Lcom/amap/api/col/s/h$d;.q:Ljava/lang/String; // field@6979
+3fcb60: 7120 6296 1000                         |0004: invoke-static {v0, v1}, Lcom/amap/api/col/s/h$d;.P:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@9662
+3fcb66: 0c01                                   |0007: move-result-object v1
+3fcb68: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #5              : (in Lcom/amap/api/col/s/h$d;)
+      name          : 'r'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 16 16-bit code units
+3fcb6c:                                        |[3fcb6c] com.amap.api.col.s.h$d.r:()Ljava/lang/String;
+3fcb7c: 5410 7b69                              |0000: iget-object v0, v1, Lcom/amap/api/col/s/h$d;.s:Ljava/lang/String; // field@697b
+3fcb80: 7110 f10f 0000                         |0002: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0ff1
+3fcb86: 0a00                                   |0005: move-result v0
+3fcb88: 3900 0500                              |0006: if-nez v0, 000b // +0005
+3fcb8c: 5411 7b69                              |0008: iget-object v1, v1, Lcom/amap/api/col/s/h$d;.s:Ljava/lang/String; // field@697b
+3fcb90: 1101                                   |000a: return-object v1
+3fcb92: 6f10 3096 0100                         |000b: invoke-super {v1}, Lcom/amap/api/col/s/dm;.r:()Ljava/lang/String; // method@9630
+3fcb98: 0c01                                   |000e: move-result-object v1
+3fcb9a: 1101                                   |000f: return-object v1
+      catches       : (none)
+
+  source_file_idx   : 4229 (AuthConfigManager.java)
+

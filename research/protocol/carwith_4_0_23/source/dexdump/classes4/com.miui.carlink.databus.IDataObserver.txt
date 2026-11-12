@@ -1,0 +1,197 @@
+Class #246            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/IDataObserver;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'DESCRIPTOR'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "com.miui.carlink.databus.IDataObserver"
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'callUpPhone'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'favourCurrentMusic'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'handleMediaKeyCode'
+      type          : '(I)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'handleUndefineVRCmd'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'hangUpPhone'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'navigationGoCompany'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'navigationGoHome'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onAccInfoChanged'
+      type          : '(Lcom/miui/carlink/databus/sensor/AccInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #8              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onAwakenVoiceAssistant'
+      type          : '([BIII)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #9              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onCarBackKey'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #10              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onCloseVoiceAssistant'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #11              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onGearInfoChanged'
+      type          : '(Lcom/miui/carlink/databus/sensor/GearInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #12              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onGpsInfoChagned'
+      type          : '(Lcom/miui/carlink/databus/sensor/GpsInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #13              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onGyroInfoChagned'
+      type          : '(Lcom/miui/carlink/databus/sensor/GyroInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #14              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onLightSensorInfoChanged'
+      type          : '(Lcom/miui/carlink/databus/sensor/LightSensorInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #15              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onLightsInfoChanged'
+      type          : '(Lcom/miui/carlink/databus/sensor/LightsInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #16              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onNotificationClick'
+      type          : '(II)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #17              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onNotifyCallHungUpChanged'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #18              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onOilInfoChanged'
+      type          : '(Lcom/miui/carlink/databus/sensor/OilInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #19              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'onSwitchDayOrNightChanged'
+      type          : '(I)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #20              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'openLauncherView'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #21              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'openMap'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #22              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'openMediaAppView'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #23              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'openTelecomView'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #24              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'operationAppDisplay'
+      type          : '(III)Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #25              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'pauseMedia'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #26              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'playMedia'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #27              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'quitNavigation'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #28              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'skipToMusicNext'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #29              : (in Lcom/miui/carlink/databus/IDataObserver;)
+      name          : 'skipToMusicPrevious'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 3966 (IDataObserver.java)
+

@@ -1,0 +1,57 @@
+%s -p 8080 -a ssocksd.auth -d
+--auth {file}  see man 5 ssocksd.auth
+--file {file}  see man 5 ssocksd.conf
+/var/run/ssocksd.pid
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Android (13624864, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Host not found (authoritative)
+Host not found (non-authoritative), try again later
+Java_net_easyconn_carman_ecsocksserver_SocksService_startDnsServer
+Java_net_easyconn_carman_ecsocksserver_SocksService_startSocks5
+Java_net_easyconn_carman_ecsocksserver_SocksService_stopDnsServer
+Java_net_easyconn_carman_ecsocksserver_SocksService_stopSocks5
+SOCKS5
+Socks4ReqAck ign2[%d] = %08x
+Socks4ReqAck ign[%d] = %08x
+Socks4ReqAck ver = %08x, rep = %08x
+SocksService_startSocks5 version=%s addr = %s:%d
+auth: %d usernames load
+auth: can't open file %s
+auth: close file
+auth: load user %s:%s
+auth: no username load
+auth: open file %s ...
+build_auth_ack
+check_auth
+client: connection to socks5 server impossible!
+init_socks
+initializeAuth
+libECSocksServer.so
+load_auth_file
+read socks
+read_socks
+server [%d]: authentication NOK!
+server [%d]: authentication OK!
+server [%d]: authentication attempt v0x%02X (%d,%d) %s:%s
+server [%d]: testing authentication ...
+server [%d]: wrong configuration no check_auth callback set
+socks service is running
+socksMain
+socksStart
+socksStartThread
+socksStartThread end
+socksStartThread start
+socksStop
+socksStop end
+socksStop start
+ssockd - Server Socks5 v%s
+stopSockServer
+stopSockServer begin
+stopSockServer end
+test_auth
+test_auth failed==================
+wait gSocks5Thread end
+wait gSocks5Thread start
+warning: no authentication enable
+write socks
+write_socks

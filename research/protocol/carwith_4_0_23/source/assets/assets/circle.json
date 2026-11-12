@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "sdk": {
+        "index": 0,
+        "packageName": "",
+        "action": "openintent",
+        "id": "",
+        "type": "",
+        "intent": "",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "",
+        "x1": "",
+        "x2": "",
+        "y1": "",
+        "y2": "",
+        "extra": "",
+        "waitTime": 0,
+        "__isset_bit_vector": [
+          1,
+          1
+        ]
+      },
+      "client": {
+        "intent_params": {
+          "packageName": "com.tencent.mm",
+          "className": "com.tencent.mm.ui.tools.ShareToTimeLineUI",
+          "type": "image/*",
+          "action": "android.intent.action.SEND_MULTIPLE",
+          "intentType": "photoPicker",
+          "extraInfo": 3,
+          "extraText": "我今天很开心"
+        }
+      },
+      "toSpeak": "在搜索框里输入关键字",
+      "version": "6.5.22"
+    }
+  ]
+}

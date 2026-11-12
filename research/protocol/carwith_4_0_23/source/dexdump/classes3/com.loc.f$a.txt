@@ -1,0 +1,173 @@
+Class #3046            -
+  Class descriptor  : 'Lcom/loc/f$a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Lk9/g1;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/loc/f$a;)
+      name          : 'b'
+      type          : 'I'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #1              : (in Lcom/loc/f$a;)
+      name          : 'c'
+      type          : 'Lcom/loc/f;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/loc/f$a;)
+      name          : '<init>'
+      type          : '(Lcom/loc/f;I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+2f2264:                                        |[2f2264] com.loc.f$a.<init>:(Lcom/loc/f;I)V
+2f2274: 5b01 b070                              |0000: iput-object v1, v0, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f2278: 5902 af70                              |0002: iput v2, v0, Lcom/loc/f$a;.b:I // field@70af
+2f227c: 7010 aa8f 0000                         |0004: invoke-direct {v0}, Lk9/g1;.<init>:()V // method@8faa
+2f2282: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/loc/f$a;)
+      name          : 'a'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 3
+      insns size    : 254 16-bit code units
+2f2284:                                        |[2f2284] com.loc.f$a.a:()V
+2f2294: 1a00 0fb2                              |0000: const-string v0, "ttl" // string@b20f
+2f2298: 1a01 e376                              |0002: const-string v1, "ipsv6" // string@76e3
+2f229c: 1a02 e176                              |0004: const-string v2, "ips" // string@76e1
+2f22a0: 2203 6f0f                              |0006: new-instance v3, Ljava/lang/StringBuilder; // type@0f6f
+2f22a4: 1a04 5073                              |0008: const-string v4, "http://" // string@7350
+2f22a8: 7020 e389 4300                         |000a: invoke-direct {v3, v4}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@89e3
+2f22ae: 7100 7a82 0000                         |000d: invoke-static {}, Lcom/loc/h;.I:()Ljava/lang/String; // method@827a
+2f22b4: 0c04                                   |0010: move-result-object v4
+2f22b6: 6e20 ec89 4300                         |0011: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@89ec
+2f22bc: 1a04 0707                              |0014: const-string v4, "?host=dualstack-a.apilocate.amap.com&query=" // string@0707
+2f22c0: 6e20 ec89 4300                         |0016: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@89ec
+2f22c6: 5274 af70                              |0019: iget v4, v7, Lcom/loc/f$a;.b:I // field@70af
+2f22ca: 6005 bc70                              |001b: sget v5, Lcom/loc/f;.l:I // field@70bc
+2f22ce: 3354 0400                              |001d: if-ne v4, v5, 0021 // +0004
+2f22d2: 1264                                   |001f: const/4 v4, #int 6 // #6
+2f22d4: 2802                                   |0020: goto 0022 // +0002
+2f22d6: 1244                                   |0021: const/4 v4, #int 4 // #4
+2f22d8: 6e20 e789 4300                         |0022: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@89e7
+2f22de: 6e10 fe89 0300                         |0025: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@89fe
+2f22e4: 0c03                                   |0028: move-result-object v3
+2f22e6: 2204 3911                              |0029: new-instance v4, Lk9/w3; // type@1139
+2f22ea: 7010 9394 0400                         |002b: invoke-direct {v4}, Lk9/w3;.<init>:()V // method@9493
+2f22f0: 6e20 9694 3400                         |002e: invoke-virtual {v4, v3}, Lk9/w3;.L:(Ljava/lang/String;)V // method@9496
+2f22f6: 6e20 9794 3400                         |0031: invoke-virtual {v4, v3}, Lk9/w3;.M:(Ljava/lang/String;)V // method@9497
+2f22fc: 6203 1c70                              |0034: sget-object v3, Lcom/loc/bo$a;.e:Lcom/loc/bo$a; // field@701c
+2f2300: 6e20 9781 3400                         |0036: invoke-virtual {v4, v3}, Lcom/loc/bo;.d:(Lcom/loc/bo$a;)V // method@8197
+2f2306: 6203 2870                              |0039: sget-object v3, Lcom/loc/bo$c;.a:Lcom/loc/bo$c; // field@7028
+2f230a: 6e20 9981 3400                         |003b: invoke-virtual {v4, v3}, Lcom/loc/bo;.f:(Lcom/loc/bo$c;)V // method@8199
+2f2310: 7100 b181 0000                         |003e: invoke-static {}, Lcom/loc/c;.b:()Lcom/loc/c; // method@81b1
+2f2316: 7110 b281 0400                         |0041: invoke-static {v4}, Lcom/loc/c;.c:(Lcom/loc/bo;)Lk9/i0; // method@81b2
+2f231c: 0c03                                   |0044: move-result-object v3
+2f231e: 2204 6d0f                              |0045: new-instance v4, Ljava/lang/String; // type@0f6d
+2f2322: 5433 93da                              |0047: iget-object v3, v3, Lk9/i0;.a:[B // field@da93
+2f2326: 7020 9a89 3400                         |0049: invoke-direct {v4, v3}, Ljava/lang/String;.<init>:([B)V // method@899a
+2f232c: 2203 b513                              |004c: new-instance v3, Lorg/json/JSONObject; // type@13b5
+2f2330: 7020 05a5 4300                         |004e: invoke-direct {v3, v4}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@a505
+2f2336: 6e20 13a5 2300                         |0051: invoke-virtual {v3, v2}, Lorg/json/JSONObject;.optJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@a513
+2f233c: 0c04                                   |0054: move-result-object v4
+2f233e: 6005 bb70                              |0055: sget v5, Lcom/loc/f;.k:I // field@70bb
+2f2342: 7120 5d82 5400                         |0057: invoke-static {v4, v5}, Lcom/loc/f;.i:(Lorg/json/JSONArray;I)[Ljava/lang/String; // method@825d
+2f2348: 0c04                                   |005a: move-result-object v4
+2f234a: 3804 2c00                              |005b: if-eqz v4, 0087 // +002c
+2f234e: 2145                                   |005d: array-length v5, v4
+2f2350: 3d05 2900                              |005e: if-lez v5, 0087 // +0029
+2f2354: 5475 b070                              |0060: iget-object v5, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f2358: 6006 bb70                              |0062: sget v6, Lcom/loc/f;.k:I // field@70bb
+2f235c: 7120 5982 6500                         |0064: invoke-static {v5, v6}, Lcom/loc/f;.e:(Lcom/loc/f;I)Lk9/d3; // method@8259
+2f2362: 0c05                                   |0067: move-result-object v5
+2f2364: 6e10 dc8e 0500                         |0068: invoke-virtual {v5}, Lk9/d3;.d:()[Ljava/lang/String; // method@8edc
+2f236a: 0c05                                   |006b: move-result-object v5
+2f236c: 7120 5c82 5400                         |006c: invoke-static {v4, v5}, Lcom/loc/f;.h:([Ljava/lang/String;[Ljava/lang/String;)Z // method@825c
+2f2372: 0a05                                   |006f: move-result v5
+2f2374: 3905 1700                              |0070: if-nez v5, 0087 // +0017
+2f2378: 5475 b070                              |0072: iget-object v5, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f237c: 6006 bb70                              |0074: sget v6, Lcom/loc/f;.k:I // field@70bb
+2f2380: 7120 5982 6500                         |0076: invoke-static {v5, v6}, Lcom/loc/f;.e:(Lcom/loc/f;I)Lk9/d3; // method@8259
+2f2386: 0c05                                   |0079: move-result-object v5
+2f2388: 6e20 db8e 4500                         |007a: invoke-virtual {v5, v4}, Lk9/d3;.c:([Ljava/lang/String;)V // method@8edb
+2f238e: 5474 b070                              |007d: iget-object v4, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f2392: 6005 bb70                              |007f: sget v5, Lcom/loc/f;.k:I // field@70bb
+2f2396: 7120 5f82 5400                         |0081: invoke-static {v4, v5}, Lcom/loc/f;.k:(Lcom/loc/f;I)V // method@825f
+2f239c: 2803                                   |0084: goto 0087 // +0003
+2f239e: 0d00                                   |0085: move-exception v0
+2f23a0: 2857                                   |0086: goto 00dd // +0057
+2f23a2: 6e20 13a5 1300                         |0087: invoke-virtual {v3, v1}, Lorg/json/JSONObject;.optJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@a513
+2f23a8: 0c04                                   |008a: move-result-object v4
+2f23aa: 6005 bc70                              |008b: sget v5, Lcom/loc/f;.l:I // field@70bc
+2f23ae: 7120 5d82 5400                         |008d: invoke-static {v4, v5}, Lcom/loc/f;.i:(Lorg/json/JSONArray;I)[Ljava/lang/String; // method@825d
+2f23b4: 0c04                                   |0090: move-result-object v4
+2f23b6: 3804 2900                              |0091: if-eqz v4, 00ba // +0029
+2f23ba: 2145                                   |0093: array-length v5, v4
+2f23bc: 3d05 2600                              |0094: if-lez v5, 00ba // +0026
+2f23c0: 5475 b070                              |0096: iget-object v5, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f23c4: 6006 bc70                              |0098: sget v6, Lcom/loc/f;.l:I // field@70bc
+2f23c8: 7120 5982 6500                         |009a: invoke-static {v5, v6}, Lcom/loc/f;.e:(Lcom/loc/f;I)Lk9/d3; // method@8259
+2f23ce: 0c05                                   |009d: move-result-object v5
+2f23d0: 6e10 dc8e 0500                         |009e: invoke-virtual {v5}, Lk9/d3;.d:()[Ljava/lang/String; // method@8edc
+2f23d6: 0c05                                   |00a1: move-result-object v5
+2f23d8: 7120 5c82 5400                         |00a2: invoke-static {v4, v5}, Lcom/loc/f;.h:([Ljava/lang/String;[Ljava/lang/String;)Z // method@825c
+2f23de: 0a05                                   |00a5: move-result v5
+2f23e0: 3905 1400                              |00a6: if-nez v5, 00ba // +0014
+2f23e4: 5475 b070                              |00a8: iget-object v5, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f23e8: 6006 bc70                              |00aa: sget v6, Lcom/loc/f;.l:I // field@70bc
+2f23ec: 7120 5982 6500                         |00ac: invoke-static {v5, v6}, Lcom/loc/f;.e:(Lcom/loc/f;I)Lk9/d3; // method@8259
+2f23f2: 0c05                                   |00af: move-result-object v5
+2f23f4: 6e20 db8e 4500                         |00b0: invoke-virtual {v5, v4}, Lk9/d3;.c:([Ljava/lang/String;)V // method@8edb
+2f23fa: 5474 b070                              |00b3: iget-object v4, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f23fe: 6005 bc70                              |00b5: sget v5, Lcom/loc/f;.l:I // field@70bc
+2f2402: 7120 5f82 5400                         |00b7: invoke-static {v4, v5}, Lcom/loc/f;.k:(Lcom/loc/f;I)V // method@825f
+2f2408: 6e20 0ba5 2300                         |00ba: invoke-virtual {v3, v2}, Lorg/json/JSONObject;.has:(Ljava/lang/String;)Z // method@a50b
+2f240e: 0a02                                   |00bd: move-result v2
+2f2410: 3902 0800                              |00be: if-nez v2, 00c6 // +0008
+2f2414: 6e20 0ba5 1300                         |00c0: invoke-virtual {v3, v1}, Lorg/json/JSONObject;.has:(Ljava/lang/String;)Z // method@a50b
+2f241a: 0a01                                   |00c3: move-result v1
+2f241c: 3801 1800                              |00c4: if-eqz v1, 00dc // +0018
+2f2420: 6e20 0ba5 0300                         |00c6: invoke-virtual {v3, v0}, Lorg/json/JSONObject;.has:(Ljava/lang/String;)Z // method@a50b
+2f2426: 0a01                                   |00c9: move-result v1
+2f2428: 3801 1200                              |00ca: if-eqz v1, 00dc // +0012
+2f242c: 6e20 08a5 0300                         |00cc: invoke-virtual {v3, v0}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@a508
+2f2432: 0a00                                   |00cf: move-result v0
+2f2434: 1301 1e00                              |00d0: const/16 v1, #int 30 // #1e
+2f2438: 3710 0a00                              |00d2: if-le v0, v1, 00dc // +000a
+2f243c: 5471 b070                              |00d4: iget-object v1, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f2440: d200 e803                              |00d6: mul-int/lit16 v0, v0, #int 1000 // #03e8
+2f2444: 8102                                   |00d8: int-to-long v2, v0
+2f2446: 7130 5582 2103                         |00d9: invoke-static {v1, v2, v3}, Lcom/loc/f;.a:(Lcom/loc/f;J)J // method@8255
+2f244c: 0e00                                   |00dc: return-void
+2f244e: 2201 b513                              |00dd: new-instance v1, Lorg/json/JSONObject; // type@13b5
+2f2452: 7010 04a5 0100                         |00df: invoke-direct {v1}, Lorg/json/JSONObject;.<init>:()V // method@a504
+2f2458: 1a02 8479                              |00e2: const-string v2, "key" // string@7984
+2f245c: 1a03 9562                              |00e4: const-string v3, "dnsError" // string@6295
+2f2460: 6e30 1ca5 2103                         |00e6: invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@a51c
+2f2466: 1a02 8e9d                              |00e9: const-string v2, "reason" // string@9d8e
+2f246a: 6e10 258a 0000                         |00eb: invoke-virtual {v0}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@8a25
+2f2470: 0c00                                   |00ee: move-result-object v0
+2f2472: 6e30 1ca5 2100                         |00ef: invoke-virtual {v1, v2, v0}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@a51c
+2f2478: 5477 b070                              |00f2: iget-object v7, v7, Lcom/loc/f$a;.c:Lcom/loc/f; // field@70b0
+2f247c: 7110 5682 0700                         |00f4: invoke-static {v7}, Lcom/loc/f;.b:(Lcom/loc/f;)Landroid/content/Context; // method@8256
+2f2482: 0c07                                   |00f7: move-result-object v7
+2f2484: 1a00 2837                              |00f8: const-string v0, "O018" // string@3728
+2f2488: 7130 2690 0701                         |00fa: invoke-static {v7, v0, v1}, Lk9/h4;.n:(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;)V // method@9026
+2f248e: 0e00                                   |00fd: return-void
+      catches       : 2
+        0x003e - 0x00dc
+          <any> -> 0x0085
+        0x00e2 - 0x00f2
+          <any> -> 0x00f2
+
+  source_file_idx   : 1899 (AMapDnsManager.java)
+

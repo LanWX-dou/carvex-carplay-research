@@ -1,0 +1,151 @@
+Class #442            -
+  Class descriptor  : 'Lcom/miui/privacypolicy/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/miui/privacypolicy/a;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 6
+      outs          : 4
+      insns size    : 261 16-bit code units
+15c314:                                        |[15c314] com.miui.privacypolicy.a.a:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+15c324: 1a00 aa22                              |0000: const-string v0, "Privacy_AgreeManager" // string@22aa
+15c328: 2201 e507                              |0002: new-instance v1, Ljava/util/HashMap; // type@07e5
+15c32c: 7010 8a35 0100                         |0004: invoke-direct {v1}, Ljava/util/HashMap;.<init>:()V // method@358a
+15c332: 7110 6903 0800                         |0007: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0369
+15c338: 0a02                                   |000a: move-result v2
+15c33a: 3802 0600                              |000b: if-eqz v2, 0011 // +0006
+15c33e: 6e10 d400 0400                         |000d: invoke-virtual {v4}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@00d4
+15c344: 0c08                                   |0010: move-result-object v8
+15c346: 1a02 d05e                              |0011: const-string v2, "pkg" // string@5ed0
+15c34a: 7230 cb35 2108                         |0013: invoke-interface {v1, v2, v8}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c350: 1a08 f45e                              |0016: const-string v8, "policyName" // string@5ef4
+15c354: 7230 cb35 8105                         |0018: invoke-interface {v1, v8, v5}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c35a: 1a08 9943                              |001b: const-string v8, "idContent" // string@4399
+15c35e: 7230 cb35 8106                         |001d: invoke-interface {v1, v8, v6}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c364: 1a06 0449                              |0020: const-string v6, "miuiVersion" // string@4904
+15c368: 6208 a5a7                              |0022: sget-object v8, Lcom/miui/privacypolicy/NetUtils;.a:Ljava/lang/String; // field@a7a5
+15c36c: 7230 cb35 6108                         |0024: invoke-interface {v1, v6, v8}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c372: 7110 6903 0900                         |0027: invoke-static {v9}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0369
+15c378: 0a06                                   |002a: move-result v6
+15c37a: 3806 0600                              |002b: if-eqz v6, 0031 // +0006
+15c37e: 7110 0446 0400                         |002d: invoke-static {v4}, Lza/b;.a:(Landroid/content/Context;)Ljava/lang/String; // method@4604
+15c384: 0c09                                   |0030: move-result-object v9
+15c386: 1a06 4632                              |0031: const-string v6, "apkVersion" // string@3246
+15c38a: 7230 cb35 6109                         |0033: invoke-interface {v1, v6, v9}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c390: 1a06 a65f                              |0036: const-string v6, "privacy_temp_update_version" // string@5fa6
+15c394: 7130 0146 6405                         |0038: invoke-static {v4, v6, v5}, Lza/a;.e:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@4601
+15c39a: 0c08                                   |003b: move-result-object v8
+15c39c: 7110 6903 0800                         |003c: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0369
+15c3a2: 0a09                                   |003f: move-result v9
+15c3a4: 3809 0400                              |0040: if-eqz v9, 0044 // +0004
+15c3a8: 1a08 0000                              |0042: const-string v8, "" // string@0000
+15c3ac: 1a09 f55e                              |0044: const-string v9, "policyVersion" // string@5ef5
+15c3b0: 7230 cb35 9108                         |0046: invoke-interface {v1, v9, v8}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c3b6: 7100 bf35 0000                         |0049: invoke-static {}, Ljava/util/Locale;.getDefault:()Ljava/util/Locale; // method@35bf
+15c3bc: 0c08                                   |004c: move-result-object v8
+15c3be: 6e10 c035 0800                         |004d: invoke-virtual {v8}, Ljava/util/Locale;.getLanguage:()Ljava/lang/String; // method@35c0
+15c3c4: 0c08                                   |0050: move-result-object v8
+15c3c6: 1a09 9545                              |0051: const-string v9, "language" // string@4595
+15c3ca: 7230 cb35 9108                         |0053: invoke-interface {v1, v9, v8}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c3d0: 7100 bf35 0000                         |0056: invoke-static {}, Ljava/util/Locale;.getDefault:()Ljava/util/Locale; // method@35bf
+15c3d6: 0c08                                   |0059: move-result-object v8
+15c3d8: 6e10 be35 0800                         |005a: invoke-virtual {v8}, Ljava/util/Locale;.getCountry:()Ljava/lang/String; // method@35be
+15c3de: 0c08                                   |005d: move-result-object v8
+15c3e0: 1a09 9360                              |005e: const-string v9, "region" // string@6093
+15c3e4: 7230 cb35 9108                         |0060: invoke-interface {v1, v9, v8}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c3ea: 1a08 4c69                              |0063: const-string v8, "timestamp" // string@694c
+15c3ee: 7230 cb35 8107                         |0065: invoke-interface {v1, v8, v7}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+15c3f4: 2207 cf09                              |0068: new-instance v7, Lorg/json/JSONObject; // type@09cf
+15c3f8: 7010 603e 0700                         |006a: invoke-direct {v7}, Lorg/json/JSONObject;.<init>:()V // method@3e60
+15c3fe: 7210 c735 0100                         |006d: invoke-interface {v1}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@35c7
+15c404: 0c08                                   |0070: move-result-object v8
+15c406: 7210 e835 0800                         |0071: invoke-interface {v8}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@35e8
+15c40c: 0c08                                   |0074: move-result-object v8
+15c40e: 7210 9935 0800                         |0075: invoke-interface {v8}, Ljava/util/Iterator;.hasNext:()Z // method@3599
+15c414: 0a09                                   |0078: move-result v9
+15c416: 3809 1e00                              |0079: if-eqz v9, 0097 // +001e
+15c41a: 7210 9a35 0800                         |007b: invoke-interface {v8}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@359a
+15c420: 0c09                                   |007e: move-result-object v9
+15c422: 1f09 ee07                              |007f: check-cast v9, Ljava/util/Map$Entry; // type@07ee
+15c426: 7210 c135 0900                         |0081: invoke-interface {v9}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@35c1
+15c42c: 0c02                                   |0084: move-result-object v2
+15c42e: 1f02 7c07                              |0085: check-cast v2, Ljava/lang/String; // type@077c
+15c432: 7210 c235 0900                         |0087: invoke-interface {v9}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@35c2
+15c438: 0c09                                   |008a: move-result-object v9
+15c43a: 1f09 7c07                              |008b: check-cast v9, Ljava/lang/String; // type@077c
+15c43e: 6e30 6f3e 2709                         |008d: invoke-virtual {v7, v2, v9}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@3e6f
+15c444: 28e5                                   |0090: goto 0075 // -001b
+15c446: 0d08                                   |0091: move-exception v8
+15c448: 1a09 3134                              |0092: const-string v9, "build jsonObject error, " // string@3431
+15c44c: 7130 7b03 9008                         |0094: invoke-static {v0, v9, v8}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I // method@037b
+15c452: 1a08 4343                              |0097: const-string v8, "https://data.sec.miui.com/privacy/agree/v1" // string@4343
+15c456: 6209 a0a7                              |0099: sget-object v9, Lcom/miui/privacypolicy/NetUtils$HttpMethod;.POST:Lcom/miui/privacypolicy/NetUtils$HttpMethod; // field@a7a0
+15c45a: 7140 db29 8179                         |009b: invoke-static {v1, v8, v9, v7}, Lcom/miui/privacypolicy/NetUtils;.h:(Ljava/util/Map;Ljava/lang/String;Lcom/miui/privacypolicy/NetUtils$HttpMethod;Lorg/json/JSONObject;)Ljava/lang/String; // method@29db
+15c460: 0c08                                   |009e: move-result-object v8
+15c462: 7110 6903 0800                         |009f: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0369
+15c468: 0a09                                   |00a2: move-result v9
+15c46a: 1a01 a35f                              |00a3: const-string v1, "privacy_agree_error" // string@5fa3
+15c46e: 3809 0b00                              |00a5: if-eqz v9, 00b0 // +000b
+15c472: 6e10 703e 0700                         |00a7: invoke-virtual {v7}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@3e70
+15c478: 0c06                                   |00aa: move-result-object v6
+15c47a: 7140 0346 4651                         |00ab: invoke-static {v6, v4, v1, v5}, Lza/a;.g:(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V // method@4603
+15c480: 12e4                                   |00ae: const/4 v4, #int -2 // #fe
+15c482: 0f04                                   |00af: return v4
+15c484: 2209 cf09                              |00b0: new-instance v9, Lorg/json/JSONObject; // type@09cf
+15c488: 7020 613e 8900                         |00b2: invoke-direct {v9, v8}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@3e61
+15c48e: 1a08 be37                              |00b5: const-string v8, "code" // string@37be
+15c492: 6e20 693e 8900                         |00b7: invoke-virtual {v9, v8}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;)I // method@3e69
+15c498: 0a08                                   |00ba: move-result v8
+15c49a: 1a02 b548                              |00bb: const-string v2, "message" // string@48b5
+15c49e: 6e20 6b3e 2900                         |00bd: invoke-virtual {v9, v2}, Lorg/json/JSONObject;.optString:(Ljava/lang/String;)Ljava/lang/String; // method@3e6b
+15c4a4: 0c02                                   |00c0: move-result-object v2
+15c4a6: 1303 c800                              |00c1: const/16 v3, #int 200 // #c8
+15c4aa: 3338 3900                              |00c3: if-ne v8, v3, 00fc // +0039
+15c4ae: 1a08 b767                              |00c5: const-string v8, "success" // string@67b7
+15c4b2: 6e20 5034 2800                         |00c7: invoke-virtual {v8, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+15c4b8: 0a08                                   |00ca: move-result v8
+15c4ba: 3808 3100                              |00cb: if-eqz v8, 00fc // +0031
+15c4be: 1a08 253a                              |00cd: const-string v8, "data" // string@3a25
+15c4c2: 6e20 6b3e 8900                         |00cf: invoke-virtual {v9, v8}, Lorg/json/JSONObject;.optString:(Ljava/lang/String;)Ljava/lang/String; // method@3e6b
+15c4c8: 0c08                                   |00d2: move-result-object v8
+15c4ca: 2209 cf09                              |00d3: new-instance v9, Lorg/json/JSONObject; // type@09cf
+15c4ce: 7020 613e 8900                         |00d5: invoke-direct {v9, v8}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@3e61
+15c4d4: 1a08 9f45                              |00d8: const-string v8, "latestPolicyVersion" // string@459f
+15c4d8: 6e20 6b3e 8900                         |00da: invoke-virtual {v9, v8}, Lorg/json/JSONObject;.optString:(Ljava/lang/String;)Ljava/lang/String; // method@3e6b
+15c4de: 0c08                                   |00dd: move-result-object v8
+15c4e0: 7110 6903 0800                         |00de: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0369
+15c4e6: 0a09                                   |00e1: move-result v9
+15c4e8: 3909 1a00                              |00e2: if-nez v9, 00fc // +001a
+15c4ec: 1a09 a85f                              |00e4: const-string v9, "privacy_version" // string@5fa8
+15c4f0: 7140 0346 4859                         |00e6: invoke-static {v8, v4, v9, v5}, Lza/a;.g:(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V // method@4603
+15c4f6: 7130 0046 1405                         |00e9: invoke-static {v4, v1, v5}, Lza/a;.d:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z // method@4600
+15c4fc: 7130 0046 6405                         |00ec: invoke-static {v4, v6, v5}, Lza/a;.d:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z // method@4600
+15c502: 1a06 a75f                              |00ef: const-string v6, "privacy_update" // string@5fa7
+15c506: 7130 0046 6405                         |00f1: invoke-static {v4, v6, v5}, Lza/a;.d:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z // method@4600
+15c50c: 1214                                   |00f4: const/4 v4, #int 1 // #1
+15c50e: 0f04                                   |00f5: return v4
+15c510: 0d06                                   |00f6: move-exception v6
+15c512: 1a08 5242                              |00f7: const-string v8, "handlePrivacyAgreeTask error, " // string@4252
+15c516: 7130 7b03 8006                         |00f9: invoke-static {v0, v8, v6}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I // method@037b
+15c51c: 6e10 703e 0700                         |00fc: invoke-virtual {v7}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@3e70
+15c522: 0c06                                   |00ff: move-result-object v6
+15c524: 7140 0346 4651                         |0100: invoke-static {v6, v4, v1, v5}, Lza/a;.g:(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V // method@4603
+15c52a: 12d4                                   |0103: const/4 v4, #int -3 // #fd
+15c52c: 0f04                                   |0104: return v4
+      catches       : 2
+        0x006d - 0x0090
+          Ljava/lang/Exception; -> 0x0091
+        0x00b0 - 0x00f4
+          Ljava/lang/Exception; -> 0x00f6
+
+  Virtual methods   -
+  source_file_idx   : 8866 (PrivacyAgreeManager.java)
+

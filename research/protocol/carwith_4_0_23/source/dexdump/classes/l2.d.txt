@@ -1,0 +1,159 @@
+Class #4732            -
+  Class descriptor  : 'Ll2/d;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Ll2/d;)
+      name          : 'a'
+      type          : 'Lso/z;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Ll2/d;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 45 16-bit code units
+4def84:                                        |[4def84] l2.d.<init>:()V
+4def94: 7010 32bc 0400                         |0000: invoke-direct {v4}, Ljava/lang/Object;.<init>:()V // method@bc32
+4def9a: 2200 bb24                              |0003: new-instance v0, Lso/z$a; // type@24bb
+4def9e: 7010 d5df 0000                         |0005: invoke-direct {v0}, Lso/z$a;.<init>:()V // method@dfd5
+4defa4: 6201 a3ed                              |0008: sget-object v1, Ljava/util/concurrent/TimeUnit;.MILLISECONDS:Ljava/util/concurrent/TimeUnit; // field@eda3
+4defa8: 1602 8813                              |000a: const-wide/16 v2, #int 5000 // #1388
+4defac: 6e40 d7df 2013                         |000c: invoke-virtual {v0, v2, v3, v1}, Lso/z$a;.L:(JLjava/util/concurrent/TimeUnit;)Lso/z$a; // method@dfd7
+4defb2: 0c00                                   |000f: move-result-object v0
+4defb4: 6e40 dbdf 2013                         |0010: invoke-virtual {v0, v2, v3, v1}, Lso/z$a;.c:(JLjava/util/concurrent/TimeUnit;)Lso/z$a; // method@dfdb
+4defba: 0c00                                   |0013: move-result-object v0
+4defbc: 6e40 d9df 2013                         |0014: invoke-virtual {v0, v2, v3, v1}, Lso/z$a;.O:(JLjava/util/concurrent/TimeUnit;)Lso/z$a; // method@dfd9
+4defc2: 0c00                                   |0017: move-result-object v0
+4defc4: 1211                                   |0018: const/4 v1, #int 1 // #1
+4defc6: 6e20 d8df 1000                         |0019: invoke-virtual {v0, v1}, Lso/z$a;.M:(Z)Lso/z$a; // method@dfd8
+4defcc: 0c00                                   |001c: move-result-object v0
+4defce: 2201 b921                              |001d: new-instance v1, Ll2/d$a; // type@21b9
+4defd2: 7020 ded2 4100                         |001f: invoke-direct {v1, v4}, Ll2/d$a;.<init>:(Ll2/d;)V // method@d2de
+4defd8: 6e20 d6df 1000                         |0022: invoke-virtual {v0, v1}, Lso/z$a;.K:(Ljava/net/ProxySelector;)Lso/z$a; // method@dfd6
+4defde: 0c00                                   |0025: move-result-object v0
+4defe0: 6e10 dadf 0000                         |0026: invoke-virtual {v0}, Lso/z$a;.b:()Lso/z; // method@dfda
+4defe6: 0c00                                   |0029: move-result-object v0
+4defe8: 5b40 16f5                              |002a: iput-object v0, v4, Ll2/d;.a:Lso/z; // field@f516
+4defec: 0e00                                   |002c: return-void
+      catches       : (none)
+
+    #1              : (in Ll2/d;)
+      name          : 'a'
+      type          : '(Ll2/d;Ljava/lang/String;)Z'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 5 16-bit code units
+4deeac:                                        |[4deeac] l2.d.a:(Ll2/d;Ljava/lang/String;)Z
+4deebc: 6e20 ebd2 1000                         |0000: invoke-virtual {v0, v1}, Ll2/d;.d:(Ljava/lang/String;)Z // method@d2eb
+4deec2: 0a00                                   |0003: move-result v0
+4deec4: 0f00                                   |0004: return v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Ll2/d;)
+      name          : 'b'
+      type          : '(Ljava/util/Map;Ljava/lang/String;Ll2/d$c;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 3
+      insns size    : 41 16-bit code units
+4deff0:                                        |[4deff0] l2.d.b:(Ljava/util/Map;Ljava/lang/String;Ll2/d$c;)V
+4df000: 2200 b124                              |0000: new-instance v0, Lso/a0$a; // type@24b1
+4df004: 7010 c5df 0000                         |0002: invoke-direct {v0}, Lso/a0$a;.<init>:()V // method@dfc5
+4df00a: 6e10 c7df 0000                         |0005: invoke-virtual {v0}, Lso/a0$a;.c:()Lso/a0$a; // method@dfc7
+4df010: 0c00                                   |0008: move-result-object v0
+4df012: 6e30 ead2 2103                         |0009: invoke-virtual {v1, v2, v3}, Ll2/d;.c:(Ljava/util/Map;Ljava/lang/String;)Lso/v; // method@d2ea
+4df018: 0c02                                   |000c: move-result-object v2
+4df01a: 6e20 c8df 2000                         |000d: invoke-virtual {v0, v2}, Lso/a0$a;.k:(Lso/v;)Lso/a0$a; // method@dfc8
+4df020: 0c02                                   |0010: move-result-object v2
+4df022: 3804 0500                              |0011: if-eqz v4, 0016 // +0005
+4df026: 7220 e6d2 2400                         |0013: invoke-interface {v4, v2}, Ll2/d$c;.c:(Lso/a0$a;)V // method@d2e6
+4df02c: 6e10 c6df 0200                         |0016: invoke-virtual {v2}, Lso/a0$a;.b:()Lso/a0; // method@dfc6
+4df032: 0c02                                   |0019: move-result-object v2
+4df034: 5413 16f5                              |001a: iget-object v3, v1, Ll2/d;.a:Lso/z; // field@f516
+4df038: 6e20 dcdf 2300                         |001c: invoke-virtual {v3, v2}, Lso/z;.c:(Lso/a0;)Lso/e; // method@dfdc
+4df03e: 0c02                                   |001f: move-result-object v2
+4df040: 2203 ba21                              |0020: new-instance v3, Ll2/d$b; // type@21ba
+4df044: 7030 e1d2 1304                         |0022: invoke-direct {v3, v1, v4}, Ll2/d$b;.<init>:(Ll2/d;Ll2/d$c;)V // method@d2e1
+4df04a: 7220 cfdf 3200                         |0025: invoke-interface {v2, v3}, Lso/e;.i:(Lso/f;)V // method@dfcf
+4df050: 0e00                                   |0028: return-void
+      catches       : (none)
+
+    #1              : (in Ll2/d;)
+      name          : 'c'
+      type          : '(Ljava/util/Map;Ljava/lang/String;)Lso/v;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 56 16-bit code units
+4def04:                                        |[4def04] l2.d.c:(Ljava/util/Map;Ljava/lang/String;)Lso/v;
+4def14: 7110 d3df 0400                         |0000: invoke-static {v4}, Lso/v;.m:(Ljava/lang/String;)Lso/v; // method@dfd3
+4def1a: 0c02                                   |0003: move-result-object v2
+4def1c: 7110 b4bf 0200                         |0004: invoke-static {v2}, Ljava/util/Objects;.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object; // method@bfb4
+4def22: 6e10 d2df 0200                         |0007: invoke-virtual {v2}, Lso/v;.k:()Lso/v$a; // method@dfd2
+4def28: 0c02                                   |000a: move-result-object v2
+4def2a: 7210 9fbf 0300                         |000b: invoke-interface {v3}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@bf9f
+4def30: 0c04                                   |000e: move-result-object v4
+4def32: 7210 e8bf 0400                         |000f: invoke-interface {v4}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@bfe8
+4def38: 0c04                                   |0012: move-result-object v4
+4def3a: 7210 52bf 0400                         |0013: invoke-interface {v4}, Ljava/util/Iterator;.hasNext:()Z // method@bf52
+4def40: 0a00                                   |0016: move-result v0
+4def42: 3800 1c00                              |0017: if-eqz v0, 0033 // +001c
+4def46: 7210 53bf 0400                         |0019: invoke-interface {v4}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@bf53
+4def4c: 0c00                                   |001c: move-result-object v0
+4def4e: 1f00 001e                              |001d: check-cast v0, Ljava/util/Map$Entry; // type@1e00
+4def52: 7210 98bf 0000                         |001f: invoke-interface {v0}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@bf98
+4def58: 0c00                                   |0022: move-result-object v0
+4def5a: 1f00 4d1d                              |0023: check-cast v0, Ljava/lang/String; // type@1d4d
+4def5e: 7220 a1bf 0300                         |0025: invoke-interface {v3, v0}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@bfa1
+4def64: 0c01                                   |0028: move-result-object v1
+4def66: 1f01 4d1d                              |0029: check-cast v1, Ljava/lang/String; // type@1d4d
+4def6a: 3901 0400                              |002b: if-nez v1, 002f // +0004
+4def6e: 1a01 0000                              |002d: const-string v1, "" // string@0000
+4def72: 6e30 d0df 0201                         |002f: invoke-virtual {v2, v0, v1}, Lso/v$a;.b:(Ljava/lang/String;Ljava/lang/String;)Lso/v$a; // method@dfd0
+4def78: 28e1                                   |0032: goto 0013 // -001f
+4def7a: 6e10 d1df 0200                         |0033: invoke-virtual {v2}, Lso/v$a;.c:()Lso/v; // method@dfd1
+4def80: 0c02                                   |0036: move-result-object v2
+4def82: 1102                                   |0037: return-object v2
+      catches       : (none)
+
+    #2              : (in Ll2/d;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;)Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 21 16-bit code units
+4deec8:                                        |[4deec8] l2.d.d:(Ljava/lang/String;)Z
+4deed8: 1a00 f5ff                              |0000: const-string v0, "{" // string@fff5
+4deedc: 6e20 7fbc 0100                         |0002: invoke-virtual {v1, v0}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@bc7f
+4deee2: 0a00                                   |0005: move-result v0
+4deee4: 3800 0d00                              |0006: if-eqz v0, 0013 // +000d
+4deee8: 1b00 4400 0100                         |0008: const-string/jumbo v0, "}" // string@00010044
+4deeee: 6e20 60bc 0100                         |000b: invoke-virtual {v1, v0}, Ljava/lang/String;.endsWith:(Ljava/lang/String;)Z // method@bc60
+4deef4: 0a00                                   |000e: move-result v0
+4deef6: 3800 0400                              |000f: if-eqz v0, 0013 // +0004
+4deefa: 1210                                   |0011: const/4 v0, #int 1 // #1
+4deefc: 2802                                   |0012: goto 0014 // +0002
+4deefe: 1200                                   |0013: const/4 v0, #int 0 // #0
+4def00: 0f00                                   |0014: return v0
+      catches       : (none)
+
+  source_file_idx   : 9624 (HttpImpl.java)
+

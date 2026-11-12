@@ -1,0 +1,599 @@
+Class #8065            -
+  Class descriptor  : 'Lcom/xiaomi/passport/ui/page/BaseLoginFragment;'
+  Access flags      : 0x0401 (PUBLIC ABSTRACT)
+  Superclass        : 'Lcom/xiaomi/passport/ui/page/BaseFragment;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'a'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'b'
+      type          : 'Lbh/a;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'c'
+      type          : 'Lig/b;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'd'
+      type          : 'Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'e'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'f'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'g'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'h'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'i'
+      type          : 'Lzf/a;'
+      access        : 0x0001 (PUBLIC)
+    #9              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'j'
+      type          : 'Lcom/xiaomi/passport/ui/page/a;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+40130c:                                        |[40130c] com.xiaomi.passport.ui.page.BaseLoginFragment.<init>:()V
+40131c: 7010 d8be 0000                         |0000: invoke-direct {v0}, Lcom/xiaomi/passport/ui/page/BaseFragment;.<init>:()V // method@bed8
+401322: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'i0'
+      type          : '()V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 15 16-bit code units
+401344:                                        |[401344] com.xiaomi.passport.ui.page.BaseLoginFragment.i0:()V
+401354: 5510 53d4                              |0000: iget-boolean v0, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.e:Z // field@d453
+401358: 3900 0700                              |0002: if-nez v0, 0009 // +0007
+40135c: 1210                                   |0004: const/4 v0, #int 1 // #1
+40135e: 6e20 03bf 0100                         |0005: invoke-virtual {v1, v0}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.o0:(Z)V // method@bf03
+401364: 0e00                                   |0008: return-void
+401366: 5510 54d4                              |0009: iget-boolean v0, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.f:Z // field@d454
+40136a: 6e20 03bf 0100                         |000b: invoke-virtual {v1, v0}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.o0:(Z)V // method@bf03
+401370: 0e00                                   |000e: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'j0'
+      type          : '()V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 132 16-bit code units
+401374:                                        |[401374] com.xiaomi.passport.ui.page.BaseLoginFragment.j0:()V
+401384: 6e10 d9be 0500                         |0000: invoke-virtual {v5}, Lcom/xiaomi/passport/ui/page/BaseFragment;.W:()Landroid/os/Bundle; // method@bed9
+40138a: 0c00                                   |0003: move-result-object v0
+40138c: 1a01 e9d1                              |0004: const-string v1, "service_id" // string@d1e9
+401390: 6e20 7703 1000                         |0006: invoke-virtual {v0, v1}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+401396: 0c01                                   |0009: move-result-object v1
+401398: 5b51 55d4                              |000a: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.g:Ljava/lang/String; // field@d455
+40139c: 7110 7b10 0100                         |000c: invoke-static {v1}, Lcom/xiaomi/accountsdk/account/stat/AccountStatInterface;.b:(Ljava/lang/String;)V // method@107b
+4013a2: 1a01 b682                              |000f: const-string v1, "banner_biz" // string@82b6
+4013a6: 6e20 7703 1000                         |0011: invoke-virtual {v0, v1}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+4013ac: 0c01                                   |0014: move-result-object v1
+4013ae: 5b51 56d4                              |0015: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.h:Ljava/lang/String; // field@d456
+4013b2: 2201 941f                              |0017: new-instance v1, Lig/b; // type@1f94
+4013b6: 6e10 cd06 0500                         |0019: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@06cd
+4013bc: 0c02                                   |001c: move-result-object v2
+4013be: 7020 cbca 2100                         |001d: invoke-direct {v1, v2}, Lig/b;.<init>:(Landroid/content/Context;)V // method@cacb
+4013c4: 5b51 51d4                              |0020: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.c:Lig/b; // field@d451
+4013c8: 1212                                   |0022: const/4 v2, #int 1 // #1
+4013ca: 6e20 d2ca 2100                         |0023: invoke-virtual {v1, v2}, Lig/b;.f:(Z)Lig/b; // method@cad2
+4013d0: 5451 51d4                              |0026: iget-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.c:Lig/b; // field@d451
+4013d4: 6003 d563                              |0028: sget v3, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_loading:I // field@63d5
+4013d8: 6e20 d306 3500                         |002a: invoke-virtual {v5, v3}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+4013de: 0c03                                   |002d: move-result-object v3
+4013e0: 6e20 d3ca 3100                         |002e: invoke-virtual {v1, v3}, Lig/b;.g:(Ljava/lang/String;)Lig/b; // method@cad3
+4013e6: 5451 51d4                              |0031: iget-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.c:Lig/b; // field@d451
+4013ea: 1203                                   |0033: const/4 v3, #int 0 // #0
+4013ec: 6e20 6001 3100                         |0034: invoke-virtual {v1, v3}, Landroid/app/Dialog;.setCancelable:(Z)V // method@0160
+4013f2: 2201 d701                              |0037: new-instance v1, Lbh/a; // type@01d7
+4013f6: 6e10 cd06 0500                         |0039: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@06cd
+4013fc: 0c04                                   |003c: move-result-object v4
+4013fe: 7020 d707 4100                         |003d: invoke-direct {v1, v4}, Lbh/a;.<init>:(Landroid/app/Activity;)V // method@07d7
+401404: 5b51 50d4                              |0040: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.b:Lbh/a; // field@d450
+401408: 1a04 45a5                              |0042: const-string v4, "https://verify.sec.xiaomi.com" // string@a545
+40140c: 6e20 da07 4100                         |0044: invoke-virtual {v1, v4}, Lbh/a;.p0:(Ljava/lang/String;)Lbh/a; // method@07da
+401412: 5451 50d4                              |0047: iget-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.b:Lbh/a; // field@d450
+401416: 1a04 4e05                              |0049: const-string v4, "8027422fb0eb42fbac1b521ec4a7961f" // string@054e
+40141a: 6e20 dc07 4100                         |004b: invoke-virtual {v1, v4}, Lbh/a;.r0:(Ljava/lang/String;)Lbh/a; // method@07dc
+401420: 5451 50d4                              |004e: iget-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.b:Lbh/a; // field@d450
+401424: 6204 dad9                              |0050: sget-object v4, Ljava/lang/Boolean;.TRUE:Ljava/lang/Boolean; // field@d9da
+401428: 6e20 db07 4100                         |0052: invoke-virtual {v1, v4}, Lbh/a;.q0:(Ljava/lang/Boolean;)Lbh/a; // method@07db
+40142e: 5451 50d4                              |0055: iget-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.b:Lbh/a; // field@d450
+401432: 6e10 d807 0100                         |0057: invoke-virtual {v1}, Lbh/a;.k0:()V // method@07d8
+401438: 1a01 2bae                              |005a: const-string v1, "login_agreement_and_privacy" // string@ae2b
+40143c: 6e20 9803 1000                         |005c: invoke-virtual {v0, v1}, Landroid/os/Bundle;.getParcelable:(Ljava/lang/String;)Landroid/os/Parcelable; // method@0398
+401442: 0c01                                   |005f: move-result-object v1
+401444: 1f01 2d1d                              |0060: check-cast v1, Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy; // type@1d2d
+401448: 5b51 52d4                              |0062: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.d:Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy; // field@d452
+40144c: 3901 0f00                              |0064: if-nez v1, 0073 // +000f
+401450: 2201 2c1d                              |0066: new-instance v1, Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$b; // type@1d2c
+401454: 6204 18d4                              |0068: sget-object v4, Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$Type;.DEF:Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$Type; // field@d418
+401458: 7020 9cbe 4100                         |006a: invoke-direct {v1, v4}, Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$b;.<init>:(Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$Type;)V // method@be9c
+40145e: 6e10 9dbe 0100                         |006d: invoke-virtual {v1}, Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy$b;.a:()Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy; // method@be9d
+401464: 0c01                                   |0070: move-result-object v1
+401466: 5b51 52d4                              |0071: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.d:Lcom/xiaomi/passport/ui/license/LoginAgreementAndPrivacy; // field@d452
+40146a: 1a01 77e2                              |0073: const-string v1, "show_user_agreement" // string@e277
+40146e: 6e30 6d03 1002                         |0075: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;Z)Z // method@036d
+401474: 0a01                                   |0078: move-result v1
+401476: 5c51 53d4                              |0079: iput-boolean v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.e:Z // field@d453
+40147a: 1a01 2beb                              |007b: const-string v1, "user_agreement_init_selected" // string@eb2b
+40147e: 6e30 6d03 1003                         |007d: invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;Z)Z // method@036d
+401484: 0a00                                   |0080: move-result v0
+401486: 5c50 54d4                              |0081: iput-boolean v0, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.f:Z // field@d454
+40148a: 0e00                                   |0083: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'l0'
+      type          : '(Landroid/os/Bundle;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$LoginFragmentType;)Lcom/xiaomi/passport/ui/page/BaseLoginFragment;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 76 16-bit code units
+40122c:                                        |[40122c] com.xiaomi.passport.ui.page.BaseLoginFragment.l0:(Landroid/os/Bundle;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$LoginFragmentType;)Lcom/xiaomi/passport/ui/page/BaseLoginFragment;
+40123c: 6200 4ed4                              |0000: sget-object v0, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$g;.a:[I // field@d44e
+401240: 6e10 97cb 0200                         |0002: invoke-virtual {v2}, Ljava/lang/Enum;.ordinal:()I // method@cb97
+401246: 0a02                                   |0005: move-result v2
+401248: 4402 0002                              |0006: aget v2, v0, v2
+40124c: 2b02 3400 0000                         |0008: packed-switch v2, 0000003c // +00000034
+401252: 2201 cd1f                              |000b: new-instance v1, Ljava/lang/IllegalArgumentException; // type@1fcd
+401256: 1a02 62ea                              |000d: const-string v2, "unsupported fragment type" // string@ea62
+40125a: 7020 a4cb 2100                         |000f: invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@cba4
+401260: 2701                                   |0012: throw v1
+401262: 2202 651d                              |0013: new-instance v2, Lcom/xiaomi/passport/ui/page/SNSLoginFragment; // type@1d65
+401266: 7010 adbf 0200                         |0015: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/SNSLoginFragment;.<init>:()V // method@bfad
+40126c: 281e                                   |0018: goto 0036 // +001e
+40126e: 2202 601d                              |0019: new-instance v2, Lcom/xiaomi/passport/ui/page/PhoneAccountQuickLoginFragment; // type@1d60
+401272: 7010 9fbf 0200                         |001b: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/PhoneAccountQuickLoginFragment;.<init>:()V // method@bf9f
+401278: 2818                                   |001e: goto 0036 // +0018
+40127a: 2202 5e1d                              |001f: new-instance v2, Lcom/xiaomi/passport/ui/page/PhoneAccountLoginFragment; // type@1d5e
+40127e: 7010 7ebf 0200                         |0021: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/PhoneAccountLoginFragment;.<init>:()V // method@bf7e
+401284: 2812                                   |0024: goto 0036 // +0012
+401286: 2202 4d1d                              |0025: new-instance v2, Lcom/xiaomi/passport/ui/page/InputPhoneNumberFragment; // type@1d4d
+40128a: 7010 20bf 0200                         |0027: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/InputPhoneNumberFragment;.<init>:()V // method@bf20
+401290: 280c                                   |002a: goto 0036 // +000c
+401292: 2202 511d                              |002b: new-instance v2, Lcom/xiaomi/passport/ui/page/PasswordLoginFragment; // type@1d51
+401296: 7010 43bf 0200                         |002d: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/PasswordLoginFragment;.<init>:()V // method@bf43
+40129c: 2806                                   |0030: goto 0036 // +0006
+40129e: 2202 841d                              |0031: new-instance v2, Lcom/xiaomi/passport/ui/page/VerifyCodeLoginFragment; // type@1d84
+4012a2: 7010 4dc0 0200                         |0033: invoke-direct {v2}, Lcom/xiaomi/passport/ui/page/VerifyCodeLoginFragment;.<init>:()V // method@c04d
+4012a8: 3801 0500                              |0036: if-eqz v1, 003b // +0005
+4012ac: 6e20 df06 1200                         |0038: invoke-virtual {v2, v1}, Landroidx/fragment/app/Fragment;.setArguments:(Landroid/os/Bundle;)V // method@06df
+4012b2: 1102                                   |003b: return-object v2
+4012b4: 0001 0600 0100 0000 2900 0000 2300 ... |003c: packed-switch-data (16 units)
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'n0'
+      type          : '()V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 16 16-bit code units
+4015b8:                                        |[4015b8] com.xiaomi.passport.ui.page.BaseLoginFragment.n0:()V
+4015c8: 5410 51d4                              |0000: iget-object v0, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.c:Lig/b; // field@d451
+4015cc: 6e10 d0ca 0000                         |0002: invoke-virtual {v0}, Lig/b;.dismiss:()V // method@cad0
+4015d2: 5410 57d4                              |0005: iget-object v0, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i:Lzf/a; // field@d457
+4015d6: 3800 0800                              |0007: if-eqz v0, 000f // +0008
+4015da: 6e10 b6dd 0000                         |0009: invoke-virtual {v0}, Lzf/a;.a:()V // method@ddb6
+4015e0: 1200                                   |000c: const/4 v0, #int 0 // #0
+4015e2: 5b10 57d4                              |000d: iput-object v0, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i:Lzf/a; // field@d457
+4015e6: 0e00                                   |000f: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'e0'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 4
+      insns size    : 8 16-bit code units
+401324:                                        |[401324] com.xiaomi.passport.ui.page.BaseLoginFragment.e0:(Landroid/os/Bundle;)V
+401334: 1a00 d1e4                              |0000: const-string v0, "start_ts_ms" // string@e4d1
+401338: 5331 4fd4                              |0002: iget-wide v1, v3, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.a:J // field@d44f
+40133c: 6e40 8103 0421                         |0004: invoke-virtual {v4, v0, v1, v2}, Landroid/os/BaseBundle;.putLong:(Ljava/lang/String;J)V // method@0381
+401342: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'f0'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4012f4:                                        |[4012f4] com.xiaomi.passport.ui.page.BaseLoginFragment.f0:()Ljava/lang/String;
+401304: 1a00 0000                              |0000: const-string v0, "" // string@0000
+401308: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'g0'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'h0'
+      type          : '()Ljava/lang/Long;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+4012d4:                                        |[4012d4] com.xiaomi.passport.ui.page.BaseLoginFragment.h0:()Ljava/lang/Long;
+4012e4: 5320 4fd4                              |0000: iget-wide v0, v2, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.a:J // field@d44f
+4012e8: 7120 c0cb 1000                         |0002: invoke-static {v0, v1}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@cbc0
+4012ee: 0c02                                   |0005: move-result-object v2
+4012f0: 1102                                   |0006: return-object v2
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'k0'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 2 16-bit code units
+401218:                                        |[401218] com.xiaomi.passport.ui.page.BaseLoginFragment.k0:()Z
+401228: 1200                                   |0000: const/4 v0, #int 0 // #0
+40122a: 0f00                                   |0001: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'm0'
+      type          : '(Landroid/view/View$OnClickListener;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+4014e8:                                        |[4014e8] com.xiaomi.passport.ui.page.BaseLoginFragment.m0:(Landroid/view/View$OnClickListener;)V
+4014f8: 6e20 08bf 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.p0:(Landroid/view/View$OnClickListener;)V // method@bf08
+4014fe: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'o0'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 1 16-bit code units
+4015e8:                                        |[4015e8] com.xiaomi.passport.ui.page.BaseLoginFragment.o0:(Z)V
+4015f8: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'onActivityCreated'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 10 16-bit code units
+40148c:                                        |[40148c] com.xiaomi.passport.ui.page.BaseLoginFragment.onActivityCreated:(Landroid/os/Bundle;)V
+40149c: 6f20 d506 1000                         |0000: invoke-super {v0, v1}, Landroidx/fragment/app/Fragment;.onActivityCreated:(Landroid/os/Bundle;)V // method@06d5
+4014a2: 7010 febe 0000                         |0003: invoke-direct {v0}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.j0:()V // method@befe
+4014a8: 7010 fdbe 0000                         |0006: invoke-direct {v0}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i0:()V // method@befd
+4014ae: 0e00                                   |0009: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'onAttach'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 20 16-bit code units
+4014b0:                                        |[4014b0] com.xiaomi.passport.ui.page.BaseLoginFragment.onAttach:(Landroid/content/Context;)V
+4014c0: 6f20 d706 2100                         |0000: invoke-super {v1, v2}, Landroidx/fragment/app/Fragment;.onAttach:(Landroid/content/Context;)V // method@06d7
+4014c6: 2020 851d                              |0003: instance-of v0, v2, Lcom/xiaomi/passport/ui/page/a; // type@1d85
+4014ca: 3800 0700                              |0005: if-eqz v0, 000c // +0007
+4014ce: 1f02 851d                              |0007: check-cast v2, Lcom/xiaomi/passport/ui/page/a; // type@1d85
+4014d2: 5b12 58d4                              |0009: iput-object v2, v1, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.j:Lcom/xiaomi/passport/ui/page/a; // field@d458
+4014d6: 0e00                                   |000b: return-void
+4014d8: 2201 cd1f                              |000c: new-instance v1, Ljava/lang/IllegalArgumentException; // type@1fcd
+4014dc: 1a02 55e7                              |000e: const-string v2, "the context must be a impl of LoginUIController!" // string@e755
+4014e0: 7020 a4cb 2100                         |0010: invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@cba4
+4014e6: 2701                                   |0013: throw v1
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'onDestroyView'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 7 16-bit code units
+401500:                                        |[401500] com.xiaomi.passport.ui.page.BaseLoginFragment.onDestroyView:()V
+401510: 7010 02bf 0000                         |0000: invoke-direct {v0}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.n0:()V // method@bf02
+401516: 6f10 da06 0000                         |0003: invoke-super {v0}, Landroidx/fragment/app/Fragment;.onDestroyView:()V // method@06da
+40151c: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'onViewCreated'
+      type          : '(Landroid/view/View;Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 4
+      insns size    : 68 16-bit code units
+401520:                                        |[401520] com.xiaomi.passport.ui.page.BaseLoginFragment.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V
+401530: 6f30 de06 3204                         |0000: invoke-super {v2, v3, v4}, Landroidx/fragment/app/Fragment;.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V // method@06de
+401536: 6e10 cd06 0200                         |0003: invoke-virtual {v2}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@06cd
+40153c: 0c03                                   |0006: move-result-object v3
+40153e: 6e10 3301 0300                         |0007: invoke-virtual {v3}, Landroid/app/Activity;.getIntent:()Landroid/content/Intent; // method@0133
+401544: 0c03                                   |000a: move-result-object v3
+401546: 2204 db00                              |000b: new-instance v4, Landroid/os/Bundle; // type@00db
+40154a: 7010 8c03 0400                         |000d: invoke-direct {v4}, Landroid/os/Bundle;.<init>:()V // method@038c
+401550: 3803 0f00                              |0010: if-eqz v3, 001f // +000f
+401554: 6e10 e201 0300                         |0012: invoke-virtual {v3}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@01e2
+40155a: 0c00                                   |0015: move-result-object v0
+40155c: 3800 0900                              |0016: if-eqz v0, 001f // +0009
+401560: 6e10 e201 0300                         |0018: invoke-virtual {v3}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@01e2
+401566: 0c03                                   |001b: move-result-object v3
+401568: 6e20 a503 3400                         |001c: invoke-virtual {v4, v3}, Landroid/os/Bundle;.putAll:(Landroid/os/Bundle;)V // method@03a5
+40156e: 6e10 ce06 0200                         |001f: invoke-virtual {v2}, Landroidx/fragment/app/Fragment;.getArguments:()Landroid/os/Bundle; // method@06ce
+401574: 0c03                                   |0022: move-result-object v3
+401576: 3803 0900                              |0023: if-eqz v3, 002c // +0009
+40157a: 6e10 ce06 0200                         |0025: invoke-virtual {v2}, Landroidx/fragment/app/Fragment;.getArguments:()Landroid/os/Bundle; // method@06ce
+401580: 0c03                                   |0028: move-result-object v3
+401582: 6e20 a503 3400                         |0029: invoke-virtual {v4, v3}, Landroid/os/Bundle;.putAll:(Landroid/os/Bundle;)V // method@03a5
+401588: 1a03 d1e4                              |002c: const-string v3, "start_ts_ms" // string@e4d1
+40158c: 1600 ffff                              |002e: const-wide/16 v0, #int -1 // #ffff
+401590: 6e40 7503 3410                         |0030: invoke-virtual {v4, v3, v0, v1}, Landroid/os/BaseBundle;.getLong:(Ljava/lang/String;J)J // method@0375
+401596: 0b03                                   |0033: move-result-wide v3
+401598: 5a23 4fd4                              |0034: iput-wide v3, v2, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.a:J // field@d44f
+40159c: 1600 0000                              |0036: const-wide/16 v0, #int 0 // #0
+4015a0: 3103 0300                              |0038: cmp-long v3, v3, v0
+4015a4: 3d03 0300                              |003a: if-lez v3, 003d // +0003
+4015a8: 2807                                   |003c: goto 0043 // +0007
+4015aa: 7100 2e04 0000                         |003d: invoke-static {}, Landroid/os/SystemClock;.elapsedRealtime:()J // method@042e
+4015b0: 0b03                                   |0040: move-result-wide v3
+4015b2: 5a23 4fd4                              |0041: iput-wide v3, v2, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.a:J // field@d44f
+4015b6: 0e00                                   |0043: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'p0'
+      type          : '(Landroid/view/View$OnClickListener;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 57 16-bit code units
+4015fc:                                        |[4015fc] com.xiaomi.passport.ui.page.BaseLoginFragment.p0:(Landroid/view/View$OnClickListener;)V
+40160c: 2200 941f                              |0000: new-instance v0, Lig/b; // type@1f94
+401610: 6e10 cf06 0300                         |0002: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@06cf
+401616: 0c01                                   |0005: move-result-object v1
+401618: 7020 cbca 1000                         |0006: invoke-direct {v0, v1}, Lig/b;.<init>:(Landroid/content/Context;)V // method@cacb
+40161e: 6001 c563                              |0009: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_attention:I // field@63c5
+401622: 6e20 d306 1300                         |000b: invoke-virtual {v3, v1}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+401628: 0c01                                   |000e: move-result-object v1
+40162a: 6e20 d6ca 1000                         |000f: invoke-virtual {v0, v1}, Lig/b;.j:(Ljava/lang/String;)Lig/b; // method@cad6
+401630: 0c00                                   |0012: move-result-object v0
+401632: 6001 c363                              |0013: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_agree:I // field@63c3
+401636: 6e20 d306 1300                         |0015: invoke-virtual {v3, v1}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+40163c: 0c01                                   |0018: move-result-object v1
+40163e: 2202 3c1d                              |0019: new-instance v2, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$a; // type@1d3c
+401642: 7030 e6be 3204                         |001b: invoke-direct {v2, v3, v4}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$a;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Landroid/view/View$OnClickListener;)V // method@bee6
+401648: 6e30 d5ca 1002                         |001e: invoke-virtual {v0, v1, v2}, Lig/b;.i:(Ljava/lang/String;Landroid/view/View$OnClickListener;)Lig/b; // method@cad5
+40164e: 0c04                                   |0021: move-result-object v4
+401650: 1500 0401                              |0022: const/high16 v0, #int 17039360 // #104
+401654: 6e20 d306 0300                         |0024: invoke-virtual {v3, v0}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+40165a: 0c00                                   |0027: move-result-object v0
+40165c: 1201                                   |0028: const/4 v1, #int 0 // #0
+40165e: 6e30 d4ca 0401                         |0029: invoke-virtual {v4, v0, v1}, Lig/b;.h:(Ljava/lang/String;Landroid/view/View$OnClickListener;)Lig/b; // method@cad4
+401664: 0c04                                   |002c: move-result-object v4
+401666: 6e10 fabe 0300                         |002d: invoke-virtual {v3}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.f0:()Ljava/lang/String; // method@befa
+40166c: 0c03                                   |0030: move-result-object v3
+40166e: 6e20 d3ca 3400                         |0031: invoke-virtual {v4, v3}, Lig/b;.g:(Ljava/lang/String;)Lig/b; // method@cad3
+401674: 0c03                                   |0034: move-result-object v3
+401676: 6e10 dcca 0300                         |0035: invoke-virtual {v3}, Lig/b;.show:()V // method@cadc
+40167c: 0e00                                   |0038: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'q0'
+      type          : '(Ljava/lang/String;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$h;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 4
+      insns size    : 81 16-bit code units
+401680:                                        |[401680] com.xiaomi.passport.ui.page.BaseLoginFragment.q0:(Ljava/lang/String;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$h;)V
+401690: 6e10 cf06 0400                         |0000: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@06cf
+401696: 0c00                                   |0003: move-result-object v0
+401698: 6001 7763                              |0004: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$layout;.passport_layout_dialog_captcha_input:I // field@6377
+40169c: 1202                                   |0006: const/4 v2, #int 0 // #0
+40169e: 7130 f904 1002                         |0007: invoke-static {v0, v1, v2}, Landroid/view/View;.inflate:(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View; // method@04f9
+4016a4: 0c00                                   |000a: move-result-object v0
+4016a6: 6001 1162                              |000b: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$id;.captcha:I // field@6211
+4016aa: 6e20 cd04 1000                         |000d: invoke-virtual {v0, v1}, Landroid/view/View;.findViewById:(I)Landroid/view/View; // method@04cd
+4016b0: 0c01                                   |0010: move-result-object v1
+4016b2: 1f01 b41d                              |0011: check-cast v1, Lcom/xiaomi/passport/ui/view/EditTextGroupView; // type@1db4
+4016b6: 2202 ea1f                              |0013: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+4016ba: 7010 3dcc 0200                         |0015: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4016c0: 6203 d26c                              |0018: sget-object v3, Lcom/xiaomi/accountsdk/account/d;.b:Ljava/lang/String; // field@6cd2
+4016c4: 6e20 47cc 3200                         |001a: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4016ca: 6e20 47cc 5200                         |001d: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4016d0: 6e10 50cc 0200                         |0020: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4016d6: 0c05                                   |0023: move-result-object v5
+4016d8: 6e20 42c1 5100                         |0024: invoke-virtual {v1, v5}, Lcom/xiaomi/passport/ui/view/EditTextGroupView;.setupCaptcha:(Ljava/lang/String;)V // method@c142
+4016de: 2205 941f                              |0027: new-instance v5, Lig/b; // type@1f94
+4016e2: 6e10 cf06 0400                         |0029: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@06cf
+4016e8: 0c02                                   |002c: move-result-object v2
+4016ea: 7020 cbca 2500                         |002d: invoke-direct {v5, v2}, Lig/b;.<init>:(Landroid/content/Context;)V // method@cacb
+4016f0: 6002 d063                              |0030: sget v2, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_captcha_title:I // field@63d0
+4016f4: 6e20 d306 2400                         |0032: invoke-virtual {v4, v2}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+4016fa: 0c02                                   |0035: move-result-object v2
+4016fc: 6e20 d6ca 2500                         |0036: invoke-virtual {v5, v2}, Lig/b;.j:(Ljava/lang/String;)Lig/b; // method@cad6
+401702: 0c02                                   |0039: move-result-object v2
+401704: 6e20 d7ca 0200                         |003a: invoke-virtual {v2, v0}, Lig/b;.k:(Landroid/view/View;)Lig/b; // method@cad7
+40170a: 0c00                                   |003d: move-result-object v0
+40170c: 1402 0a00 0401                         |003e: const v2, #float 2.42446e-38 // #0104000a
+401712: 6e20 d306 2400                         |0041: invoke-virtual {v4, v2}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+401718: 0c02                                   |0044: move-result-object v2
+40171a: 2203 3d1d                              |0045: new-instance v3, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$b; // type@1d3d
+40171e: 7040 e8be 4316                         |0047: invoke-direct {v3, v4, v6, v1}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$b;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$h;Lcom/xiaomi/passport/ui/view/EditTextGroupView;)V // method@bee8
+401724: 6e30 d5ca 2003                         |004a: invoke-virtual {v0, v2, v3}, Lig/b;.i:(Ljava/lang/String;Landroid/view/View$OnClickListener;)Lig/b; // method@cad5
+40172a: 6e10 dcca 0500                         |004d: invoke-virtual {v5}, Lig/b;.show:()V // method@cadc
+401730: 0e00                                   |0050: return-void
+      catches       : (none)
+
+    #13              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 'r0'
+      type          : '(Landroid/content/Context;Landroid/view/LayoutInflater;Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$i;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 5
+      outs          : 4
+      insns size    : 145 16-bit code units
+401734:                                        |[401734] com.xiaomi.passport.ui.page.BaseLoginFragment.r0:(Landroid/content/Context;Landroid/view/LayoutInflater;Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$i;)V
+401744: 6000 7463                              |0000: sget v0, Lcom/xiaomi/account/passportsdk/account_sso/R$layout;.passport_layout_choose_to_signin_signup_dialog:I // field@6374
+401748: 1201                                   |0002: const/4 v1, #int 0 // #0
+40174a: 6e30 a904 0701                         |0003: invoke-virtual {v7, v0, v1}, Landroid/view/LayoutInflater;.inflate:(ILandroid/view/ViewGroup;)Landroid/view/View; // method@04a9
+401750: 0c07                                   |0006: move-result-object v7
+401752: 6000 0863                              |0007: sget v0, Lcom/xiaomi/account/passportsdk/account_sso/R$id;.text_view_user_info:I // field@6308
+401756: 6e20 cd04 0700                         |0009: invoke-virtual {v7, v0}, Landroid/view/View;.findViewById:(I)Landroid/view/View; // method@04cd
+40175c: 0c00                                   |000c: move-result-object v0
+40175e: 1f00 8901                              |000d: check-cast v0, Landroid/widget/TextView; // type@0189
+401762: 6002 d663                              |000f: sget v2, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_nick_name_prefix:I // field@63d6
+401766: 5483 9d6d                              |0011: iget-object v3, v8, Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;.c:Ljava/lang/String; // field@6d9d
+40176a: 7110 7204 0300                         |0013: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+401770: 0a03                                   |0016: move-result v3
+401772: 3803 0500                              |0017: if-eqz v3, 001c // +0005
+401776: 5483 a16d                              |0019: iget-object v3, v8, Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;.g:Ljava/lang/String; // field@6da1
+40177a: 2803                                   |001b: goto 001e // +0003
+40177c: 5483 9d6d                              |001c: iget-object v3, v8, Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;.c:Ljava/lang/String; // field@6d9d
+401780: 2410 6a28 0300                         |001e: filled-new-array {v3}, [Ljava/lang/Object; // type@286a
+401786: 0c03                                   |0021: move-result-object v3
+401788: 6e30 d406 2503                         |0022: invoke-virtual {v5, v2, v3}, Landroidx/fragment/app/Fragment;.getString:(I[Ljava/lang/Object;)Ljava/lang/String; // method@06d4
+40178e: 0c02                                   |0025: move-result-object v2
+401790: 6003 d763                              |0026: sget v3, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_phone_number_prefix:I // field@63d7
+401794: 5484 a06d                              |0028: iget-object v4, v8, Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;.f:Ljava/lang/String; // field@6da0
+401798: 2410 6a28 0400                         |002a: filled-new-array {v4}, [Ljava/lang/Object; // type@286a
+40179e: 0c04                                   |002d: move-result-object v4
+4017a0: 6e30 d406 3504                         |002e: invoke-virtual {v5, v3, v4}, Landroidx/fragment/app/Fragment;.getString:(I[Ljava/lang/Object;)Ljava/lang/String; // method@06d4
+4017a6: 0c03                                   |0031: move-result-object v3
+4017a8: 1a04 5601                              |0032: const-string v4, "%s\n%s" // string@0156
+4017ac: 2420 6a28 3200                         |0034: filled-new-array {v2, v3}, [Ljava/lang/Object; // type@286a
+4017b2: 0c02                                   |0037: move-result-object v2
+4017b4: 7120 0bcc 2400                         |0038: invoke-static {v4, v2}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+4017ba: 0c02                                   |003b: move-result-object v2
+4017bc: 6e20 7806 2000                         |003c: invoke-virtual {v0, v2}, Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V // method@0678
+4017c2: 5480 9e6d                              |003f: iget-object v0, v8, Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;.d:Ljava/lang/String; // field@6d9e
+4017c6: 7110 7204 0000                         |0041: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+4017cc: 0a00                                   |0044: move-result v0
+4017ce: 3900 1f00                              |0045: if-nez v0, 0064 // +001f
+4017d2: 5450 57d4                              |0047: iget-object v0, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i:Lzf/a; // field@d457
+4017d6: 3800 0700                              |0049: if-eqz v0, 0050 // +0007
+4017da: 6e10 b6dd 0000                         |004b: invoke-virtual {v0}, Lzf/a;.a:()V // method@ddb6
+4017e0: 5b51 57d4                              |004e: iput-object v1, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i:Lzf/a; // field@d457
+4017e4: 2200 e623                              |0050: new-instance v0, Lzf/a; // type@23e6
+4017e8: 2202 3e1d                              |0052: new-instance v2, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$c; // type@1d3e
+4017ec: 7030 eabe 5208                         |0054: invoke-direct {v2, v5, v8}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$c;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Lcom/xiaomi/accountsdk/account/data/RegisterUserInfo;)V // method@beea
+4017f2: 2208 3f1d                              |0057: new-instance v8, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$d; // type@1d3f
+4017f6: 7030 edbe 5807                         |0059: invoke-direct {v8, v5, v7}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$d;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Landroid/view/View;)V // method@beed
+4017fc: 7040 b5dd 2018                         |005c: invoke-direct {v0, v2, v8, v1}, Lzf/a;.<init>:(Lzf/a$a;Lzf/a$d;Lzf/a$b;)V // method@ddb5
+401802: 5b50 57d4                              |005f: iput-object v0, v5, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.i:Lzf/a; // field@d457
+401806: 6e10 b8dd 0000                         |0061: invoke-virtual {v0}, Lzf/a;.c:()V // method@ddb8
+40180c: 2208 941f                              |0064: new-instance v8, Lig/b; // type@1f94
+401810: 7020 cbca 6800                         |0066: invoke-direct {v8, v6}, Lig/b;.<init>:(Landroid/content/Context;)V // method@cacb
+401816: 6006 d463                              |0069: sget v6, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_is_your_mi_account:I // field@63d4
+40181a: 6e20 daca 6800                         |006b: invoke-virtual {v8, v6}, Lig/b;.setTitle:(I)V // method@cada
+401820: 6e20 d7ca 7800                         |006e: invoke-virtual {v8, v7}, Lig/b;.k:(Landroid/view/View;)Lig/b; // method@cad7
+401826: 6006 d863                              |0071: sget v6, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_register_other:I // field@63d8
+40182a: 6e20 d306 6500                         |0073: invoke-virtual {v5, v6}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+401830: 0c06                                   |0076: move-result-object v6
+401832: 2207 401d                              |0077: new-instance v7, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$e; // type@1d40
+401836: 7030 f0be 5709                         |0079: invoke-direct {v7, v5, v9}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$e;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$i;)V // method@bef0
+40183c: 6e30 d4ca 6807                         |007c: invoke-virtual {v8, v6, v7}, Lig/b;.h:(Ljava/lang/String;Landroid/view/View$OnClickListener;)Lig/b; // method@cad4
+401842: 6006 d363                              |007f: sget v6, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_dialog_is_my_account:I // field@63d3
+401846: 6e20 d306 6500                         |0081: invoke-virtual {v5, v6}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@06d3
+40184c: 0c06                                   |0084: move-result-object v6
+40184e: 2207 411d                              |0085: new-instance v7, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$f; // type@1d41
+401852: 7030 f2be 5709                         |0087: invoke-direct {v7, v5, v9}, Lcom/xiaomi/passport/ui/page/BaseLoginFragment$f;.<init>:(Lcom/xiaomi/passport/ui/page/BaseLoginFragment;Lcom/xiaomi/passport/ui/page/BaseLoginFragment$i;)V // method@bef2
+401858: 6e30 d5ca 6807                         |008a: invoke-virtual {v8, v6, v7}, Lig/b;.i:(Ljava/lang/String;Landroid/view/View$OnClickListener;)Lig/b; // method@cad5
+40185e: 6e10 dcca 0800                         |008d: invoke-virtual {v8}, Lig/b;.show:()V // method@cadc
+401864: 0e00                                   |0090: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/xiaomi/passport/ui/page/BaseLoginFragment;)
+      name          : 's0'
+      type          : '(Ljava/lang/String;Lbh/a$o;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 14 16-bit code units
+401868:                                        |[401868] com.xiaomi.passport.ui.page.BaseLoginFragment.s0:(Ljava/lang/String;Lbh/a$o;)V
+401878: 5400 50d4                              |0000: iget-object v0, v0, Lcom/xiaomi/passport/ui/page/BaseLoginFragment;.b:Lbh/a; // field@d450
+40187c: 6e20 d907 1000                         |0002: invoke-virtual {v0, v1}, Lbh/a;.o0:(Ljava/lang/String;)Lbh/a; // method@07d9
+401882: 0c00                                   |0005: move-result-object v0
+401884: 6e20 dd07 2000                         |0006: invoke-virtual {v0, v2}, Lbh/a;.s0:(Lbh/a$o;)Lbh/a; // method@07dd
+40188a: 0c00                                   |0009: move-result-object v0
+40188c: 6e10 de07 0000                         |000a: invoke-virtual {v0}, Lbh/a;.y0:()V // method@07de
+401892: 0e00                                   |000d: return-void
+      catches       : (none)
+
+  source_file_idx   : 3283 (BaseLoginFragment.java)
+

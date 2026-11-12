@@ -1,0 +1,55 @@
+Class #4350            -
+  Class descriptor  : 'Lio/reactivex/exceptions/OnErrorNotImplementedException;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/RuntimeException;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lio/reactivex/exceptions/OnErrorNotImplementedException;)
+      name          : 'serialVersionUID'
+      type          : 'J'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : -6298857009889503852
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lio/reactivex/exceptions/OnErrorNotImplementedException;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/Throwable;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 12 16-bit code units
+48f73c:                                        |[48f73c] io.reactivex.exceptions.OnErrorNotImplementedException.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V
+48f74c: 3802 0300                              |0000: if-eqz v2, 0003 // +0003
+48f750: 2806                                   |0002: goto 0008 // +0006
+48f752: 2202 3c1d                              |0003: new-instance v2, Ljava/lang/NullPointerException; // type@1d3c
+48f756: 7010 28bc 0200                         |0005: invoke-direct {v2}, Ljava/lang/NullPointerException;.<init>:()V // method@bc28
+48f75c: 7030 46bc 1002                         |0008: invoke-direct {v0, v1, v2}, Ljava/lang/RuntimeException;.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@bc46
+48f762: 0e00                                   |000b: return-void
+      catches       : (none)
+
+    #1              : (in Lio/reactivex/exceptions/OnErrorNotImplementedException;)
+      name          : '<init>'
+      type          : '(Ljava/lang/Throwable;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 21 16-bit code units
+48f764:                                        |[48f764] io.reactivex.exceptions.OnErrorNotImplementedException.<init>:(Ljava/lang/Throwable;)V
+48f774: 2200 4f1d                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1d4f
+48f778: 7010 9abc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+48f77e: 1a01 736f                              |0005: const-string v1, "The exception was not handled due to missing onError handler in the subscribe() method call. Further reading: https://github.com/ReactiveX/RxJava/wiki/Error-Handling | " // string@6f73
+48f782: 6e20 a5bc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+48f788: 6e20 a4bc 3000                         |000a: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@bca4
+48f78e: 6e10 b7bc 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+48f794: 0c00                                   |0010: move-result-object v0
+48f796: 7030 94b5 0203                         |0011: invoke-direct {v2, v0, v3}, Lio/reactivex/exceptions/OnErrorNotImplementedException;.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@b594
+48f79c: 0e00                                   |0014: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 23821 (OnErrorNotImplementedException.java)
+

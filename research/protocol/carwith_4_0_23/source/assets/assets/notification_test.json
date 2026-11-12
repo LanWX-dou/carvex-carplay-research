@@ -1,0 +1,57 @@
+{
+  "msgType": "IOT_REMINDER",
+  "msgSubType": "SUB_IOT_TEMPERATURE",
+  "icon": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoailite-ios/XiaoAiSuggestion/env.png",
+  "isGeneralLayout": false,
+  "msgSendTimestamp": 1591181058303,
+  "msgReadTimestamp": 0,
+  "msgExpectSendTimestamp": 0,
+  "msgExpirationSecond": 1800,
+  "msgId": "24c57098e2fe44b3881c66606f26600b",
+  "payload": [
+    {
+      "iotCard": {
+        "iotType": "TEMPERATURE_HIGH",
+        "title": "外面34°C，开制冷吧？",
+        "devices": [
+          {
+            "deviceIcon": "https://file.xiaomixiaoai.com/anonymous/file/816fe2d63800400f92e40fc5",
+            "deviceName": "卧室空调",
+            "room": "卧室",
+            "totalDeviceCount": 1,
+            "description": "卧室",
+            "openButton": {
+              "text": "打开设备",
+              "type": "URL",
+              "action": "NONE",
+              "value": "https://preview4test-api.ai.xiaomi.com/ext/setproperty",
+              "icon": "",
+              "params": {
+                "control_data": "[{\"setdata\":{\"properties\":[{\"pid\":\"urn:miot-spec-v2:device:air-conditioner:0000A004:lumi-v2:1.2.1\",\"value\":true},{\"pid\":\"urn:miot-spec-v2:device:air-conditioner:0000A004:lumi-v2:1.2.1\",\"value\":true}],\"sort\":{}},\"devtypenames\":[],\"userinfo\":{\"id\":\"1208488791\",\"id_type\":\"xiaomi_id\",\"gender\":\"unknown\"},\"appid\":\"9947163763053218\",\"device\":{\"ip\":\"\",\"model\":\"unknown\",\"network\":\"unknown\",\"category\":\"air-conditioner\",\"device_id\":\"M1GAxtaW9A0LXNwZWMtdjIViIAFGAdsdW1pLXYyFRQYCDU2NTgyMzAwFZQGAA\"}}]",
+                "method": "POST"
+              }
+            }
+          }
+        ],
+        "cardButton": {
+          "text": "",
+          "type": "INTENT",
+          "action": "NONE",
+          "value": "intent://home.mi.com/device/lumi.acpartner.v3/?did\u003d83812480#Intent;scheme\u003dmihome;end",
+          "icon": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoailite-ios/XiaoAiSuggestion/env.png",
+          "params": {
+            "intentType": "ACTIVITY",
+            "minVersion": "305011000",
+            "pkgName": "com.xiaomi.smarthome"
+          }
+        }
+      }
+    }
+  ],
+  "debugInfo": "",
+  "notify": {
+    "title": "外面34°C，开制冷吧？",
+    "desc": "",
+    "body": "卧室空调 | 卧室"
+  }
+}

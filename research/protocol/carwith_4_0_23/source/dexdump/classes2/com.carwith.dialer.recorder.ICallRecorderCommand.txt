@@ -1,0 +1,65 @@
+Class #162            -
+  Class descriptor  : 'Lcom/carwith/dialer/recorder/ICallRecorderCommand;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+    #0              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'DESCRIPTOR'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "com.carwith.dialer.recorder.ICallRecorderCommand"
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'basicTypes'
+      type          : '(IJZFDLjava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'checkCallRecordTime'
+      type          : '()J'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'isBound'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'isRecording'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'registerCallback'
+      type          : '(Lcom/carwith/dialer/recorder/IRecorderCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'startCallRecord'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'stopCallRecord'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lcom/carwith/dialer/recorder/ICallRecorderCommand;)
+      name          : 'unregisterCallback'
+      type          : '(Lcom/carwith/dialer/recorder/IRecorderCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 6791 (ICallRecorderCommand.java)
+

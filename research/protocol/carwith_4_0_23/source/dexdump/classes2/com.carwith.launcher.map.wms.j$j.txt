@@ -1,0 +1,66 @@
+Class #3468            -
+  Class descriptor  : 'Lcom/carwith/launcher/map/wms/j$j;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Llc/b$b;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/map/wms/j$j;)
+      name          : 'a'
+      type          : 'Lcom/carwith/launcher/map/wms/j$d0;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #1              : (in Lcom/carwith/launcher/map/wms/j$j;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #2              : (in Lcom/carwith/launcher/map/wms/j$j;)
+      name          : 'c'
+      type          : 'Lcom/carwith/launcher/map/wms/j;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/map/wms/j$j;)
+      name          : '<init>'
+      type          : '(Lcom/carwith/launcher/map/wms/j;Lcom/carwith/launcher/map/wms/j$d0;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 1
+      insns size    : 10 16-bit code units
+1d2058:                                        |[1d2058] com.carwith.launcher.map.wms.j$j.<init>:(Lcom/carwith/launcher/map/wms/j;Lcom/carwith/launcher/map/wms/j$d0;Ljava/lang/String;)V
+1d2068: 5b01 77c7                              |0000: iput-object v1, v0, Lcom/carwith/launcher/map/wms/j$j;.c:Lcom/carwith/launcher/map/wms/j; // field@c777
+1d206c: 5b02 75c7                              |0002: iput-object v2, v0, Lcom/carwith/launcher/map/wms/j$j;.a:Lcom/carwith/launcher/map/wms/j$d0; // field@c775
+1d2070: 5b03 76c7                              |0004: iput-object v3, v0, Lcom/carwith/launcher/map/wms/j$j;.b:Ljava/lang/String; // field@c776
+1d2074: 7010 8c81 0000                         |0006: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+1d207a: 0e00                                   |0009: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/map/wms/j$j;)
+      name          : 'a'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 25 16-bit code units
+1d207c:                                        |[1d207c] com.carwith.launcher.map.wms.j$j.a:(Landroid/os/Bundle;)V
+1d208c: 3802 1000                              |0000: if-eqz v2, 0010 // +0010
+1d2090: 1a00 38c2                              |0002: const-string v0, "ucar.map.bundle.IS_NAV_ON" // string@c238
+1d2094: 6e20 3304 0200                         |0004: invoke-virtual {v2, v0}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@0433
+1d209a: 0a02                                   |0007: move-result v2
+1d209c: 5410 75c7                              |0008: iget-object v0, v1, Lcom/carwith/launcher/map/wms/j$j;.a:Lcom/carwith/launcher/map/wms/j$d0; // field@c775
+1d20a0: 5411 76c7                              |000a: iget-object v1, v1, Lcom/carwith/launcher/map/wms/j$j;.b:Ljava/lang/String; // field@c776
+1d20a4: 7230 d925 2001                         |000c: invoke-interface {v0, v2, v1}, Lcom/carwith/launcher/map/wms/j$d0;.onNavCallback:(ZLjava/lang/String;)V // method@25d9
+1d20aa: 2809                                   |000f: goto 0018 // +0009
+1d20ac: 5412 75c7                              |0010: iget-object v2, v1, Lcom/carwith/launcher/map/wms/j$j;.a:Lcom/carwith/launcher/map/wms/j$d0; // field@c775
+1d20b0: 1200                                   |0012: const/4 v0, #int 0 // #0
+1d20b2: 5411 76c7                              |0013: iget-object v1, v1, Lcom/carwith/launcher/map/wms/j$j;.b:Ljava/lang/String; // field@c776
+1d20b6: 7230 d925 0201                         |0015: invoke-interface {v2, v0, v1}, Lcom/carwith/launcher/map/wms/j$d0;.onNavCallback:(ZLjava/lang/String;)V // method@25d9
+1d20bc: 0e00                                   |0018: return-void
+      catches       : (none)
+
+  source_file_idx   : 15386 (MapStarterHelper.java)
+

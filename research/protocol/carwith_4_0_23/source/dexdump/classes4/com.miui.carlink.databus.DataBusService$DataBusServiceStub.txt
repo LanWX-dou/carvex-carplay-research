@@ -1,0 +1,861 @@
+Class #1674            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Lcom/miui/carlink/databus/IDataBusService$Stub;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'this$0'
+      type          : 'Lcom/miui/carlink/databus/DataBusService;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : '<init>'
+      type          : '(Lcom/miui/carlink/databus/DataBusService;)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+115678:                                        |[115678] com.miui.carlink.databus.DataBusService$DataBusServiceStub.<init>:(Lcom/miui/carlink/databus/DataBusService;)V
+115688: 5b01 7d39                              |0000: iput-object v1, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+11568c: 7010 990f 0000                         |0002: invoke-direct {v0}, Lcom/miui/carlink/databus/IDataBusService$Stub;.<init>:()V // method@0f99
+115692: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : '<init>'
+      type          : '(Lcom/miui/carlink/databus/DataBusService;Lcom/miui/carlink/databus/k;)V'
+      access        : 0x11001 (PUBLIC SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 4 16-bit code units
+115694:                                        |[115694] com.miui.carlink.databus.DataBusService$DataBusServiceStub.<init>:(Lcom/miui/carlink/databus/DataBusService;Lcom/miui/carlink/databus/k;)V
+1156a4: 7020 f60e 1000                         |0000: invoke-direct {v0, v1}, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.<init>:(Lcom/miui/carlink/databus/DataBusService;)V // method@0ef6
+1156aa: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'backToCarForeground'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 11 16-bit code units
+1156ac:                                        |[1156ac] com.miui.carlink.databus.DataBusService$DataBusServiceStub.backToCarForeground:()V
+1156bc: 5411 7d39                              |0000: iget-object v1, v1, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1156c0: 7110 220f 0100                         |0002: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+1156c6: 0c01                                   |0005: move-result-object v1
+1156c8: 1230                                   |0006: const/4 v0, #int 3 // #3
+1156ca: 6e20 d30e 0100                         |0007: invoke-virtual {v1, v0}, Lcom/miui/carlink/databus/ControlChannel;.notifyMirrorStateByUser:(I)V // method@0ed3
+1156d0: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'getCarLifeCallActive'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+11547c:                                        |[11547c] com.miui.carlink.databus.DataBusService$DataBusServiceStub.getCarLifeCallActive:()Z
+11548c: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115492: 0c00                                   |0003: move-result-object v0
+115494: 6e10 5106 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.s:()Z // method@0651
+11549a: 0a00                                   |0007: move-result v0
+11549c: 0f00                                   |0008: return v0
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'getIsCarMicMute'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+1154a0:                                        |[1154a0] com.miui.carlink.databus.DataBusService$DataBusServiceStub.getIsCarMicMute:()Z
+1154b0: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+1154b6: 0c00                                   |0003: move-result-object v0
+1154b8: 6e10 5306 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.v:()Z // method@0653
+1154be: 0a00                                   |0007: move-result v0
+1154c0: 0f00                                   |0008: return v0
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'getIsCompleteCallSwitch'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+1154c4:                                        |[1154c4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.getIsCompleteCallSwitch:()Z
+1154d4: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+1154da: 0c00                                   |0003: move-result-object v0
+1154dc: 6e10 5406 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.w:()Z // method@0654
+1154e2: 0a00                                   |0007: move-result v0
+1154e4: 0f00                                   |0008: return v0
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'getIsPhoneAudio'
+      type          : '()[Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+115630:                                        |[115630] com.miui.carlink.databus.DataBusService$DataBusServiceStub.getIsPhoneAudio:()[Z
+115640: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115646: 0c00                                   |0003: move-result-object v0
+115648: 6e10 5506 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.x:()[Z // method@0655
+11564e: 0c00                                   |0007: move-result-object v0
+115650: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'goToCarDesktop'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 11 16-bit code units
+1156d4:                                        |[1156d4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.goToCarDesktop:()V
+1156e4: 5411 7d39                              |0000: iget-object v1, v1, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1156e8: 7110 220f 0100                         |0002: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+1156ee: 0c01                                   |0005: move-result-object v1
+1156f0: 1220                                   |0006: const/4 v0, #int 2 // #2
+1156f2: 6e20 d30e 0100                         |0007: invoke-virtual {v1, v0}, Lcom/miui/carlink/databus/ControlChannel;.notifyMirrorStateByUser:(I)V // method@0ed3
+1156f8: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'notifyDisconnectByUser'
+      type          : '(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 10 16-bit code units
+1156fc:                                        |[1156fc] com.miui.carlink.databus.DataBusService$DataBusServiceStub.notifyDisconnectByUser:(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V
+11570c: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115710: 7110 220f 0000                         |0002: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+115716: 0c00                                   |0005: move-result-object v0
+115718: 6e20 ce0e 1000                         |0006: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/ControlChannel;.notifyDisconnectByUser:(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V // method@0ece
+11571e: 0e00                                   |0009: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'notifyRotationChanged'
+      type          : '(I)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 24 16-bit code units
+1154e8:                                        |[1154e8] com.miui.carlink.databus.DataBusService$DataBusServiceStub.notifyRotationChanged:(I)Z
+1154f8: 2201 7e07                              |0000: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+1154fc: 7010 7b34 0100                         |0002: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+115502: 1a00 7861                              |0005: const-string v0, "rotation=" // string@6178
+115506: 6e20 8434 0100                         |0007: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+11550c: 6e20 8134 2100                         |000a: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+115512: 6e10 8b34 0100                         |000d: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+115518: 0c01                                   |0010: move-result-object v1
+11551a: 1a02 770c                              |0011: const-string v2, "DataBusService" // string@0c77
+11551e: 7120 5907 1200                         |0013: invoke-static {v2, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+115524: 1211                                   |0016: const/4 v1, #int 1 // #1
+115526: 0f01                                   |0017: return v1
+      catches       : (none)
+
+    #8              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'readAssistantRecorderData'
+      type          : '([B)I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 9 16-bit code units
+115654:                                        |[115654] com.miui.carlink.databus.DataBusService$DataBusServiceStub.readAssistantRecorderData:([B)I
+115664: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+11566a: 0c00                                   |0003: move-result-object v0
+11566c: 6e20 4306 1000                         |0004: invoke-virtual {v0, v1}, Lcom/carwith/audio/PhoneAudioCast;.B:([B)I // method@0643
+115672: 0a00                                   |0007: move-result v0
+115674: 0f00                                   |0008: return v0
+      catches       : (none)
+
+    #9              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'registCarSensorObserver'
+      type          : '(Lcom/miui/carlink/databus/IDataObserver;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 52 16-bit code units
+115528:                                        |[115528] com.miui.carlink.databus.DataBusService$DataBusServiceStub.registCarSensorObserver:(Lcom/miui/carlink/databus/IDataObserver;)Z
+115538: 5420 7d39                              |0000: iget-object v0, v2, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+11553c: 7110 250f 0000                         |0002: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.e:(Lcom/miui/carlink/databus/DataBusService;)Ljava/lang/Object; // method@0f25
+115542: 0c00                                   |0005: move-result-object v0
+115544: 1d00                                   |0006: monitor-enter v0
+115546: 5421 7d39                              |0007: iget-object v1, v2, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+11554a: 7120 280f 3100                         |0009: invoke-static {v1, v3}, Lcom/miui/carlink/databus/DataBusService;.h:(Lcom/miui/carlink/databus/DataBusService;Lcom/miui/carlink/databus/IDataObserver;)V // method@0f28
+115550: 5421 7d39                              |000c: iget-object v1, v2, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115554: 7110 230f 0100                         |000e: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.c:(Lcom/miui/carlink/databus/DataBusService;)Ljava/util/ArrayList; // method@0f23
+11555a: 0c01                                   |0011: move-result-object v1
+11555c: 6e20 5035 3100                         |0012: invoke-virtual {v1, v3}, Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z // method@3550
+115562: 7100 f627 0000                         |0015: invoke-static {}, Lcom/miui/carlink/databus/r;.h:()Lcom/miui/carlink/databus/r; // method@27f6
+115568: 0c01                                   |0018: move-result-object v1
+11556a: 6e20 ff27 3100                         |0019: invoke-virtual {v1, v3}, Lcom/miui/carlink/databus/r;.q:(Lcom/miui/carlink/databus/IDataObserver;)V // method@27ff
+115570: 5421 7d39                              |001c: iget-object v1, v2, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115574: 7110 ac0e 0100                         |001e: invoke-static {v1}, Lcom/miui/carlink/databus/ControlChannel;.getInstance:(Landroid/content/Context;)Lcom/miui/carlink/databus/ControlChannel; // method@0eac
+11557a: 0c01                                   |0021: move-result-object v1
+11557c: 6e20 f00e 3100                         |0022: invoke-virtual {v1, v3}, Lcom/miui/carlink/databus/ControlChannel;.setObserver:(Lcom/miui/carlink/databus/IDataObserver;)V // method@0ef0
+115582: 5422 7d39                              |0025: iget-object v2, v2, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115586: 7110 ef28 0200                         |0027: invoke-static {v2}, Lcom/miui/carlink/databus/u;.p:(Landroid/content/Context;)Lcom/miui/carlink/databus/u; // method@28ef
+11558c: 0c02                                   |002a: move-result-object v2
+11558e: 6e20 d728 3200                         |002b: invoke-virtual {v2, v3}, Lcom/miui/carlink/databus/u;.H:(Lcom/miui/carlink/databus/IDataObserver;)V // method@28d7
+115594: 1e00                                   |002e: monitor-exit v0
+115596: 1212                                   |002f: const/4 v2, #int 1 // #1
+115598: 0f02                                   |0030: return v2
+11559a: 0d02                                   |0031: move-exception v2
+11559c: 1e00                                   |0032: monitor-exit v0
+11559e: 2702                                   |0033: throw v2
+      catches       : 1
+        0x0007 - 0x0033
+          <any> -> 0x0031
+
+    #10              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'registerChannelCreationCallback'
+      type          : '(Lcom/miui/carlink/databus/IChannelCreationCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 6 16-bit code units
+115720:                                        |[115720] com.miui.carlink.databus.DataBusService$DataBusServiceStub.registerChannelCreationCallback:(Lcom/miui/carlink/databus/IChannelCreationCallback;)V
+115730: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115734: 7120 270f 1000                         |0002: invoke-static {v0, v1}, Lcom/miui/carlink/databus/DataBusService;.g:(Lcom/miui/carlink/databus/DataBusService;Lcom/miui/carlink/databus/IChannelCreationCallback;)V // method@0f27
+11573a: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'registerPauseAndResumeVideoStreamCallback'
+      type          : '(Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 6 16-bit code units
+11573c:                                        |[11573c] com.miui.carlink.databus.DataBusService$DataBusServiceStub.registerPauseAndResumeVideoStreamCallback:(Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;)V
+11574c: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115750: 7120 290f 1000                         |0002: invoke-static {v0, v1}, Lcom/miui/carlink/databus/DataBusService;.i:(Lcom/miui/carlink/databus/DataBusService;Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;)V // method@0f29
+115756: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendAppListChanged'
+      type          : '([ILjava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 9
+      ins           : 3
+      outs          : 3
+      insns size    : 116 16-bit code units
+115758:                                        |[115758] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendAppListChanged:([ILjava/lang/String;)V
+115768: 2200 d907                              |0000: new-instance v0, Ljava/util/ArrayList; // type@07d9
+11576c: 7010 4c35 0000                         |0002: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@354c
+115772: 2171                                   |0005: array-length v1, v7
+115774: 1202                                   |0006: const/4 v2, #int 0 // #0
+115776: 0123                                   |0007: move v3, v2
+115778: 3513 0e00                              |0008: if-ge v3, v1, 0016 // +000e
+11577c: 4404 0703                              |000a: aget v4, v7, v3
+115780: 7110 1934 0400                         |000c: invoke-static {v4}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@3419
+115786: 0c04                                   |000f: move-result-object v4
+115788: 7220 a435 4000                         |0010: invoke-interface {v0, v4}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@35a4
+11578e: d803 0301                              |0013: add-int/lit8 v3, v3, #int 1 // #01
+115792: 28f3                                   |0015: goto 0008 // -000d
+115794: 6e10 5834 0800                         |0016: invoke-virtual {v8}, Ljava/lang/String;.hashCode:()I // method@3458
+11579a: 6e10 5834 0800                         |0019: invoke-virtual {v8}, Ljava/lang/String;.hashCode:()I // method@3458
+1157a0: 0a01                                   |001c: move-result v1
+1157a2: 1223                                   |001d: const/4 v3, #int 2 // #2
+1157a4: 1214                                   |001e: const/4 v4, #int 1 // #1
+1157a6: 12f5                                   |001f: const/4 v5, #int -1 // #ff
+1157a8: 2c01 3c00 0000                         |0020: sparse-switch v1, 0000005c // +0000003c
+1157ae: 2821                                   |0023: goto 0044 // +0021
+1157b0: 1a01 fd31                              |0024: const-string v1, "android.intent.action.PACKAGE_ADDED" // string@31fd
+1157b4: 6e20 5034 1800                         |0026: invoke-virtual {v8, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+1157ba: 0a01                                   |0029: move-result v1
+1157bc: 3901 0300                              |002a: if-nez v1, 002d // +0003
+1157c0: 2818                                   |002c: goto 0044 // +0018
+1157c2: 0135                                   |002d: move v5, v3
+1157c4: 2816                                   |002e: goto 0044 // +0016
+1157c6: 1a01 fe31                              |002f: const-string v1, "android.intent.action.PACKAGE_REMOVED" // string@31fe
+1157ca: 6e20 5034 1800                         |0031: invoke-virtual {v8, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+1157d0: 0a01                                   |0034: move-result v1
+1157d2: 3901 0300                              |0035: if-nez v1, 0038 // +0003
+1157d6: 280d                                   |0037: goto 0044 // +000d
+1157d8: 0145                                   |0038: move v5, v4
+1157da: 280b                                   |0039: goto 0044 // +000b
+1157dc: 1a01 ff31                              |003a: const-string v1, "android.intent.action.PACKAGE_REPLACED" // string@31ff
+1157e0: 6e20 5034 1800                         |003c: invoke-virtual {v8, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+1157e6: 0a01                                   |003f: move-result v1
+1157e8: 3901 0300                              |0040: if-nez v1, 0043 // +0003
+1157ec: 2802                                   |0042: goto 0044 // +0002
+1157ee: 0125                                   |0043: move v5, v2
+1157f0: 2b05 2600 0000                         |0044: packed-switch v5, 0000006a // +00000026
+1157f6: 2804                                   |0047: goto 004b // +0004
+1157f8: 0142                                   |0048: move v2, v4
+1157fa: 2802                                   |0049: goto 004b // +0002
+1157fc: 0132                                   |004a: move v2, v3
+1157fe: 7100 a806 0000                         |004b: invoke-static {}, Lcom/carwith/common/utils/d0;.Y:()Lcom/carwith/common/utils/d0; // method@06a8
+115804: 0c01                                   |004e: move-result-object v1
+115806: 6e30 b106 7108                         |004f: invoke-virtual {v1, v7, v8}, Lcom/carwith/common/utils/d0;.s0:([ILjava/lang/String;)V // method@06b1
+11580c: 5466 7d39                              |0052: iget-object v6, v6, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115810: 7110 220f 0600                         |0054: invoke-static {v6}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+115816: 0c06                                   |0057: move-result-object v6
+115818: 6e30 df0e 0602                         |0058: invoke-virtual {v6, v0, v2}, Lcom/miui/carlink/databus/ControlChannel;.sendAppListChanged:(Ljava/util/List;I)V // method@0edf
+11581e: 0e00                                   |005b: return-void
+115820: 0002 0300 ee2e b1cf c2b9 501f e276 ... |005c: sparse-switch-data (14 units)
+11583c: 0001 0300 0000 0000 0600 0000 0400 ... |006a: packed-switch-data (10 units)
+      catches       : (none)
+
+    #13              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendAppStateChanged'
+      type          : '(IIZIJLcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 19
+      ins           : 9
+      outs          : 9
+      insns size    : 90 16-bit code units
+115850:                                        |[115850] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendAppStateChanged:(IIZIJLcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;Z)V
+115860: 07a0                                   |0000: move-object v0, v10
+115862: 5400 7d39                              |0001: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115866: 7110 220f 0000                         |0003: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+11586c: 0c01                                   |0006: move-result-object v1
+11586e: 3811 4600                              |0007: if-eqz v17, 004d // +0046
+115872: 7100 371b 0000                         |0009: invoke-static {}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion;.newBuilder:()Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b37
+115878: 0c00                                   |000c: move-result-object v0
+11587a: 7801 4410 1100                         |000d: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getMode:()I // method@1044
+115880: 0a02                                   |0010: move-result v2
+115882: 6e20 121b 2000                         |0011: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setMode:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b12
+115888: 0c00                                   |0014: move-result-object v0
+11588a: 7801 4610 1100                         |0015: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getOriginWidth:()I // method@1046
+115890: 0a02                                   |0018: move-result v2
+115892: 6e20 141b 2000                         |0019: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setOriginWidth:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b14
+115898: 0c00                                   |001c: move-result-object v0
+11589a: 7801 4510 1100                         |001d: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getOriginHeight:()I // method@1045
+1158a0: 0a02                                   |0020: move-result v2
+1158a2: 6e20 131b 2000                         |0021: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setOriginHeight:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b13
+1158a8: 0c00                                   |0024: move-result-object v0
+1158aa: 7801 4310 1100                         |0025: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getLeft:()I // method@1043
+1158b0: 0a02                                   |0028: move-result v2
+1158b2: 6e20 111b 2000                         |0029: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setLeft:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b11
+1158b8: 0c00                                   |002c: move-result-object v0
+1158ba: 7801 4810 1100                         |002d: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getTop:()I // method@1048
+1158c0: 0a02                                   |0030: move-result v2
+1158c2: 6e20 161b 2000                         |0031: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setTop:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b16
+1158c8: 0c00                                   |0034: move-result-object v0
+1158ca: 7801 4710 1100                         |0035: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getRight:()I // method@1047
+1158d0: 0a02                                   |0038: move-result v2
+1158d2: 6e20 151b 2000                         |0039: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setRight:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b15
+1158d8: 0c00                                   |003c: move-result-object v0
+1158da: 7801 4210 1100                         |003d: invoke-interface/range {v17}, Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;.getBottom:()I // method@1042
+1158e0: 0a02                                   |0040: move-result v2
+1158e2: 6e20 101b 2000                         |0041: invoke-virtual {v0, v2}, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder;.setBottom:(I)Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion$Builder; // method@1b10
+1158e8: 0c00                                   |0044: move-result-object v0
+1158ea: 6e10 8e07 0000                         |0045: invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;.build:()Lcom/google/protobuf/GeneratedMessageLite; // method@078e
+1158f0: 0c00                                   |0048: move-result-object v0
+1158f2: 1f00 f703                              |0049: check-cast v0, Lcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion; // type@03f7
+1158f6: 0708                                   |004b: move-object v8, v0
+1158f8: 2803                                   |004c: goto 004f // +0003
+1158fa: 1200                                   |004d: const/4 v0, #int 0 // #0
+1158fc: 28fd                                   |004e: goto 004b // -0003
+1158fe: 01b2                                   |004f: move v2, v11
+115900: 01c3                                   |0050: move v3, v12
+115902: 01d4                                   |0051: move v4, v13
+115904: 01e5                                   |0052: move v5, v14
+115906: 04f6                                   |0053: move-wide v6, v15
+115908: 0209 1200                              |0054: move/from16 v9, v18
+11590c: 7409 e10e 0100                         |0056: invoke-virtual/range {v1, v2, v3, v4, v5, v6, v7, v8, v9}, Lcom/miui/carlink/databus/ControlChannel;.sendAppStateChanged:(IIZIJLcom/miui/carlink/databus/proto/UCarProto$DisplayVisibleRegion;Z)V // method@0ee1
+115912: 0e00                                   |0059: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendMicrophoneState'
+      type          : '(ZIII)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 5
+      insns size    : 10 16-bit code units
+115914:                                        |[115914] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendMicrophoneState:(ZIII)V
+115924: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115928: 7110 220f 0000                         |0002: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+11592e: 0c00                                   |0005: move-result-object v0
+115930: 6e54 e50e 1032                         |0006: invoke-virtual {v0, v1, v2, v3, v4}, Lcom/miui/carlink/databus/ControlChannel;.sendMicrophoneState:(ZIII)Z // method@0ee5
+115936: 0e00                                   |0009: return-void
+      catches       : (none)
+
+    #15              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendMusicInfoToCar'
+      type          : '(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 13 16-bit code units
+1155ac:                                        |[1155ac] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendMusicInfoToCar:(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)Z
+1155bc: 3801 0b00                              |0000: if-eqz v1, 000b // +000b
+1155c0: 5400 7d39                              |0002: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1155c4: 7110 220f 0000                         |0004: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+1155ca: 0c00                                   |0007: move-result-object v0
+1155cc: 6e20 e70e 1000                         |0008: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/ControlChannel;.sendMusicInfo:(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)V // method@0ee7
+1155d2: 1200                                   |000b: const/4 v0, #int 0 // #0
+1155d4: 0f00                                   |000c: return v0
+      catches       : (none)
+
+    #16              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendNavigationInfoToCar'
+      type          : '(Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 13 16-bit code units
+1155d8:                                        |[1155d8] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendNavigationInfoToCar:(Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)Z
+1155e8: 3801 0b00                              |0000: if-eqz v1, 000b // +000b
+1155ec: 5400 7d39                              |0002: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1155f0: 7110 220f 0000                         |0004: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+1155f6: 0c00                                   |0007: move-result-object v0
+1155f8: 6e20 e80e 1000                         |0008: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/ControlChannel;.sendNavigationInfo:(Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)V // method@0ee8
+1155fe: 1200                                   |000b: const/4 v0, #int 0 // #0
+115600: 0f00                                   |000c: return v0
+      catches       : (none)
+
+    #17              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'sendPhoneStateToCar'
+      type          : '(Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 13 16-bit code units
+115604:                                        |[115604] com.miui.carlink.databus.DataBusService$DataBusServiceStub.sendPhoneStateToCar:(Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)Z
+115614: 3801 0b00                              |0000: if-eqz v1, 000b // +000b
+115618: 5400 7d39                              |0002: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+11561c: 7110 220f 0000                         |0004: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+115622: 0c00                                   |0007: move-result-object v0
+115624: 6e20 ed0e 1000                         |0008: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/ControlChannel;.sendPhoneState:(Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)Z // method@0eed
+11562a: 1200                                   |000b: const/4 v0, #int 0 // #0
+11562c: 0f00                                   |000c: return v0
+      catches       : (none)
+
+    #18              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setAudioSvrPort'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 1 16-bit code units
+115938:                                        |[115938] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setAudioSvrPort:(I)V
+115948: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #19              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setCarMicMuteState'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+11594c:                                        |[11594c] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setCarMicMuteState:()V
+11595c: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115962: 0c00                                   |0003: move-result-object v0
+115964: 6e10 5006 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.O:()V // method@0650
+11596a: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #20              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setDeviceId'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 8 16-bit code units
+11596c:                                        |[11596c] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setDeviceId:(Ljava/lang/String;)V
+11597c: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115982: 0c00                                   |0003: move-result-object v0
+115984: 6e20 4406 1000                         |0004: invoke-virtual {v0, v1}, Lcom/carwith/audio/PhoneAudioCast;.C:(Ljava/lang/String;)V // method@0644
+11598a: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #21              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setFloatWindowPosition'
+      type          : '(Landroid/graphics/Point;Landroid/graphics/Point;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 14 16-bit code units
+11598c:                                        |[11598c] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setFloatWindowPosition:(Landroid/graphics/Point;Landroid/graphics/Point;)V
+11599c: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1159a0: 6e10 c800 0000                         |0002: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+1159a6: 0c00                                   |0005: move-result-object v0
+1159a8: 7110 ef28 0000                         |0006: invoke-static {v0}, Lcom/miui/carlink/databus/u;.p:(Landroid/content/Context;)Lcom/miui/carlink/databus/u; // method@28ef
+1159ae: 0c00                                   |0009: move-result-object v0
+1159b0: 6e30 d628 1002                         |000a: invoke-virtual {v0, v1, v2}, Lcom/miui/carlink/databus/u;.G:(Landroid/graphics/Point;Landroid/graphics/Point;)V // method@28d6
+1159b6: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #22              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setIsIgnoreKeyBack'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 14 16-bit code units
+1159b8:                                        |[1159b8] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setIsIgnoreKeyBack:(Z)V
+1159c8: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1159cc: 6e10 c800 0000                         |0002: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+1159d2: 0c00                                   |0005: move-result-object v0
+1159d4: 7110 ef28 0000                         |0006: invoke-static {v0}, Lcom/miui/carlink/databus/u;.p:(Landroid/content/Context;)Lcom/miui/carlink/databus/u; // method@28ef
+1159da: 0c00                                   |0009: move-result-object v0
+1159dc: 6e20 d828 1000                         |000a: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/u;.I:(Z)V // method@28d8
+1159e2: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #23              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'setVoiceAssistantActive'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 14 16-bit code units
+1159e4:                                        |[1159e4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.setVoiceAssistantActive:(Z)V
+1159f4: 5400 7d39                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+1159f8: 6e10 c800 0000                         |0002: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+1159fe: 0c00                                   |0005: move-result-object v0
+115a00: 7110 9610 0000                         |0006: invoke-static {v0}, Lcom/miui/carlink/databus/b;.h:(Landroid/content/Context;)Lcom/miui/carlink/databus/b; // method@1096
+115a06: 0c00                                   |0009: move-result-object v0
+115a08: 6e20 9c10 1000                         |000a: invoke-virtual {v0, v1}, Lcom/miui/carlink/databus/b;.n:(Z)V // method@109c
+115a0e: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #24              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'start'
+      type          : '(ILjava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 3
+      outs          : 4
+      insns size    : 154 16-bit code units
+115a10:                                        |[115a10] com.miui.carlink.databus.DataBusService$DataBusServiceStub.start:(ILjava/lang/String;)V
+115a20: 5450 7d39                              |0000: iget-object v0, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115a24: 6e10 c800 0000                         |0002: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115a2a: 0c00                                   |0005: move-result-object v0
+115a2c: 7110 ac0e 0000                         |0006: invoke-static {v0}, Lcom/miui/carlink/databus/ControlChannel;.getInstance:(Landroid/content/Context;)Lcom/miui/carlink/databus/ControlChannel; // method@0eac
+115a32: 0c00                                   |0009: move-result-object v0
+115a34: 5451 7d39                              |000a: iget-object v1, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115a38: 7110 210f 0100                         |000c: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.a:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IChannelCreationCallback; // method@0f21
+115a3e: 0c01                                   |000f: move-result-object v1
+115a40: 5452 7d39                              |0010: iget-object v2, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115a44: 7110 260f 0200                         |0012: invoke-static {v2}, Lcom/miui/carlink/databus/DataBusService;.f:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback; // method@0f26
+115a4a: 0c02                                   |0015: move-result-object v2
+115a4c: 6e40 f10e 7021                         |0016: invoke-virtual {v0, v7, v1, v2}, Lcom/miui/carlink/databus/ControlChannel;.start:(Ljava/lang/String;Lcom/miui/carlink/databus/IChannelCreationCallback;Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;)V // method@0ef1
+115a52: 7100 f627 0000                         |0019: invoke-static {}, Lcom/miui/carlink/databus/r;.h:()Lcom/miui/carlink/databus/r; // method@27f6
+115a58: 0c00                                   |001c: move-result-object v0
+115a5a: 5451 7d39                              |001d: iget-object v1, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115a5e: 7110 210f 0100                         |001f: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.a:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IChannelCreationCallback; // method@0f21
+115a64: 0c01                                   |0022: move-result-object v1
+115a66: 6e30 0028 7001                         |0023: invoke-virtual {v0, v7, v1}, Lcom/miui/carlink/databus/r;.r:(Ljava/lang/String;Lcom/miui/carlink/databus/IChannelCreationCallback;)V // method@2800
+115a6c: 7100 5206 0000                         |0026: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115a72: 0c00                                   |0029: move-result-object v0
+115a74: 1221                                   |002a: const/4 v1, #int 2 // #2
+115a76: 1202                                   |002b: const/4 v2, #int 0 // #0
+115a78: 1213                                   |002c: const/4 v3, #int 1 // #1
+115a7a: 3316 0400                              |002d: if-ne v6, v1, 0031 // +0004
+115a7e: 0136                                   |002f: move v6, v3
+115a80: 2802                                   |0030: goto 0032 // +0002
+115a82: 0126                                   |0031: move v6, v2
+115a84: 6e20 4506 6000                         |0032: invoke-virtual {v0, v6}, Lcom/carwith/audio/PhoneAudioCast;.D:(Z)V // method@0645
+115a8a: 5456 7d39                              |0035: iget-object v6, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115a8e: 6e10 c800 0600                         |0037: invoke-virtual {v6}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115a94: 0c06                                   |003a: move-result-object v6
+115a96: 7110 ef28 0600                         |003b: invoke-static {v6}, Lcom/miui/carlink/databus/u;.p:(Landroid/content/Context;)Lcom/miui/carlink/databus/u; // method@28ef
+115a9c: 0c06                                   |003e: move-result-object v6
+115a9e: 5450 7d39                              |003f: iget-object v0, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115aa2: 7110 240f 0000                         |0041: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.d:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IDataObserver; // method@0f24
+115aa8: 0c00                                   |0044: move-result-object v0
+115aaa: 2201 7e07                              |0045: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+115aae: 7010 7b34 0100                         |0047: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+115ab4: 1a04 e166                              |004a: const-string v4, "start UIBC observerPresent=" // string@66e1
+115ab8: 6e20 8434 4100                         |004c: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+115abe: 3800 0300                              |004f: if-eqz v0, 0052 // +0003
+115ac2: 0132                                   |0051: move v2, v3
+115ac4: 6e20 8534 2100                         |0052: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@3485
+115aca: 6e10 8b34 0100                         |0055: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+115ad0: 0c01                                   |0058: move-result-object v1
+115ad2: 1a02 770c                              |0059: const-string v2, "DataBusService" // string@0c77
+115ad6: 7120 5907 1200                         |005b: invoke-static {v2, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+115adc: 3800 0600                              |005e: if-eqz v0, 0064 // +0006
+115ae0: 6e20 d728 0600                         |0060: invoke-virtual {v6, v0}, Lcom/miui/carlink/databus/u;.H:(Lcom/miui/carlink/databus/IDataObserver;)V // method@28d7
+115ae6: 2806                                   |0063: goto 0069 // +0006
+115ae8: 1a00 e266                              |0064: const-string v0, "start UIBC without IDataObserver registered" // string@66e2
+115aec: 7120 5907 0200                         |0066: invoke-static {v2, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+115af2: 6e20 de28 7600                         |0069: invoke-virtual {v6, v7}, Lcom/miui/carlink/databus/u;.O:(Ljava/lang/String;)Z // method@28de
+115af8: 5456 7d39                              |006c: iget-object v6, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115afc: 6e10 c800 0600                         |006e: invoke-virtual {v6}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115b02: 0c06                                   |0071: move-result-object v6
+115b04: 7110 9610 0600                         |0072: invoke-static {v6}, Lcom/miui/carlink/databus/b;.h:(Landroid/content/Context;)Lcom/miui/carlink/databus/b; // method@1096
+115b0a: 0c06                                   |0075: move-result-object v6
+115b0c: 5450 7d39                              |0076: iget-object v0, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115b10: 7110 210f 0000                         |0078: invoke-static {v0}, Lcom/miui/carlink/databus/DataBusService;.a:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IChannelCreationCallback; // method@0f21
+115b16: 0c00                                   |007b: move-result-object v0
+115b18: 6e30 9d10 7600                         |007c: invoke-virtual {v6, v7, v0}, Lcom/miui/carlink/databus/b;.o:(Ljava/lang/String;Lcom/miui/carlink/databus/IChannelCreationCallback;)V // method@109d
+115b1e: 7100 b510 0000                         |007f: invoke-static {}, Lcom/miui/carlink/databus/c;.l:()Lcom/miui/carlink/databus/c; // method@10b5
+115b24: 0c06                                   |0082: move-result-object v6
+115b26: 5450 7d39                              |0083: iget-object v0, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115b2a: 6e10 c800 0000                         |0085: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115b30: 0c00                                   |0088: move-result-object v0
+115b32: 5455 7d39                              |0089: iget-object v5, v5, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115b36: 7110 210f 0500                         |008b: invoke-static {v5}, Lcom/miui/carlink/databus/DataBusService;.a:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/IChannelCreationCallback; // method@0f21
+115b3c: 0c05                                   |008e: move-result-object v5
+115b3e: 6e40 b710 0657                         |008f: invoke-virtual {v6, v0, v7, v5}, Lcom/miui/carlink/databus/c;.n:(Landroid/content/Context;Ljava/lang/String;Lcom/miui/carlink/databus/IChannelCreationCallback;)V // method@10b7
+115b44: 7100 3f28 0000                         |0092: invoke-static {}, Lcom/miui/carlink/databus/s;.p:()Lcom/miui/carlink/databus/s; // method@283f
+115b4a: 0c05                                   |0095: move-result-object v5
+115b4c: 6e20 2e28 7500                         |0096: invoke-virtual {v5, v7}, Lcom/miui/carlink/databus/s;.H:(Ljava/lang/String;)V // method@282e
+115b52: 0e00                                   |0099: return-void
+      catches       : (none)
+
+    #25              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'startAssistantRecorder'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 8 16-bit code units
+115b54:                                        |[115b54] com.miui.carlink.databus.DataBusService$DataBusServiceStub.startAssistantRecorder:(Z)V
+115b64: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115b6a: 0c00                                   |0003: move-result-object v0
+115b6c: 6e20 4606 1000                         |0004: invoke-virtual {v0, v1}, Lcom/carwith/audio/PhoneAudioCast;.E:(Z)V // method@0646
+115b72: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #26              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'startHeartBeatThread'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 30 16-bit code units
+115b74:                                        |[115b74] com.miui.carlink.databus.DataBusService$DataBusServiceStub.startHeartBeatThread:(Z)V
+115b84: 3801 1000                              |0000: if-eqz v1, 0010 // +0010
+115b88: 5400 7d39                              |0002: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115b8c: 6e10 c800 0000                         |0004: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115b92: 0c00                                   |0007: move-result-object v0
+115b94: 7110 ac0e 0000                         |0008: invoke-static {v0}, Lcom/miui/carlink/databus/ControlChannel;.getInstance:(Landroid/content/Context;)Lcom/miui/carlink/databus/ControlChannel; // method@0eac
+115b9a: 0c00                                   |000b: move-result-object v0
+115b9c: 6e10 f20e 0000                         |000c: invoke-virtual {v0}, Lcom/miui/carlink/databus/ControlChannel;.startHeartBeatThread:()V // method@0ef2
+115ba2: 280e                                   |000f: goto 001d // +000e
+115ba4: 5400 7d39                              |0010: iget-object v0, v0, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115ba8: 6e10 c800 0000                         |0012: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115bae: 0c00                                   |0015: move-result-object v0
+115bb0: 7110 ac0e 0000                         |0016: invoke-static {v0}, Lcom/miui/carlink/databus/ControlChannel;.getInstance:(Landroid/content/Context;)Lcom/miui/carlink/databus/ControlChannel; // method@0eac
+115bb6: 0c00                                   |0019: move-result-object v0
+115bb8: 6e10 f40e 0000                         |001a: invoke-virtual {v0}, Lcom/miui/carlink/databus/ControlChannel;.stopHeartBeatThread:()V // method@0ef4
+115bbe: 0e00                                   |001d: return-void
+      catches       : (none)
+
+    #27              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'startToRecord'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115bc0:                                        |[115bc0] com.miui.carlink.databus.DataBusService$DataBusServiceStub.startToRecord:()V
+115bd0: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115bd6: 0c00                                   |0003: move-result-object v0
+115bd8: 6e10 4806 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.G:()V // method@0648
+115bde: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #28              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'stop'
+      type          : '(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 57 16-bit code units
+115be0:                                        |[115be0] com.miui.carlink.databus.DataBusService$DataBusServiceStub.stop:(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V
+115bf0: 5410 7d39                              |0000: iget-object v0, v1, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115bf4: 6e10 c800 0000                         |0002: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115bfa: 0c00                                   |0005: move-result-object v0
+115bfc: 7110 9610 0000                         |0006: invoke-static {v0}, Lcom/miui/carlink/databus/b;.h:(Landroid/content/Context;)Lcom/miui/carlink/databus/b; // method@1096
+115c02: 0c00                                   |0009: move-result-object v0
+115c04: 6e10 9e10 0000                         |000a: invoke-virtual {v0}, Lcom/miui/carlink/databus/b;.p:()V // method@109e
+115c0a: 7100 b510 0000                         |000d: invoke-static {}, Lcom/miui/carlink/databus/c;.l:()Lcom/miui/carlink/databus/c; // method@10b5
+115c10: 0c00                                   |0010: move-result-object v0
+115c12: 6e10 b810 0000                         |0011: invoke-virtual {v0}, Lcom/miui/carlink/databus/c;.o:()V // method@10b8
+115c18: 7100 f627 0000                         |0014: invoke-static {}, Lcom/miui/carlink/databus/r;.h:()Lcom/miui/carlink/databus/r; // method@27f6
+115c1e: 0c00                                   |0017: move-result-object v0
+115c20: 6e10 0128 0000                         |0018: invoke-virtual {v0}, Lcom/miui/carlink/databus/r;.s:()V // method@2801
+115c26: 5410 7d39                              |001b: iget-object v0, v1, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115c2a: 6e10 c800 0000                         |001d: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+115c30: 0c00                                   |0020: move-result-object v0
+115c32: 7110 ef28 0000                         |0021: invoke-static {v0}, Lcom/miui/carlink/databus/u;.p:(Landroid/content/Context;)Lcom/miui/carlink/databus/u; // method@28ef
+115c38: 0c00                                   |0024: move-result-object v0
+115c3a: 6e10 df28 0000                         |0025: invoke-virtual {v0}, Lcom/miui/carlink/databus/u;.P:()V // method@28df
+115c40: 5411 7d39                              |0028: iget-object v1, v1, Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;.this$0:Lcom/miui/carlink/databus/DataBusService; // field@397d
+115c44: 7110 220f 0100                         |002a: invoke-static {v1}, Lcom/miui/carlink/databus/DataBusService;.b:(Lcom/miui/carlink/databus/DataBusService;)Lcom/miui/carlink/databus/ControlChannel; // method@0f22
+115c4a: 0c01                                   |002d: move-result-object v1
+115c4c: 6e20 f30e 2100                         |002e: invoke-virtual {v1, v2}, Lcom/miui/carlink/databus/ControlChannel;.stop:(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V // method@0ef3
+115c52: 7100 3f28 0000                         |0031: invoke-static {}, Lcom/miui/carlink/databus/s;.p:()Lcom/miui/carlink/databus/s; // method@283f
+115c58: 0c01                                   |0034: move-result-object v1
+115c5a: 6e10 2f28 0100                         |0035: invoke-virtual {v1}, Lcom/miui/carlink/databus/s;.I:()V // method@282f
+115c60: 0e00                                   |0038: return-void
+      catches       : (none)
+
+    #29              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'stopToRecord'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115c64:                                        |[115c64] com.miui.carlink.databus.DataBusService$DataBusServiceStub.stopToRecord:()V
+115c74: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115c7a: 0c00                                   |0003: move-result-object v0
+115c7c: 6e10 4a06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.I:()V // method@064a
+115c82: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #30              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'switchAudioSourceToCar'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115c84:                                        |[115c84] com.miui.carlink.databus.DataBusService$DataBusServiceStub.switchAudioSourceToCar:()V
+115c94: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115c9a: 0c00                                   |0003: move-result-object v0
+115c9c: 6e10 4b06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.J:()V // method@064b
+115ca2: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #31              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'switchAudioSourceToPhone'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115ca4:                                        |[115ca4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.switchAudioSourceToPhone:()V
+115cb4: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115cba: 0c00                                   |0003: move-result-object v0
+115cbc: 6e10 4c06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.K:()V // method@064c
+115cc2: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #32              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'switchAudioSourceToPhoneHeadSet'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115cc4:                                        |[115cc4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.switchAudioSourceToPhoneHeadSet:()V
+115cd4: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115cda: 0c00                                   |0003: move-result-object v0
+115cdc: 6e10 4d06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.L:()V // method@064d
+115ce2: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #33              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'switchAudioToBluetooth'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115ce4:                                        |[115ce4] com.miui.carlink.databus.DataBusService$DataBusServiceStub.switchAudioToBluetooth:()V
+115cf4: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115cfa: 0c00                                   |0003: move-result-object v0
+115cfc: 6e10 4e06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.M:()V // method@064e
+115d02: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #34              : (in Lcom/miui/carlink/databus/DataBusService$DataBusServiceStub;)
+      name          : 'switchAudioToWired'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+115d04:                                        |[115d04] com.miui.carlink.databus.DataBusService$DataBusServiceStub.switchAudioToWired:()V
+115d14: 7100 5206 0000                         |0000: invoke-static {}, Lcom/carwith/audio/PhoneAudioCast;.u:()Lcom/carwith/audio/PhoneAudioCast; // method@0652
+115d1a: 0c00                                   |0003: move-result-object v0
+115d1c: 6e10 4f06 0000                         |0004: invoke-virtual {v0}, Lcom/carwith/audio/PhoneAudioCast;.N:()V // method@064f
+115d22: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  source_file_idx   : 3192 (DataBusService.java)
+

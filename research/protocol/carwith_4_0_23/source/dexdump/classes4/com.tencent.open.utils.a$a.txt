@@ -1,0 +1,69 @@
+Class #532            -
+  Class descriptor  : 'Lcom/tencent/open/utils/a$a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Thread;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/tencent/open/utils/a$a;)
+      name          : 'a'
+      type          : 'Landroid/os/Bundle;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #1              : (in Lcom/tencent/open/utils/a$a;)
+      name          : 'b'
+      type          : 'Lcom/tencent/open/utils/a;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/tencent/open/utils/a$a;)
+      name          : '<init>'
+      type          : '(Lcom/tencent/open/utils/a;Landroid/os/Bundle;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+16b1c4:                                        |[16b1c4] com.tencent.open.utils.a$a.<init>:(Lcom/tencent/open/utils/a;Landroid/os/Bundle;)V
+16b1d4: 5b01 28e2                              |0000: iput-object v1, v0, Lcom/tencent/open/utils/a$a;.b:Lcom/tencent/open/utils/a; // field@e228
+16b1d8: 5b02 27e2                              |0002: iput-object v2, v0, Lcom/tencent/open/utils/a$a;.a:Landroid/os/Bundle; // field@e227
+16b1dc: 7010 9634 0000                         |0004: invoke-direct {v0}, Ljava/lang/Thread;.<init>:()V // method@3496
+16b1e2: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/tencent/open/utils/a$a;)
+      name          : 'run'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 39 16-bit code units
+16b1e4:                                        |[16b1e4] com.tencent.open.utils.a$a.run:()V
+16b1f4: 5440 28e2                              |0000: iget-object v0, v4, Lcom/tencent/open/utils/a$a;.b:Lcom/tencent/open/utils/a; // field@e228
+16b1f8: 7110 0d2c 0000                         |0002: invoke-static {v0}, Lcom/tencent/open/utils/a;.c:(Lcom/tencent/open/utils/a;)Landroid/content/Context; // method@2c0d
+16b1fe: 0c00                                   |0005: move-result-object v0
+16b200: 1a01 3a43                              |0006: const-string v1, "http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf" // string@433a
+16b204: 1a02 7e0e                              |0008: const-string v2, "GET" // string@0e7e
+16b208: 5443 27e2                              |000a: iget-object v3, v4, Lcom/tencent/open/utils/a$a;.a:Landroid/os/Bundle; // field@e227
+16b20c: 7140 042c 1032                         |000c: invoke-static {v0, v1, v2, v3}, Lcom/tencent/open/utils/HttpUtils;.j:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/tencent/open/utils/b$b; // method@2c04
+16b212: 0c00                                   |000f: move-result-object v0
+16b214: 5400 33e2                              |0010: iget-object v0, v0, Lcom/tencent/open/utils/b$b;.a:Ljava/lang/String; // field@e233
+16b218: 7110 2d2c 0000                         |0012: invoke-static {v0}, Lcom/tencent/open/utils/b;.r:(Ljava/lang/String;)Lorg/json/JSONObject; // method@2c2d
+16b21e: 0c00                                   |0015: move-result-object v0
+16b220: 5441 28e2                              |0016: iget-object v1, v4, Lcom/tencent/open/utils/a$a;.b:Lcom/tencent/open/utils/a; // field@e228
+16b224: 7120 102c 0100                         |0018: invoke-static {v1, v0}, Lcom/tencent/open/utils/a;.f:(Lcom/tencent/open/utils/a;Lorg/json/JSONObject;)V // method@2c10
+16b22a: 2805                                   |001b: goto 0020 // +0005
+16b22c: 0d00                                   |001c: move-exception v0
+16b22e: 6e10 b334 0000                         |001d: invoke-virtual {v0}, Ljava/lang/Throwable;.printStackTrace:()V // method@34b3
+16b234: 5444 28e2                              |0020: iget-object v4, v4, Lcom/tencent/open/utils/a$a;.b:Lcom/tencent/open/utils/a; // field@e228
+16b238: 1200                                   |0022: const/4 v0, #int 0 // #0
+16b23a: 7120 0b2c 0400                         |0023: invoke-static {v4, v0}, Lcom/tencent/open/utils/a;.a:(Lcom/tencent/open/utils/a;I)I // method@2c0b
+16b240: 0e00                                   |0026: return-void
+      catches       : 1
+        0x0000 - 0x001b
+          Ljava/lang/Exception; -> 0x001c
+
+  source_file_idx   : 8879 (ProGuard)
+

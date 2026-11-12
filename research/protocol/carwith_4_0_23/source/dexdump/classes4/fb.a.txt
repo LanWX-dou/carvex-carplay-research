@@ -1,0 +1,17 @@
+Class #687            -
+  Class descriptor  : 'Lfb/a;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lfb/a;)
+      name          : 'a'
+      type          : '(Lcb/b;)Ltj/o;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 7920 (MiotAuthService.java)
+

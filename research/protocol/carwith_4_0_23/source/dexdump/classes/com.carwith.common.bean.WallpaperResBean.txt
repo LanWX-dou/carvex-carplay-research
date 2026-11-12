@@ -1,0 +1,57 @@
+Class #6481            -
+  Class descriptor  : 'Lcom/carwith/common/bean/WallpaperResBean;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean;)
+      name          : 'wallpaperCategorys'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+443a2c:                                        |[443a2c] com.carwith.common.bean.WallpaperResBean.<init>:()V
+443a3c: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+443a42: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean;)
+      name          : 'getWallpaperCategorys'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443a14:                                        |[443a14] com.carwith.common.bean.WallpaperResBean.getWallpaperCategorys:()Ljava/util/List;
+443a24: 5400 04e4                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/WallpaperResBean;.wallpaperCategorys:Ljava/util/List; // field@e404
+443a28: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/WallpaperResBean;)
+      name          : 'setWallpaperCategorys'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443a44:                                        |[443a44] com.carwith.common.bean.WallpaperResBean.setWallpaperCategorys:(Ljava/util/List;)V
+443a54: 5b01 04e4                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/WallpaperResBean;.wallpaperCategorys:Ljava/util/List; // field@e404
+443a58: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 30490 (WallpaperResBean.java)
+

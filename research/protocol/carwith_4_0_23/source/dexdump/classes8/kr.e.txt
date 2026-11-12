@@ -1,0 +1,865 @@
+Class #246            -
+  Class descriptor  : 'Lkr/e;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lkr/e;)
+      name          : 'a'
+      type          : 'I'
+      access        : 0x0049 (PUBLIC STATIC VOLATILE)
+    #1              : (in Lkr/e;)
+      name          : 'b'
+      type          : 'Lorg/slf4j/helpers/k;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #2              : (in Lkr/e;)
+      name          : 'c'
+      type          : 'Lorg/slf4j/helpers/f;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Lkr/e;)
+      name          : 'd'
+      type          : 'Z'
+      access        : 0x0009 (PUBLIC STATIC)
+    #4              : (in Lkr/e;)
+      name          : 'e'
+      type          : 'Llr/e;'
+      access        : 0x0049 (PUBLIC STATIC VOLATILE)
+    #5              : (in Lkr/e;)
+      name          : 'f'
+      type          : '[Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lkr/e;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 31 16-bit code units
+1226a0:                                        |[1226a0] kr.e.<clinit>:()V
+1226b0: 2200 1a0f                              |0000: new-instance v0, Lorg/slf4j/helpers/k; // type@0f1a
+1226b4: 7010 2f61 0000                         |0002: invoke-direct {v0}, Lorg/slf4j/helpers/k;.<init>:()V // method@612f
+1226ba: 6900 3409                              |0005: sput-object v0, Lkr/e;.b:Lorg/slf4j/helpers/k; // field@0934
+1226be: 2200 150f                              |0007: new-instance v0, Lorg/slf4j/helpers/f; // type@0f15
+1226c2: 7010 f460 0000                         |0009: invoke-direct {v0}, Lorg/slf4j/helpers/f;.<init>:()V // method@60f4
+1226c8: 6900 3509                              |000c: sput-object v0, Lkr/e;.c:Lorg/slf4j/helpers/f; // field@0935
+1226cc: 1a00 e186                              |000e: const-string v0, "slf4j.detectLoggerNameMismatch" // string@86e1
+1226d0: 7110 4061 0000                         |0010: invoke-static {v0}, Lorg/slf4j/helpers/m;.f:(Ljava/lang/String;)Z // method@6140
+1226d6: 0a00                                   |0013: move-result v0
+1226d8: 6a00 3609                              |0014: sput-boolean v0, Lkr/e;.d:Z // field@0936
+1226dc: 1a00 a005                              |0016: const-string v0, "2.0" // string@05a0
+1226e0: 2410 cd10 0000                         |0018: filled-new-array {v0}, [Ljava/lang/String; // type@10cd
+1226e6: 0c00                                   |001b: move-result-object v0
+1226e8: 6900 3809                              |001c: sput-object v0, Lkr/e;.f:[Ljava/lang/String; // field@0938
+1226ec: 0e00                                   |001e: return-void
+      catches       : (none)
+
+    #1              : (in Lkr/e;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+1226f0:                                        |[1226f0] kr.e.<init>:()V
+122700: 7010 ea11 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@11ea
+122706: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lkr/e;)
+      name          : 'a'
+      type          : '(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 5 16-bit code units
+122440:                                        |[122440] kr.e.a:(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
+122450: 7110 cd18 0000                         |0000: invoke-static {v0}, Lkr/e;.p:(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; // method@18cd
+122456: 0c00                                   |0003: move-result-object v0
+122458: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #3              : (in Lkr/e;)
+      name          : 'b'
+      type          : '()V'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 3
+      insns size    : 78 16-bit code units
+122708:                                        |[122708] kr.e.b:()V
+122718: 7100 c518 0000                         |0000: invoke-static {}, Lkr/e;.h:()Ljava/util/List; // method@18c5
+12271e: 0c00                                   |0003: move-result-object v0
+122720: 7110 d518 0000                         |0004: invoke-static {v0}, Lkr/e;.x:(Ljava/util/List;)V // method@18d5
+122726: 3800 1f00                              |0007: if-eqz v0, 0026 // +001f
+12272a: 7210 cb14 0000                         |0009: invoke-interface {v0}, Ljava/util/List;.isEmpty:()Z // method@14cb
+122730: 0a01                                   |000c: move-result v1
+122732: 3901 1900                              |000d: if-nez v1, 0026 // +0019
+122736: 1201                                   |000f: const/4 v1, #int 0 // #0
+122738: 7220 c814 1000                         |0010: invoke-interface {v0, v1}, Ljava/util/List;.get:(I)Ljava/lang/Object; // method@14c8
+12273e: 0c01                                   |0013: move-result-object v1
+122740: 1f01 d705                              |0014: check-cast v1, Llr/e; // type@05d7
+122744: 6901 3709                              |0016: sput-object v1, Lkr/e;.e:Llr/e; // field@0937
+122748: 6201 3709                              |0018: sget-object v1, Lkr/e;.e:Llr/e; // field@0937
+12274c: 7210 731b 0100                         |001a: invoke-interface {v1}, Llr/e;.initialize:()V // method@1b73
+122752: 1231                                   |001d: const/4 v1, #int 3 // #3
+122754: 6701 3309                              |001e: sput v1, Lkr/e;.a:I // field@0933
+122758: 7110 d318 0000                         |0020: invoke-static {v0}, Lkr/e;.v:(Ljava/util/List;)V // method@18d3
+12275e: 281c                                   |0023: goto 003f // +001c
+122760: 0d00                                   |0024: move-exception v0
+122762: 281e                                   |0025: goto 0043 // +001e
+122764: 1240                                   |0026: const/4 v0, #int 4 // #4
+122766: 6700 3309                              |0027: sput v0, Lkr/e;.a:I // field@0933
+12276a: 1a00 3933                              |0029: const-string v0, "No SLF4J providers were found." // string@3339
+12276e: 7110 3d61 0000                         |002b: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122774: 1a00 cf11                              |002e: const-string v0, "Defaulting to no-operation (NOP) logger implementation" // string@11cf
+122778: 7110 3d61 0000                         |0030: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+12277e: 1a00 963a                              |0033: const-string v0, "See https://www.slf4j.org/codes.html#noProviders for further details." // string@3a96
+122782: 7110 3d61 0000                         |0035: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122788: 7100 c418 0000                         |0038: invoke-static {}, Lkr/e;.g:()Ljava/util/Set; // method@18c4
+12278e: 0c00                                   |003b: move-result-object v0
+122790: 7110 d418 0000                         |003c: invoke-static {v0}, Lkr/e;.w:(Ljava/util/Set;)V // method@18d4
+122796: 7100 d018 0000                         |003f: invoke-static {}, Lkr/e;.s:()V // method@18d0
+12279c: 0e00                                   |0042: return-void
+12279e: 7110 c318 0000                         |0043: invoke-static {v0}, Lkr/e;.f:(Ljava/lang/Throwable;)V // method@18c3
+1227a4: 2201 c503                              |0046: new-instance v1, Ljava/lang/IllegalStateException; // type@03c5
+1227a8: 1a02 ca40                              |0048: const-string v2, "Unexpected initialization failure" // string@40ca
+1227ac: 7030 a911 2100                         |004a: invoke-direct {v1, v2, v0}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@11a9
+1227b2: 2701                                   |004d: throw v1
+      catches       : 1
+        0x0000 - 0x0042
+          Ljava/lang/Exception; -> 0x0024
+
+    #4              : (in Lkr/e;)
+      name          : 'c'
+      type          : '(Lorg/slf4j/event/c;I)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 29 16-bit code units
+1227c4:                                        |[1227c4] kr.e.c:(Lorg/slf4j/event/c;I)V
+1227d4: 6e10 e25f 0100                         |0000: invoke-virtual {v1}, Lorg/slf4j/event/c;.c:()Lorg/slf4j/helpers/i; // method@5fe2
+1227da: 0c00                                   |0003: move-result-object v0
+1227dc: 6e10 0161 0000                         |0004: invoke-virtual {v0}, Lorg/slf4j/helpers/i;.c:()Z // method@6101
+1227e2: 0a00                                   |0007: move-result v0
+1227e4: 3800 0600                              |0008: if-eqz v0, 000e // +0006
+1227e8: 7110 c118 0200                         |000a: invoke-static {v2}, Lkr/e;.d:(I)V // method@18c1
+1227ee: 280f                                   |000d: goto 001c // +000f
+1227f0: 6e10 e25f 0100                         |000e: invoke-virtual {v1}, Lorg/slf4j/event/c;.c:()Lorg/slf4j/helpers/i; // method@5fe2
+1227f6: 0c01                                   |0011: move-result-object v1
+1227f8: 6e10 0261 0100                         |0012: invoke-virtual {v1}, Lorg/slf4j/helpers/i;.d:()Z // method@6102
+1227fe: 0a01                                   |0015: move-result v1
+122800: 3801 0300                              |0016: if-eqz v1, 0019 // +0003
+122804: 2804                                   |0018: goto 001c // +0004
+122806: 7100 c218 0000                         |0019: invoke-static {}, Lkr/e;.e:()V // method@18c2
+12280c: 0e00                                   |001c: return-void
+      catches       : (none)
+
+    #5              : (in Lkr/e;)
+      name          : 'd'
+      type          : '(I)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 36 16-bit code units
+122810:                                        |[122810] kr.e.d:(I)V
+122820: 2200 e603                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@03e6
+122824: 7010 5212 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+12282a: 1a01 c507                              |0005: const-string v1, "A number (" // string@07c5
+12282e: 6e20 5c12 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122834: 6e20 5812 2000                         |000a: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+12283a: 1a02 d002                              |000d: const-string v2, ") of logging calls during the initialization phase have been intercepted and are" // string@02d0
+12283e: 6e20 5c12 2000                         |000f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122844: 6e10 6912 0000                         |0012: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+12284a: 0c02                                   |0015: move-result-object v2
+12284c: 7110 3d61 0200                         |0016: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122852: 1a02 7b77                              |0019: const-string v2, "now being replayed. These are subject to the filtering rules of the underlying logging system." // string@777b
+122856: 7110 3d61 0200                         |001b: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+12285c: 1a02 913a                              |001e: const-string v2, "See also https://www.slf4j.org/codes.html#replay" // string@3a91
+122860: 7110 3d61 0200                         |0020: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122866: 0e00                                   |0023: return-void
+      catches       : (none)
+
+    #6              : (in Lkr/e;)
+      name          : 'e'
+      type          : '()V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 26 16-bit code units
+122868:                                        |[122868] kr.e.e:()V
+122878: 1a00 d83e                              |0000: const-string v0, "The following set of substitute loggers may have been accessed" // string@3ed8
+12287c: 7110 3d61 0000                         |0002: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122882: 1a00 fc53                              |0005: const-string v0, "during the initialization phase. Logging calls during this" // string@53fc
+122886: 7110 3d61 0000                         |0007: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+12288c: 1a00 ee7b                              |000a: const-string v0, "phase were not honored. However, subsequent logging calls to these" // string@7bee
+122890: 7110 3d61 0000                         |000c: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122896: 1a00 cc63                              |000f: const-string v0, "loggers will work as normally expected." // string@63cc
+12289a: 7110 3d61 0000                         |0011: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+1228a0: 1a00 923a                              |0014: const-string v0, "See also https://www.slf4j.org/codes.html#substituteLogger" // string@3a92
+1228a4: 7110 3d61 0000                         |0016: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+1228aa: 0e00                                   |0019: return-void
+      catches       : (none)
+
+    #7              : (in Lkr/e;)
+      name          : 'f'
+      type          : '(Ljava/lang/Throwable;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+1228ac:                                        |[1228ac] kr.e.f:(Ljava/lang/Throwable;)V
+1228bc: 1220                                   |0000: const/4 v0, #int 2 // #2
+1228be: 6700 3309                              |0001: sput v0, Lkr/e;.a:I // field@0933
+1228c2: 1a00 7a16                              |0003: const-string v0, "Failed to instantiate SLF4J LoggerFactory" // string@167a
+1228c6: 7120 3e61 1000                         |0005: invoke-static {v0, v1}, Lorg/slf4j/helpers/m;.d:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@613e
+1228cc: 0e00                                   |0008: return-void
+      catches       : (none)
+
+    #8              : (in Lkr/e;)
+      name          : 'g'
+      type          : '()Ljava/util/Set;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 2
+      insns size    : 48 16-bit code units
+1224c0:                                        |[1224c0] kr.e.g:()Ljava/util/Set;
+1224d0: 2200 9104                              |0000: new-instance v0, Ljava/util/LinkedHashSet; // type@0491
+1224d4: 7010 bb14 0000                         |0002: invoke-direct {v0}, Ljava/util/LinkedHashSet;.<init>:()V // method@14bb
+1224da: 1c01 7305                              |0005: const-class v1, Lkr/e; // type@0573
+1224de: 6e10 5e11 0100                         |0007: invoke-virtual {v1}, Ljava/lang/Class;.getClassLoader:()Ljava/lang/ClassLoader; // method@115e
+1224e4: 0c01                                   |000a: move-result-object v1
+1224e6: 1a02 f17a                              |000b: const-string v2, "org/slf4j/impl/StaticLoggerBinder.class" // string@7af1
+1224ea: 3901 0900                              |000d: if-nez v1, 0016 // +0009
+1224ee: 7110 7e11 0200                         |000f: invoke-static {v2}, Ljava/lang/ClassLoader;.getSystemResources:(Ljava/lang/String;)Ljava/util/Enumeration; // method@117e
+1224f4: 0c01                                   |0012: move-result-object v1
+1224f6: 2807                                   |0013: goto 001a // +0007
+1224f8: 0d01                                   |0014: move-exception v1
+1224fa: 2815                                   |0015: goto 002a // +0015
+1224fc: 6e20 7d11 2100                         |0016: invoke-virtual {v1, v2}, Ljava/lang/ClassLoader;.getResources:(Ljava/lang/String;)Ljava/util/Enumeration; // method@117d
+122502: 0c01                                   |0019: move-result-object v1
+122504: 7210 9614 0100                         |001a: invoke-interface {v1}, Ljava/util/Enumeration;.hasMoreElements:()Z // method@1496
+12250a: 0a02                                   |001d: move-result v2
+12250c: 3802 1100                              |001e: if-eqz v2, 002f // +0011
+122510: 7210 9714 0100                         |0020: invoke-interface {v1}, Ljava/util/Enumeration;.nextElement:()Ljava/lang/Object; // method@1497
+122516: 0c02                                   |0023: move-result-object v2
+122518: 1f02 2a04                              |0024: check-cast v2, Ljava/net/URL; // type@042a
+12251c: 7220 0b15 2000                         |0026: invoke-interface {v0, v2}, Ljava/util/Set;.add:(Ljava/lang/Object;)Z // method@150b
+122522: 28f1                                   |0029: goto 001a // -000f
+122524: 1a02 c415                              |002a: const-string v2, "Error getting resources from path" // string@15c4
+122528: 7120 3e61 1200                         |002c: invoke-static {v2, v1}, Lorg/slf4j/helpers/m;.d:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@613e
+12252e: 1100                                   |002f: return-object v0
+      catches       : 2
+        0x0005 - 0x000b
+          Ljava/io/IOException; -> 0x0014
+        0x000f - 0x0029
+          Ljava/io/IOException; -> 0x0014
+
+    #9              : (in Lkr/e;)
+      name          : 'h'
+      type          : '()Ljava/util/List;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 2
+      insns size    : 30 16-bit code units
+1223f4:                                        |[1223f4] kr.e.h:()Ljava/util/List;
+122404: 1c00 7305                              |0000: const-class v0, Lkr/e; // type@0573
+122408: 6e10 5e11 0000                         |0002: invoke-virtual {v0}, Ljava/lang/Class;.getClassLoader:()Ljava/lang/ClassLoader; // method@115e
+12240e: 0c00                                   |0005: move-result-object v0
+122410: 7110 cb18 0000                         |0006: invoke-static {v0}, Lkr/e;.n:(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; // method@18cb
+122416: 0c00                                   |0009: move-result-object v0
+122418: 2201 7d04                              |000a: new-instance v1, Ljava/util/ArrayList; // type@047d
+12241c: 7010 3114 0100                         |000c: invoke-direct {v1}, Ljava/util/ArrayList;.<init>:()V // method@1431
+122422: 6e10 0915 0000                         |000f: invoke-virtual {v0}, Ljava/util/ServiceLoader;.iterator:()Ljava/util/Iterator; // method@1509
+122428: 0c00                                   |0012: move-result-object v0
+12242a: 7210 b414 0000                         |0013: invoke-interface {v0}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+122430: 0a02                                   |0016: move-result v2
+122432: 3802 0600                              |0017: if-eqz v2, 001d // +0006
+122436: 7120 d618 0100                         |0019: invoke-static {v1, v0}, Lkr/e;.y:(Ljava/util/List;Ljava/util/Iterator;)V // method@18d6
+12243c: 28f7                                   |001c: goto 0013 // -0009
+12243e: 1101                                   |001d: return-object v1
+      catches       : (none)
+
+    #10              : (in Lkr/e;)
+      name          : 'i'
+      type          : '()V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 2
+      insns size    : 52 16-bit code units
+1228d0:                                        |[1228d0] kr.e.i:()V
+1228e0: 6200 3409                              |0000: sget-object v0, Lkr/e;.b:Lorg/slf4j/helpers/k; // field@0934
+1228e4: 1d00                                   |0002: monitor-enter v0
+1228e6: 6e10 3361 0000                         |0003: invoke-virtual {v0}, Lorg/slf4j/helpers/k;.d:()Lorg/slf4j/helpers/j; // method@6133
+1228ec: 0c01                                   |0006: move-result-object v1
+1228ee: 6e10 2e61 0100                         |0007: invoke-virtual {v1}, Lorg/slf4j/helpers/j;.e:()V // method@612e
+1228f4: 6e10 3361 0000                         |000a: invoke-virtual {v0}, Lorg/slf4j/helpers/k;.d:()Lorg/slf4j/helpers/j; // method@6133
+1228fa: 0c01                                   |000d: move-result-object v1
+1228fc: 6e10 2d61 0100                         |000e: invoke-virtual {v1}, Lorg/slf4j/helpers/j;.d:()Ljava/util/List; // method@612d
+122902: 0c01                                   |0011: move-result-object v1
+122904: 7210 cc14 0100                         |0012: invoke-interface {v1}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@14cc
+12290a: 0c01                                   |0015: move-result-object v1
+12290c: 7210 b414 0100                         |0016: invoke-interface {v1}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+122912: 0a02                                   |0019: move-result v2
+122914: 3802 1600                              |001a: if-eqz v2, 0030 // +0016
+122918: 7210 b514 0100                         |001c: invoke-interface {v1}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+12291e: 0c02                                   |001f: move-result-object v2
+122920: 1f02 180f                              |0020: check-cast v2, Lorg/slf4j/helpers/i; // type@0f18
+122924: 6e10 1161 0200                         |0022: invoke-virtual {v2}, Lorg/slf4j/helpers/i;.getName:()Ljava/lang/String; // method@6111
+12292a: 0c03                                   |0025: move-result-object v3
+12292c: 7110 c918 0300                         |0026: invoke-static {v3}, Lkr/e;.l:(Ljava/lang/String;)Lkr/c; // method@18c9
+122932: 0c03                                   |0029: move-result-object v3
+122934: 6e20 1061 3200                         |002a: invoke-virtual {v2, v3}, Lorg/slf4j/helpers/i;.g:(Lkr/c;)V // method@6110
+12293a: 28e9                                   |002d: goto 0016 // -0017
+12293c: 0d01                                   |002e: move-exception v1
+12293e: 2803                                   |002f: goto 0032 // +0003
+122940: 1e00                                   |0030: monitor-exit v0
+122942: 0e00                                   |0031: return-void
+122944: 1e00                                   |0032: monitor-exit v0
+122946: 2701                                   |0033: throw v1
+      catches       : 1
+        0x0003 - 0x0033
+          <any> -> 0x002e
+
+    #11              : (in Lkr/e;)
+      name          : 'j'
+      type          : '()Lkr/a;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 9 16-bit code units
+122548:                                        |[122548] kr.e.j:()Lkr/a;
+122558: 7100 ca18 0000                         |0000: invoke-static {}, Lkr/e;.m:()Llr/e; // method@18ca
+12255e: 0c00                                   |0003: move-result-object v0
+122560: 7210 701b 0000                         |0004: invoke-interface {v0}, Llr/e;.a:()Lkr/a; // method@1b70
+122566: 0c00                                   |0007: move-result-object v0
+122568: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+    #12              : (in Lkr/e;)
+      name          : 'k'
+      type          : '(Ljava/lang/Class;)Lkr/c;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 51 16-bit code units
+12256c:                                        |[12256c] kr.e.k:(Ljava/lang/Class;)Lkr/c;
+12257c: 6e10 6f11 0200                         |0000: invoke-virtual {v2}, Ljava/lang/Class;.getName:()Ljava/lang/String; // method@116f
+122582: 0c00                                   |0003: move-result-object v0
+122584: 7110 c918 0000                         |0004: invoke-static {v0}, Lkr/e;.l:(Ljava/lang/String;)Lkr/c; // method@18c9
+12258a: 0c00                                   |0007: move-result-object v0
+12258c: 6301 3609                              |0008: sget-boolean v1, Lkr/e;.d:Z // field@0936
+122590: 3801 2800                              |000a: if-eqz v1, 0032 // +0028
+122594: 7100 3b61 0000                         |000c: invoke-static {}, Lorg/slf4j/helpers/m;.a:()Ljava/lang/Class; // method@613b
+12259a: 0c01                                   |000f: move-result-object v1
+12259c: 3801 2200                              |0010: if-eqz v1, 0032 // +0022
+1225a0: 7120 ce18 1200                         |0012: invoke-static {v2, v1}, Lkr/e;.q:(Ljava/lang/Class;Ljava/lang/Class;)Z // method@18ce
+1225a6: 0a02                                   |0015: move-result v2
+1225a8: 3802 1c00                              |0016: if-eqz v2, 0032 // +001c
+1225ac: 7210 a318 0000                         |0018: invoke-interface {v0}, Lkr/c;.getName:()Ljava/lang/String; // method@18a3
+1225b2: 0c02                                   |001b: move-result-object v2
+1225b4: 6e10 6f11 0100                         |001c: invoke-virtual {v1}, Ljava/lang/Class;.getName:()Ljava/lang/String; // method@116f
+1225ba: 0c01                                   |001f: move-result-object v1
+1225bc: 2420 ca10 1200                         |0020: filled-new-array {v2, v1}, [Ljava/lang/Object; // type@10ca
+1225c2: 0c02                                   |0023: move-result-object v2
+1225c4: 1a01 e011                              |0024: const-string v1, "Detected logger name mismatch. Given name: \"%s\"; computed name: \"%s\"." // string@11e0
+1225c8: 7120 1912 2100                         |0026: invoke-static {v1, v2}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@1219
+1225ce: 0c02                                   |0029: move-result-object v2
+1225d0: 7110 3d61 0200                         |002a: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+1225d6: 1a02 943a                              |002d: const-string v2, "See https://www.slf4j.org/codes.html#loggerNameMismatch for an explanation" // string@3a94
+1225da: 7110 3d61 0200                         |002f: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+1225e0: 1100                                   |0032: return-object v0
+      catches       : (none)
+
+    #13              : (in Lkr/e;)
+      name          : 'l'
+      type          : '(Ljava/lang/String;)Lkr/c;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+1225e4:                                        |[1225e4] kr.e.l:(Ljava/lang/String;)Lkr/c;
+1225f4: 7100 c718 0000                         |0000: invoke-static {}, Lkr/e;.j:()Lkr/a; // method@18c7
+1225fa: 0c00                                   |0003: move-result-object v0
+1225fc: 7220 9218 1000                         |0004: invoke-interface {v0, v1}, Lkr/a;.a:(Ljava/lang/String;)Lkr/c; // method@1892
+122602: 0c01                                   |0007: move-result-object v1
+122604: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #14              : (in Lkr/e;)
+      name          : 'm'
+      type          : '()Llr/e;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 2
+      insns size    : 62 16-bit code units
+122608:                                        |[122608] kr.e.m:()Llr/e;
+122618: 6000 3309                              |0000: sget v0, Lkr/e;.a:I // field@0933
+12261c: 1211                                   |0002: const/4 v1, #int 1 // #1
+12261e: 3900 1500                              |0003: if-nez v0, 0018 // +0015
+122622: 1c00 7305                              |0005: const-class v0, Lkr/e; // type@0573
+122626: 1d00                                   |0007: monitor-enter v0
+122628: 6002 3309                              |0008: sget v2, Lkr/e;.a:I // field@0933
+12262c: 3902 0a00                              |000a: if-nez v2, 0014 // +000a
+122630: 6701 3309                              |000c: sput v1, Lkr/e;.a:I // field@0933
+122634: 7100 cf18 0000                         |000e: invoke-static {}, Lkr/e;.r:()V // method@18cf
+12263a: 2803                                   |0011: goto 0014 // +0003
+12263c: 0d01                                   |0012: move-exception v1
+12263e: 2803                                   |0013: goto 0016 // +0003
+122640: 1e00                                   |0014: monitor-exit v0
+122642: 2803                                   |0015: goto 0018 // +0003
+122644: 1e00                                   |0016: monitor-exit v0
+122646: 2701                                   |0017: throw v1
+122648: 6000 3309                              |0018: sget v0, Lkr/e;.a:I // field@0933
+12264c: 3210 2100                              |001a: if-eq v0, v1, 003b // +0021
+122650: 1221                                   |001c: const/4 v1, #int 2 // #2
+122652: 3210 1600                              |001d: if-eq v0, v1, 0033 // +0016
+122656: 1231                                   |001f: const/4 v1, #int 3 // #3
+122658: 3210 1000                              |0020: if-eq v0, v1, 0030 // +0010
+12265c: 1241                                   |0022: const/4 v1, #int 4 // #4
+12265e: 3310 0500                              |0023: if-ne v0, v1, 0028 // +0005
+122662: 6200 3509                              |0025: sget-object v0, Lkr/e;.c:Lorg/slf4j/helpers/f; // field@0935
+122666: 1100                                   |0027: return-object v0
+122668: 2200 c503                              |0028: new-instance v0, Ljava/lang/IllegalStateException; // type@03c5
+12266c: 1a01 e640                              |002a: const-string v1, "Unreachable code" // string@40e6
+122670: 7020 a811 1000                         |002c: invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@11a8
+122676: 2700                                   |002f: throw v0
+122678: 6200 3709                              |0030: sget-object v0, Lkr/e;.e:Llr/e; // field@0937
+12267c: 1100                                   |0032: return-object v0
+12267e: 2200 c503                              |0033: new-instance v0, Ljava/lang/IllegalStateException; // type@03c5
+122682: 1a01 ee7a                              |0035: const-string v1, "org.slf4j.LoggerFactory in failed state. Original exception was thrown EARLIER. See also https://www.slf4j.org/codes.html#unsuccessfulInit" // string@7aee
+122686: 7020 a811 1000                         |0037: invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@11a8
+12268c: 2700                                   |003a: throw v0
+12268e: 6200 3409                              |003b: sget-object v0, Lkr/e;.b:Lorg/slf4j/helpers/k; // field@0934
+122692: 1100                                   |003d: return-object v0
+      catches       : 1
+        0x0008 - 0x0017
+          <any> -> 0x0012
+
+    #15              : (in Lkr/e;)
+      name          : 'n'
+      type          : '(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 25 16-bit code units
+12245c:                                        |[12245c] kr.e.n:(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
+12246c: 7100 7112 0000                         |0000: invoke-static {}, Ljava/lang/System;.getSecurityManager:()Ljava/lang/SecurityManager; // method@1271
+122472: 0c00                                   |0003: move-result-object v0
+122474: 3900 0900                              |0004: if-nez v0, 000d // +0009
+122478: 1c00 d705                              |0006: const-class v0, Llr/e; // type@05d7
+12247c: 7120 0a15 1000                         |0008: invoke-static {v0, v1}, Ljava/util/ServiceLoader;.load:(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; // method@150a
+122482: 0c01                                   |000b: move-result-object v1
+122484: 280c                                   |000c: goto 0018 // +000c
+122486: 2200 7205                              |000d: new-instance v0, Lkr/d; // type@0572
+12248a: 7020 ba18 1000                         |000f: invoke-direct {v0, v1}, Lkr/d;.<init>:(Ljava/lang/ClassLoader;)V // method@18ba
+122490: 7110 c613 0000                         |0012: invoke-static {v0}, Ljava/security/AccessController;.doPrivileged:(Ljava/security/PrivilegedAction;)Ljava/lang/Object; // method@13c6
+122496: 0c01                                   |0015: move-result-object v1
+122498: 1f01 a004                              |0016: check-cast v1, Ljava/util/ServiceLoader; // type@04a0
+12249c: 1101                                   |0018: return-object v1
+      catches       : (none)
+
+    #16              : (in Lkr/e;)
+      name          : 'o'
+      type          : '(Ljava/util/List;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+1223b0:                                        |[1223b0] kr.e.o:(Ljava/util/List;)Z
+1223c0: 7210 d114 0100                         |0000: invoke-interface {v1}, Ljava/util/List;.size:()I // method@14d1
+1223c6: 0a01                                   |0003: move-result v1
+1223c8: 1210                                   |0004: const/4 v0, #int 1 // #1
+1223ca: 3701 0300                              |0005: if-le v1, v0, 0008 // +0003
+1223ce: 2802                                   |0007: goto 0009 // +0002
+1223d0: 1200                                   |0008: const/4 v0, #int 0 // #0
+1223d2: 0f00                                   |0009: return v0
+      catches       : (none)
+
+    #17              : (in Lkr/e;)
+      name          : 'p'
+      type          : '(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+1224a0:                                        |[1224a0] kr.e.p:(Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
+1224b0: 1c00 d705                              |0000: const-class v0, Llr/e; // type@05d7
+1224b4: 7120 0a15 1000                         |0002: invoke-static {v0, v1}, Ljava/util/ServiceLoader;.load:(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; // method@150a
+1224ba: 0c01                                   |0005: move-result-object v1
+1224bc: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #18              : (in Lkr/e;)
+      name          : 'q'
+      type          : '(Ljava/lang/Class;Ljava/lang/Class;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 7 16-bit code units
+1223d4:                                        |[1223d4] kr.e.q:(Ljava/lang/Class;Ljava/lang/Class;)Z
+1223e4: 6e20 7611 0100                         |0000: invoke-virtual {v1, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1223ea: 0a00                                   |0003: move-result v0
+1223ec: df00 0001                              |0004: xor-int/lit8 v0, v0, #int 1 // #01
+1223f0: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #19              : (in Lkr/e;)
+      name          : 'r'
+      type          : '()V'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 0
+      insns size    : 12 16-bit code units
+122954:                                        |[122954] kr.e.r:()V
+122964: 7100 bf18 0000                         |0000: invoke-static {}, Lkr/e;.b:()V // method@18bf
+12296a: 6000 3309                              |0003: sget v0, Lkr/e;.a:I // field@0933
+12296e: 1231                                   |0005: const/4 v1, #int 3 // #3
+122970: 3310 0500                              |0006: if-ne v0, v1, 000b // +0005
+122974: 7100 d718 0000                         |0008: invoke-static {}, Lkr/e;.z:()V // method@18d7
+12297a: 0e00                                   |000b: return-void
+      catches       : (none)
+
+    #20              : (in Lkr/e;)
+      name          : 's'
+      type          : '()V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 16 16-bit code units
+12297c:                                        |[12297c] kr.e.s:()V
+12298c: 7100 c618 0000                         |0000: invoke-static {}, Lkr/e;.i:()V // method@18c6
+122992: 7100 d118 0000                         |0003: invoke-static {}, Lkr/e;.t:()V // method@18d1
+122998: 6200 3409                              |0006: sget-object v0, Lkr/e;.b:Lorg/slf4j/helpers/k; // field@0934
+12299c: 6e10 3361 0000                         |0008: invoke-virtual {v0}, Lorg/slf4j/helpers/k;.d:()Lorg/slf4j/helpers/j; // method@6133
+1229a2: 0c00                                   |000b: move-result-object v0
+1229a4: 6e10 2b61 0000                         |000c: invoke-virtual {v0}, Lorg/slf4j/helpers/j;.b:()V // method@612b
+1229aa: 0e00                                   |000f: return-void
+      catches       : (none)
+
+    #21              : (in Lkr/e;)
+      name          : 't'
+      type          : '()V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 0
+      outs          : 3
+      insns size    : 61 16-bit code units
+1229ac:                                        |[1229ac] kr.e.t:()V
+1229bc: 6200 3409                              |0000: sget-object v0, Lkr/e;.b:Lorg/slf4j/helpers/k; // field@0934
+1229c0: 6e10 3361 0000                         |0002: invoke-virtual {v0}, Lorg/slf4j/helpers/k;.d:()Lorg/slf4j/helpers/j; // method@6133
+1229c6: 0c00                                   |0005: move-result-object v0
+1229c8: 6e10 2c61 0000                         |0006: invoke-virtual {v0}, Lorg/slf4j/helpers/j;.c:()Ljava/util/concurrent/LinkedBlockingQueue; // method@612c
+1229ce: 0c00                                   |0009: move-result-object v0
+1229d0: 6e10 7515 0000                         |000a: invoke-virtual {v0}, Ljava/util/concurrent/LinkedBlockingQueue;.size:()I // method@1575
+1229d6: 0a01                                   |000d: move-result v1
+1229d8: 2202 7d04                              |000e: new-instance v2, Ljava/util/ArrayList; // type@047d
+1229dc: 1303 8000                              |0010: const/16 v3, #int 128 // #80
+1229e0: 7020 3214 3200                         |0012: invoke-direct {v2, v3}, Ljava/util/ArrayList;.<init>:(I)V // method@1432
+1229e6: 1204                                   |0015: const/4 v4, #int 0 // #0
+1229e8: 6e30 6e15 2003                         |0016: invoke-virtual {v0, v2, v3}, Ljava/util/concurrent/LinkedBlockingQueue;.drainTo:(Ljava/util/Collection;I)I // method@156e
+1229ee: 0a05                                   |0019: move-result v5
+1229f0: 3905 0300                              |001a: if-nez v5, 001d // +0003
+1229f4: 0e00                                   |001c: return-void
+1229f6: 7210 cc14 0200                         |001d: invoke-interface {v2}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@14cc
+1229fc: 0c05                                   |0020: move-result-object v5
+1229fe: 7210 b414 0500                         |0021: invoke-interface {v5}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+122a04: 0a06                                   |0024: move-result v6
+122a06: 3806 1400                              |0025: if-eqz v6, 0039 // +0014
+122a0a: 7210 b514 0500                         |0027: invoke-interface {v5}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+122a10: 0c06                                   |002a: move-result-object v6
+122a12: 1f06 090f                              |002b: check-cast v6, Lorg/slf4j/event/c; // type@0f09
+122a16: 7110 d218 0600                         |002d: invoke-static {v6}, Lkr/e;.u:(Lorg/slf4j/event/c;)V // method@18d2
+122a1c: d807 0401                              |0030: add-int/lit8 v7, v4, #int 1 // #01
+122a20: 3904 0500                              |0032: if-nez v4, 0037 // +0005
+122a24: 7120 c018 1600                         |0034: invoke-static {v6, v1}, Lkr/e;.c:(Lorg/slf4j/event/c;I)V // method@18c0
+122a2a: 0174                                   |0037: move v4, v7
+122a2c: 28e9                                   |0038: goto 0021 // -0017
+122a2e: 7210 c514 0200                         |0039: invoke-interface {v2}, Ljava/util/List;.clear:()V // method@14c5
+122a34: 28da                                   |003c: goto 0016 // -0026
+      catches       : (none)
+
+    #22              : (in Lkr/e;)
+      name          : 'u'
+      type          : '(Lorg/slf4j/event/c;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 56 16-bit code units
+122a38:                                        |[122a38] kr.e.u:(Lorg/slf4j/event/c;)V
+122a48: 3903 0300                              |0000: if-nez v3, 0003 // +0003
+122a4c: 0e00                                   |0002: return-void
+122a4e: 6e10 e25f 0300                         |0003: invoke-virtual {v3}, Lorg/slf4j/event/c;.c:()Lorg/slf4j/helpers/i; // method@5fe2
+122a54: 0c00                                   |0006: move-result-object v0
+122a56: 6e10 1161 0000                         |0007: invoke-virtual {v0}, Lorg/slf4j/helpers/i;.getName:()Ljava/lang/String; // method@6111
+122a5c: 0c01                                   |000a: move-result-object v1
+122a5e: 6e10 0861 0000                         |000b: invoke-virtual {v0}, Lorg/slf4j/helpers/i;.e:()Z // method@6108
+122a64: 0a02                                   |000e: move-result v2
+122a66: 3902 2100                              |000f: if-nez v2, 0030 // +0021
+122a6a: 6e10 0261 0000                         |0011: invoke-virtual {v0}, Lorg/slf4j/helpers/i;.d:()Z // method@6102
+122a70: 0a02                                   |0014: move-result v2
+122a72: 3802 0300                              |0015: if-eqz v2, 0018 // +0003
+122a76: 2818                                   |0017: goto 002f // +0018
+122a78: 6e10 0161 0000                         |0018: invoke-virtual {v0}, Lorg/slf4j/helpers/i;.c:()Z // method@6101
+122a7e: 0a02                                   |001b: move-result v2
+122a80: 3802 1000                              |001c: if-eqz v2, 002c // +0010
+122a84: 6e10 e15f 0300                         |001e: invoke-virtual {v3}, Lorg/slf4j/event/c;.b:()Lorg/slf4j/event/Level; // method@5fe1
+122a8a: 0c01                                   |0021: move-result-object v1
+122a8c: 6e20 1961 1000                         |0022: invoke-virtual {v0, v1}, Lorg/slf4j/helpers/i;.isEnabledForLevel:(Lorg/slf4j/event/Level;)Z // method@6119
+122a92: 0a01                                   |0025: move-result v1
+122a94: 3801 0900                              |0026: if-eqz v1, 002f // +0009
+122a98: 6e20 0f61 3000                         |0028: invoke-virtual {v0, v3}, Lorg/slf4j/helpers/i;.f:(Lorg/slf4j/event/b;)V // method@610f
+122a9e: 2804                                   |002b: goto 002f // +0004
+122aa0: 7110 3d61 0100                         |002c: invoke-static {v1}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122aa6: 0e00                                   |002f: return-void
+122aa8: 2203 c503                              |0030: new-instance v3, Ljava/lang/IllegalStateException; // type@03c5
+122aac: 1a00 d611                              |0032: const-string v0, "Delegate logger cannot be null at this state." // string@11d6
+122ab0: 7020 a811 0300                         |0034: invoke-direct {v3, v0}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@11a8
+122ab6: 2703                                   |0037: throw v3
+      catches       : (none)
+
+    #23              : (in Lkr/e;)
+      name          : 'v'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 43 16-bit code units
+122ab8:                                        |[122ab8] kr.e.v:(Ljava/util/List;)V
+122ac8: 7210 cb14 0200                         |0000: invoke-interface {v2}, Ljava/util/List;.isEmpty:()Z // method@14cb
+122ace: 0a00                                   |0003: move-result v0
+122ad0: 3900 2600                              |0004: if-nez v0, 002a // +0026
+122ad4: 7110 cc18 0200                         |0006: invoke-static {v2}, Lkr/e;.o:(Ljava/util/List;)Z // method@18cc
+122ada: 0a00                                   |0009: move-result v0
+122adc: 3800 2000                              |000a: if-eqz v0, 002a // +0020
+122ae0: 2200 e603                              |000c: new-instance v0, Ljava/lang/StringBuilder; // type@03e6
+122ae4: 7010 5212 0000                         |000e: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+122aea: 1a01 0809                              |0011: const-string v1, "Actual provider is of type [" // string@0908
+122aee: 6e20 5c12 1000                         |0013: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122af4: 1201                                   |0016: const/4 v1, #int 0 // #0
+122af6: 7220 c814 1200                         |0017: invoke-interface {v2, v1}, Ljava/util/List;.get:(I)Ljava/lang/Object; // method@14c8
+122afc: 0c02                                   |001a: move-result-object v2
+122afe: 6e20 5b12 2000                         |001b: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+122b04: 1a02 4747                              |001e: const-string v2, "]" // string@4747
+122b08: 6e20 5c12 2000                         |0020: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122b0e: 6e10 6912 0000                         |0023: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+122b14: 0c02                                   |0026: move-result-object v2
+122b16: 7110 3d61 0200                         |0027: invoke-static {v2}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122b1c: 0e00                                   |002a: return-void
+      catches       : (none)
+
+    #24              : (in Lkr/e;)
+      name          : 'w'
+      type          : '(Ljava/util/Set;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 60 16-bit code units
+122b20:                                        |[122b20] kr.e.w:(Ljava/util/Set;)V
+122b30: 7210 1115 0300                         |0000: invoke-interface {v3}, Ljava/util/Set;.isEmpty:()Z // method@1511
+122b36: 0a00                                   |0003: move-result v0
+122b38: 3800 0300                              |0004: if-eqz v0, 0007 // +0003
+122b3c: 0e00                                   |0006: return-void
+122b3e: 1a00 200e                              |0007: const-string v0, "Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier." // string@0e20
+122b42: 7110 3d61 0000                         |0009: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122b48: 7210 1215 0300                         |000c: invoke-interface {v3}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@1512
+122b4e: 0c03                                   |000f: move-result-object v3
+122b50: 7210 b414 0300                         |0010: invoke-interface {v3}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+122b56: 0a00                                   |0013: move-result v0
+122b58: 3800 2200                              |0014: if-eqz v0, 0036 // +0022
+122b5c: 7210 b514 0300                         |0016: invoke-interface {v3}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+122b62: 0c00                                   |0019: move-result-object v0
+122b64: 1f00 2a04                              |001a: check-cast v0, Ljava/net/URL; // type@042a
+122b68: 2201 e603                              |001c: new-instance v1, Ljava/lang/StringBuilder; // type@03e6
+122b6c: 7010 5212 0100                         |001e: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+122b72: 1a02 e619                              |0021: const-string v2, "Ignoring binding found at [" // string@19e6
+122b76: 6e20 5c12 2100                         |0023: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122b7c: 6e20 5b12 0100                         |0026: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+122b82: 1a00 4747                              |0029: const-string v0, "]" // string@4747
+122b86: 6e20 5c12 0100                         |002b: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122b8c: 6e10 6912 0100                         |002e: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+122b92: 0c00                                   |0031: move-result-object v0
+122b94: 7110 3d61 0000                         |0032: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122b9a: 28db                                   |0035: goto 0010 // -0025
+122b9c: 1a03 933a                              |0036: const-string v3, "See https://www.slf4j.org/codes.html#ignoredBindings for an explanation." // string@3a93
+122ba0: 7110 3d61 0300                         |0038: invoke-static {v3}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122ba6: 0e00                                   |003b: return-void
+      catches       : (none)
+
+    #25              : (in Lkr/e;)
+      name          : 'x'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 59 16-bit code units
+122ba8:                                        |[122ba8] kr.e.x:(Ljava/util/List;)V
+122bb8: 7110 cc18 0300                         |0000: invoke-static {v3}, Lkr/e;.o:(Ljava/util/List;)Z // method@18cc
+122bbe: 0a00                                   |0003: move-result v0
+122bc0: 3800 3600                              |0004: if-eqz v0, 003a // +0036
+122bc4: 1a00 210e                              |0006: const-string v0, "Class path contains multiple SLF4J providers." // string@0e21
+122bc8: 7110 3d61 0000                         |0008: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122bce: 7210 cc14 0300                         |000b: invoke-interface {v3}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@14cc
+122bd4: 0c03                                   |000e: move-result-object v3
+122bd6: 7210 b414 0300                         |000f: invoke-interface {v3}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+122bdc: 0a00                                   |0012: move-result v0
+122bde: 3800 2200                              |0013: if-eqz v0, 0035 // +0022
+122be2: 7210 b514 0300                         |0015: invoke-interface {v3}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+122be8: 0c00                                   |0018: move-result-object v0
+122bea: 1f00 d705                              |0019: check-cast v0, Llr/e; // type@05d7
+122bee: 2201 e603                              |001b: new-instance v1, Ljava/lang/StringBuilder; // type@03e6
+122bf2: 7010 5212 0100                         |001d: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+122bf8: 1a02 2f17                              |0020: const-string v2, "Found provider [" // string@172f
+122bfc: 6e20 5c12 2100                         |0022: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122c02: 6e20 5b12 0100                         |0025: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+122c08: 1a00 4747                              |0028: const-string v0, "]" // string@4747
+122c0c: 6e20 5c12 0100                         |002a: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122c12: 6e10 6912 0100                         |002d: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+122c18: 0c00                                   |0030: move-result-object v0
+122c1a: 7110 3d61 0000                         |0031: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122c20: 28db                                   |0034: goto 000f // -0025
+122c22: 1a03 953a                              |0035: const-string v3, "See https://www.slf4j.org/codes.html#multiple_bindings for an explanation." // string@3a95
+122c26: 7110 3d61 0300                         |0037: invoke-static {v3}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122c2c: 0e00                                   |003a: return-void
+      catches       : (none)
+
+    #26              : (in Lkr/e;)
+      name          : 'y'
+      type          : '(Ljava/util/List;Ljava/util/Iterator;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 36 16-bit code units
+122c30:                                        |[122c30] kr.e.y:(Ljava/util/List;Ljava/util/Iterator;)V
+122c40: 7210 b514 0200                         |0000: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+122c46: 0c02                                   |0003: move-result-object v2
+122c48: 1f02 d705                              |0004: check-cast v2, Llr/e; // type@05d7
+122c4c: 7220 c314 2100                         |0006: invoke-interface {v1, v2}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@14c3
+122c52: 281a                                   |0009: goto 0023 // +001a
+122c54: 0d01                                   |000a: move-exception v1
+122c56: 2202 e603                              |000b: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+122c5a: 7010 5212 0200                         |000d: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+122c60: 1a00 bf07                              |0010: const-string v0, "A SLF4J service provider failed to instantiate:\n" // string@07bf
+122c64: 6e20 5c12 0200                         |0012: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122c6a: 6e10 9812 0100                         |0015: invoke-virtual {v1}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@1298
+122c70: 0c01                                   |0018: move-result-object v1
+122c72: 6e20 5c12 1200                         |0019: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122c78: 6e10 6912 0200                         |001c: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+122c7e: 0c01                                   |001f: move-result-object v1
+122c80: 7110 3d61 0100                         |0020: invoke-static {v1}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122c86: 0e00                                   |0023: return-void
+      catches       : 1
+        0x0000 - 0x0009
+          Ljava/util/ServiceConfigurationError; -> 0x000a
+
+    #27              : (in Lkr/e;)
+      name          : 'z'
+      type          : '()V'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 0
+      outs          : 2
+      insns size    : 79 16-bit code units
+122c98:                                        |[122c98] kr.e.z:()V
+122ca8: 6200 3709                              |0000: sget-object v0, Lkr/e;.e:Llr/e; // field@0937
+122cac: 7210 711b 0000                         |0002: invoke-interface {v0}, Llr/e;.b:()Ljava/lang/String; // method@1b71
+122cb2: 0c00                                   |0005: move-result-object v0
+122cb4: 6201 3809                              |0006: sget-object v1, Lkr/e;.f:[Ljava/lang/String; // field@0938
+122cb8: 2112                                   |0008: array-length v2, v1
+122cba: 1203                                   |0009: const/4 v3, #int 0 // #0
+122cbc: 0134                                   |000a: move v4, v3
+122cbe: 3523 1000                              |000b: if-ge v3, v2, 001b // +0010
+122cc2: 4605 0103                              |000d: aget-object v5, v1, v3
+122cc6: 6e20 2f12 5000                         |000f: invoke-virtual {v0, v5}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@122f
+122ccc: 0a05                                   |0012: move-result v5
+122cce: 3805 0300                              |0013: if-eqz v5, 0016 // +0003
+122cd2: 1214                                   |0015: const/4 v4, #int 1 // #1
+122cd4: d803 0301                              |0016: add-int/lit8 v3, v3, #int 1 // #01
+122cd8: 28f3                                   |0018: goto 000b // -000d
+122cda: 0d00                                   |0019: move-exception v0
+122cdc: 282f                                   |001a: goto 0049 // +002f
+122cde: 3904 3300                              |001b: if-nez v4, 004e // +0033
+122ce2: 2201 e603                              |001d: new-instance v1, Ljava/lang/StringBuilder; // type@03e6
+122ce6: 7010 5212 0100                         |001f: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+122cec: 1a02 dd3e                              |0022: const-string v2, "The requested version " // string@3edd
+122cf0: 6e20 5c12 2100                         |0024: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122cf6: 6e20 5c12 0100                         |0027: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122cfc: 1a00 c700                              |002a: const-string v0, " by your slf4j binding is not compatible with " // string@00c7
+122d00: 6e20 5c12 0100                         |002c: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122d06: 6200 3809                              |002f: sget-object v0, Lkr/e;.f:[Ljava/lang/String; // field@0938
+122d0a: 7110 4114 0000                         |0031: invoke-static {v0}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@1441
+122d10: 0c00                                   |0034: move-result-object v0
+122d12: 6e10 f111 0000                         |0035: invoke-virtual {v0}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@11f1
+122d18: 0c00                                   |0038: move-result-object v0
+122d1a: 6e20 5c12 0100                         |0039: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+122d20: 6e10 6912 0100                         |003c: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+122d26: 0c00                                   |003f: move-result-object v0
+122d28: 7110 3d61 0000                         |0040: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122d2e: 1a00 973a                              |0043: const-string v0, "See https://www.slf4j.org/codes.html#version_mismatch for further details." // string@3a97
+122d32: 7110 3d61 0000                         |0045: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122d38: 2806                                   |0048: goto 004e // +0006
+122d3a: 1a01 cb40                              |0049: const-string v1, "Unexpected problem occured during version sanity check" // string@40cb
+122d3e: 7120 3e61 0100                         |004b: invoke-static {v1, v0}, Lorg/slf4j/helpers/m;.d:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@613e
+122d44: 0e00                                   |004e: return-void
+      catches       : 1
+        0x0000 - 0x0048
+          Ljava/lang/NoSuchFieldError; -> 0x004e
+          <any> -> 0x0019
+
+  Virtual methods   -
+  source_file_idx   : 11238 (LoggerFactory.java)
+

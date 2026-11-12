@@ -1,0 +1,6 @@
+# Full local indexes are delivered in the analysis ZIP but are too large for source control.
+/inventory/classes.json
+/inventory/all_dex_fields.csv
+/inventory/all_dex_methods.csv
+/inventory/application_fields.csv
+/inventory/application_literals.csv

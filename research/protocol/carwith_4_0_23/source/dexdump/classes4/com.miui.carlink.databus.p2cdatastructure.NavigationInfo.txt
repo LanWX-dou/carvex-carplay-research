@@ -1,0 +1,306 @@
+Class #288            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/Parcelable;'
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'CREATOR'
+      type          : 'Landroid/os/Parcelable$Creator;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'a'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'b'
+      type          : '[B'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'f'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'g'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'h'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'i'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+12259c:                                        |[12259c] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.<clinit>:()V
+1225ac: 2200 8d03                              |0000: new-instance v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo$a; // type@038d
+1225b0: 7010 fe10 0000                         |0002: invoke-direct {v0}, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo$a;.<init>:()V // method@10fe
+1225b6: 6900 186e                              |0005: sput-object v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.CREATOR:Landroid/os/Parcelable$Creator; // field@6e18
+1225ba: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : '<init>'
+      type          : '(Landroid/os/Parcel;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 61 16-bit code units
+1225bc:                                        |[1225bc] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.<init>:(Landroid/os/Parcel;)V
+1225cc: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+1225d2: 1200                                   |0003: const/4 v0, #int 0 // #0
+1225d4: 5910 216e                              |0004: iput v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.i:I // field@6e21
+1225d8: 6e10 e302 0200                         |0006: invoke-virtual {v2}, Landroid/os/Parcel;.readBoolean:()Z // method@02e3
+1225de: 0a00                                   |0009: move-result v0
+1225e0: 5c10 196e                              |000a: iput-boolean v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.a:Z // field@6e19
+1225e4: 6e10 dd02 0200                         |000c: invoke-virtual {v2}, Landroid/os/Parcel;.createByteArray:()[B // method@02dd
+1225ea: 0c00                                   |000f: move-result-object v0
+1225ec: 5b10 1a6e                              |0010: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.b:[B // field@6e1a
+1225f0: 6e10 eb02 0200                         |0012: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+1225f6: 0c00                                   |0015: move-result-object v0
+1225f8: 5b10 1b6e                              |0016: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.c:Ljava/lang/String; // field@6e1b
+1225fc: 6e10 eb02 0200                         |0018: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+122602: 0c00                                   |001b: move-result-object v0
+122604: 5b10 1c6e                              |001c: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.d:Ljava/lang/String; // field@6e1c
+122608: 6e10 eb02 0200                         |001e: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+12260e: 0c00                                   |0021: move-result-object v0
+122610: 5b10 1d6e                              |0022: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.e:Ljava/lang/String; // field@6e1d
+122614: 6e10 eb02 0200                         |0024: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+12261a: 0c00                                   |0027: move-result-object v0
+12261c: 5b10 1e6e                              |0028: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.f:Ljava/lang/String; // field@6e1e
+122620: 6e10 eb02 0200                         |002a: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+122626: 0c00                                   |002d: move-result-object v0
+122628: 5b10 1f6e                              |002e: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.g:Ljava/lang/String; // field@6e1f
+12262c: 6e10 eb02 0200                         |0030: invoke-virtual {v2}, Landroid/os/Parcel;.readString:()Ljava/lang/String; // method@02eb
+122632: 0c00                                   |0033: move-result-object v0
+122634: 5b10 206e                              |0034: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.h:Ljava/lang/String; // field@6e20
+122638: 6e10 e702 0200                         |0036: invoke-virtual {v2}, Landroid/os/Parcel;.readInt:()I // method@02e7
+12263e: 0a02                                   |0039: move-result v2
+122640: 5912 216e                              |003a: iput v2, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.i:I // field@6e21
+122644: 0e00                                   |003c: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : '<init>'
+      type          : '(Z[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 10
+      ins           : 9
+      outs          : 1
+      insns size    : 23 16-bit code units
+122648:                                        |[122648] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.<init>:(Z[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+122658: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+12265e: 1200                                   |0003: const/4 v0, #int 0 // #0
+122660: 5910 216e                              |0004: iput v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.i:I // field@6e21
+122664: 5c12 196e                              |0006: iput-boolean v2, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.a:Z // field@6e19
+122668: 5b13 1a6e                              |0008: iput-object v3, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.b:[B // field@6e1a
+12266c: 5b14 1b6e                              |000a: iput-object v4, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.c:Ljava/lang/String; // field@6e1b
+122670: 5b15 1c6e                              |000c: iput-object v5, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.d:Ljava/lang/String; // field@6e1c
+122674: 5b16 1d6e                              |000e: iput-object v6, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.e:Ljava/lang/String; // field@6e1d
+122678: 5b17 1e6e                              |0010: iput-object v7, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.f:Ljava/lang/String; // field@6e1e
+12267c: 5b18 1f6e                              |0012: iput-object v8, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.g:Ljava/lang/String; // field@6e1f
+122680: 5b19 206e                              |0014: iput-object v9, v1, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.h:Ljava/lang/String; // field@6e20
+122684: 0e00                                   |0016: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'a'
+      type          : '()[B'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1224c8:                                        |[1224c8] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.a:()[B
+1224d8: 5400 1a6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.b:[B // field@6e1a
+1224dc: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+12250c:                                        |[12250c] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.b:()Ljava/lang/String;
+12251c: 5400 1b6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.c:Ljava/lang/String; // field@6e1b
+122520: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'd'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122524:                                        |[122524] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.d:()Ljava/lang/String;
+122534: 5400 1c6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.d:Ljava/lang/String; // field@6e1c
+122538: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'describeContents'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 2 16-bit code units
+1224e0:                                        |[1224e0] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.describeContents:()I
+1224f0: 1200                                   |0000: const/4 v0, #int 0 // #0
+1224f2: 0f00                                   |0001: return v0
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'e'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1224f4:                                        |[1224f4] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.e:()I
+122504: 5200 216e                              |0000: iget v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.i:I // field@6e21
+122508: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'f'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+12253c:                                        |[12253c] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.f:()Ljava/lang/String;
+12254c: 5400 1d6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.e:Ljava/lang/String; // field@6e1d
+122550: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'g'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122554:                                        |[122554] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.g:()Ljava/lang/String;
+122564: 5400 1f6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.g:Ljava/lang/String; // field@6e1f
+122568: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #7              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'h'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+12256c:                                        |[12256c] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.h:()Ljava/lang/String;
+12257c: 5400 206e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.h:Ljava/lang/String; // field@6e20
+122580: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #8              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'i'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122584:                                        |[122584] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.i:()Ljava/lang/String;
+122594: 5400 1e6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.f:Ljava/lang/String; // field@6e1e
+122598: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #9              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'j'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1224b0:                                        |[1224b0] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.j:()Z
+1224c0: 5500 196e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.a:Z // field@6e19
+1224c4: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #10              : (in Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)
+      name          : 'writeToParcel'
+      type          : '(Landroid/os/Parcel;I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 46 16-bit code units
+122688:                                        |[122688] com.miui.carlink.databus.p2cdatastructure.NavigationInfo.writeToParcel:(Landroid/os/Parcel;I)V
+122698: 5502 196e                              |0000: iget-boolean v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.a:Z // field@6e19
+12269c: 6e20 ef02 2100                         |0002: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeBoolean:(Z)V // method@02ef
+1226a2: 5402 1a6e                              |0005: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.b:[B // field@6e1a
+1226a6: 6e20 f102 2100                         |0007: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeByteArray:([B)V // method@02f1
+1226ac: 5402 1b6e                              |000a: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.c:Ljava/lang/String; // field@6e1b
+1226b0: 6e20 f902 2100                         |000c: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226b6: 5402 1c6e                              |000f: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.d:Ljava/lang/String; // field@6e1c
+1226ba: 6e20 f902 2100                         |0011: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226c0: 5402 1d6e                              |0014: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.e:Ljava/lang/String; // field@6e1d
+1226c4: 6e20 f902 2100                         |0016: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226ca: 5402 1e6e                              |0019: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.f:Ljava/lang/String; // field@6e1e
+1226ce: 6e20 f902 2100                         |001b: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226d4: 5402 1f6e                              |001e: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.g:Ljava/lang/String; // field@6e1f
+1226d8: 6e20 f902 2100                         |0020: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226de: 5402 206e                              |0023: iget-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.h:Ljava/lang/String; // field@6e20
+1226e2: 6e20 f902 2100                         |0025: invoke-virtual {v1, v2}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1226e8: 5200 216e                              |0028: iget v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;.i:I // field@6e21
+1226ec: 6e20 f302 0100                         |002a: invoke-virtual {v1, v0}, Landroid/os/Parcel;.writeInt:(I)V // method@02f3
+1226f2: 0e00                                   |002d: return-void
+      catches       : (none)
+
+  source_file_idx   : 8277 (NavigationInfo.java)
+

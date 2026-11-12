@@ -1,0 +1,1059 @@
+Class #3844            -
+  Class descriptor  : 'Lcom/carwith/common/Constants;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/carwith/common/Constants;)
+      name          : 'a'
+      type          : 'Ljava/util/List;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lcom/carwith/common/Constants;)
+      name          : 'b'
+      type          : 'Landroid/content/SharedPreferences;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #2              : (in Lcom/carwith/common/Constants;)
+      name          : 'c'
+      type          : 'Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Lcom/carwith/common/Constants;)
+      name          : 'd'
+      type          : 'Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #4              : (in Lcom/carwith/common/Constants;)
+      name          : 'e'
+      type          : 'Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #5              : (in Lcom/carwith/common/Constants;)
+      name          : 'f'
+      type          : 'Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #6              : (in Lcom/carwith/common/Constants;)
+      name          : 'g'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #7              : (in Lcom/carwith/common/Constants;)
+      name          : 'h'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #8              : (in Lcom/carwith/common/Constants;)
+      name          : 'i'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #9              : (in Lcom/carwith/common/Constants;)
+      name          : 'j'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #10              : (in Lcom/carwith/common/Constants;)
+      name          : 'k'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #11              : (in Lcom/carwith/common/Constants;)
+      name          : 'l'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #12              : (in Lcom/carwith/common/Constants;)
+      name          : 'm'
+      type          : 'Ljava/util/List;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #13              : (in Lcom/carwith/common/Constants;)
+      name          : 'n'
+      type          : 'Ljava/util/List;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #14              : (in Lcom/carwith/common/Constants;)
+      name          : 'o'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #15              : (in Lcom/carwith/common/Constants;)
+      name          : 'p'
+      type          : 'Ljava/util/List;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #16              : (in Lcom/carwith/common/Constants;)
+      name          : 'q'
+      type          : '[Lcom/carwith/common/bean/AppWhiteItem;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #17              : (in Lcom/carwith/common/Constants;)
+      name          : 'r'
+      type          : '[I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/Constants;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 55
+      ins           : 0
+      outs          : 31
+      insns size    : 1708 16-bit code units
+43af48:                                        |[43af48] com.carwith.common.Constants.<clinit>:()V
+43af58: 1a05 ab8e                              |0000: const-string v5, "com.baidu.mapauto" // string@8eab
+43af5c: 1a06 ac8e                              |0002: const-string v6, "com.baidu.naviauto" // string@8eac
+43af60: 1a00 268e                              |0004: const-string v0, "com.autonavi.amapauto" // string@8e26
+43af64: 1a01 6a8e                              |0006: const-string v1, "com.baidu.BaiduMap" // string@8e6a
+43af68: 1a02 278e                              |0008: const-string v2, "com.autonavi.minimap" // string@8e27
+43af6c: 1a03 218f                              |000a: const-string v3, "com.tencent.map" // string@8f21
+43af70: 1a04 2c8f                              |000c: const-string v4, "com.tencent.wecarnavi" // string@8f2c
+43af74: 2507 6d27 0000                         |000e: filled-new-array/range {v0, v1, v2, v3, v4, v5, v6}, [Ljava/lang/String; // type@276d
+43af7a: 0c00                                   |0011: move-result-object v0
+43af7c: 7110 acbe 0000                         |0012: invoke-static {v0}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@beac
+43af82: 0c00                                   |0015: move-result-object v0
+43af84: 6900 a7af                              |0016: sput-object v0, Lcom/carwith/common/Constants;.a:Ljava/util/List; // field@afa7
+43af88: 2206 4219                              |0018: new-instance v6, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43af8c: 1a00 208e                              |001a: const-string v0, "com.android.phone" // string@8e20
+43af90: 1a01 25dd                              |001c: const-string v1, "other" // string@dd25
+43af94: 1b02 d100 0100                         |001e: const-string/jumbo v2, "电话" // string@000100d1
+43af9a: 1303 0e00                              |0021: const/16 v3, #int 14 // #e
+43af9e: 7053 43a5 0621                         |0023: invoke-direct {v6, v0, v1, v2, v3}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V // method@a543
+43afa4: 6906 a9af                              |0026: sput-object v6, Lcom/carwith/common/Constants;.c:Lcom/carwith/common/bean/AppWhiteItem; // field@afa9
+43afa8: 2202 4219                              |0028: new-instance v2, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43afac: 1a04 238e                              |002a: const-string v4, "com.android.settings" // string@8e23
+43afb0: 1b05 fd00 0100                         |002c: const-string/jumbo v5, "设置" // string@000100fd
+43afb6: 7053 43a5 4251                         |002f: invoke-direct {v2, v4, v1, v5, v3}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V // method@a543
+43afbc: 6902 aaaf                              |0032: sput-object v2, Lcom/carwith/common/Constants;.d:Lcom/carwith/common/bean/AppWhiteItem; // field@afaa
+43afc0: 2204 4219                              |0034: new-instance v4, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43afc4: 1a05 f38e                              |0036: const-string v5, "com.miui.carlink" // string@8ef3
+43afc8: 1a07 d815                              |0038: const-string v7, "CarWith" // string@15d8
+43afcc: 7053 43a5 5471                         |003a: invoke-direct {v4, v5, v1, v7, v3}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V // method@a543
+43afd2: 6904 abaf                              |003d: sput-object v4, Lcom/carwith/common/Constants;.e:Lcom/carwith/common/bean/AppWhiteItem; // field@afab
+43afd6: 2207 4219                              |003f: new-instance v7, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43afda: 1b01 f900 0100                         |0041: const-string/jumbo v1, "融合桌面" // string@000100f9
+43afe0: 1213                                   |0044: const/4 v3, #int 1 // #1
+43afe2: 1a04 fe8e                              |0045: const-string v4, "com.miui.carlink_1_5" // string@8efe
+43afe6: 7040 41a5 4731                         |0047: invoke-direct {v7, v4, v1, v3}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;I)V // method@a541
+43afec: 6907 acaf                              |004a: sput-object v7, Lcom/carwith/common/Constants;.f:Lcom/carwith/common/bean/AppWhiteItem; // field@afac
+43aff0: 2201 4219                              |004c: new-instance v1, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43aff4: 1b0e eb00 0100                         |004e: const-string/jumbo v14, "网易云音乐" // string@000100eb
+43affa: 121f                                   |0051: const/4 v15, #int 1 // #1
+43affc: 1a09 098f                              |0052: const-string v9, "com.netease.cloudmusic" // string@8f09
+43b000: 170a b81d 7a00                         |0054: const-wide/32 v10, #float 1.12146e-38 // #007a1db8
+43b006: 1a0c c2d6                              |0057: const-string v12, "music" // string@d6c2
+43b00a: 121d                                   |0059: const/4 v13, #int 1 // #1
+43b00c: 0718                                   |005a: move-object v8, v1
+43b00e: 7608 3da5 0800                         |005b: invoke-direct/range {v8, v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b014: 2209 4219                              |005e: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b018: 1b16 7c00 0100                         |0060: const-string/jumbo v22, "咪咕音乐" // string@0001007c
+43b01e: 1317 0100                              |0063: const/16 v23, #int 1 // #1
+43b022: 1a11 918d                              |0065: const-string v17, "cmccwm.mobilemusic" // string@8d91
+43b026: 1612 9601                              |0067: const-wide/16 v18, #int 406 // #196
+43b02a: 1a14 c2d6                              |0069: const-string v20, "music" // string@d6c2
+43b02e: 1315 0100                              |006b: const/16 v21, #int 1 // #1
+43b032: 0810 0900                              |006d: move-object/from16 v16, v9
+43b036: 7608 3da5 1000                         |006f: invoke-direct/range {v16, v17, v18, v19, v20, v21, v22, v23}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b03c: 2203 4219                              |0072: new-instance v3, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b040: 1b0e d500 0100                         |0074: const-string/jumbo v14, "百度地图" // string@000100d5
+43b046: 120f                                   |0077: const/4 v15, #int 0 // #0
+43b048: 1a0b 6a8e                              |0078: const-string v11, "com.baidu.BaiduMap" // string@8e6a
+43b04c: 1a0c 71c4                              |007a: const-string v12, "map" // string@c471
+43b050: 122d                                   |007c: const/4 v13, #int 2 // #2
+43b052: 073a                                   |007d: move-object v10, v3
+43b054: 7606 42a5 0a00                         |007e: invoke-direct/range {v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)V // method@a542
+43b05a: 220b 4219                              |0081: new-instance v11, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b05e: 1b16 2501 0100                         |0083: const-string/jumbo v22, "高德地图" // string@00010125
+43b064: 1317 0000                              |0086: const/16 v23, #int 0 // #0
+43b068: 1a11 278e                              |0088: const-string v17, "com.autonavi.minimap" // string@8e27
+43b06c: 1712 c4b2 0100                         |008a: const-wide/32 v18, #float 1.55965e-40 // #0001b2c4
+43b072: 1a14 71c4                              |008d: const-string v20, "map" // string@c471
+43b076: 1315 0200                              |008f: const/16 v21, #int 2 // #2
+43b07a: 0810 0b00                              |0091: move-object/from16 v16, v11
+43b07e: 7608 3da5 1000                         |0093: invoke-direct/range {v16, v17, v18, v19, v20, v21, v22, v23}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b084: 220c 4219                              |0096: new-instance v12, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b088: 1b1e 7e00 0100                         |0098: const-string/jumbo v30, "喜马拉雅" // string@0001007e
+43b08e: 131f 0100                              |009b: const/16 v31, #int 1 // #1
+43b092: 1a19 3c8f                              |009d: const-string v25, "com.ximalaya.ting.android" // string@8f3c
+43b096: 161a 1702                              |009f: const-wide/16 v26, #int 535 // #217
+43b09a: 1a1c 82e3                              |00a1: const-string v28, "radio" // string@e382
+43b09e: 131d 0200                              |00a3: const/16 v29, #int 2 // #2
+43b0a2: 0818 0c00                              |00a5: move-object/from16 v24, v12
+43b0a6: 7608 3da5 1800                         |00a7: invoke-direct/range {v24, v25, v26, v27, v28, v29, v30, v31}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b0ac: 2204 4219                              |00aa: new-instance v4, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b0b0: 1b13 d600 0100                         |00ac: const-string/jumbo v19, "百度网盘" // string@000100d6
+43b0b6: 1314 0100                              |00af: const/16 v20, #int 1 // #1
+43b0ba: 1a0e ad8e                              |00b1: const-string v14, "com.baidu.netdisk" // string@8ead
+43b0be: 160f 7006                              |00b3: const-wide/16 v15, #int 1648 // #670
+43b0c2: 1a11 c2d6                              |00b5: const-string v17, "music" // string@d6c2
+43b0c6: 1312 0100                              |00b7: const/16 v18, #int 1 // #1
+43b0ca: 074d                                   |00b9: move-object v13, v4
+43b0cc: 7608 3da5 0d00                         |00ba: invoke-direct/range {v13, v14, v15, v16, v17, v18, v19, v20}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b0d2: 220e 4219                              |00bd: new-instance v14, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b0d6: 131c 0100                              |00bf: const/16 v28, #int 1 // #1
+43b0da: 131d 1100                              |00c1: const/16 v29, #int 17 // #11
+43b0de: 1a16 408f                              |00c3: const-string v22, "com.xtc.watch" // string@8f40
+43b0e2: 1717 0455 0100                         |00c5: const-wide/32 v23, #float 1.22333e-40 // #00015504
+43b0e8: 1a19 25dd                              |00c8: const-string v25, "other" // string@dd25
+43b0ec: 131a 0200                              |00ca: const/16 v26, #int 2 // #2
+43b0f0: 1b1b 8800 0100                         |00cc: const-string/jumbo v27, "小天才" // string@00010088
+43b0f6: 0815 0e00                              |00cf: move-object/from16 v21, v14
+43b0fa: 7609 3ea5 1500                         |00d1: invoke-direct/range {v21, v22, v23, v24, v25, v26, v27, v28, v29}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;II)V // method@a53e
+43b100: 220f 4219                              |00d4: new-instance v15, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b104: 1b24 6300 0100                         |00d6: const-string/jumbo v36, "云听" // string@00010063
+43b10a: 1325 0100                              |00d9: const/16 v37, #int 1 // #1
+43b10e: 1a1f 0e8f                              |00db: const-string v31, "com.shinyv.cnr" // string@8f0e
+43b112: 1620 8b33                              |00dd: const-wide/16 v32, #int 13195 // #338b
+43b116: 1a22 82e3                              |00df: const-string v34, "radio" // string@e382
+43b11a: 1323 0100                              |00e1: const/16 v35, #int 1 // #1
+43b11e: 081e 0f00                              |00e3: move-object/from16 v30, v15
+43b122: 7608 3da5 1e00                         |00e5: invoke-direct/range {v30, v31, v32, v33, v34, v35, v36, v37}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b128: 2205 4219                              |00e8: new-instance v5, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b12c: 1b16 1901 0100                         |00ea: const-string/jumbo v22, "酷狗音乐" // string@00010119
+43b132: 1317 0100                              |00ed: const/16 v23, #int 1 // #1
+43b136: 1a11 e58e                              |00ef: const-string v17, "com.kugou.android" // string@8ee5
+43b13a: 1612 2930                              |00f1: const-wide/16 v18, #int 12329 // #3029
+43b13e: 1a14 c2d6                              |00f3: const-string v20, "music" // string@d6c2
+43b142: 1315 0100                              |00f5: const/16 v21, #int 1 // #1
+43b146: 0810 0500                              |00f7: move-object/from16 v16, v5
+43b14a: 7608 3da5 1000                         |00f9: invoke-direct/range {v16, v17, v18, v19, v20, v21, v22, v23}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b150: 2211 4219                              |00fc: new-instance v17, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b154: 1a1e c660                              |00fe: const-string v30, "QQ音乐" // string@60c6
+43b158: 131f 0100                              |0100: const/16 v31, #int 1 // #1
+43b15c: 1a19 268f                              |0102: const-string v25, "com.tencent.qqmusic" // string@8f26
+43b160: 161a 0c17                              |0104: const-wide/16 v26, #int 5900 // #170c
+43b164: 1a1c c2d6                              |0106: const-string v28, "music" // string@d6c2
+43b168: 131d 0200                              |0108: const/16 v29, #int 2 // #2
+43b16c: 0818 1100                              |010a: move-object/from16 v24, v17
+43b170: 7608 3da5 1800                         |010c: invoke-direct/range {v24, v25, v26, v27, v28, v29, v30, v31}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b176: 250a 3727 0800                         |010f: filled-new-array/range {v8, v9, v10, v11, v12, v13, v14, v15, v16, v17}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b17c: 0c01                                   |0112: move-result-object v1
+43b17e: 6901 adaf                              |0113: sput-object v1, Lcom/carwith/common/Constants;.g:[Lcom/carwith/common/bean/AppWhiteItem; // field@afad
+43b182: 2201 4219                              |0115: new-instance v1, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b186: 1b0c d500 0100                         |0117: const-string/jumbo v12, "百度地图" // string@000100d5
+43b18c: 120d                                   |011a: const/4 v13, #int 0 // #0
+43b18e: 1a09 6a8e                              |011b: const-string v9, "com.baidu.BaiduMap" // string@8e6a
+43b192: 1a0a 71c4                              |011d: const-string v10, "map" // string@c471
+43b196: 122b                                   |011f: const/4 v11, #int 2 // #2
+43b198: 0718                                   |0120: move-object v8, v1
+43b19a: 7606 42a5 0800                         |0121: invoke-direct/range {v8, v9, v10, v11, v12, v13}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)V // method@a542
+43b1a0: 2203 4219                              |0124: new-instance v3, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b1a4: 1b14 a500 0100                         |0126: const-string/jumbo v20, "搜狐新闻" // string@000100a5
+43b1aa: 1315 0400                              |0129: const/16 v21, #int 4 // #4
+43b1ae: 1a0f 138f                              |012b: const-string v15, "com.sohu.newsclient" // string@8f13
+43b1b2: 1610 2103                              |012d: const-wide/16 v16, #int 801 // #321
+43b1b6: 1a12 82e3                              |012f: const-string v18, "radio" // string@e382
+43b1ba: 1313 0200                              |0131: const/16 v19, #int 2 // #2
+43b1be: 073e                                   |0133: move-object v14, v3
+43b1c0: 7608 3da5 0e00                         |0134: invoke-direct/range {v14, v15, v16, v17, v18, v19, v20, v21}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b1c6: 2204 4219                              |0137: new-instance v4, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b1ca: 1b1c 6200 0100                         |0139: const-string/jumbo v28, "乐听头条" // string@00010062
+43b1d0: 131d 0400                              |013c: const/16 v29, #int 4 // #4
+43b1d4: 1a17 ee8e                              |013e: const-string v23, "com.leting" // string@8eee
+43b1d8: 1618 3c01                              |0140: const-wide/16 v24, #int 316 // #13c
+43b1dc: 1a1a 82e3                              |0142: const-string v26, "radio" // string@e382
+43b1e0: 131b 0200                              |0144: const/16 v27, #int 2 // #2
+43b1e4: 0816 0400                              |0146: move-object/from16 v22, v4
+43b1e8: 7608 3da5 1600                         |0148: invoke-direct/range {v22, v23, v24, v25, v26, v27, v28, v29}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b1ee: 2430 3727 3104                         |014b: filled-new-array {v1, v3, v4}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b1f4: 0c01                                   |014e: move-result-object v1
+43b1f6: 6901 aeaf                              |014f: sput-object v1, Lcom/carwith/common/Constants;.h:[Lcom/carwith/common/bean/AppWhiteItem; // field@afae
+43b1fa: 2201 4219                              |0151: new-instance v1, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b1fe: 1b0c d500 0100                         |0153: const-string/jumbo v12, "百度地图" // string@000100d5
+43b204: 1a09 6a8e                              |0156: const-string v9, "com.baidu.BaiduMap" // string@8e6a
+43b208: 1a0a 71c4                              |0158: const-string v10, "map" // string@c471
+43b20c: 0718                                   |015a: move-object v8, v1
+43b20e: 7606 42a5 0800                         |015b: invoke-direct/range {v8, v9, v10, v11, v12, v13}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)V // method@a542
+43b214: 2209 4219                              |015e: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b218: 1b14 8700 0100                         |0160: const-string/jumbo v20, "宝宝巴士故事" // string@00010087
+43b21e: 1315 0c00                              |0163: const/16 v21, #int 12 // #c
+43b222: 1a0f 118f                              |0165: const-string v15, "com.sinyee.babybus.story" // string@8f11
+43b226: 1610 8c09                              |0167: const-wide/16 v16, #int 2444 // #98c
+43b22a: 1a12 c2d6                              |0169: const-string v18, "music" // string@d6c2
+43b22e: 079e                                   |016b: move-object v14, v9
+43b230: 7608 3da5 0e00                         |016c: invoke-direct/range {v14, v15, v16, v17, v18, v19, v20, v21}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b236: 220a 4219                              |016f: new-instance v10, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b23a: 1b1a 7e00 0100                         |0171: const-string/jumbo v26, "喜马拉雅" // string@0001007e
+43b240: 131b 0100                              |0174: const/16 v27, #int 1 // #1
+43b244: 1a17 3c8f                              |0176: const-string v23, "com.ximalaya.ting.android" // string@8f3c
+43b248: 1a18 82e3                              |0178: const-string v24, "radio" // string@e382
+43b24c: 1319 0200                              |017a: const/16 v25, #int 2 // #2
+43b250: 0816 0a00                              |017c: move-object/from16 v22, v10
+43b254: 7606 42a5 1600                         |017e: invoke-direct/range {v22, v23, v24, v25, v26, v27}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)V // method@a542
+43b25a: 2203 4219                              |0181: new-instance v3, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b25e: 1b11 6200 0100                         |0183: const-string/jumbo v17, "乐听头条" // string@00010062
+43b264: 1312 0100                              |0186: const/16 v18, #int 1 // #1
+43b268: 1a0c ee8e                              |0188: const-string v12, "com.leting" // string@8eee
+43b26c: 160d 3c01                              |018a: const-wide/16 v13, #int 316 // #13c
+43b270: 1a0f 82e3                              |018c: const-string v15, "radio" // string@e382
+43b274: 1310 0200                              |018e: const/16 v16, #int 2 // #2
+43b278: 073b                                   |0190: move-object v11, v3
+43b27a: 7608 3da5 0b00                         |0191: invoke-direct/range {v11, v12, v13, v14, v15, v16, v17, v18}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b280: 220c 4219                              |0194: new-instance v12, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b284: 131a 0100                              |0196: const/16 v26, #int 1 // #1
+43b288: 131b 1100                              |0198: const/16 v27, #int 17 // #11
+43b28c: 1a14 408f                              |019a: const-string v20, "com.xtc.watch" // string@8f40
+43b290: 1715 0455 0100                         |019c: const-wide/32 v21, #float 1.22333e-40 // #00015504
+43b296: 1a17 25dd                              |019f: const-string v23, "other" // string@dd25
+43b29a: 1318 0200                              |01a1: const/16 v24, #int 2 // #2
+43b29e: 1b19 8800 0100                         |01a3: const-string/jumbo v25, "小天才" // string@00010088
+43b2a4: 0813 0c00                              |01a6: move-object/from16 v19, v12
+43b2a8: 7609 3ea5 1300                         |01a8: invoke-direct/range {v19, v20, v21, v22, v23, v24, v25, v26, v27}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;II)V // method@a53e
+43b2ae: 220d 4219                              |01ab: new-instance v13, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b2b2: 1b22 a500 0100                         |01ad: const-string/jumbo v34, "搜狐新闻" // string@000100a5
+43b2b8: 1323 0400                              |01b0: const/16 v35, #int 4 // #4
+43b2bc: 1a1d 138f                              |01b2: const-string v29, "com.sohu.newsclient" // string@8f13
+43b2c0: 161e 2103                              |01b4: const-wide/16 v30, #int 801 // #321
+43b2c4: 1a20 82e3                              |01b6: const-string v32, "radio" // string@e382
+43b2c8: 1321 0200                              |01b8: const/16 v33, #int 2 // #2
+43b2cc: 081c 0d00                              |01ba: move-object/from16 v28, v13
+43b2d0: 7608 3da5 1c00                         |01bc: invoke-direct/range {v28, v29, v30, v31, v32, v33, v34, v35}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43b2d6: 2506 3727 0800                         |01bf: filled-new-array/range {v8, v9, v10, v11, v12, v13}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b2dc: 0c01                                   |01c2: move-result-object v1
+43b2de: 6901 afaf                              |01c3: sput-object v1, Lcom/carwith/common/Constants;.i:[Lcom/carwith/common/bean/AppWhiteItem; // field@afaf
+43b2e2: 1208                                   |01c5: const/4 v8, #int 0 // #0
+43b2e4: 2381 3727                              |01c6: new-array v1, v8, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b2e8: 6901 b0af                              |01c8: sput-object v1, Lcom/carwith/common/Constants;.j:[Lcom/carwith/common/bean/AppWhiteItem; // field@afb0
+43b2ec: 2209 4219                              |01ca: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b2f0: 0810 0900                              |01cc: move-object/from16 v16, v9
+43b2f4: 1b0e 7d00 0100                         |01ce: const-string/jumbo v14, "哔哩哔哩" // string@0001007d
+43b2fa: 122f                                   |01d1: const/4 v15, #int 2 // #2
+43b2fc: 1a0a 55fa                              |01d2: const-string v10, "tv.danmaku.bili" // string@fa55
+43b300: 160b 0000                              |01d4: const-wide/16 v11, #int 0 // #0
+43b304: 1a0d 25dd                              |01d6: const-string v13, "other" // string@dd25
+43b308: 7607 3fa5 0900                         |01d8: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b30e: 2212 4219                              |01db: new-instance v18, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b312: 0811 1200                              |01dd: move-object/from16 v17, v18
+43b316: 1b17 6900 0100                         |01df: const-string/jumbo v23, "优酷视频" // string@00010069
+43b31c: 1a13 438f                              |01e2: const-string v19, "com.youku.phone" // string@8f43
+43b320: 1614 0000                              |01e4: const-wide/16 v20, #int 0 // #0
+43b324: 1a16 25dd                              |01e6: const-string v22, "other" // string@dd25
+43b328: 7607 3fa5 1200                         |01e8: invoke-direct/range {v18, v19, v20, v21, v22, v23, v24}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b32e: 2209 4219                              |01eb: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b332: 0812 0900                              |01ed: move-object/from16 v18, v9
+43b336: 1b0e f100 0100                         |01ef: const-string/jumbo v14, "腾讯视频" // string@000100f1
+43b33c: 1a0a 258f                              |01f2: const-string v10, "com.tencent.qqlive" // string@8f25
+43b340: 1a0d 25dd                              |01f4: const-string v13, "other" // string@dd25
+43b344: 7607 3fa5 0900                         |01f6: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b34a: 2214 4219                              |01f9: new-instance v20, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b34e: 0813 1400                              |01fb: move-object/from16 v19, v20
+43b352: 1b19 c800 0100                         |01fd: const-string/jumbo v25, "爱奇艺" // string@000100c8
+43b358: 131a 0200                              |0200: const/16 v26, #int 2 // #2
+43b35c: 1a15 0b8f                              |0202: const-string v21, "com.qiyi.video" // string@8f0b
+43b360: 1616 0000                              |0204: const-wide/16 v22, #int 0 // #0
+43b364: 1a18 25dd                              |0206: const-string v24, "other" // string@dd25
+43b368: 7607 3fa5 1400                         |0208: invoke-direct/range {v20, v21, v22, v23, v24, v25, v26}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b36e: 2209 4219                              |020b: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b372: 0814 0900                              |020d: move-object/from16 v20, v9
+43b376: 1b0e a100 0100                         |020f: const-string/jumbo v14, "抖音" // string@000100a1
+43b37c: 1a0a 1b8f                              |0212: const-string v10, "com.ss.android.ugc.aweme" // string@8f1b
+43b380: 1a0d 25dd                              |0214: const-string v13, "other" // string@dd25
+43b384: 7607 3fa5 0900                         |0216: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b38a: 2216 4219                              |0219: new-instance v22, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b38e: 0815 1600                              |021b: move-object/from16 v21, v22
+43b392: 1b1b 9b00 0100                         |021d: const-string/jumbo v27, "快手" // string@0001009b
+43b398: 131c 0200                              |0220: const/16 v28, #int 2 // #2
+43b39c: 1a17 128f                              |0222: const-string v23, "com.smile.gifmaker" // string@8f12
+43b3a0: 1618 0000                              |0224: const-wide/16 v24, #int 0 // #0
+43b3a4: 1a1a 25dd                              |0226: const-string v26, "other" // string@dd25
+43b3a8: 7607 3fa5 1600                         |0228: invoke-direct/range {v22, v23, v24, v25, v26, v27, v28}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b3ae: 2209 4219                              |022b: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b3b2: 0816 0900                              |022d: move-object/from16 v22, v9
+43b3b6: 1b0e 9c00 0100                         |022f: const-string/jumbo v14, "快手极速版" // string@0001009c
+43b3bc: 1a0a e48e                              |0232: const-string v10, "com.kuaishou.nebula" // string@8ee4
+43b3c0: 1a0d 25dd                              |0234: const-string v13, "other" // string@dd25
+43b3c4: 7607 3fa5 0900                         |0236: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b3ca: 2218 4219                              |0239: new-instance v24, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b3ce: 0817 1800                              |023b: move-object/from16 v23, v24
+43b3d2: 1b1d f700 0100                         |023d: const-string/jumbo v29, "虎牙直播" // string@000100f7
+43b3d8: 131e 0200                              |0240: const/16 v30, #int 2 // #2
+43b3dc: 1a19 d28e                              |0242: const-string v25, "com.duowan.kiwi" // string@8ed2
+43b3e0: 161a 0000                              |0244: const-wide/16 v26, #int 0 // #0
+43b3e4: 1a1c 25dd                              |0246: const-string v28, "other" // string@dd25
+43b3e8: 7607 3fa5 1800                         |0248: invoke-direct/range {v24, v25, v26, v27, v28, v29, v30}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b3ee: 2209 4219                              |024b: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b3f2: 0818 0900                              |024d: move-object/from16 v24, v9
+43b3f6: 1b0e a300 0100                         |024f: const-string/jumbo v14, "抖音火山版" // string@000100a3
+43b3fc: 1a0a 1d8f                              |0252: const-string v10, "com.ss.android.ugc.live" // string@8f1d
+43b400: 1a0d 25dd                              |0254: const-string v13, "other" // string@dd25
+43b404: 7607 3fa5 0900                         |0256: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b40a: 221a 4219                              |0259: new-instance v26, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b40e: 0819 1a00                              |025b: move-object/from16 v25, v26
+43b412: 1b1f a200 0100                         |025d: const-string/jumbo v31, "抖音极速版" // string@000100a2
+43b418: 1320 0200                              |0260: const/16 v32, #int 2 // #2
+43b41c: 1a1b 1c8f                              |0262: const-string v27, "com.ss.android.ugc.aweme.lite" // string@8f1c
+43b420: 161c 0000                              |0264: const-wide/16 v28, #int 0 // #0
+43b424: 1a1e 25dd                              |0266: const-string v30, "other" // string@dd25
+43b428: 7607 3fa5 1a00                         |0268: invoke-direct/range {v26, v27, v28, v29, v30, v31, v32}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b42e: 2209 4219                              |026b: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b432: 081a 0900                              |026d: move-object/from16 v26, v9
+43b436: 1b0e a400 0100                         |026f: const-string/jumbo v14, "抖音精选" // string@000100a4
+43b43c: 1a0a 1e8f                              |0272: const-string v10, "com.ss.android.yumme.video" // string@8f1e
+43b440: 1a0d 25dd                              |0274: const-string v13, "other" // string@dd25
+43b444: 7607 3fa5 0900                         |0276: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b44a: 221c 4219                              |0279: new-instance v28, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b44e: 081b 1c00                              |027b: move-object/from16 v27, v28
+43b452: 1b21 7a00 0100                         |027d: const-string/jumbo v33, "咪咕视频" // string@0001007a
+43b458: 1322 0200                              |0280: const/16 v34, #int 2 // #2
+43b45c: 1a1d ce8e                              |0282: const-string v29, "com.cmcc.cmvideo" // string@8ece
+43b460: 161e 0000                              |0284: const-wide/16 v30, #int 0 // #0
+43b464: 1a20 25dd                              |0286: const-string v32, "other" // string@dd25
+43b468: 7607 3fa5 1c00                         |0288: invoke-direct/range {v28, v29, v30, v31, v32, v33, v34}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b46e: 2209 4219                              |028b: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b472: 081c 0900                              |028d: move-object/from16 v28, v9
+43b476: 1b0e 1701 0100                         |028f: const-string/jumbo v14, "酷我音乐HD" // string@00010117
+43b47c: 121f                                   |0292: const/4 v15, #int 1 // #1
+43b47e: 1a0a 978d                              |0293: const-string v10, "cn.kuwo.kwmusichd" // string@8d97
+43b482: 1a0d c2d6                              |0295: const-string v13, "music" // string@d6c2
+43b486: 7607 3fa5 0900                         |0297: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b48c: 221e 4219                              |029a: new-instance v30, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b490: 081d 1e00                              |029c: move-object/from16 v29, v30
+43b494: 1a23 c760                              |029e: const-string v35, "QQ音乐HD" // string@60c7
+43b498: 1324 0100                              |02a0: const/16 v36, #int 1 // #1
+43b49c: 1a1f 2a8f                              |02a2: const-string v31, "com.tencent.qqmusicpad" // string@8f2a
+43b4a0: 1620 0000                              |02a4: const-wide/16 v32, #int 0 // #0
+43b4a4: 1a22 c2d6                              |02a6: const-string v34, "music" // string@d6c2
+43b4a8: 7607 3fa5 1e00                         |02a8: invoke-direct/range {v30, v31, v32, v33, v34, v35, v36}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b4ae: 2209 4219                              |02ab: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b4b2: 081e 0900                              |02ad: move-object/from16 v30, v9
+43b4b6: 1b0e 8600 0100                         |02af: const-string/jumbo v14, "宝宝巴士" // string@00010086
+43b4bc: 1a0a 108f                              |02b2: const-string v10, "com.sinyee.babybus.recommendapp" // string@8f10
+43b4c0: 1a0d 25dd                              |02b4: const-string v13, "other" // string@dd25
+43b4c4: 7607 3fa5 0900                         |02b6: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b4ca: 2220 4219                              |02b9: new-instance v32, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b4ce: 081f 2000                              |02bb: move-object/from16 v31, v32
+43b4d2: 1b25 8b00 0100                         |02bd: const-string/jumbo v37, "小米天气" // string@0001008b
+43b4d8: 1326 0100                              |02c0: const/16 v38, #int 1 // #1
+43b4dc: 1a21 068f                              |02c2: const-string v33, "com.miui.weather2" // string@8f06
+43b4e0: 1622 0000                              |02c4: const-wide/16 v34, #int 0 // #0
+43b4e4: 1a24 25dd                              |02c6: const-string v36, "other" // string@dd25
+43b4e8: 7607 3fa5 2000                         |02c8: invoke-direct/range {v32, v33, v34, v35, v36, v37, v38}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b4ee: 2209 4219                              |02cb: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b4f2: 0820 0900                              |02cd: move-object/from16 v32, v9
+43b4f6: 1b0e d700 0100                         |02cf: const-string/jumbo v14, "皮皮虾" // string@000100d7
+43b4fc: 122f                                   |02d2: const/4 v15, #int 2 // #2
+43b4fe: 1a0a 1f8f                              |02d3: const-string v10, "com.sup.android.superb" // string@8f1f
+43b502: 1a0d 25dd                              |02d5: const-string v13, "other" // string@dd25
+43b506: 7607 3fa5 0900                         |02d7: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b50c: 2222 4219                              |02da: new-instance v34, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b510: 0821 2200                              |02dc: move-object/from16 v33, v34
+43b514: 1b27 d300 0100                         |02de: const-string/jumbo v39, "百度" // string@000100d3
+43b51a: 1328 0100                              |02e1: const/16 v40, #int 1 // #1
+43b51e: 1a23 ae8e                              |02e3: const-string v35, "com.baidu.searchbox" // string@8eae
+43b522: 1624 0000                              |02e5: const-wide/16 v36, #int 0 // #0
+43b526: 1a26 25dd                              |02e7: const-string v38, "other" // string@dd25
+43b52a: 7607 3fa5 2200                         |02e9: invoke-direct/range {v34, v35, v36, v37, v38, v39, v40}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b530: 2209 4219                              |02ec: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b534: 0822 0900                              |02ee: move-object/from16 v34, v9
+43b538: 1b0e c300 0100                         |02f0: const-string/jumbo v14, "汽水音乐" // string@000100c3
+43b53e: 121f                                   |02f3: const/4 v15, #int 1 // #1
+43b540: 1a0a f08e                              |02f4: const-string v10, "com.luna.music" // string@8ef0
+43b544: 1a0d c2d6                              |02f6: const-string v13, "music" // string@d6c2
+43b548: 7607 3fa5 0900                         |02f8: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b54e: 2224 4219                              |02fb: new-instance v36, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b552: 0823 2400                              |02fd: move-object/from16 v35, v36
+43b556: 1b29 6600 0100                         |02ff: const-string/jumbo v41, "今日头条" // string@00010066
+43b55c: 132a 0100                              |0302: const/16 v42, #int 1 // #1
+43b560: 1a25 178f                              |0304: const-string v37, "com.ss.android.article.news" // string@8f17
+43b564: 1626 0000                              |0306: const-wide/16 v38, #int 0 // #0
+43b568: 1a28 25dd                              |0308: const-string v40, "other" // string@dd25
+43b56c: 7607 3fa5 2400                         |030a: invoke-direct/range {v36, v37, v38, v39, v40, v41, v42}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b572: 2209 4219                              |030d: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b576: 0824 0900                              |030f: move-object/from16 v36, v9
+43b57a: 1b0e d900 0100                         |0311: const-string/jumbo v14, "知乎" // string@000100d9
+43b580: 1a0a 448f                              |0314: const-string v10, "com.zhihu.android" // string@8f44
+43b584: 1a0d 25dd                              |0316: const-string v13, "other" // string@dd25
+43b588: 7607 3fa5 0900                         |0318: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b58e: 2226 4219                              |031b: new-instance v38, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b592: 0825 2600                              |031d: move-object/from16 v37, v38
+43b596: 1b2b 9a00 0100                         |031f: const-string/jumbo v43, "微博" // string@0001009a
+43b59c: 132c 0100                              |0322: const/16 v44, #int 1 // #1
+43b5a0: 1a27 0f8f                              |0324: const-string v39, "com.sina.weibo" // string@8f0f
+43b5a4: 1628 0000                              |0326: const-wide/16 v40, #int 0 // #0
+43b5a8: 1a2a 25dd                              |0328: const-string v42, "other" // string@dd25
+43b5ac: 7607 3fa5 2600                         |032a: invoke-direct/range {v38, v39, v40, v41, v42, v43, v44}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b5b2: 2209 4219                              |032d: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b5b6: 0826 0900                              |032f: move-object/from16 v38, v9
+43b5ba: 1b0e 9100 0100                         |0331: const-string/jumbo v14, "帆书" // string@00010091
+43b5c0: 1a0a bdad                              |0334: const-string v10, "io.dushu.fandengreader" // string@adbd
+43b5c4: 1a0d 82e3                              |0336: const-string v13, "radio" // string@e382
+43b5c8: 7607 3fa5 0900                         |0338: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b5ce: 2228 4219                              |033b: new-instance v40, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b5d2: 0827 2800                              |033d: move-object/from16 v39, v40
+43b5d6: 1b2d ee00 0100                         |033f: const-string/jumbo v45, "腾讯地图" // string@000100ee
+43b5dc: 132e 0000                              |0342: const/16 v46, #int 0 // #0
+43b5e0: 1a29 218f                              |0344: const-string v41, "com.tencent.map" // string@8f21
+43b5e4: 162a 0000                              |0346: const-wide/16 v42, #int 0 // #0
+43b5e8: 1a2c 71c4                              |0348: const-string v44, "map" // string@c471
+43b5ec: 7607 3fa5 2800                         |034a: invoke-direct/range {v40, v41, v42, v43, v44, v45, v46}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b5f2: 2209 4219                              |034d: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b5f6: 0828 0900                              |034f: move-object/from16 v40, v9
+43b5fa: 1b0e f800 0100                         |0351: const-string/jumbo v14, "蜻蜓FM" // string@000100f8
+43b600: 1a0a 028f                              |0354: const-string v10, "com.miui.fm" // string@8f02
+43b604: 1a0d c2d6                              |0356: const-string v13, "music" // string@d6c2
+43b608: 7607 3fa5 0900                         |0358: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b60e: 222a 4219                              |035b: new-instance v42, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b612: 0829 2a00                              |035d: move-object/from16 v41, v42
+43b616: 1b2f 8400 0100                         |035f: const-string/jumbo v47, "学习强国" // string@00010084
+43b61c: 1330 0100                              |0362: const/16 v48, #int 1 // #1
+43b620: 1a2b 9a8d                              |0364: const-string v43, "cn.xuexi.android" // string@8d9a
+43b624: 162c 0000                              |0366: const-wide/16 v44, #int 0 // #0
+43b628: 1a2e 82e3                              |0368: const-string v46, "radio" // string@e382
+43b62c: 7607 3fa5 2a00                         |036a: invoke-direct/range {v42, v43, v44, v45, v46, v47, v48}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b632: 2209 4219                              |036d: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b636: 082a 0900                              |036f: move-object/from16 v42, v9
+43b63a: 1b0e 2201 0100                         |0371: const-string/jumbo v14, "音乐" // string@00010122
+43b640: 1a0a 048f                              |0374: const-string v10, "com.miui.player" // string@8f04
+43b644: 1a0d c2d6                              |0376: const-string v13, "music" // string@d6c2
+43b648: 7607 3fa5 0900                         |0378: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b64e: 222c 4219                              |037b: new-instance v44, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b652: 082b 2c00                              |037d: move-object/from16 v43, v44
+43b656: 1b31 1801 0100                         |037f: const-string/jumbo v49, "酷狗概念版" // string@00010118
+43b65c: 1332 0100                              |0382: const/16 v50, #int 1 // #1
+43b660: 1a2d e68e                              |0384: const-string v45, "com.kugou.android.lite" // string@8ee6
+43b664: 162e 0000                              |0386: const-wide/16 v46, #int 0 // #0
+43b668: 1a30 c2d6                              |0388: const-string v48, "music" // string@d6c2
+43b66c: 7607 3fa5 2c00                         |038a: invoke-direct/range {v44, v45, v46, v47, v48, v49, v50}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b672: 2209 4219                              |038d: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b676: 082c 0900                              |038f: move-object/from16 v44, v9
+43b67a: 1b0e f000 0100                         |0391: const-string/jumbo v14, "腾讯新闻" // string@000100f0
+43b680: 122f                                   |0394: const/4 v15, #int 2 // #2
+43b682: 1a0a 248f                              |0395: const-string v10, "com.tencent.news" // string@8f24
+43b686: 1a0d 25dd                              |0397: const-string v13, "other" // string@dd25
+43b68a: 7607 3fa5 0900                         |0399: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b690: 222e 4219                              |039c: new-instance v46, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b694: 082d 2e00                              |039e: move-object/from16 v45, v46
+43b698: 1b33 ed00 0100                         |03a0: const-string/jumbo v51, "腾讯会议" // string@000100ed
+43b69e: 1334 0200                              |03a3: const/16 v52, #int 2 // #2
+43b6a2: 1a2f 2e8f                              |03a5: const-string v47, "com.tencent.wemeet.app" // string@8f2e
+43b6a6: 1630 0000                              |03a7: const-wide/16 v48, #int 0 // #0
+43b6aa: 1a32 25dd                              |03a9: const-string v50, "other" // string@dd25
+43b6ae: 7607 3fa5 2e00                         |03ab: invoke-direct/range {v46, v47, v48, v49, v50, v51, v52}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b6b4: 251e 3727 1000                         |03ae: filled-new-array/range {v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42, v43, v44, v45}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b6ba: 0c01                                   |03b1: move-result-object v1
+43b6bc: 6901 b1af                              |03b2: sput-object v1, Lcom/carwith/common/Constants;.k:[Lcom/carwith/common/bean/AppWhiteItem; // field@afb1
+43b6c0: 2201 4219                              |03b4: new-instance v1, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b6c4: 127f                                   |03b6: const/4 v15, #int 7 // #7
+43b6c6: 1310 0200                              |03b7: const/16 v16, #int 2 // #2
+43b6ca: 1a0a 148f                              |03b9: const-string v10, "com.sohu.sohuvideo" // string@8f14
+43b6ce: 1a0d 25dd                              |03bb: const-string v13, "other" // string@dd25
+43b6d2: 1b0e a600 0100                         |03bd: const-string/jumbo v14, "搜狐视频" // string@000100a6
+43b6d8: 0719                                   |03c0: move-object v9, v1
+43b6da: 7608 40a5 0900                         |03c1: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15, v16}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b6e0: 220a 4219                              |03c4: new-instance v10, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b6e4: 1317 0700                              |03c6: const/16 v23, #int 7 // #7
+43b6e8: 1318 0200                              |03c8: const/16 v24, #int 2 // #2
+43b6ec: 1a12 d58e                              |03ca: const-string v18, "com.example.pptv" // string@8ed5
+43b6f0: 1613 0000                              |03cc: const-wide/16 v19, #int 0 // #0
+43b6f4: 1a15 25dd                              |03ce: const-string v21, "other" // string@dd25
+43b6f8: 1b16 6400 0100                         |03d0: const-string/jumbo v22, "人人视频" // string@00010064
+43b6fe: 0811 0a00                              |03d3: move-object/from16 v17, v10
+43b702: 7608 40a5 1100                         |03d5: invoke-direct/range {v17, v18, v19, v20, v21, v22, v23, v24}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b708: 220b 4219                              |03d8: new-instance v11, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b70c: 131f 0700                              |03da: const/16 v31, #int 7 // #7
+43b710: 1320 0200                              |03dc: const/16 v32, #int 2 // #2
+43b714: 1a1a d68e                              |03de: const-string v26, "com.funshion.video.mobile" // string@8ed6
+43b718: 161b 0000                              |03e0: const-wide/16 v27, #int 0 // #0
+43b71c: 1a1d 25dd                              |03e2: const-string v29, "other" // string@dd25
+43b720: 1b1e 2301 0100                         |03e4: const-string/jumbo v30, "风行" // string@00010123
+43b726: 0819 0b00                              |03e7: move-object/from16 v25, v11
+43b72a: 7608 40a5 1900                         |03e9: invoke-direct/range {v25, v26, v27, v28, v29, v30, v31, v32}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b730: 2203 4219                              |03ec: new-instance v3, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b734: 1312 0700                              |03ee: const/16 v18, #int 7 // #7
+43b738: 1313 0200                              |03f0: const/16 v19, #int 2 // #2
+43b73c: 1a0d 2d8f                              |03f2: const-string v13, "com.tencent.weishi" // string@8f2d
+43b740: 160e 0000                              |03f4: const-wide/16 v14, #int 0 // #0
+43b744: 1a10 25dd                              |03f6: const-string v16, "other" // string@dd25
+43b748: 1b11 ef00 0100                         |03f8: const-string/jumbo v17, "腾讯微视" // string@000100ef
+43b74e: 073c                                   |03fb: move-object v12, v3
+43b750: 7608 40a5 0c00                         |03fc: invoke-direct/range {v12, v13, v14, v15, v16, v17, v18, v19}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b756: 220d 4219                              |03ff: new-instance v13, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b75a: 131a 0700                              |0401: const/16 v26, #int 7 // #7
+43b75e: 131b 0200                              |0403: const/16 v27, #int 2 // #2
+43b762: 1a15 aa8e                              |0405: const-string v21, "com.baidu.haokan" // string@8eaa
+43b766: 1616 0000                              |0407: const-wide/16 v22, #int 0 // #0
+43b76a: 1a18 25dd                              |0409: const-string v24, "other" // string@dd25
+43b76e: 1b19 8300 0100                         |040b: const-string/jumbo v25, "好看视频" // string@00010083
+43b774: 0814 0d00                              |040e: move-object/from16 v20, v13
+43b778: 7608 40a5 1400                         |0410: invoke-direct/range {v20, v21, v22, v23, v24, v25, v26, v27}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b77e: 220e 4219                              |0413: new-instance v14, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b782: 1322 0700                              |0415: const/16 v34, #int 7 // #7
+43b786: 1323 0200                              |0417: const/16 v35, #int 2 // #2
+43b78a: 1a1d cd8e                              |0419: const-string v29, "com.cctv.yangshipin.app.androidp" // string@8ecd
+43b78e: 161e 0000                              |041b: const-wide/16 v30, #int 0 // #0
+43b792: 1a20 25dd                              |041d: const-string v32, "other" // string@dd25
+43b796: 1b21 8100 0100                         |041f: const-string/jumbo v33, "央视频" // string@00010081
+43b79c: 081c 0e00                              |0422: move-object/from16 v28, v14
+43b7a0: 7608 40a5 1c00                         |0424: invoke-direct/range {v28, v29, v30, v31, v32, v33, v34, v35}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b7a6: 2204 4219                              |0427: new-instance v4, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b7aa: 1315 0700                              |0429: const/16 v21, #int 7 // #7
+43b7ae: 1316 0200                              |042b: const/16 v22, #int 2 // #2
+43b7b2: 1a10 428f                              |042d: const-string v16, "com.yixia.videoeditor" // string@8f42
+43b7b6: 1611 0000                              |042f: const-wide/16 v17, #int 0 // #0
+43b7ba: 1a13 25dd                              |0431: const-string v19, "other" // string@dd25
+43b7be: 1b14 df00 0100                         |0433: const-string/jumbo v20, "秒拍-10秒拍大片" // string@000100df
+43b7c4: 074f                                   |0436: move-object v15, v4
+43b7c6: 7608 40a5 0f00                         |0437: invoke-direct/range {v15, v16, v17, v18, v19, v20, v21, v22}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;II)V // method@a540
+43b7cc: 2507 3727 0900                         |043a: filled-new-array/range {v9, v10, v11, v12, v13, v14, v15}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b7d2: 0c01                                   |043d: move-result-object v1
+43b7d4: 6901 b2af                              |043e: sput-object v1, Lcom/carwith/common/Constants;.l:[Lcom/carwith/common/bean/AppWhiteItem; // field@afb2
+43b7d8: 1a10 278e                              |0440: const-string v16, "com.autonavi.minimap" // string@8e27
+43b7dc: 1a11 408f                              |0442: const-string v17, "com.xtc.watch" // string@8f40
+43b7e0: 1a09 098f                              |0444: const-string v9, "com.netease.cloudmusic" // string@8f09
+43b7e4: 1a0a 918d                              |0446: const-string v10, "cmccwm.mobilemusic" // string@8d91
+43b7e8: 1a0b e28e                              |0448: const-string v11, "com.ifeng.fhdt" // string@8ee2
+43b7ec: 1a0c ad8e                              |044a: const-string v12, "com.baidu.netdisk" // string@8ead
+43b7f0: 1a0d 0e8f                              |044c: const-string v13, "com.shinyv.cnr" // string@8f0e
+43b7f4: 1a0e e58e                              |044e: const-string v14, "com.kugou.android" // string@8ee5
+43b7f8: 1a0f 6a8e                              |0450: const-string v15, "com.baidu.BaiduMap" // string@8e6a
+43b7fc: 2509 6d27 0900                         |0452: filled-new-array/range {v9, v10, v11, v12, v13, v14, v15, v16, v17}, [Ljava/lang/String; // type@276d
+43b802: 0c01                                   |0455: move-result-object v1
+43b804: 7110 acbe 0100                         |0456: invoke-static {v1}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@beac
+43b80a: 0c01                                   |0459: move-result-object v1
+43b80c: 6901 b3af                              |045a: sput-object v1, Lcom/carwith/common/Constants;.m:Ljava/util/List; // field@afb3
+43b810: 1a0e 0e8f                              |045c: const-string v14, "com.shinyv.cnr" // string@8f0e
+43b814: 1a0f ad8e                              |045e: const-string v15, "com.baidu.netdisk" // string@8ead
+43b818: 1a09 098f                              |0460: const-string v9, "com.netease.cloudmusic" // string@8f09
+43b81c: 1a0a 268f                              |0462: const-string v10, "com.tencent.qqmusic" // string@8f26
+43b820: 1a0b e58e                              |0464: const-string v11, "com.kugou.android" // string@8ee5
+43b824: 1a0c 918d                              |0466: const-string v12, "cmccwm.mobilemusic" // string@8d91
+43b828: 1a0d e28e                              |0468: const-string v13, "com.ifeng.fhdt" // string@8ee2
+43b82c: 2507 6d27 0900                         |046a: filled-new-array/range {v9, v10, v11, v12, v13, v14, v15}, [Ljava/lang/String; // type@276d
+43b832: 0c01                                   |046d: move-result-object v1
+43b834: 7110 acbe 0100                         |046e: invoke-static {v1}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@beac
+43b83a: 0c01                                   |0471: move-result-object v1
+43b83c: 6901 b4af                              |0472: sput-object v1, Lcom/carwith/common/Constants;.n:Ljava/util/List; // field@afb4
+43b840: 2201 4219                              |0474: new-instance v1, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b844: 1b03 e600 0100                         |0476: const-string/jumbo v3, "经典卡片桌面" // string@000100e6
+43b84a: 1304 0c00                              |0479: const/16 v4, #int 12 // #c
+43b84e: 1a05 ff8e                              |047b: const-string v5, "com.miui.carlink_1_5_to_1_0" // string@8eff
+43b852: 7040 41a5 5143                         |047d: invoke-direct {v1, v5, v3, v4}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;I)V // method@a541
+43b858: 2203 4219                              |0480: new-instance v3, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b85c: 1b04 1d01 0100                         |0482: const-string/jumbo v4, "镜像模式" // string@0001011d
+43b862: 1305 0a00                              |0485: const/16 v5, #int 10 // #a
+43b866: 1a09 f88e                              |0487: const-string v9, "com.miui.carlink.mirror" // string@8ef8
+43b86a: 7040 41a5 9354                         |0489: invoke-direct {v3, v9, v4, v5}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;I)V // method@a541
+43b870: 2204 4219                              |048c: new-instance v4, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b874: 1b05 bf00 0100                         |048e: const-string/jumbo v5, "极简模式" // string@000100bf
+43b87a: 1309 0b00                              |0491: const/16 v9, #int 11 // #b
+43b87e: 1a0a fa8e                              |0493: const-string v10, "com.miui.carlink.simple.launcher" // string@8efa
+43b882: 7040 41a5 a495                         |0495: invoke-direct {v4, v10, v5, v9}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;I)V // method@a541
+43b888: 2205 4219                              |0498: new-instance v5, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b88c: 1a09 d915                              |049a: const-string v9, "CarWith-FusionOther" // string@15d9
+43b890: 122a                                   |049c: const/4 v10, #int 2 // #2
+43b892: 1a0b f78e                              |049d: const-string v11, "com.miui.carlink.fusion.other" // string@8ef7
+43b896: 7040 41a5 b5a9                         |049f: invoke-direct {v5, v11, v9, v10}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;Ljava/lang/String;I)V // method@a541
+43b89c: 2507 3727 0100                         |04a2: filled-new-array/range {v1, v2, v3, v4, v5, v6, v7}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43b8a2: 0c01                                   |04a5: move-result-object v1
+43b8a4: 6901 b5af                              |04a6: sput-object v1, Lcom/carwith/common/Constants;.o:[Lcom/carwith/common/bean/AppWhiteItem; // field@afb5
+43b8a8: 2201 e21d                              |04a8: new-instance v1, Ljava/util/ArrayList; // type@1de2
+43b8ac: 1a02 138e                              |04aa: const-string v2, "com.android.contacts" // string@8e13
+43b8b0: 2420 6d27 2000                         |04ac: filled-new-array {v0, v2}, [Ljava/lang/String; // type@276d
+43b8b6: 0c00                                   |04af: move-result-object v0
+43b8b8: 7110 acbe 0000                         |04b0: invoke-static {v0}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@beac
+43b8be: 0c00                                   |04b3: move-result-object v0
+43b8c0: 7020 91be 0100                         |04b4: invoke-direct {v1, v0}, Ljava/util/ArrayList;.<init>:(Ljava/util/Collection;)V // method@be91
+43b8c6: 6901 b6af                              |04b7: sput-object v1, Lcom/carwith/common/Constants;.p:Ljava/util/List; // field@afb6
+43b8ca: 2209 4219                              |04b9: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b8ce: 0810 0900                              |04bb: move-object/from16 v16, v9
+43b8d2: 1a0e c660                              |04bd: const-string v14, "QQ音乐" // string@60c6
+43b8d6: 121f                                   |04bf: const/4 v15, #int 1 // #1
+43b8d8: 1a0a 268f                              |04c0: const-string v10, "com.tencent.qqmusic" // string@8f26
+43b8dc: 160b 0000                              |04c2: const-wide/16 v11, #int 0 // #0
+43b8e0: 1a0d c2d6                              |04c4: const-string v13, "music" // string@d6c2
+43b8e4: 7607 3fa5 0900                         |04c6: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b8ea: 2200 4219                              |04c9: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b8ee: 0811 0000                              |04cb: move-object/from16 v17, v0
+43b8f2: 1b05 8e00 0100                         |04cd: const-string/jumbo v5, "小米音乐" // string@0001008e
+43b8f8: 1216                                   |04d0: const/4 v6, #int 1 // #1
+43b8fa: 1a01 048f                              |04d1: const-string v1, "com.miui.player" // string@8f04
+43b8fe: 1602 0000                              |04d3: const-wide/16 v2, #int 0 // #0
+43b902: 1a04 c2d6                              |04d5: const-string v4, "music" // string@d6c2
+43b906: 7607 3fa5 0000                         |04d7: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b90c: 2209 4219                              |04da: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b910: 0812 0900                              |04dc: move-object/from16 v18, v9
+43b914: 1b0e 1601 0100                         |04de: const-string/jumbo v14, "酷我音乐" // string@00010116
+43b91a: 1a0a 988d                              |04e1: const-string v10, "cn.kuwo.player" // string@8d98
+43b91e: 1a0d c2d6                              |04e3: const-string v13, "music" // string@d6c2
+43b922: 7607 3fa5 0900                         |04e5: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b928: 2200 4219                              |04e8: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b92c: 0813 0000                              |04ea: move-object/from16 v19, v0
+43b930: 1b05 2401 0100                         |04ec: const-string/jumbo v5, "飞书" // string@00010124
+43b936: 1306 0900                              |04ef: const/16 v6, #int 9 // #9
+43b93a: 1a01 1a8f                              |04f1: const-string v1, "com.ss.android.lark" // string@8f1a
+43b93e: 1a04 25dd                              |04f3: const-string v4, "other" // string@dd25
+43b942: 7607 3fa5 0000                         |04f5: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b948: 2209 4219                              |04f8: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b94c: 0814 0900                              |04fa: move-object/from16 v20, v9
+43b950: 1b0e ed00 0100                         |04fc: const-string/jumbo v14, "腾讯会议" // string@000100ed
+43b956: 130f 0900                              |04ff: const/16 v15, #int 9 // #9
+43b95a: 1a0a 2e8f                              |0501: const-string v10, "com.tencent.wemeet.app" // string@8f2e
+43b95e: 1a0d 25dd                              |0503: const-string v13, "other" // string@dd25
+43b962: 7607 3fa5 0900                         |0505: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b968: 2200 4219                              |0508: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b96c: 0815 0000                              |050a: move-object/from16 v21, v0
+43b970: 1b05 6600 0100                         |050c: const-string/jumbo v5, "今日头条" // string@00010066
+43b976: 1246                                   |050f: const/4 v6, #int 4 // #4
+43b978: 1a01 178f                              |0510: const-string v1, "com.ss.android.article.news" // string@8f17
+43b97c: 1a04 25dd                              |0512: const-string v4, "other" // string@dd25
+43b980: 7607 3fa5 0000                         |0514: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b986: 2209 4219                              |0517: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b98a: 0816 0900                              |0519: move-object/from16 v22, v9
+43b98e: 1b0e f000 0100                         |051b: const-string/jumbo v14, "腾讯新闻" // string@000100f0
+43b994: 124f                                   |051e: const/4 v15, #int 4 // #4
+43b996: 1a0a 248f                              |051f: const-string v10, "com.tencent.news" // string@8f24
+43b99a: 1a0d 82e3                              |0521: const-string v13, "radio" // string@e382
+43b99e: 7607 3fa5 0900                         |0523: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b9a4: 2200 4219                              |0526: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b9a8: 0817 0000                              |0528: move-object/from16 v23, v0
+43b9ac: 1b05 f100 0100                         |052a: const-string/jumbo v5, "腾讯视频" // string@000100f1
+43b9b2: 1226                                   |052d: const/4 v6, #int 2 // #2
+43b9b4: 1a01 258f                              |052e: const-string v1, "com.tencent.qqlive" // string@8f25
+43b9b8: 1a04 c9c5                              |0530: const-string v4, "media_app" // string@c5c9
+43b9bc: 7607 3fa5 0000                         |0532: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b9c2: 2209 4219                              |0535: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b9c6: 0818 0900                              |0537: move-object/from16 v24, v9
+43b9ca: 1b0e c800 0100                         |0539: const-string/jumbo v14, "爱奇艺" // string@000100c8
+43b9d0: 122f                                   |053c: const/4 v15, #int 2 // #2
+43b9d2: 1a0a 0b8f                              |053d: const-string v10, "com.qiyi.video" // string@8f0b
+43b9d6: 1a0d c9c5                              |053f: const-string v13, "media_app" // string@c5c9
+43b9da: 7607 3fa5 0900                         |0541: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43b9e0: 2200 4219                              |0544: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43b9e4: 0819 0000                              |0546: move-object/from16 v25, v0
+43b9e8: 1b05 7d00 0100                         |0548: const-string/jumbo v5, "哔哩哔哩" // string@0001007d
+43b9ee: 1a01 55fa                              |054b: const-string v1, "tv.danmaku.bili" // string@fa55
+43b9f2: 1602 881d                              |054d: const-wide/16 v2, #int 7560 // #1d88
+43b9f6: 1a04 25dd                              |054f: const-string v4, "other" // string@dd25
+43b9fa: 7607 3fa5 0000                         |0551: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba00: 2209 4219                              |0554: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba04: 081a 0900                              |0556: move-object/from16 v26, v9
+43ba08: 1b0e 6800 0100                         |0558: const-string/jumbo v14, "优酷" // string@00010068
+43ba0e: 1a0a 438f                              |055b: const-string v10, "com.youku.phone" // string@8f43
+43ba12: 1a0d c9c5                              |055d: const-string v13, "media_app" // string@c5c9
+43ba16: 7607 3fa5 0900                         |055f: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba1c: 2200 4219                              |0562: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba20: 081b 0000                              |0564: move-object/from16 v27, v0
+43ba24: 1b05 a100 0100                         |0566: const-string/jumbo v5, "抖音" // string@000100a1
+43ba2a: 1a01 1b8f                              |0569: const-string v1, "com.ss.android.ugc.aweme" // string@8f1b
+43ba2e: 1602 0000                              |056b: const-wide/16 v2, #int 0 // #0
+43ba32: 1a04 c9c5                              |056d: const-string v4, "media_app" // string@c5c9
+43ba36: 7607 3fa5 0000                         |056f: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba3c: 2209 4219                              |0572: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba40: 081c 0900                              |0574: move-object/from16 v28, v9
+43ba44: 1b0e 9b00 0100                         |0576: const-string/jumbo v14, "快手" // string@0001009b
+43ba4a: 1a0a 128f                              |0579: const-string v10, "com.smile.gifmaker" // string@8f12
+43ba4e: 1a0d c9c5                              |057b: const-string v13, "media_app" // string@c5c9
+43ba52: 7607 3fa5 0900                         |057d: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba58: 2200 4219                              |0580: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba5c: 081d 0000                              |0582: move-object/from16 v29, v0
+43ba60: 1b05 7a00 0100                         |0584: const-string/jumbo v5, "咪咕视频" // string@0001007a
+43ba66: 1a01 ce8e                              |0587: const-string v1, "com.cmcc.cmvideo" // string@8ece
+43ba6a: 1a04 c9c5                              |0589: const-string v4, "media_app" // string@c5c9
+43ba6e: 7607 3fa5 0000                         |058b: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba74: 2209 4219                              |058e: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba78: 081e 0900                              |0590: move-object/from16 v30, v9
+43ba7c: 1b0e fa00 0100                         |0592: const-string/jumbo v14, "西瓜视频" // string@000100fa
+43ba82: 1a0a 188f                              |0595: const-string v10, "com.ss.android.article.video" // string@8f18
+43ba86: 1a0d c9c5                              |0597: const-string v13, "media_app" // string@c5c9
+43ba8a: 7607 3fa5 0900                         |0599: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43ba90: 2200 4219                              |059c: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43ba94: 081f 0000                              |059e: move-object/from16 v31, v0
+43ba98: 1b05 f700 0100                         |05a0: const-string/jumbo v5, "虎牙直播" // string@000100f7
+43ba9e: 1a01 d28e                              |05a3: const-string v1, "com.duowan.kiwi" // string@8ed2
+43baa2: 1702 3c19 0100                         |05a5: const-wide/32 v2, #float 1.00888e-40 // #0001193c
+43baa8: 1a04 c9c5                              |05a8: const-string v4, "media_app" // string@c5c9
+43baac: 7607 3fa5 0000                         |05aa: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bab2: 2209 4219                              |05ad: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bab6: 0820 0900                              |05af: move-object/from16 v32, v9
+43baba: 1b0e a900 0100                         |05b1: const-string/jumbo v14, "斗鱼直播" // string@000100a9
+43bac0: 1a0a 4383                              |05b4: const-string v10, "air.tv.douyu.android" // string@8343
+43bac4: 1a0d c9c5                              |05b6: const-string v13, "media_app" // string@c5c9
+43bac8: 7607 3fa5 0900                         |05b8: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bace: 2200 4219                              |05bb: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bad2: 0821 0000                              |05bd: move-object/from16 v33, v0
+43bad6: 1b05 f400 0100                         |05bf: const-string/jumbo v5, "芒果TV" // string@000100f4
+43badc: 1a01 e08e                              |05c2: const-string v1, "com.hunantv.imgo.activity" // string@8ee0
+43bae0: 1602 0000                              |05c4: const-wide/16 v2, #int 0 // #0
+43bae4: 1a04 c9c5                              |05c6: const-string v4, "media_app" // string@c5c9
+43bae8: 7607 3fa5 0000                         |05c8: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43baee: 2209 4219                              |05cb: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43baf2: 0822 0900                              |05cd: move-object/from16 v34, v9
+43baf6: 1b0e 8700 0100                         |05cf: const-string/jumbo v14, "宝宝巴士故事" // string@00010087
+43bafc: 130f 0c00                              |05d2: const/16 v15, #int 12 // #c
+43bb00: 1a0a 118f                              |05d4: const-string v10, "com.sinyee.babybus.story" // string@8f11
+43bb04: 160b 8c09                              |05d6: const-wide/16 v11, #int 2444 // #98c
+43bb08: 1a0d c2d6                              |05d8: const-string v13, "music" // string@d6c2
+43bb0c: 7607 3fa5 0900                         |05da: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bb12: 2200 4219                              |05dd: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bb16: 0823 0000                              |05df: move-object/from16 v35, v0
+43bb1a: 1b05 a200 0100                         |05e1: const-string/jumbo v5, "抖音极速版" // string@000100a2
+43bb20: 1a01 1c8f                              |05e4: const-string v1, "com.ss.android.ugc.aweme.lite" // string@8f1c
+43bb24: 1a04 c9c5                              |05e6: const-string v4, "media_app" // string@c5c9
+43bb28: 7607 3fa5 0000                         |05e8: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bb2e: 2209 4219                              |05eb: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bb32: 0824 0900                              |05ed: move-object/from16 v36, v9
+43bb36: 1b0e a300 0100                         |05ef: const-string/jumbo v14, "抖音火山版" // string@000100a3
+43bb3c: 122f                                   |05f2: const/4 v15, #int 2 // #2
+43bb3e: 1a0a 1d8f                              |05f3: const-string v10, "com.ss.android.ugc.live" // string@8f1d
+43bb42: 160b 0000                              |05f5: const-wide/16 v11, #int 0 // #0
+43bb46: 1a0d c9c5                              |05f7: const-string v13, "media_app" // string@c5c9
+43bb4a: 7607 3fa5 0900                         |05f9: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bb50: 2200 4219                              |05fc: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bb54: 0825 0000                              |05fe: move-object/from16 v37, v0
+43bb58: 1b05 a400 0100                         |0600: const-string/jumbo v5, "抖音精选" // string@000100a4
+43bb5e: 1a01 1e8f                              |0603: const-string v1, "com.ss.android.yumme.video" // string@8f1e
+43bb62: 1a04 c9c5                              |0605: const-string v4, "media_app" // string@c5c9
+43bb66: 7607 3fa5 0000                         |0607: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bb6c: 2209 4219                              |060a: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bb70: 0826 0900                              |060c: move-object/from16 v38, v9
+43bb74: 1b0e 9c00 0100                         |060e: const-string/jumbo v14, "快手极速版" // string@0001009c
+43bb7a: 1a0a e48e                              |0611: const-string v10, "com.kuaishou.nebula" // string@8ee4
+43bb7e: 1a0d c9c5                              |0613: const-string v13, "media_app" // string@c5c9
+43bb82: 7607 3fa5 0900                         |0615: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bb88: 2200 4219                              |0618: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bb8c: 0827 0000                              |061a: move-object/from16 v39, v0
+43bb90: 1b05 7f00 0100                         |061c: const-string/jumbo v5, "喜马拉雅极速版" // string@0001007f
+43bb96: 1216                                   |061f: const/4 v6, #int 1 // #1
+43bb98: 1a01 3d8f                              |0620: const-string v1, "com.ximalaya.ting.lite" // string@8f3d
+43bb9c: 1a04 82e3                              |0622: const-string v4, "radio" // string@e382
+43bba0: 7607 3fa5 0000                         |0624: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bba6: 2209 4219                              |0627: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bbaa: 0828 0900                              |0629: move-object/from16 v40, v9
+43bbae: 1b0e 8200 0100                         |062b: const-string/jumbo v14, "头条搜索极速版" // string@00010082
+43bbb4: 124f                                   |062e: const/4 v15, #int 4 // #4
+43bbb6: 1a0a 168f                              |062f: const-string v10, "com.ss.android.article.lite" // string@8f16
+43bbba: 1a0d 25dd                              |0631: const-string v13, "other" // string@dd25
+43bbbe: 7607 3fa5 0900                         |0633: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bbc4: 2200 4219                              |0636: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bbc8: 0829 0000                              |0638: move-object/from16 v41, v0
+43bbcc: 1b05 c900 0100                         |063a: const-string/jumbo v5, "爱奇艺极速版" // string@000100c9
+43bbd2: 1226                                   |063d: const/4 v6, #int 2 // #2
+43bbd4: 1a01 0c8f                              |063e: const-string v1, "com.qiyi.video.lite" // string@8f0c
+43bbd8: 1a04 c9c5                              |0640: const-string v4, "media_app" // string@c5c9
+43bbdc: 7607 3fa5 0000                         |0642: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bbe2: 2209 4219                              |0645: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bbe6: 082a 0900                              |0647: move-object/from16 v42, v9
+43bbea: 1b0e 7b00 0100                         |0649: const-string/jumbo v14, "咪咕视频爱看版" // string@0001007b
+43bbf0: 122f                                   |064c: const/4 v15, #int 2 // #2
+43bbf2: 1a0a 348f                              |064d: const-string v10, "com.wondertek.miguaikan" // string@8f34
+43bbf6: 1a0d c9c5                              |064f: const-string v13, "media_app" // string@c5c9
+43bbfa: 7607 3fa5 0900                         |0651: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bc00: 2200 4219                              |0654: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bc04: 082b 0000                              |0656: move-object/from16 v43, v0
+43bc08: 1b05 aa00 0100                         |0658: const-string/jumbo v5, "斗鱼直播极速版" // string@000100aa
+43bc0e: 1306 0f00                              |065b: const/16 v6, #int 15 // #f
+43bc12: 1a01 d18e                              |065d: const-string v1, "com.douyu.rush" // string@8ed1
+43bc16: 1a04 c9c5                              |065f: const-string v4, "media_app" // string@c5c9
+43bc1a: 7607 3fa5 0000                         |0661: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bc20: 2209 4219                              |0664: new-instance v9, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bc24: 082c 0900                              |0666: move-object/from16 v44, v9
+43bc28: 1a0e 21e9                              |0668: const-string v14, "samples-Padding" // string@e921
+43bc2c: 130f 0f00                              |066a: const/16 v15, #int 15 // #f
+43bc30: 1a0a f28e                              |066c: const-string v10, "com.miui.androidx.samples" // string@8ef2
+43bc34: 1a0d c9c5                              |066e: const-string v13, "media_app" // string@c5c9
+43bc38: 7607 3fa5 0900                         |0670: invoke-direct/range {v9, v10, v11, v12, v13, v14, v15}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;I)V // method@a53f
+43bc3e: 2200 4219                              |0673: new-instance v0, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bc42: 082d 0000                              |0675: move-object/from16 v45, v0
+43bc46: 1a06 47c6                              |0677: const-string v6, "miui.embdemo" // string@c647
+43bc4a: 1307 0a00                              |0679: const/16 v7, #int 10 // #a
+43bc4e: 1a01 018f                              |067b: const-string v1, "com.miui.embdemo" // string@8f01
+43bc52: 1a04 25dd                              |067d: const-string v4, "other" // string@dd25
+43bc56: 1215                                   |067f: const/4 v5, #int 1 // #1
+43bc58: 7608 3da5 0000                         |0680: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6, v7}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43bc5e: 222f 4219                              |0683: new-instance v47, Lcom/carwith/common/bean/AppWhiteItem; // type@1942
+43bc62: 082e 2f00                              |0685: move-object/from16 v46, v47
+43bc66: 1a35 c983                              |0687: const-string v53, "android.embdemo" // string@83c9
+43bc6a: 1336 0a00                              |0689: const/16 v54, #int 10 // #a
+43bc6e: 1a30 148e                              |068b: const-string v48, "com.android.embdemo" // string@8e14
+43bc72: 1631 0000                              |068d: const-wide/16 v49, #int 0 // #0
+43bc76: 1a33 25dd                              |068f: const-string v51, "other" // string@dd25
+43bc7a: 1334 0100                              |0691: const/16 v52, #int 1 // #1
+43bc7e: 7608 3da5 2f00                         |0693: invoke-direct/range {v47, v48, v49, v50, v51, v52, v53, v54}, Lcom/carwith/common/bean/AppWhiteItem;.<init>:(Ljava/lang/String;JLjava/lang/String;ILjava/lang/String;I)V // method@a53d
+43bc84: 251f 3727 1000                         |0696: filled-new-array/range {v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42, v43, v44, v45, v46}, [Lcom/carwith/common/bean/AppWhiteItem; // type@2737
+43bc8a: 0c00                                   |0699: move-result-object v0
+43bc8c: 6900 b7af                              |069a: sput-object v0, Lcom/carwith/common/Constants;.q:[Lcom/carwith/common/bean/AppWhiteItem; // field@afb7
+43bc90: 1400 c0cf 6a00                         |069c: const v0, #float 9.80909e-39 // #006acfc0
+43bc96: 1401 c0d8 a700                         |069f: const v1, #float 1.54143e-38 // #00a7d8c0
+43bc9c: 1402 003e 4900                         |06a2: const v2, #float 6.72623e-39 // #00493e00
+43bca2: 2440 0d26 0281                         |06a5: filled-new-array {v2, v0, v1, v8}, [I // type@260d
+43bca8: 0c00                                   |06a8: move-result-object v0
+43bcaa: 6900 b8af                              |06a9: sput-object v0, Lcom/carwith/common/Constants;.r:[I // field@afb8
+43bcae: 0e00                                   |06ab: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/Constants;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+43bcb0:                                        |[43bcb0] com.carwith.common.Constants.<init>:()V
+43bcc0: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+43bcc6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/Constants;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 9
+      ins           : 2
+      outs          : 6
+      insns size    : 63 16-bit code units
+43aeb8:                                        |[43aeb8] com.carwith.common.Constants.a:(Landroid/content/Context;Ljava/lang/String;)I
+43aec8: 1200                                   |0000: const/4 v0, #int 0 // #0
+43aeca: 3907 0300                              |0001: if-nez v7, 0004 // +0003
+43aece: 0f00                                   |0003: return v0
+43aed0: 2201 4f1d                              |0004: new-instance v1, Ljava/lang/StringBuilder; // type@1d4f
+43aed4: 7010 9abc 0100                         |0006: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+43aeda: 1a02 6d90                              |0009: const-string v2, "content://com.android.bluetooth.btservice.BluetoothDeviceTypeProvider/btdevicetype/" // string@906d
+43aede: 6e20 a5bc 2100                         |000b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+43aee4: 7110 ef09 0800                         |000e: invoke-static {v8}, Landroid/net/Uri;.encode:(Ljava/lang/String;)Ljava/lang/String; // method@09ef
+43aeea: 0c08                                   |0011: move-result-object v8
+43aeec: 6e20 a5bc 8100                         |0012: invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+43aef2: 6e10 b7bc 0100                         |0015: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+43aef8: 0c08                                   |0018: move-result-object v8
+43aefa: 7110 020a 0800                         |0019: invoke-static {v8}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0a02
+43af00: 0c02                                   |001c: move-result-object v2
+43af02: 6e10 8704 0700                         |001d: invoke-virtual {v7}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0487
+43af08: 0c01                                   |0020: move-result-object v1
+43af0a: 1205                                   |0021: const/4 v5, #int 0 // #0
+43af0c: 1206                                   |0022: const/4 v6, #int 0 // #0
+43af0e: 1203                                   |0023: const/4 v3, #int 0 // #0
+43af10: 1204                                   |0024: const/4 v4, #int 0 // #0
+43af12: 7406 6004 0100                         |0025: invoke-virtual/range {v1, v2, v3, v4, v5, v6}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0460
+43af18: 0c07                                   |0028: move-result-object v7
+43af1a: 3807 1200                              |0029: if-eqz v7, 003b // +0012
+43af1e: 7210 1506 0700                         |002b: invoke-interface {v7}, Landroid/database/Cursor;.moveToFirst:()Z // method@0615
+43af24: 0a08                                   |002e: move-result v8
+43af26: 3808 0c00                              |002f: if-eqz v8, 003b // +000c
+43af2a: 1a08 65fa                              |0031: const-string v8, "type" // string@fa65
+43af2e: 7220 0706 8700                         |0033: invoke-interface {v7, v8}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+43af34: 0a08                                   |0036: move-result v8
+43af36: 7220 0e06 8700                         |0037: invoke-interface {v7, v8}, Landroid/database/Cursor;.getInt:(I)I // method@060e
+43af3c: 0a00                                   |003a: move-result v0
+43af3e: 7210 0406 0700                         |003b: invoke-interface {v7}, Landroid/database/Cursor;.close:()V // method@0604
+43af44: 0f00                                   |003e: return v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/Constants;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;)Landroid/content/SharedPreferences;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 30 16-bit code units
+43ad84:                                        |[43ad84] com.carwith.common.Constants.b:(Landroid/content/Context;)Landroid/content/SharedPreferences;
+43ad94: 6200 a8af                              |0000: sget-object v0, Lcom/carwith/common/Constants;.b:Landroid/content/SharedPreferences; // field@afa8
+43ad98: 3900 1900                              |0002: if-nez v0, 001b // +0019
+43ad9c: 1c00 0c19                              |0004: const-class v0, Lcom/carwith/common/Constants; // type@190c
+43ada0: 1d00                                   |0006: monitor-enter v0
+43ada2: 6201 a8af                              |0007: sget-object v1, Lcom/carwith/common/Constants;.b:Landroid/content/SharedPreferences; // field@afa8
+43ada6: 3901 0e00                              |0009: if-nez v1, 0017 // +000e
+43adaa: 1a01 9e87                              |000b: const-string v1, "audio_video_connect_setting" // string@879e
+43adae: 1202                                   |000d: const/4 v2, #int 0 // #0
+43adb0: 6e30 9904 1302                         |000e: invoke-virtual {v3, v1, v2}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0499
+43adb6: 0c03                                   |0011: move-result-object v3
+43adb8: 6903 a8af                              |0012: sput-object v3, Lcom/carwith/common/Constants;.b:Landroid/content/SharedPreferences; // field@afa8
+43adbc: 2803                                   |0014: goto 0017 // +0003
+43adbe: 0d03                                   |0015: move-exception v3
+43adc0: 2803                                   |0016: goto 0019 // +0003
+43adc2: 1e00                                   |0017: monitor-exit v0
+43adc4: 2803                                   |0018: goto 001b // +0003
+43adc6: 1e00                                   |0019: monitor-exit v0
+43adc8: 2703                                   |001a: throw v3
+43adca: 6203 a8af                              |001b: sget-object v3, Lcom/carwith/common/Constants;.b:Landroid/content/SharedPreferences; // field@afa8
+43adce: 1103                                   |001d: return-object v3
+      catches       : 1
+        0x0007 - 0x001a
+          <any> -> 0x0015
+
+    #4              : (in Lcom/carwith/common/Constants;)
+      name          : 'c'
+      type          : '(ILjava/lang/String;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 101 16-bit code units
+43addc:                                        |[43addc] com.carwith.common.Constants.c:(ILjava/lang/String;)Z
+43adec: 7100 daa8 0000                         |0000: invoke-static {}, Lcom/carwith/common/utils/h0;.j:()Z // method@a8da
+43adf2: 0a00                                   |0003: move-result v0
+43adf4: 1a01 c917                              |0004: const-string v1, "Constants" // string@17c9
+43adf8: 3800 1f00                              |0006: if-eqz v0, 0025 // +001f
+43adfc: 7100 8ab2 0000                         |0008: invoke-static {}, Lg2/a;.f:()Lg2/a; // method@b28a
+43ae02: 0c00                                   |000b: move-result-object v0
+43ae04: 6e30 92b2 2003                         |000c: invoke-virtual {v0, v2, v3}, Lg2/a;.n:(ILjava/lang/String;)Z // method@b292
+43ae0a: 0a02                                   |000f: move-result v2
+43ae0c: 2203 4f1d                              |0010: new-instance v3, Ljava/lang/StringBuilder; // type@1d4f
+43ae10: 7010 9abc 0300                         |0012: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+43ae16: 1a00 e100                              |0015: const-string v0, " EasyConnect isCarDeviceType = " // string@00e1
+43ae1a: 6e20 a5bc 0300                         |0017: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+43ae20: 6e20 a6bc 2300                         |001a: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@bca6
+43ae26: 6e10 b7bc 0300                         |001d: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+43ae2c: 0c03                                   |0020: move-result-object v3
+43ae2e: 7120 c8aa 3100                         |0021: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+43ae34: 2840                                   |0024: goto 0064 // +0040
+43ae36: 7100 d4a8 0000                         |0025: invoke-static {}, Lcom/carwith/common/utils/h0;.d:()Z // method@a8d4
+43ae3c: 0a00                                   |0028: move-result v0
+43ae3e: 3800 1f00                              |0029: if-eqz v0, 0048 // +001f
+43ae42: 7100 99ae 0000                         |002b: invoke-static {}, Le2/a;.n:()Le2/a; // method@ae99
+43ae48: 0c00                                   |002e: move-result-object v0
+43ae4a: 6e30 a4ae 2003                         |002f: invoke-virtual {v0, v2, v3}, Le2/a;.y:(ILjava/lang/String;)Z // method@aea4
+43ae50: 0a02                                   |0032: move-result v2
+43ae52: 2203 4f1d                              |0033: new-instance v3, Ljava/lang/StringBuilder; // type@1d4f
+43ae56: 7010 9abc 0300                         |0035: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+43ae5c: 1a00 d900                              |0038: const-string v0, " CarlifeConnect isCarDeviceType = " // string@00d9
+43ae60: 6e20 a5bc 0300                         |003a: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+43ae66: 6e20 a6bc 2300                         |003d: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@bca6
+43ae6c: 6e10 b7bc 0300                         |0040: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+43ae72: 0c03                                   |0043: move-result-object v3
+43ae74: 7120 c8aa 3100                         |0044: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+43ae7a: 281d                                   |0047: goto 0064 // +001d
+43ae7c: 7100 52b0 0000                         |0048: invoke-static {}, Lf2/d;.g:()Lf2/d; // method@b052
+43ae82: 0c00                                   |004b: move-result-object v0
+43ae84: 6e30 56b0 2003                         |004c: invoke-virtual {v0, v2, v3}, Lf2/d;.k:(ILjava/lang/String;)Z // method@b056
+43ae8a: 0a02                                   |004f: move-result v2
+43ae8c: 2203 4f1d                              |0050: new-instance v3, Ljava/lang/StringBuilder; // type@1d4f
+43ae90: 7010 9abc 0300                         |0052: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+43ae96: 1a00 da00                              |0055: const-string v0, " CarlinkConnect isCarDeviceType = " // string@00da
+43ae9a: 6e20 a5bc 0300                         |0057: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+43aea0: 6e20 a6bc 2300                         |005a: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@bca6
+43aea6: 6e10 b7bc 0300                         |005d: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+43aeac: 0c03                                   |0060: move-result-object v3
+43aeae: 7120 c8aa 3100                         |0061: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+43aeb4: 0f02                                   |0064: return v2
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/common/Constants;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;Ljava/lang/Object;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 45 16-bit code units
+43bcc8:                                        |[43bcc8] com.carwith.common.Constants.d:(Ljava/lang/String;Ljava/lang/Object;)V
+43bcd8: 6200 a8af                              |0000: sget-object v0, Lcom/carwith/common/Constants;.b:Landroid/content/SharedPreferences; // field@afa8
+43bcdc: 3900 0300                              |0002: if-nez v0, 0005 // +0003
+43bce0: 0e00                                   |0004: return-void
+43bce2: 2031 4d1d                              |0005: instance-of v1, v3, Ljava/lang/String; // type@1d4d
+43bce6: 3801 1000                              |0007: if-eqz v1, 0017 // +0010
+43bcea: 7210 1a05 0000                         |0009: invoke-interface {v0}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@051a
+43bcf0: 0c00                                   |000c: move-result-object v0
+43bcf2: 1f03 4d1d                              |000d: check-cast v3, Ljava/lang/String; // type@1d4d
+43bcf6: 7230 1605 2003                         |000f: invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences$Editor;.putString:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor; // method@0516
+43bcfc: 0c02                                   |0012: move-result-object v2
+43bcfe: 7210 1005 0200                         |0013: invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@0510
+43bd04: 2816                                   |0016: goto 002c // +0016
+43bd06: 2031 121d                              |0017: instance-of v1, v3, Ljava/lang/Boolean; // type@1d12
+43bd0a: 3801 1300                              |0019: if-eqz v1, 002c // +0013
+43bd0e: 7210 1a05 0000                         |001b: invoke-interface {v0}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@051a
+43bd14: 0c00                                   |001e: move-result-object v0
+43bd16: 1f03 121d                              |001f: check-cast v3, Ljava/lang/Boolean; // type@1d12
+43bd1a: 6e10 3fbb 0300                         |0021: invoke-virtual {v3}, Ljava/lang/Boolean;.booleanValue:()Z // method@bb3f
+43bd20: 0a03                                   |0024: move-result v3
+43bd22: 7230 1205 2003                         |0025: invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences$Editor;.putBoolean:(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor; // method@0512
+43bd28: 0c02                                   |0028: move-result-object v2
+43bd2a: 7210 1005 0200                         |0029: invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@0510
+43bd30: 0e00                                   |002c: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 6090 (Constants.java)
+

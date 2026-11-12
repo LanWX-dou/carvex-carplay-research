@@ -1,0 +1,9 @@
+{
+    "devices":[
+        "cas",
+        "cmi",
+        "umi",
+        "lmi",
+        "venus"
+    ]
+}

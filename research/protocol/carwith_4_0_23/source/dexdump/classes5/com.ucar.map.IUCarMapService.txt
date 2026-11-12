@@ -1,0 +1,77 @@
+Class #86            -
+  Class descriptor  : 'Lcom/ucar/map/IUCarMapService;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+    #0              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'DESCRIPTOR'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "com.ucar.map.IUCarMapService"
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'getValue'
+      type          : '(ILandroid/os/Bundle;)Landroid/os/Bundle;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'notifyCommuterAddressChanged'
+      type          : '(ZZLandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'notifyMapUIModeChanged'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'notifyNavStatusChanged'
+      type          : '(ZLandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'notifyStatusChanged'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'registerMapCallback'
+      type          : '(Lcom/ucar/map/IUCarMapCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'removeNavInfo'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'setValue'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #8              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'showNavInfo'
+      type          : '(Landroid/os/Bundle;Landroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #9              : (in Lcom/ucar/map/IUCarMapService;)
+      name          : 'unregisterMapCallback'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 9007 (IUCarMapService.java)
+

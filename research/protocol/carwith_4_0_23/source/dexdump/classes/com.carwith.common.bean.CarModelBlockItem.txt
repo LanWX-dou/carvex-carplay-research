@@ -1,0 +1,185 @@
+Class #6473            -
+  Class descriptor  : 'Lcom/carwith/common/bean/CarModelBlockItem;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'carModelAppTypeList'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'carModelId'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'carModelName'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'carVIN'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'vehicleManufacturerId'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+4432a8:                                        |[4432a8] com.carwith.common.bean.CarModelBlockItem.<init>:()V
+4432b8: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+4432be: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'getCarModelAppTypeList'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443290:                                        |[443290] com.carwith.common.bean.CarModelBlockItem.getCarModelAppTypeList:()Ljava/util/List;
+4432a0: 5400 dfe3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelAppTypeList:Ljava/util/List; // field@e3df
+4432a4: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'getCarModelId'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443230:                                        |[443230] com.carwith.common.bean.CarModelBlockItem.getCarModelId:()Ljava/lang/String;
+443240: 5400 e0e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelId:Ljava/lang/String; // field@e3e0
+443244: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'getCarModelName'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443248:                                        |[443248] com.carwith.common.bean.CarModelBlockItem.getCarModelName:()Ljava/lang/String;
+443258: 5400 e1e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelName:Ljava/lang/String; // field@e3e1
+44325c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'getCarVIN'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443260:                                        |[443260] com.carwith.common.bean.CarModelBlockItem.getCarVIN:()Ljava/lang/String;
+443270: 5400 e2e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carVIN:Ljava/lang/String; // field@e3e2
+443274: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'getVehicleManufacturerId'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443278:                                        |[443278] com.carwith.common.bean.CarModelBlockItem.getVehicleManufacturerId:()Ljava/lang/String;
+443288: 5400 e3e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CarModelBlockItem;.vehicleManufacturerId:Ljava/lang/String; // field@e3e3
+44328c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'setCarModelAppTypeList'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4432c0:                                        |[4432c0] com.carwith.common.bean.CarModelBlockItem.setCarModelAppTypeList:(Ljava/util/List;)V
+4432d0: 5b01 dfe3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelAppTypeList:Ljava/util/List; // field@e3df
+4432d4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'setCarModelId'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4432d8:                                        |[4432d8] com.carwith.common.bean.CarModelBlockItem.setCarModelId:(Ljava/lang/String;)V
+4432e8: 5b01 e0e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelId:Ljava/lang/String; // field@e3e0
+4432ec: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'setCarModelName'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4432f0:                                        |[4432f0] com.carwith.common.bean.CarModelBlockItem.setCarModelName:(Ljava/lang/String;)V
+443300: 5b01 e1e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carModelName:Ljava/lang/String; // field@e3e1
+443304: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'setCarVIN'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443308:                                        |[443308] com.carwith.common.bean.CarModelBlockItem.setCarVIN:(Ljava/lang/String;)V
+443318: 5b01 e2e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CarModelBlockItem;.carVIN:Ljava/lang/String; // field@e3e2
+44331c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/common/bean/CarModelBlockItem;)
+      name          : 'setVehicleManufacturerId'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443320:                                        |[443320] com.carwith.common.bean.CarModelBlockItem.setVehicleManufacturerId:(Ljava/lang/String;)V
+443330: 5b01 e3e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CarModelBlockItem;.vehicleManufacturerId:Ljava/lang/String; // field@e3e3
+443334: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 5585 (CarModelBlockItem.java)
+

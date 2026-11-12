@@ -1,0 +1,74 @@
+Class #3610            -
+  Class descriptor  : 'Lcom/xiaomi/passport/ui/license/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/passport/ui/license/a;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 19 16-bit code units
+3ff420:                                        |[3ff420] com.xiaomi.passport.ui.license.a.a:()Ljava/lang/String;
+3ff430: 7100 9ecd 0000                         |0000: invoke-static {}, Ljava/util/Locale;.getDefault:()Ljava/util/Locale; // method@cd9e
+3ff436: 0c00                                   |0003: move-result-object v0
+3ff438: 7110 6fd7 0000                         |0004: invoke-static {v0}, Lpd/y;.f:(Ljava/util/Locale;)Ljava/lang/String; // method@d76f
+3ff43e: 0c00                                   |0007: move-result-object v0
+3ff440: 1a01 1aa5                              |0008: const-string v1, "https://account.xiaomi.com/about/protocol/agreement?_locale=%s" // string@a51a
+3ff444: 2410 6a28 0000                         |000a: filled-new-array {v0}, [Ljava/lang/Object; // type@286a
+3ff44a: 0c00                                   |000d: move-result-object v0
+3ff44c: 7120 0bcc 0100                         |000e: invoke-static {v1, v0}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+3ff452: 0c00                                   |0011: move-result-object v0
+3ff454: 1100                                   |0012: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/ui/license/a;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 21 16-bit code units
+3ff458:                                        |[3ff458] com.xiaomi.passport.ui.license.a.b:()Ljava/lang/String;
+3ff468: 7100 9ecd 0000                         |0000: invoke-static {}, Ljava/util/Locale;.getDefault:()Ljava/util/Locale; // method@cd9e
+3ff46e: 0c00                                   |0003: move-result-object v0
+3ff470: 7110 6fd7 0000                         |0004: invoke-static {v0}, Lpd/y;.f:(Ljava/util/Locale;)Ljava/lang/String; // method@d76f
+3ff476: 0c00                                   |0007: move-result-object v0
+3ff478: 1a01 c7b0                              |0008: const-string v1, "miaccount" // string@b0c7
+3ff47c: 2420 6a28 0100                         |000a: filled-new-array {v1, v0}, [Ljava/lang/Object; // type@286a
+3ff482: 0c00                                   |000d: move-result-object v0
+3ff484: 1a01 39a5                              |000e: const-string v1, "https://privacy.mi.com/%s/%s/" // string@a539
+3ff488: 7120 0bcc 0100                         |0010: invoke-static {v1, v0}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+3ff48e: 0c00                                   |0013: move-result-object v0
+3ff490: 1100                                   |0014: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/passport/ui/license/a;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;Ljava/util/ArrayList;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 12 16-bit code units
+3ff494:                                        |[3ff494] com.xiaomi.passport.ui.license.a.c:(Landroid/content/Context;Ljava/util/ArrayList;)V
+3ff4a4: 2200 321d                              |0000: new-instance v0, Lcom/xiaomi/passport/ui/license/b; // type@1d32
+3ff4a8: 7030 adbe 1002                         |0002: invoke-direct {v0, v1, v2}, Lcom/xiaomi/passport/ui/license/b;.<init>:(Landroid/content/Context;Ljava/util/ArrayList;)V // method@bead
+3ff4ae: 1201                                   |0005: const/4 v1, #int 0 // #0
+3ff4b0: 2311 6d28                              |0006: new-array v1, v1, [Ljava/lang/Void; // type@286d
+3ff4b4: 6e20 6403 1000                         |0008: invoke-virtual {v0, v1}, Landroid/os/AsyncTask;.execute:([Ljava/lang/Object;)Landroid/os/AsyncTask; // method@0364
+3ff4ba: 0e00                                   |000b: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 2177 (AgreementAndPrivacyHelper.java)
+

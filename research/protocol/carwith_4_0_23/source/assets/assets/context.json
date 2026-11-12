@@ -1,0 +1,23 @@
+{
+  "accessibility_info": {
+    "current_play_info": {
+      "pkg_name": "com.miui.player"
+    },
+    "is_lock_state": false,
+    "open_smart_app": true,
+    "white_list_user": true,
+    "current_page_info": {
+      "pkg_name": "com.tencent.mm",
+      "version_code": 200,
+      "version_name": "2.0.0",
+      "page_id": "weixin_1"
+    },
+    "all_app_info": [
+      {
+        "pkg_name": "com.tencent.mm",
+        "version_code": 200,
+        "version_name": "2.0.0"
+      }
+    ]
+  }
+}

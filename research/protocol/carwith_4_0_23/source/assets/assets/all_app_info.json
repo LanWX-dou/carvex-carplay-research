@@ -1,0 +1,196 @@
+{
+  "app_info": [
+    {
+      "pkg_name": "com.baidu.BaiduMap"
+    },
+    {
+      "pkg_name": "com.android.camera"
+    },
+    {
+      "pkg_name": "com.jingdong.app.mall"
+    },
+    {
+      "pkg_name": "com.sdu.didi.psnger"
+    },
+    {
+      "pkg_name": "com.ximalaya.ting.android"
+    },
+    {
+      "pkg_name": "com.mobike.mobikeapp"
+    },
+    {
+      "pkg_name": "so.ofo.labofo"
+    },
+    {
+      "pkg_name": "com.kugou.android"
+    },
+    {
+      "pkg_name": "com.netease.cloudmusic"
+    },
+    {
+      "pkg_name": "com.tencent.qqmusic"
+    },
+    {
+      "pkg_name": "com.qiyi.video"
+    },
+    {
+      "pkg_name": "com.tencent.qqlive"
+    },
+    {
+      "pkg_name": "com.eg.android.AlipayGphone"
+    },
+    {
+      "pkg_name": "com.tencent.mm"
+    },
+    {
+      "pkg_name": "com.autonavi.minimap"
+    },
+    {
+      "pkg_name": "com.tencent.mobileqq"
+    },
+    {
+      "pkg_name": "com.youku.phone"
+    },
+    {
+      "pkg_name": "com.dianping.v1"
+    },
+    {
+      "pkg_name": "com.sina.weibo"
+    },
+    {
+      "pkg_name": "com.xiaomi.lens"
+    },
+    {
+      "pkg_name": "com.taobao.taobao"
+    },
+    {
+      "pkg_name": "com.miui.video"
+    },
+    {
+      "pkg_name": "com.miui.gallery"
+    },
+    {
+      "pkg_name": "com.miui.notes"
+    },
+    {
+      "pkg_name": "com.mipay.wallet"
+    },
+    {
+      "pkg_name": "com.tencent.map"
+    },
+    {
+      "pkg_name": "com.tencent.news"
+    },
+    {
+      "pkg_name": "cmb.pb"
+    },
+    {
+      "pkg_name": "com.Qunar"
+    },
+    {
+      "pkg_name": "com.miui.securitycenter"
+    },
+    {
+      "pkg_name": "com.baidu.searchbox"
+    },
+    {
+      "pkg_name": "com.ss.android.ugc.aweme"
+    },
+    {
+      "pkg_name": "com.ss.android.article.lite"
+    },
+    {
+      "pkg_name": "com.baidu.searchbox.lite"
+    },
+    {
+      "pkg_name": "com.xunmeng.pinduoduo"
+    },
+    {
+      "pkg_name": "com.jifen.qukan"
+    },
+    {
+      "pkg_name": "com.zhihu.android"
+    },
+    {
+      "pkg_name": "com.jingyao.easybike"
+    },
+    {
+      "pkg_name": "com.xiaomi.scanner"
+    },
+    {
+      "pkg_name": "com.xiaomi.shop"
+    },
+    {
+      "pkg_name": "com.xiaomi.youpin"
+    },
+    {
+      "pkg_name": "com.miui.voiceassist"
+    },
+    {
+      "pkg_name": "com.alibaba.android.rimet"
+    },
+    {
+      "pkg_name": "com.android.settings"
+    },
+    {
+      "pkg_name": "com.tencent.tmgp.pubgmhd"
+    },
+    {
+      "pkg_name": "com.tencent.tmgp.sgame"
+    },
+    {
+      "pkg_name": "com.smile.gifmaker"
+    },
+    {
+      "pkg_name": "com.ss.android.ugc.live"
+    },
+    {
+      "pkg_name": "com.ss.android.ugc.aweme.lite"
+    },
+    {
+      "pkg_name": "tv.danmaku.bili"
+    },
+    {
+      "pkg_name": "com.duokaiqifree.virtual"
+    },
+    {
+      "pkg_name": "com.netease.cloudmusic.lite"
+    },
+    {
+      "pkg_name": "com.kugou.tv.android"
+    },
+    {
+      "pkg_name": "com.kugou.playerHDyy"
+    },
+    {
+      "pkg_name": "com.kugou.android.elder"
+    },
+    {
+      "pkg_name": "com.kugou.android.lite"
+    },
+    {
+      "pkg_name": "com.tencent.qqlite"
+    },
+    {
+      "pkg_name": "com.tencent.tim"
+    },
+    {
+      "pkg_name": "com.tencent.mobileqqi"
+    },
+    {
+      "pkg_name": "com.xunmeng.merchant"
+    },
+    {
+      "pkg_name": "com.xiaomi.market"
+    },
+    {
+      "pkg_name": "com.tencent.videolite.android"
+    },
+    {
+      "pkg_name": "com.mlab.cam"
+    },
+    {
+      "pkg_name": "com.huawei.hwvplayer.youku"
+    }
+  ]
+}

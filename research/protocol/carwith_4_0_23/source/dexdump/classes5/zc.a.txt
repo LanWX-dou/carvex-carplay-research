@@ -1,0 +1,61 @@
+Class #4374            -
+  Class descriptor  : 'Lzc/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lzc/a;)
+      name          : 'a'
+      type          : 'Z'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lzc/a;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #2              : (in Lzc/a;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Lzc/a;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lzc/a;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 41 16-bit code units
+478734:                                        |[478734] zc.a.<clinit>:()V
+478744: 2200 a31f                              |0000: new-instance v0, Ljava/io/File; // type@1fa3
+478748: 1a01 4e04                              |0002: const-string v1, "/data/system/oauth_staging_preview" // string@044e
+47874c: 7020 12cb 1000                         |0004: invoke-direct {v0, v1}, Ljava/io/File;.<init>:(Ljava/lang/String;)V // method@cb12
+478752: 6e10 16cb 0000                         |0007: invoke-virtual {v0}, Ljava/io/File;.exists:()Z // method@cb16
+478758: 0a00                                   |000a: move-result v0
+47875a: 6a00 87f3                              |000b: sput-boolean v0, Lzc/a;.a:Z // field@f387
+47875e: 3800 0500                              |000d: if-eqz v0, 0012 // +0005
+478762: 1a01 eea4                              |000f: const-string v1, "http://account.preview.n.xiaomi.net" // string@a4ee
+478766: 2803                                   |0011: goto 0014 // +0003
+478768: 1a01 19a5                              |0012: const-string v1, "https://account.xiaomi.com" // string@a519
+47876c: 6901 88f3                              |0014: sput-object v1, Lzc/a;.b:Ljava/lang/String; // field@f388
+478770: 3800 0500                              |0016: if-eqz v0, 001b // +0005
+478774: 1a01 01a5                              |0018: const-string v1, "http://open.account.preview.n.xiaomi.net" // string@a501
+478778: 2803                                   |001a: goto 001d // +0003
+47877a: 1a01 35a5                              |001b: const-string v1, "https://open.account.xiaomi.com" // string@a535
+47877e: 6901 89f3                              |001d: sput-object v1, Lzc/a;.c:Ljava/lang/String; // field@f389
+478782: 3800 0500                              |001f: if-eqz v0, 0024 // +0005
+478786: 1a00 98c5                              |0021: const-string v0, "open.account.preview.n.xiaomi.net" // string@c598
+47878a: 2803                                   |0023: goto 0026 // +0003
+47878c: 1a00 99c5                              |0024: const-string v0, "open.account.xiaomi.com" // string@c599
+478790: 6900 8af3                              |0026: sput-object v0, Lzc/a;.d:Ljava/lang/String; // field@f38a
+478794: 0e00                                   |0028: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 30327 (XiaomiOAuthConstants.java)
+

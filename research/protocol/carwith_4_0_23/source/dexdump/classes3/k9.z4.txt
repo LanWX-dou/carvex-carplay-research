@@ -1,0 +1,101 @@
+Class #1727            -
+  Class descriptor  : 'Lk9/z4;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lk9/z4;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;)Ljava/net/Proxy;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 22 16-bit code units
+34f054:                                        |[34f054] k9.z4.a:(Landroid/content/Context;)Ljava/net/Proxy;
+34f064: 2200 a60f                              |0000: new-instance v0, Ljava/net/URI; // type@0fa6
+34f068: 1a01 5673                              |0002: const-string v1, "http://restsdk.amap.com" // string@7356
+34f06c: 7020 a28a 1000                         |0004: invoke-direct {v0, v1}, Ljava/net/URI;.<init>:(Ljava/lang/String;)V // method@8aa2
+34f072: 7120 1d95 0200                         |0007: invoke-static {v2, v0}, Lk9/z4;.b:(Landroid/content/Context;Ljava/net/URI;)Ljava/net/Proxy; // method@951d
+34f078: 0c02                                   |000a: move-result-object v2
+34f07a: 280a                                   |000b: goto 0015 // +000a
+34f07c: 0d02                                   |000c: move-exception v2
+34f07e: 1a00 139c                              |000d: const-string v0, "pu" // string@9c13
+34f082: 1a01 1171                              |000f: const-string v1, "gp" // string@7111
+34f086: 7130 3a92 0201                         |0011: invoke-static {v2, v0, v1}, Lk9/o;.l:(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V // method@923a
+34f08c: 1202                                   |0014: const/4 v2, #int 0 // #0
+34f08e: 1102                                   |0015: return-object v2
+      catches       : 1
+        0x0000 - 0x000b
+          <any> -> 0x000c
+
+    #1              : (in Lk9/z4;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;Ljava/net/URI;)Ljava/net/Proxy;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 54 16-bit code units
+34f09c:                                        |[34f09c] k9.z4.b:(Landroid/content/Context;Ljava/net/URI;)Ljava/net/Proxy;
+34f0ac: 7110 1e95 0200                         |0000: invoke-static {v2}, Lk9/z4;.c:(Landroid/content/Context;)Z // method@951e
+34f0b2: 0a02                                   |0003: move-result v2
+34f0b4: 1200                                   |0004: const/4 v0, #int 0 // #0
+34f0b6: 3802 3000                              |0005: if-eqz v2, 0035 // +0030
+34f0ba: 7100 a08a 0000                         |0007: invoke-static {}, Ljava/net/ProxySelector;.getDefault:()Ljava/net/ProxySelector; // method@8aa0
+34f0c0: 0c02                                   |000a: move-result-object v2
+34f0c2: 6e20 a18a 3200                         |000b: invoke-virtual {v2, v3}, Ljava/net/ProxySelector;.select:(Ljava/net/URI;)Ljava/util/List; // method@8aa1
+34f0c8: 0c02                                   |000e: move-result-object v2
+34f0ca: 3802 1e00                              |000f: if-eqz v2, 002d // +001e
+34f0ce: 7210 4a8c 0200                         |0011: invoke-interface {v2}, Ljava/util/List;.isEmpty:()Z // method@8c4a
+34f0d4: 0a03                                   |0014: move-result v3
+34f0d6: 3903 1800                              |0015: if-nez v3, 002d // +0018
+34f0da: 1203                                   |0017: const/4 v3, #int 0 // #0
+34f0dc: 7220 478c 3200                         |0018: invoke-interface {v2, v3}, Ljava/util/List;.get:(I)Ljava/lang/Object; // method@8c47
+34f0e2: 0c02                                   |001b: move-result-object v2
+34f0e4: 1f02 a10f                              |001c: check-cast v2, Ljava/net/Proxy; // type@0fa1
+34f0e8: 3802 0f00                              |001e: if-eqz v2, 002d // +000f
+34f0ec: 6e10 9f8a 0200                         |0020: invoke-virtual {v2}, Ljava/net/Proxy;.type:()Ljava/net/Proxy$Type; // method@8a9f
+34f0f2: 0c03                                   |0023: move-result-object v3
+34f0f4: 6201 25d9                              |0024: sget-object v1, Ljava/net/Proxy$Type;.DIRECT:Ljava/net/Proxy$Type; // field@d925
+34f0f8: 3313 0300                              |0026: if-ne v3, v1, 0029 // +0003
+34f0fc: 2805                                   |0028: goto 002d // +0005
+34f0fe: 0720                                   |0029: move-object v0, v2
+34f100: 2803                                   |002a: goto 002d // +0003
+34f102: 0d02                                   |002b: move-exception v2
+34f104: 2802                                   |002c: goto 002e // +0002
+34f106: 1100                                   |002d: return-object v0
+34f108: 1a03 139c                              |002e: const-string v3, "pu" // string@9c13
+34f10c: 1a01 1871                              |0030: const-string v1, "gpsc" // string@7118
+34f110: 7130 3a92 3201                         |0032: invoke-static {v2, v3, v1}, Lk9/o;.l:(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V // method@923a
+34f116: 1100                                   |0035: return-object v0
+      catches       : 1
+        0x0007 - 0x0026
+          <any> -> 0x002b
+
+    #2              : (in Lk9/z4;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+34f030:                                        |[34f030] k9.z4.c:(Landroid/content/Context;)Z
+34f040: 7110 2f94 0000                         |0000: invoke-static {v0}, Lk9/u4;.K:(Landroid/content/Context;)I // method@942f
+34f046: 0a00                                   |0003: move-result v0
+34f048: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+34f04c: 1210                                   |0006: const/4 v0, #int 1 // #1
+34f04e: 0f00                                   |0007: return v0
+34f050: 1200                                   |0008: const/4 v0, #int 0 // #0
+34f052: 0f00                                   |0009: return v0
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 14792 (ProxyUtil.java)
+

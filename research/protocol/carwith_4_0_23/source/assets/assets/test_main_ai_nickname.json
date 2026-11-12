@@ -1,0 +1,579 @@
+{
+  "status": {
+    "code": 200,
+    "error_type": "OK"
+  },
+  "data": [
+    {
+      "unitId": "669629119620715520",
+      "unitType": "scene",
+      "name": "场景-春天",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "春天到了，想推荐你看看👇"
+        ],
+        "cards": [
+          {
+            "cardId": "643893673779534848",
+            "cardType": "widget",
+            "template": "weather",
+            "title": "今天天气怎么样",
+            "bgImg": "https://file.xiaomixiaoai.com/anonymous/file/4f7978612c01400f9947d33d",
+            "bgColorStart": "",
+            "bgColorEnd": "",
+            "clickEvent": {
+              "event": "query",
+              "query": "今天天气怎么样"
+            },
+            "widgetInfo": {
+              "weather": {
+                "temperature": "20",
+                "quality": "优"
+              }
+            }
+          },
+          {
+            "cardId": "669628278289470464",
+            "cardType": "singleSmall",
+            "template": "skill",
+            "title": "春天的诗词",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9c0b8f9c01800f42186251",
+            "bgColorStart": "",
+            "bgColorEnd": "",
+            "clickEvent": {
+              "event": "query",
+              "query": "描写春天的诗词",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "650750447228815360",
+      "unitType": "dialog",
+      "dialog": {
+        "question": {
+          "questionId": "650750447228815360",
+          "questionType": "nickname",
+          "questionName": "昵称",
+          "text": [
+            "你想我怎么叫你呢？😊"
+          ]
+        },
+        "answer": [
+          {
+            "inputType": "COMMON_TYPE",
+            "label": "宝贝"
+          },
+          {
+            "inputType": "COMMON_TYPE",
+            "label": "老板"
+          },
+          {
+            "inputType": "TEXT_INPUT",
+            "label": "我叫"
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "672490916287614976",
+      "unitType": "scene",
+      "name": "学习好帮手",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "我呢，能帮你记课程安排，随问随答"
+        ],
+        "cards": [
+          {
+            "cardId": "672480912495085568",
+            "cardType": "widget",
+            "template": "calendar",
+            "title": "今日黄历",
+            "bgImg": "https://file.xiaomixiaoai.com/anonymous/file/4f7978612c01400f9947d33d",
+            "bgColorStart": "#6B7896",
+            "bgColorEnd": "#879DC2",
+            "clickEvent": {
+              "event": "query",
+              "query": "今日黄历"
+            },
+            "widgetInfo": {
+              "calendar": {
+                "chineseCalendarDate": "七月初二",
+                "calendarDate": "20",
+                "good": "真心",
+                "bad": "虚伪"
+              }
+            }
+          },
+          {
+            "cardId": "671724135776261120",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "课堂同步学",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e202e54c00c00f4e6e36ad",
+            "bgColorStart": "#5643AE",
+            "bgColorEnd": "#7E6AD6",
+            "clickEvent": {
+              "event": "query",
+              "query": "课堂学习同步指南",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669512656176026624",
+      "unitType": "scene",
+      "name": "个性化手机",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "有需要时…找我帮你换个心情呀🤩"
+        ],
+        "cards": [
+          {
+            "cardId": "59",
+            "cardType": "widget",
+            "template": "constellation",
+            "title": "星座运势",
+            "icon": "xxx",
+            "bgImg": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/baiyangzuo.png",
+            "bgColorStart": "#4545e6",
+            "bgColorEnd": "#7373ff",
+            "clickEvent": {
+              "event": "intent",
+              "intent": "intent:#Intent;action=com.miui.voiceassist.ACTION_CHECK_LOGIN;launchFlags=0x10000000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.personalInfo.CheckLoginActivity;S.intentUri=intent%3a%2f%2faiweb%3furl%3dhttps%253a%252f%252fi-preview.xiaomixiaoai.com%252fh5%252fai-personal-info-fe%252f%2523%252fsetAnniversary%253fmode%253dadd%26flag%3d268435456%26noBack%3dfalse%26statusBarTextBlack%3dtrue%26fullScreen%3dtrue%26navigationBarColor%3dFFFFFF%23Intent%3bscheme%3dvoiceassist%3blaunchFlags%3d0x10000000%3bscheme%3dvoiceassist%3bpackage%3dcom.miui.voiceassist%3bend;end",
+              "isAutoPlay": false
+            },
+            "widgetInfo": {
+              "constellation": {
+                "rate": 4,
+                "desc": "点击先设置一下你的生日吧！让小爱更了解你哦～",
+                "isDefault": true
+              }
+            }
+          },
+          {
+            "cardId": "669511211309601792",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "设置字体",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e55c11e000c00f4e6ccf27",
+            "bgColorStart": "#6B7A99",
+            "bgColorEnd": "#91A5CF",
+            "clickEvent": {
+              "event": "query",
+              "query": "设置字体",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "672492017309191168",
+      "unitType": "scene",
+      "name": "你的效率神器",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "以后碰到算数和翻译，交给我就对了"
+        ],
+        "cards": [
+          {
+            "cardId": "672490068530696192",
+            "cardType": "widget",
+            "template": "holiday",
+            "title": "最近假期",
+            "bgImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599829852579&di=06a7595d4bad380f4b11c7152245a102&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2Fattachments2%2Fday_110320%2F11032021067b907d3ed754dd93.jpg'",
+            "bgColorStart": "#6B7896",
+            "bgColorEnd": "#879DC2",
+            "clickEvent": {
+              "event": "query",
+              "query": "最近假期"
+            },
+            "widgetInfo": {
+              "holiday": {
+                "holidayName": "国庆",
+                "date": "10月01日",
+                "days": 35
+              }
+            }
+          },
+          {
+            "cardId": "671729237228522496",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "万能计算器",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e2132df800c00f5fffcadb",
+            "bgColorStart": "#00A0A5",
+            "bgColorEnd": "#41D3D9",
+            "clickEvent": {
+              "event": "query",
+              "query": "玩转计算器操作",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669567828700959744",
+      "unitType": "scene",
+      "name": "系统功能-个性设置",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "想让手机个性化吗？我可以试试🙋‍"
+        ],
+        "cards": [
+          {
+            "cardId": "669567432871908352",
+            "cardType": "singleBig",
+            "template": "baike",
+            "title": "小米画报",
+            "subtitle": "应用直达",
+            "describe": "有33万人在说",
+            "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/97410fdfd001c00f53073b5c",
+            "bgColorStart": "#6B7A99",
+            "bgColorEnd": "#91A5CF",
+            "clickEvent": {
+              "event": "query",
+              "query": "小米画报",
+              "isAutoPlay": false
+            }
+          },
+          {
+            "cardId": "687305039596752896",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "万象息屏",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/989cc4045c01c00f0f8d1a69",
+            "bgColorStart": "#00A0A5",
+            "bgColorEnd": "#41D3D9",
+            "clickEvent": {
+              "event": "query",
+              "query": "万象息屏",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669530011367116800",
+      "unitType": "scene",
+      "name": "小爱扫一扫",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "不知道吧，扫一扫找我就能搞定✔"
+        ],
+        "cards": [
+          {
+            "cardId": "669529723168099328",
+            "cardType": "singleBig",
+            "template": "baike",
+            "title": "扫一扫购物",
+            "subtitle": "系统工具",
+            "describe": "有35万人在说",
+            "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e4f55cc401400f2623a918",
+            "bgColorStart": "#6B7A99",
+            "bgColorEnd": "#91A5CF",
+            "clickEvent": {
+              "event": "query",
+              "query": "扫一扫购物",
+              "isAutoPlay": false
+            }
+          },
+          {
+            "cardId": "643902199109262336",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "拍照翻译 ",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e511918401800fd9bf12d5",
+            "bgColorStart": "#E65CA8",
+            "bgColorEnd": "#ED8798",
+            "clickEvent": {
+              "event": "query",
+              "query": "拍照翻译",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669530011367116800",
+      "unitType": "scene",
+      "name": "小爱扫一扫",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "不知道吧，扫一扫找我就能搞定✔"
+        ],
+        "cards": [
+          {
+            "cardId": "669529723168099328",
+            "cardType": "singleBig",
+            "template": "baike",
+            "title": "扫一扫购物",
+            "subtitle": "系统工具",
+            "describe": "有35万人在说",
+            "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e4f55cc401400f2623a918",
+            "bgColorStart": "#6B7A99",
+            "bgColorEnd": "#91A5CF",
+            "clickEvent": {
+              "event": "query",
+              "query": "扫一扫购物",
+              "isAutoPlay": false
+            }
+          },
+          {
+            "cardId": "643902199109262336",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "拍照翻译 ",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e511918401800fd9bf12d5",
+            "bgColorStart": "#E65CA8",
+            "bgColorEnd": "#ED8798",
+            "clickEvent": {
+              "event": "query",
+              "query": "拍照翻译",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669530011367116800",
+      "unitType": "scene",
+      "name": "小爱扫一扫",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "不知道吧，扫一扫找我就能搞定✔"
+        ],
+        "cards": [
+          {
+            "cardId": "669529723168099328",
+            "cardType": "widget",
+            "template": "musicRecommendation",
+            "title": "抒情歌曲精选",
+            "bgColorStart": "",
+            "bgColorEnd": "",
+            "clickEvent": {
+              "event": "audioPlay",
+              "instruction": [
+                {
+                  "header":{
+                    "name":"PlayApp",
+                    "namespace":"AudioPlayer",
+                    "dependence":{
+                      "id":"9e02992463594cb3b8252e131a304970",
+                      "predicate":"true"
+                    },
+                    "dialog_id":"9b1785dc03084054910fffcccc638c10",
+                    "id":"20bce96362af481c8d8bb2119bcb4de8"
+                  },
+                  "payload":{
+                    "app":{
+                      "apk_size":30700000,
+                      "icon":{
+                        "description":"",
+                        "sources":[
+                          {
+                            "url":"http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                          }
+                        ]
+                      },
+                      "name":"音乐",
+                      "pkg_name":"com.miui.player",
+                      "rating_score":1.8,
+                      "slogan":"海量曲库众星云集，你爱听的这都有",
+                      "tag":"影音视听",
+                      "version":{
+                        "latest":11331,
+                        "min":97
+                      }
+                    },
+                    "audio_items":[
+                      {
+                        "album_id":"4437774714139529694",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"聂枫",
+                        "audio_id":"27665343",
+                        "audio_name":"草原夜色美"
+                      },
+                      {
+                        "album_id":"2757745539687845731",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"魏如萱",
+                        "audio_id":"45295639",
+                        "audio_name":"窃笑"
+                      },
+                      {
+                        "album_id":"933028445741346796",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"F4",
+                        "audio_id":"45292475",
+                        "audio_name":"流星雨"
+                      },
+                      {
+                        "album_id":"6669641189757592112",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"莫文蔚",
+                        "audio_id":"45492645",
+                        "audio_name":"爱"
+                      },
+                      {
+                        "album_id":"8827426804518333944",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"刘紫玲",
+                        "audio_id":"27665281",
+                        "audio_name":"掌声响起"
+                      },
+                      {
+                        "album_id":"4060799375669116103",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"蔡依林",
+                        "audio_id":"45292756",
+                        "audio_name":"柠檬草的味道"
+                      },
+                      {
+                        "album_id":"0",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"Sasha Sloan",
+                        "audio_id":"46517123",
+                        "audio_name":"Dancing With Your Ghost"
+                      },
+                      {
+                        "album_id":"3927824132240524878",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"Lisa Mitchell",
+                        "audio_id":"45493265",
+                        "audio_name":"Clean White Love"
+                      },
+                      {
+                        "album_id":"2028884522068334607",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"Doja Cat",
+                        "audio_id":"57709794",
+                        "audio_name":"Kiss Me More"
+                      },
+                      {
+                        "album_id":"1178161031390856441",
+                        "album_name":"",
+                        "artist_id":"0",
+                        "artist_name":"彭佳慧",
+                        "audio_id":"45296162",
+                        "audio_name":"听说爱情回来过"
+                      }
+                    ],
+                    "play_length":10
+                  }
+                }
+              ]
+            },
+            "widgetInfo": {
+              "musicRecommendation": {
+                "coverImage": [
+                  "http://y.gtimg.cn/music/photo_new/T002R500x500M000001tTNk21VYQji_1.jpg",
+                  "http://y.gtimg.cn/music/photo_new/T002R500x500M000001N1sHC0KHx4s_1.jpg",
+                  "http://y.gtimg.cn/music/photo_new/T002R500x500M000000vp4vv2ZhySt_1.jpg"]
+              }
+            }
+          },
+          {
+            "cardId": "643902199109262336",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "拍照翻译 ",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e511918401800fd9bf12d5",
+            "bgColorStart": "#E65CA8",
+            "bgColorEnd": "#ED8798",
+            "clickEvent": {
+              "event": "query",
+              "query": "拍照翻译",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "669530011367116800",
+      "unitType": "scene",
+      "name": "小爱扫一扫",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "不知道吧，扫一扫找我就能搞定✔"
+        ],
+        "cards": [
+          {
+            "cardId": "669529723168099328",
+            "cardType": "singleBig",
+            "template": "baike",
+            "title": "扫一扫购物",
+            "subtitle": "系统工具",
+            "describe": "有35万人在说",
+            "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e4f55cc401400f2623a918",
+            "bgColorStart": "#6B7A99",
+            "bgColorEnd": "#91A5CF",
+            "clickEvent": {
+              "event": "query",
+              "query": "扫一扫购物",
+              "isAutoPlay": false
+            }
+          },
+          {
+            "cardId": "643902199109262336",
+            "cardType": "singleSmall",
+            "template": "baike",
+            "title": "拍照翻译 ",
+            "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e511918401800fd9bf12d5",
+            "bgColorStart": "#E65CA8",
+            "bgColorEnd": "#ED8798",
+            "clickEvent": {
+              "event": "query",
+              "query": "拍照翻译",
+              "isAutoPlay": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "unitId": "646337419762728960",
+      "unitType": "scene",
+      "name": "结束语",
+      "isWhiteList": -1,
+      "scene": {
+        "bubbleText": [
+          "我要离开一下下…",
+          "等会再来找我吧😘"
+        ],
+        "cards": [
+        ]
+      }
+    }
+  ],
+  "timeStamp": 1618651624170,
+  "requestId": "7c13a5d3f71140e4a7068e48af96e9ed"
+}

@@ -1,0 +1,2546 @@
+{
+    "status": {
+        "code": 200,
+        "error_type": "OK"
+    },
+    "data": [
+        {
+            "unitId": "669629119620715520",
+            "unitType": "scene",
+            "name": "场景-春天",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "宝贝，春天来了哦😊"
+                ],
+                "cards": [
+                    {
+                        "cardId": "669617643514234880",
+                        "cardType": "singleBig",
+                        "template": "skill",
+                        "title": "春天吃什么养生",
+                        "subtitle": "健康",
+                        "describe": "有41万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f1fc3f4ac01800f3b5ece7c",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "春天吃什么养生",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "669628278289470464",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "春天的诗词",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9c0b8f9c01800f42186251",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "描写春天的诗词",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "672490916287614976",
+            "unitType": "scene",
+            "name": "学习好帮手",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "我呢，能帮你记课程安排，随问随答"
+                ],
+                "cards": [
+                    {
+                        "cardId": "62",
+                        "cardType": "widget",
+                        "template": "calendar",
+                        "title": "今日黄历运势",
+                        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/huangli1.png",
+                        "bgImg": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/huangli1.png",
+                        "bgColorStart": "#476350",
+                        "bgColorEnd": "#5C7C67",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "今日黄历运势",
+                            "isAutoPlay": false
+                        },
+                        "widgetInfo": {
+                            "calendar": {
+                                "chineseCalendarDate": "四月十三",
+                                "calendarDate": 24,
+                                "good": "沐浴 扫舍 余事勿取",
+                                "bad": "斋醮 开市 嫁娶 作灶"
+                            }
+                        }
+                    },
+                    {
+                        "cardId": "671724135776261120",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "课堂同步学",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e202e54c00c00f4e6e36ad",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "课堂学习同步指南",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "672492017309191168",
+            "unitType": "scene",
+            "name": "widget假期倒计时测试",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": ["widget假期倒计时测试"],
+                "cards": [
+                    {
+                        "bgColorEnd": "#65BEFE",
+                        "bgColorStart": "#469BFF",
+                        "bgImg": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/zuijinjiaqi_yinying.png",
+                        "cardId": "141",
+                        "cardType": "widget",
+                        "clickEvent": {
+                            "event": "query",
+                            "isAutoPlay": false,
+                            "query": "距离端午节还有多少天"
+                        },
+                        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/xiaolian.webp",
+                        "template": "holiday",
+                        "title": "放假还有多少天",
+                        "widgetInfo": {
+                            "holiday": {
+                                "date": "6月14日",
+                                "days": "26",
+                                "holidayName": "端午节"
+                            }
+                        }
+                    },
+                    {
+                        "cardId": "671729237228522496",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "万能计算器",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e2132df800c00f5fffcadb",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "玩转计算器操作",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "703656759331392512",
+            "unitType": "scene",
+            "name": "精品功能介绍-工具技能",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "有我在，需要的功能帮你一键搞定"
+                ],
+                "cards": [
+                    {
+                        "cardId": "669558441106214912",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "屏幕录制",
+                        "subtitle": "系统工具",
+                        "describe": "有84万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/9740c08d6801c00f77efce8b",
+                        "bgColorStart": "#6B7A99",
+                        "bgColorEnd": "#91A5CF",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "屏幕录制",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "646056742802693120",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "静音模式",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9c7a00cef802800fca2b3958",
+                        "bgColorStart": "#3F97FD",
+                        "bgColorEnd": "#77BCED",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "打开静音模式",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "652649499784643584",
+            "unitType": "scene",
+            "name": "知乎",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "话说我挺喜欢逛知乎的～刷新眼界"
+                ],
+                "cards": [
+                    {
+                        "cardId": "知乎",
+                        "cardType": "fold",
+                        "template": "defaultChart",
+                        "foldCard": {
+                            "delay": 4000,
+                            "cp": "知乎",
+                            "cardList": [
+                                {
+                                    "cardId": "BrXwcE",
+                                    "title": "0.考研一定要去图书馆或者考研教室吗？",
+                                    "subtitle": "知乎问答",
+                                    "hitCount": 660000,
+                                    "cpName": "zhihu",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/square_zhihu.png",
+                                    "img": "https://pic3.zhimg.com/50/v2-168c1bc4a584d01a05aebdc66ed52682_b.jpg",
+                                    "icon": null,
+                                    "clickEvent": {
+                                        "event": "deepLink",
+                                        "deepLink": {
+                                            "webUrl": "https://www.zhihu.com/question/314239506?utm_medium=partner&utm_source=xiaomi_search",
+                                            "packageName": "com.zhihu.android",
+                                            "deepLinkUri": "zhihu://question/314239506?utm_medium=partner&utm_source=xiaomi_search"
+                                        },
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "Cu2Bnk",
+                                    "title": "1.蒙古国草原蔓延至中国境内大火已扑灭，为何蒙古国草原经常起火？中蒙双方该如何防控？",
+                                    "subtitle": "知乎问答",
+                                    "hitCount": 3350000,
+                                    "cpName": "zhihu",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/square_zhihu.png",
+                                    "img": "https://pic1.zhimg.com/80/v2-e59b0704396c01a09fc88373a70f1098_720w.png",
+                                    "icon": null,
+                                    "clickEvent": {
+                                        "event": "deepLink",
+                                        "deepLink": {
+                                            "webUrl": "https://www.zhihu.com/question/455376851?utm_medium=partner&utm_source=xiaomi_search",
+                                            "packageName": "com.zhihu.android",
+                                            "deepLinkUri": "zhihu://question/455376851?utm_medium=partner&utm_source=xiaomi_search"
+                                        },
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "06PxI8",
+                                    "title": "2.以前贷款买车的你，现在有后悔吗？",
+                                    "subtitle": "知乎问答",
+                                    "hitCount": 950000,
+                                    "cpName": "zhihu",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/square_zhihu.png",
+                                    "img": "https://pic3.zhimg.com/50/v2-690d0b9bce1c349fbe50d20c7d7b8904_b.jpg",
+                                    "icon": null,
+                                    "clickEvent": {
+                                        "event": "deepLink",
+                                        "deepLink": {
+                                            "webUrl": "https://www.zhihu.com/question/454795561?utm_medium=partner&utm_source=xiaomi_search",
+                                            "packageName": "com.zhihu.android",
+                                            "deepLinkUri": "zhihu://question/454795561?utm_medium=partner&utm_source=xiaomi_search"
+                                        },
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "DvxC3B",
+                                    "title": "3.如何看待北京已有 237 家医院开展安检，菜刀、棍棒等禁止入院？是否应该在全国推广？",
+                                    "subtitle": "知乎问答",
+                                    "hitCount": 1760000,
+                                    "cpName": "zhihu",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/square_zhihu.png",
+                                    "img": "https://pic4.zhimg.com/80/v2-55e11127e90d61b0e5ef64f20de9083f_720w.png",
+                                    "icon": null,
+                                    "clickEvent": {
+                                        "event": "deepLink",
+                                        "deepLink": {
+                                            "webUrl": "https://www.zhihu.com/question/455397190?utm_medium=partner&utm_source=xiaomi_search",
+                                            "packageName": "com.zhihu.android",
+                                            "deepLinkUri": "zhihu://question/455397190?utm_medium=partner&utm_source=xiaomi_search"
+                                        },
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "DIlFVS",
+                                    "title": "4.用 vim 能写大型程序吗？",
+                                    "subtitle": "知乎问答",
+                                    "hitCount": 800000,
+                                    "cpName": "zhihu",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/square_zhihu.png",
+                                    "img": "https://pic4.zhimg.com/50/v2-34bf3c10f0a2aa10b27dc851e2d46626_b.jpg",
+                                    "icon": null,
+                                    "clickEvent": {
+                                        "event": "deepLink",
+                                        "deepLink": {
+                                            "webUrl": "https://www.zhihu.com/question/33282841?utm_medium=partner&utm_source=xiaomi_search",
+                                            "packageName": "com.zhihu.android",
+                                            "deepLinkUri": "zhihu://question/33282841?utm_medium=partner&utm_source=xiaomi_search"
+                                        },
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "知乎",
+                                    "title": "5.查看知乎",
+                                    "isEntrance": true,
+                                    "img": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E7%9F%A5%E4%B9%8E%E6%A6%9C%E5%8D%95%E5%85%A5%E5%8F%A3%E5%9B%BE.png",
+                                    "clickEvent": {
+                                        "event": "intent",
+                                        "intent": "intent://i.xiaomixiaoai.com/h5/ai-ak-fe/#/hotspots?cp=zhihu&from=foldCard/#Intent;scheme=https;launchFlags=0x10000000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;S.webFullScreen=true;end",
+                                        "isAutoPlay": false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId":"650750447228815360",
+            "unitType":"dialog",
+            "dialog":{
+                "question":{
+                    "questionId":"650750447228815360",
+                    "questionType":"nickname",
+                    "questionName":"昵称",
+                    "text":[
+                        "想知道...我要怎么称呼你呀？"
+                    ]
+                },
+                "answer":[
+                    {
+                        "inputType":"TEXT_INPUT",
+                        "label":"我叫"
+                    },
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"老板"
+                    },
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"老大"
+                    },
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"宝贝"
+                    },
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"米粉"
+                    },
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"米小兔"
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "669530011367116800",
+            "unitType": "scene",
+            "name": "小爱扫一扫",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "不知道吧，扫一扫找我就能搞定✔"
+                ],
+                "cards": [
+                    {
+                        "cardId": "669529723168099328",
+                        "cardType": "widget",
+                        "template": "musicRecommendation",
+                        "title": "抒情歌曲精选",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "audioPlay",
+                            "instruction":[
+                                {
+                                    "header":{
+                                        "namespace":"Template",
+                                        "name":"Music",
+                                        "id":"f4c354387f7140f8a385d70602de8b63",
+                                        "dialog_id":"73ebaf6b3d6e4f36966fb709e618a8b7"
+                                    },
+                                    "payload":{
+                                        "group":[
+                                            {
+                                                "provider":{
+                                                    "name":"miui",
+                                                    "logo":{
+                                                        "description":"",
+                                                        "sources":[
+                                                            {
+                                                                "url":"http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "auto_play_len":0,
+                                                "audio_items":[
+                                                    {
+                                                        "audio_id":"45295693",
+                                                        "audio_name":"雨爱",
+                                                        "artist_name":"杨丞琳",
+                                                        "artist_id":0,
+                                                        "album_name":"雨爱",
+                                                        "album_id":"",
+                                                        "cover":{
+                                                            "description":"",
+                                                            "sources":[
+                                                                {
+                                                                    "url":"http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0d1e8a5f41f5946860f973295dbd557fac2a79646/webp.webp"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "controls":[
+
+                                                        ]
+                                                    }
+                                                ],
+                                                "app":{
+                                                    "app":{
+                                                        "name":"音乐",
+                                                        "pkg_name":"com.miui.player",
+                                                        "slogan":"海量曲库众星云集，你爱听的这都有",
+                                                        "tag":"影音视听",
+                                                        "icon":{
+                                                            "description":"",
+                                                            "sources":[
+                                                                {
+                                                                    "url":"http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score":1.7999999523162842
+                                                    },
+                                                    "control":{
+                                                        "type":"",
+                                                        "name":""
+                                                    }
+                                                },
+                                                "skill_icon":{
+                                                    "description":"音乐",
+                                                    "sources":[
+                                                        {
+                                                            "url":"http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "loop_mode":"LIST",
+                                        "title":{
+                                            "main_title":"为您播放",
+                                            "sub_title":""
+                                        },
+                                        "query_type":"SONG_SEARCH",
+                                        "display":{
+                                            "full_screen":{
+                                                "action":{
+                                                    "intent":{
+                                                        "type":"ACTIVITY",
+                                                        "pkg_name":"",
+                                                        "uri":"",
+                                                        "params":{
+                                                            "grade":"BEST",
+                                                            "cp_enter_intent":[
+                                                                [
+                                                                    {
+                                                                        "cp_name":"miui",
+                                                                        "intent":"",
+                                                                        "pkg":"com.miui.player"
+                                                                    }
+                                                                ]
+                                                            ],
+                                                            "common_func":[
+                                                                [
+                                                                    false
+                                                                ]
+                                                            ],
+                                                            "with_best_version":[
+                                                                false
+                                                            ],
+                                                            "min_fold":3,
+                                                            "fold_num":[
+                                                                3
+                                                            ]
+                                                        }
+                                                    }
+                                                },
+                                                "task":"73ebaf6b3d6e4f36966fb709e618a8b7"
+                                            },
+                                            "display_mode":"SMALL"
+                                        }
+                                    }
+                                },
+                                {
+                                    "header":{
+                                        "namespace":"AudioPlayer",
+                                        "name":"PlayApp",
+                                        "id":"42646ae5499e4d79b253815d9917334f",
+                                        "dialog_id":"73ebaf6b3d6e4f36966fb709e618a8b7"
+                                    },
+                                    "payload":{
+                                        "audio_items":[
+                                            {
+                                                "audio_id":"45295693",
+                                                "audio_name":"雨爱",
+                                                "artist_name":"杨丞琳",
+                                                "artist_id":"0",
+                                                "album_name":"雨爱",
+                                                "album_id":""
+                                            }
+                                        ],
+                                        "app":{
+                                            "name":"音乐",
+                                            "pkg_name":"com.miui.player",
+                                            "slogan":"海量曲库众星云集，你爱听的这都有",
+                                            "tag":"影音视听",
+                                            "icon":{
+                                                "description":"",
+                                                "sources":[
+                                                    {
+                                                        "url":"http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                    }
+                                                ]
+                                            },
+                                            "rating_score":1.7999999523162842
+                                        },
+                                        "play_length":1
+                                    }
+                                }
+                            ]
+                        },
+                        "widgetInfo": {
+                            "musicRecommendation": {
+                                "coverImage": [
+                                    "http://y.gtimg.cn/music/photo_new/T002R500x500M000001tTNk21VYQji_1.jpg",
+                                    "http://y.gtimg.cn/music/photo_new/T002R500x500M000001N1sHC0KHx4s_1.jpg",
+                                    "http://y.gtimg.cn/music/photo_new/T002R500x500M000000vp4vv2ZhySt_1.jpg"]
+                            }
+                        }
+                    },
+                    {
+                        "cardId": "643902199109262336",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "拍照翻译 ",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e511918401800fd9bf12d5",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "拍照翻译",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId":"674264568024798208",
+            "unitType":"dialog",
+            "dialog":{
+                "question":{
+                    "questionId":"674264568024798208",
+                    "questionType":"birthday",
+                    "questionName":"生日互动问题",
+                    "text":[
+                        "告诉你哦，我生日在3月21，你呢"
+                    ]
+                },
+                "answer":[
+                    {
+                        "inputType":"DATA_INPUT",
+                        "label":"😳我的生日是"
+                    }
+                ]
+            }
+        },
+        {
+            "unitId":"674268819769789440",
+            "unitType":"dialog",
+            "dialog":{
+                "question":{
+                    "questionId":"674268819769789440",
+                    "questionType":"birthday_others",
+                    "questionName":"生日其他日期",
+                    "text":[
+                        "记住啦，以后的生日都想陪你过！",
+                        "对了，要我帮你记住其他人的生 日吗"
+                    ]
+                },
+                "answer":[
+                    {
+                        "inputType":"COMMON_TYPE",
+                        "label":"下次吧"
+                    },
+                    {
+                        "inputType":"REDIRECTION_TYPE",
+                        "label":"试试看",
+                        "intentLink":"intent://i.xiaomixiaoai.com/h5/ai-personal-info-fe/#/setAnniversary?mode=add/#Intent;scheme=https;launchFlags=0x10000000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;S.webFullScreen=true;end"
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "650750447228815360",
+            "unitType": "dialog",
+            "dialog": {
+                "question": {
+                    "questionId": "650750447228815360",
+                    "questionType": "nickname",
+                    "questionName": "昵称",
+                    "text": [
+                        "你想我怎么叫你呢？😊"
+                    ]
+                },
+                "answer": [
+                    {
+                        "inputType": "COMMON_TYPE",
+                        "label": "宝贝"
+                    },
+                    {
+                        "inputType": "COMMON_TYPE",
+                        "label": "老板"
+                    },
+                    {
+                        "inputType": "TEXT_INPUT",
+                        "label": "我叫"
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "669512656176026624",
+            "unitType": "scene",
+            "name": "个性化手机",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "有需要时…找我帮你换个心情呀🤩"
+                ],
+                "cards": [
+                    {
+                        "cardId": "59",
+                        "cardType": "widget",
+                        "template": "constellation",
+                        "title": "星座运势",
+                        "icon": "xxx",
+                        "bgImg": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/baiyangzuo.png",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "intent",
+                            "intent": "intent:#Intent;action=com.miui.voiceassist.ACTION_CHECK_LOGIN;launchFlags=0x10000000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.personalInfo.CheckLoginActivity;S.intentUri=intent%3a%2f%2faiweb%3furl%3dhttps%253a%252f%252fi-preview.xiaomixiaoai.com%252fh5%252fai-personal-info-fe%252f%2523%252fsetAnniversary%253fmode%253dadd%26flag%3d268435456%26noBack%3dfalse%26statusBarTextBlack%3dtrue%26fullScreen%3dtrue%26navigationBarColor%3dFFFFFF%23Intent%3bscheme%3dvoiceassist%3blaunchFlags%3d0x10000000%3bscheme%3dvoiceassist%3bpackage%3dcom.miui.voiceassist%3bend;end",
+                            "isAutoPlay": false
+                        },
+                        "widgetInfo": {
+                            "constellation": {
+                                "rate": 4,
+                                "desc": "点击先设置一下你的生日吧！让小爱更了解你哦～",
+                                "isDefault": true
+                            }
+                        }
+                    },
+                    {
+                        "cardId": "669511211309601792",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "设置字体",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e55c11e000c00f4e6ccf27",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "设置字体",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId":"650765647625589760",
+            "unitType":"dialog",
+            "dialog":{
+                "question":{
+                    "questionId":"650765647625589760",
+                    "questionType":"company_address",
+                    "questionName":"公司地址",
+                    "text":[
+                        "问你哦，你公司在哪里呀？",
+                        "我可以随时帮你导航去公司哦😉"
+                    ]
+                },
+                "answer":[
+                    {
+                        "inputType":"ADDRESS_INPUT",
+                        "label":"我公司在"
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "669629119620715520",
+            "unitType": "scene",
+            "name": "场景-春天",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "春天到了，想推荐你看看👇"
+                ],
+                "cards": [
+                    {
+                        "cardId": "643893673779534848",
+                        "cardType": "widget",
+                        "template": "weather",
+                        "title": "今天天气怎么样",
+                        "bgImg": "https://file.xiaomixiaoai.com/anonymous/file/4f7978612c01400f9947d33d",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "今天天气怎么样"
+                        },
+                        "widgetInfo": {
+                            "weather": {
+                                "temperature": "20",
+                                "quality": "优"
+                            }
+                        }
+                    },
+                    {
+                        "cardId": "669628278289470464",
+                        "cardType": "singleSmall",
+                        "template": "skill",
+                        "title": "春天的诗词",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9c0b8f9c01800f42186251",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "描写春天的诗词",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "690163312943435776",
+            "unitType": "scene",
+            "name": "时间管理",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "若想更好地管理时间，唤我就好啦😊"
+                ],
+                "cards": [
+                    {
+                        "cardId": "690162336664653824",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "打开屏幕时间管理",
+                        "subtitle": "系统工具",
+                        "describe": "有56万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/993f2e57f802000f48e6a8e5",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "屏幕时间管理",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "690162716563738624",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "双时钟",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/993f31fb5001c00fbba3d834",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "双时钟",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "659827030371603456",
+            "unitType": "scene",
+            "name": "音乐",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "感受音乐的力量"
+                ],
+                "cards": [
+                    {
+                        "cardId": "674565710755667968",
+                        "cardType": "singleBig",
+                        "template": "music",
+                        "title": "早安歌曲",
+                        "subtitle": "听音乐",
+                        "describe": "有50万人在听",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/97406dcdd800000fab173749",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "早安歌曲",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "643899985879899136",
+                        "cardType": "singleSmall",
+                        "template": "music",
+                        "title": "好听的英文歌",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/919ee4fda000c00f4e6fc063",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "好听的英文歌",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "652631003944190976",
+            "unitType": "scene",
+            "name": "单标签在家追剧2",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "话说，在家看剧真的好舒服😊～爱了"
+                ],
+                "cards": [
+                    {
+                        "cardId": "643912843900492800",
+                        "cardType": "singleBig",
+                        "template": "video",
+                        "title": "找一个评分最高的电影",
+                        "subtitle": "视频",
+                        "describe": "有54万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/900522bafc00000fb0e90226",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "找一个评分最高的电影",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "643912548512432128",
+                        "cardType": "singleSmall",
+                        "template": "video",
+                        "title": "赵丽颖拍的电视剧",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8efa30c56400000fa95da870",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "赵丽颖拍的电视剧",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+
+        {
+            "unitId":"669621167224523776",
+            "unitType":"scene",
+            "name":"灵犀-劳动节前一周提醒",
+            "isWhiteList":-1,
+            "scene":
+            {
+                "bubbleText":["还有一周就是五一啦~看看天气吗"],
+                "cards":[
+                    {
+                        "cardId":"141",
+                        "cardType":"widget",
+                        "template":"holiday",
+                        "title":"放假还有多少天",
+                        "icon":"http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/xiaolian.webp",
+                        "bgImg":"http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/widget/zuijinjiaqi_yinying.png",
+                        "bgColorStart":"",
+                        "bgColorEnd":"",
+                        "clickEvent":{
+                            "event":"query",
+                            "query":"距离劳动节还有多少天",
+                            "isAutoPlay":false
+                        },
+                        "widgetInfo":{
+                            "holiday":{
+                                "holidayName":"劳动节",
+                                "days":"6",
+                                "date":"5月1日"
+                            }
+                        }
+                    },
+                    {
+                        "cardId":"645634463203590144",
+                        "cardType":"singleSmall",
+                        "template":"skill",
+                        "title":"未来一周的天气",
+                        "img":"https://file.xiaomixiaoai.com/cache/anonymous/file/8f9b7c4f7001400f39db9d70",
+                        "bgColorStart":"",
+                        "bgColorEnd":"",
+                        "clickEvent":{
+                            "event":"query",
+                            "query":"未来一周的天气",
+                            "isAutoPlay":false
+                        }
+                    }
+                ]
+            }
+        },
+
+        {
+            "unitId": "672492017309191168",
+            "unitType": "scene",
+            "name": "你的效率神器",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "以后碰到算数和翻译，交给我就对了"
+                ],
+                "cards": [
+                    {
+                        "cardId": "672490068530696192",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "小爱翻译",
+                        "subtitle": "精选技能",
+                        "describe": "有59万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/95a0771ce001c00fa06e24db",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "语言无边界",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "671729237228522496",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "万能计算器",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e2132df800c00f5fffcadb",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "玩转计算器操作",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "669512656176026624",
+            "unitType": "scene",
+            "name": "个性化手机",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "有需要时…找我帮你换个心情呀🤩"
+                ],
+                "cards": [
+                    {
+                        "cardId": "669510562484327424",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "主题壁纸",
+                        "subtitle": "应用直达",
+                        "describe": "有21万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/97e560d95000c00fb06c2745",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "打开主题壁纸",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "687256295614451712",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "深色模式",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/982590082000c00f285e193a",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "深色模式",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "669569973663827968",
+            "unitType": "scene",
+            "name": "系统功能-安全协助",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "安全比什么都重要，有需要随时喊我"
+                ],
+                "cards": [
+                    {
+                        "cardId": "669568067306523648",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "地震预警",
+                        "subtitle": "系统工具",
+                        "describe": "有61万人在说",
+                        "bgImg": "https://file.xiaomixiaoai.com/cache/anonymous/file/95a07d3c3c01000fda1a2796",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "地震预警",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "669568134797071360",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "SOS紧急求助",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/95e21f7afc01400f140e147e",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "SOS紧急求助",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "659828154944196608",
+            "unitType": "scene",
+            "name": "奇妙日常音效",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "感觉这些声音蛮奇妙，想听就喊我吧"
+                ],
+                "cards": [
+                    {
+                        "cardId": "659020571610190848",
+                        "cardType": "singleBig",
+                        "template": "baike",
+                        "title": "吃薯片时的声音",
+                        "subtitle": "听声音",
+                        "describe": "有28万人在说",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/9254fb6d4000c00fe8057279",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "吃薯片的声音",
+                            "isAutoPlay": false
+                        }
+                    },
+                    {
+                        "cardId": "659039819053143040",
+                        "cardType": "singleSmall",
+                        "template": "baike",
+                        "title": "听听开水的声音",
+                        "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/958c0aa75001000f8030c645",
+                        "bgColorStart": "",
+                        "bgColorEnd": "",
+                        "clickEvent": {
+                            "event": "query",
+                            "query": "开水的声音",
+                            "isAutoPlay": false
+                        }
+                    }
+                ]
+            }
+        },
+
+        {
+            "unitId": "646384910067571712",
+            "unitType": "scene",
+            "name": "个性化音乐",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "小爱猜你喜欢热门歌曲，来听听"
+                ],
+                "cards": [
+                    {
+                        "cardId": "music_folding_cards",
+                        "cardType": "fold",
+                        "template": "musicChart",
+                        "foldCard": {
+                            "delay": 4000,
+                            "cp": "miui",
+                            "cardList": [
+                                {
+                                    "cardId": "603825072063383834",
+                                    "title": "播放雨爱",
+                                    "hitCount": 65536,
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%B1%B3%E9%9F%B3%E4%B9%90.png",
+                                    "img": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0d1e8a5f41f5946860f973295dbd557fac2a79646/webp.webp",
+                                    "song": {
+                                        "artist": "杨丞琳",
+                                        "songName": "雨爱"
+                                    },
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "f31be5e176964be89fe9e28de599ddce",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "45295693",
+                                                                    "audio_name": "雨爱",
+                                                                    "artist_name": "杨丞琳",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "雨爱",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0d1e8a5f41f5946860f973295dbd557fac2a79646/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "ea5209a3e4654103a1033c1b4442238e",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "45295693",
+                                                            "audio_name": "雨爱",
+                                                            "artist_name": "杨丞琳",
+                                                            "artist_id": "0",
+                                                            "album_name": "雨爱",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "629789019942696",
+                                    "title": "播放理想三旬",
+                                    "hitCount": 1,
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%B1%B3%E9%9F%B3%E4%B9%90.png",
+                                    "img": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/096c5d5b32d8f4f282b5dc7c1c1ef111d8333950a/webp.webp",
+                                    "song": {
+                                        "artist": "陈鸿宇",
+                                        "songName": "理想三旬"
+                                    },
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "f01856dd74404368bec9e0784d5c00b2",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "28265320",
+                                                                    "audio_name": "理想三旬",
+                                                                    "artist_name": "陈鸿宇",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "浓烟下的诗歌电台",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/096c5d5b32d8f4f282b5dc7c1c1ef111d8333950a/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "c98884c4efec444cabfacbd914f3a832",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "28265320",
+                                                            "audio_name": "理想三旬",
+                                                            "artist_name": "陈鸿宇",
+                                                            "artist_id": "0",
+                                                            "album_name": "浓烟下的诗歌电台",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "603824890905102610",
+                                    "title": "播放慢慢喜欢你",
+                                    "hitCount": 0,
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%B1%B3%E9%9F%B3%E4%B9%90.png",
+                                    "img": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/033c25f1296e2a9fc76fd47c993aa4e8a594251ba/webp.webp",
+                                    "song": {
+                                        "artist": "莫文蔚",
+                                        "songName": "慢慢喜欢你"
+                                    },
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "7dc3b3610fa349d1965963ad4c019f38",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "45293515",
+                                                                    "audio_name": "慢慢喜欢你",
+                                                                    "artist_name": "莫文蔚",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "我们在中场相遇",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/033c25f1296e2a9fc76fd47c993aa4e8a594251ba/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "8c2a37b8ad1c40d1bf3bb544bacca4f2",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "45293515",
+                                                            "audio_name": "慢慢喜欢你",
+                                                            "artist_name": "莫文蔚",
+                                                            "artist_id": "0",
+                                                            "album_name": "我们在中场相遇",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "616859228666070410",
+                                    "title": "播放依然爱你",
+                                    "hitCount": 0,
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%B1%B3%E9%9F%B3%E4%B9%90.png",
+                                    "img": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0736e4d3d278302245b177d44e2d1f26437412e29/webp.webp",
+                                    "song": {
+                                        "artist": "王力宏",
+                                        "songName": "依然爱你"
+                                    },
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "fbdc72b5cfe14339bb22f900cc5cdf1c",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "46269507",
+                                                                    "audio_name": "依然爱你",
+                                                                    "artist_name": "王力宏",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "火力全开",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0736e4d3d278302245b177d44e2d1f26437412e29/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "c423ee6546bd4d19bac4479a25016c2a",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "46269507",
+                                                            "audio_name": "依然爱你",
+                                                            "artist_name": "王力宏",
+                                                            "artist_id": "0",
+                                                            "album_name": "火力全开",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "603840325676437173",
+                                    "title": "播放一剪梅",
+                                    "hitCount": 0,
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%B1%B3%E9%9F%B3%E4%B9%90.png",
+                                    "img": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/0216d04b5e51d41e50200dbaf72f20939a0b50d67/webp.webp",
+                                    "song": {
+                                        "artist": "费玉清",
+                                        "songName": "一剪梅"
+                                    },
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "546bff8863d74e3c8606e78f68374398",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "45293805",
+                                                                    "audio_name": "一剪梅",
+                                                                    "artist_name": "费玉清",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "天之大",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/0216d04b5e51d41e50200dbaf72f20939a0b50d67/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "7b2d883f6ff545a6869eb153c446faca",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "45293805",
+                                                            "audio_name": "一剪梅",
+                                                            "artist_name": "费玉清",
+                                                            "artist_id": "0",
+                                                            "album_name": "天之大",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "播放全部",
+                                    "title": "热门歌曲",
+                                    "isEntrance": true,
+                                    "img": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E9%9F%B3%E4%B9%90%E5%85%A5%E5%8F%A3%E5%9B%BE.png",
+                                    "clickEvent": {
+                                        "event": "audioPlay",
+                                        "instruction": [
+                                            {
+                                                "header": {
+                                                    "namespace": "Template",
+                                                    "name": "Music",
+                                                    "id": "4260ed39e54c4b21a97f71dd68145345",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "group": [
+                                                        {
+                                                            "provider": {
+                                                                "name": "miui",
+                                                                "logo": {
+                                                                    "description": "",
+                                                                    "sources": [
+                                                                        {
+                                                                            "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "auto_play_len": 0,
+                                                            "audio_items": [
+                                                                {
+                                                                    "audio_id": "39918234",
+                                                                    "audio_name": "桥边姑娘",
+                                                                    "artist_name": "朱习爱",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "桥边姑娘",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/0ee91c5ac3ce648ff1d1be6569a99a40173bc8883/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "45295693",
+                                                                    "audio_name": "雨爱",
+                                                                    "artist_name": "杨丞琳",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "雨爱",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0d1e8a5f41f5946860f973295dbd557fac2a79646/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "45312856",
+                                                                    "audio_name": "Faded",
+                                                                    "artist_name": "Alan Walker",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "Faded",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/07d15a5ed558047461e36f7ad002e4316ee286212/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "46269507",
+                                                                    "audio_name": "依然爱你",
+                                                                    "artist_name": "王力宏",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "火力全开",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0736e4d3d278302245b177d44e2d1f26437412e29/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "57140103",
+                                                                    "audio_name": "慢热",
+                                                                    "artist_name": "满舒克",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "慢热",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0f247c86adb544c39b9e04a5352091f5927462f1a/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "26095",
+                                                                    "audio_name": "你快回来",
+                                                                    "artist_name": "孙楠",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "楠得精选",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/0b429437caae4a9dcf0227b0fb0bbca107742ba90/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "57156789",
+                                                                    "audio_name": "大风吹",
+                                                                    "artist_name": "王赫野",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "大风吹",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/08f5f96e9bc194edab31ed742f906e259152352f5/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "45293805",
+                                                                    "audio_name": "一剪梅",
+                                                                    "artist_name": "费玉清",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "天之大",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/0216d04b5e51d41e50200dbaf72f20939a0b50d67/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "45293515",
+                                                                    "audio_name": "慢慢喜欢你",
+                                                                    "artist_name": "莫文蔚",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "我们在中场相遇",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/033c25f1296e2a9fc76fd47c993aa4e8a594251ba/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "45294096",
+                                                                    "audio_name": "说爱你",
+                                                                    "artist_name": "蔡依林",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "绝版公主蔡依林-梦绮地精选",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0c17a4498e9c8c4d0a9100aa95a4bb8645142cc0f/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "46160700",
+                                                                    "audio_name": "Astronomia",
+                                                                    "artist_name": "Vicetone/Tony Igy",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "Astronomia",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0e7e514d3213d47260478c6c6965f0ea3a0e26946/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                },
+                                                                {
+                                                                    "audio_id": "28265320",
+                                                                    "audio_name": "理想三旬",
+                                                                    "artist_name": "陈鸿宇",
+                                                                    "artist_id": 0,
+                                                                    "album_name": "浓烟下的诗歌电台",
+                                                                    "album_id": "",
+                                                                    "cover": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "https://ts.market.mi-img.com/thumbnail/webp/w0/MusicServer/096c5d5b32d8f4f282b5dc7c1c1ef111d8333950a/webp.webp"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "controls": []
+                                                                }
+                                                            ],
+                                                            "app": {
+                                                                "app": {
+                                                                    "name": "音乐",
+                                                                    "pkg_name": "com.miui.player",
+                                                                    "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                                    "tag": "影音视听",
+                                                                    "icon": {
+                                                                        "description": "",
+                                                                        "sources": [
+                                                                            {
+                                                                                "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "rating_score": 1.7999999523162842
+                                                                },
+                                                                "control": {
+                                                                    "type": "",
+                                                                    "name": ""
+                                                                }
+                                                            },
+                                                            "skill_icon": {
+                                                                "description": "音乐",
+                                                                "sources": [
+                                                                    {
+                                                                        "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ],
+                                                    "loop_mode": "LIST",
+                                                    "title": {
+                                                        "main_title": "为您播放",
+                                                        "sub_title": ""
+                                                    },
+                                                    "query_type": "SONG_SEARCH",
+                                                    "display": {
+                                                        "full_screen": {
+                                                            "action": {
+                                                                "intent": {
+                                                                    "type": "ACTIVITY",
+                                                                    "pkg_name": "",
+                                                                    "uri": "",
+                                                                    "params": {
+                                                                        "grade": "BEST",
+                                                                        "cp_enter_intent": [
+                                                                            [
+                                                                                {
+                                                                                    "cp_name": "miui",
+                                                                                    "intent": "",
+                                                                                    "pkg": "com.miui.player"
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "common_func": [
+                                                                            [
+                                                                                false
+                                                                            ]
+                                                                        ],
+                                                                        "with_best_version": [
+                                                                            false
+                                                                        ],
+                                                                        "min_fold": 3,
+                                                                        "fold_num": [
+                                                                            3
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            "task": "6e9264a942514039afeae151743999fe"
+                                                        },
+                                                        "display_mode": "SMALL"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "header": {
+                                                    "namespace": "AudioPlayer",
+                                                    "name": "PlayApp",
+                                                    "id": "94e61c086edb46fab89954b71785bdcd",
+                                                    "dialog_id": "6e9264a942514039afeae151743999fe"
+                                                },
+                                                "payload": {
+                                                    "audio_items": [
+                                                        {
+                                                            "audio_id": "39918234",
+                                                            "audio_name": "桥边姑娘",
+                                                            "artist_name": "朱习爱",
+                                                            "artist_id": "0",
+                                                            "album_name": "桥边姑娘",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "45295693",
+                                                            "audio_name": "雨爱",
+                                                            "artist_name": "杨丞琳",
+                                                            "artist_id": "0",
+                                                            "album_name": "雨爱",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "45312856",
+                                                            "audio_name": "Faded",
+                                                            "artist_name": "Alan Walker",
+                                                            "artist_id": "0",
+                                                            "album_name": "Faded",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "46269507",
+                                                            "audio_name": "依然爱你",
+                                                            "artist_name": "王力宏",
+                                                            "artist_id": "0",
+                                                            "album_name": "火力全开",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "57140103",
+                                                            "audio_name": "慢热",
+                                                            "artist_name": "满舒克",
+                                                            "artist_id": "0",
+                                                            "album_name": "慢热",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "26095",
+                                                            "audio_name": "你快回来",
+                                                            "artist_name": "孙楠",
+                                                            "artist_id": "0",
+                                                            "album_name": "楠得精选",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "57156789",
+                                                            "audio_name": "大风吹",
+                                                            "artist_name": "王赫野",
+                                                            "artist_id": "0",
+                                                            "album_name": "大风吹",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "45293805",
+                                                            "audio_name": "一剪梅",
+                                                            "artist_name": "费玉清",
+                                                            "artist_id": "0",
+                                                            "album_name": "天之大",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "45293515",
+                                                            "audio_name": "慢慢喜欢你",
+                                                            "artist_name": "莫文蔚",
+                                                            "artist_id": "0",
+                                                            "album_name": "我们在中场相遇",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "45294096",
+                                                            "audio_name": "说爱你",
+                                                            "artist_name": "蔡依林",
+                                                            "artist_id": "0",
+                                                            "album_name": "绝版公主蔡依林-梦绮地精选",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "46160700",
+                                                            "audio_name": "Astronomia",
+                                                            "artist_name": "Vicetone/Tony Igy",
+                                                            "artist_id": "0",
+                                                            "album_name": "Astronomia",
+                                                            "album_id": ""
+                                                        },
+                                                        {
+                                                            "audio_id": "28265320",
+                                                            "audio_name": "理想三旬",
+                                                            "artist_name": "陈鸿宇",
+                                                            "artist_id": "0",
+                                                            "album_name": "浓烟下的诗歌电台",
+                                                            "album_id": ""
+                                                        }
+                                                    ],
+                                                    "app": {
+                                                        "name": "音乐",
+                                                        "pkg_name": "com.miui.player",
+                                                        "slogan": "海量曲库众星云集，你爱听的这都有",
+                                                        "tag": "影音视听",
+                                                        "icon": {
+                                                            "description": "",
+                                                            "sources": [
+                                                                {
+                                                                    "url": "http://t2.a.market.xiaomi.com/download/AppStore/AppStore/04a825e922614e3efeba487f86c77bb97cc4339c9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "rating_score": 1.7999999523162842
+                                                    },
+                                                    "play_length": 1
+                                                }
+                                            }
+                                        ],
+                                        "isAutoPlay": false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "unitId": "652649629845823488",
+            "unitType": "scene",
+            "name": "小爱热榜",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "忍不住想说，热榜真是每天的信息源"
+                ],
+                "cards": [
+                    {
+                        "cardId": "小爱热榜",
+                        "cardType": "fold",
+                        "template": "aiChart",
+                        "foldCard": {
+                            "delay": 4000,
+                            "cp": "小爱热榜",
+                            "cardList": [
+                                {
+                                    "cardId": "CV_5wN",
+                                    "title": "放假还有多少天",
+                                    "subtitle": "小爱热榜",
+                                    "hitCount": 1215907,
+                                    "cpName": "精选",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/xiaoai.png",
+                                    "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9ab77cc801800f395f8108",
+                                    "icon": "https://cdn.cnbj1.fds.api.mi-img.com/function-guide-icons/boiling.png",
+                                    "clickEvent": {
+                                        "event": "query",
+                                        "query": "放假还有多少天",
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "BQs9kz",
+                                    "title": "我今天走了多少步",
+                                    "subtitle": "小爱热榜",
+                                    "hitCount": 1017248,
+                                    "cpName": "精选",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/xiaoai.png",
+                                    "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8d42076b8800400ff49b6a48",
+                                    "icon": "https://file.xiaomixiaoai.com/cache/anonymous/file/873aab4cf400400fda39320b",
+                                    "clickEvent": {
+                                        "event": "query",
+                                        "query": "我今天走了多少步",
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "CFGhO8",
+                                    "title": "打开小爱实验室",
+                                    "subtitle": "小爱热榜",
+                                    "hitCount": 1337302,
+                                    "cpName": "精选",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/xiaoai.png",
+                                    "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f1ff7973801800f117e7abc",
+                                    "icon": "https://cdn.cnbj1.fds.api.mi-img.com/function-guide-icons/boiling.png",
+                                    "clickEvent": {
+                                        "event": "query",
+                                        "query": "打开小爱实验室",
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "Ckl6hV",
+                                    "title": "自爆模式",
+                                    "subtitle": "小爱热榜",
+                                    "hitCount": 853703,
+                                    "cpName": "精选",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/xiaoai.png",
+                                    "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8fed1cad2801800f66bb08cb",
+                                    "icon": "https://cdn.cnbj1.fds.api.mi-img.com/function-guide-icons/boiling.png",
+                                    "clickEvent": {
+                                        "event": "query",
+                                        "query": "自爆模式",
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "0SzJYF",
+                                    "title": "今天的天气",
+                                    "subtitle": "小爱热榜",
+                                    "hitCount": 397855,
+                                    "cpName": "精选",
+                                    "cpLogo": "https://cdn.cnbj1.fds.api.mi-img.com/ai-hot-list/xiaoai.png",
+                                    "img": "https://file.xiaomixiaoai.com/cache/anonymous/file/8f9b7c4f7001400f39db9d70",
+                                    "icon": "https://cdn.cnbj1.fds.api.mi-img.com/function-guide-icons/boiling.png",
+                                    "clickEvent": {
+                                        "event": "query",
+                                        "query": "今天的天气",
+                                        "isAutoPlay": false
+                                    }
+                                },
+                                {
+                                    "cardId": "小爱热榜",
+                                    "title": "查看小爱热榜",
+                                    "isEntrance": true,
+                                    "img": "https://cdn.cnbj1.fds.api.mi-img.com/wakeupicon/%E5%B0%8F%E7%88%B1%E7%83%AD%E6%A6%9C%E5%85%A5%E5%8F%A3%E5%9B%BE.png",
+                                    "clickEvent": {
+                                        "event": "intent",
+                                        "intent": "intent://i.xiaomixiaoai.com/h5/ai-ak-fe/#/hotspots?cp=hotspot_xiaoai&from=foldCard/#Intent;scheme=https;launchFlags=0x10000000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;S.webFullScreen=true;end",
+                                        "isAutoPlay": false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+
+        {
+            "unitId": "646337419762728960",
+            "unitType": "scene",
+            "name": "结束语",
+            "isWhiteList": -1,
+            "scene": {
+                "bubbleText": [
+                    "拜拜～我开始期待下次聊天了",
+                    "（心里有点小激动）"
+                ],
+                "cards": []
+            }
+        }
+    ],
+    "timeStamp": 1618487519027,
+    "requestId": "847ce28686a748368800329818eadcd1"
+}

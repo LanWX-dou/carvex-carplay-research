@@ -1,0 +1,462 @@
+[
+  {
+    "skill_id": "202",
+    "query": "卡包",
+    "template": "",
+    "name": "卡包",
+    "display_name": "卡包",
+    "brief": "实体卡变身电子卡",
+    "description": "实体卡变身电子卡",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/kabao.svg",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#409af0",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "version": 9,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 0,
+    "path": {
+      "node_id": "2304",
+      "params": [
+
+      ],
+      "exe_query_template": "卡包",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "sub_nodes": [
+        {
+          "node_id": "2305",
+          "params": [
+
+          ],
+          "exe_query_template": "打开门卡",
+          "node_name": "门卡",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=com.miui.intent.action.DOUBLE_CLICK;launchFlags=0x10000000;package=com.miui.tsmclient;i.card_group_id=3;end",
+          "intent_type": "activity",
+          "package_name": "com.miui.tsmclient",
+          "offline_template_on": true
+        },
+        {
+          "node_id": "2306",
+          "params": [
+
+          ],
+          "exe_query_template": "打开公交卡",
+          "node_name": "公交卡",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=com.miui.intent.action.DOUBLE_CLICK;launchFlags=0x10000000;S.event_source=shortcut_of_trans_card;end",
+          "intent_type": "activity",
+          "package_name": "com.mipay.wallet",
+          "offline_template_on": true
+        },
+        {
+          "node_id": "2307",
+          "params": [
+
+          ],
+          "exe_query_template": "打开支付宝乘车码",
+          "node_name": "支付宝乘车码",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "alipays://platformapi/startapp?appId=200011235&source=xiaomiVoice",
+          "intent_type": "activity",
+          "package_name": "com.eg.android.AlipayGphone",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2308",
+          "params": [
+
+          ],
+          "exe_query_template": "打开微信乘车码小程序",
+          "node_name": "微信乘车码",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "",
+          "intent_type": "",
+          "package_name": "",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2309",
+          "params": [
+
+          ],
+          "exe_query_template": "打开易通行",
+          "node_name": "亿通行",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;package=enfc.metro;component=enfc.metro/.main.StartActivity;end",
+          "intent_type": "activity",
+          "package_name": "enfc.metro",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2310",
+          "params": [
+
+          ],
+          "exe_query_template": "打开Metro大都会",
+          "node_name": "Metro大都会",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;package=com.app.shanghai.metro;component=com.app.shanghai.metro/com.alipay.mobile.quinox.LauncherActivity;end",
+          "intent_type": "activity",
+          "package_name": "com.app.shanghai.metro",
+          "offline_template_on": false
+        }
+      ]
+    }
+  },
+  {
+    "skill_id": "35",
+    "query": "记个便签",
+    "template": "",
+    "name": "记个便签",
+    "display_name": "记个便签",
+    "brief": "随时记下灵感瞬间",
+    "description": "一键快速创建新便签，随时记录生活点滴，不错过灵感瞬间",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/jigebianqian.svg",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#f6a500",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "version": 151,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 0,
+    "path": {
+      "node_id": "2291",
+      "params": [
+
+      ],
+      "exe_query_template": "新建便签",
+      "node_name": "root",
+      "title_for_sub_nodes": "新建便签",
+      "sub_nodes": [
+        {
+          "node_id": "2292",
+          "params": [
+
+          ],
+          "exe_query_template": "新建便签",
+          "node_name": "新建便签",
+          "title_for_sub_nodes": "新建便签",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=android.intent.action.SEND;type=text/plain;package=com.miui.notes;S.android.intent.extra.TEXT=;end",
+          "intent_type": "activity",
+          "package_name": "com.miui.notes",
+          "offline_template_on": false
+        }
+      ]
+    }
+  },
+  {
+    "skill_id": "31",
+    "query": "微信付款码",
+    "template": "",
+    "name": "快支付",
+    "display_name": "快支付",
+    "brief": "你常用的支付方式都在这里啦",
+    "description": "支付更便捷，想用哪个付款都可以呦！",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/kuaizhifu.svg",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#409af0",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "version": 146,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 0,
+    "path": {
+      "node_id": "2078",
+      "params": [
+
+      ],
+      "exe_query_template": "微信付款码",
+      "node_name": "root",
+      "title_for_sub_nodes": " ",
+      "sub_nodes": [
+        {
+          "node_id": "2080",
+          "params": [
+
+          ],
+          "exe_query_template": "微信扫一扫",
+          "node_name": "微信扫一扫",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;launchFlags=0x14000000;component=com.tencent.mm/.ui.LauncherUI;B.LauncherUI.From.Scaner.Shortcut=true;end",
+          "intent_type": "activity",
+          "package_name": "com.tencent.mm",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2082",
+          "params": [
+
+          ],
+          "exe_query_template": "支付宝扫一扫",
+          "node_name": "支付宝扫一扫",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "alipays://platformapi/startapp?appId=10000007&sourceId=mi&source=shortcut&showOthers=true",
+          "intent_type": "activity",
+          "package_name": "com.eg.android.AlipayGphone",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2081",
+          "params": [
+
+          ],
+          "exe_query_template": "支付宝付款码",
+          "node_name": "支付宝付款码",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent://platformapi/startapp?appId=20000056&source=shortcut#Intent;scheme=alipayss;launchFlags=0x10008000;component=com.eg.android.AlipayGphone/.FastStartActivity;end",
+          "intent_type": "activity",
+          "package_name": "com.eg.android.AlipayGphone",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2079",
+          "params": [
+
+          ],
+          "exe_query_template": "微信付款码",
+          "node_name": "微信付款码",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;launchFlags=0x10000000;component=com.tencent.mm/com.tencent.mm.plugin.offline.ui.WalletOfflineCoinPurseUI;i.key_entry_scene=2;end",
+          "intent_type": "activity",
+          "package_name": "com.tencent.mm",
+          "offline_template_on": false
+        },
+        {
+          "node_id": "2083",
+          "params": [
+
+          ],
+          "exe_query_template": "小米扫一扫",
+          "node_name": "小米扫一扫",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;package=com.xiaomi.scanner;component=com.xiaomi.scanner/.app.ScanActivity;end",
+          "intent_type": "activity",
+          "package_name": "com.xiaomi.scanner",
+          "offline_template_on": false
+        }
+      ]
+    }
+  },
+  {
+    "skill_id": "36",
+    "query": "打开计算器",
+    "template": "",
+    "name": "计算器",
+    "display_name": "计算器",
+    "brief": "快速打开计算器",
+    "description": "快速打开计算器",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/jisuanqi.svg",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#f1682f",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "version": 143,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 0,
+    "path": {
+      "node_id": "1948",
+      "params": [
+
+      ],
+      "exe_query_template": "打开计算器",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "sub_nodes": [
+        {
+          "node_id": "1949",
+          "params": [
+
+          ],
+          "exe_query_template": "打开计算器",
+          "node_name": "打开计算器",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;package=com.miui.calculator;end",
+          "intent_type": "activity",
+          "package_name": "com.miui.calculator",
+          "offline_template_on": false
+        }
+      ]
+    }
+  },
+  {
+    "skill_id": "218",
+    "query": "AI翻译",
+    "template": "",
+    "name": "AI翻译",
+    "display_name": "AI翻译",
+    "brief": "快速翻译单词或句子",
+    "description": "快速翻译单词或句子",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/yijianfanyi.svg",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#409af0",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "version": 2,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 1,
+    "path": {
+      "node_id": "2356",
+      "params": [
+
+      ],
+      "exe_query_template": "AI翻译",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "sub_nodes": [
+        {
+          "node_id": "2357",
+          "params": [
+
+          ],
+          "exe_query_template": "打开翻译",
+          "node_name": "AI翻译",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "intent:#Intent;launchFlags=0x18080000;component=com.miui.voiceassist/com.xiaomi.voiceassistant.instruction.card.translation.TranslationChatActivity;end",
+          "intent_type": "activity",
+          "package_name": "com.miui.voiceassist",
+          "offline_template_on": false,
+          "ais_code": ""
+        }
+      ]
+    }
+  },
+  {
+    "skill_id": "217",
+    "query": "打开支付宝健康码",
+    "template": "",
+    "name": "支付宝健康码",
+    "display_name": "支付宝健康码",
+    "brief": "1秒打开支付宝健康码",
+    "description": "1秒打开支付宝健康码",
+    "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/5.0APP/dakaizhifubaojinakangma.svg",
+    "icon_border_color": "#00000001",
+    "bg_image": "",
+    "bg_color": "#409af0",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "category": "我的捷径",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "version": 8,
+    "minAiVersion": 0,
+    "autoClose": true,
+    "ais_min_ver": 0,
+    "ais_user_type": 0,
+    "path": {
+      "node_id": "2354",
+      "params": [
+
+      ],
+      "exe_query_template": "打开支付宝健康码",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "sub_nodes": [
+        {
+          "node_id": "2355",
+          "params": [
+
+          ],
+          "exe_query_template": "打开支付宝健康码",
+          "node_name": "打开支付宝健康码",
+          "title_for_sub_nodes": "打开支付宝健康码",
+          "sub_nodes": [
+
+          ],
+          "always_display": false,
+          "intent_uri": "alipays://platformapi/startapp?appId=2021001139676873&chinfo=ch_xiaomi_voice_shouyeduanwei&sceneCode=KF_DYW04&shareUserId=2088731036052261&partnerId=ch_xiaomi_voice_shouyeduanwei&pikshemo=YES&thd_con=YES&async_uc=YES&delayPipeline=YES&initCustomService=YES&flashTinyApp=YES&enableHotBoot=YES",
+          "intent_type": "activity",
+          "package_name": "com.miui.voiceassist",
+          "offline_template_on": false
+        }
+      ]
+    }
+  }
+]

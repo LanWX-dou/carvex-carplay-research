@@ -1,0 +1,75 @@
+Class #3476            -
+  Class descriptor  : 'Lcom/xiaomi/onetrack/util/oaid/helpers/l;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/xiaomi/onetrack/util/oaid/helpers/l;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "VivoDeviceIDHelper"
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/onetrack/util/oaid/helpers/l;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+3ed23c:                                        |[3ed23c] com.xiaomi.onetrack.util.oaid.helpers.l.<init>:()V
+3ed24c: 7010 e2cb 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+3ed252: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/onetrack/util/oaid/helpers/l;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 9
+      ins           : 2
+      outs          : 6
+      insns size    : 55 16-bit code units
+3ed1ac:                                        |[3ed1ac] com.xiaomi.onetrack.util.oaid.helpers.l.a:(Landroid/content/Context;)Ljava/lang/String;
+3ed1bc: 1a07 0000                              |0000: const-string v7, "" // string@0000
+3ed1c0: 1a00 af89                              |0002: const-string v0, "content://com.vivo.vms.IdProvider/IdentifierId/OAID" // string@89af
+3ed1c4: 7110 5b03 0000                         |0004: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@035b
+3ed1ca: 0c02                                   |0007: move-result-object v2
+3ed1cc: 6e10 b301 0800                         |0008: invoke-virtual {v8}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@01b3
+3ed1d2: 0c01                                   |000b: move-result-object v1
+3ed1d4: 1205                                   |000c: const/4 v5, #int 0 // #0
+3ed1d6: 1206                                   |000d: const/4 v6, #int 0 // #0
+3ed1d8: 1203                                   |000e: const/4 v3, #int 0 // #0
+3ed1da: 1204                                   |000f: const/4 v4, #int 0 // #0
+3ed1dc: 7406 9c01 0100                         |0010: invoke-virtual/range {v1, v2, v3, v4, v5, v6}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@019c
+3ed1e2: 0c08                                   |0013: move-result-object v8
+3ed1e4: 3808 2200                              |0014: if-eqz v8, 0036 // +0022
+3ed1e8: 7210 5d02 0800                         |0016: invoke-interface {v8}, Landroid/database/Cursor;.moveToNext:()Z // method@025d
+3ed1ee: 0a00                                   |0019: move-result v0
+3ed1f0: 3800 0f00                              |001a: if-eqz v0, 0029 // +000f
+3ed1f4: 1a00 b7eb                              |001c: const-string v0, "value" // string@ebb7
+3ed1f8: 7220 5102 0800                         |001e: invoke-interface {v8, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+3ed1fe: 0a00                                   |0021: move-result v0
+3ed200: 7220 5702 0800                         |0022: invoke-interface {v8, v0}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+3ed206: 0c07                                   |0025: move-result-object v7
+3ed208: 2803                                   |0026: goto 0029 // +0003
+3ed20a: 0d08                                   |0027: move-exception v8
+3ed20c: 2805                                   |0028: goto 002d // +0005
+3ed20e: 7210 4f02 0800                         |0029: invoke-interface {v8}, Landroid/database/Cursor;.close:()V // method@024f
+3ed214: 280a                                   |002c: goto 0036 // +000a
+3ed216: 1a00 6472                              |002d: const-string v0, "VivoDeviceIDHelper" // string@7264
+3ed21a: 6e10 76cc 0800                         |002f: invoke-virtual {v8}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@cc76
+3ed220: 0c08                                   |0032: move-result-object v8
+3ed222: 7120 39ba 8000                         |0033: invoke-static {v0, v8}, Lcom/xiaomi/onetrack/util/p;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@ba39
+3ed228: 1107                                   |0036: return-object v7
+      catches       : 1
+        0x0008 - 0x002c
+          Ljava/lang/Exception; -> 0x0027
+
+  source_file_idx   : -1 (unknown)
+

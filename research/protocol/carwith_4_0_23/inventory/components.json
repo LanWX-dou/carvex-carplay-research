@@ -1,0 +1,1809 @@
+[
+  {
+    "kind": "service",
+    "name": "com.carwith.common.accessibility.FocusAccessibilityService",
+    "exported": "true",
+    "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+    "authorities": "",
+    "actions": [
+      "android.accessibilityservice.AccessibilityService"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f110020",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.accessibility.FocusAccessibilityService",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.BluetoothReceiver",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "android.bluetooth.adapter.action.STATE_CHANGED",
+      "android.bluetooth.device.action.ACL_DISCONNECTED",
+      "android.bluetooth.adapter.action.BLE_ACL_DISCONNECTED"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "MiuiCarLinkBootReceiver",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.BluetoothReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.LocaleChangeReceiver",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "MiuiCarLinkBootReceiver",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.LocaleChangeReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.ScreenStateReceiver",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.carlink.intent.action.SCREEN_STATE_CHAGNED"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "MiuiCarLinkScreenStateReceiver",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.ScreenStateReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.castfwk.CarlinkService",
+    "exported": "true",
+    "permission": "miui.carlink.permission.START_CARLINKSERVICE",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.CarlinkService",
+      "{http://schemas.android.com/apk/res/android}permission": "miui.carlink.permission.START_CARLINKSERVICE",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0xa"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.launcher.quick.start.QuickStartTileService",
+    "exported": "true",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "authorities": "",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}icon": "@0x7f0808f2",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.quick.start.QuickStartTileService",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.carwith.launcher.screenshot.CaptureScreenReceiver",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.miui.carlink.action.CAPTURE_SCREEN_ACTION",
+      "com.miui.carlink.action.CONNECT_CLICK_ACTION_CAR"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.screenshot.CaptureScreenReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.car.activity.SettingHomeActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011a",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.car.activity.SettingHomeActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.SmallEmptyActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12002f",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.SmallEmptyActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.card.FullScreenMapHelperActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x01030010",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.card.FullScreenMapHelperActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.market.MarketAuthActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.market.MarketAuthActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.marketauth",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x200"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.BeforeThirdAppEmptyActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011b",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.BeforeThirdAppEmptyActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x200"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.VehScrEmptyActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011b",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.VehScrEmptyActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.FullVehScrEmptyActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.FullVehScrEmptyActivity",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.carwith.launcher.activity.FullVehScrEmptyActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.map.PhoneTipsActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.map.PhoneTipsActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.SplashCardActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.SplashCardActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.PhoneBlockTipsActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.PhoneBlockTipsActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.download.DownloadThirdPartyAppsActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.download.DownloadThirdPartyAppsActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x200"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.UCarScreenSettingsActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_APP_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.UCarScreenSettingsActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "1",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.PhotoCollectionActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.PhotoCollectionActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarLifeConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarLifeConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.UserCustomWallpaperActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.UserCustomWallpaperActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarLifeWiredConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarLifeWiredConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.AccessibilityAuthorizationActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.AccessibilityAuthorizationActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarLifeWirelessConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarLifeWirelessConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarlifeApConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarlifeApConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarLifeCarApConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarLifeCarApConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarLifeWlanConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarLifeWlanConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.carlife.CarlifeDialogActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.carwith.launcher.settings.phone.carlife.CarlifeDialogActivity"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.carlife.CarlifeDialogActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.UCarConnectInfoActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_CONNECT_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.UCarConnectInfoActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.connectinfo",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.UCarCastAppManagerActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_CAST_APP_MANAGER_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.UCarCastAppManagerActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.PrivacyActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_PRIVACY_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.PrivacyActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.PermissionMgrActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_PERMISSION_MGR_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.PermissionMgrActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "com.carwith.launcher.MarketFileProvider",
+    "exported": "false",
+    "permission": "",
+    "authorities": "com.miui.carlink",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.MarketFileProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink",
+      "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.launcher.ams.UCarActivityManagerService",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.ams.UCarActivityManagerService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.launcher.wms.UCarWindowManagerService",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.wms.UCarWindowManagerService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.home.HomeActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011a",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.home.HomeActivity",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.card",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x50000af0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.media.MediaActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011a",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.media.MediaActivity",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.media",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xef0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.DoubleOpenAppTipsActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12011a",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.DoubleOpenAppTipsActivity",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.activity.ReceiverActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.iccoa.share.action.receive"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1202f3",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.activity.ReceiverActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "1",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "1"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianStartingModeActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianStartingModeActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianWirelessConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianWirelessConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianWlanConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianWlanConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianApConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianApConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianCarApConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianCarApConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianQrCodeConnectActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianQrCodeConnectActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.phone.driving.DrivingModeMainActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.phone.driving.DrivingModeMainActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xff0",
+      "{http://schemas.android.com/apk/res/android}autoRemoveFromRecents": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.phone.driving.DrivingModeSettingActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_CONNECT_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.phone.driving.DrivingModeSettingActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xdf0",
+      "{http://schemas.android.com/apk/res/android}autoRemoveFromRecents": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.phone.driving.DrivingModeBlueToothListActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_CONNECT_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.phone.driving.DrivingModeBlueToothListActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xdf0",
+      "{http://schemas.android.com/apk/res/android}autoRemoveFromRecents": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.launcher.phone.driving.DrivingModeWindowService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "phone.driving.DrivingModeWindowService"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.phone.driving.DrivingModeWindowService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.yilian.YiLianDialogActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.carwith.launcher.settings.phone.yilian.YiLianDialogActivity"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.yilian.YiLianDialogActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.correction.ScreenCorrectionSettingsActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.correction.ScreenCorrectionSettingsActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x22"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.debug.CarPhoneDebugActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.debug.CarPhoneDebugActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.debug.AddCarMacActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "miui.intent.action.UCAR_CONNECT_SETTINGS"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.debug.AddCarMacActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.privacy.activity.PrivacyModeAppManagerActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.privacy.activity.PrivacyModeAppManagerActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.ShakeLocationSwitchActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.ShakeLocationSwitchActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.resolution.ResolutionSettingsActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.resolution.ResolutionSettingsActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.settings.phone.resolution.CustomResolutionEditActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120370",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.settings.phone.resolution.CustomResolutionEditActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.miuiembedding.EmbeddingLifecycleActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.miuiembedding.EmbeddingLifecycleActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x50002ff0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.map.PhoneMapTipsDialogActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.map.PhoneMapTipsDialogActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.map.wms.MinMapLauncherActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.map.wms.MinMapLauncherActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x50002ff0"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.launcher.map.wms.BigMapLauncherActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f11088b",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.map.wms.BigMapLauncherActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x50002ff0"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.castfwk.notify.CarNotificationListenerService",
+    "exported": "false",
+    "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+    "authorities": "",
+    "actions": [
+      "android.service.notification.NotificationListenerService"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f110495",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.notify.CarNotificationListenerService",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.castfwk.wireless.NotifOffBroadcastReceiver",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.miui.carlink.action.DISCONNECT_CAST_ACTION"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.wireless.NotifOffBroadcastReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.castfwk.wireless.bt.BleBroadcastReceiver",
+    "exported": "true",
+    "permission": "miui.car.permission.MI_CARLINK_STATUS",
+    "authorities": "",
+    "actions": [
+      "com.miui.carlink.castfwk.wireless.bt.BleBroadcastReceiver"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.wireless.bt.BleBroadcastReceiver",
+      "{http://schemas.android.com/apk/res/android}permission": "miui.car.permission.MI_CARLINK_STATUS",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "com.miui.carlink.castfwk.wireless.bt.BluetoothBroadcastReceiver",
+    "exported": "true",
+    "permission": "miui.car.permission.MI_CARLINK_STATUS",
+    "authorities": "",
+    "actions": [
+      "miui.carlink.intent.action.bluetooth.connect.state.changed"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.wireless.bt.BluetoothBroadcastReceiver",
+      "{http://schemas.android.com/apk/res/android}permission": "miui.car.permission.MI_CARLINK_STATUS",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.CastingActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.CastingActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.casting",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xf80",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x2"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.TransparentActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b4",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.TransparentActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.permission.PermissionActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.permission.PermissionActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0xcf0",
+      "{http://schemas.android.com/apk/res/android}showOnLockScreen": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.usb.AOAActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "android.hardware.usb.action.USB_ACCESSORY_ATTACHED",
+      "android.hardware.usb.action.USB_ACCESSORY_DETACHED"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.usb.AOAActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}showOnLockScreen": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.usb.CarlifeAdbActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.usb.CarlifeAdbActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}showOnLockScreen": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.miui.carlink.castfwk.cloudcontrol.ForceUpgradeActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b5",
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.castfwk.cloudcontrol.ForceUpgradeActivity"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.ucar.carlife.CarlifeAoAActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.ucar.carlife.CarlifeAoAActivity",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}showOnLockScreen": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.ucar.carlife.CarlifeConnService",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.ucar.carlife.CarlifeConnService",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.ucar.carlife.CarlifeKeepAliveService",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.ucar.carlife.CarlifeKeepAliveService",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.common.telecom.InCallServiceImpl",
+    "exported": "true",
+    "permission": "android.permission.BIND_INCALL_SERVICE",
+    "authorities": "",
+    "actions": [
+      "android.telecom.InCallService"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.telecom.InCallServiceImpl",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_INCALL_SERVICE",
+      "{http://schemas.android.com/apk/res/android}enabled": "false",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.dialer.recorder.CallRecorderRemoteService",
+    "exported": "false",
+    "permission": "com.android.incallui.CALL_RECORDER",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.dialer.recorder.CallRecorderRemoteService",
+      "{http://schemas.android.com/apk/res/android}permission": "com.android.incallui.CALL_RECORDER",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}directBootAware": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.voiceassistant.VoiceService",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.voiceassistant.VoiceService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.voiceassistant.mediaplay.media.MediaPlayService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.voiceassistant.mediaplay.media.MediaPlayService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.voiceassistant.mediaplay.audio.AudioPlayService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.voiceassistant.mediaplay.audio.AudioPlayService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.databus.DataBusService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.databus.DataBusService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.databus.share.ShareService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.icccoa.share.SHARE_SERVICE"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.databus.share.ShareService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.databus.sharenetwork.service.RemoteProxyService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.databus.sharenetwork.service.RemoteProxyService",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}process": ":remote",
+      "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0x10"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.miui.carlink.databus.sharenetwork.service.LocalProxyService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.carlink.databus.sharenetwork.service.LocalProxyService",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}process": ":local",
+      "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0x10"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.audio.service.VoIPService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.audio.service.VoIPService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.carwith.audio.service.CallStateService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.audio.service.CallStateService",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.ucar.map.service.UCarMapService",
+    "exported": "true",
+    "permission": "com.ucar.permission.UCAR_SERVICE",
+    "authorities": "",
+    "actions": [
+      "ucar.service.MAP_SERVICE"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.ucar.map.service.UCarMapService",
+      "{http://schemas.android.com/apk/res/android}permission": "com.ucar.permission.UCAR_SERVICE",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.ucar.app.ability.UCarAbilityService",
+    "exported": "true",
+    "permission": "com.ucar.permission.UCAR_SERVICE",
+    "authorities": "",
+    "actions": [
+      "ucar.service.ABILITY_SERVICE"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.ucar.app.ability.UCarAbilityService",
+      "{http://schemas.android.com/apk/res/android}permission": "com.ucar.permission.UCAR_SERVICE",
+      "{http://schemas.android.com/apk/res/android}enabled": "false",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "com.carwith.common.provider.CarlinkInfoDBProvider",
+    "exported": "true",
+    "permission": "com.miui.carlink.permission.UCAR_SETTINGS_PROVIDER",
+    "authorities": "com.miui.carlink.device_list",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.provider.CarlinkInfoDBProvider",
+      "{http://schemas.android.com/apk/res/android}permission": "com.miui.carlink.permission.UCAR_SETTINGS_PROVIDER",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink.device_list"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.common.xiaoai.PermissionsApplyActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1203b7",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.xiaoai.PermissionsApplyActivity",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x23"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.common.view.CommonDialog",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f12012e",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.view.CommonDialog",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.miui.carlink.common.dialog",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x23"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.common.activity.PermissionRequestActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x01030010",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.activity.PermissionRequestActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.carwith.common.permission",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.carwith.common.setting.DockerSettingActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120133",
+      "{http://schemas.android.com/apk/res/android}name": "com.carwith.common.setting.DockerSettingActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}taskAffinity": "com.carwith.common.permission",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x3"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.passport.accountmanager.OwnAppXiaomiAccountAuthenticatorService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.xiaomi.accounts.AccountAuthenticator"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.accountmanager.OwnAppXiaomiAccountAuthenticatorService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.xiaomi.account.service.AppAccountExchangeService",
+    "exported": "true",
+    "permission": "com.xiaomi.permission.CLOUD_MANAGER",
+    "authorities": "",
+    "actions": [
+      "com.xiaomi.account.action.BIND_ACCOUNT_EXCHANGE_SERVICE_V2"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.account.service.AppAccountExchangeService",
+      "{http://schemas.android.com/apk/res/android}permission": "com.xiaomi.permission.CLOUD_MANAGER",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.internal.PickCountryCodeActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ec",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.internal.PickCountryCodeActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.page.UserAvatarUpdateActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ed",
+      "{http://schemas.android.com/apk/res/android}label": "",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.page.UserAvatarUpdateActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "1"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "com.xiaomi.passport.ui.settings.provider.PassportFileProvider",
+    "exported": "false",
+    "permission": "",
+    "authorities": "com.miui.carlink.passport.fileprovider",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.settings.provider.PassportFileProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink.passport.fileprovider",
+      "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.sns.WXEntryActivity",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x01030010",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.sns.WXEntryActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.internal.ConfirmCredentialActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.xiaomi.account.action.XIAOMI_ACCOUNT_QUICK_LOGIN"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ec",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.internal.ConfirmCredentialActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x4a0",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x20"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.page.AccountLoginActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ec",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.page.AccountLoginActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x22"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.page.UserInfoActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ec",
+      "{http://schemas.android.com/apk/res/android}label": "@0x7f1104ba",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.page.UserInfoActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.xiaomi.passport.ui.internal.PassportJsbWebViewActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1201ec",
+      "{http://schemas.android.com/apk/res/android}name": "com.xiaomi.passport.ui.internal.PassportJsbWebViewActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}launchMode": "1"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120004",
+      "{http://schemas.android.com/apk/res/android}name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x4a0",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x3"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.blankj.utilcode.util.UtilsTransActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120004",
+      "{http://schemas.android.com/apk/res/android}name": "com.blankj.utilcode.util.UtilsTransActivity",
+      "{http://schemas.android.com/apk/res/android}multiprocess": "true",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x4a0",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x3"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "com.blankj.utilcode.util.UtilsFileProvider",
+    "exported": "false",
+    "permission": "",
+    "authorities": "com.miui.carlink.utilcode.fileprovider",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.blankj.utilcode.util.UtilsFileProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink.utilcode.fileprovider",
+      "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "com.blankj.utilcode.util.MessengerUtils$ServerService",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [
+      "com.miui.carlink.messenger"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.blankj.utilcode.util.MessengerUtils$ServerService",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "net.easyconn.carman.sdk.DataService",
+    "exported": "true",
+    "permission": "easyconn.sdk.permission.DATA_SERVICE",
+    "authorities": "",
+    "actions": [
+      "net.easyconn.carman.aidl.remote"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "net.easyconn.carman.sdk.DataService",
+      "{http://schemas.android.com/apk/res/android}permission": "easyconn.sdk.permission.DATA_SERVICE",
+      "{http://schemas.android.com/apk/res/android}protectionLevel": "0x1",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    }
+  },
+  {
+    "kind": "service",
+    "name": "net.easyconn.carman.sdk_communication.PXCKeepAliveService",
+    "exported": "true",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "net.easyconn.carman.sdk_communication.PXCKeepAliveService",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}stopWithTask": "true",
+      "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0x10"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "net.easyconn.carman.BackgroundStartActivity",
+    "exported": "false",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f120030",
+      "{http://schemas.android.com/apk/res/android}name": "net.easyconn.carman.BackgroundStartActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "com.miui.bugreport.logprovider.DumpLogProvider",
+    "exported": "true",
+    "permission": "com.miui.bugreport.permission.DUMP_CACHED_LOG",
+    "authorities": "com.miui.carlink.provider.bugreport",
+    "actions": [
+      "com.miui.bugreport.intent.ACTION_DUMP_CACHED_LOG"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "com.miui.bugreport.logprovider.DumpLogProvider",
+      "{http://schemas.android.com/apk/res/android}permission": "com.miui.bugreport.permission.DUMP_CACHED_LOG",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink.provider.bugreport"
+    }
+  },
+  {
+    "kind": "activity",
+    "name": "com.journeyapps.barcodescanner.CaptureActivity",
+    "exported": "unspecified",
+    "permission": "",
+    "authorities": "",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@0x7f1205cb",
+      "{http://schemas.android.com/apk/res/android}name": "com.journeyapps.barcodescanner.CaptureActivity",
+      "{http://schemas.android.com/apk/res/android}clearTaskOnLaunch": "true",
+      "{http://schemas.android.com/apk/res/android}stateNotNeeded": "true",
+      "{http://schemas.android.com/apk/res/android}screenOrientation": "6",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x3"
+    }
+  },
+  {
+    "kind": "provider",
+    "name": "androidx.startup.InitializationProvider",
+    "exported": "false",
+    "permission": "",
+    "authorities": "com.miui.carlink.androidx-startup",
+    "actions": [],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "androidx.startup.InitializationProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.miui.carlink.androidx-startup"
+    }
+  },
+  {
+    "kind": "receiver",
+    "name": "androidx.profileinstaller.ProfileInstallReceiver",
+    "exported": "true",
+    "permission": "android.permission.DUMP",
+    "authorities": "",
+    "actions": [
+      "androidx.profileinstaller.action.INSTALL_PROFILE",
+      "androidx.profileinstaller.action.SKIP_FILE",
+      "androidx.profileinstaller.action.SAVE_PROFILE",
+      "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+    ],
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.DUMP",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}directBootAware": "false"
+    }
+  }
+]

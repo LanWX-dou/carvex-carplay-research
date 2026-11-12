@@ -1,0 +1,29 @@
+{
+    "oneDayLimit": 1,
+    "guide": [
+        {
+            "event": "slidingUp",
+            "showCount": 2,
+            "allLimit": 2,
+            "activeDisappear": 7,
+            "passiveDisappear": 30,
+            "toast": "向上轻推，小爱同学都在这里"
+        },
+        {
+            "event": "slidingDown",
+            "showCount": 2,
+            "allLimit": 1,
+            "activeDisappear": 7,
+            "passiveDisappear": 30,
+            "toast": "向下轻推，极简小爱同学陪你"
+        },
+        {
+            "event": "longPress",
+            "showCount": 2,
+            "allLimit": 2,
+            "activeDisappear": 7,
+            "passiveDisappear": 30,
+            "toast": "长按卡片为它点赞！"
+        }
+    ]
+}

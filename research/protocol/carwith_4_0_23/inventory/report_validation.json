@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "apk_sha256": "c897a45d92c84f06e670fc4edd323824093a093f67d8e7d7b058fee2a737d06c",
+  "definition_counts": {
+    "classes": 33418,
+    "fields": 497769,
+    "methods": 233147,
+    "methods_with_code": 222476
+  },
+  "csv_files_validated": 29,
+  "markdown_links_validated": 54,
+  "html_searchable_rows": 5364,
+  "proto_fields_source_line_checks": 342,
+  "proto_fields_compiled_tag_matches": 300,
+  "assembly_classes_byte_compared": 33418,
+  "limitations": "HTML syntax/data/internal links checked; no live APK execution or remote API validation"
+}

@@ -1,0 +1,560 @@
+[
+  {
+    "mAuthor": "咪咕音乐有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=DuWGnRaiJXDmgHnikuKY5XPvIanU4OZSKsVJgUtjlNTjsWGz0dOf%2BYqiptXwQItrAvxk3uW%2BWl63%0D%0AZKiZIkJvMPxAEQpVy1DfzSiTUQz3qUpX0OmwaKBjetctAaZ%2FpZ9RYjjG6g0z7aNMPixkboAL9YsT%0D%0A6ZvqeabU%2BIwtImi3mII%3D%0D%0A&senderPackageName=com.miui.carlink&id=cmccwm.mobilemusic&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0767a6f4350ef48cdb9af14b8fe0978b4dc702cb1",
+    "mId": "cmccwm.mobilemusic",
+    "mIntroduce": {
+      "briefShow": "千万正版曲库，5G至臻音质",
+      "changeLog": "优化多项细节，体验更流畅。",
+      "introduction": "【千万曲库】新歌实时发布，原创新歌、影视新碟、综艺新歌应有尽有，给你畅听体验！\n【臻3D】至臻3D立体环绕，给你超凡听歌新体验，好听不止于此！\n【极光音效】独享「HiFi房间」「纯净ACG」「动感电音」等音效，为您带来更出色的音乐体验，沉浸“响”受音乐～\n【音乐电台】YOU乐电台，发掘惊喜之声。一样的音乐，不一样的玩法，更多精彩不容错过！\n【个性推荐】“我的”瀑布流式个性化推荐，下拉看见更多精彩，大数据智能推荐，量身定制专属于你的私人音乐！ \n【视频彩铃】热门影视片段、爱豆全新MV，让通话等待“看”见精彩，还有视频创作大赛等你来，快来开启你的创意之旅吧。\n\n核心功能：\n•听\n【千万曲库】4000万正版曲库，新歌发布，覆盖华语海外、内地港台等热门新歌，让你不再歌荒；\n【极光音效】独享HI-FI房间，新增「纯净ACG」「动感电音」等6款等特色音效，还原至臻听感；\n【热门推荐】在“我喜欢的”开启听荐模式，让AI推荐的歌曲更懂你心；\n【一起听】全新功能，共享歌单，好歌可以一起享，无论相隔多远，都能和你「一起听」歌！\n•玩\n【云包厢】邀请好友，即刻进入云包厢玩转5G现场，感受专宠视角、独享宠爱；\n【多画同看】一屏多看，可同时观看不同视角画面并兼容横竖屏视角画面，不用来回切换。不错过TA的每一瞬间。\n【音乐云盘】建歌单，不如传【音乐云盘】！把喜欢的歌存云盘，歌曲随心听，换机也同步，爱歌不丢失，一键上传，极速秒成~\n【比特数智人】创建你的专属比特数智人形象，分享每日心情状态，设置趣味动态头像、表情包，还能一键设置状态视频彩铃哦！朋友来电快速get你的情绪状态～\n•看\n【视频彩铃】超高清全面屏视频彩铃，看得见的精彩；\n【咪咕现场】全年超百场超高清演唱会直播，365天想看就看，在哪都是现场；\n【超清MV】好音乐听得到，更要“看”得见。\n•唱\n【云K歌】在线云battle ，“声”而不凡，随时随地，嗨唱个性；\n【双屏开唱】TV端+APP大小屏同唱，动听生活唱出来；\n\n-----------------------------------------\n如您在使用中有任何意见建议，可在App内反馈提出，或通过以下途径与我们联系：\n官方网站：http://music.migu.cn/\n微信公众号：mclub12530\n官方微博：@咪咕音乐\n官方QQ群：162118770",
+      "publisherName": "咪咕音乐有限公司",
+      "updateTime": 1717659481617,
+      "versionName": "7.41.11"
+    },
+    "mName": "咪咕音乐-让音乐更有趣",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=cmccwm.mobilemusic",
+    "mPrivacyUrl": "https://passport.migu.cn/portal/privacy/appprotocol?sourceid=220024",
+    "mVersion": "7.41.11"
+  },
+  {
+    "mAuthor": "北京度友科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=kV5GdUKLM9DwDvt%2Boz%2FzwToIWEz8Nb7KLM39dukhqZQ9H70lxYC0s04yptFtiGigvayAE6bUuy7i%0D%0AyEiVEstQv%2FeivyR509eacXeZsORPwCPENLMhztobYvpB0qgvtmA6KuqvHVhZpaacsu3ryrpwGDbt%0D%0AM3I6%2BxbK0OSU%2FhymopI%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.baidu.netdisk&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/02d849508fcb94e6a9a36a095e46b048c68284977",
+    "mId": "com.baidu.netdisk",
+    "mIntroduce": {
+      "briefShow": "美好由我全盘掌握",
+      "changeLog": "绿柳成荫摇曳美，动人的六月时节\n百度网盘功能升级，希望为您带来如春风般的美好体验，快来试试吧！",
+      "introduction": "【世界很复杂，百度更懂你】\r\n百度网盘(原百度云)是由百度公司出品的一款个人云服务产品。使用百度网盘领取超大空间，相册、短信、通讯录、\r\n\r\n通话记录一键备份到云端，更有手机找回、密码锁等功能全方位为你数据保驾护航。\r\n群组分享-添加好友，创建群组，如学习群、聚会群、班级群等，一人分享，全群共享。\r\n照片时光轴按照片拍摄时间、地点分类，管理照片更加方便快捷。\r\n闪电互传无需网络支持，传游戏、视频、图片等，速度比蓝牙快70倍。\r\n“手机照片弄丢了？”手机里照片、视频快速备份到网盘，再也不担心照片丢失了！\r\n移动办公“还在借U盘？”办公文件上传百度网盘，手机同步查看，抛弃U盘、数据不丢失。\r\n换手机必备 “号码逐个输入？”百度网盘备份通讯录、短信、照片，手机数据一键导入，省时快捷。\r\n有任何意见或建议请反馈至邮件 netdisk-bugs@baidu.com",
+      "publisherName": "北京度友科技有限公司",
+      "updateTime": 1718606207942,
+      "versionName": "12.11.9"
+    },
+    "mName": "百度网盘",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.baidu.netdisk",
+    "mPrivacyUrl": "https://pan.baidu.com/wap/privacy_policy",
+    "mVersion": "12.11.9"
+  },
+  {
+    "mAuthor": "杭州乐读科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=guLikxjyBeGTgXJQ8xYlzQzn6eGm3h%2B4ARjSdr6DaPmVCldxHMFXtgdoVspTp6gnLZUJENd3edtA%0D%0AxeuUaH%2Ft0GlCiz1PGOHsehh1%2BbDTxI66qsF5v6W3nYzZmlzqg154z6VE88WxglmVGeI%2B1vFQvziL%0D%0A7njI76m4hiKtk%2BWmXgM%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.netease.cloudmusic&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0ee2294aa96824104b01d5ef0669289c252178af6",
+    "mId": "com.netease.cloudmusic",
+    "mIntroduce": {
+      "briefShow": "用音乐传递美好力量",
+      "changeLog": "【内容版图，持续扩充】\n - 《华晨宇日出演唱会特辑》现已上线，全新改编留下永恒美好，搜索“华晨宇”即可收听！\n - 那英、Adam Lambert 等众星齐聚，搜索《歌手2024》精彩现场音频一键收听！\n - 周深大热数字专辑《反深代词》上线，多多福利等你来！\n\n【有声书上新】\n杨幂、龚俊主演影视剧同名有声书正在热播，搜索《狐妖小红娘月红篇》收听与月红结缘。\n\n使用中遇到任何问题，请通过左侧边栏-\"我的客服\"进行反馈。",
+      "introduction": "新内容&功能\n【版权回归】SM娱乐公司、时代峰峻、YG娱乐公司等版权歌曲回归云村。\n【硬地原创音乐榜】甄选值得聆听的原创佳作，带你在炽热的旋律中自由起舞~\n【村民广场】全新上线，这里是云村人的情感、音乐、生活交流地！\n【歌单导入】支持本地导入/图片导入，歌单导入提升成功率至90%左右\n【云随机播放】行业首创用户可自定义的随机模式，支持调节随机偏好，用户口碑好评\n【音乐百科】展现歌曲的周边信息，包含曲风、语种、影综、奖项等，可点击探索更多内容\n产品介绍\n数亿用户推荐，和有趣的人一起听歌、互动、看评论！\n网易云音乐是当下受年轻用户喜爱的音乐平台之一，同时也是业内领先的音乐社区。在网易云音乐，不仅可以听到海量正版音乐，还能遇见和你同样热爱音乐的伙伴。用音乐连接彼此，用音乐传递美好力量。\n【海量曲库】\n收录华语/欧美/日韩等众多语种歌曲，涵盖电音/说唱/摇滚/ACG/古风/古典等超全音乐种类。无论是热门歌手，还是小众音乐人，你都可以在这里找到。\n【个性推荐】\n超准智能算法比你更懂你，根据你的日常听歌喜好，将自动推荐给你感兴趣的歌曲。\n【有声剧场】\n快速充电的人生书库、精彩纷呈的推理悬疑故事、脑洞搞笑的热门小说、甜到停不下来的热门广播剧，超级还原的游戏原著，好听的小说都在这。\n【精品播客】\n音乐推荐、热门翻唱、情感树洞、真实故事……你想听的这里都有；解压、充电、助眠……满足你的所有需求；超千万声音库，给你7*24小时的耳边陪伴。\n【品质歌单】\n超31亿歌单库，邀你一起定制跑步、学习、工作、聚会等全场景音乐歌单。\n【精彩乐评】\n看了就停不下来，感受热闹歌曲评论区。真实情感故事、连载小说、硬核科普、趣味段子、文学金句、流行玩梗，你想得到想不到的乐评都在这了。\n【趣味社区】\n在云村，你不仅可以听音乐，还可以看音乐、聊音乐、玩音乐。Mlog/一起听/动态/歌房等众多创新功能全方位满足你的使用体验。",
+      "publisherName": "杭州乐读科技有限公司",
+      "updateTime": 1718862188056,
+      "versionName": "9.1.05"
+    },
+    "mName": "网易云音乐-听歌手2024实力金曲",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.netease.cloudmusic",
+    "mPrivacyUrl": "https://st.music.163.com/official-terms/privacy",
+    "mVersion": "9.1.05"
+  },
+  {
+    "mAuthor": "北京抖音科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=IIcDKifDjNN8Pc%2Bgs5sRnGr0eFp4bFUyKfKilcEN7pFXwPl%2B4f1P2zaCLUflmr4MQYdJphdeJ6v3%0D%0AtZSlvrnu%2FBE08Ako71tbPa0lSaYuJer%2BSdQP9y1%2F7JSO478aiotbiSGsdhJMdsA0PjEsv5h3Y5Jd%0D%0A7jKZz9bNpXcCJjk4%2Fs8%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.luna.music&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0cd6ee308b54d4339a837336a79aec5ae0383c55f",
+    "mId": "com.luna.music",
+    "mIntroduce": {
+      "briefShow": "汽水音乐，让音乐更懂你",
+      "changeLog": "修复已知问题，优化播放体验。",
+      "introduction": "【汽水音乐】抖音官方出品音乐app，让音乐更懂你。\n\n-个性推荐，发现小众好歌\n发现好音乐不再是难题。根据你和品味相似的人的听歌偏好，为你推荐感兴趣的歌曲，拒绝千篇一律，让音乐更懂你。\n\n-场景音乐&分类电台，随时找到你想听的音乐\n学习/运动/打游戏/通勤途中时想听歌？想听嘻哈/摇滚/电音/R&B？场景音乐模式分类电台帮你随时随地，快速找到适合的音乐。\n\n-轻松好用，即开即听\n简洁顺滑的交互设计，无需复杂操作，快速享受好音乐。\n\n- 同步抖音音乐收藏，下次听更方便\n视频中的好音乐，收藏不再是困难。支持抖音音乐收藏同步，听歌更方便。\n\n- 特色榜单，为喜爱音乐的你而打造\n了解喜爱音乐的人都在听什么歌，发现更多好歌\n\n- 千万曲库，海量音乐随心听\n收录流行/嘻哈/电音/摇滚/国风/民谣/独立/纯音乐/R&B/爵士/乡村/蓝调/雷鬼/拉丁等音乐品类，好歌听不完。",
+      "publisherName": "北京抖音科技有限公司",
+      "updateTime": 1718958182423,
+      "versionName": "10.5.0"
+    },
+    "mName": "汽水音乐",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.luna.music",
+    "mPrivacyUrl": "https://luna-web.douyin.com/privacy?type=qishui",
+    "mVersion": "10.5.0"
+  },
+  {
+    "mAuthor": "广州酷狗计算机科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ezz%2BiaEK1c7xNCGiYb2kryiZEpusXBFhYmTRUCe1RuWd6KY04unthK6oSvwam1QY3L1HU45wzUPv%0D%0AgqxQuinSW5uef7Yu1HjuwxO48qAOSEKbet86dBQE2nswQiQW5%2BzJ%2Fj2OslcKE%2B3uvLQaEOgOJbMm%0D%0ApKnxGuxn1nvGKiPuVEI%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.kugou.android&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0d98bf9fbe03e44ad9081e98c4a1ffa773b8808d7",
+    "mId": "com.kugou.android",
+    "mIntroduce": {
+      "briefShow": "全新酷狗12，听歌利器",
+      "changeLog": "修复已知问题，提高稳定性\n\n---往期更新---\n「歌单皮肤」：歌单支持自定义皮肤，让歌单更有氛围感\n「一起听」：一起听全新升级，和好友共享音乐时光\n「AI音乐歌单」：歌单一键AI切换为DJ、清唱及纯音乐风格\n\n酷狗12，听歌利器，等你体验\n\n听歌还能这样！\n四大创新手势，播歌方式随心换！\n• 首创「单击封面下一首插播」\n• 首创「双击歌曲马上插播」\n• 首创「长按听高潮，拖动即切换」\n• 首创「播放页左右滑选背景」\n\n听歌还能怎样？\n播放页五大功能升级，发现更多好歌！\n• 首创「歌曲漫游」：从一首歌发现更多歌曲\n• 首创「AI智能配图」：黑科技展现歌词意境\n• 首创「AI音乐魔法」：自动生成八种不同版本\n• 全新「蝰蛇全景声音质」：VR级听歌体验\n• 全新「蝰蛇母带音质」：超高清还原音乐细节\n\n【如果您在使用过程中遇到问题，请您移步“APP内-侧边栏-帮助与反馈“提交反馈，谢谢】",
+      "introduction": "酷狗音乐\n就是歌多，音效多，音质好\n千万高品质正版曲库随心听",
+      "publisherName": "广州酷狗计算机科技有限公司",
+      "updateTime": 1718862722195,
+      "versionName": "12.3.2"
+    },
+    "mName": "酷狗音乐",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.kugou.android",
+    "mPrivacyUrl": "https://m3ws.kugou.com/html/privacy.html",
+    "mVersion": "12.3.2"
+  },
+  {
+    "mAuthor": "广州酷狗计算机科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=dF9jh9N5D%2BF%2FXwF4Jt3tDWfOgS1Jt03up8HyFK9EbRe36MDzmztdQZL03rLheCX4tZfVzcy4PwIg%0D%0AnbsS8lldkNTbmXxULb60HQynYHCFXiaBm4UBY3EfRUpveRwZw0MrRYUyqA229MviK7QnH%2BfxhSyP%0D%0Ar2Gj%2F0Lc3GDOFNoXVZY%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.kugou.android.lite&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/08f2854fc14004cd93132e0c68abe11b75d10d551",
+    "mId": "com.kugou.android.lite",
+    "mIntroduce": {
+      "briefShow": "简约设计，年轻人的播放器",
+      "changeLog": "优化一些体验问题\n\n==近期更新==\n打开播放页，点击“...”选择播放器样式，马上体验！\n1. 【唱片机模式】给自己放一张唱片，让听歌变得更有仪式感\n2.【DIY模式】百变风格随心造，你的播放页由你定义\n3.【信笺歌词模式】歌词寄信，放大歌词魅力",
+      "introduction": "酷狗概念版，因乐相遇！\n【玻璃拟态设计】\n年轻潮流、空灵通透的视觉享受，在这里收获更纯粹的音乐体验！\n【多样化播放页样式】\n简约风的「旋转封面」，创意无限的自定义「DIY模式」，文艺清新的「信笺歌词」，沉浸感的「歌手写真」，氛围感拉满的「唱片机模式」，总有一种风格踩中你的审美点！\n【宝藏音乐频道】\n主题多元的音乐频道带你走进年轻活力的音乐社区，你可以用更有趣的方式分享音乐、记录生活，收获“对味儿”的同好！\n【趣味互动听歌玩法】\n不止音乐，还有快乐！一起听/一起打卡/自习室/众乐房等创新听歌玩法，让你听歌社交两不误！\n如有疑问，可加入酷狗概念版官方QQ群和我们一起交流，快来集合吧~\n1群：133154838\n2群：19381389",
+      "publisherName": "广州酷狗计算机科技有限公司",
+      "updateTime": 1717678081643,
+      "versionName": "3.4.9"
+    },
+    "mName": "酷狗概念版-年轻人的音乐播放器",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.kugou.android.lite",
+    "mPrivacyUrl": "https://activity.kugou.com/terms/v-9d1de340/backVoicePrivacy.html",
+    "mVersion": "3.4.9"
+  },
+  {
+    "mAuthor": "腾讯音乐娱乐（深圳）有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=LsB4f4bN9l%2BzgbLUo%2B4zVJa9d%2Fl%2FRfvI%2B7BS%2BvIf1Py09c1ByHrh3E6W61%2B9oWCAzWnjkZRNqEHw%0D%0A0T5bgwu6BI%2B13YL7N3mv5G4yQetTPcusUCKmzwRimz6IyE2IHHB7KxLeWe7c%2FSnPNwU6RpRrK7tG%0D%0A6Fo9mfMm7Z0%2F7aQofVs%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.tencent.qqmusic&nonce=-2908209991487729946:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0e3e129774966416d9ad9cf187f85bb7e6b2654bb",
+    "mId": "com.tencent.qqmusic",
+    "mIntroduce": {
+      "briefShow": "“亿级正版音乐，真无损音质体验”",
+      "changeLog": "「闪屏」开机闪屏全新升级，传达音乐律动，会员用户臻享专属等级标识\n\n「灵控岛」更灵动的播放Minibar，长按展开，逐字歌词，一键收藏，尽在指尖\n\n「一起听」情侣一起听焕新升级3D版本，快来装扮\n\n「评论区」评论区新增 “歌曲好听” 表态功能，快来给你喜欢的歌曲点个 “好听”\n\n「我的」歌曲列表展示标识优化，页面更清爽\n\n「更多」更多设置项 “歌词” 与 “播放与下载” 排序优化，查找更便捷\n\n「播放页」“播放页-更多菜单” 功能排序优化\n\n「播放页」“播放页-更多-播放设置” 中新增数字专辑播放器使用开关\n\n「性能优化」歌单、专辑等页面打开更快，体验更丝滑\n\n\n ==往期更新== \n\n「视频铃声」用视频铃声打造属于你的专属通话体验，让来电不再单调",
+      "introduction": "• 过亿正版音乐，热歌新歌每日首发，你想听的都在这里\n• 海量的无损音乐曲库，优质而上乘的听觉享受\n• 精品有声书、播客、儿童故事、助眠节目…沉浸式陪伴，度过闲暇时光\n• 听歌识曲、哼唱识别，精准识别此刻播放或哼唱的歌曲\n• 翻译歌词，支持数十万首热门英日韩泰歌曲的汉译音译\n• 个性化推荐，全站依你的口味定制专属音乐内容\n• 车载互联，支持宝马、福特等车型的车载应用\n• 强大的搜索，歌手、专辑、歌单、MV、类型、歌词、拼音、语音多种搜索方式均支持",
+      "publisherName": "腾讯音乐娱乐（深圳）有限公司",
+      "updateTime": 1718769542280,
+      "versionName": "13.6.5.8"
+    },
+    "mName": "QQ音乐",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.tencent.qqmusic",
+    "mPrivacyUrl": "https://privacy.qq.com/document/priview/0b0dc16a0f004a35b77b7fd48a0b125b\\",
+    "mVersion": "13.6.5.8"
+  },
+  {
+    "mAuthor": "高德软件有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=XuBJBedExBJ4N4LAgWrijheeu3OUJIeuHT3Xmq9xLEsedyIqaq8QVMnqmOfK%2Fpi6uFexnSwTO5yL%0D%0AeiVryYjvu%2FaRM7AHj2uS16%2BYUpkV31aziIHv6v5Mpj9DI1CodGUCOb5ptQ1XqFMQK2RZXIdpIeDa%0D%0AGGjvZAMXIwMY%2FVpuLeY%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.autonavi.minimap&nonce=-8952583668327119881:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0248d447f92d9460e36d76620873eec3ff5249b97",
+    "mId": "com.autonavi.minimap",
+    "mIntroduce": {
+      "briefShow": "低价预订酒店门票，吃住游用高德指南",
+      "changeLog": "- 出国游，用高德，搜目的地、路线规划、驾车导航、点亮地图等功能随心体验\n- 高德打车车费保镖，实时守护，车费无忧\n- 在香港，用高德打车，即时用车，接送机服务\n- 北斗车道级导航，覆盖全国99%以上城乡道路\n- 消耗续航实时预估，新能源专属，一键规划充电\n- 室内步行导航，覆盖北上广深100家商场\n- 骑行安全预警，后方来车提醒，一路安心骑\n- 音乐导航伴你好心情，导航能听歌，耳朵不寂寞\n- 高德代驾随叫随到，喝酒不开车，代驾找高德\n- 在线酒店全球优惠订，全网比价，安心订，放心住\n- 在线预订景点门票，随买随用售后无忧\n- 高德车服加油，站超多，巨划算",
+      "introduction": "高德地图，哪儿都熟\n吃喝玩乐，熟门熟路\n打车更快，就用高德\n订酒店买门票，熟门熟路\n出国游，用高德\n\n【地图导航】\n提供包含驾车丶打车丶公交丶骑行丶步行丶货车丶摩托车丶新能源等多种出行方式的智能导航\n提供实时路况，提前躲避拥堵路线，预估到达时间\n组队出行，实时掌握队友位置，导航对讲，队友不“失联”\n语音导航，“你好小德”语音助手，驾车更安全\n特色语音包，拥有王鹤棣丶李雪琴等多款特色语音包\n【世界地图】\n出国游，用高德，畅游世界，出行无忧，中文地图更安心\n【高德打车】\n一键呼叫全网多平台车辆，就是快\n多平台实时比价，更便宜\n【高德代驾】\n酒后不开车，代驾找高德\n高德代驾，随叫随到\n【高德秒送】\n同城取送，快！\n用高德秒送，更快更优惠\n【公共出行】\n公共交通模式，周边公交地铁信息全知道\n坐公交不用等，实时公交，到哪儿一目了然\n【生活服务】\n百万酒店全网比价，7*24小时服务保障\n全国景区门票优惠订，随买随用安心退\n顺路买花加油取咖啡，省时省力也省心\n充电地图，找好桩，好找桩；给车加油，站超多，聚划算\n【温馨提示】\n高德地图的驾车语音导航，公交换乘提醒和步行语音导航会持续使用卫星定位服务（北斗等） ，切换至后台播放时仍会继续，某些其他操作会消耗更多的电量，并影响电池续航时间。\n【联系我们】\n感谢您使用高德地图，使用中有任何问题可在“我的--帮助与反馈”中进行反馈，我们会及时进行处理，也可以通过以下方式进行反馈：\n官方微信公众号：高德地图/gaodeditu\n官方新浪微博：@高德地图\n官方客服电话：400-810-0080",
+      "publisherName": "高德软件有限公司",
+      "updateTime": 1718939282105,
+      "versionName": "13.18.0.2039"
+    },
+    "mName": "高德地图-高德打车,导航公交地铁",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.autonavi.minimap",
+    "mPrivacyUrl": "http://wap.amap.com/doc/private.html",
+    "mVersion": "13.18.0.2039"
+  },
+  {
+    "mAuthor": "北京百度网讯科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=eBzf3hF8DXXQ6Ax69ckZ1xuRRCeIJXDjKW93hMEW7vDD9nXVA7h1Rx0wDNwR2y0%2Bxzsh2L%2BLpymZ%0D%0AGAb63m3JJiXCUkivduiB9VCo02S1bPcNsqJmWDcaT6qz2lAVTpU2VDN1%2B6C%2BGNxJvZ9TyPDJlg7U%0D%0ANBHkyP8pfav2jb%2FbroU%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.baidu.BaiduMap&nonce=-8952583668327119881:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0cd4319c83d204ca389766c961404176f28ef14a2",
+    "mId": "com.baidu.BaiduMap",
+    "mIntroduce": {
+      "briefShow": "导航公交地铁打车，准没问题",
+      "changeLog": "百度地图V20，开启手车一体新纪元\n-  真城市车道级导航，精准车道指引，全程安全守护\n-  无缝互联，手机无感同步至车机\n-  AI向导再进化，大模型加持，小度更快更懂你\n-  打车全网比价，更快出发，更低价格\n-  全新旅行频道，酒店门票火客飞，低价订端午\n-  新能源充电无忧，信息更全，单单特惠",
+      "introduction": "百度地图是新一代人工智能地图，是为用户提供智能路线规划及导航、地点查询、智能旅游等出行相关服务的平台，支持全局语音交互，AR实景导航等全新交互模式。百度地图国际化地图已覆盖全球200多个国家及地区。致力于为用户提供更准确、更丰富、更易用的出行服务。\n\n【智能语音】\n-语音技术行业领先，可实现全端唤醒，全局交互\n-喊“小度小度”，轻松查路线、搜地点、问天气，沿途搜等\n-提供地图语音定制功能，全球领先地图语音定制产品，只需9句话，生成个人定制语音包，并支持地图全场景使用\n\n【智能规划】\n-提供包含打车、驾车、公交、步行、骑行、火车、飞机、客车、货车、摩托车等出行方式的智能规划方案\n-未来通行时间智能预估，精准预估到达时间，规划路线更精准，更符合用户不同的出行或驾驶习惯\n-全国范围内，提供多种交通方式组合的智能出行方案\n-时间优先，躲避拥堵，少收费，不走高速等多种路线偏好任你选择\n\n【智能导航】\n-路况秒级更新，实时推荐更优路线，智能躲避拥堵\n-智能定位，GPS信号弱也能持续导航\n-公交导航到站提醒，实时公交覆盖多城\n\n【智能推荐】\n-根据个人出行时间、方式等偏好，个性化推荐更优方案\n-发现周边，一键发现身边吃喝玩乐好去处\n-智能旅游，游玩路线推荐、AI导游跟随讲解、AR导览实景沉浸式游玩体验，让你玩转景区\n\n【温馨提示】\n语音导航和电子狗会持续使用GPS定位服务，切换至后台播报时，仍会保持GPS连接，相比其他操作会消耗更多的电量。\n【遇到问题请联系】\n用户论坛：http://tieba.baidu.com/百度地图\n官方微博：http://weibo.com/n/百度地图\n微信公众号搜索：baiduditu\n您还可以直接在应用内“我的-帮助与反馈”中进行反馈，我们将及时处理您的问题。",
+      "publisherName": "北京百度网讯科技有限公司",
+      "updateTime": 1718771821856,
+      "versionName": "20.2.30"
+    },
+    "mName": "百度地图",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.baidu.BaiduMap",
+    "mPrivacyUrl": "https://map.baidu.com/zt/client/privacy/index.html",
+    "mVersion": "20.2.30"
+  },
+  {
+    "mAuthor": "深圳市腾讯计算机系统有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=YH9HF4TzQ7McPHo1Z24%2Ba2Ro92WWNemLGSA6yY%2Be6WxMJoKD6J8cK4b7fFEpSHG2SVRBeoVyWC5p%0D%0AF%2FKGNUHnL1AzjzJDMIv%2B6uUSvGUcZyz1YiTaThzjFmDcUsMldYWNEWk77b3KF%2FILOqahtU0QTty3%0D%0A%2B1Mu7JWfg%2FriCijC7wg%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.tencent.map&nonce=-8952583668327119881:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0c84456891de948cf8cf84ca3e2c420b2993e0885",
+    "mId": "com.tencent.map",
+    "mIntroduce": {
+      "briefShow": "精准导航、北斗GPS双模定位、打车、AR",
+      "changeLog": "腾讯地图V10.8.3版本全新升级，快来get新惊喜！\n【车道级导航更新】提前指引，绝不错过！转向指引更准确，复杂道路更清晰~\n【商铺展示优化】逛街神器已经进入next level，周边小店一览无余，让探店更简单！\n【打卡功能升级】世界这么大，一起去看看！现在就打开腾讯地图，解锁惊喜新体验吧~",
+      "introduction": "腾讯地图-腾讯团队倾力打造，用户信赖的出行导航应用！\n【实时数据】\n城市路况实时刷新，拥堵早知道。\n室内地图，覆盖各大机场、火车站、主流商场。\n【精准导航】\n-提供包含驾车、打车、公交、步行、骑行等出行方式的智能规划方案和精准智能导航。综合运用大数据、算力和算法能力，提升用户的出行效率。\n-实时定位精准，目的地详细位置引导，提供多种出行方式组合的方案，行业领先的AR实景步行导航，更优精准服务覆盖全程。\n【路线规划】\n-路线精准规划，预测出行路况与耗时，准确预估到达时间。提供路况实时刷新，推荐更优通行路线，实时躲避拥堵。\n-AI语音助手『叮当叮当』智能推荐线路，语音全方位交互，导航中同步支持更改目的地、刷新路线、路况查询。\n- 实时公交信息，定位公交车的实时位置，精准计算到站时间，公交拥挤程度实时显示。\n【出行服务】\n-打车全网一键叫车，多种车型同时呼叫，更快出发，聚合多个打车平台，价格透明。\n-接入多种出行服务小程序，可以在端内预定火车票、飞机票、汽车票、无需再打开多个App，免去繁琐操作，为出游提供更多便利选择。\n【特色服务】\n-特色语音：方言、王者荣耀英雄语音、英雄联盟英雄语音、和平精英语音、DNF赛利亚语音\n-特色主题车标：王者荣耀、英雄联盟、泡泡玛特、和平精英、跑跑卡丁车\n-特色地图：3D地图、卫星地图、景区手绘地图\n-搜索周边服务：吃喝玩乐、住宿旅行一应俱全\n-王卡免流量服务，零流量也可导航\n【足迹地图】\n-点亮去过的城市，生成个人足迹地图，解锁专属城市成就\n【性能优良】\n-省流量、低耗电、占用空间小，操作简单、界面美观\n【联系我们】\n-官方用户QQ群：293687610\n-您还可以在app应用内“设置-意见反馈”入口进行反馈，我们会及时处理您的问题\n-在后台持续使用GPS会减少电池续航时长",
+      "publisherName": "深圳市腾讯计算机系统有限公司",
+      "updateTime": 1718871497039,
+      "versionName": "10.8.3"
+    },
+    "mName": "腾讯地图",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.tencent.map",
+    "mPrivacyUrl": "https://privacy.qq.com/document/preview/29cd78d3d9da4da2b340bedb2d186612",
+    "mVersion": "10.8.3"
+  },
+  {
+    "mAuthor": "小米科技有限责任公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=H0aQMHJsD6E%2FMkDzRpjsCmfbfM9JIawfLeu3y9lH1e6Yxg%2BH3H0N08nlCahnkgxo5wq3O0F%2BG%2B6J%0D%0A4PJrTSqo60Rt7UtgURfRvCq5uIJDPhHBTL3viCOZoq6A5asJF8F3gTT5Ap%2BH5i7yfYmwQzkmOa5f%0D%0AGGe7sH3Qeg0TViwFyDg%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.miui.fm&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0e344e713959e422ebf54174f6c5fb5a2a77de361",
+    "mId": "com.miui.fm",
+    "mIntroduce": {
+      "briefShow": "好内容不花钱，0元享全站畅听",
+      "changeLog": "【优化】优化下载体验，一键勾选已听完～\n【优化】性能体验提升，修复已知问题。\n您有任何宝贵的建议，均可前往个人中心-帮助反馈中告诉我们，我们将持续改进~小蜻蜓爱你哟~",
+      "introduction": "【介绍】\n会员畅听全站内容，更多用户的选择！\n更多的世界，用听的！\n郭德纲、蒋勋、张召忠、冯唐、百家讲坛，大咖内容等你听！\n有声小说、听头条、广播电台收音机、相声小品、评书戏曲、脱口秀、儿童、情感、历史、音乐、文化、播客、助眠解压，世间百态人情冷暖，尽在蜻蜓FM小米版收听！\n\n【热门内容】\n有声小说：鬼吹灯全集、突围、上门龙婿、捡个杀手做老婆、最后一个阴阳师、茅山后裔、斗罗大陆、大仙医、官路女人香、从神迹走出的强者\n头条：观察者网、观棋有语、政委点金、天天天下、此时此刻、新闻纵横、局座时评\n相声小品：郭德纲相声集、春晚相声小品大全、赵本山小品合集\n音乐：蜻蜓空中音乐榜、新歌推荐、李峙的不老歌\n脱口秀：晓年鉴、矮大紧指北、大头侃人、雷鸣拍案、大铭脱口秀、日谈公园、大内密谈\n历史：绝密档案、百家讲坛名家经典合集、老欧讲大案、易中天品三国、野史秘闻、中国通史\n情感：心有千千结、金荣之声、故事FM、诗的晚安曲\n财经：齐俊杰看财经、老马日日评、王冠红人馆、经济日报财经早餐、财经头条、股老师早晚评、雪球\n儿童：米小圈上学记、猴子警长探案故事、小猪佩奇、宝宝巴士睡前故事、植物大战僵尸、迪士尼动画故事、海底小纵队、小马宝莉\n评书：袁阔成、刘兰芳、田连元、连丽如、赵亮、袁派、邵军荣\n\n【大咖云集】\n蒋勋、张召忠、马未都、张大春、郭德纲、陈鲁豫、许知远、骆新、刘兰芳、杜文龙、齐俊杰、马红漫、洪榕、王冠、姬宇阳、黄磊、陆琪、苏芩、周建龙、万峰、朱亚文、叶文、易中天、乐嘉、杨迪、方文山、毕飞宇、戴锦华、席亚洲、金灿荣、沈逸、金一南、陈平、董佳宁、袁阔成、蒙曼、王立群\n\n【主要功能】\n精准的个性化推荐，为你打造独一无二的收听体验\n极省流量的音频应用，播放超级流畅，任何环境下均可轻松收听\n下载收听，无需担心流量，随时随地随心收听\n收藏专辑，关注主播，节目更新及时提醒\n定时关闭，倍速播放，循环模式，贴心功能让你听得爽\n助眠冥想大自然白噪音和看小说电子书功能\n本地调频，无需网络也可以收听本地广播\n温馨提示：对于非系统自带的收音机APP，无网收听本地电台的功能无法使用哦，该功能需要硬件支持。",
+      "publisherName": "小米科技有限责任公司",
+      "updateTime": 1713422554288,
+      "versionName": "10.4.6.1"
+    },
+    "mName": "蜻蜓FM（原收音机）-免费听小说",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.miui.fm",
+    "mPrivacyUrl": "https://sss.qingting.fm/qt-agreement/privacy-20190724.html",
+    "mVersion": "10.4.6.1"
+  },
+  {
+    "mAuthor": "凤凰爱听（北京）信息技术有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ZRXtLrPQmQrf%2F8bytpAgWHDvlz1JiZ4FtXadF51dNRAUa5NTrMKAQlku8LzMIJzQZSNV54yR4%2BsR%0D%0AROndOTmmfu7OmR%2FvrX4Oy9LsxNpfwU50okrJEHMYZGw4jhoxjrWooM0HQBgqaZUDOLiFm5mTqebV%0D%0AYd69S1qPQDGignBp%2BQk%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.ifeng.fhdt&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0a329457ee5744ad615a73f1cd2ef458381567c72",
+    "mId": "com.ifeng.fhdt",
+    "mIntroduce": {
+      "briefShow": "一起在路上、睡前收听优质海量内容",
+      "changeLog": "1、资讯页增加AI简报关键词；\n2、已知Bug修复；",
+      "introduction": "凤凰FM—随时随地聆听世界的声音！\r\n\r\n【关于我们】\r\n凤凰FM为您提供最好听的音频内容，让您随时随地、想听就听！ \r\n海量内容随心选择：资讯、财经、科技、健康养生、文史军事、情感美文、睡前故事、儿童百科…… 满足您不同身份、各类需求、多种场景下的收听选择。\r\n优质原创、精品合作内容，都可以为您带来高品质的畅听体验！\r\n\r\n【选择我们】 \r\n清晨早起、上下班路上、开车途中……无聊想听新鲜事儿？来凤凰FM，填补你的通勤空缺；\r\n想给宝宝讲故事却没有思路，想教孩子英语自己又不会该怎么办？来凤凰FM，熊猫天天帮你给小朋友讲古今中外经典睡前故事；\r\n想看小说，但是工作一天眼睛太疲劳？来凤凰FM，有声小说、笑话段子、脱口秀任你选择；\r\n想要让自己变得更好，做自己人生的CEO？来凤凰FM，海量精品课程供你挑选；\r\n\r\n【优质节目】\r\n《头条速递》——掌握热点资讯，第一时间纵览天下事，我们一起“听头条”。\r\n《凤凰财经》——凤凰FM联合凤凰财经倾力打造，不同视角读懂财经新闻背后。\r\n《史迹》————用历史照亮现实，讲述不为人知的故事，凤凰FM携手凤凰历史独家打造，再论英雄，精彩呈现！\r\n《健康新视点》——关注医疗健康领域最新最有价值的信息。\r\n《科技一点通》——科技行业每日要闻，创投融资最新资讯。\r\n《睡前故事会－熊猫天天》——睡前必听故事合集，伴您度过美好亲子时光。\r\n……\r\n……\r\n\r\n【用户好评】\r\n“更新速度超快，音频内容超丰富！ 每天上下班路上都听凤凰FM！” \r\n“凤凰FM是我每天必用的软件之一，无广告，重新爱上广播！” \r\n“在生活节奏飞快的现代社会，利用碎片时间听一些新闻是非常好的资讯获取方式，凤凰FM完全满足我这个需求，赞！”\r\n\r\n如果你还不知道如何规划你的碎片时间，赶快来下载凤凰FM， wifi下载不费流量，海量节目，随时随地，想听什么就听什么！路上堵车再也不无聊！\r\n\r\n凤凰FM，一个有品质的移动电台！\r\n\r\n【联系我们】 \r\n凤凰FM官网：http://diantai.ifeng.com/ \r\n凤凰FM官博：http://e.weibo.com/ifengfm \r\n官方微信：凤凰FM（微信号：bandujun003）",
+      "publisherName": "凤凰爱听（北京）信息技术有限公司",
+      "updateTime": 1718712417103,
+      "versionName": "8.17.4"
+    },
+    "mName": "凤凰FM",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.ifeng.fhdt",
+    "mPrivacyUrl": "https://d.fm.renbenai.com/fm/read/fmd/public/fm_agreement/getAgreement.html",
+    "mVersion": "8.17.4"
+  },
+  {
+    "mAuthor": "阳听网络科技（上海）有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=kMgneszPVGXX%2FQiL6rIwD0OjsaOO%2F5IkEicDWyWvp17F9Y4Mpe0wachNsqQeD1i4hbxyMvNlC3Sx%0D%0AT%2BUViTvMhOtBsVptLFsnl9nnJ24ht3SKECdyjCgt3%2BhFaIChggQEOmriZ6FMgXsEop5NgJgAlgOR%0D%0AMJxwwyZrLcNEtT%2BBIMg%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.leting&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0d3f7e5391d784bf138bc88125d68fbfda65a7a49",
+    "mId": "com.leting",
+    "mIntroduce": {
+      "briefShow": "听你喜欢的头条",
+      "changeLog": "适配的小米的车载投屏功能",
+      "introduction": "在AI互联网时代开启之际，乐听头条作为中国领先的个性化有声资讯服务商。打通随身，家居，车载三大场景，通过智能手机，智能音箱，智能汽车等不同智能终端，为数千万用户提供个性化有声资讯服务",
+      "publisherName": "阳听网络科技（上海）有限公司",
+      "updateTime": 1712132407831,
+      "versionName": "3.2.8"
+    },
+    "mName": "乐听头条",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.leting",
+    "mPrivacyUrl": "https://www.leting.io/agreement/privacy.html",
+    "mVersion": "3.2.8"
+  },
+  {
+    "mAuthor": "央广云听文化传媒有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=JmUyePmyBS9aqs8VLIOH6oiy2JtoEK2QnZ54ME0J86k0WtnfCZ%2BB9xyGXAjL0PHU15zFLi0ywmSf%0D%0Af48Q9I2G%2FoCRkheBHdbK%2FnLutgJqjimyqoJuyXgDln62Jn0EsJqchcwcAw1lRWk8SJyVp%2Fn4vUan%0D%0AGB7VgMxwesy2YEUagY4%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.shinyv.cnr&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/08bc4268618cf4cfdaf239dfbacd34d184cab998c",
+    "mId": "com.shinyv.cnr",
+    "mIntroduce": {
+      "briefShow": "总台广播精彩有声权威资讯中国之声",
+      "changeLog": "全新版本，聆听多彩世界。",
+      "introduction": "云听--中央广播电视总台声音新媒体平台\n全新版本，聆听多彩世界。\n\n【越主流 越好听】\n听广播：全国1500余套广播频率，随时随地，听你想听。\n听电视：央视精品节目用耳朵去追，解放双眼，听见精彩。\n听资讯：权威新闻实时播报，听云听，知天下。\n听精品：经典名著“声”动呈现，海量内容放心听。\n听菁彩声：三维菁彩声重塑听觉世界，感受胜似现场的震撼声效。\n\n【特色亮点】\n「语音交互」“你好，云听”唤醒语音助手，通过语音准确找到想听的内容。\n「i听导航」新增“爱听”入口，用户可以一键找到已听、常听内容，以及更新提醒。\n「AI播报」一键开启新闻速“听”，AI声音宛若真人，新闻品质值得信赖。\n「朗读评测」精确到拼音字母发音的中文评测工具。\n「场景直播」首页头部常设直播听单入口，方便用户一键进入。\n「多模式」简洁版、少儿版、标准版，用心满足不同年龄用户需求。\n\n联系我们：邮箱：wldt@cnr.cn，或在App\"我的\"-\"意见反馈\"中提交您的建议！",
+      "publisherName": "央广云听文化传媒有限公司",
+      "updateTime": 1718173237080,
+      "versionName": "7.1.7"
+    },
+    "mName": "云听",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.shinyv.cnr",
+    "mPrivacyUrl": "https://ytweb.radio.cn/protocol/02.html",
+    "mVersion": "7.1.7"
+  },
+  {
+    "mAuthor": "北京搜狐新媒体信息技术有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=TE65Ji0ZKFAWavQYcIkY8hI7KUwEiETVhJyvHEWdthsYS83BaaE9EmwTsOjm%2B%2BJvfx5FYxRlfffV%0D%0A4ZR3R1sT2pGtmABoJ4pUJflASj9rDBSB0sWFNHz1Gm0xePwBysQe%2BilrSyTsewvFvjntrzYGA63Y%0D%0AcnEU%2FE68cw7hGW74N6Q%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.sohu.newsclient&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/03815751c46cc4048926116f8ea42f9b4394a5eae",
+    "mId": "com.sohu.newsclient",
+    "mIntroduce": {
+      "briefShow": "24小时新闻热点动态实时更新",
+      "changeLog": "头像昵称大焕新，个性十足更吸睛",
+      "introduction": "【24小时快讯+实时热榜】\n全域新闻实时报道，新鲜消息快速、准确获取\n新闻热榜实时更新，迅速了解当下热点\n\n【畅所欲言 互动讨论】 \n“时间线”着力打造一个以新鲜及时的事件点评为核心的短内容社区。搜狐各领域主编已入驻“时间线”，紧跟热点新闻，各抒己见，让新闻更加有品有料。\n\n【智能推荐+专业推荐】 \n满足严肃化新闻需求\n智能推荐：基于相关、多样化和用户兴趣点，带来富有新鲜感的新闻推荐。\n专业推荐： 500人专业编辑团队，让新闻准确可靠，让用户读到由搜狐专业编辑记者采写的深度报道。 \n\n--------------------------------------\n【联系我们】\n有任何意见、建议来这里：\n搜狐新闻APP内：打开APP→我→设置→意见反馈\n我们会认真聆听每一位用户的声音~\n\n我们的其他阵地在这里：\n微信公众号/新浪微博：@搜狐新闻客户端\n\n想打造个人IP？可以来这里：\n搜狐号自媒体平台：mp.sohu.com",
+      "publisherName": "北京搜狐新媒体信息技术有限公司",
+      "updateTime": 1718864293976,
+      "versionName": "7.2.1"
+    },
+    "mName": "搜狐新闻",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.sohu.newsclient",
+    "mPrivacyUrl": "https://3g.k.sohu.com/h5apps/20231120_doc/html/index.html?doc=basic-function-privacy-policy&v=7.2.0&h=1084&p=android",
+    "mVersion": "7.2.1"
+  },
+  {
+    "mAuthor": "喜大（上海）网络科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=YDF4HaYGmeeiV5U5YghLDLKxgfunVSDJ6t2Wz1GOEkJqlPAjAmWR80Rfjj9r53uonEuSlcaxx97T%0D%0AOJa7twwv5NVlYe9wPYcD5FiJQPO9TIGoAXZrlv5Ks0ygs4P%2FEk9Cf%2BOLzeV2fEuucj%2FbfXZ2aZdJ%0D%0AQkP%2B4Lh6VhCF%2BCGuiOc%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.ximalaya.ting.android&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/06f0830eb59444e7bbdebcc8715027d2b41f5ce7e",
+    "mId": "com.ximalaya.ting.android",
+    "mIntroduce": {
+      "briefShow": "热播新剧抢先畅听",
+      "changeLog": "对性能进行了优化，体验更加流畅\n如果您在使用中有任何问题或建议，请前往“我的”页面右上角-“我的客服”中告诉我们~",
+      "introduction": "听书、听课、听段子，6亿用户的选择！\n\n郭德纲、马东、吴晓波，尽在耳边！\n通勤、堵车、失眠，好无聊？快来听点有料的！\n \n排队、等人、做家务，碎片时间变黄金；\n晨跑很单调？资讯、知识随你动；\n开车怒烦躁？段子帮你减压少烦恼；\n睡前慢时光？自然声、音乐伴你好入眠；\n \n【特色功能 惊喜立现】\n[助眠解压]沉浸式助眠体验，把大自然搬到你的枕边；\n[咔嚓]听到精彩情节咔嚓一下，记录精彩记录美；\n[趣配音]是否想过用自己的声音驾驭不同角色？是否想过自己也能演绎经典大片？只需简单几步，就能用声音实现演艺梦；\n[语音直播]邻家女孩、知性大叔、天生歌姬，只要你来，他们都在直播间等你~\n \n【精彩内容 给你想要】\n「经典必听」\n《新闻联播》：央视新闻官方入驻，新闻联播随你点播\n《郭德纲·于谦 明天见》：相声界超强CP，经典必听\n《TED演讲》：比尔盖茨、埃隆马斯克等名人经典TED演讲一网打尽，演讲传递创意，创意改变世界\n \n「遇见更好的自己」\n《郭论·第二季》：除了读书万卷，还要阅人无数，听听口口相传的民间智慧\n《饭统戴老板·投资思维60讲》：前私募基金经理、百万级硬核大号创始人，用交易逻辑和投资视角，带你看清这个世界\n《中国通史大师课》：世界名校阵容，22位历史领军学者首次集结开讲。一辈子要用的历史知识，这里都有了\n \n「有声小说畅心听」\n《三体（全六季）》：喜马拉雅耗巨资制作，729声工场倾力打造的《三体》广播剧震撼上线，质量爆炸，让你瞬间声临其境，对三体的世界产生无穷的想象\n《雪中悍刀行》：火爆全网史诗巨作，细听百章，不可自拔，此生不悔入雪中\n《鬼吹灯·合集》：口碑炸裂，周建龙播讲故事仿佛变成一幅幅活动的画面，浮现在脑海，让人深陷其中\n \n「逗乐你的日常」\n《段子来了》：火车来了，停不下来\n《糗事播报》：一手新鲜，爆笑欢乐\n《非常溜佳期》：来自东北大妞的一档有思想的脱口秀节目\n \n「亲子互动时光」\n《宝贝睡前故事》：陪伴是最长情的告白\n《英文启蒙儿歌》：原汁原味磨耳朵\n《少儿英语启蒙课 - 牛津树》：全球近3000万孩子爱不释手，殿堂级绘本教材。每天15分钟，助力听说读全面提升，英文阅读很简单\n \n「安放身心」\n《夜听》：为爱遇见更好的自己\n《3D大自然睡前曲》：聆听森林的交响曲，倾听生命的韵律\n《菩提树下》：一起聆听心海的声音，一起领略来自世界的精彩\n \n【爱豆云集 追星不慌】\n陈妍希、林彦俊、贾乃亮、王晨艺、杨蓉、张云龙、张艺兴等都在这里等你~（P.S.按姓氏顺序，不分先后哦~）\n \n— 联系和反馈 —\n \n对于产品如有任何疑问和建议，请联系我们 \n网站：http://www.ximalaya.com \n问题反馈QQ群：204455411 \n新浪微博：http://weibo.com/ximala \n客服电话：400-838-5616",
+      "publisherName": "喜大（上海）网络科技有限公司",
+      "updateTime": 1718780052696,
+      "versionName": "9.2.61.3"
+    },
+    "mName": "喜马拉雅-听玫瑰的故事",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.ximalaya.ting.android",
+    "mPrivacyUrl": "https://passport.ximalaya.com/page/privacy_policy",
+    "mVersion": "9.2.61.3"
+  },
+  {
+    "mAuthor": "中央宣传部宣传舆情研究中心",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=MyN%2FNI2D77qAv6BHQSLuXObxEw1mxLULxW%2BkmqQKx%2Bu1NxkjMuKturx8AeWM3QUHdRNO6S1SyFVV%0D%0A464dapcTqb4a6r048Yk90ijj%2FrypqzDXsOTlbianz1HgciJLeuYLQXR9gst13z0VzmOuSWazChRD%0D%0AgZoDLzobfJS6FmT09Qk%3D%0D%0A&senderPackageName=com.miui.carlink&id=cn.xuexi.android&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0148555009c614dfc30cbbc98680a93b261746013",
+    "mId": "cn.xuexi.android",
+    "mIntroduce": {
+      "briefShow": "海量知识信息与丰富学习慕课",
+      "changeLog": "1.同学汇新增“互动榜单”，来看看你喜欢的学校吧。\n2.“百灵”频道支持观看直播，快来发现你感兴趣的直播。",
+      "introduction": "学习强国APP是“学习强国”学习平台精心打造的手机客户端，提供海量、免费的图文和音视频学习资源，探索“有组织、有管理、有指导、有服务”学习，让学习更多样、更个性、更智能、更便捷。主体内容与学习强国网站（www.xuexi.cn）同步更新。\n学习强国APP特色：\n1.丰富学习资源\n打造权威思想库、完整核心数据库、丰富文化资源库、智能学习行为分析系统、创新学习生态系统、有效管用学习服务系统。\n2.学习强国号\n总有一款适合您。多家中央主要单位新媒体第一时间提供原创优质学习资源，支持个性化订阅。\n3.视频学习\n视听盛宴中收获鲜活的学习体验。第一频道、短视频、慕课、影视剧、纪录片……源源不断提供海量音视频。\n4.在线答题\n定制提供在线学习答题。文字题、音频题、视频题，每日答题、智能答题、专题考试，让力争上游的您不断攀升新高度。\n5.学习积分\n学有所获、学有所用。每日登录、浏览资讯、学习知识、挑战答题，每一种学习行为都会获得积分。",
+      "publisherName": "中央宣传部宣传舆情研究中心",
+      "updateTime": 1717747037202,
+      "versionName": "2.57.0"
+    },
+    "mName": "学习强国",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=cn.xuexi.android",
+    "mPrivacyUrl": "https://h5.xuexi.cn/page/protection-policy/index.html",
+    "mVersion": "2.57.0"
+  },
+  {
+    "mAuthor": "上海黄豆网络科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=G%2Bdh3jNo%2BDWbxCFbJ%2B6t1PjRTPhHNE1f7LTEzw0MTWfD37Ileuw8ZuwTx9BNFW43BMbtSJ45tQIH%0D%0Afq8iI3QWAOFpQ4tcUf6r%2F8QGPvmd5liE6DrjgNw9qFXirw73n2DxNRqzxdPuDchxe5vs9wjAupRx%0D%0AGhSI8D%2FqIdzZhJJ%2BZiM%3D%0D%0A&senderPackageName=com.miui.carlink&id=io.dushu.fandengreader&nonce=6891500786321026654:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/039a8c4086a6d494399b6f5870c4fc4755ebddaf8",
+    "mId": "io.dushu.fandengreader",
+    "mIntroduce": {
+      "briefShow": "听懂好书，生活更好",
+      "changeLog": "功能更新：\n1.评论功能样式优化\n2.一些问题修复和体验优化\n内容更新：\n1.樊登讲书专栏近期上线书籍解读：\n-《现金为王》：如果你的公司账面收入令人兴奋，银行账户却空空如也；如果你正梦想着让自己的公司变成一棵结满金果的摇钱树，那么《现金为王》或许就是你解决问题、实现梦想的秘籍。《现金为王》是一本专注于企业现金管理的实用指南，围绕核心理念“利润优先”，提供了一系列解决方案，从开设利润账户到合理分配薪资和税收，每一步都旨在帮助企业转变传统的经营逻辑，将账面数字变成口袋里的真金白银。\n2.非凡精读专栏近期上线书籍解读：\n-《你是你吃出来的》：养生怎么吃？病了怎么吃？减肥怎么吃？怎么控糖？肉类怎么选？蔬菜吃多少？不吃水果行不行？关于生活中众多的饮食迷思，这本书将给你答案。你是你吃出来的，我们吃的每一口食物，身体都知道。\n3.李蕾讲经典专栏近期上线书籍解读：\n-《杜甫：诗圣的深情与悲悯》：杜甫不是生来就只会写“沉郁顿挫”之语，他也经历过鲜衣怒马、胸怀大志的时期。但中年之后，他看到了盛唐花团锦簇之下百姓的血与泪，他看到了征兵与苛税之下人民的苦难生活。于是，杜甫用诗歌记录下这一切，将深情与悲悯揉进诗句中。我们读杜甫的诗，实际上是在读他的人生，读那个时代普通人的人生。",
+      "introduction": "帆书是一款以书籍讲解为主要功能的APP，由各个行业的专家学者担任讲书人，深入浅出，解读好书精华，让用户轻松省时地领悟一本好书。另外，帆书APP还涵盖了众多优质课程、训练营等内容版块，为用户提供丰富多样的阅读相关服务。\n\n【书籍解读】\n各领域专业人士，深入浅出，提炼书中重点，让用户轻松领悟一本书。核心书籍解读产品：樊登讲书、非凡精读馆、李蕾讲经典。\n\n省时：平均45分钟*，听懂一本好书\n易懂：提炼重点，解读深入浅出\n优质：专业选书团队，甄选高分好书\n有用：收获实用知识和处世智慧\n\n樊登讲书：轻轻松松，听懂实用新知！\n樊登本人主讲的内容板块，以通俗易懂的方式，每周解读一本好书，帮助你轻松领悟书中精华，给工作、生活、学习带来帮助和启发。\n\n非凡精读馆：100+位大咖，书与人都是惊喜！\n非凡精读馆的使命，是为每一本书找到合适的讲书人，非凡汇聚文学、历史、心理、育儿、职场等垂直领域的学者、教授、大咖，基于视野与学养，讲透每一本好书。\n\n李蕾讲经典：专注人文经典，给你爱与力量！\n聚焦人文经典领域，内容涵盖世界名著、国风经典、中国现当代经典以及经典人物传记；从女性视角出发进行解读，更加柔软，更加具有心灵的穿透力，被称拥有“人间清醒的女性视角”。\n\n【课程】\n帆书旗下基于书籍内容的深度学习版块，联合专业讲师，帮助用户系统化、模块化学习书籍内容，以实现学以致用，内容涵盖人文社科、职场、心灵、家庭、生活等。\n\n【训练营】\n训练营是一种拥有社交属性的社群学习模式，内容来源于“帆书”的精品课程和书籍解读，并配套有教学环节、社群服务、主题活动等。通过不同内容、产品与服务的交互，让用户相互陪伴、一起成长。\n\n内容分类：\n【亲子家庭】《正面管教》、《亲密关系》、《如何让你爱的人爱上你》、《父母的语言》，用正确的方法向家人传递爱，提升家庭幸福指数。\n\n【心灵成长】\n《终身成长》、《自卑与超越》、《应对焦虑》、《自尊》，练就一颗强韧的心淡定应对，走向更好的未来。\n\n【人文历史】《世界观》、《列奥纳多·达·芬奇传》、《苏东坡传》、《孔子传》，解读文化旅程，感受伟人平凡传奇的一生。\n\n【职场进阶】《非暴力沟通》、《刻意练习》、《关键对话》、《高效能人士的七个习惯》，打造核心竞争力，职场进阶不停歇。\n\n【商业财经】《可复制的领导力》、《销售就是要玩转情商》、《反脆弱》、《顾客为什么购买》，与行业大师、业内新锐并肩携手，做正确的事。\n\n【健康生活】《活好》、《运动改造大脑》、《高效休息法》、《学会吃饭》，发现小窍门，掌握生活常识，享受智慧之美。\n\n*45分钟为帆书APP书籍解读平均用时。\n\n联系我们\n官方客服热线：400-900-3117（周一至周日9:00-21:00）",
+      "publisherName": "上海黄豆网络科技有限公司",
+      "updateTime": 1718280007877,
+      "versionName": "5.88.0"
+    },
+    "mName": "帆书-原樊登读书",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=io.dushu.fandengreader",
+    "mPrivacyUrl": "https://card.dushu.io/app/eula/index.html",
+    "mVersion": "5.88.0"
+  },
+  {
+    "mAuthor": "北京快手科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=X9Xeg58M1BAIsZ8mYDnfkPo78wqPeMKoWiW9GOJGBUela9MnPoSZuInpcr%2FqlPObH7wU2egN4ivm%0D%0ALyjqoOroVmrHnHOxPufgz8ew%2Bpx73bU4H5C4YywUfNufIPl0FeOWWfs0EfTpkSEPtwSkajrLWk1X%0D%0A3ol4ISDftJcSQSVmr2k%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.smile.gifmaker&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/05e8fec484df5493b98246d4bb3b76f60f49330b4",
+    "mId": "com.smile.gifmaker",
+    "mIntroduce": {
+      "briefShow": "拥抱每一种生活",
+      "changeLog": "- 进行了问题修复以及性能提升\n- 优化您的产品使用体验",
+      "introduction": "「有趣视频，一看就上瘾」\n好看的、好玩的，好笑的短视频，都在这。\n\n「一起同框，越玩越有戏」\n随时随地多人同框，搭戏模仿，有趣更有戏。\n\n「互动直播，有你更出众」\n随时随地侃大山，好看的小哥哥小姐姐都爱玩的直播在这里。\n\n「支持原创，潇洒做自己」\n脑洞大、才艺多，有绝活，给你大舞台。\n\n「美颜滤镜，拍出你的美」\n30款美颜滤镜，上百种魔法表情；要萌要酷随你变，怎么变都好看。",
+      "publisherName": "北京快手科技有限公司",
+      "updateTime": 1718875277566,
+      "versionName": "12.5.30.36946"
+    },
+    "mName": "快手",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.smile.gifmaker",
+    "mPrivacyUrl": "https://app.m.kuaishou.com/public/index.html#/protocol/privacy",
+    "mVersion": "12.5.30.36946"
+  },
+  {
+    "mAuthor": "北京抖音信息服务有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=aTDrW1FkVfYQyFJ03Cr%2Fmgc%2FkevlhJ2XxW2Nz3fsLmqzImXahYTNLcOfGOucdrFCRjCMyux6RJ%2Bk%0D%0AIcKTDthjYJivz1xj%2FkcdTmv5mvvV921pKu%2B63doS9iq6KL9QCfq2FaDyJSYPDDxUw1ykNr43oldp%0D%0AwkW%2BsWxw49Vll0OToWM%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.ss.android.article.video&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/02820f5bbd4a142f18d232fddfbc4461c68c5953e",
+    "mId": "com.ss.android.article.video",
+    "mIntroduce": {
+      "briefShow": "热门短剧随心看",
+      "changeLog": "《穿越王妃不好惹》《国士无双》《北境战神》《你是我的眼》《天降五宝，千亿爹地快投降》正在热播中！逆袭、甜宠、都市、古装等众多热门短剧内容等你来看~",
+      "introduction": "西瓜视频\n每月超过 320 万创作人、1.8 亿用户活跃在西瓜视频，和他们一起，点亮对生活的好奇心！\n\n【西瓜放映厅 你的专属私人影院】\n足不出户看大片，打造你的私人家庭影院！\n《涉过愤怒的海》《夺宝奇兵5》《疯狂元素城》《速度与激情10》《银河护卫队3》《满江红》《阿凡达：水之道》全网同步首发，\n还有经典电视剧、高分电影、热门综艺等精品内容，4K超高清更精彩。\n\n【在这里 看见不一样的烟火】\n你可以跟着@渔人阿烽去海边开盲盒，也可以跟着@洛桑和小志玛去雪山摘草药，还可以跟着@一朵北漂看看北漂家族如何把生活过的火热，更多不一样的烟火生活等你来发现！\n\n【西瓜直播 带你足不出户看世界】\n花样美食、游戏大神、趣味旅行、乡野生活，大千世界精彩目不暇接，快跟着主播们一起去看世界吧！\n\n【成为西瓜视频创作人 一起感受创作的力量】\n把课堂搬进博物馆的@水星逛博物馆，为全村老人拍照的@小白的奇幻旅行等超多创作人在西瓜等你，成为西瓜视频创作人，让更多人感受生活的温度，共享视频世界～\n\n*数据来源：QuestMobile",
+      "publisherName": "北京抖音信息服务有限公司",
+      "updateTime": 1718702932473,
+      "versionName": "8.6.2"
+    },
+    "mName": "西瓜视频",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.ss.android.article.video",
+    "mPrivacyUrl": "https://www.ixigua.com/privacy_policy/",
+    "mVersion": "8.6.2"
+  },
+  {
+    "mAuthor": "广州虎牙信息科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=M2637b7gvqE%2FTX%2Bvb0%2BP357YoiQiXBqIhnN74j3BzfEpf4b3kwIOSlqIuDuGqSU3fjqnRF5p2BT9%0D%0Ay3H6XrR3xwt2hfMqfhEUDUU1YKVb5pGIsPf4NUgUGPxO%2B2Z0PcTnmndXzhMGjkAeAOOtqbkxXXPJ%0D%0ANvxC7ViUlPHVL9KQjj8%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.duowan.kiwi&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/044404d55547f9c7eede0ad6f540a1b6e3d4385b7",
+    "mId": "com.duowan.kiwi",
+    "mIntroduce": {
+      "briefShow": "热门游戏赛事直播",
+      "changeLog": "近期热播：\n- 英雄联盟 传奇杯决赛即将上演，Letme 直面 BAOLAN，他们又能否跨过仁川上野这座大山捧杯？\n- 英雄联盟 LPL夏季赛定组赛全新赛事，全局BP给选手英雄池带来巨大考验，下轮晋级资格谁能拔得头筹？",
+      "introduction": "技术驱动娱乐-弹幕式互动直播平台\n【近期热点】\n传奇杯：传奇再现，群星闪耀!2024英雄联盟传奇杯(LegendCup)集结众多传奇老将展开同台竞技，首次采用选人组队模式+无畏征召赛制，老传奇与新赛制的碰撞又能带来怎样激动人心的对决?\nLPL夏季赛：英雄联盟 LPL夏季赛战火再起，全新赛制，即将掀起变革之风，重铸新魂！每一场比赛，都是对荣耀的追逐。在LPL的战场上，每一个瞬间都充满了无限可能。在这个盛夏，让我们一同见证LPL的荣耀时刻！\nWRL超级联赛：2024英雄联盟手游超级联赛，打破边界，重新定义电竞！新增【1v1】独立赛道，职业选手、主播，及路人王将汇集在新联赛赛道上，同步角逐Solo冠军，荣耀之战！等你来战！\n\n【锁定虎牙 精彩不断看不完】\n四大频道：网游竞技、单机热游、娱乐天地、手游休闲\n精品分类：英雄联盟、吃喝玩乐、星秀、云顶之弈、逃离塔科夫、Apex英雄、穿越火线、地下城与勇士、永劫无间、主机游戏、刀塔自走棋、荒野大镖客、我的世界、炉石传说、守望先锋\n热门手游：王者荣耀、和平精英、第五人格、球球大作战、CF枪战王者、跑跑卡丁车、狼人杀、皇室战争、阴阳师、英雄联盟手游\n\n【顶尖赛事 火热盛典】\n传奇杯：传奇再现，群星闪耀!2024英雄联盟传奇杯(LegendCup)集结众多传奇老将展开同台竞技，首次采用选人组队模式+无畏征召赛制，老传奇与新赛制的碰撞又能带来怎样激动人心的对决?\nLPL夏季赛：英雄联盟 LPL夏季赛战火再起，全新赛制，即将掀起变革之风，重铸新魂！每一场比赛，都是对荣耀的追逐。在LPL的战场上，每一个瞬间都充满了无限可能。在这个盛夏，让我们一同见证LPL的荣耀时刻！\nWRL超级联赛：2024英雄联盟手游超级联赛，打破边界，重新定义电竞！新增【1v1】独立赛道，职业选手、主播，及路人王将汇集在新联赛赛道上，同步角逐Solo冠军，荣耀之战！等你来战！\n\n\n【星光闪耀 现场跟你互动】\nUZI：LPL代表性选手，超强ADC在线\n吕德华：王者热门主播，搞笑直播\n韦神：吃鸡大神主播，炫酷操作Carry全场，决斗圈都是我的\n骚男：高玩与声优的融合，逆风翻盘，只服骚男\n楚河：每天直播12小时的单机游戏，约定30年，陪你到老\n更多知名主播精彩直播\n\n【娱乐星秀，要你好看】\n莎啦啦：风扇女神，实力歌姬\n周幼熙：天生舞者，隐藏歌手\n宇文泡儿：脱口秀Talk King\n沐莹莹：甜美唱将，元气少女\n林真心：可甜可盐，才艺俱佳\n\n【吃喝玩乐 玩出疯格】\n音乐律动生活：音乐达人聚集地，打造极具享受的视听盛宴\n户外直播：街头互动体验人生百态，徒步山林探寻自然奥秘，超跑时尚引领酷玩生活\n美女美食够新鲜：海鲜盛宴、野味大餐，将美食一网打尽\n二次元：唱见舞见激萌无限，声优大神在线撩人，一起冲破次元壁\n\n【意见反馈】\n1.意见反馈：进入设置->帮助&反馈，即可把你的宝贵意见反馈给虎牙直播项目组，我们会认真倾听你的每一条建议。\n2.用户交流QQ群：833390206。",
+      "publisherName": "广州虎牙信息科技有限公司",
+      "updateTime": 1718186025673,
+      "versionName": "12.1.63"
+    },
+    "mName": "虎牙直播",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.duowan.kiwi",
+    "mPrivacyUrl": "https://app-agreements.huya.com/13585/mobile/index.html",
+    "mVersion": "12.1.63"
+  },
+  {
+    "mAuthor": "北京抖音科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ZOc9VWpsJXUxqlsfOj6kzuRO1yDxBKJDMxSeuIsBmq1N6sfyir8%2Bqm3%2FgkYJS9lW71qTdaUqxDWA%0D%0A53QO1i4nSqK8VziiD9hcyehVT5zRjQ%2FGu9y%2BACV%2FTUkZ2secisOQF62oflwLF5PE%2B6ht2Hvu35Tv%0D%0AwYonzPXvzV3RrbrBHmE%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.ss.android.ugc.aweme&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0a15633fd6dc64bffaea28eed2566c3be590bf936",
+    "mId": "com.ss.android.ugc.aweme",
+    "mIntroduce": {
+      "briefShow": "记录美好生活",
+      "changeLog": "持续优化，为您带来更好的使用体验",
+      "introduction": "抖音是一个帮助用户表达自我，记录美好生活的短视频平台。\n\n ● 记录美好在抖音 \n智能匹配音乐、一键卡点视频，还有超多原创特殊效果、滤镜、场景切换帮你一秒变大片，让你的生活轻松记录在抖音！ \n\n● 实用内容在抖音 \n生活妙招、美食做法、旅行攻略、科技知识、新闻时事、同城资讯，你需要的实用内容都在抖音！ \n\n● 各行各业在抖音 \n原创音乐人、京剧演员、中国科学院教授、非遗传承人、烧烤摊老板、快递小哥等，每个人真实的生活都在抖音！ \n\n● 温馨陪伴在抖音\n开启长辈模式，享受贴心关爱与陪伴，看得更清，用得舒心。\n\n全民记录自我，生活的美好都在这里！\n\n＠联系我们\n-应用内反馈:「我」-「右上角菜单」-「设置」-「反馈与帮助」\n-官方邮箱：feedback@douyin.com\n-客户服务热线：95152",
+      "publisherName": "北京抖音科技有限公司",
+      "updateTime": 1718699407475,
+      "versionName": "30.3.1"
+    },
+    "mName": "抖音",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.ss.android.ugc.aweme",
+    "mPrivacyUrl": "https://www.douyin.com/agreements/?id=6773901168964798477",
+    "mVersion": "30.3.1"
+  },
+  {
+    "mAuthor": "宝宝巴士股份有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ZgwvtoO1A7yAx6zxvvfODTYmS7jPp%2Bx4F1dYr87grcFsYBmnP%2BWO0V8s0t7JqSaYc%2BKMOInqOkaB%0D%0AdofBzDTnxvXgLhUg%2BItzPYz%2FFMullUjAcTbWfReA2jkfwjSvBrBKHnQh2n8mJPwGQMwpKnYtL35r%0D%0AqdrWMmC6AvsMu6zLM64%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.sinyee.babybus.recommendapp&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0f96aefb2f91b49079a0052d47c461b1be0d780ea",
+    "mId": "com.sinyee.babybus.recommendapp",
+    "mIntroduce": {
+      "briefShow": "宝宝巴士官方启蒙平台",
+      "changeLog": "1.修复一些小问题,提升使用体验",
+      "introduction": "【宝宝巴士】，一站式满足启蒙需求，汇聚10000+集儿歌动画、500+个益智互动、17000+个好故事，构筑儿童快乐启蒙乐园。\n\n【宝宝巴士直通车】\n第一站：\n到达动画乐园，随心点播\n亲子动画：全新IP依娜和恰恰上线！他们将引领宝宝学习新知识，开启一段充满欢笑的启蒙旅程。\n百科科普：用动画视频生动演绎天气变化、动植物生长、季节轮转等不同主题自然百科知识。\n\n第二站：\n探访儿歌王国，听见世界\n生活习惯：包含哄睡叫早、饮食习惯、卫生好习惯、安全指南等儿歌，呵护幼儿成长。\n国学熏陶：将唐诗宋词、三字经等经典国学编成儿歌，唱读结合，传递优秀传统文化。\n\n第三站：\n前往故事小岛，放飞想象\n尽情推理：原创热门侦探故事，邀请宝宝和猴子警长、啦咘啦哆警长一起破案，欢乐推理。\n快乐阅读：宝宝巴士精选童话绘本、宝宝巴士绘本故事等丰富儿童绘本，宝宝能够自主阅读。\n\n第四站：\n畅游互动小镇，自由探索\n探索百科：小宝宝从哪来？春节为什么要贴春联？宝宝快来体验科普互动，亲自揭秘。\n职业认知：消防员、医生、警察、汽修师、宇航员、甜品师等百变职业，宝宝都能扮演。\n\n赶快乘坐【宝宝巴士】，体验海量好听好看好玩的内容吧！\n\n【宝宝巴士SVIP权益介绍】\n1、超省事：\n①畅享0-8岁全部启蒙资源，解锁24000+优质内容，好听好看又好玩；\n②覆盖经典儿歌、安全动画、睡前故事、国学启蒙等热门成长主题；\n③智能分龄设计，根据年龄精准推荐内容，内容更合适，孩子更喜欢。\n2、超省钱：\n①1个SVIP，通用宝宝巴士旗下200+款产品，7大成长领域全面覆盖；\n②福利优惠多，奖励金兑好礼，商城好物优惠购，更有不定时福利发放。\n3、超省心：\n宝宝巴士深耕儿童启蒙领域10余年，获得全球6亿家庭用户的认可与信赖。\n\n宝宝巴士（BabyBus）是专注打造儿童启蒙数字产品的原创品牌。宝宝巴士秉承“快乐启蒙”的理念，用奇妙有趣的方式，为儿童量身定制以“好听（国学故事）、好看（儿歌动画）、好玩（互动APP）”为特征的海量数字启蒙内容，让孩子趣味认知、感受“真、善、美”。\n\n【联系我们】\n微博：@宝宝巴士 \n官网：http://www.babybus.com \n邮箱：cn@babybus.com",
+      "publisherName": "宝宝巴士股份有限公司",
+      "updateTime": 1718619522160,
+      "versionName": "8.6.68"
+    },
+    "mName": "宝宝巴士",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.sinyee.babybus.recommendapp",
+    "mPrivacyUrl": "https://udb.babybus.com/AccountH5/ProductPrivacy?ProductID=3103&PlatForm=11&VerID=9999",
+    "mVersion": "8.6.68"
+  },
+  {
+    "mAuthor": "上海宽娱数码科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=TXLU0nzOiA2A2EryIYjqZaudY6c63qJOghGN2dZr6FyO0gakUxsXXFsXWmnJSbHhilProLhzDcxE%0D%0AeTkKhAY7aKLq3taT5Z6AA75o3F%2B44IikYe55vyDTbdU%2BXSxs2zFAzLJ0tbBDJf5wT556obt%2FEXyN%0D%0Af0LrHD3OpHmhyKlkhFg%3D%0D%0A&senderPackageName=com.miui.carlink&id=tv.danmaku.bili&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/078e3059c151d45ae237dbd548141e534bdd8c861",
+    "mId": "tv.danmaku.bili",
+    "mIntroduce": {
+      "briefShow": "名师学长助力填好志愿",
+      "changeLog": "填志愿，上B站！\n-看千位名师解读专业，学长学姐分享真实就读体验，助力选专业，填好志愿！",
+      "introduction": "【番剧动画】\n最强柱集结，开启魔鬼训练！《鬼灭之刃 柱训练篇》即将上线！\n魔物的100种烹饪方式？感谢地下城的馈赠！《迷宫饭》爆笑热播中！\n如果一拳解决不了那就再来一拳！《怪兽8号》高燃启动！\n正义铁憨憨的超级变换形态！《铁甲小宝 重制版》经典再现！\n女孩们的户外露营趣事！《摇曳露营 第三季》治愈热播中！\n爷爷奶奶返老还童！？高浓纯爱《老夫老妻重返青春》共享甜蜜时刻！\n平凡的少女，也终将闪闪发光！《夜晚的水母不会游泳》独家热播中！\n京阿尼吹奏乐部三年夺金完美落幕！《吹响吧！上低音号 第三季》独家热播中！\n还有海量精彩番剧内容等着你，快来与小伙伴们一同观看吧！\n\n【国产动画】\n《凡人修仙传》虚天殿高能开启，各路大能悉数登场，危机逼近韩立该如何应对？\n《永生之气壮山河》卑微家奴踏入仙道，仙魔双修，山河榜开！\n《回铭之烽火三月》改编自《回到明朝当王爷》，大学生协助丹朱王朝富国强民！\n《从姑获鸟开始之龙城风云》改编自活儿该小说，阎浮世界，异兽传承！\n《邂逅她的少女时代》重返20岁，找回丢失的青春！\n《幻宠师》改编自乱原著《宠魅》驭兽天才绝境逆袭冲向最强！\n《有兽焉 第三季》神兽下凡，福泽相伴！\n《喜羊羊与灰太狼》经典版上线！一起来青青草原欢度一夏～\n\n【电影】\n《维和防暴队》炮火逆行，火力全开！黄景瑜王一博热血演绎维和警察！\n《末路狂花钱》  十天花光100万！老铁喜剧人齐聚开启撒金人生！\n《周处除三害》B站热播！血洗礼堂？阮经天以恶制恶揭秘洗脑邪教！\n《子弹列车》超刺激动作大片！皮特变身杀手出击，战斗力爆表！\n\n【电视剧】\n剧版《时光代理人》6月19日首播，如何弥补遗憾，一场跨时空之旅即将展开！\n神级脑洞，无限反转，《九号秘事》系列最终季每周四12点B站独播！\n《铠甲勇士刑天》热播中，国产特摄经典之作回归。\n《权力的游戏》、《西部世界》等HBO经典片单来袭，再也不会剧荒了！\n《咸鱼翻身计划》6月3日上线B站！来看废柴主角误入奇幻世界实现逆袭！\n《镀金时代 第二季》全集放送！来看名门新贵如何玩转权钱游戏！\n\n【纪录片】\nB站出品的首部毕业主题纪录片《毕业2024》每周五晚8点播出，献给即将毕业或已经毕业的你~\n《大自然的女王》聚焦动物界中最具代表性的六个由雌性统治的世界，6月18日起每周二12点播出！\n《疼痛之王2》亲测各类动物昆虫噬咬疼痛指数，每周四19点，有胆你就来！\nB站出品的讲述守护人与文物故事的纪录片《文物守护人》6月16日起每周日晚8播出！\nB站出品的国内首档聚焦设计领域的4K系列纪录片《向设计提问》每周二晚8点播出！\nB站出品的纪录片《这里有宝藏》每周一20点播出，讲述藏地文化与潮流生活～\n“贝爷”荒野再出发！携各路明星体验多样原始自然的《荒野求生全明星：绝境挑战》每周六11点，一起来探险吧！\n\n【综艺】\n和朴树、陶喆、张韶涵、周深等一起奔赴毕业狂欢！《永远22！2024bilibili毕业歌会》正在热播~\n《轰隆隆隆遇见你》每周三12点全网独播！李维嘉、武艺化身列车员，在火车上遇见crush，开启寻爱冒险！\n梁咏琪、A-lin、张含韵、于文文、陈楚生等齐聚《天赐的声音5》超神音乐现场，每周五晚来B站围观！\n《国家宝藏 第4季》回归，众星云集演绎历史传奇！每周六晚上B站一起来看国宝的前世今生！\n《此生要去的100个地方》全网首播！每周日晚19:30，跟随央视主持团共赴大好河山！这旅游攻略，还不快来抄作业~",
+      "publisherName": "上海宽娱数码科技有限公司",
+      "updateTime": 1718785308283,
+      "versionName": "8.1.0"
+    },
+    "mName": "哔哩哔哩-填志愿上B站",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=tv.danmaku.bili",
+    "mPrivacyUrl": "https://www.bilibili.com/blackboard/privacy-h5.html",
+    "mVersion": "8.1.0"
+  },
+  {
+    "mAuthor": "福建皮皮跳动科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=jUZJTwVnRYSN5niKSy%2FfHfAh9VrT3Fg4Gx9vbM8PXVbRYkl2k0VxXUtHQy0PCIwonIYKo8c2XmLa%0D%0A3er59mwLFVm0tT0MtZVjStIMRm77KgOM4%2B2bj2jUPZlKGyIQpjSrOx%2FlGmK1tlcRj7EiVMt0vUNb%0D%0AX9TnHX3%2Btl6ziUzTbbk%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.sup.android.superb&nonce=5281107681144739802:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/08cb80d701fdc4f34b2fe542980fa15742b7a8734",
+    "mId": "com.sup.android.superb",
+    "mIntroduce": {
+      "briefShow": "年轻人聚集的内容互动社区",
+      "changeLog": "- 爆笑视频、脑洞神评刷到飞起！ \n- 优化了用户体验、提升性能及稳定性",
+      "introduction": "皮这一下，很开心。 皮皮虾APP周年庆来了！\n真皮大会好看好玩福利超多，万元现金手机电视等你抽，皮友们都来了，就等你喽！ \n皮皮虾的用户都有一个共同的昵称——皮皮侠。他们曾说：「只要人人都分享出一些快乐，世界将变成美好的人间。」不信？看看皮皮侠们接受采访时的发言： \n「自从找到了皮皮虾，外地工作的我，感觉到暖暖的很贴心。」--用户「七彩皮皮虾」\n「我以为我再找不到一个 App，能让你笑得没心没肺，也能让你痛哭流涕，能让你反思人生，也能让你看到生活的无限希望。」--用户「我就是爱玩啊！」 \n看完还不信？那再来看看皮皮虾的几个优点： \n-【眼】万物皆可眼！喜欢的内容眼一下；想待会儿再看的内容眼一下；怕忘记的内容眼一下……只要眼在手，天下我都有！ \n-【表情包】除了插眼，我们还为大家做了几款皮皮虾专属的搞笑表情，真香、我全都要……你们都懂的~另外，现在皮皮虾也能用视频来制作表情包啦，可以把手机里的照片贴到任意视频上，不愧是居家旅行，整蛊朋友的良药！ \n-【点赞彩蛋】什么彩蛋？点个赞试试看呀！ \n--我们希望能听到你的反馈，打开皮皮虾 App 点击「我的」-「意见反馈」，每一条消息我们都会认真阅读，给出回复。",
+      "publisherName": "福建皮皮跳动科技有限公司",
+      "updateTime": 1718075713924,
+      "versionName": "5.0.1"
+    },
+    "mName": "皮皮虾",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.sup.android.superb",
+    "mPrivacyUrl": "https://api.pipix.com/fe/static-text-page.html?conf=user_privacy",
+    "mVersion": "5.0.1"
+  },
+  {
+    "mAuthor": "微梦创科网络科技（中国）有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ZDmEVLm7KdjelWMThoRPY%2FA8pDDLw%2FIrkstWsgE29PyhG9PpCxD1VOALNpuYXn%2BC4fQdYmF8eMi0%0D%0AU2iseopkyjncL6x1%2FVnnc1RvfHluc78U5Qpgczx3bXHbL%2FOl%2BDArA%2BAdPPakNxp3%2BMCxuIVZiZw%2B%0D%0ASqudOyFebPde8E7aLyI%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.sina.weibo&nonce=7945390770516101324:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0bf2d587fa3774b7585092d9e37c54932a60295ba",
+    "mId": "com.sina.weibo",
+    "mIntroduce": {
+      "briefShow": "上微博看明星热点新闻资讯",
+      "changeLog": "问题修复及性能优化，改进用户体验",
+      "introduction": "在微博，随时随地，发现新鲜事；\n在微博，每天有数以亿计的网友在围观、分享和互动；\n在微博，时政要闻、文娱热点、热门事件一手掌握；\n在微博，海量视频，等你来刷；专业达人、游戏动漫、美食时尚、情感搞笑、娱乐综艺、影视、体育、VLOG、知识应有尽有；\n不忘初心，助力公益。以微博之力，让世界更美。\n【热搜榜】\n呈现新鲜、热门、有料的热点，想知道正在发生什么，狂戳微博热搜榜\n【明星大V动态】\n明星、大V的新动态，加关注便可看到喜爱博主动态\n【微博短视频】\n海量高清视频，新鲜内容极速呈现，随时随地超级省流量\n【超话社区】\n在超话社区找到与自己相同兴趣的网友，畅聊互动\n【微博推荐】\n热点内容迅速捕捉，各类海量内容让您看不停\n【发微博】\n尽情的表达自己内心的感受，一段独白，几张图片又或是一段视频，几分钟的直播，让世界听到你的声音\n【微博会员】\n微博会员是给微博个人用户提供一系列增值服务的产品。旨在为广大微博用户提供专属的特权服务，包括身份、装扮、功能增强、安全、福利等30+项特权。\n可在应用内购买微博会员，四种方式订阅微博会员：\n第1种：12元/月订阅微博会员，并按月自动续订。\n第2种：30元/季订阅微博会员，并按季自动续订。\n第3种：60元/半年订阅微博会员，并按半年自动续订。\n第4种：118元/年订阅微博会员，并按年自动续订。\n购买须知：\n1.账户会在到期前1天，自动续订并扣除相应费用。\n2.如需取消自动续订，请至少提前1天在个人帐户设置中取消。\n3.购买生效后，无法退款。\n4.购买后，用户可在个人帐户设置中管理或关闭自动续订。\n5.如已是微博会员,订购后会在现有的会员服务期基础上延长服务时间。\n6.微博会员服务协议 http://new.vip.weibo.cn/newpay/protocol\n7.自动续费会员服务协议 http://new.vip.weibo.cn/newpay/baoyueprotocol\n8.隐私政策和使用条款 https://m.weibo.cn/c/privacy\n【微博直播】\n汇聚明星、红人、媒体热门事件等直播内容，在观看直播内容的同时可以实时与大V互动！同时，可自己发布直播微博并及时通知给你的粉丝噢！",
+      "publisherName": "微梦创科网络科技（中国）有限公司",
+      "updateTime": 1718931961627,
+      "versionName": "14.6.2"
+    },
+    "mName": "微博",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.sina.weibo",
+    "mPrivacyUrl": "https://m.weibo.cn/c/privacy/detail",
+    "mVersion": "14.6.2"
+  },
+  {
+    "mAuthor": "智者四海（北京）技术有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=ai0CklFLD8oReOd6SkHAvYAZj%2F8clLrm7dUA8tlq4YhDSu2KZX6SqA1HDfz9iHe9%2BplQ5jEO%2FUc3%0D%0AX3vo%2FGdwg8f7ZY4BagEZFU3JY3tk8mBcGGngyELMHkNhdQStJDIJuMuWXgNKHrizR%2BAcbxKZHZEt%0D%0AYyMIgqfBCWHeUc2%2BR4g%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.zhihu.android&nonce=7945390770516101324:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/06b808e1ca2a543da82f6455242881db8fceae2d5",
+    "mId": "com.zhihu.android",
+    "mIntroduce": {
+      "briefShow": "有问题，就会有答案",
+      "changeLog": "- 我们对多项细节进行了优化，希望为你提供更好的使用体验",
+      "introduction": "【填报志愿先上知乎，专业前途各有答案】\n今年将有1342万考生奔赴考场，他们将迎来人生中重要的一次考试。\n考场试卷上的问题和考场下的问题迎面而来。\n面对高考，我们发问「一次高考是否能决定我们的人生」？走出考场，考生发问「今年的题比去年难吗」？填报志愿，家长和考生发问「如何科学合理地填报志愿？」「有哪些专业值得推荐？」…...\n有问题，就会有答案。知乎校园发起 2024 高考活动，广大知友以高考过来人和学长学姐的身份参与高考创作，以真实、理性、客观的态度为高考生答疑解惑。\n\n【100 位高考过来人】\n知乎邀约站内来自各行各业的高考过来人来分享他们的志愿报考、专业解读，学校就读体验\n来知乎，你会看到这一路走来的过来人分享他们的「昨天」和「今天」的经历\n来帮助更多高考生，看到关于「专业」和「前途」的各种答案。\n他们包括：\n高中或高校教师，或参与过高考报名指导等工作，能够为考生分享可信赖的专业选择、报考建议；\n新职人：毕业于国内外院校，并仍然在当下追求在工作和生活上的成长，愿意真诚分享从专业选择、到就读体验及职业发展建议；\n还有更多来自不同学校专业的学长学姐们分享他们的就读体验，专业学习、校园生活.......\n在知乎，你想知道的高考信息全都搞定！\n\n【高考回答活动】\n活动时间：2024.5.28-2024.6.30\n志愿填报篇：5.28-6.30 百道高考志愿填报核心问题，聚焦新形势下如何科学合理报考。\n试题解读篇：6.7-6.13 高考各科试题评价与命题趋势解析，高考生参考体验的真实分享。\n专业选择篇：6.11-6.30 热门冷门专业深度追问，专业前途出路的真实探讨。\n考后心理篇：6.11-6.30 人生不只一次考试，不完美也没关系。\n特别策划「大人的高考」： 5.28-6.18 邀您一起回到那段为了梦想寸步不让的时光。\n\n【高考想法活动】\n活动时间：即日起-7.3\n发想法带以下指定话题为高考加油吧!\n#2024高考加油、#一人一个高考小目标 \n#高考结束那天、#高考复习笔记、#这专业我熟、#请 pick 我的母校\n#高考志愿帮我选、#最后一个高三暑假\n\n如有任何问题或建议，可发送邮件至 app@zhihu.com，知乎的工程师不会漏掉任何一条反馈哟~",
+      "publisherName": "智者四海（北京）技术有限公司",
+      "updateTime": 1718852278864,
+      "versionName": "10.11.0"
+    },
+    "mName": "知乎",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.zhihu.android",
+    "mPrivacyUrl": "https://www.zhihu.com/term/privacy",
+    "mVersion": "10.11.0"
+  },
+  {
+    "mAuthor": "北京抖音信息服务有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=LIOtSGU6mIFDdpWH4AX1kpS36BqML6ME4gqVIi6ejAPc73wMQuGck%2FqlFQLpjlcSvShfhqhxTIiD%0D%0A1%2B5FTqSgHDHaQIwSGW3Vp0NIaAB0b9N3bxR6ed16ImYe3mvnFTX8t78GylJcRf60KN4zrMYVCdGh%0D%0AqdKpgy2hGr3sEO3llBo%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.ss.android.article.news&nonce=7945390770516101324:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0c2976568a7ff41bab6d491580d9ba138a21e211f",
+    "mId": "com.ss.android.article.news",
+    "mIntroduce": {
+      "briefShow": "海量视频热点资讯高效搜索",
+      "changeLog": "- 修复了已知问题，提升了app的稳定性",
+      "introduction": "今日头条，懂你的信息平台\n \n官方推荐精品应用，千万网友与你一起在头条！\n \n热点资讯应有尽有 — 智能推荐你感兴趣的信息、无数明星大V在这里跟你互动；\n人人都是原创作者 — 发布自己的微头条、与千万网友在问答区讨论热点；\n发现生活记录生活 — 有精彩无广告短视频，也有草根生活喊麦达人原创小视频；\n专属领域满足个性 — 分类连载小说漫画超快更新，足球美妆全部覆盖；\n \n【发布专属微头条】\n上传发布内容，你也可以上头条！\n超多明星大V入驻，与偶像互动升级\n \n【新鲜短视频看不停】\n影视娱乐游戏生活...覆盖千万精彩短视频\n无广告省流量，热点冷门一键看过瘾\n \n【丰富频道 你要的都在这里】\n海量小说免费读，超清漫迷社区\n一手体育新闻  热辣赛事点评\n \n【个性化内容支持收藏】\n80万+头条号网罗精彩资讯，有内容有观点\n心仪内容一键收藏，历史记录搜索无压力\n \n@联系头条今日头条官网：toutiao.com\n头条号自媒体平台：mp.toutiao.com\n官方合作：BD@toutiao.com\n任何反馈：请打开APP，前往“我的-用户反馈”进行反馈\n头条招聘：HR@toutiao.com",
+      "publisherName": "北京抖音信息服务有限公司",
+      "updateTime": 1718699840042,
+      "versionName": "9.8.5"
+    },
+    "mName": "今日头条",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.ss.android.article.news",
+    "mPrivacyUrl": "https://lf26-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/toutiaoGIP/5fb89857-7777-40b8-8105-989b87cdfb8f.html",
+    "mVersion": "9.8.5"
+  },
+  {
+    "mAuthor": "百度在线网络技术（北京）有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=McPHzVAWBZOr%2F3NNj2mrZfRsIKOy2tH0ZCZS2Kx1dPu6u6lYaAzalB%2FF5bKwWzgiBfTJMgxDMVP8%0D%0AIX%2Fci%2FazpiCdJrIDRssmFRef1XJ9Fd4cFT0HRL6A0iepBCTciRWb4qHZtm%2BIgDIXrQwoXI4d7GYv%0D%0A7n57PvmPodVyaWT5jeE%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.baidu.searchbox&nonce=7945390770516101324:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0ee582d80f2174edfa6b988a6810a6430600e5e4d",
+    "mId": "com.baidu.searchbox",
+    "mIntroduce": {
+      "briefShow": "新闻头条热门视频智能搜索",
+      "changeLog": "修复已知问题，提升用户体验",
+      "introduction": "百度App，数亿用户优选的搜索和资讯客户端。更懂中文的语音搜索识别技术。热门新闻、视频抢先看，更有全网正版小说。\n【短视频】\n首页底部快速进入视频频道，海量明星娱乐、搞笑段子、经典剧集视频，还能拍小视频记录身边新鲜事，简单操作能拍又能看。\n【极速搜索】\n强大的搜索引擎，一站搜索全网，搜文字、搜图片，快速识别，帮你找到想要的内容。\n【热门资讯】\n精选新闻资讯、视频、漫画等优质内容。热门评论置顶显示，查看、互动更方便。\n【语音识别】\n加入更懂中文的语音识别技术，支持语音播报资讯，嘈杂环境也可精准识别，彻底解放双手。\n【正版小说】\n海量正版小说随心看，新增书架列表、阅读进度可以多台设备自动云同步。\n【收藏同步】\n账号登录状态下收藏内容可自动备份，不同设备随时同步、随心更换。",
+      "publisherName": "百度在线网络技术（北京）有限公司",
+      "updateTime": 1719210406429,
+      "versionName": "13.59.5.10"
+    },
+    "mName": "百度",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.baidu.searchbox",
+    "mPrivacyUrl": "https://s.bdstatic.com/common/agreement/privacy.html",
+    "mVersion": "13.59.5.10"
+  },
+  {
+    "mAuthor": "广东小天才科技有限公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=UzjgmAEkb%2BdHggM9iFUhT%2BvIL%2Bf1fVZ42nxslX7aEH344nToBwmLc15wqANMzKyD9x91auNzUdYx%0D%0As6tzymIZNAFfgiWUN1a5CHje1hWLNXnSit4ZVq0061GmlU3rKszQxu5hgLd4ECjUZzT%2BY1Nuu91D%0D%0AzKgBAl5x0wnTwzfs0ac%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.xtc.watch&nonce=10608971124837629:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0ddc9311ff58f48e5ad51bd83fe5cae3547e7f17c",
+    "mId": "com.xtc.watch",
+    "mIntroduce": {
+      "briefShow": "能打电话的手表！",
+      "changeLog": "1. 家长可以更便携、更安全地帮孩子添加好友\n2. 优化更多界面布局，提升使用体验\n3. 部分功能支持人脸或指纹校验，提升操作安全性",
+      "introduction": "小天才电话手表,能打电话的手表! 无论你在哪里,一个电话马上能找到你! 该app是与电话手表配合使用的，主要有以下几大功能： 互打电话：绑定过手表的、在通讯录中添加的、手表小伙伴，均可与小伙伴互通电话，开启拒绝陌生人来电，保障孩子的安全； 定位：实时查看孩子的位置，让家长更安心； 微聊：实时的语音聊天，与孩子更加便捷的沟通，使家庭关系更加亲密和融洽； 上课禁用：开启上课禁用，只能查看时间和发送SOS，让孩子安心专注学习； 上学守护：在孩子上下学时实时的守护孩子的安全。 手表交友：手表之间可以通过互碰的方式加好友，好友之间可以互打电话和微聊噢；",
+      "publisherName": "广东小天才科技有限公司",
+      "updateTime": 1716951483032,
+      "versionName": "9.17.03"
+    },
+    "mName": "小天才",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.xtc.watch",
+    "mPrivacyUrl": "https://static.watch.okii.com/watch/privacy_explain/index.html?language=zh-CN&areaCode=86&appBrand=xtc#/",
+    "mVersion": "9.17.03"
+  },
+  {
+    "mAuthor": "小米公司",
+    "mDeepLink": "mimarket://details?startDownload=true&detailStyle=5&sign=N8aUxi4%2FGBjGxxjvBsO%2Fo4FLaPbFdmMqKR5m2rHvSq4N0ujpHV%2BIKOe%2BFlApG%2BxaLEjJfNBq4AJG%0D%0AJ04Y94u3SaHrLGtpVmyf6FsSpwQCwkvMfygzq84AQC5CiHwumZCelF14H%2BcFwHArCt0Fg0tPHtu1%0D%0AOzdeFE54upuDQARpyOY%3D%0D%0A&senderPackageName=com.miui.carlink&id=com.miui.weather2&nonce=10608971124837629:28653532&appClientId=carwithopen",
+    "mIcon": "http://fgb0.market.xiaomi.com/download/AppStore/0b37928377828498b8eace90a6675ff3dbd57a794",
+    "mId": "com.miui.weather2",
+    "mIntroduce": {
+      "briefShow": "亲近自然，不必只在窗前",
+      "changeLog": "- 修复一些版本体验问题",
+      "introduction": "全新动态天气\r\n\r\n感受真实的力量\r\n- 将自然、极具生命力的气候元素融入 App，在指尖即可感受气候变化，欣赏阴晴雨雪之美。\r\n\r\n瞬时动人，久久倾心\r\n- 我们通过模拟生态，演绎自然。让你只需轻轻按住屏幕，就能感受时间凝固于指尖的美丽，悬停的雨滴，变化的霞光。\r\n\r\n全面贴心服务\r\n- 15天天气气预报：提供未来15天的天气现象、温度、空气质量、风况等信息。\r\n- 24小时天气预报：逐小时展示未来24小时的天气现象、温度、空气质量、风况等信息。\r\n- 空气质量：提供未来24小时、15天的空气质量预报、空气中污染物浓度的高低。\r\n- 2小时降水概率：及时、精准预测所在街道未来2小时每分钟降雨变化。\r\n- 生活指数：提供未来3天的穿衣建议、防晒建议、运动、限行等实用生活信息。\r\n- 城市管理：查询天气更快捷，管理城市更方便。",
+      "publisherName": "小米公司",
+      "updateTime": 1717399151824,
+      "versionName": "15.0.8.5"
+    },
+    "mName": "小米天气",
+    "mPermissionUrl": "https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-app-permission.html?urlKey=app_permission_h5_cdn&packageName=com.miui.weather2",
+    "mPrivacyUrl": "https://privacy.mi.com/weather/zh_CN/",
+    "mVersion": "15.0.8.5"
+  }
+]

@@ -1,0 +1,493 @@
+Class #3967            -
+  Class descriptor  : 'Ljg/j;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Ljg/j;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Ljg/j;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 12 16-bit code units
+430b20:                                        |[430b20] jg.j.<clinit>:()V
+430b30: 6300 d16c                              |0000: sget-boolean v0, Lcom/xiaomi/accountsdk/account/d;.a:Z // field@6cd1
+430b34: 3800 0500                              |0002: if-eqz v0, 0007 // +0005
+430b38: 1a00 eba4                              |0004: const-string v0, "http://.account.preview.n.xiaomi.net" // string@a4eb
+430b3c: 2803                                   |0006: goto 0009 // +0003
+430b3e: 1a00 17a5                              |0007: const-string v0, "https://.account.xiaomi.com" // string@a517
+430b42: 6900 18da                              |0009: sput-object v0, Ljg/j;.a:Ljava/lang/String; // field@da18
+430b46: 0e00                                   |000b: return-void
+      catches       : (none)
+
+    #1              : (in Ljg/j;)
+      name          : 'a'
+      type          : '()V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 17 16-bit code units
+430b48:                                        |[430b48] jg.j.a:()V
+430b58: 7100 e9ce 0000                         |0000: invoke-static {}, Ljg/j;.d:()Landroid/webkit/CookieManager; // method@cee9
+430b5e: 0c00                                   |0003: move-result-object v0
+430b60: 3800 0500                              |0004: if-eqz v0, 0009 // +0005
+430b64: 6e10 9205 0000                         |0006: invoke-virtual {v0}, Landroid/webkit/CookieManager;.removeAllCookie:()V // method@0592
+430b6a: 1a00 a421                              |0009: const-string v0, "HttpCookies" // string@21a4
+430b6e: 1a01 ff89                              |000b: const-string v1, "cookie clear all" // string@89ff
+430b72: 7120 1fd7 1000                         |000d: invoke-static {v0, v1}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+430b78: 0e00                                   |0010: return-void
+      catches       : (none)
+
+    #2              : (in Ljg/j;)
+      name          : 'b'
+      type          : '(Ljava/util/Map;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 35 16-bit code units
+430b7c:                                        |[430b7c] jg.j.b:(Ljava/util/Map;)V
+430b8c: 1a00 818c                              |0000: const-string v0, "deviceId" // string@8c81
+430b90: 7220 a5cd 0300                         |0002: invoke-interface {v3, v0}, Ljava/util/Map;.containsKey:(Ljava/lang/Object;)Z // method@cda5
+430b96: 0a01                                   |0005: move-result v1
+430b98: 3801 0300                              |0006: if-eqz v1, 0009 // +0003
+430b9c: 0e00                                   |0008: return-void
+430b9e: 2201 1304                              |0009: new-instance v1, Lcom/xiaomi/accountsdk/hasheddeviceidlib/HashedDeviceIdUtil; // type@0413
+430ba2: 7100 260e 0000                         |000b: invoke-static {}, Lcom/xiaomi/accountsdk/account/XMPassportSettings;.b:()Landroid/app/Application; // method@0e26
+430ba8: 0c02                                   |000e: move-result-object v2
+430baa: 7020 ca10 2100                         |000f: invoke-direct {v1, v2}, Lcom/xiaomi/accountsdk/hasheddeviceidlib/HashedDeviceIdUtil;.<init>:(Landroid/content/Context;)V // method@10ca
+430bb0: 6e10 ce10 0100                         |0012: invoke-virtual {v1}, Lcom/xiaomi/accountsdk/hasheddeviceidlib/HashedDeviceIdUtil;.c:()Ljava/lang/String; // method@10ce
+430bb6: 0c01                                   |0015: move-result-object v1
+430bb8: 7230 accd 0301                         |0016: invoke-interface {v3, v0, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430bbe: 1a00 26eb                              |0019: const-string v0, "userSpaceId" // string@eb26
+430bc2: 7100 68d7 0000                         |001b: invoke-static {}, Lpd/x;.a:()Ljava/lang/String; // method@d768
+430bc8: 0c01                                   |001e: move-result-object v1
+430bca: 7230 accd 0301                         |001f: invoke-interface {v3, v0, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430bd0: 0e00                                   |0022: return-void
+      catches       : (none)
+
+    #3              : (in Ljg/j;)
+      name          : 'c'
+      type          : '(Ljava/util/Map;Lcom/xiaomi/accountsdk/utils/FidNonce$Type;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 56 16-bit code units
+430bd4:                                        |[430bd4] jg.j.c:(Ljava/util/Map;Lcom/xiaomi/accountsdk/utils/FidNonce$Type;)V
+430be4: 1a00 f690                              |0000: const-string v0, "fidNonce" // string@90f6
+430be8: 7220 a5cd 0300                         |0002: invoke-interface {v3, v0}, Ljava/util/Map;.containsKey:(Ljava/lang/Object;)Z // method@cda5
+430bee: 0a01                                   |0005: move-result v1
+430bf0: 3901 3100                              |0006: if-nez v1, 0037 // +0031
+430bf4: 1a01 f790                              |0008: const-string v1, "fidNonceSign" // string@90f7
+430bf8: 7220 a5cd 1300                         |000a: invoke-interface {v3, v1}, Ljava/util/Map;.containsKey:(Ljava/lang/Object;)Z // method@cda5
+430bfe: 0a02                                   |000d: move-result v2
+430c00: 3802 0300                              |000e: if-eqz v2, 0011 // +0003
+430c04: 2827                                   |0010: goto 0037 // +0027
+430c06: 2202 2604                              |0011: new-instance v2, Lcom/xiaomi/accountsdk/utils/FidNonce$a; // type@0426
+430c0a: 7010 2011 0200                         |0013: invoke-direct {v2}, Lcom/xiaomi/accountsdk/utils/FidNonce$a;.<init>:()V // method@1120
+430c10: 6e20 2111 4200                         |0016: invoke-virtual {v2, v4}, Lcom/xiaomi/accountsdk/utils/FidNonce$a;.a:(Lcom/xiaomi/accountsdk/utils/FidNonce$Type;)Lcom/xiaomi/accountsdk/utils/FidNonce; // method@1121
+430c16: 0c04                                   |0019: move-result-object v4
+430c18: 3804 1d00                              |001a: if-eqz v4, 0037 // +001d
+430c1c: 5442 edf0                              |001c: iget-object v2, v4, Lpd/f;.a:Ljava/lang/String; // field@f0ed
+430c20: 7110 7204 0200                         |001e: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430c26: 0a02                                   |0021: move-result v2
+430c28: 3902 1500                              |0022: if-nez v2, 0037 // +0015
+430c2c: 5442 eef0                              |0024: iget-object v2, v4, Lpd/f;.b:Ljava/lang/String; // field@f0ee
+430c30: 7110 7204 0200                         |0026: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430c36: 0a02                                   |0029: move-result v2
+430c38: 3802 0300                              |002a: if-eqz v2, 002d // +0003
+430c3c: 280b                                   |002c: goto 0037 // +000b
+430c3e: 5442 edf0                              |002d: iget-object v2, v4, Lpd/f;.a:Ljava/lang/String; // field@f0ed
+430c42: 7230 accd 0302                         |002f: invoke-interface {v3, v0, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430c48: 5444 eef0                              |0032: iget-object v4, v4, Lpd/f;.b:Ljava/lang/String; // field@f0ee
+430c4c: 7230 accd 1304                         |0034: invoke-interface {v3, v1, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430c52: 0e00                                   |0037: return-void
+      catches       : (none)
+
+    #4              : (in Ljg/j;)
+      name          : 'd'
+      type          : '()Landroid/webkit/CookieManager;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 3
+      insns size    : 15 16-bit code units
+430940:                                        |[430940] jg.j.d:()Landroid/webkit/CookieManager;
+430950: 7100 9105 0000                         |0000: invoke-static {}, Landroid/webkit/CookieManager;.getInstance:()Landroid/webkit/CookieManager; // method@0591
+430956: 0c00                                   |0003: move-result-object v0
+430958: 280a                                   |0004: goto 000e // +000a
+43095a: 0d00                                   |0005: move-exception v0
+43095c: 1a01 a421                              |0006: const-string v1, "HttpCookies" // string@21a4
+430960: 1a02 4196                              |0008: const-string v2, "getCookieManagerOrNull>>>get cookieManager err" // string@9641
+430964: 7130 20d7 2100                         |000a: invoke-static {v1, v2, v0}, Lpd/b;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@d720
+43096a: 1200                                   |000d: const/4 v0, #int 0 // #0
+43096c: 1100                                   |000e: return-object v0
+      catches       : 1
+        0x0000 - 0x0004
+          Ljava/lang/Exception; -> 0x0005
+
+    #5              : (in Ljg/j;)
+      name          : 'e'
+      type          : '(Ljava/util/Map;)Ljava/util/List;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 78 16-bit code units
+4309ec:                                        |[4309ec] jg.j.e:(Ljava/util/Map;)Ljava/util/List;
+4309fc: 2200 4c20                              |0000: new-instance v0, Ljava/util/ArrayList; // type@204c
+430a00: 7010 1ccd 0000                         |0002: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@cd1c
+430a06: 7210 a7cd 0400                         |0005: invoke-interface {v4}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@cda7
+430a0c: 0c04                                   |0008: move-result-object v4
+430a0e: 7210 c8cd 0400                         |0009: invoke-interface {v4}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@cdc8
+430a14: 0c04                                   |000c: move-result-object v4
+430a16: 7210 7ccd 0400                         |000d: invoke-interface {v4}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+430a1c: 0a01                                   |0010: move-result v1
+430a1e: 3801 3c00                              |0011: if-eqz v1, 004d // +003c
+430a22: 7210 7dcd 0400                         |0013: invoke-interface {v4}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+430a28: 0c01                                   |0016: move-result-object v1
+430a2a: 1f01 6120                              |0017: check-cast v1, Ljava/util/Map$Entry; // type@2061
+430a2e: 7210 a2cd 0100                         |0019: invoke-interface {v1}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+430a34: 0c02                                   |001c: move-result-object v2
+430a36: 1f02 bd1f                              |001d: check-cast v2, Ljava/lang/CharSequence; // type@1fbd
+430a3a: 7110 7204 0200                         |001f: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430a40: 0a02                                   |0022: move-result v2
+430a42: 3802 0300                              |0023: if-eqz v2, 0026 // +0003
+430a46: 28e8                                   |0025: goto 000d // -0018
+430a48: 7210 a2cd 0100                         |0026: invoke-interface {v1}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+430a4e: 0c02                                   |0029: move-result-object v2
+430a50: 7210 a3cd 0100                         |002a: invoke-interface {v1}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+430a56: 0c03                                   |002d: move-result-object v3
+430a58: 1f03 bd1f                              |002e: check-cast v3, Ljava/lang/CharSequence; // type@1fbd
+430a5c: 7110 7204 0300                         |0030: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430a62: 0a03                                   |0033: move-result v3
+430a64: 3803 0500                              |0034: if-eqz v3, 0039 // +0005
+430a68: 1a01 0000                              |0036: const-string v1, "" // string@0000
+430a6c: 2805                                   |0038: goto 003d // +0005
+430a6e: 7210 a3cd 0100                         |0039: invoke-interface {v1}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+430a74: 0c01                                   |003c: move-result-object v1
+430a76: 1a03 a105                              |003d: const-string v3, "=" // string@05a1
+430a7a: 2430 6a28 3201                         |003f: filled-new-array {v2, v3, v1}, [Ljava/lang/Object; // type@286a
+430a80: 0c01                                   |0042: move-result-object v1
+430a82: 1a02 6201                              |0043: const-string v2, "%s%s%s" // string@0162
+430a86: 7120 0bcc 1200                         |0045: invoke-static {v2, v1}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+430a8c: 0c01                                   |0048: move-result-object v1
+430a8e: 7220 8bcd 1000                         |0049: invoke-interface {v0, v1}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@cd8b
+430a94: 28c1                                   |004c: goto 000d // -003f
+430a96: 1100                                   |004d: return-object v0
+      catches       : (none)
+
+    #6              : (in Ljg/j;)
+      name          : 'f'
+      type          : '(Ljava/lang/String;)Ljava/util/Map;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 3
+      insns size    : 59 16-bit code units
+430a98:                                        |[430a98] jg.j.f:(Ljava/lang/String;)Ljava/util/Map;
+430aa8: 2200 5920                              |0000: new-instance v0, Ljava/util/HashMap; // type@2059
+430aac: 7010 67cd 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+430ab2: 7110 7204 0700                         |0005: invoke-static {v7}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430ab8: 0a01                                   |0008: move-result v1
+430aba: 3801 0300                              |0009: if-eqz v1, 000c // +0003
+430abe: 1100                                   |000b: return-object v0
+430ac0: 1a01 6b05                              |000c: const-string v1, "; " // string@056b
+430ac4: 6e20 20cc 1700                         |000e: invoke-virtual {v7, v1}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@cc20
+430aca: 0c07                                   |0011: move-result-object v7
+430acc: 2171                                   |0012: array-length v1, v7
+430ace: 1202                                   |0013: const/4 v2, #int 0 // #0
+430ad0: 0123                                   |0014: move v3, v2
+430ad2: 3513 2500                              |0015: if-ge v3, v1, 003a // +0025
+430ad6: 4604 0703                              |0017: aget-object v4, v7, v3
+430ada: 7110 7204 0400                         |0019: invoke-static {v4}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430ae0: 0a05                                   |001c: move-result v5
+430ae2: 3805 0300                              |001d: if-eqz v5, 0020 // +0003
+430ae6: 2818                                   |001f: goto 0037 // +0018
+430ae8: 1a05 a105                              |0020: const-string v5, "=" // string@05a1
+430aec: 6e20 13cc 5400                         |0022: invoke-virtual {v4, v5}, Ljava/lang/String;.indexOf:(Ljava/lang/String;)I // method@cc13
+430af2: 0a05                                   |0025: move-result v5
+430af4: 12f6                                   |0026: const/4 v6, #int -1 // #ff
+430af6: 3365 0300                              |0027: if-ne v5, v6, 002a // +0003
+430afa: 280e                                   |0029: goto 0037 // +000e
+430afc: 6e30 25cc 2405                         |002a: invoke-virtual {v4, v2, v5}, Ljava/lang/String;.substring:(II)Ljava/lang/String; // method@cc25
+430b02: 0c06                                   |002d: move-result-object v6
+430b04: d805 0501                              |002e: add-int/lit8 v5, v5, #int 1 // #01
+430b08: 6e20 24cc 5400                         |0030: invoke-virtual {v4, v5}, Ljava/lang/String;.substring:(I)Ljava/lang/String; // method@cc24
+430b0e: 0c04                                   |0033: move-result-object v4
+430b10: 7230 accd 6004                         |0034: invoke-interface {v0, v6, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430b16: d803 0301                              |0037: add-int/lit8 v3, v3, #int 1 // #01
+430b1a: 28dc                                   |0039: goto 0015 // -0024
+430b1c: 1100                                   |003a: return-object v0
+      catches       : (none)
+
+    #7              : (in Ljg/j;)
+      name          : 'g'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 13 16-bit code units
+430c54:                                        |[430c54] jg.j.g:(Ljava/lang/String;Ljava/lang/String;)V
+430c64: 2200 5920                              |0000: new-instance v0, Ljava/util/HashMap; // type@2059
+430c68: 7010 67cd 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+430c6e: 1201                                   |0005: const/4 v1, #int 0 // #0
+430c70: 7230 accd 3001                         |0006: invoke-interface {v0, v3, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+430c76: 7120 edce 0200                         |0009: invoke-static {v2, v0}, Ljg/j;.h:(Ljava/lang/String;Ljava/util/Map;)V // method@ceed
+430c7c: 0e00                                   |000c: return-void
+      catches       : (none)
+
+    #8              : (in Ljg/j;)
+      name          : 'h'
+      type          : '(Ljava/lang/String;Ljava/util/Map;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 2
+      outs          : 3
+      insns size    : 153 16-bit code units
+430c80:                                        |[430c80] jg.j.h:(Ljava/lang/String;Ljava/util/Map;)V
+430c90: 7100 e9ce 0000                         |0000: invoke-static {}, Ljg/j;.d:()Landroid/webkit/CookieManager; // method@cee9
+430c96: 0c00                                   |0003: move-result-object v0
+430c98: 3900 0300                              |0004: if-nez v0, 0007 // +0003
+430c9c: 0e00                                   |0006: return-void
+430c9e: 1211                                   |0007: const/4 v1, #int 1 // #1
+430ca0: 6e20 9305 1000                         |0008: invoke-virtual {v0, v1}, Landroid/webkit/CookieManager;.setAcceptCookie:(Z)V // method@0593
+430ca6: 7110 9405 0100                         |000b: invoke-static {v1}, Landroid/webkit/CookieManager;.setAcceptFileSchemeCookies:(Z)V // method@0594
+430cac: 7210 a7cd 0700                         |000e: invoke-interface {v7}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@cda7
+430cb2: 0c01                                   |0011: move-result-object v1
+430cb4: 7210 c8cd 0100                         |0012: invoke-interface {v1}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@cdc8
+430cba: 0c01                                   |0015: move-result-object v1
+430cbc: 7210 7ccd 0100                         |0016: invoke-interface {v1}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+430cc2: 0a02                                   |0019: move-result v2
+430cc4: 1a03 a421                              |001a: const-string v3, "HttpCookies" // string@21a4
+430cc8: 3802 3500                              |001c: if-eqz v2, 0051 // +0035
+430ccc: 7210 7dcd 0100                         |001e: invoke-interface {v1}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+430cd2: 0c02                                   |0021: move-result-object v2
+430cd4: 1f02 6120                              |0022: check-cast v2, Ljava/util/Map$Entry; // type@2061
+430cd8: 2204 ea1f                              |0024: new-instance v4, Ljava/lang/StringBuilder; // type@1fea
+430cdc: 7010 3dcc 0400                         |0026: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+430ce2: 1a05 028a                              |0029: const-string v5, "cookie-set " // string@8a02
+430ce6: 6e20 47cc 5400                         |002b: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430cec: 7210 a2cd 0200                         |002e: invoke-interface {v2}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+430cf2: 0c05                                   |0031: move-result-object v5
+430cf4: 7210 a3cd 0200                         |0032: invoke-interface {v2}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+430cfa: 0c02                                   |0035: move-result-object v2
+430cfc: 1f02 e81f                              |0036: check-cast v2, Ljava/lang/String; // type@1fe8
+430d00: 7110 f2ce 0200                         |0038: invoke-static {v2}, Ljg/l;.a:(Ljava/lang/String;)Ljava/lang/String; // method@cef2
+430d06: 0c02                                   |003b: move-result-object v2
+430d08: 2420 6a28 2500                         |003c: filled-new-array {v5, v2}, [Ljava/lang/Object; // type@286a
+430d0e: 0c02                                   |003f: move-result-object v2
+430d10: 1a05 6e01                              |0040: const-string v5, "%s=%s" // string@016e
+430d14: 7120 0bcc 2500                         |0042: invoke-static {v5, v2}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+430d1a: 0c02                                   |0045: move-result-object v2
+430d1c: 6e20 47cc 2400                         |0046: invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430d22: 6e10 50cc 0400                         |0049: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+430d28: 0c02                                   |004c: move-result-object v2
+430d2a: 7120 1fd7 2300                         |004d: invoke-static {v3, v2}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+430d30: 28c6                                   |0050: goto 0016 // -003a
+430d32: 7110 eace 0700                         |0051: invoke-static {v7}, Ljg/j;.e:(Ljava/util/Map;)Ljava/util/List; // method@ceea
+430d38: 0c07                                   |0054: move-result-object v7
+430d3a: 7210 93cd 0700                         |0055: invoke-interface {v7}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@cd93
+430d40: 0c07                                   |0058: move-result-object v7
+430d42: 7210 7ccd 0700                         |0059: invoke-interface {v7}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+430d48: 0a01                                   |005c: move-result v1
+430d4a: 3801 0c00                              |005d: if-eqz v1, 0069 // +000c
+430d4e: 7210 7dcd 0700                         |005f: invoke-interface {v7}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+430d54: 0c01                                   |0062: move-result-object v1
+430d56: 1f01 e81f                              |0063: check-cast v1, Ljava/lang/String; // type@1fe8
+430d5a: 7130 efce 6001                         |0065: invoke-static {v0, v6, v1}, Ljg/j;.j:(Landroid/webkit/CookieManager;Ljava/lang/String;Ljava/lang/String;)V // method@ceef
+430d60: 28f1                                   |0068: goto 0059 // -000f
+430d62: 6e10 8f05 0000                         |0069: invoke-virtual {v0}, Landroid/webkit/CookieManager;.flush:()V // method@058f
+430d68: 6e20 9005 6000                         |006c: invoke-virtual {v0, v6}, Landroid/webkit/CookieManager;.getCookie:(Ljava/lang/String;)Ljava/lang/String; // method@0590
+430d6e: 0c06                                   |006f: move-result-object v6
+430d70: 7110 ebce 0600                         |0070: invoke-static {v6}, Ljg/j;.f:(Ljava/lang/String;)Ljava/util/Map; // method@ceeb
+430d76: 0c07                                   |0073: move-result-object v7
+430d78: 2200 ea1f                              |0074: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+430d7c: 7010 3dcc 0000                         |0076: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+430d82: 1a01 018a                              |0079: const-string v1, "cookie-after-set " // string@8a01
+430d86: 6e20 47cc 1000                         |007b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430d8c: 7110 f2ce 0600                         |007e: invoke-static {v6}, Ljg/l;.a:(Ljava/lang/String;)Ljava/lang/String; // method@cef2
+430d92: 0c06                                   |0081: move-result-object v6
+430d94: 6e20 47cc 6000                         |0082: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430d9a: 1a06 4e00                              |0085: const-string v6, " -> " // string@004e
+430d9e: 6e20 47cc 6000                         |0087: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430da4: 7210 abcd 0700                         |008a: invoke-interface {v7}, Ljava/util/Map;.keySet:()Ljava/util/Set; // method@cdab
+430daa: 0c06                                   |008d: move-result-object v6
+430dac: 6e20 46cc 6000                         |008e: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@cc46
+430db2: 6e10 50cc 0000                         |0091: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+430db8: 0c06                                   |0094: move-result-object v6
+430dba: 7120 1fd7 6300                         |0095: invoke-static {v3, v6}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+430dc0: 0e00                                   |0098: return-void
+      catches       : (none)
+
+    #9              : (in Ljg/j;)
+      name          : 'i'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 3
+      insns size    : 178 16-bit code units
+430dc4:                                        |[430dc4] jg.j.i:(Ljava/util/List;)V
+430dd4: 3807 b100                              |0000: if-eqz v7, 00b1 // +00b1
+430dd8: 7210 92cd 0700                         |0002: invoke-interface {v7}, Ljava/util/List;.isEmpty:()Z // method@cd92
+430dde: 0a00                                   |0005: move-result v0
+430de0: 3800 0400                              |0006: if-eqz v0, 000a // +0004
+430de4: 2900 a900                              |0008: goto/16 00b1 // +00a9
+430de8: 7100 e9ce 0000                         |000a: invoke-static {}, Ljg/j;.d:()Landroid/webkit/CookieManager; // method@cee9
+430dee: 0c00                                   |000d: move-result-object v0
+430df0: 3900 0300                              |000e: if-nez v0, 0011 // +0003
+430df4: 0e00                                   |0010: return-void
+430df6: 7210 93cd 0700                         |0011: invoke-interface {v7}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@cd93
+430dfc: 0c07                                   |0014: move-result-object v7
+430dfe: 7210 7ccd 0700                         |0015: invoke-interface {v7}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+430e04: 0a01                                   |0018: move-result v1
+430e06: 3801 9800                              |0019: if-eqz v1, 00b1 // +0098
+430e0a: 7210 7dcd 0700                         |001b: invoke-interface {v7}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+430e10: 0c01                                   |001e: move-result-object v1
+430e12: 1f01 0a20                              |001f: check-cast v1, Ljava/net/HttpCookie; // type@200a
+430e16: 2202 ea1f                              |0021: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+430e1a: 6e10 9fcc 0100                         |0023: invoke-virtual {v1}, Ljava/net/HttpCookie;.getName:()Ljava/lang/String; // method@cc9f
+430e20: 0c03                                   |0026: move-result-object v3
+430e22: 6e10 a2cc 0100                         |0027: invoke-virtual {v1}, Ljava/net/HttpCookie;.getValue:()Ljava/lang/String; // method@cca2
+430e28: 0c04                                   |002a: move-result-object v4
+430e2a: 2420 6a28 4300                         |002b: filled-new-array {v3, v4}, [Ljava/lang/Object; // type@286a
+430e30: 0c03                                   |002e: move-result-object v3
+430e32: 1a04 6f01                              |002f: const-string v4, "%s=%s; " // string@016f
+430e36: 7120 0bcc 3400                         |0031: invoke-static {v4, v3}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+430e3c: 0c03                                   |0034: move-result-object v3
+430e3e: 7020 3fcc 3200                         |0035: invoke-direct {v2, v3}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@cc3f
+430e44: 6e10 a1cc 0100                         |0038: invoke-virtual {v1}, Ljava/net/HttpCookie;.getSecure:()Z // method@cca1
+430e4a: 0a03                                   |003b: move-result v3
+430e4c: 3803 0700                              |003c: if-eqz v3, 0043 // +0007
+430e50: 1a03 0b63                              |003e: const-string v3, "Secure; " // string@630b
+430e54: 6e20 47cc 3200                         |0040: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430e5a: 6e10 a4cc 0100                         |0043: invoke-virtual {v1}, Ljava/net/HttpCookie;.isHttpOnly:()Z // method@cca4
+430e60: 0a03                                   |0046: move-result v3
+430e62: 3803 0700                              |0047: if-eqz v3, 004e // +0007
+430e66: 1a03 ac21                              |0049: const-string v3, "HttpOnly; " // string@21ac
+430e6a: 6e20 47cc 3200                         |004b: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430e70: 6e10 9ecc 0100                         |004e: invoke-virtual {v1}, Ljava/net/HttpCookie;.getMaxAge:()J // method@cc9e
+430e76: 0b03                                   |0051: move-result-wide v3
+430e78: 1605 0000                              |0052: const-wide/16 v5, #int 0 // #0
+430e7c: 3103 0305                              |0054: cmp-long v3, v3, v5
+430e80: 3d03 1700                              |0056: if-lez v3, 006d // +0017
+430e84: 6e10 9ecc 0100                         |0058: invoke-virtual {v1}, Ljava/net/HttpCookie;.getMaxAge:()J // method@cc9e
+430e8a: 0b03                                   |005b: move-result-wide v3
+430e8c: 7120 c0cb 4300                         |005c: invoke-static {v3, v4}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@cbc0
+430e92: 0c03                                   |005f: move-result-object v3
+430e94: 2410 6a28 0300                         |0060: filled-new-array {v3}, [Ljava/lang/Object; // type@286a
+430e9a: 0c03                                   |0063: move-result-object v3
+430e9c: 1a04 3e51                              |0064: const-string v4, "Max-Age=%d; " // string@513e
+430ea0: 7120 0bcc 3400                         |0066: invoke-static {v4, v3}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+430ea6: 0c03                                   |0069: move-result-object v3
+430ea8: 6e20 47cc 3200                         |006a: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430eae: 6e10 a0cc 0100                         |006d: invoke-virtual {v1}, Ljava/net/HttpCookie;.getPath:()Ljava/lang/String; // method@cca0
+430eb4: 0c03                                   |0070: move-result-object v3
+430eb6: 7110 7204 0300                         |0071: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+430ebc: 0a03                                   |0074: move-result v3
+430ebe: 3903 1300                              |0075: if-nez v3, 0088 // +0013
+430ec2: 6e10 a0cc 0100                         |0077: invoke-virtual {v1}, Ljava/net/HttpCookie;.getPath:()Ljava/lang/String; // method@cca0
+430ec8: 0c03                                   |007a: move-result-object v3
+430eca: 2410 6a28 0300                         |007b: filled-new-array {v3}, [Ljava/lang/Object; // type@286a
+430ed0: 0c03                                   |007e: move-result-object v3
+430ed2: 1a04 355a                              |007f: const-string v4, "Path=%s; " // string@5a35
+430ed6: 7120 0bcc 3400                         |0081: invoke-static {v4, v3}, Ljava/lang/String;.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; // method@cc0b
+430edc: 0c03                                   |0084: move-result-object v3
+430ede: 6e20 47cc 3200                         |0085: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430ee4: 6e10 a1cc 0100                         |0088: invoke-virtual {v1}, Ljava/net/HttpCookie;.getSecure:()Z // method@cca1
+430eea: 0a03                                   |008b: move-result v3
+430eec: 3803 1800                              |008c: if-eqz v3, 00a4 // +0018
+430ef0: 2203 ea1f                              |008e: new-instance v3, Ljava/lang/StringBuilder; // type@1fea
+430ef4: 7010 3dcc 0300                         |0090: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+430efa: 1a04 16a5                              |0093: const-string v4, "https://" // string@a516
+430efe: 6e20 47cc 4300                         |0095: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430f04: 6e10 9dcc 0100                         |0098: invoke-virtual {v1}, Ljava/net/HttpCookie;.getDomain:()Ljava/lang/String; // method@cc9d
+430f0a: 0c01                                   |009b: move-result-object v1
+430f0c: 6e20 47cc 1300                         |009c: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+430f12: 6e10 50cc 0300                         |009f: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+430f18: 0c01                                   |00a2: move-result-object v1
+430f1a: 2805                                   |00a3: goto 00a8 // +0005
+430f1c: 6e10 9dcc 0100                         |00a4: invoke-virtual {v1}, Ljava/net/HttpCookie;.getDomain:()Ljava/lang/String; // method@cc9d
+430f22: 0c01                                   |00a7: move-result-object v1
+430f24: 6e10 50cc 0200                         |00a8: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+430f2a: 0c02                                   |00ab: move-result-object v2
+430f2c: 7130 efce 1002                         |00ac: invoke-static {v0, v1, v2}, Ljg/j;.j:(Landroid/webkit/CookieManager;Ljava/lang/String;Ljava/lang/String;)V // method@ceef
+430f32: 2900 66ff                              |00af: goto/16 0015 // -009a
+430f36: 0e00                                   |00b1: return-void
+      catches       : (none)
+
+    #10              : (in Ljg/j;)
+      name          : 'j'
+      type          : '(Landroid/webkit/CookieManager;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 7 16-bit code units
+430f38:                                        |[430f38] jg.j.j:(Landroid/webkit/CookieManager;Ljava/lang/String;Ljava/lang/String;)V
+430f48: 3900 0300                              |0000: if-nez v0, 0003 // +0003
+430f4c: 0e00                                   |0002: return-void
+430f4e: 6e30 9505 1002                         |0003: invoke-virtual {v0, v1, v2}, Landroid/webkit/CookieManager;.setCookie:(Ljava/lang/String;Ljava/lang/String;)V // method@0595
+430f54: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #11              : (in Ljg/j;)
+      name          : 'k'
+      type          : '(Ljava/util/Map;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 45 16-bit code units
+430980:                                        |[430980] jg.j.k:(Ljava/util/Map;)Ljava/lang/String;
+430990: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+430994: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+43099a: 7110 eace 0300                         |0005: invoke-static {v3}, Ljg/j;.e:(Ljava/util/Map;)Ljava/util/List; // method@ceea
+4309a0: 0c03                                   |0008: move-result-object v3
+4309a2: 7210 93cd 0300                         |0009: invoke-interface {v3}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@cd93
+4309a8: 0c03                                   |000c: move-result-object v3
+4309aa: 7210 7ccd 0300                         |000d: invoke-interface {v3}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+4309b0: 0a01                                   |0010: move-result v1
+4309b2: 3801 1700                              |0011: if-eqz v1, 0028 // +0017
+4309b6: 7210 7dcd 0300                         |0013: invoke-interface {v3}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+4309bc: 0c01                                   |0016: move-result-object v1
+4309be: 1f01 e81f                              |0017: check-cast v1, Ljava/lang/String; // type@1fe8
+4309c2: 6e10 4dcc 0000                         |0019: invoke-virtual {v0}, Ljava/lang/StringBuilder;.length:()I // method@cc4d
+4309c8: 0a02                                   |001c: move-result v2
+4309ca: 3d02 0700                              |001d: if-lez v2, 0024 // +0007
+4309ce: 1a02 6b05                              |001f: const-string v2, "; " // string@056b
+4309d2: 6e20 47cc 2000                         |0021: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4309d8: 6e20 47cc 1000                         |0024: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4309de: 28e6                                   |0027: goto 000d // -001a
+4309e0: 6e10 50cc 0000                         |0028: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4309e6: 0c03                                   |002b: move-result-object v3
+4309e8: 1103                                   |002c: return-object v3
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 8613 (HttpCookies.java)
+

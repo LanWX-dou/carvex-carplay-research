@@ -1,0 +1,185 @@
+Class #6474            -
+  Class descriptor  : 'Lcom/carwith/common/bean/CloudControlBean;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'appBlackList'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'appWhiteList'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'carAppVersion'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'carModelBlackList'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'uCarAppVersion'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+4433b0:                                        |[4433b0] com.carwith.common.bean.CloudControlBean.<init>:()V
+4433c0: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+4433c6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'getAppBlackList'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443368:                                        |[443368] com.carwith.common.bean.CloudControlBean.getAppBlackList:()Ljava/util/List;
+443378: 5400 e4e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CloudControlBean;.appBlackList:Ljava/util/List; // field@e3e4
+44337c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'getAppWhiteList'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443380:                                        |[443380] com.carwith.common.bean.CloudControlBean.getAppWhiteList:()Ljava/util/List;
+443390: 5400 e5e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CloudControlBean;.appWhiteList:Ljava/util/List; // field@e3e5
+443394: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'getCarAppVersion'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443338:                                        |[443338] com.carwith.common.bean.CloudControlBean.getCarAppVersion:()Ljava/lang/String;
+443348: 5400 e6e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CloudControlBean;.carAppVersion:Ljava/lang/String; // field@e3e6
+44334c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'getCarModelBlackList'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443398:                                        |[443398] com.carwith.common.bean.CloudControlBean.getCarModelBlackList:()Ljava/util/List;
+4433a8: 5400 e7e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CloudControlBean;.carModelBlackList:Ljava/util/List; // field@e3e7
+4433ac: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'getuCarAppVersion'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443350:                                        |[443350] com.carwith.common.bean.CloudControlBean.getuCarAppVersion:()Ljava/lang/String;
+443360: 5400 e8e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/CloudControlBean;.uCarAppVersion:Ljava/lang/String; // field@e3e8
+443364: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'setAppBlackList'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4433c8:                                        |[4433c8] com.carwith.common.bean.CloudControlBean.setAppBlackList:(Ljava/util/List;)V
+4433d8: 5b01 e4e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CloudControlBean;.appBlackList:Ljava/util/List; // field@e3e4
+4433dc: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'setAppWhiteList'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4433e0:                                        |[4433e0] com.carwith.common.bean.CloudControlBean.setAppWhiteList:(Ljava/util/List;)V
+4433f0: 5b01 e5e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CloudControlBean;.appWhiteList:Ljava/util/List; // field@e3e5
+4433f4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'setCarAppVersion'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4433f8:                                        |[4433f8] com.carwith.common.bean.CloudControlBean.setCarAppVersion:(Ljava/lang/String;)V
+443408: 5b01 e6e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CloudControlBean;.carAppVersion:Ljava/lang/String; // field@e3e6
+44340c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'setCarModelBlackList'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443410:                                        |[443410] com.carwith.common.bean.CloudControlBean.setCarModelBlackList:(Ljava/util/List;)V
+443420: 5b01 e7e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CloudControlBean;.carModelBlackList:Ljava/util/List; // field@e3e7
+443424: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/common/bean/CloudControlBean;)
+      name          : 'setuCarAppVersion'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443428:                                        |[443428] com.carwith.common.bean.CloudControlBean.setuCarAppVersion:(Ljava/lang/String;)V
+443438: 5b01 e8e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/CloudControlBean;.uCarAppVersion:Ljava/lang/String; // field@e3e8
+44343c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 5905 (CloudControlBean.java)
+

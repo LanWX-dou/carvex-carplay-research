@@ -1,0 +1,459 @@
+Class #7747            -
+  Class descriptor  : 'Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/ucar/map/IUCarMapService$Stub;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'TAG'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "IUCarMapServiceStub"
+  Instance fields   -
+    #0              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'mContentReference'
+      type          : 'Ljava/lang/ref/WeakReference;'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 18 16-bit code units
+1b9d00:                                        |[1b9d00] com.ucar.map.service.mapservice.IUCarMapServiceStub.<init>:(Landroid/content/Context;)V
+1b9d10: 7010 fa09 0100                         |0000: invoke-direct {v1}, Lcom/ucar/map/IUCarMapService$Stub;.<init>:()V // method@09fa
+1b9d16: 2200 f91f                              |0003: new-instance v0, Ljava/lang/ref/WeakReference; // type@1ff9
+1b9d1a: 7020 80cc 2000                         |0005: invoke-direct {v0, v2}, Ljava/lang/ref/WeakReference;.<init>:(Ljava/lang/Object;)V // method@cc80
+1b9d20: 5b10 0136                              |0008: iput-object v0, v1, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.mContentReference:Ljava/lang/ref/WeakReference; // field@3601
+1b9d24: 1a01 3023                              |000a: const-string v1, "IUCarMapServiceStub" // string@2330
+1b9d28: 1a02 3123                              |000c: const-string v2, "IUCarMapServiceStub Create" // string@2331
+1b9d2c: 7120 d508 2100                         |000e: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@08d5
+1b9d32: 0e00                                   |0011: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'getContext'
+      type          : '()Landroid/content/Context;'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 12 16-bit code units
+1b9c54:                                        |[1b9c54] com.ucar.map.service.mapservice.IUCarMapServiceStub.getContext:()Landroid/content/Context;
+1b9c64: 5400 0136                              |0000: iget-object v0, v0, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.mContentReference:Ljava/lang/ref/WeakReference; // field@3601
+1b9c68: 6e10 7dcc 0000                         |0002: invoke-virtual {v0}, Ljava/lang/ref/Reference;.get:()Ljava/lang/Object; // method@cc7d
+1b9c6e: 0c00                                   |0005: move-result-object v0
+1b9c70: 1f00 6300                              |0006: check-cast v0, Landroid/content/Context; // type@0063
+1b9c74: 3900 0300                              |0008: if-nez v0, 000b // +0003
+1b9c78: 1200                                   |000a: const/4 v0, #int 0 // #0
+1b9c7a: 1100                                   |000b: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'getPkgByUid'
+      type          : '(I)Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 21 16-bit code units
+1b9cc4:                                        |[1b9cc4] com.ucar.map.service.mapservice.IUCarMapServiceStub.getPkgByUid:(I)Ljava/lang/String;
+1b9cd4: 7010 6c0a 0100                         |0000: invoke-direct {v1}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getContext:()Landroid/content/Context; // method@0a6c
+1b9cda: 0c01                                   |0003: move-result-object v1
+1b9cdc: 3901 0400                              |0004: if-nez v1, 0008 // +0004
+1b9ce0: 1201                                   |0006: const/4 v1, #int 0 // #0
+1b9ce2: 1101                                   |0007: return-object v1
+1b9ce4: 7100 6bd0 0000                         |0008: invoke-static {}, Lmc/c;.h:()Lmc/c; // method@d06b
+1b9cea: 0c00                                   |000b: move-result-object v0
+1b9cec: 6e10 bb01 0100                         |000c: invoke-virtual {v1}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@01bb
+1b9cf2: 0c01                                   |000f: move-result-object v1
+1b9cf4: 6e30 6cd0 2001                         |0010: invoke-virtual {v0, v2, v1}, Lmc/c;.i:(ILandroid/content/pm/PackageManager;)Ljava/lang/String; // method@d06c
+1b9cfa: 0c01                                   |0013: move-result-object v1
+1b9cfc: 1101                                   |0014: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'getUCarMapListener'
+      type          : '()Lcom/ucar/map/a;'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 17 16-bit code units
+1b9c90:                                        |[1b9c90] com.ucar.map.service.mapservice.IUCarMapServiceStub.getUCarMapListener:()Lcom/ucar/map/a;
+1b9ca0: 7010 6c0a 0000                         |0000: invoke-direct {v0}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getContext:()Landroid/content/Context; // method@0a6c
+1b9ca6: 0c00                                   |0003: move-result-object v0
+1b9ca8: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+1b9cac: 1200                                   |0006: const/4 v0, #int 0 // #0
+1b9cae: 1100                                   |0007: return-object v0
+1b9cb0: 7110 500a 0000                         |0008: invoke-static {v0}, Lcom/ucar/map/e;.f:(Landroid/content/Context;)Lcom/ucar/map/e; // method@0a50
+1b9cb6: 0c00                                   |000b: move-result-object v0
+1b9cb8: 6e10 510a 0000                         |000c: invoke-virtual {v0}, Lcom/ucar/map/e;.g:()Lcom/ucar/map/a; // method@0a51
+1b9cbe: 0c00                                   |000f: move-result-object v0
+1b9cc0: 1100                                   |0010: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'getValue'
+      type          : '(ILandroid/os/Bundle;)Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 0
+      insns size    : 2 16-bit code units
+1b9c7c:                                        |[1b9c7c] com.ucar.map.service.mapservice.IUCarMapServiceStub.getValue:(ILandroid/os/Bundle;)Landroid/os/Bundle;
+1b9c8c: 1200                                   |0000: const/4 v0, #int 0 // #0
+1b9c8e: 1100                                   |0001: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'notifyCommuterAddressChanged'
+      type          : '(ZZLandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 4
+      outs          : 4
+      insns size    : 74 16-bit code units
+1b9d34:                                        |[1b9d34] com.ucar.map.service.mapservice.IUCarMapServiceStub.notifyCommuterAddressChanged:(ZZLandroid/os/Bundle;)V
+1b9d44: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1b9d4a: 0a06                                   |0003: move-result v6
+1b9d4c: 7020 6d0a 6300                         |0004: invoke-direct {v3, v6}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1b9d52: 0c06                                   |0007: move-result-object v6
+1b9d54: 7110 7204 0600                         |0008: invoke-static {v6}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1b9d5a: 0a00                                   |000b: move-result v0
+1b9d5c: 1a01 3023                              |000c: const-string v1, "IUCarMapServiceStub" // string@2330
+1b9d60: 3800 0800                              |000e: if-eqz v0, 0016 // +0008
+1b9d64: 1a03 49c3                              |0010: const-string v3, "notifyCommuterAddressChanged: not find pkg" // string@c349
+1b9d68: 7120 0ccf 3100                         |0012: invoke-static {v1, v3}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9d6e: 0e00                                   |0015: return-void
+1b9d70: 2200 ea1f                              |0016: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+1b9d74: 7010 3dcc 0000                         |0018: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b9d7a: 1a02 48c3                              |001b: const-string v2, "notifyCommuterAddressChanged: home=" // string@c348
+1b9d7e: 6e20 47cc 2000                         |001d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9d84: 6e20 48cc 4000                         |0020: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b9d8a: 1a02 aa02                              |0023: const-string v2, ", company=" // string@02aa
+1b9d8e: 6e20 47cc 2000                         |0025: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9d94: 6e20 48cc 5000                         |0028: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b9d9a: 1a02 6403                              |002b: const-string v2, ", pkg=" // string@0364
+1b9d9e: 6e20 47cc 2000                         |002d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9da4: 6e20 47cc 6000                         |0030: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9daa: 6e10 50cc 0000                         |0033: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9db0: 0c00                                   |0036: move-result-object v0
+1b9db2: 7120 0ccf 0100                         |0037: invoke-static {v1, v0}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9db8: 7010 6e0a 0300                         |003a: invoke-direct {v3}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1b9dbe: 0c03                                   |003d: move-result-object v3
+1b9dc0: 3803 0600                              |003e: if-eqz v3, 0044 // +0006
+1b9dc4: 7240 390a 6354                         |0040: invoke-interface {v3, v6, v4, v5}, Lcom/ucar/map/a;.b:(Ljava/lang/String;ZZ)V // method@0a39
+1b9dca: 2806                                   |0043: goto 0049 // +0006
+1b9dcc: 1a03 648f                              |0044: const-string v3, "error notifyCommuterAddressChanged listener is null" // string@8f64
+1b9dd0: 7120 d608 3100                         |0046: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1b9dd6: 0e00                                   |0049: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'notifyMapUIModeChanged'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 3
+      outs          : 3
+      insns size    : 66 16-bit code units
+1b9dd8:                                        |[1b9dd8] com.ucar.map.service.mapservice.IUCarMapServiceStub.notifyMapUIModeChanged:(ILandroid/os/Bundle;)V
+1b9de8: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1b9dee: 0a05                                   |0003: move-result v5
+1b9df0: 7020 6d0a 5300                         |0004: invoke-direct {v3, v5}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1b9df6: 0c05                                   |0007: move-result-object v5
+1b9df8: 7110 7204 0500                         |0008: invoke-static {v5}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1b9dfe: 0a00                                   |000b: move-result v0
+1b9e00: 1a01 3023                              |000c: const-string v1, "IUCarMapServiceStub" // string@2330
+1b9e04: 3800 0800                              |000e: if-eqz v0, 0016 // +0008
+1b9e08: 1a03 5ac3                              |0010: const-string v3, "notifyUIModeChanged: not find pkg" // string@c35a
+1b9e0c: 7120 0ccf 3100                         |0012: invoke-static {v1, v3}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9e12: 0e00                                   |0015: return-void
+1b9e14: 2200 ea1f                              |0016: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+1b9e18: 7010 3dcc 0000                         |0018: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b9e1e: 1a02 59c3                              |001b: const-string v2, "notifyUIModeChanged: mode=" // string@c359
+1b9e22: 6e20 47cc 2000                         |001d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9e28: 6e20 43cc 4000                         |0020: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+1b9e2e: 1a02 6403                              |0023: const-string v2, ", pkg=" // string@0364
+1b9e32: 6e20 47cc 2000                         |0025: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9e38: 6e20 47cc 5000                         |0028: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9e3e: 6e10 50cc 0000                         |002b: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9e44: 0c00                                   |002e: move-result-object v0
+1b9e46: 7120 0ccf 0100                         |002f: invoke-static {v1, v0}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9e4c: 7010 6e0a 0300                         |0032: invoke-direct {v3}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1b9e52: 0c03                                   |0035: move-result-object v3
+1b9e54: 3803 0600                              |0036: if-eqz v3, 003c // +0006
+1b9e58: 7230 3d0a 5304                         |0038: invoke-interface {v3, v5, v4}, Lcom/ucar/map/a;.f:(Ljava/lang/String;I)V // method@0a3d
+1b9e5e: 2806                                   |003b: goto 0041 // +0006
+1b9e60: 1a03 658f                              |003c: const-string v3, "error notifyMapUIModeChanged listener is null" // string@8f65
+1b9e64: 7120 d608 3100                         |003e: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1b9e6a: 0e00                                   |0041: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'notifyNavStatusChanged'
+      type          : '(ZLandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 3
+      outs          : 5
+      insns size    : 99 16-bit code units
+1b9e6c:                                        |[1b9e6c] com.ucar.map.service.mapservice.IUCarMapServiceStub.notifyNavStatusChanged:(ZLandroid/os/Bundle;)V
+1b9e7c: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1b9e82: 0a00                                   |0003: move-result v0
+1b9e84: 7020 6d0a 0500                         |0004: invoke-direct {v5, v0}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1b9e8a: 0c00                                   |0007: move-result-object v0
+1b9e8c: 7110 7204 0000                         |0008: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1b9e92: 0a01                                   |000b: move-result v1
+1b9e94: 1a02 3023                              |000c: const-string v2, "IUCarMapServiceStub" // string@2330
+1b9e98: 3801 0800                              |000e: if-eqz v1, 0016 // +0008
+1b9e9c: 1a05 52c3                              |0010: const-string v5, "notifyNavStatusChanged: not find pkg" // string@c352
+1b9ea0: 7120 0ccf 5200                         |0012: invoke-static {v2, v5}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9ea6: 0e00                                   |0015: return-void
+1b9ea8: 12f1                                   |0016: const/4 v1, #int -1 // #ff
+1b9eaa: 3807 0f00                              |0017: if-eqz v7, 0026 // +000f
+1b9eae: 1a03 661b                              |0019: const-string v3, "EndType" // string@1b66
+1b9eb2: 6e30 7203 3701                         |001b: invoke-virtual {v7, v3, v1}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;I)I // method@0372
+1b9eb8: 0a03                                   |001e: move-result v3
+1b9eba: 1a04 3055                              |001f: const-string v4, "NavType" // string@5530
+1b9ebe: 6e30 7203 4701                         |0021: invoke-virtual {v7, v4, v1}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;I)I // method@0372
+1b9ec4: 0a01                                   |0024: move-result v1
+1b9ec6: 2802                                   |0025: goto 0027 // +0002
+1b9ec8: 0113                                   |0026: move v3, v1
+1b9eca: 2207 ea1f                              |0027: new-instance v7, Ljava/lang/StringBuilder; // type@1fea
+1b9ece: 7010 3dcc 0700                         |0029: invoke-direct {v7}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b9ed4: 1a04 51c3                              |002c: const-string v4, "notifyNavStatusChanged: isNavOn=" // string@c351
+1b9ed8: 6e20 47cc 4700                         |002e: invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9ede: 6e20 48cc 6700                         |0031: invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b9ee4: 1a04 6403                              |0034: const-string v4, ", pkg=" // string@0364
+1b9ee8: 6e20 47cc 4700                         |0036: invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9eee: 6e20 47cc 0700                         |0039: invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9ef4: 1a04 9102                              |003c: const-string v4, ", baiduNavType=" // string@0291
+1b9ef8: 6e20 47cc 4700                         |003e: invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9efe: 6e20 43cc 1700                         |0041: invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+1b9f04: 1a04 9002                              |0044: const-string v4, ", baiduEndType=" // string@0290
+1b9f08: 6e20 47cc 4700                         |0046: invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9f0e: 6e20 43cc 3700                         |0049: invoke-virtual {v7, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+1b9f14: 6e10 50cc 0700                         |004c: invoke-virtual {v7}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9f1a: 0c07                                   |004f: move-result-object v7
+1b9f1c: 7120 0ccf 7200                         |0050: invoke-static {v2, v7}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9f22: 7010 6e0a 0500                         |0053: invoke-direct {v5}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1b9f28: 0c05                                   |0056: move-result-object v5
+1b9f2a: 3805 0600                              |0057: if-eqz v5, 005d // +0006
+1b9f2e: 7253 3c0a 0516                         |0059: invoke-interface {v5, v0, v6, v1, v3}, Lcom/ucar/map/a;.e:(Ljava/lang/String;ZII)V // method@0a3c
+1b9f34: 2806                                   |005c: goto 0062 // +0006
+1b9f36: 1a05 668f                              |005d: const-string v5, "error notifyNavStatusChanged listener is null" // string@8f66
+1b9f3a: 7120 d608 5200                         |005f: invoke-static {v2, v5}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1b9f40: 0e00                                   |0062: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'notifyStatusChanged'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 4
+      insns size    : 66 16-bit code units
+1b9f44:                                        |[1b9f44] com.ucar.map.service.mapservice.IUCarMapServiceStub.notifyStatusChanged:(ILandroid/os/Bundle;)V
+1b9f54: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1b9f5a: 0a00                                   |0003: move-result v0
+1b9f5c: 7020 6d0a 0400                         |0004: invoke-direct {v4, v0}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1b9f62: 0c00                                   |0007: move-result-object v0
+1b9f64: 7110 7204 0000                         |0008: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1b9f6a: 0a01                                   |000b: move-result v1
+1b9f6c: 1a02 3023                              |000c: const-string v2, "IUCarMapServiceStub" // string@2330
+1b9f70: 3801 0800                              |000e: if-eqz v1, 0016 // +0008
+1b9f74: 1a04 57c3                              |0010: const-string v4, "notifyStatusChanged: not find pkg" // string@c357
+1b9f78: 7120 0ccf 4200                         |0012: invoke-static {v2, v4}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9f7e: 0e00                                   |0015: return-void
+1b9f80: 2201 ea1f                              |0016: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+1b9f84: 7010 3dcc 0100                         |0018: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b9f8a: 1a03 58c3                              |001b: const-string v3, "notifyStatusChanged: status=" // string@c358
+1b9f8e: 6e20 47cc 3100                         |001d: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9f94: 6e20 43cc 5100                         |0020: invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+1b9f9a: 1a03 6403                              |0023: const-string v3, ", pkg=" // string@0364
+1b9f9e: 6e20 47cc 3100                         |0025: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9fa4: 6e20 47cc 0100                         |0028: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9faa: 6e10 50cc 0100                         |002b: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9fb0: 0c01                                   |002e: move-result-object v1
+1b9fb2: 7120 0ccf 1200                         |002f: invoke-static {v2, v1}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b9fb8: 7010 6e0a 0400                         |0032: invoke-direct {v4}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1b9fbe: 0c04                                   |0035: move-result-object v4
+1b9fc0: 3804 0600                              |0036: if-eqz v4, 003c // +0006
+1b9fc4: 7240 3a0a 0465                         |0038: invoke-interface {v4, v0, v5, v6}, Lcom/ucar/map/a;.c:(Ljava/lang/String;ILandroid/os/Bundle;)V // method@0a3a
+1b9fca: 2806                                   |003b: goto 0041 // +0006
+1b9fcc: 1a04 678f                              |003c: const-string v4, "error notifyStatusChanged listener is null" // string@8f67
+1b9fd0: 7120 d608 4200                         |003e: invoke-static {v2, v4}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1b9fd6: 0e00                                   |0041: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'registerMapCallback'
+      type          : '(Lcom/ucar/map/IUCarMapCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 4
+      insns size    : 49 16-bit code units
+1b9fd8:                                        |[1b9fd8] com.ucar.map.service.mapservice.IUCarMapServiceStub.registerMapCallback:(Lcom/ucar/map/IUCarMapCallback;)V
+1b9fe8: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1b9fee: 0a00                                   |0003: move-result v0
+1b9ff0: 7020 6d0a 0300                         |0004: invoke-direct {v3, v0}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1b9ff6: 0c00                                   |0007: move-result-object v0
+1b9ff8: 2201 ea1f                              |0008: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+1b9ffc: 7010 3dcc 0100                         |000a: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1ba002: 1a02 5ece                              |000d: const-string v2, "registerMapCallback pkg:" // string@ce5e
+1ba006: 6e20 47cc 2100                         |000f: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba00c: 6e20 47cc 0100                         |0012: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba012: 6e10 50cc 0100                         |0015: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1ba018: 0c00                                   |0018: move-result-object v0
+1ba01a: 1a01 3023                              |0019: const-string v1, "IUCarMapServiceStub" // string@2330
+1ba01e: 7120 0bcf 0100                         |001b: invoke-static {v1, v0}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1ba024: 7010 6c0a 0300                         |001e: invoke-direct {v3}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getContext:()Landroid/content/Context; // method@0a6c
+1ba02a: 0c03                                   |0021: move-result-object v3
+1ba02c: 3903 0300                              |0022: if-nez v3, 0025 // +0003
+1ba030: 0e00                                   |0024: return-void
+1ba032: 7100 6bd0 0000                         |0025: invoke-static {}, Lmc/c;.h:()Lmc/c; // method@d06b
+1ba038: 0c00                                   |0028: move-result-object v0
+1ba03a: 6e10 bb01 0300                         |0029: invoke-virtual {v3}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@01bb
+1ba040: 0c01                                   |002c: move-result-object v1
+1ba042: 6e40 6ed0 3014                         |002d: invoke-virtual {v0, v3, v4, v1}, Lmc/c;.k:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Landroid/content/pm/PackageManager;)V // method@d06e
+1ba048: 0e00                                   |0030: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'removeNavInfo'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 38 16-bit code units
+1ba04c:                                        |[1ba04c] com.ucar.map.service.mapservice.IUCarMapServiceStub.removeNavInfo:(Landroid/os/Bundle;)V
+1ba05c: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1ba062: 0a03                                   |0003: move-result v3
+1ba064: 7020 6d0a 3200                         |0004: invoke-direct {v2, v3}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1ba06a: 0c03                                   |0007: move-result-object v3
+1ba06c: 7110 7204 0300                         |0008: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1ba072: 0a00                                   |000b: move-result v0
+1ba074: 1a01 3023                              |000c: const-string v1, "IUCarMapServiceStub" // string@2330
+1ba078: 3800 0800                              |000e: if-eqz v0, 0016 // +0008
+1ba07c: 1a02 cdce                              |0010: const-string v2, "removeNavInfo: not find pkg" // string@cecd
+1ba080: 7120 0ccf 2100                         |0012: invoke-static {v1, v2}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1ba086: 0e00                                   |0015: return-void
+1ba088: 7010 6e0a 0200                         |0016: invoke-direct {v2}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1ba08e: 0c02                                   |0019: move-result-object v2
+1ba090: 3802 0600                              |001a: if-eqz v2, 0020 // +0006
+1ba094: 7220 3b0a 3200                         |001c: invoke-interface {v2, v3}, Lcom/ucar/map/a;.d:(Ljava/lang/String;)V // method@0a3b
+1ba09a: 2806                                   |001f: goto 0025 // +0006
+1ba09c: 1a02 698f                              |0020: const-string v2, "error removeNavInfo listener is null" // string@8f69
+1ba0a0: 7120 d608 2100                         |0022: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1ba0a6: 0e00                                   |0025: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'setValue'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 0
+      insns size    : 1 16-bit code units
+1ba0a8:                                        |[1ba0a8] com.ucar.map.service.mapservice.IUCarMapServiceStub.setValue:(ILandroid/os/Bundle;)V
+1ba0b8: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'showNavInfo'
+      type          : '(Landroid/os/Bundle;Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 67 16-bit code units
+1ba0bc:                                        |[1ba0bc] com.ucar.map.service.mapservice.IUCarMapServiceStub.showNavInfo:(Landroid/os/Bundle;Landroid/os/Bundle;)V
+1ba0cc: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1ba0d2: 0a04                                   |0003: move-result v4
+1ba0d4: 7020 6d0a 4200                         |0004: invoke-direct {v2, v4}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1ba0da: 0c04                                   |0007: move-result-object v4
+1ba0dc: 2200 ea1f                              |0008: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+1ba0e0: 7010 3dcc 0000                         |000a: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1ba0e6: 1a01 54e2                              |000d: const-string v1, "showNavInfo pkg:" // string@e254
+1ba0ea: 6e20 47cc 1000                         |000f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba0f0: 6e20 47cc 4000                         |0012: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba0f6: 6e10 50cc 0000                         |0015: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1ba0fc: 0c00                                   |0018: move-result-object v0
+1ba0fe: 1a01 3023                              |0019: const-string v1, "IUCarMapServiceStub" // string@2330
+1ba102: 7120 0bcf 0100                         |001b: invoke-static {v1, v0}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1ba108: 7110 7204 0400                         |001e: invoke-static {v4}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+1ba10e: 0a00                                   |0021: move-result v0
+1ba110: 3800 0800                              |0022: if-eqz v0, 002a // +0008
+1ba114: 1a02 cdce                              |0024: const-string v2, "removeNavInfo: not find pkg" // string@cecd
+1ba118: 7120 0ccf 2100                         |0026: invoke-static {v1, v2}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1ba11e: 0e00                                   |0029: return-void
+1ba120: 1a00 f9e9                              |002a: const-string v0, "ucar.map.bundle.pkg" // string@e9f9
+1ba124: 6e30 8303 0304                         |002c: invoke-virtual {v3, v0, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1ba12a: 7110 210a 0300                         |002f: invoke-static {v3}, Lcom/ucar/map/UCarMapInfo;.fromBundle:(Landroid/os/Bundle;)Lcom/ucar/map/UCarMapInfo; // method@0a21
+1ba130: 0c03                                   |0032: move-result-object v3
+1ba132: 7010 6e0a 0200                         |0033: invoke-direct {v2}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getUCarMapListener:()Lcom/ucar/map/a; // method@0a6e
+1ba138: 0c02                                   |0036: move-result-object v2
+1ba13a: 3802 0600                              |0037: if-eqz v2, 003d // +0006
+1ba13e: 7230 380a 4203                         |0039: invoke-interface {v2, v4, v3}, Lcom/ucar/map/a;.a:(Ljava/lang/String;Lcom/ucar/map/UCarMapInfo;)V // method@0a38
+1ba144: 2806                                   |003c: goto 0042 // +0006
+1ba146: 1a02 6a8f                              |003d: const-string v2, "error showNavInfo listener is null" // string@8f6a
+1ba14a: 7120 d608 2100                         |003f: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@08d6
+1ba150: 0e00                                   |0042: return-void
+      catches       : 1
+        0x002a - 0x0033
+          Ljava/lang/Exception; -> 0x0042
+
+    #9              : (in Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;)
+      name          : 'unregisterMapCallback'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 38 16-bit code units
+1ba164:                                        |[1ba164] com.ucar.map.service.mapservice.IUCarMapServiceStub.unregisterMapCallback:()V
+1ba174: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+1ba17a: 0a00                                   |0003: move-result v0
+1ba17c: 7020 6d0a 0300                         |0004: invoke-direct {v3, v0}, Lcom/ucar/map/service/mapservice/IUCarMapServiceStub;.getPkgByUid:(I)Ljava/lang/String; // method@0a6d
+1ba182: 0c03                                   |0007: move-result-object v3
+1ba184: 2201 ea1f                              |0008: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+1ba188: 7010 3dcc 0100                         |000a: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1ba18e: 1a02 5bea                              |000d: const-string v2, "unregisterMapCallback pkg:" // string@ea5b
+1ba192: 6e20 47cc 2100                         |000f: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba198: 6e20 47cc 3100                         |0012: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1ba19e: 6e10 50cc 0100                         |0015: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1ba1a4: 0c03                                   |0018: move-result-object v3
+1ba1a6: 1a01 3023                              |0019: const-string v1, "IUCarMapServiceStub" // string@2330
+1ba1aa: 7120 0bcf 3100                         |001b: invoke-static {v1, v3}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1ba1b0: 7100 6bd0 0000                         |001e: invoke-static {}, Lmc/c;.h:()Lmc/c; // method@d06b
+1ba1b6: 0c03                                   |0021: move-result-object v3
+1ba1b8: 6e20 6fd0 0300                         |0022: invoke-virtual {v3, v0}, Lmc/c;.l:(I)V // method@d06f
+1ba1be: 0e00                                   |0025: return-void
+      catches       : (none)
+
+  source_file_idx   : 9010 (IUCarMapServiceStub.java)
+

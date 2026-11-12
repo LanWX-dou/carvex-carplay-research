@@ -1,0 +1,205 @@
+[
+  {
+    "path": "inventory/action_literals.csv",
+    "rows": 239,
+    "bytes": 11296,
+    "sha256": "e2b4724acf4e6f1d86d79e4ad5a87efa89ca09a2b53c4806e91e1f3ee571c3a0",
+    "description": "239 条 action/调用标识字面量，候选集"
+  },
+  {
+    "path": "inventory/all_dex_fields.csv",
+    "rows": 497769,
+    "bytes": 57524400,
+    "sha256": "5bdcddf9ecd742413752f154feff5b5b804a7f72c23df8402bbb2c1b7456b7cb",
+    "description": "全 8 个 DEX 的所有定义字段；含资源/SDK/Protobuf，非网络参数计数"
+  },
+  {
+    "path": "inventory/all_dex_methods.csv",
+    "rows": 233147,
+    "bytes": 47666430,
+    "sha256": "542a3391eecb11012e37f263e7bd859d1b7ccc0e6b5f593a5f83c20c5c8a79fd",
+    "description": "全 DEX 的所有定义方法；含类型、权限标志、偏移、方法及参数注解"
+  },
+  {
+    "path": "inventory/apk_entries.csv",
+    "rows": 4969,
+    "bytes": 198052,
+    "sha256": "224198598a1e6976a7a1340b59e35c24436371a1114662ad952899d3c35a43ed",
+    "description": "4,969 条顶层 ZIP 文件条目/尺寸/CRC"
+  },
+  {
+    "path": "inventory/application_fields.csv",
+    "rows": 177093,
+    "bytes": 18935800,
+    "sha256": "cd16f7776bb5a390a503e28c51ddb37b67f71619d1c50d305adea7537cd8a7b0",
+    "description": "指定应用/集成 SDK 包前缀字段；含大量生成代码"
+  },
+  {
+    "path": "inventory/application_interfaces.csv",
+    "rows": 2021,
+    "bytes": 292412,
+    "sha256": "5b9ed08c1b5e6cf08c534d0625f6b84d5554aada104dc53f90087823c181de27",
+    "description": "指定包前缀的全部 Java 接口方法；含 Protobuf OrBuilder 等"
+  },
+  {
+    "path": "inventory/application_literals.csv",
+    "rows": 28069,
+    "bytes": 5123409,
+    "sha256": "24494f6c2cdc2eda4ba2914034e823f4bee3bbf46c89efa38b9a7856db3d9f6a",
+    "description": "已选择应用与入口类中的 const-string 原字面量/偏移"
+  },
+  {
+    "path": "inventory/asset_json_fields.csv",
+    "rows": 1128,
+    "bytes": 91186,
+    "sha256": "ecf548ed3e1c46bff7889e3f786e9a0441b5c0cc0b3ba4d40a1bcfabb9cac62d",
+    "description": "1,128 条包内 JSON 配置路径/类型/首个静态样例"
+  },
+  {
+    "path": "inventory/binder_methods.csv",
+    "rows": 616,
+    "bytes": 99107,
+    "sha256": "5fcbafa589e71d58e355aa6144eee6df822de20a2725745ef0d1d99aff21b212",
+    "description": "122 个 Binder 接口中的 616 个方法"
+  },
+  {
+    "path": "inventory/binder_transactions.csv",
+    "rows": 576,
+    "bytes": 64190,
+    "sha256": "1d7148863a81f6925c2433445914a3afe712a9ee614aab06b4308477da6cc262",
+    "description": "576 条 Stub 事务常量；可按类/方法联表"
+  },
+  {
+    "path": "inventory/business_model_fields.csv",
+    "rows": 158,
+    "bytes": 16319,
+    "sha256": "5e5c52ef469680b735200c2f8fbc075916fcc69ce257041e08b3bd266b33d0df",
+    "description": "158 个重点业务模型实例成员"
+  },
+  {
+    "path": "inventory/components.csv",
+    "rows": 115,
+    "bytes": 11698,
+    "sha256": "1259c72d08f352bfbc19782a4276fda9dbaaee5405cffceed3269b2ce1eff2fa",
+    "description": "115 个 Manifest 组件、导出状态、权限、authority 与 action"
+  },
+  {
+    "path": "inventory/control_constants.csv",
+    "rows": 62,
+    "bytes": 5179,
+    "sha256": "1e0580857a5bd1c33c6e8bd3077618ef36c7d3f5c9de1ebb9f85b93aebba6729",
+    "description": "ControlChannel 静态常量"
+  },
+  {
+    "path": "inventory/enum_annotation_markers.csv",
+    "rows": 883,
+    "bytes": 215541,
+    "sha256": "513e538f7d88f54c3e97f8a7846b59225ba8bb6b14592de6929e49d817c0018c",
+    "description": "883 个无 JSON 名称的枚举字段标记"
+  },
+  {
+    "path": "inventory/http_routes.csv",
+    "rows": 4,
+    "bytes": 1513,
+    "sha256": "1167775b15d28e9625e27712bb9597a04d0ad0eaacedc6ee5c5aca1dc8810e01",
+    "description": "4 个混淆 Retrofit 注解接口；另外三条代码构造路径见主报告"
+  },
+  {
+    "path": "inventory/javascript_interfaces.csv",
+    "rows": 7,
+    "bytes": 696,
+    "sha256": "1df043eeb076cfa40256695bf92aff6764181d86ccdcbd1d0065416bbb25aa41",
+    "description": "7 个 JavascriptInterface Java 方法"
+  },
+  {
+    "path": "inventory/key_usage.csv",
+    "rows": 2185,
+    "bytes": 652988,
+    "sha256": "bfa4447f097a443ee960fde40d24b14373b421e60984edee2df696c8c000c354",
+    "description": "Intent/Bundle/JSONObject/Map/Preference/Cursor 的常量键使用和调用类型"
+  },
+  {
+    "path": "inventory/native_exports.csv",
+    "rows": 21265,
+    "bytes": 2036331,
+    "sha256": "ae5d9bb886c9d76b851b8689c19a4620f5798a7d9f7b7575636d6d252acb4ad0",
+    "description": "21,265 条 ELF 动态符号表定义的全局/弱符号；含支持库符号"
+  },
+  {
+    "path": "inventory/native_methods.csv",
+    "rows": 182,
+    "bytes": 18486,
+    "sha256": "e599fcd22c1b2e0e0df376df26cd51f2fffcee3eecc9e11eb3fad6b0c9bcb2a5",
+    "description": "182 个 DEX native 方法定义与签名"
+  },
+  {
+    "path": "inventory/nested_archive_entries.csv",
+    "rows": 321,
+    "bytes": 23642,
+    "sha256": "dd113b75ab388b531054d60029edc1f6f11445a92964cebfd83ca54404225f80",
+    "description": "321 条嵌套 ZIP/RPK 文件条目"
+  },
+  {
+    "path": "inventory/proto_enums.csv",
+    "rows": 157,
+    "bytes": 8414,
+    "sha256": "cddb8073b2e5cde6e6b648a11aa0692ba978e0bd8d9db40a7f60ab9d05e140b2",
+    "description": "157 个包内 Protobuf 枚举值"
+  },
+  {
+    "path": "inventory/proto_fields.csv",
+    "rows": 342,
+    "bytes": 22979,
+    "sha256": "d92c7cbf60d627f685273d3c69cae597ed48d4983350935ef814ed46c1983801",
+    "description": "342 个包内 Protobuf 字段/tag/类型/源码行"
+  },
+  {
+    "path": "inventory/relative_path_candidates.csv",
+    "rows": 291,
+    "bytes": 27920,
+    "sha256": "942230ce7b18b18f6e1e645a3c4251d9364e2d5c5e7574fc23ab5d8ad1299fd5",
+    "description": "291 个相对路径候选；含文件路径，未全部判为 API"
+  },
+  {
+    "path": "inventory/sdk_ai_model_fields.csv",
+    "rows": 10828,
+    "bytes": 2876065,
+    "sha256": "c1b5843bc1bf4e58a6eb9d2e21afe4d75c49b920dc250222b95c0ebecd2e2737",
+    "description": "10,828 个小爱 SDK 实例模型字段；未确认当前业务使用"
+  },
+  {
+    "path": "inventory/serialized_fields.csv",
+    "rows": 266,
+    "bytes": 50313,
+    "sha256": "a35199552bc3071ab94f6a9cb88ed33752e780cf01f75f3d1ab5bd71a7ebd652",
+    "description": "266 个明确 JSON 属性名称"
+  },
+  {
+    "path": "inventory/url_references.csv",
+    "rows": 297,
+    "bytes": 49868,
+    "sha256": "c630aca9f3c4dd8f19b81164d111e03b541af3d951ced719d38e69bdfd073426",
+    "description": "297 条已选择类中的 URL/URI 引用指令，部分为 SDK/文档"
+  },
+  {
+    "path": "inventory/urls.csv",
+    "rows": 318,
+    "bytes": 43276,
+    "sha256": "f697a5e5894033f222289d1645d277eb9f6f1e4d7827114c3e014e734ce37a45",
+    "description": "318 次 DEX 字符串表中的 URL/URI 候选出现"
+  },
+  {
+    "path": "inventory/uuid_literals.csv",
+    "rows": 123,
+    "bytes": 6934,
+    "sha256": "9a81a35598d03c04af9f5691efbf67e2a3e9ebdee53ca175808a2f3799b47052",
+    "description": "123 条 UUID 字面量；未全部判为蓝牙业务 UUID"
+  },
+  {
+    "path": "inventory/wire_service_ids.csv",
+    "rows": 23,
+    "bytes": 2903,
+    "sha256": "d8d0d4654675d3377ff7c0b8e7ea9813ab92876a6346cdda5da6ce6b200d02e8",
+    "description": "23 条直接从封包构造代码恢复的消息/serviceId 映射"
+  }
+]

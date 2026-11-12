@@ -1,0 +1,219 @@
+Class #1121            -
+  Class descriptor  : 'Lyb/c;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lyb/c;)
+      name          : 'a'
+      type          : 'Lyb/c;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lyb/c;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+1c40d4:                                        |[1c40d4] yb.c.<init>:()V
+1c40e4: 7010 3434 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@3434
+1c40ea: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lyb/c;)
+      name          : 'a'
+      type          : '()Lyb/c;'
+      access        : 0x20009 (PUBLIC STATIC DECLARED_SYNCHRONIZED)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 1
+      insns size    : 23 16-bit code units
+1c42e8:                                        |[1c42e8] yb.c.a:()Lyb/c;
+1c42f8: 1c00 330b                              |0000: const-class v0, Lyb/c; // type@0b33
+1c42fc: 1d00                                   |0002: monitor-enter v0
+1c42fe: 6201 24fb                              |0003: sget-object v1, Lyb/c;.a:Lyb/c; // field@fb24
+1c4302: 3901 0c00                              |0005: if-nez v1, 0011 // +000c
+1c4306: 2201 330b                              |0007: new-instance v1, Lyb/c; // type@0b33
+1c430a: 7010 3b45 0100                         |0009: invoke-direct {v1}, Lyb/c;.<init>:()V // method@453b
+1c4310: 6901 24fb                              |000c: sput-object v1, Lyb/c;.a:Lyb/c; // field@fb24
+1c4314: 2803                                   |000e: goto 0011 // +0003
+1c4316: 0d01                                   |000f: move-exception v1
+1c4318: 2805                                   |0010: goto 0015 // +0005
+1c431a: 6201 24fb                              |0011: sget-object v1, Lyb/c;.a:Lyb/c; // field@fb24
+1c431e: 1e00                                   |0013: monitor-exit v0
+1c4320: 1101                                   |0014: return-object v1
+1c4322: 1e00                                   |0015: monitor-exit v0
+1c4324: 2701                                   |0016: throw v1
+      catches       : 1
+        0x0003 - 0x0013
+          <any> -> 0x000f
+
+  Virtual methods   -
+    #0              : (in Lyb/c;)
+      name          : 'b'
+      type          : '(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;IILjava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 26
+      ins           : 10
+      outs          : 9
+      insns size    : 129 16-bit code units
+1c40ec:                                        |[1c40ec] yb.c.b:(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;IILjava/lang/String;)V
+1c40fc: 7100 1503 0000                         |0000: invoke-static {}, Landroid/os/SystemClock;.elapsedRealtime:()J // method@0315
+1c4102: 0b00                                   |0003: move-result-wide v0
+1c4104: 7401 1e34 1600                         |0004: invoke-virtual/range {v22}, Ljava/lang/Long;.longValue:()J // method@341e
+1c410a: 0b02                                   |0007: move-result-wide v2
+1c410c: bc20                                   |0008: sub-long/2addr v0, v2
+1c410e: 7401 1e34 1600                         |0009: invoke-virtual/range {v22}, Ljava/lang/Long;.longValue:()J // method@341e
+1c4114: 0b02                                   |000c: move-result-wide v2
+1c4116: 1604 0000                              |000d: const-wide/16 v4, #int 0 // #0
+1c411a: 3102 0204                              |000f: cmp-long v2, v2, v4
+1c411e: 3802 0600                              |0011: if-eqz v2, 0017 // +0006
+1c4122: 3102 0004                              |0013: cmp-long v2, v0, v4
+1c4126: 3b02 0300                              |0015: if-gez v2, 0018 // +0003
+1c412a: 0440                                   |0017: move-wide v0, v4
+1c412c: 2202 7d07                              |0018: new-instance v2, Ljava/lang/StringBuffer; // type@077d
+1c4130: 1a03 4443                              |001a: const-string v3, "https://huatuocode.huatuo.qq.com" // string@4344
+1c4134: 7020 7434 3200                         |001c: invoke-direct {v2, v3}, Ljava/lang/StringBuffer;.<init>:(Ljava/lang/String;)V // method@3474
+1c413a: 1a03 c603                              |001f: const-string v3, "?domain=mobile.opensdk.com&cgi=opensdk&type=" // string@03c6
+1c413e: 6e20 7834 3200                         |0021: invoke-virtual {v2, v3}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c4144: 0203 1100                              |0024: move/from16 v3, v17
+1c4148: 6e20 7634 3200                         |0026: invoke-virtual {v2, v3}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+1c414e: 1a04 5201                              |0029: const-string v4, "&code=" // string@0152
+1c4152: 6e20 7834 4200                         |002b: invoke-virtual {v2, v4}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c4158: 0204 1700                              |002e: move/from16 v4, v23
+1c415c: 6e20 7634 4200                         |0030: invoke-virtual {v2, v4}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+1c4162: 1a05 5e01                              |0033: const-string v5, "&time=" // string@015e
+1c4166: 6e20 7834 5200                         |0035: invoke-virtual {v2, v5}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c416c: 6e30 7734 0201                         |0038: invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuffer;.append:(J)Ljava/lang/StringBuffer; // method@3477
+1c4172: 1a05 5c01                              |003b: const-string v5, "&rate=" // string@015c
+1c4176: 6e20 7834 5200                         |003d: invoke-virtual {v2, v5}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c417c: 0205 1800                              |0040: move/from16 v5, v24
+1c4180: 6e20 7634 5200                         |0042: invoke-virtual {v2, v5}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+1c4186: 1a06 5f01                              |0045: const-string v6, "&uin=" // string@015f
+1c418a: 6e20 7834 6200                         |0047: invoke-virtual {v2, v6}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c4190: 0806 1300                              |004a: move-object/from16 v6, v19
+1c4194: 6e20 7834 6200                         |004c: invoke-virtual {v2, v6}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c419a: 1a07 5301                              |004f: const-string v7, "&data=" // string@0153
+1c419e: 6e20 7834 7200                         |0051: invoke-virtual {v2, v7}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1c41a4: 7701 7034 1100                         |0054: invoke-static/range {v17}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@3470
+1c41aa: 0c07                                   |0057: move-result-object v7
+1c41ac: 7701 7034 1700                         |0058: invoke-static/range {v23}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@3470
+1c41b2: 0c08                                   |005b: move-result-object v8
+1c41b4: 7120 7134 1000                         |005c: invoke-static {v0, v1}, Ljava/lang/String;.valueOf:(J)Ljava/lang/String; // method@3471
+1c41ba: 0c09                                   |005f: move-result-object v9
+1c41bc: 7701 7034 1800                         |0060: invoke-static/range {v24}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@3470
+1c41c2: 0c0a                                   |0063: move-result-object v10
+1c41c4: 080b 1200                              |0064: move-object/from16 v11, v18
+1c41c8: 080c 1300                              |0066: move-object/from16 v12, v19
+1c41cc: 080d 1400                              |0068: move-object/from16 v13, v20
+1c41d0: 080e 1500                              |006a: move-object/from16 v14, v21
+1c41d4: 080f 1900                              |006c: move-object/from16 v15, v25
+1c41d8: 7709 1e2c 0700                         |006e: invoke-static/range {v7, v8, v9, v10, v11, v12, v13, v14, v15}, Lcom/tencent/open/utils/b;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle; // method@2c1e
+1c41de: 0c00                                   |0071: move-result-object v0
+1c41e0: 7100 5945 0000                         |0072: invoke-static {}, Lyb/f;.b:()Lyb/f; // method@4559
+1c41e6: 0c01                                   |0075: move-result-object v1
+1c41e8: 6e10 7a34 0200                         |0076: invoke-virtual {v2}, Ljava/lang/StringBuffer;.toString:()Ljava/lang/String; // method@347a
+1c41ee: 0c02                                   |0079: move-result-object v2
+1c41f0: 1a03 7e0e                              |007a: const-string v3, "GET" // string@0e7e
+1c41f4: 1214                                   |007c: const/4 v4, #int 1 // #1
+1c41f6: 6e54 5d45 2103                         |007d: invoke-virtual {v1, v2, v3, v0, v4}, Lyb/f;.f:(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Z)V // method@455d
+1c41fc: 0e00                                   |0080: return-void
+      catches       : (none)
+
+    #1              : (in Lyb/c;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 13
+      ins           : 7
+      outs          : 6
+      insns size    : 19 16-bit code units
+1c4200:                                        |[1c4200] yb.c.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+1c4210: 0770                                   |0000: move-object v0, v7
+1c4212: 0791                                   |0001: move-object v1, v9
+1c4214: 07a2                                   |0002: move-object v2, v10
+1c4216: 07b3                                   |0003: move-object v3, v11
+1c4218: 0784                                   |0004: move-object v4, v8
+1c421a: 07c5                                   |0005: move-object v5, v12
+1c421c: 7706 1d2c 0000                         |0006: invoke-static/range {v0, v1, v2, v3, v4, v5}, Lcom/tencent/open/utils/b;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle; // method@2c1d
+1c4222: 0c06                                   |0009: move-result-object v6
+1c4224: 7100 5945 0000                         |000a: invoke-static {}, Lyb/f;.b:()Lyb/f; // method@4559
+1c422a: 0c07                                   |000d: move-result-object v7
+1c422c: 1219                                   |000e: const/4 v9, #int 1 // #1
+1c422e: 6e40 5a45 6798                         |000f: invoke-virtual {v7, v6, v8, v9}, Lyb/f;.c:(Landroid/os/Bundle;Ljava/lang/String;Z)V // method@455a
+1c4234: 0e00                                   |0012: return-void
+      catches       : (none)
+
+    #2              : (in Lyb/c;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 21
+      ins           : 9
+      outs          : 12
+      insns size    : 35 16-bit code units
+1c4238:                                        |[1c4238] yb.c.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+1c4248: 1a0a 0000                              |0000: const-string v10, "" // string@0000
+1c424c: 1a0b 0000                              |0002: const-string v11, "" // string@0000
+1c4250: 1a06 0000                              |0004: const-string v6, "" // string@0000
+1c4254: 1a09 0000                              |0006: const-string v9, "" // string@0000
+1c4258: 07d0                                   |0008: move-object v0, v13
+1c425a: 0801 1000                              |0009: move-object/from16 v1, v16
+1c425e: 0802 1100                              |000b: move-object/from16 v2, v17
+1c4262: 07f3                                   |000d: move-object v3, v15
+1c4264: 07e4                                   |000e: move-object v4, v14
+1c4266: 0805 1200                              |000f: move-object/from16 v5, v18
+1c426a: 0807 1300                              |0011: move-object/from16 v7, v19
+1c426e: 0808 1400                              |0013: move-object/from16 v8, v20
+1c4272: 770c 1f2c 0000                         |0015: invoke-static/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11}, Lcom/tencent/open/utils/b;.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle; // method@2c1f
+1c4278: 0c00                                   |0018: move-result-object v0
+1c427a: 7100 5945 0000                         |0019: invoke-static {}, Lyb/f;.b:()Lyb/f; // method@4559
+1c4280: 0c01                                   |001c: move-result-object v1
+1c4282: 1202                                   |001d: const/4 v2, #int 0 // #0
+1c4284: 07e3                                   |001e: move-object v3, v14
+1c4286: 6e40 5a45 012e                         |001f: invoke-virtual {v1, v0, v14, v2}, Lyb/f;.c:(Landroid/os/Bundle;Ljava/lang/String;Z)V // method@455a
+1c428c: 0e00                                   |0022: return-void
+      catches       : (none)
+
+    #3              : (in Lyb/c;)
+      name          : 'e'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 23
+      ins           : 11
+      outs          : 12
+      insns size    : 35 16-bit code units
+1c4290:                                        |[1c4290] yb.c.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+1c42a0: 1a07 0000                              |0000: const-string v7, "" // string@0000
+1c42a4: 1a08 0000                              |0002: const-string v8, "" // string@0000
+1c42a8: 07d0                                   |0004: move-object v0, v13
+1c42aa: 0801 1000                              |0005: move-object/from16 v1, v16
+1c42ae: 0802 1100                              |0007: move-object/from16 v2, v17
+1c42b2: 07f3                                   |0009: move-object v3, v15
+1c42b4: 07e4                                   |000a: move-object v4, v14
+1c42b6: 0805 1200                              |000b: move-object/from16 v5, v18
+1c42ba: 0806 1300                              |000d: move-object/from16 v6, v19
+1c42be: 0809 1400                              |000f: move-object/from16 v9, v20
+1c42c2: 080a 1500                              |0011: move-object/from16 v10, v21
+1c42c6: 080b 1600                              |0013: move-object/from16 v11, v22
+1c42ca: 770c 1f2c 0000                         |0015: invoke-static/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11}, Lcom/tencent/open/utils/b;.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle; // method@2c1f
+1c42d0: 0c00                                   |0018: move-result-object v0
+1c42d2: 7100 5945 0000                         |0019: invoke-static {}, Lyb/f;.b:()Lyb/f; // method@4559
+1c42d8: 0c01                                   |001c: move-result-object v1
+1c42da: 1202                                   |001d: const/4 v2, #int 0 // #0
+1c42dc: 07e3                                   |001e: move-object v3, v14
+1c42de: 6e40 5a45 012e                         |001f: invoke-virtual {v1, v0, v14, v2}, Lyb/f;.c:(Landroid/os/Bundle;Ljava/lang/String;Z)V // method@455a
+1c42e4: 0e00                                   |0022: return-void
+      catches       : (none)
+
+  source_file_idx   : 8879 (ProGuard)
+

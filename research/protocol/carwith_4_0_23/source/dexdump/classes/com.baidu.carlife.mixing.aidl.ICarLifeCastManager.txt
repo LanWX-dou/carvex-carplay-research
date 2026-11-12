@@ -1,0 +1,42 @@
+Class #3635            -
+  Class descriptor  : 'Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;)
+      name          : 'invokeMethod'
+      type          : '(Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;)
+      name          : 'prepareCast'
+      type          : '(Lcom/baidu/carlife/mixing/CastConfig;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;)
+      name          : 'setCastCallback'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;)
+      name          : 'setSystemAudioCallback'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;)
+      name          : 'stopCast'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 9757 (ICarLifeCastManager.java)
+

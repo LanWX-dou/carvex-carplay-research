@@ -1,0 +1,1258 @@
+[
+  {
+    "source": "ucar.proto",
+    "enum": "GyroScope.GyroType",
+    "name": "GYRO_UNKNOWN",
+    "value": 0,
+    "line": 31,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GyroScope.GyroType",
+    "name": "GYRO_SINGLE",
+    "value": 1,
+    "line": 32,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GyroScope.GyroType",
+    "name": "GYRO_THREE",
+    "value": 2,
+    "line": 33,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GearInfo.GearState",
+    "name": "GEAR_UNKNOWN",
+    "value": 0,
+    "line": 64,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GearInfo.GearState",
+    "name": "GEAR_PARK",
+    "value": 1,
+    "line": 65,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GearInfo.GearState",
+    "name": "GEAR_DRIVE",
+    "value": 2,
+    "line": 66,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GearInfo.GearState",
+    "name": "GEAR_REVERSE",
+    "value": 3,
+    "line": 67,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GearInfo.GearState",
+    "name": "GEAR_NEUTRAL",
+    "value": 4,
+    "line": 68,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortRequest.ServerType",
+    "name": "UNKNOWN",
+    "value": 0,
+    "line": 100,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortRequest.ServerType",
+    "name": "SENSOR",
+    "value": 1,
+    "line": 101,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortRequest.ServerType",
+    "name": "AUDIO",
+    "value": 2,
+    "line": 102,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortRequest.ServerType",
+    "name": "UIBC",
+    "value": 3,
+    "line": 103,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortResponse.Result",
+    "name": "UNKNOWN",
+    "value": 0,
+    "line": 110,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortResponse.Result",
+    "name": "SUCCESS",
+    "value": 1,
+    "line": 111,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "GetPortResponse.Result",
+    "name": "FAILURE",
+    "value": 2,
+    "line": 112,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ChannelMask",
+    "name": "UNKNOWN_CHANNEL",
+    "value": 0,
+    "line": 147,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ChannelMask",
+    "name": "CHANNEL_MONO",
+    "value": 1,
+    "line": 148,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ChannelMask",
+    "name": "CHANNEL_STEREO",
+    "value": 2,
+    "line": 149,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "UNKNOWN_FORMAT",
+    "value": 0,
+    "line": 153,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "ENCODING_PCM_8BIT",
+    "value": 1,
+    "line": 154,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "ENCODING_PCM_16BIT",
+    "value": 2,
+    "line": 155,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "ENCODING_PCM_24BIT_PACKED",
+    "value": 3,
+    "line": 156,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "ENCODING_PCM_32BIT",
+    "value": 4,
+    "line": 157,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "EncodingFormat",
+    "name": "ENCODING_PCM_FLOAT",
+    "value": 5,
+    "line": 158,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "UNKNOWN_RATE",
+    "value": 0,
+    "line": 162,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_8000",
+    "value": 8000,
+    "line": 163,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_11025",
+    "value": 11025,
+    "line": 164,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_12000",
+    "value": 12000,
+    "line": 165,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_16000",
+    "value": 16000,
+    "line": 166,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_22050",
+    "value": 22050,
+    "line": 167,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_24000",
+    "value": 24000,
+    "line": 168,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_32000",
+    "value": 32000,
+    "line": 169,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_44100",
+    "value": 44100,
+    "line": 170,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_48000",
+    "value": 48000,
+    "line": 171,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_96000",
+    "value": 96000,
+    "line": 172,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "SampleRate",
+    "name": "SAMPLE_RATE_192000",
+    "value": 192000,
+    "line": 173,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyMirrorState.MirrorState",
+    "name": "STATE_STOP_MIRROR",
+    "value": 0,
+    "line": 179,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyMirrorState.MirrorState",
+    "name": "STATE_DISCONNECT_LINK",
+    "value": 1,
+    "line": 180,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyMirrorState.MirrorState",
+    "name": "STATE_GO_TO_DESKTOP",
+    "value": 2,
+    "line": 181,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyMirrorState.MirrorState",
+    "name": "STATE_BACK_TO_FOREGROUND",
+    "value": 3,
+    "line": 182,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyAudioPlayerState.AudioPlayerState",
+    "name": "START_PLAYER",
+    "value": 0,
+    "line": 190,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyAudioPlayerState.AudioPlayerState",
+    "name": "STOP_PLAYER",
+    "value": 1,
+    "line": 191,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyAudioPlayerState.AudioPlayerState",
+    "name": "PAUSE_PLAYER",
+    "value": 2,
+    "line": 192,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyAudioPlayerState.AudioPlayerState",
+    "name": "RESUME_PLAYER",
+    "value": 3,
+    "line": 193,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "UNDEFINED",
+    "value": 0,
+    "line": 205,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_IP_CALL",
+    "value": 1,
+    "line": 206,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_MODEM_CALL",
+    "value": 2,
+    "line": 207,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_AI_ASSISTANT",
+    "value": 3,
+    "line": 208,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_RING",
+    "value": 4,
+    "line": 209,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_NOTIFICATION",
+    "value": 5,
+    "line": 210,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_TTS",
+    "value": 6,
+    "line": 211,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_SYSTEM",
+    "value": 7,
+    "line": 212,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_MICROPHONE",
+    "value": 9,
+    "line": 213,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_NUM",
+    "value": 10,
+    "line": 214,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AudioType",
+    "name": "STREAM_CAST_MUSIC",
+    "value": 16,
+    "line": 215,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "UNKNOWN_STATE",
+    "value": 0,
+    "line": 219,
+    "comment": "未知状态"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "IDLE",
+    "value": 1,
+    "line": 220,
+    "comment": "空闲，已挂断"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "RINGING",
+    "value": 2,
+    "line": 221,
+    "comment": "响铃"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "OFFHOOK",
+    "value": 3,
+    "line": 222,
+    "comment": "通话中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "INCOMING",
+    "value": 4,
+    "line": 223,
+    "comment": "来电中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "DIALING",
+    "value": 5,
+    "line": 224,
+    "comment": "拨号中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "ALERTING",
+    "value": 6,
+    "line": 225,
+    "comment": "拨号响铃中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "ACTIVE",
+    "value": 7,
+    "line": 226,
+    "comment": "通话中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CALL_STATE",
+    "name": "HOLDING",
+    "value": 8,
+    "line": 227,
+    "comment": "通话保持中"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_UNDEFINED",
+    "value": 0,
+    "line": 271,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_MAIN",
+    "value": 8103,
+    "line": 272,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_TEL",
+    "value": 8104,
+    "line": 273,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_NAVI",
+    "value": 8105,
+    "line": 274,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_MEDIA",
+    "value": 8106,
+    "line": 275,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_VR_START",
+    "value": 8107,
+    "line": 276,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_VR_STOP",
+    "value": 8108,
+    "line": 277,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_NAVI_QUIT",
+    "value": 8113,
+    "line": 278,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_NEXT_FOCUS",
+    "value": 8114,
+    "line": 279,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_PRE_FOCUS",
+    "value": 8115,
+    "line": 280,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_IN_FOCUS",
+    "value": 8116,
+    "line": 281,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_OUT_FOCUS",
+    "value": 8117,
+    "line": 282,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CustomKeyEvent.KeyCode",
+    "name": "KEY_CODE_MEDIA_FAVOR",
+    "value": 8118,
+    "line": 283,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_UNDEFINED",
+    "value": 0,
+    "line": 293,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MUSIC_PRE",
+    "value": 1,
+    "line": 294,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MUSIC_NEXT",
+    "value": 2,
+    "line": 295,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MUSIC_PAUSE",
+    "value": 3,
+    "line": 296,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MUSIC_PLAY",
+    "value": 4,
+    "line": 297,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_CALL",
+    "value": 5,
+    "line": 298,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_ENDCALL",
+    "value": 6,
+    "line": 299,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_TEL",
+    "value": 7,
+    "line": 300,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MAP",
+    "value": 8,
+    "line": 301,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_MUSIC",
+    "value": 9,
+    "line": 302,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_VR_START",
+    "value": 10,
+    "line": 303,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_VR_STOP",
+    "value": 11,
+    "line": 304,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_NAVI_QUIT",
+    "value": 12,
+    "line": 305,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_NAVI_HOME",
+    "value": 13,
+    "line": 306,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_NAVI_COMPANY",
+    "value": 14,
+    "line": 307,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VRCmdToPhone.VRCmd",
+    "name": "VR_CMD_BACK_HOMEPAGE",
+    "value": 15,
+    "line": 308,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifySwitchDayOrNight.Mode",
+    "name": "UNKNOWN",
+    "value": 0,
+    "line": 320,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifySwitchDayOrNight.Mode",
+    "name": "DAY",
+    "value": 1,
+    "line": 321,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifySwitchDayOrNight.Mode",
+    "name": "NIGHT",
+    "value": 2,
+    "line": 322,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "BluetoothMacInfo.OPType",
+    "name": "ADD",
+    "value": 0,
+    "line": 353,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "BluetoothMacInfo.OPType",
+    "name": "DELETE",
+    "value": 1,
+    "line": 354,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "MAP",
+    "value": 0,
+    "line": 399,
+    "comment": "地图导航类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "MEDIA",
+    "value": 1,
+    "line": 400,
+    "comment": "音乐电台类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "VIDEO",
+    "value": 2,
+    "line": 401,
+    "comment": "视频播放类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "IM",
+    "value": 3,
+    "line": 402,
+    "comment": "社交通讯类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "NEWS",
+    "value": 4,
+    "line": 403,
+    "comment": "新闻阅读类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "GAME",
+    "value": 5,
+    "line": 404,
+    "comment": "游戏类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "SHOPPING",
+    "value": 6,
+    "line": 405,
+    "comment": "网上购物类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "TRAVEL",
+    "value": 7,
+    "line": 406,
+    "comment": "旅游出行类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "FINANCIAL",
+    "value": 8,
+    "line": 407,
+    "comment": "金融理财类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "MEETING",
+    "value": 9,
+    "line": 408,
+    "comment": "会议类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "TOOL",
+    "value": 10,
+    "line": 409,
+    "comment": "实用工具类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "OFFICE",
+    "value": 11,
+    "line": 410,
+    "comment": "办公软件类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "EDUCATION",
+    "value": 12,
+    "line": 411,
+    "comment": "教育学习类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "HEALTHY",
+    "value": 13,
+    "line": 412,
+    "comment": "医疗健康类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "SYSTEM",
+    "value": 14,
+    "line": 413,
+    "comment": "系统优化类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "LIFE",
+    "value": 15,
+    "line": 414,
+    "comment": "生活娱乐类应用"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "SMART_SERVICE",
+    "value": 16,
+    "line": 415,
+    "comment": "智慧类服务"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppCategory",
+    "name": "OTHER",
+    "value": 17,
+    "line": 416,
+    "comment": "其它"
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppInvokeCategory",
+    "name": "START",
+    "value": 0,
+    "line": 451,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppInvokeCategory",
+    "name": "STOP",
+    "value": 1,
+    "line": 452,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppInvokeCategory",
+    "name": "PAUSE",
+    "value": 2,
+    "line": 453,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppInvokeCategory",
+    "name": "RESUME",
+    "value": 3,
+    "line": 454,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppInvokeCategory",
+    "name": "UPDATE",
+    "value": 4,
+    "line": 455,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppStateCategory",
+    "name": "STARTED",
+    "value": 0,
+    "line": 459,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppStateCategory",
+    "name": "STOPPED",
+    "value": 1,
+    "line": 460,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppStateCategory",
+    "name": "PAUSED",
+    "value": 2,
+    "line": 461,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppStateCategory",
+    "name": "RESUMED",
+    "value": 3,
+    "line": 462,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppStateCategory",
+    "name": "DESTROYED",
+    "value": 4,
+    "line": 463,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppListChanged.AppListState",
+    "name": "INSTALLED",
+    "value": 0,
+    "line": 495,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppListChanged.AppListState",
+    "name": "REMOVED",
+    "value": 1,
+    "line": 496,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "AppListChanged.AppListState",
+    "name": "UPDATED",
+    "value": 2,
+    "line": 497,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ShareNetworkAction",
+    "name": "SHARE_NETWORK_STOP",
+    "value": 0,
+    "line": 508,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ShareNetworkAction",
+    "name": "SHARE_NETWORK_START",
+    "value": 1,
+    "line": 509,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ShareNetworkAction",
+    "name": "SHARE_NETWORK_RECONNECT",
+    "value": 2,
+    "line": 510,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "ShareNetworkAction",
+    "name": "SHARE_NETWORK_RESTART",
+    "value": 3,
+    "line": 511,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "LensFacing",
+    "name": "LENS_FACING_FRONT",
+    "value": 0,
+    "line": 683,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "LensFacing",
+    "name": "LENS_FACING_BACK",
+    "value": 1,
+    "line": 684,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "LensFacing",
+    "name": "LENS_FACING_EXTERNAL",
+    "value": 2,
+    "line": 685,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "Orientation",
+    "name": "ORIENTATION_0",
+    "value": 0,
+    "line": 689,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "Orientation",
+    "name": "ORIENTATION_90",
+    "value": 90,
+    "line": 690,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "Orientation",
+    "name": "ORIENTATION_180",
+    "value": 180,
+    "line": 691,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "Orientation",
+    "name": "ORIENTATION_270",
+    "value": 270,
+    "line": 692,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CameraAction",
+    "name": "CAMERA_ACTION_OPEN",
+    "value": 0,
+    "line": 696,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CameraAction",
+    "name": "CAMERA_ACTION_CAPTURE",
+    "value": 1,
+    "line": 697,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "CameraAction",
+    "name": "CAMERA_ACTION_CLOSE",
+    "value": 2,
+    "line": 698,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VideoType",
+    "name": "VIDEO_UNDEFINED",
+    "value": 0,
+    "line": 702,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VideoType",
+    "name": "VIDEO_CAST",
+    "value": 1,
+    "line": 703,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VideoType",
+    "name": "VIDEO_COMMUNICATION",
+    "value": 2,
+    "line": 704,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VideoType",
+    "name": "VIDEO_CAMERA_PREVIEW",
+    "value": 3,
+    "line": 705,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "VideoType",
+    "name": "VIDEO_CAMERA_PICTURE",
+    "value": 4,
+    "line": 706,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "OPENED",
+    "value": 0,
+    "line": 742,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "CLOSED",
+    "value": 1,
+    "line": 743,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "ERROR",
+    "value": 2,
+    "line": 744,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "PREEMPTED",
+    "value": 3,
+    "line": 745,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "NO_PERMISSION",
+    "value": 4,
+    "line": 746,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "NotifyCameraStateChanged.State",
+    "name": "BUSY",
+    "value": 5,
+    "line": 747,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "POIDetailInfo.CoordinateType",
+    "name": "WGS84",
+    "value": 0,
+    "line": 757,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "POIDetailInfo.CoordinateType",
+    "name": "GCJ02",
+    "value": 1,
+    "line": 758,
+    "comment": ""
+  },
+  {
+    "source": "ucar.proto",
+    "enum": "POIDetailInfo.CoordinateType",
+    "name": "BD09",
+    "value": 2,
+    "line": 759,
+    "comment": ""
+  }
+]

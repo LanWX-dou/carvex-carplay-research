@@ -1,0 +1,617 @@
+﻿dex,class,name,type,signature
+classes.dex,Landroid/app/IMiuiActivityObserver;,activityDestroyed,(Landroid/content/Intent;)V,void activityDestroyed(android.content.Intent)
+classes.dex,Landroid/app/IMiuiActivityObserver;,activityIdle,(Landroid/content/Intent;)V,void activityIdle(android.content.Intent)
+classes.dex,Landroid/app/IMiuiActivityObserver;,activityPaused,(Landroid/content/Intent;)V,void activityPaused(android.content.Intent)
+classes.dex,Landroid/app/IMiuiActivityObserver;,activityResumed,(Landroid/content/Intent;)V,void activityResumed(android.content.Intent)
+classes.dex,Landroid/app/IMiuiActivityObserver;,activityStopped,(Landroid/content/Intent;)V,void activityStopped(android.content.Intent)
+classes.dex,Landroid/app/ITaskStackListener;,onActivityDismissingDockedTask,()V,void onActivityDismissingDockedTask()
+classes.dex,Landroid/app/ITaskStackListener;,onActivityForcedResizable,(Ljava/lang/String;II)V,"void onActivityForcedResizable(java.lang.String, int, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityLaunchOnSecondaryDisplayFailed,(Landroid/app/ActivityManager$RunningTaskInfo;I)V,"void onActivityLaunchOnSecondaryDisplayFailed(android.app.ActivityManager$RunningTaskInfo, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityLaunchOnSecondaryDisplayRerouted,(Landroid/app/ActivityManager$RunningTaskInfo;I)V,"void onActivityLaunchOnSecondaryDisplayRerouted(android.app.ActivityManager$RunningTaskInfo, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityPinned,(Ljava/lang/String;III)V,"void onActivityPinned(java.lang.String, int, int, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityRequestedOrientationChanged,(II)V,"void onActivityRequestedOrientationChanged(int, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityRestartAttempt,(Landroid/app/ActivityManager$RunningTaskInfo;ZZZ)V,"void onActivityRestartAttempt(android.app.ActivityManager$RunningTaskInfo, boolean, boolean, boolean)"
+classes.dex,Landroid/app/ITaskStackListener;,onActivityRotation,(I)V,void onActivityRotation(int)
+classes.dex,Landroid/app/ITaskStackListener;,onActivityUnpinned,()V,void onActivityUnpinned()
+classes.dex,Landroid/app/ITaskStackListener;,onBackPressedOnTaskRoot,(Landroid/app/ActivityManager$RunningTaskInfo;)V,void onBackPressedOnTaskRoot(android.app.ActivityManager$RunningTaskInfo)
+classes.dex,Landroid/app/ITaskStackListener;,onLockTaskModeChanged,(I)V,void onLockTaskModeChanged(int)
+classes.dex,Landroid/app/ITaskStackListener;,onRecentTaskListFrozenChanged,(Z)V,void onRecentTaskListFrozenChanged(boolean)
+classes.dex,Landroid/app/ITaskStackListener;,onRecentTaskListUpdated,()V,void onRecentTaskListUpdated()
+classes.dex,Landroid/app/ITaskStackListener;,onTaskCreated,(ILandroid/content/ComponentName;)V,"void onTaskCreated(int, android.content.ComponentName)"
+classes.dex,Landroid/app/ITaskStackListener;,onTaskDescriptionChanged,(Landroid/app/ActivityManager$RunningTaskInfo;)V,void onTaskDescriptionChanged(android.app.ActivityManager$RunningTaskInfo)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskDisplayChanged,(II)V,"void onTaskDisplayChanged(int, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onTaskFocusChanged,(IZ)V,"void onTaskFocusChanged(int, boolean)"
+classes.dex,Landroid/app/ITaskStackListener;,onTaskMovedToBack,(Landroid/app/ActivityManager$RunningTaskInfo;)V,void onTaskMovedToBack(android.app.ActivityManager$RunningTaskInfo)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskMovedToFront,(Landroid/app/ActivityManager$RunningTaskInfo;)V,void onTaskMovedToFront(android.app.ActivityManager$RunningTaskInfo)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskProfileLocked,(Landroid/app/ActivityManager$RunningTaskInfo;I)V,"void onTaskProfileLocked(android.app.ActivityManager$RunningTaskInfo, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onTaskRemovalStarted,(Landroid/app/ActivityManager$RunningTaskInfo;)V,void onTaskRemovalStarted(android.app.ActivityManager$RunningTaskInfo)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskRemoved,(I)V,void onTaskRemoved(int)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskRequestedOrientationChanged,(II)V,"void onTaskRequestedOrientationChanged(int, int)"
+classes.dex,Landroid/app/ITaskStackListener;,onTaskSnapshotChanged,(I)V,void onTaskSnapshotChanged(int)
+classes.dex,Landroid/app/ITaskStackListener;,onTaskStackChanged,()V,void onTaskStackChanged()
+classes.dex,Landroid/support/v4/app/INotificationSideChannel;,cancel,(Ljava/lang/String;ILjava/lang/String;)V,"void cancel(java.lang.String, int, java.lang.String)"
+classes.dex,Landroid/support/v4/app/INotificationSideChannel;,cancelAll,(Ljava/lang/String;)V,void cancelAll(java.lang.String)
+classes.dex,Landroid/support/v4/app/INotificationSideChannel;,notify,(Ljava/lang/String;ILjava/lang/String;Landroid/app/Notification;)V,"void notify(java.lang.String, int, java.lang.String, android.app.Notification)"
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onCaptioningEnabledChanged,(Z)V,void onCaptioningEnabledChanged(boolean)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onEvent,(Ljava/lang/String;Landroid/os/Bundle;)V,"void onEvent(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onExtrasChanged,(Landroid/os/Bundle;)V,void onExtrasChanged(android.os.Bundle)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onMetadataChanged,(Landroid/support/v4/media/MediaMetadataCompat;)V,void onMetadataChanged(android.support.v4.media.MediaMetadataCompat)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onPlaybackStateChanged,(Landroid/support/v4/media/session/PlaybackStateCompat;)V,void onPlaybackStateChanged(android.support.v4.media.session.PlaybackStateCompat)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onQueueChanged,(Ljava/util/List;)V,void onQueueChanged(java.util.List)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onQueueTitleChanged,(Ljava/lang/CharSequence;)V,void onQueueTitleChanged(java.lang.CharSequence)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onRepeatModeChanged,(I)V,void onRepeatModeChanged(int)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onSessionDestroyed,()V,void onSessionDestroyed()
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onSessionReady,()V,void onSessionReady()
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onShuffleModeChanged,(I)V,void onShuffleModeChanged(int)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onShuffleModeChangedRemoved,(Z)V,void onShuffleModeChangedRemoved(boolean)
+classes.dex,Landroid/support/v4/media/session/IMediaControllerCallback;,onVolumeInfoChanged,(Landroid/support/v4/media/session/ParcelableVolumeInfo;)V,void onVolumeInfoChanged(android.support.v4.media.session.ParcelableVolumeInfo)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,addQueueItem,(Landroid/support/v4/media/MediaDescriptionCompat;)V,void addQueueItem(android.support.v4.media.MediaDescriptionCompat)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,addQueueItemAt,(Landroid/support/v4/media/MediaDescriptionCompat;I)V,"void addQueueItemAt(android.support.v4.media.MediaDescriptionCompat, int)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,adjustVolume,(IILjava/lang/String;)V,"void adjustVolume(int, int, java.lang.String)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,fastForward,()V,void fastForward()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getExtras,()Landroid/os/Bundle;,android.os.Bundle getExtras()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getFlags,()J,long getFlags()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getLaunchPendingIntent,()Landroid/app/PendingIntent;,android.app.PendingIntent getLaunchPendingIntent()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getMetadata,()Landroid/support/v4/media/MediaMetadataCompat;,android.support.v4.media.MediaMetadataCompat getMetadata()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getPackageName,()Ljava/lang/String;,java.lang.String getPackageName()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getPlaybackState,()Landroid/support/v4/media/session/PlaybackStateCompat;,android.support.v4.media.session.PlaybackStateCompat getPlaybackState()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getQueue,()Ljava/util/List;,java.util.List getQueue()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getQueueTitle,()Ljava/lang/CharSequence;,java.lang.CharSequence getQueueTitle()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getRatingType,()I,int getRatingType()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getRepeatMode,()I,int getRepeatMode()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getShuffleMode,()I,int getShuffleMode()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getTag,()Ljava/lang/String;,java.lang.String getTag()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,getVolumeAttributes,()Landroid/support/v4/media/session/ParcelableVolumeInfo;,android.support.v4.media.session.ParcelableVolumeInfo getVolumeAttributes()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,isCaptioningEnabled,()Z,boolean isCaptioningEnabled()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,isShuffleModeEnabledRemoved,()Z,boolean isShuffleModeEnabledRemoved()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,isTransportControlEnabled,()Z,boolean isTransportControlEnabled()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,next,()V,void next()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,pause,()V,void pause()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,play,()V,void play()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,playFromMediaId,(Ljava/lang/String;Landroid/os/Bundle;)V,"void playFromMediaId(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,playFromSearch,(Ljava/lang/String;Landroid/os/Bundle;)V,"void playFromSearch(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,playFromUri,(Landroid/net/Uri;Landroid/os/Bundle;)V,"void playFromUri(android.net.Uri, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,prepare,()V,void prepare()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,prepareFromMediaId,(Ljava/lang/String;Landroid/os/Bundle;)V,"void prepareFromMediaId(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,prepareFromSearch,(Ljava/lang/String;Landroid/os/Bundle;)V,"void prepareFromSearch(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,prepareFromUri,(Landroid/net/Uri;Landroid/os/Bundle;)V,"void prepareFromUri(android.net.Uri, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,previous,()V,void previous()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,rate,(Landroid/support/v4/media/RatingCompat;)V,void rate(android.support.v4.media.RatingCompat)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,rateWithExtras,(Landroid/support/v4/media/RatingCompat;Landroid/os/Bundle;)V,"void rateWithExtras(android.support.v4.media.RatingCompat, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,registerCallbackListener,(Landroid/support/v4/media/session/IMediaControllerCallback;)V,void registerCallbackListener(android.support.v4.media.session.IMediaControllerCallback)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,removeQueueItem,(Landroid/support/v4/media/MediaDescriptionCompat;)V,void removeQueueItem(android.support.v4.media.MediaDescriptionCompat)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,removeQueueItemAt,(I)V,void removeQueueItemAt(int)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,rewind,()V,void rewind()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,seekTo,(J)V,void seekTo(long)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,sendCommand,(Ljava/lang/String;Landroid/os/Bundle;Landroid/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper;)V,"void sendCommand(java.lang.String, android.os.Bundle, android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,sendCustomAction,(Ljava/lang/String;Landroid/os/Bundle;)V,"void sendCustomAction(java.lang.String, android.os.Bundle)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,sendMediaButton,(Landroid/view/KeyEvent;)Z,boolean sendMediaButton(android.view.KeyEvent)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,setCaptioningEnabled,(Z)V,void setCaptioningEnabled(boolean)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,setRepeatMode,(I)V,void setRepeatMode(int)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,setShuffleMode,(I)V,void setShuffleMode(int)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,setShuffleModeEnabledRemoved,(Z)V,void setShuffleModeEnabledRemoved(boolean)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,setVolumeTo,(IILjava/lang/String;)V,"void setVolumeTo(int, int, java.lang.String)"
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,skipToQueueItem,(J)V,void skipToQueueItem(long)
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,stop,()V,void stop()
+classes.dex,Landroid/support/v4/media/session/IMediaSession;,unregisterCallbackListener,(Landroid/support/v4/media/session/IMediaControllerCallback;)V,void unregisterCallbackListener(android.support.v4.media.session.IMediaControllerCallback)
+classes.dex,Landroid/support/v4/os/IResultReceiver;,send,(ILandroid/os/Bundle;)V,"void send(int, android.os.Bundle)"
+classes.dex,Landroid/view/IDisplayFoldListener;,onDisplayFoldChanged,(IZ)V,"void onDisplayFoldChanged(int, boolean)"
+classes.dex,Landroid/view/IDisplayWindowListener;,onDisplayAdded,(I)V,void onDisplayAdded(int)
+classes.dex,Landroid/view/IDisplayWindowListener;,onDisplayConfigurationChanged,(ILandroid/content/res/Configuration;)V,"void onDisplayConfigurationChanged(int, android.content.res.Configuration)"
+classes.dex,Landroid/view/IDisplayWindowListener;,onDisplayRemoved,(I)V,void onDisplayRemoved(int)
+classes.dex,Landroid/view/IDisplayWindowListener;,onFixedRotationFinished,(I)V,void onFixedRotationFinished(int)
+classes.dex,Landroid/view/IDisplayWindowListener;,onFixedRotationStarted,(II)V,"void onFixedRotationStarted(int, int)"
+classes.dex,Landroid/view/IDisplayWindowListener;,onKeepClearAreasChanged,(ILjava/util/List;Ljava/util/List;)V,"void onKeepClearAreasChanged(int, java.util.List, java.util.List)"
+classes.dex,Landroid/view/IRotationWatcher;,onRotationChanged,(I)V,void onRotationChanged(int)
+classes.dex,Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportCallback;,onIsPermissionRevocationEnabledForAppResult,(ZZ)V,"void onIsPermissionRevocationEnabledForAppResult(boolean, boolean)"
+classes.dex,Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService;,isPermissionRevocationEnabledForApp,(Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportCallback;)V,void isPermissionRevocationEnabledForApp(androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback)
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,clearNearbyConnectionConfig,(Ljava/lang/String;)Z,boolean clearNearbyConnectionConfig(java.lang.String)
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,clearScanConfig,(Ljava/lang/String;Ljava/lang/String;)Z,"boolean clearScanConfig(java.lang.String, java.lang.String)"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,getVersionCode,()I,int getVersionCode()
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,notifyConnectionStatus,(Ljava/lang/String;ILjava/lang/String;)V,"void notifyConnectionStatus(java.lang.String, int, java.lang.String)"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,setMiuiNearbyConnectionListenerConfig,(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I,"int setMiuiNearbyConnectionListenerConfig(java.lang.String, java.lang.String, java.lang.String)"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,setMiuiNearbyScanConfig,(Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackV2;Ljava/lang/String;Ljava/lang/String;I[B[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B[B)I,"int setMiuiNearbyScanConfig(com.android.bluetooth.ble.app.IMiuiNearbyScanCallbackV2, java.lang.String, java.lang.String, int, byte[], byte[], java.lang.String, java.lang.String, java.lang.String, java.lang.String, byte[], byte[])"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyApiServiceV2;,setMiuiNearbyScanConfigWithPara,(Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackParaV2;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I,"int setMiuiNearbyScanConfigWithPara(com.android.bluetooth.ble.app.IMiuiNearbyScanCallbackParaV2, java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackParaV2;,onDeviceFound,(Landroid/bluetooth/le/ScanResult;)V,void onDeviceFound(android.bluetooth.le.ScanResult)
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackParaV2;,onScanStart,()V,void onScanStart()
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackParaV2;,onScanStop,()V,void onScanStop()
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackV2;,onDeviceFound,(Landroid/bluetooth/le/ScanResult;Lcom/android/bluetooth/ble/app/MiuiNearbyScanInfoV2;)V,"void onDeviceFound(android.bluetooth.le.ScanResult, com.android.bluetooth.ble.app.MiuiNearbyScanInfoV2)"
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackV2;,onScanStart,()V,void onScanStart()
+classes.dex,Lcom/android/bluetooth/ble/app/IMiuiNearbyScanCallbackV2;,onScanStop,()V,void onScanStop()
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,addAudioListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteAudioListener;)V,void addAudioListener(com.baidu.carlife.mixing.aidl.IRemoteAudioListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,addKeyListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteKeyListener;)V,void addKeyListener(com.baidu.carlife.mixing.aidl.IRemoteKeyListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,addTouchListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteTouchListener;)V,void addTouchListener(com.baidu.carlife.mixing.aidl.IRemoteTouchListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,invokeMethod,(Landroid/content/Intent;)Landroid/os/Bundle;,android.os.Bundle invokeMethod(android.content.Intent)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,notifyAudioState,(I)V,void notifyAudioState(int)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,notifyMusicProgress,(J)V,void notifyMusicProgress(long)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,onCastPrepared,(I)V,void onCastPrepared(int)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,onServiceDestroy,()V,void onServiceDestroy()
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,onServiceReady,()V,void onServiceReady()
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,removeAudioListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteAudioListener;)V,void removeAudioListener(com.baidu.carlife.mixing.aidl.IRemoteAudioListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,removeKeyListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteKeyListener;)V,void removeKeyListener(com.baidu.carlife.mixing.aidl.IRemoteKeyListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,removeTouchListener,(Lcom/baidu/carlife/mixing/aidl/IRemoteTouchListener;)V,void removeTouchListener(com.baidu.carlife.mixing.aidl.IRemoteTouchListener)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;,sendMusicInfo,(Lcom/baidu/carlife/mixing/MusicInfo;)V,void sendMusicInfo(com.baidu.carlife.mixing.MusicInfo)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;,invokeMethod,(Landroid/content/Intent;)Landroid/os/Bundle;,android.os.Bundle invokeMethod(android.content.Intent)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;,prepareCast,(Lcom/baidu/carlife/mixing/CastConfig;)V,void prepareCast(com.baidu.carlife.mixing.CastConfig)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;,setCastCallback,(Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)V,void setCastCallback(com.baidu.carlife.mixing.aidl.ICarLifeCastCallback)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;,setSystemAudioCallback,(Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;)V,void setSystemAudioCallback(com.baidu.carlife.mixing.aidl.ISystemAudioCallback)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ICarLifeCastManager;,stopCast,()V,void stopCast()
+classes.dex,Lcom/baidu/carlife/mixing/aidl/IRemoteAudioListener;,onReceiveAudioStream,([BIII)V,"void onReceiveAudioStream(byte[], int, int, int)"
+classes.dex,Lcom/baidu/carlife/mixing/aidl/IRemoteKeyListener;,onKeyEvent,(Landroid/view/KeyEvent;)Z,boolean onKeyEvent(android.view.KeyEvent)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/IRemoteTouchListener;,onTouchEvent,(Landroid/view/MotionEvent;)Z,boolean onTouchEvent(android.view.MotionEvent)
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;,onAudioStateChange,(II)V,"void onAudioStateChange(int, int)"
+classes.dex,Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;,onAudioStreamReady,([BIIII)V,"void onAudioStreamReady(byte[], int, int, int, int)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,controlAudioPlayer,(III)V,"void controlAudioPlayer(int, int, int)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,disConnect,()V,void disConnect()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,onNetConnect,()V,void onNetConnect()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,sendAudioData,([BI)V,"void sendAudioData(byte[], int)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,sendCurrentPhoneState,(IZ)V,"void sendCurrentPhoneState(int, boolean)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,sendMicrophoneState,(ZIII)Z,"boolean sendMicrophoneState(boolean, int, int, int)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setAudioPlayerState,(IIIIILjava/lang/String;)Z,"boolean setAudioPlayerState(int, int, int, int, int, java.lang.String)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setAudioPort,(I)V,void setAudioPort(int)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setCarCallInitState,(ZZ)V,"void setCarCallInitState(boolean, boolean)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setCarMicMuteState,(Z)V,void setCarMicMuteState(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setHFPSupportStatus,(Z)V,void setHFPSupportStatus(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setIsMonitoring,(Z)V,void setIsMonitoring(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setPhoneAudioState,(ZZZZZ)V,"void setPhoneAudioState(boolean, boolean, boolean, boolean, boolean)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCallback;,setWiredHeadStatus,(Z)V,void setWiredHeadStatus(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,initNetwork,()V,void initNetwork()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,onAudioData,([B)V,void onAudioData(byte[])
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,onAuthAndControlChannelReady,()V,void onAuthAndControlChannelReady()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,onNetError,(ILjava/lang/String;)V,"void onNetError(int, java.lang.String)"
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,readAssistantRecorderData,([B)I,int readAssistantRecorderData(byte[])
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,setCallback,(Lcom/carwith/audio/services/IPhoneAudioCallback;)V,void setCallback(com.carwith.audio.services.IPhoneAudioCallback)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,setCarMicrophoneMuteState,(Z)V,void setCarMicrophoneMuteState(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,startAssistantRecorder,(Z)V,void startAssistantRecorder(boolean)
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,startToRecord,()V,void startToRecord()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,stopService,()V,void stopService()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,stopToRecord,()V,void stopToRecord()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,switchAudioSourceToBluetooth,()V,void switchAudioSourceToBluetooth()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,switchAudioSourceToCar,()V,void switchAudioSourceToCar()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,switchAudioSourceToPhone,()V,void switchAudioSourceToPhone()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,switchAudioSourceToPhoneHeadSet,()V,void switchAudioSourceToPhoneHeadSet()
+classes.dex,Lcom/carwith/audio/services/IPhoneAudioCast;,switchAudioSourceToWired,()V,void switchAudioSourceToWired()
+classes.dex,Lmiui/car/ISecureChangedCallback;,onSecureChangeCallback,(Ljava/lang/String;Z)V,"void onSecureChangeCallback(java.lang.String, boolean)"
+classes.dex,Lmiui/cloud/sync/IRemoteFileSyncLogger;,release,(Landroid/os/ResultReceiver;)V,void release(android.os.ResultReceiver)
+classes.dex,Lmiui/cloud/sync/IRemoteFileSyncLogger;,syncLog,(Ljava/lang/String;Ljava/lang/String;)V,"void syncLog(java.lang.String, java.lang.String)"
+classes.dex,Lmiui/net/IXiaomiAuthService;,getMiCloudAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getMiCloudAccessToken(android.accounts.Account, android.os.Bundle)"
+classes.dex,Lmiui/net/IXiaomiAuthService;,getMiCloudUserInfo,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getMiCloudUserInfo(android.accounts.Account, android.os.Bundle)"
+classes.dex,Lmiui/net/IXiaomiAuthService;,getSnsAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getSnsAccessToken(android.accounts.Account, android.os.Bundle)"
+classes.dex,Lmiui/net/IXiaomiAuthService;,invalidateAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)V,"void invalidateAccessToken(android.accounts.Account, android.os.Bundle)"
+classes.dex,Lmiuix/appcompat/app/floatingactivity/multiapp/IFloatingService;,callServiceMethod,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle callServiceMethod(int, android.os.Bundle)"
+classes.dex,Lmiuix/appcompat/app/floatingactivity/multiapp/IFloatingService;,registerServiceNotify,(Lmiuix/appcompat/app/floatingactivity/multiapp/IServiceNotify;Ljava/lang/String;)I,"int registerServiceNotify(miuix.appcompat.app.floatingactivity.multiapp.IServiceNotify, java.lang.String)"
+classes.dex,Lmiuix/appcompat/app/floatingactivity/multiapp/IFloatingService;,unregisterServiceNotify,(Lmiuix/appcompat/app/floatingactivity/multiapp/IServiceNotify;Ljava/lang/String;)V,"void unregisterServiceNotify(miuix.appcompat.app.floatingactivity.multiapp.IServiceNotify, java.lang.String)"
+classes.dex,Lmiuix/appcompat/app/floatingactivity/multiapp/IFloatingService;,upDateRemoteActivityInfo,(Ljava/lang/String;I)V,"void upDateRemoteActivityInfo(java.lang.String, int)"
+classes.dex,Lmiuix/appcompat/app/floatingactivity/multiapp/IServiceNotify;,notifyFromService,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle notifyFromService(int, android.os.Bundle)"
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,basicTypes,(IJZFDLjava/lang/String;)V,"void basicTypes(int, long, boolean, float, double, java.lang.String)"
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,checkCallRecordTime,()J,long checkCallRecordTime()
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,isBound,()Z,boolean isBound()
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,isRecording,()Z,boolean isRecording()
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,registerCallback,(Lcom/carwith/dialer/recorder/IRecorderCallback;)V,void registerCallback(com.carwith.dialer.recorder.IRecorderCallback)
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,startCallRecord,(Ljava/lang/String;Ljava/lang/String;)V,"void startCallRecord(java.lang.String, java.lang.String)"
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,stopCallRecord,()V,void stopCallRecord()
+classes2.dex,Lcom/carwith/dialer/recorder/ICallRecorderCommand;,unregisterCallback,(Lcom/carwith/dialer/recorder/IRecorderCallback;)V,void unregisterCallback(com.carwith.dialer.recorder.IRecorderCallback)
+classes2.dex,Lcom/carwith/dialer/recorder/IRecorderCallback;,basicTypes,(IJZFDLjava/lang/String;)V,"void basicTypes(int, long, boolean, float, double, java.lang.String)"
+classes2.dex,Lcom/carwith/dialer/recorder/IRecorderCallback;,onCallRecorderError,(I)V,void onCallRecorderError(int)
+classes2.dex,Lcom/carwith/dialer/recorder/IRecorderCallback;,onCallRecorderStarted,(Ljava/lang/String;)V,void onCallRecorderStarted(java.lang.String)
+classes2.dex,Lcom/carwith/dialer/recorder/IRecorderCallback;,onCallRecorderStoped,(ILjava/lang/String;)V,"void onCallRecorderStoped(int, java.lang.String)"
+classes2.dex,Lcom/carwith/dialer/recorder/IRecorderCallback;,onCheckRecordTime,(J)V,void onCheckRecordTime(long)
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApi;,execute,(Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle execute(java.lang.String, android.os.Bundle)"
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApi;,executeAsync,(Ljava/lang/String;Landroid/os/Bundle;Lcom/kugou/android/third/api/IKGMusicApiCallback;)V,"void executeAsync(java.lang.String, android.os.Bundle, com.kugou.android.third.api.IKGMusicApiCallback)"
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApi;,registerEventListener,(Ljava/util/List;Lcom/kugou/android/third/api/IKGMusicApiEventListener;)Landroid/os/Bundle;,"android.os.Bundle registerEventListener(java.util.List, com.kugou.android.third.api.IKGMusicApiEventListener)"
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApi;,unregisterEventListener,(Ljava/util/List;Lcom/kugou/android/third/api/IKGMusicApiEventListener;)Landroid/os/Bundle;,"android.os.Bundle unregisterEventListener(java.util.List, com.kugou.android.third.api.IKGMusicApiEventListener)"
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApiCallback;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes3.dex,Lcom/kugou/android/third/api/IKGMusicApiEventListener;,onEvent,(Ljava/lang/String;Landroid/os/Bundle;)V,"void onEvent(java.lang.String, android.os.Bundle)"
+classes3.dex,Lcom/market/pm/IMarketInstallerService;,installPackage,(Landroid/net/Uri;Landroid/os/ResultReceiver;Landroid/os/Bundle;)V,"void installPackage(android.net.Uri, android.os.ResultReceiver, android.os.Bundle)"
+classes3.dex,Lcom/market/sdk/IDesktopRecommendResponse;,onLoadFailed,()V,void onLoadFailed()
+classes3.dex,Lcom/market/sdk/IDesktopRecommendResponse;,onLoadSuccess,(Lcom/market/sdk/DesktopRecommendInfo;)V,void onLoadSuccess(com.market.sdk.DesktopRecommendInfo)
+classes3.dex,Lcom/market/sdk/IImageCallback;,onImageLoadFailed,(Ljava/lang/String;)V,void onImageLoadFailed(java.lang.String)
+classes3.dex,Lcom/market/sdk/IImageCallback;,onImageLoadSuccess,(Ljava/lang/String;Landroid/net/Uri;)V,"void onImageLoadSuccess(java.lang.String, android.net.Uri)"
+classes3.dex,Lcom/market/sdk/IMarketService;,allowConnectToNetwork,()Z,boolean allowConnectToNetwork()
+classes3.dex,Lcom/market/sdk/IMarketService;,getApkCheckInfo,(Ljava/lang/String;Ljava/lang/String;Z)Lcom/market/sdk/ApkVerifyInfo;,"com.market.sdk.ApkVerifyInfo getApkCheckInfo(java.lang.String, java.lang.String, boolean)"
+classes3.dex,Lcom/market/sdk/IMarketService;,getCategory,([Ljava/lang/String;)I,int getCategory(java.lang.String[])
+classes3.dex,Lcom/market/sdk/IMarketService;,getCategoryV2,([Ljava/lang/String;Landroid/os/ResultReceiver;)V,"void getCategoryV2(java.lang.String[], android.os.ResultReceiver)"
+classes3.dex,Lcom/market/sdk/IMarketService;,getDesktopFolderConfig,(Landroid/os/ResultReceiver;)V,void getDesktopFolderConfig(android.os.ResultReceiver)
+classes3.dex,Lcom/market/sdk/IMarketService;,getEnableSettings,()Ljava/lang/String;,java.lang.String getEnableSettings()
+classes3.dex,Lcom/market/sdk/IMarketService;,getVerifyInfo,(Ljava/lang/String;Ljava/lang/String;Z)Lcom/market/sdk/ApkVerifyInfo;,"com.market.sdk.ApkVerifyInfo getVerifyInfo(java.lang.String, java.lang.String, boolean)"
+classes3.dex,Lcom/market/sdk/IMarketService;,getWhiteSet,()Ljava/lang/String;,java.lang.String getWhiteSet()
+classes3.dex,Lcom/market/sdk/IMarketService;,getWhiteSetV2,(Landroid/os/ResultReceiver;)V,void getWhiteSetV2(android.os.ResultReceiver)
+classes3.dex,Lcom/market/sdk/IMarketService;,isInWhiteSetForApkCheck,(Ljava/lang/String;)Z,boolean isInWhiteSetForApkCheck(java.lang.String)
+classes3.dex,Lcom/market/sdk/IMarketService;,loadDesktopRecommendInfo,(JLjava/lang/String;Ljava/util/List;Lcom/market/sdk/IDesktopRecommendResponse;)V,"void loadDesktopRecommendInfo(long, java.lang.String, java.util.List, com.market.sdk.IDesktopRecommendResponse)"
+classes3.dex,Lcom/market/sdk/IMarketService;,loadDesktopRecommendInfoV2,(JLjava/lang/String;Ljava/util/List;Landroid/os/ResultReceiver;)V,"void loadDesktopRecommendInfoV2(long, java.lang.String, java.util.List, android.os.ResultReceiver)"
+classes3.dex,Lcom/market/sdk/IMarketService;,loadDesktopRecommendInfoV3,(Landroid/os/Bundle;Landroid/os/ResultReceiver;)V,"void loadDesktopRecommendInfoV3(android.os.Bundle, android.os.ResultReceiver)"
+classes3.dex,Lcom/market/sdk/IMarketService;,loadIcon,(Ljava/lang/String;Ljava/lang/String;Lcom/market/sdk/IImageCallback;)V,"void loadIcon(java.lang.String, java.lang.String, com.market.sdk.IImageCallback)"
+classes3.dex,Lcom/market/sdk/IMarketService;,loadImage,(Ljava/lang/String;IILcom/market/sdk/IImageCallback;)V,"void loadImage(java.lang.String, int, int, com.market.sdk.IImageCallback)"
+classes3.dex,Lcom/market/sdk/IMarketService;,recordStaticsCountEvent,(Ljava/lang/String;Ljava/lang/String;)V,"void recordStaticsCountEvent(java.lang.String, java.lang.String)"
+classes3.dex,Lcom/market/sdk/homeguide/IAppstoreHomeGuideService;,ready,(Lcom/market/sdk/homeguide/HomeUserGuideData;)Lcom/market/sdk/homeguide/HomeUserGuideResult;,com.market.sdk.homeguide.HomeUserGuideResult ready(com.market.sdk.homeguide.HomeUserGuideData)
+classes3.dex,Lcom/market/sdk/homeguide/IAppstoreHomeGuideService;,show,(Landroid/os/ResultReceiver;)V,void show(android.os.ResultReceiver)
+classes3.dex,Lcom/miui/analytics/ITrack;,trackEvent,(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V,"void trackEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+classes4.dex,Lcom/miui/carlink/castfwk/ICarlinkService;,castToDevice,(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V,"void castToDevice(java.lang.String, java.lang.String, java.lang.String, int)"
+classes4.dex,Lcom/miui/carlink/castfwk/ICarlinkService;,getCarDensity,()I,int getCarDensity()
+classes4.dex,Lcom/miui/carlink/castfwk/ICarlinkService;,getVirtualDisplayId,()I,int getVirtualDisplayId()
+classes4.dex,Lcom/miui/carlink/castfwk/ICarlinkService;,setSecondaryVirtualDisplayId,(I)V,void setSecondaryVirtualDisplayId(int)
+classes4.dex,Lcom/miui/carlink/databus/IChannelCreationCallback;,onChannelCreated,(IZ)V,"void onChannelCreated(int, boolean)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,backToCarForeground,()V,void backToCarForeground()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,getCarLifeCallActive,()Z,boolean getCarLifeCallActive()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,getIsCarMicMute,()Z,boolean getIsCarMicMute()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,getIsCompleteCallSwitch,()Z,boolean getIsCompleteCallSwitch()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,getIsPhoneAudio,()[Z,boolean[] getIsPhoneAudio()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,goToCarDesktop,()V,void goToCarDesktop()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,notifyDisconnectByUser,(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V,void notifyDisconnectByUser(com.miui.carlink.databus.INotifyDisconnectCallback)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,notifyRotationChanged,(I)Z,boolean notifyRotationChanged(int)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,readAssistantRecorderData,([B)I,int readAssistantRecorderData(byte[])
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,registCarSensorObserver,(Lcom/miui/carlink/databus/IDataObserver;)Z,boolean registCarSensorObserver(com.miui.carlink.databus.IDataObserver)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,registerChannelCreationCallback,(Lcom/miui/carlink/databus/IChannelCreationCallback;)V,void registerChannelCreationCallback(com.miui.carlink.databus.IChannelCreationCallback)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,registerPauseAndResumeVideoStreamCallback,(Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;)V,void registerPauseAndResumeVideoStreamCallback(com.miui.carlink.databus.IPauseAndResumeVideoStreamCallback)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendAppListChanged,([ILjava/lang/String;)V,"void sendAppListChanged(int[], java.lang.String)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendAppStateChanged,(IIZIJLcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;Z)V,"void sendAppStateChanged(int, int, boolean, int, long, com.miui.carlink.databus.IDisplayVisibleRegionWrapper, boolean)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendMicrophoneState,(ZIII)V,"void sendMicrophoneState(boolean, int, int, int)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendMusicInfoToCar,(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)Z,boolean sendMusicInfoToCar(com.miui.carlink.databus.p2cdatastructure.MusicInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendNavigationInfoToCar,(Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;)Z,boolean sendNavigationInfoToCar(com.miui.carlink.databus.p2cdatastructure.NavigationInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,sendPhoneStateToCar,(Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)Z,boolean sendPhoneStateToCar(com.miui.carlink.databus.p2cdatastructure.PhoneState)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setAudioSvrPort,(I)V,void setAudioSvrPort(int)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setCarMicMuteState,()V,void setCarMicMuteState()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setDeviceId,(Ljava/lang/String;)V,void setDeviceId(java.lang.String)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setFloatWindowPosition,(Landroid/graphics/Point;Landroid/graphics/Point;)V,"void setFloatWindowPosition(android.graphics.Point, android.graphics.Point)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setIsIgnoreKeyBack,(Z)V,void setIsIgnoreKeyBack(boolean)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,setVoiceAssistantActive,(Z)V,void setVoiceAssistantActive(boolean)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,start,(ILjava/lang/String;)V,"void start(int, java.lang.String)"
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,startAssistantRecorder,(Z)V,void startAssistantRecorder(boolean)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,startHeartBeatThread,(Z)V,void startHeartBeatThread(boolean)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,startToRecord,()V,void startToRecord()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,stop,(Lcom/miui/carlink/databus/INotifyDisconnectCallback;)V,void stop(com.miui.carlink.databus.INotifyDisconnectCallback)
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,stopToRecord,()V,void stopToRecord()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,switchAudioSourceToCar,()V,void switchAudioSourceToCar()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,switchAudioSourceToPhone,()V,void switchAudioSourceToPhone()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,switchAudioSourceToPhoneHeadSet,()V,void switchAudioSourceToPhoneHeadSet()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,switchAudioToBluetooth,()V,void switchAudioToBluetooth()
+classes4.dex,Lcom/miui/carlink/databus/IDataBusService;,switchAudioToWired,()V,void switchAudioToWired()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,callUpPhone,()V,void callUpPhone()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,favourCurrentMusic,()V,void favourCurrentMusic()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,handleMediaKeyCode,(I)V,void handleMediaKeyCode(int)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,handleUndefineVRCmd,(Ljava/lang/String;)V,void handleUndefineVRCmd(java.lang.String)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,hangUpPhone,()V,void hangUpPhone()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,navigationGoCompany,()V,void navigationGoCompany()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,navigationGoHome,()V,void navigationGoHome()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onAccInfoChanged,(Lcom/miui/carlink/databus/sensor/AccInfo;)V,void onAccInfoChanged(com.miui.carlink.databus.sensor.AccInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onAwakenVoiceAssistant,([BIII)V,"void onAwakenVoiceAssistant(byte[], int, int, int)"
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onCarBackKey,()V,void onCarBackKey()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onCloseVoiceAssistant,()V,void onCloseVoiceAssistant()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onGearInfoChanged,(Lcom/miui/carlink/databus/sensor/GearInfo;)V,void onGearInfoChanged(com.miui.carlink.databus.sensor.GearInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onGpsInfoChagned,(Lcom/miui/carlink/databus/sensor/GpsInfo;)V,void onGpsInfoChagned(com.miui.carlink.databus.sensor.GpsInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onGyroInfoChagned,(Lcom/miui/carlink/databus/sensor/GyroInfo;)V,void onGyroInfoChagned(com.miui.carlink.databus.sensor.GyroInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onLightSensorInfoChanged,(Lcom/miui/carlink/databus/sensor/LightSensorInfo;)V,void onLightSensorInfoChanged(com.miui.carlink.databus.sensor.LightSensorInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onLightsInfoChanged,(Lcom/miui/carlink/databus/sensor/LightsInfo;)V,void onLightsInfoChanged(com.miui.carlink.databus.sensor.LightsInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onNotificationClick,(II)V,"void onNotificationClick(int, int)"
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onNotifyCallHungUpChanged,()V,void onNotifyCallHungUpChanged()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onOilInfoChanged,(Lcom/miui/carlink/databus/sensor/OilInfo;)V,void onOilInfoChanged(com.miui.carlink.databus.sensor.OilInfo)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,onSwitchDayOrNightChanged,(I)V,void onSwitchDayOrNightChanged(int)
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,openLauncherView,()V,void openLauncherView()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,openMap,()V,void openMap()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,openMediaAppView,()V,void openMediaAppView()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,openTelecomView,()V,void openTelecomView()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,operationAppDisplay,(III)Z,"boolean operationAppDisplay(int, int, int)"
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,pauseMedia,()V,void pauseMedia()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,playMedia,()V,void playMedia()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,quitNavigation,()V,void quitNavigation()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,skipToMusicNext,()V,void skipToMusicNext()
+classes4.dex,Lcom/miui/carlink/databus/IDataObserver;,skipToMusicPrevious,()V,void skipToMusicPrevious()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getBottom,()I,int getBottom()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getLeft,()I,int getLeft()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getMode,()I,int getMode()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getOriginHeight,()I,int getOriginHeight()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getOriginWidth,()I,int getOriginWidth()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getRight,()I,int getRight()
+classes4.dex,Lcom/miui/carlink/databus/IDisplayVisibleRegionWrapper;,getTop,()I,int getTop()
+classes4.dex,Lcom/miui/carlink/databus/INotifyDisconnectCallback;,onComplete,()V,void onComplete()
+classes4.dex,Lcom/miui/carlink/databus/INotifyDisconnectCallback;,onNotifyCarDisconnect,()V,void onNotifyCarDisconnect()
+classes4.dex,Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;,pauseVideoStreamCallback,()V,void pauseVideoStreamCallback()
+classes4.dex,Lcom/miui/carlink/databus/IPauseAndResumeVideoStreamCallback;,resumeVideoStreamCallback,(Z)V,void resumeVideoStreamCallback(boolean)
+classes4.dex,Lcom/miui/powerkeeper/thermal/IThermalScenario;,isInCastingWithCamera,()I,int isInCastingWithCamera()
+classes4.dex,Lcom/miui/powerkeeper/thermal/IThermalScenario;,registerListener,([ILcom/miui/powerkeeper/thermal/IThermalScenarioListener;)V,"void registerListener(int[], com.miui.powerkeeper.thermal.IThermalScenarioListener)"
+classes4.dex,Lcom/miui/powerkeeper/thermal/IThermalScenario;,unregisterListener,(Lcom/miui/powerkeeper/thermal/IThermalScenarioListener;)V,void unregisterListener(com.miui.powerkeeper.thermal.IThermalScenarioListener)
+classes4.dex,Lcom/miui/powerkeeper/thermal/IThermalScenarioListener;,onScenarioChanged,(Ljava/lang/String;)V,void onScenarioChanged(java.lang.String)
+classes4.dex,Lcom/miui/powerkeeper/thermal/IThermalScenarioListener;,onTemperatureChanged,(I)V,void onTemperatureChanged(int)
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApi;,execute,(Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle execute(java.lang.String, android.os.Bundle)"
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApi;,executeAsync,(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Lcom/netease/cloudmusic/third/api/contract/ICMApiCallback;)V,"void executeAsync(java.lang.String, java.lang.String, android.os.Bundle, com.netease.cloudmusic.third.api.contract.ICMApiCallback)"
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApi;,registerEventListener,(Lcom/netease/cloudmusic/third/api/contract/ICMApiEventListener;)Landroid/os/Bundle;,android.os.Bundle registerEventListener(com.netease.cloudmusic.third.api.contract.ICMApiEventListener)
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApi;,unregisterEventListener,(Lcom/netease/cloudmusic/third/api/contract/ICMApiEventListener;)Landroid/os/Bundle;,android.os.Bundle unregisterEventListener(com.netease.cloudmusic.third.api.contract.ICMApiEventListener)
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApiCallback;,onReturn,(Landroid/os/Bundle;)V,void onReturn(android.os.Bundle)
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApiEventListener;,events,()Ljava/util/List;,java.util.List events()
+classes4.dex,Lcom/netease/cloudmusic/third/api/contract/ICMApiEventListener;,onEvent,(Ljava/lang/String;Landroid/os/Bundle;)V,"void onEvent(java.lang.String, android.os.Bundle)"
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApi;,execute,(Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle execute(java.lang.String, android.os.Bundle)"
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApi;,executeAsync,(Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/qqmusic/third/api/contract/IQQMusicApiCallback;)V,"void executeAsync(java.lang.String, android.os.Bundle, com.tencent.qqmusic.third.api.contract.IQQMusicApiCallback)"
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApi;,registerEventListener,(Ljava/util/List;Lcom/tencent/qqmusic/third/api/contract/IQQMusicApiEventListener;)Landroid/os/Bundle;,"android.os.Bundle registerEventListener(java.util.List, com.tencent.qqmusic.third.api.contract.IQQMusicApiEventListener)"
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApi;,unregisterEventListener,(Ljava/util/List;Lcom/tencent/qqmusic/third/api/contract/IQQMusicApiEventListener;)Landroid/os/Bundle;,"android.os.Bundle unregisterEventListener(java.util.List, com.tencent.qqmusic.third.api.contract.IQQMusicApiEventListener)"
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApiCallback;,onReturn,(Landroid/os/Bundle;)V,void onReturn(android.os.Bundle)
+classes4.dex,Lcom/tencent/qqmusic/third/api/contract/IQQMusicApiEventListener;,onEvent,(Ljava/lang/String;Landroid/os/Bundle;)V,"void onEvent(java.lang.String, android.os.Bundle)"
+classes4.dex,Lcom/ucar/app/ability/IUCarAbilityService;,dial,(Landroid/os/Bundle;)Z,boolean dial(android.os.Bundle)
+classes4.dex,Lcom/ucar/app/ability/IUCarAbilityService;,navigate,(Landroid/os/Bundle;)V,void navigate(android.os.Bundle)
+classes5.dex,Lcom/ucar/map/IUCarMapAppService;,getValue,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapAppService;,setValue,(ILandroid/os/Bundle;)V,"void setValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapCallback;,getCommuterAddress,()Landroid/os/Bundle;,android.os.Bundle getCommuterAddress()
+classes5.dex,Lcom/ucar/map/IUCarMapCallback;,getUIMode,()I,int getUIMode()
+classes5.dex,Lcom/ucar/map/IUCarMapCallback;,getValue,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapCallback;,onUCarModeStateChange,(Z)V,void onUCarModeStateChange(boolean)
+classes5.dex,Lcom/ucar/map/IUCarMapCallback;,setValue,(ILandroid/os/Bundle;)V,"void setValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,getValue,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,notifyCommuterAddressChanged,(ZZLandroid/os/Bundle;)V,"void notifyCommuterAddressChanged(boolean, boolean, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,notifyMapUIModeChanged,(ILandroid/os/Bundle;)V,"void notifyMapUIModeChanged(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,notifyNavStatusChanged,(ZLandroid/os/Bundle;)V,"void notifyNavStatusChanged(boolean, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,notifyStatusChanged,(ILandroid/os/Bundle;)V,"void notifyStatusChanged(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,registerMapCallback,(Lcom/ucar/map/IUCarMapCallback;)V,void registerMapCallback(com.ucar.map.IUCarMapCallback)
+classes5.dex,Lcom/ucar/map/IUCarMapService;,removeNavInfo,(Landroid/os/Bundle;)V,void removeNavInfo(android.os.Bundle)
+classes5.dex,Lcom/ucar/map/IUCarMapService;,setValue,(ILandroid/os/Bundle;)V,"void setValue(int, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,showNavInfo,(Landroid/os/Bundle;Landroid/os/Bundle;)V,"void showNavInfo(android.os.Bundle, android.os.Bundle)"
+classes5.dex,Lcom/ucar/map/IUCarMapService;,unregisterMapCallback,()V,void unregisterMapCallback()
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onReceiverTask,(Lcom/ucar/sdk/bean/TaskInfo;[B)V,"void onReceiverTask(com.ucar.sdk.bean.TaskInfo, byte[])"
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onStarted,()V,void onStarted()
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onTaskCancel,(I)V,void onTaskCancel(int)
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onTransmitFinish,(ZLjava/lang/String;Ljava/lang/String;)V,"void onTransmitFinish(boolean, java.lang.String, java.lang.String)"
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onTransmitInterrupt,(ZLjava/lang/String;III)V,"void onTransmitInterrupt(boolean, java.lang.String, int, int, int)"
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onTransmitProgress,(ZLjava/lang/String;JJ)V,"void onTransmitProgress(boolean, java.lang.String, long, long)"
+classes5.dex,Lcom/ucar/sdk/IShareObserver;,onTransmitStatusChange,(ZLjava/lang/String;I)V,"void onTransmitStatusChange(boolean, java.lang.String, int)"
+classes5.dex,Lcom/ucar/sdk/IShareService;,cancelTransmit,(Ljava/lang/String;)V,void cancelTransmit(java.lang.String)
+classes5.dex,Lcom/ucar/sdk/IShareService;,download,(Lcom/ucar/sdk/bean/TaskInfo;)V,void download(com.ucar.sdk.bean.TaskInfo)
+classes5.dex,Lcom/ucar/sdk/IShareService;,getRemoteDevice,()Lcom/ucar/sdk/bean/DeviceInfo;,com.ucar.sdk.bean.DeviceInfo getRemoteDevice()
+classes5.dex,Lcom/ucar/sdk/IShareService;,getStorePath,()Ljava/lang/String;,java.lang.String getStorePath()
+classes5.dex,Lcom/ucar/sdk/IShareService;,getTransmitStatus,(Ljava/lang/String;)I,int getTransmitStatus(java.lang.String)
+classes5.dex,Lcom/ucar/sdk/IShareService;,registerShareObserver,(Lcom/ucar/sdk/IShareObserver;)V,void registerShareObserver(com.ucar.sdk.IShareObserver)
+classes5.dex,Lcom/ucar/sdk/IShareService;,setStorePath,(Ljava/lang/String;)Z,boolean setStorePath(java.lang.String)
+classes5.dex,Lcom/ucar/sdk/IShareService;,startTransmit,(Ljava/lang/String;Ljava/util/List;)V,"void startTransmit(java.lang.String, java.util.List)"
+classes5.dex,Lcom/ucar/sdk/IShareService;,unregisterShareObserver,(Lcom/ucar/sdk/IShareObserver;)V,void unregisterShareObserver(com.ucar.sdk.IShareObserver)
+classes5.dex,Lcom/voice/system/ecology/aidl/IControlVoiceChannel;,onControlAIVoice,(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,"java.lang.String onControlAIVoice(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthResponse;,onCancel,()V,void onCancel()
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,getAccessTokenInResponse,(Lcom/xiaomi/account/IXiaomiAuthResponse;Landroid/os/Bundle;II)V,"void getAccessTokenInResponse(com.xiaomi.account.IXiaomiAuthResponse, android.os.Bundle, int, int)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,getMiCloudAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getMiCloudAccessToken(android.accounts.Account, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,getMiCloudUserInfo,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getMiCloudUserInfo(android.accounts.Account, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,getSnsAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle getSnsAccessToken(android.accounts.Account, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,getVersionNum,()I,int getVersionNum()
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,invalidateAccessToken,(Landroid/accounts/Account;Landroid/os/Bundle;)V,"void invalidateAccessToken(android.accounts.Account, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,isSupport,(Ljava/lang/String;)Z,boolean isSupport(java.lang.String)
+classes5.dex,Lcom/xiaomi/account/IXiaomiAuthService;,supportResponseWay,()Z,boolean supportResponseWay()
+classes5.dex,Lcom/xiaomi/account/passportsdk/account_lib/IAccountExchangeService;,getNullableAccount,(Ljava/lang/String;)Lcom/xiaomi/accountsdk/account/data/AccountInfo;,com.xiaomi.accountsdk.account.data.AccountInfo getNullableAccount(java.lang.String)
+classes5.dex,Lcom/xiaomi/account/passportsdk/account_lib/IAccountExchangeService;,tryAddAccount,(Lcom/xiaomi/accountsdk/account/data/AccountInfo;Ljava/lang/String;)V,"void tryAddAccount(com.xiaomi.accountsdk.account.data.AccountInfo, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,addAccount,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)V,"void addAccount(com.xiaomi.accounts.IAccountAuthenticatorResponse, java.lang.String, java.lang.String, java.lang.String[], android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,confirmCredentials,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Landroid/accounts/Account;Landroid/os/Bundle;)V,"void confirmCredentials(com.xiaomi.accounts.IAccountAuthenticatorResponse, android.accounts.Account, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,editProperties,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Ljava/lang/String;)V,"void editProperties(com.xiaomi.accounts.IAccountAuthenticatorResponse, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,getAccountRemovalAllowed,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Landroid/accounts/Account;)V,"void getAccountRemovalAllowed(com.xiaomi.accounts.IAccountAuthenticatorResponse, android.accounts.Account)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,getAuthToken,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Landroid/accounts/Account;Ljava/lang/String;Landroid/os/Bundle;)V,"void getAuthToken(com.xiaomi.accounts.IAccountAuthenticatorResponse, android.accounts.Account, java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,getAuthTokenLabel,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Ljava/lang/String;)V,"void getAuthTokenLabel(com.xiaomi.accounts.IAccountAuthenticatorResponse, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,hasFeatures,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Landroid/accounts/Account;[Ljava/lang/String;)V,"void hasFeatures(com.xiaomi.accounts.IAccountAuthenticatorResponse, android.accounts.Account, java.lang.String[])"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticator;,updateCredentials,(Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;Landroid/accounts/Account;Ljava/lang/String;Landroid/os/Bundle;)V,"void updateCredentials(com.xiaomi.accounts.IAccountAuthenticatorResponse, android.accounts.Account, java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;,onRequestContinued,()V,void onRequestContinued()
+classes5.dex,Lcom/xiaomi/accounts/IAccountAuthenticatorResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerResponse;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerResponse;,onRequestContinued,()V,void onRequestContinued()
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,addAccount,(Landroid/accounts/Account;Ljava/lang/String;Landroid/os/Bundle;)Z,"boolean addAccount(android.accounts.Account, java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,addAcount,(Lcom/xiaomi/accounts/IAccountManagerResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;ZLandroid/os/Bundle;)V,"void addAcount(com.xiaomi.accounts.IAccountManagerResponse, java.lang.String, java.lang.String, java.lang.String[], boolean, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,clearPassword,(Landroid/accounts/Account;)V,void clearPassword(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,confirmCredentials,(Lcom/xiaomi/accounts/IAccountManagerResponse;Landroid/accounts/Account;Landroid/os/Bundle;Z)V,"void confirmCredentials(com.xiaomi.accounts.IAccountManagerResponse, android.accounts.Account, android.os.Bundle, boolean)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,editProperties,(Lcom/xiaomi/accounts/IAccountManagerResponse;Ljava/lang/String;Z)V,"void editProperties(com.xiaomi.accounts.IAccountManagerResponse, java.lang.String, boolean)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getAccounts,(Ljava/lang/String;)[Landroid/accounts/Account;,android.accounts.Account[] getAccounts(java.lang.String)
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getAccountsByFeatures,(Lcom/xiaomi/accounts/IAccountManagerResponse;Ljava/lang/String;[Ljava/lang/String;)V,"void getAccountsByFeatures(com.xiaomi.accounts.IAccountManagerResponse, java.lang.String, java.lang.String[])"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getAuthToken,(Lcom/xiaomi/accounts/IAccountManagerResponse;Landroid/accounts/Account;Ljava/lang/String;ZZLandroid/os/Bundle;)V,"void getAuthToken(com.xiaomi.accounts.IAccountManagerResponse, android.accounts.Account, java.lang.String, boolean, boolean, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getAuthTokenLabel,(Lcom/xiaomi/accounts/IAccountManagerResponse;Ljava/lang/String;Ljava/lang/String;)V,"void getAuthTokenLabel(com.xiaomi.accounts.IAccountManagerResponse, java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getPassword,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getPassword(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,getUserData,(Landroid/accounts/Account;Ljava/lang/String;)Ljava/lang/String;,"java.lang.String getUserData(android.accounts.Account, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,hasFeatures,(Lcom/xiaomi/accounts/IAccountManagerResponse;Landroid/accounts/Account;[Ljava/lang/String;)V,"void hasFeatures(com.xiaomi.accounts.IAccountManagerResponse, android.accounts.Account, java.lang.String[])"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,invalidateAuthToken,(Ljava/lang/String;Ljava/lang/String;)V,"void invalidateAuthToken(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,peekAuthToken,(Landroid/accounts/Account;Ljava/lang/String;)Ljava/lang/String;,"java.lang.String peekAuthToken(android.accounts.Account, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,removeAccount,(Lcom/xiaomi/accounts/IAccountManagerResponse;Landroid/accounts/Account;)V,"void removeAccount(com.xiaomi.accounts.IAccountManagerResponse, android.accounts.Account)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,setAuthToken,(Landroid/accounts/Account;Ljava/lang/String;Ljava/lang/String;)V,"void setAuthToken(android.accounts.Account, java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,setPassword,(Landroid/accounts/Account;Ljava/lang/String;)V,"void setPassword(android.accounts.Account, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,setUserData,(Landroid/accounts/Account;Ljava/lang/String;Ljava/lang/String;)V,"void setUserData(android.accounts.Account, java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,updateAppPermission,(Landroid/accounts/Account;Ljava/lang/String;IZ)V,"void updateAppPermission(android.accounts.Account, java.lang.String, int, boolean)"
+classes5.dex,Lcom/xiaomi/accounts/IAccountManagerService;,updateCredentials,(Lcom/xiaomi/accounts/IAccountManagerResponse;Landroid/accounts/Account;Ljava/lang/String;ZLandroid/os/Bundle;)V,"void updateCredentials(com.xiaomi.accounts.IAccountManagerResponse, android.accounts.Account, java.lang.String, boolean, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/accounts/ILocalFeatureManagerResponse;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accounts/ILocalFeatureManagerResponse;,onRequestContinued,()V,void onRequestContinued()
+classes5.dex,Lcom/xiaomi/accounts/ILocalFeatureManagerResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IFindDeviceRemoveAccountService;,removeAccount,()Z,boolean removeAccount()
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getAccessToken,(Landroid/accounts/Account;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;,"java.lang.String getAccessToken(android.accounts.Account, java.lang.String, java.lang.String, boolean)"
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getAccountLoginHint,()Ljava/lang/String;,java.lang.String getAccountLoginHint()
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getAvatarFd,(Landroid/accounts/Account;)Landroid/os/ParcelFileDescriptor;,android.os.ParcelFileDescriptor getAvatarFd(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getAvatarFdByFileName,(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;,android.os.ParcelFileDescriptor getAvatarFdByFileName(java.lang.String)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getEmail,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getEmail(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getEncryptedUserId,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getEncryptedUserId(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getNickName,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getNickName(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getPhone,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getPhone(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getSnsAccessToken,(Ljava/lang/String;)Ljava/lang/String;,java.lang.String getSnsAccessToken(java.lang.String)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getUserName,(Landroid/accounts/Account;)Ljava/lang/String;,java.lang.String getUserName(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,getXiaomiAccount,(ZLandroid/accounts/Account;)Lcom/xiaomi/accountsdk/account/XiaomiAccount;,"com.xiaomi.accountsdk.account.XiaomiAccount getXiaomiAccount(boolean, android.accounts.Account)"
+classes5.dex,Lcom/xiaomi/accountsdk/account/IXiaomiAccountService;,invalidateSnsAccessToken,(Ljava/lang/String;Ljava/lang/String;)Z,"boolean invalidateSnsAccessToken(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountIntentHandler;,handleIntent,(Landroid/content/Intent;)Z,boolean handleIntent(android.content.Intent)
+classes5.dex,Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountService;,getGuestAccount,(Landroid/os/Bundle;Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountIntentHandler;)Landroid/os/Bundle;,"android.os.Bundle getGuestAccount(android.os.Bundle, com.xiaomi.accountsdk.guestaccount.IGuestAccountIntentHandler)"
+classes5.dex,Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountService;,getStoredUserId,(Landroid/os/Bundle;)Landroid/os/Bundle;,android.os.Bundle getStoredUserId(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountService;,onXiaomiAccountCTAAllowed,()V,void onXiaomiAccountCTAAllowed()
+classes5.dex,Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountService;,renewServiceToken,(Landroid/os/Bundle;Lcom/xiaomi/accountsdk/guestaccount/IGuestAccountIntentHandler;)Landroid/os/Bundle;,"android.os.Bundle renewServiceToken(android.os.Bundle, com.xiaomi.accountsdk.guestaccount.IGuestAccountIntentHandler)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/IRPCCallback;,execCommand,(ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle execCommand(int, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/IRPCCallback;,execOnewayCommand,(ILandroid/os/Bundle;)V,"void execOnewayCommand(int, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/ITransportAIDL;,execCommand,(Ljava/lang/String;ILandroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle execCommand(java.lang.String, int, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/ITransportAIDL;,execOnewayCommand,(Ljava/lang/String;ILandroid/os/Bundle;)V,"void execOnewayCommand(java.lang.String, int, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/ITransportAIDL;,registerCallback,(Ljava/lang/String;Lcom/xiaomi/ai/android/transport/IRPCCallback;Landroid/os/Bundle;)V,"void registerCallback(java.lang.String, com.xiaomi.ai.android.transport.IRPCCallback, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/ai/android/transport/ITransportAIDL;,unregisterCallback,(Ljava/lang/String;Lcom/xiaomi/ai/android/transport/IRPCCallback;)V,"void unregisterCallback(java.lang.String, com.xiaomi.ai.android.transport.IRPCCallback)"
+classes5.dex,Lcom/xiaomi/aicr/IAiCrCoreService;,getPluginBinder,(Lcom/xiaomi/aicr/ICoreServiceCallback;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/IBinder;,"android.os.IBinder getPluginBinder(com.xiaomi.aicr.ICoreServiceCallback, java.lang.String, java.lang.String, java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/aicr/IAiCrCoreService;,isSupport,(Ljava/lang/String;)Z,boolean isSupport(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/IAiCrCoreService;,releaseConnect,(Ljava/lang/String;)V,void releaseConnect(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/ICoreServiceCallback;,onDownload,(Landroid/os/IBinder;)V,void onDownload(android.os.IBinder)
+classes5.dex,Lcom/xiaomi/aicr/ICoreServiceCallback;,speed,(Ljava/lang/String;J)V,"void speed(java.lang.String, long)"
+classes5.dex,Lcom/xiaomi/aicr/IDownloadCallback;,onDownloadComplete,(Ljava/lang/String;)V,void onDownloadComplete(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/IDownloadCallback;,onError,(I)V,void onError(int)
+classes5.dex,Lcom/xiaomi/aicr/IDownloadCallback;,onProgressUpdate,(I)V,void onProgressUpdate(int)
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,cancelDownload,()V,void cancelDownload()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,download,(Ljava/lang/String;Ljava/lang/String;Lcom/xiaomi/aicr/IDownloadCallback;)V,"void download(java.lang.String, java.lang.String, com.xiaomi.aicr.IDownloadCallback)"
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,isCanceled,()Z,boolean isCanceled()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,isLoading,()Z,boolean isLoading()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,isPaused,()Z,boolean isPaused()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,pauseDownload,()V,void pauseDownload()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,resumeDownload,()V,void resumeDownload()
+classes5.dex,Lcom/xiaomi/aicr/IDownloadListener;,setCanceled,()V,void setCanceled()
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_check,()I,int paintService_check()
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_getBitmap,(I)Landroid/graphics/Bitmap;,android.graphics.Bitmap paintService_getBitmap(int)
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_getProcess,(I)I,int paintService_getProcess(int)
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_init,()I,int paintService_init()
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_paintWithCallback,(IILjava/lang/String;Lcom/xiaomi/aicr/paintservice/IPaintStatusCallback;)I,"int paintService_paintWithCallback(int, int, java.lang.String, com.xiaomi.aicr.paintservice.IPaintStatusCallback)"
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintService;,paintService_release,()I,int paintService_release()
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintStatusCallback;,onPaintFailed,(B)V,void onPaintFailed(byte)
+classes5.dex,Lcom/xiaomi/aicr/paintservice/IPaintStatusCallback;,onPaintFinished,()V,void onPaintFinished()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,getAlgorithmVersion,()Ljava/lang/String;,java.lang.String getAlgorithmVersion()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,initAlgorithmCachePath,()I,int initAlgorithmCachePath()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,initPersonModel,()I,int initPersonModel()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,initSkyModel,()I,int initSkyModel()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,releaseAll,()I,int releaseAll()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,releaseModel,(ZZ)I,"int releaseModel(boolean, boolean)"
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,segment,(Landroid/graphics/Bitmap;Lcom/xiaomi/aicr/vision/VisionAttribute;)Lcom/xiaomi/aicr/vision/imagesegment/SegmentResult;,"com.xiaomi.aicr.vision.imagesegment.SegmentResult segment(android.graphics.Bitmap, com.xiaomi.aicr.vision.VisionAttribute)"
+classes5.dex,Lcom/xiaomi/aicr/plugin/IImageSegmentService;,segmentByFd,(Landroid/os/ParcelFileDescriptor;Lcom/xiaomi/aicr/vision/VisionAttribute;)Lcom/xiaomi/aicr/vision/imagesegment/SegmentResult;,"com.xiaomi.aicr.vision.imagesegment.SegmentResult segmentByFd(android.os.ParcelFileDescriptor, com.xiaomi.aicr.vision.VisionAttribute)"
+classes5.dex,Lcom/xiaomi/aicr/plugin/IMIotAlgoService;,doCalculation,(Ljava/lang/String;)Ljava/lang/String;,java.lang.String doCalculation(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IMIotAlgoService;,getBrightness,()Ljava/lang/String;,java.lang.String getBrightness()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IMIotAlgoService;,getCaculatedCurve,()Ljava/lang/String;,java.lang.String getCaculatedCurve()
+classes5.dex,Lcom/xiaomi/aicr/plugin/IMIotAlgoService;,initAlgo,(Ljava/lang/String;)V,void initAlgo(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IMIotAlgoService;,releaseAlgo,()V,void releaseAlgo()
+classes5.dex,Lcom/xiaomi/aicr/plugin/INerService;,cut,(Ljava/lang/String;)Ljava/util/List;,java.util.List cut(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/plugin/INerService;,extract,(Ljava/lang/String;)Ljava/util/List;,java.util.List extract(java.lang.String)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IVisionService;,doDetect,(ILjava/util/List;Lcom/xiaomi/aicr/vision/VisionAttribute;)I,"int doDetect(int, java.util.List, com.xiaomi.aicr.vision.VisionAttribute)"
+classes5.dex,Lcom/xiaomi/aicr/plugin/IVisionService;,doOCRDetect,(I)[Lcom/xiaomi/aicr/vision/ocr/OCRRes$Location;,com.xiaomi.aicr.vision.ocr.OCRRes$Location[] doOCRDetect(int)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IVisionService;,doOCRRecognize,(I)Lcom/xiaomi/aicr/vision/ocr/OCRRes$OCRResult;,com.xiaomi.aicr.vision.ocr.OCRRes$OCRResult doOCRRecognize(int)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IVisionService;,setImage,(Landroid/graphics/Bitmap;)I,int setImage(android.graphics.Bitmap)
+classes5.dex,Lcom/xiaomi/aicr/plugin/IVisionService;,setImageParcelFileDesciptor,(Landroid/os/ParcelFileDescriptor;)I,int setImageParcelFileDesciptor(android.os.ParcelFileDescriptor)
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,GetUidList,()Ljava/lang/String;,java.lang.String GetUidList()
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,UCarVerifyStart,(Ljava/lang/String;Ljava/lang/String;)I,"int UCarVerifyStart(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,chooseKey,([B[B[B)[B,"byte[] chooseKey(byte[], byte[], byte[])"
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,cleanAllOnlineKeyAndUidData,()I,int cleanAllOnlineKeyAndUidData()
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,getChallenge,(I)[B,byte[] getChallenge(int)
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,newKeyBlobGet,(I[B[B[B)[B,"byte[] newKeyBlobGet(int, byte[], byte[], byte[])"
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,tokenGet,(I[B[B[B)[B,"byte[] tokenGet(int, byte[], byte[], byte[])"
+classes5.dex,Lcom/xiaomi/devauth/IMiDevAuthInterface;,tokenVerify,(I[B[B[B[B)I,"int tokenVerify(int, byte[], byte[], byte[], byte[])"
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,cancel,(Ljava/lang/String;Ljava/lang/String;)Z,"boolean cancel(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,download,(Landroid/os/Bundle;)V,void download(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,downloadByUri,(Landroid/net/Uri;)V,void downloadByUri(android.net.Uri)
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,lifecycleChanged,(Ljava/lang/String;I)V,"void lifecycleChanged(java.lang.String, int)"
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,pause,(Ljava/lang/String;Ljava/lang/String;)Z,"boolean pause(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,pauseByUri,(Landroid/net/Uri;)V,void pauseByUri(android.net.Uri)
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,resume,(Ljava/lang/String;Ljava/lang/String;)Z,"boolean resume(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/market/IAppDownloadManager;,resumeByUri,(Landroid/net/Uri;)V,void resumeByUri(android.net.Uri)
+classes5.dex,Lcom/xiaomi/market/IDetailsPageManager;,openDetailsPage,(Landroid/os/Bundle;)Z,boolean openDetailsPage(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/market/IPreloadAppDetailService;,preloadAppDetail,(Ljava/lang/String;)V,void preloadAppDetail(java.lang.String)
+classes5.dex,Lcom/xiaomi/market/IQueryAppInfoService;,queryAppInfo,(Landroid/os/Bundle;Ljava/util/List;Lcom/xiaomi/market/IQueryAppInfoServiceCallback;)V,"void queryAppInfo(android.os.Bundle, java.util.List, com.xiaomi.market.IQueryAppInfoServiceCallback)"
+classes5.dex,Lcom/xiaomi/market/IQueryAppInfoServiceCallback;,onCall,(Landroid/os/Bundle;)V,void onCall(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/market/IQueryAppInfoServiceCallback;,onError,(Landroid/os/Bundle;)V,void onError(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,decrypt,(Landroid/accounts/Account;[BJLcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;)V,"void decrypt(android.accounts.Account, byte[], long, com.xiaomi.micloudkeybag.IOnKeyBagCallFinishedListener)"
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,encrypt,(Landroid/accounts/Account;[BJLcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;)V,"void encrypt(android.accounts.Account, byte[], long, com.xiaomi.micloudkeybag.IOnKeyBagCallFinishedListener)"
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,getInstalledKeyInfo,(Landroid/accounts/Account;)Lcom/xiaomi/micloudkeybag/KeyBagKeyInfo;,com.xiaomi.micloudkeybag.KeyBagKeyInfo getInstalledKeyInfo(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,getServiceVersion,()I,int getServiceVersion()
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,isLastSupported,(Landroid/accounts/Account;)Z,boolean isLastSupported(android.accounts.Account)
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,isSupported,(Landroid/accounts/Account;Lcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;)V,"void isSupported(android.accounts.Account, com.xiaomi.micloudkeybag.IOnKeyBagCallFinishedListener)"
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,showDownloadNotification,()V,void showDownloadNotification()
+classes5.dex,Lcom/xiaomi/micloudkeybag/IMiCloudKeyBagService;,showUpdateNotification,()V,void showUpdateNotification()
+classes5.dex,Lcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;,onDecryptFinished,(I[B)V,"void onDecryptFinished(int, byte[])"
+classes5.dex,Lcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;,onEncryptFinished,(I[B)V,"void onEncryptFinished(int, byte[])"
+classes5.dex,Lcom/xiaomi/micloudkeybag/IOnKeyBagCallFinishedListener;,onIsSupportedFinished,(IZ)V,"void onIsSupportedFinished(int, boolean)"
+classes5.dex,Lcom/xiaomi/onetrack/util/DeviceUtil$GAIDClient$a;,<init>,(Landroid/os/IBinder;)V,void <init>(android.os.IBinder)
+classes5.dex,Lcom/xiaomi/onetrack/util/DeviceUtil$GAIDClient$a;,a,()Ljava/lang/String;,java.lang.String a()
+classes5.dex,Lcom/xiaomi/onetrack/util/DeviceUtil$GAIDClient$a;,a,(Z)Z,boolean a(boolean)
+classes5.dex,Lcom/xiaomi/onetrack/util/DeviceUtil$GAIDClient$a;,asBinder,()Landroid/os/IBinder;,android.os.IBinder asBinder()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/a;,a,()Ljava/lang/String;,java.lang.String a()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/b;,a,()Ljava/lang/String;,java.lang.String a()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/b;,b,()Z,boolean b()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/c;,a,()Ljava/lang/String;,java.lang.String a()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/c;,a,(Ljava/lang/String;)Ljava/lang/String;,java.lang.String a(java.lang.String)
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/c;,b,()Ljava/lang/String;,java.lang.String b()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/c;,b,(Ljava/lang/String;)Ljava/lang/String;,java.lang.String b(java.lang.String)
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/c;,c,()Z,boolean c()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/f;,a,()Ljava/lang/String;,java.lang.String a()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/g;,a,()Z,boolean a()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/g;,b,()Ljava/lang/String;,java.lang.String b()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/g;,c,()Z,boolean c()
+classes5.dex,Lcom/xiaomi/onetrack/util/oaid/a/g;,d,()V,void d()
+classes5.dex,Lcom/xiaomi/passport/IPassportCommonService;,getDeviceInfo,(Ljava/lang/String;I)Lcom/xiaomi/accountsdk/service/DeviceInfoResult;,"com.xiaomi.accountsdk.service.DeviceInfoResult getDeviceInfo(java.lang.String, int)"
+classes5.dex,Lcom/xiaomi/passport/IPassportCommonService;,getSystemAccountData,([Ljava/lang/String;)Landroid/os/Bundle;,android.os.Bundle getSystemAccountData(java.lang.String[])
+classes5.dex,Lcom/xiaomi/passport/IPassportCommonService;,getUserData,(Landroid/accounts/Account;Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String;,"java.lang.String[] getUserData(android.accounts.Account, java.lang.String, java.lang.String[])"
+classes5.dex,Lcom/xiaomi/passport/IPassportCommonService;,setUserData,(Landroid/accounts/Account;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V,"void setUserData(android.accounts.Account, java.lang.String, java.lang.String[], java.lang.String[])"
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,fastCheckSlhPhCompatibility,()Z,boolean fastCheckSlhPhCompatibility()
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,getAccountVisible,(Ljava/lang/String;)Lcom/xiaomi/passport/servicetoken/data/XmAccountVisibility;,com.xiaomi.passport.servicetoken.data.XmAccountVisibility getAccountVisible(java.lang.String)
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,getServiceToken,(Ljava/lang/String;)Lcom/xiaomi/passport/servicetoken/ServiceTokenResult;,com.xiaomi.passport.servicetoken.ServiceTokenResult getServiceToken(java.lang.String)
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,invalidateServiceToken,(Lcom/xiaomi/passport/servicetoken/ServiceTokenResult;)Lcom/xiaomi/passport/servicetoken/ServiceTokenResult;,com.xiaomi.passport.servicetoken.ServiceTokenResult invalidateServiceToken(com.xiaomi.passport.servicetoken.ServiceTokenResult)
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,requestSecondaryDeviceLoginData,(Landroid/os/Bundle;)Landroid/os/Bundle;,android.os.Bundle requestSecondaryDeviceLoginData(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,setAccountVisible,(Ljava/lang/String;)Lcom/xiaomi/passport/servicetoken/data/XmAccountVisibility;,com.xiaomi.passport.servicetoken.data.XmAccountVisibility setAccountVisible(java.lang.String)
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,supportAccessAccount,()Z,boolean supportAccessAccount()
+classes5.dex,Lcom/xiaomi/passport/IPassportServiceTokenService;,supportServiceTokenUIResponse,()Z,boolean supportServiceTokenUIResponse()
+classes5.dex,Lcom/xiaomi/passport/ISecurityDeviceSignResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/passport/ISecurityDeviceSignService;,sign,(Lcom/xiaomi/passport/ISecurityDeviceSignResponse;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V,"void sign(com.xiaomi.passport.ISecurityDeviceSignResponse, java.lang.String, java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/passport/servicetoken/IServiceTokenUIResponse;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes5.dex,Lcom/xiaomi/passport/servicetoken/IServiceTokenUIResponse;,onRequestContinued,()V,void onRequestContinued()
+classes5.dex,Lcom/xiaomi/passport/servicetoken/IServiceTokenUIResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/passport/uicontroller/IMiPassportUIControllerService;,addOrUpdateAccountManager,(Lcom/xiaomi/accountsdk/account/data/AccountInfo;)V,void addOrUpdateAccountManager(com.xiaomi.accountsdk.account.data.AccountInfo)
+classes5.dex,Lcom/xiaomi/passport/uicontroller/IMiPassportUIControllerService;,loginByPassword,(Lcom/xiaomi/accountsdk/account/data/PasswordLoginParams;)Lcom/xiaomi/accountsdk/account/data/MiLoginResult;,com.xiaomi.accountsdk.account.data.MiLoginResult loginByPassword(com.xiaomi.accountsdk.account.data.PasswordLoginParams)
+classes5.dex,Lcom/xiaomi/passport/uicontroller/IMiPassportUIControllerService;,loginByStep2,(Lcom/xiaomi/accountsdk/account/data/Step2LoginParams;)Lcom/xiaomi/accountsdk/account/data/MiLoginResult;,com.xiaomi.accountsdk.account.data.MiLoginResult loginByStep2(com.xiaomi.accountsdk.account.data.Step2LoginParams)
+classes5.dex,Lcom/xiaomi/passport/uicontroller/IMiPassportUIControllerService;,onNotificationAuthEnd,(Ljava/lang/String;)Lcom/xiaomi/accountsdk/account/data/NotificationAuthResult;,com.xiaomi.accountsdk.account.data.NotificationAuthResult onNotificationAuthEnd(java.lang.String)
+classes5.dex,Lcom/xiaomi/passport/uicontroller/IMiPassportUIControllerService;,onNotificationLoginEnd,(Lcom/xiaomi/accountsdk/account/data/NotificationLoginEndParams;)Lcom/xiaomi/accountsdk/account/data/MiLoginResult;,com.xiaomi.accountsdk.account.data.MiLoginResult onNotificationLoginEnd(com.xiaomi.accountsdk.account.data.NotificationLoginEndParams)
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberManagerService;,getAccountCertifications,(Ljava/lang/String;Ljava/lang/String;ILcom/xiaomi/phonenum/service/IAccountPhoneNumberResponse;Ljava/lang/String;)V,"void getAccountCertifications(java.lang.String, java.lang.String, int, com.xiaomi.phonenum.service.IAccountPhoneNumberResponse, java.lang.String)"
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberManagerService;,getPlainPhoneNumbers,(Ljava/lang/String;Ljava/lang/String;ILcom/xiaomi/phonenum/service/IAccountPhoneNumberResponse;Ljava/lang/String;)V,"void getPlainPhoneNumbers(java.lang.String, java.lang.String, int, com.xiaomi.phonenum.service.IAccountPhoneNumberResponse, java.lang.String)"
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberManagerService;,getSIMInfos,(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lcom/xiaomi/phonenum/service/IAccountPhoneNumberResponse;Ljava/lang/String;)V,"void getSIMInfos(java.lang.String, java.lang.String, java.lang.String[], com.xiaomi.phonenum.service.IAccountPhoneNumberResponse, java.lang.String)"
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberManagerService;,getVersion,()I,int getVersion()
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberManagerService;,invalidateAccountCertification,(Ljava/lang/String;Ljava/lang/String;Lcom/xiaomi/phonenum/data/AccountCertification;)I,"int invalidateAccountCertification(java.lang.String, java.lang.String, com.xiaomi.phonenum.data.AccountCertification)"
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberResponse;,onError,(ILjava/lang/String;)V,"void onError(int, java.lang.String)"
+classes5.dex,Lcom/xiaomi/phonenum/service/IAccountPhoneNumberResponse;,onResult,(Landroid/os/Bundle;)V,void onResult(android.os.Bundle)
+classes5.dex,Lcom/xiaomi/simactivate/ISimActivateService;,invoke,(Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;,"android.os.Bundle invoke(java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/simactivate/ISimActivateService;,isSupported,(Ljava/lang/String;Landroid/os/Bundle;)I,"int isSupported(java.lang.String, android.os.Bundle)"
+classes5.dex,Lcom/xiaomi/simactivate/service/IPhoneNumService;,blockObtainPhoneNum,(ILjava/lang/String;IZ)Landroid/os/Bundle;,"android.os.Bundle blockObtainPhoneNum(int, java.lang.String, int, boolean)"
+classes5.dex,Lcom/xiaomi/simactivate/service/IPhoneNumService;,invalidatePhoneNum,(ILjava/lang/String;I)Z,"boolean invalidatePhoneNum(int, java.lang.String, int)"
+classes5.dex,Lcom/xiaomi/simactivate/service/IPhoneNumService;,invalidateVerifiedToken,(ILjava/lang/String;I)Z,"boolean invalidateVerifiedToken(int, java.lang.String, int)"
+classes5.dex,Lcom/xiaomi/simactivate/service/IPhoneNumService;,isSupport,(ILjava/lang/String;Ljava/lang/String;)Z,"boolean isSupport(int, java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,api,()Ljava/lang/String;,java.lang.String api()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,bind,(Lcom/xiaomi/taiyi/sdk/transfer/core/IAIClient;Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)I,"int bind(com.xiaomi.taiyi.sdk.transfer.core.IAIClient, com.xiaomi.taiyi.sdk.transfer.data.AIRequest)"
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,execute,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;,com.xiaomi.taiyi.sdk.transfer.data.AIResponse execute(com.xiaomi.taiyi.sdk.transfer.data.AIRequest)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,getMemory,(Ljava/lang/String;)Lcom/xiaomi/taiyi/sdk/transfer/core/IAIMemory;,com.xiaomi.taiyi.sdk.transfer.core.IAIMemory getMemory(java.lang.String)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,hasSession,()Z,boolean hasSession()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,isAlive,()Z,boolean isAlive()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,isInternal,()Z,boolean isInternal()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,isLLM,()Z,boolean isLLM()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,name,()Ljava/lang/String;,java.lang.String name()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,post,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;Lcom/xiaomi/taiyi/sdk/transfer/core/IAICallback;)V,"void post(com.xiaomi.taiyi.sdk.transfer.data.AIRequest, com.xiaomi.taiyi.sdk.transfer.core.IAICallback)"
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,query,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;,com.xiaomi.taiyi.sdk.transfer.data.AIResponse query(com.xiaomi.taiyi.sdk.transfer.data.AIRequest)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,type,()I,int type()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,unbind,(Ljava/lang/String;Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)I,"int unbind(java.lang.String, com.xiaomi.taiyi.sdk.transfer.data.AIRequest)"
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIAbility;,version,()J,long version()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAICallback;,onResponse,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;)V,void onResponse(com.xiaomi.taiyi.sdk.transfer.data.AIResponse)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIClient;,getId,()Ljava/lang/String;,java.lang.String getId()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIClient;,getInfo,()Lcom/xiaomi/taiyi/sdk/transfer/data/AIHeaders;,com.xiaomi.taiyi.sdk.transfer.data.AIHeaders getInfo()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIClient;,getMemory,()Lcom/xiaomi/taiyi/sdk/transfer/core/IAIMemory;,com.xiaomi.taiyi.sdk.transfer.core.IAIMemory getMemory()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAICoreService;,onProcessStart,(Ljava/lang/String;)V,void onProcessStart(java.lang.String)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAICoreService;,onProcessStop,(Ljava/lang/String;)V,void onProcessStop(java.lang.String)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAICoreService;,prepare,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;,com.xiaomi.taiyi.sdk.transfer.data.AIResponse prepare(com.xiaomi.taiyi.sdk.transfer.data.AIRequest)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIManager;,authorize,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;,com.xiaomi.taiyi.sdk.transfer.data.AIResponse authorize(com.xiaomi.taiyi.sdk.transfer.data.AIRequest)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIManager;,loadAsync,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;Lcom/xiaomi/taiyi/sdk/transfer/core/IAICallback;)V,"void loadAsync(com.xiaomi.taiyi.sdk.transfer.data.AIRequest, com.xiaomi.taiyi.sdk.transfer.core.IAICallback)"
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIManager;,loadSync,(Lcom/xiaomi/taiyi/sdk/transfer/data/AIRequest;)Lcom/xiaomi/taiyi/sdk/transfer/data/AIResponse;,com.xiaomi.taiyi.sdk.transfer.data.AIResponse loadSync(com.xiaomi.taiyi.sdk.transfer.data.AIRequest)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIMemory;,free,(Ljava/util/List;)V,void free(java.util.List)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIMemory;,get,()Lcom/xiaomi/taiyi/sdk/transfer/data/ShareMemoryPool;,com.xiaomi.taiyi.sdk.transfer.data.ShareMemoryPool get()
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/core/IAIMemory;,sync,(Lcom/xiaomi/taiyi/sdk/transfer/data/ShareMemoryPool;)V,void sync(com.xiaomi.taiyi.sdk.transfer.data.ShareMemoryPool)
+classes5.dex,Lcom/xiaomi/taiyi/sdk/transfer/data/IBitmap;,get,()Landroid/graphics/Bitmap;,android.graphics.Bitmap get()
+classes6.dex,Lcom/xiaomi/udevid/IUDevIdService;,getUDevIdFromSystemAccount,(Landroid/os/Bundle;)Landroid/os/Bundle;,android.os.Bundle getUDevIdFromSystemAccount(android.os.Bundle)
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,isForeground,()Z,boolean isForeground()
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,isPresentationShow,()Z,boolean isPresentationShow()
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,isReceiveAudioData,()Z,boolean isReceiveAudioData()
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,onConnectStatusChange,(Z)V,void onConnectStatusChange(boolean)
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,sendCaptureConfig,(IILandroid/view/Surface;)V,"void sendCaptureConfig(int, int, android.view.Surface)"
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,sendMemoryFile,(Landroid/os/ParcelFileDescriptor;I)V,"void sendMemoryFile(android.os.ParcelFileDescriptor, int)"
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,sendSharedMemory,(Landroid/os/SharedMemory;)V,void sendSharedMemory(android.os.SharedMemory)
+classes8.dex,Lnet/easyconn/carman/sdk/IDataCallback;,sendTouchEvent,(Landroid/view/MotionEvent;)V,void sendTouchEvent(android.view.MotionEvent)
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,isForeground,()Z,boolean isForeground()
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,onNotificationContent,(Ljava/lang/String;)V,void onNotificationContent(java.lang.String)
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,onPXCConnect,()V,void onPXCConnect()
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,onPXCDisconnect,()V,void onPXCDisconnect()
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,onProjectionConnected,()V,void onProjectionConnected()
+classes8.dex,Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;,onProjectionDisconnected,()V,void onProjectionDisconnected()
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,processAudio,([BI)V,"void processAudio(byte[], int)"
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,setAppStatus,(Ljava/lang/String;Z)V,"void setAppStatus(java.lang.String, boolean)"
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,setCallback,(Ljava/lang/String;ZLnet/easyconn/carman/sdk/IDataCallback;)V,"void setCallback(java.lang.String, boolean, net.easyconn.carman.sdk.IDataCallback)"
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,setPresentationStatus,(Ljava/lang/String;Z)V,"void setPresentationStatus(java.lang.String, boolean)"
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,startAudio,(III)V,"void startAudio(int, int, int)"
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,startCarMICRecord,(Z)V,void startCarMICRecord(boolean)
+classes8.dex,Lnet/easyconn/carman/sdk/IRemoteService;,stopAudio,()V,void stopAudio()
+classes8.dex,Lnet/easyconn/carman/sdk/ISocksInterface;,start,(Ljava/lang/String;Ljava/lang/String;)V,"void start(java.lang.String, java.lang.String)"
+classes8.dex,Lnet/easyconn/carman/sdk/ISocksInterface;,stop,()V,void stop()

@@ -1,0 +1,292 @@
+{
+  "apk": "C:\\Users\\admin\\Desktop\\CarWith_4.0.23-20261016.apk",
+  "apk_bytes": 56209661,
+  "apk_sha256": "c897a45d92c84f06e670fc4edd323824093a093f67d8e7d7b058fee2a737d06c",
+  "analysis_date": "2026-11-12",
+  "dex": [
+    {
+      "name": "classes.dex",
+      "sha256": "efab5b247679424ec553c8f271bbb3f10e2623135c5669e14c1e5e19a160c792",
+      "bytes": 8543656,
+      "classes": 8194,
+      "strings": 65833,
+      "method_ids": 58689,
+      "field_ids": 64450
+    },
+    {
+      "name": "classes2.dex",
+      "sha256": "09a0967aa62f5d0e78705759934a607a95a1c0c7bd9f6d2a2fad2efcad844797",
+      "bytes": 6456284,
+      "classes": 5241,
+      "strings": 51835,
+      "method_ids": 41740,
+      "field_ids": 65357
+    },
+    {
+      "name": "classes3.dex",
+      "sha256": "a31eafc522139781c645f1207cf8c47cd9e199524cc1a97a5597cf7d3191a2b1",
+      "bytes": 6281228,
+      "classes": 4207,
+      "strings": 47887,
+      "method_ids": 43625,
+      "field_ids": 62599
+    },
+    {
+      "name": "classes4.dex",
+      "sha256": "b5bd708d997fc2543de29e429327cc00a5603237d2bceb74f76dc4500ece0e1a",
+      "bytes": 3171912,
+      "classes": 1937,
+      "strings": 27848,
+      "method_ids": 18046,
+      "field_ids": 64441
+    },
+    {
+      "name": "classes5.dex",
+      "sha256": "819e710465751ad9e151dad6eda6e175bc7152bca75a86f56f717238d0a45b34",
+      "bytes": 7894056,
+      "classes": 8089,
+      "strings": 61629,
+      "method_ids": 57847,
+      "field_ids": 62408
+    },
+    {
+      "name": "classes6.dex",
+      "sha256": "b51d1282060b85466deaa47c7cfa05b3f6393b328b87adae395826ed319533d8",
+      "bytes": 1894600,
+      "classes": 470,
+      "strings": 18863,
+      "method_ids": 4254,
+      "field_ids": 65450
+    },
+    {
+      "name": "classes7.dex",
+      "sha256": "aebe945864282cf5942dcd9662aa8ec773fcc185dca785827d57274177670eef",
+      "bytes": 3225236,
+      "classes": 2180,
+      "strings": 30662,
+      "method_ids": 15825,
+      "field_ids": 65536
+    },
+    {
+      "name": "classes8.dex",
+      "sha256": "c8347a8c02639eea99b083f399208fa21ca83b3f108fd8c64efac15b26aa3ecc",
+      "bytes": 4232712,
+      "classes": 3100,
+      "strings": 36667,
+      "method_ids": 27284,
+      "field_ids": 51012
+    }
+  ],
+  "entries": 4969,
+  "native": [
+    {
+      "name": "lib/arm64-v8a/ld-android.so",
+      "bytes": 34144,
+      "sha256": "deec4ef84b401558aeb31c95df58c3cec9234acd0e1cbca05c6104b04d956385",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libECSocksServer.so",
+      "bytes": 553648,
+      "sha256": "981b0818c11e877bfe56260e05222e653e6248dff162482bdb2a6066adac1c2c",
+      "relevant_strings": 57
+    },
+    {
+      "name": "lib/arm64-v8a/libaivs_jni.so",
+      "bytes": 727432,
+      "sha256": "0b959cc4cbab062642be4811500ff56928fcd1bf00cffc90e1c646428a2f098f",
+      "relevant_strings": 19
+    },
+    {
+      "name": "lib/arm64-v8a/libapexsupport.so",
+      "bytes": 236904,
+      "sha256": "643791cf145a09e9dc1fa094ca8c1165e028c2b193d54105029bf6859a5bb605",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libbase.so",
+      "bytes": 236576,
+      "sha256": "07abec8ea1d01824a22d33c8908f5d9c8746440a0e5cc26ba09b98fa51878a91",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libbinder.so",
+      "bytes": 771568,
+      "sha256": "2c5356b7372dcd1e8a9bf9ef71e286f3d8a5a43eac659eae012281a20b769a63",
+      "relevant_strings": 2
+    },
+    {
+      "name": "lib/arm64-v8a/libbytehook.so",
+      "bytes": 59080,
+      "sha256": "1fa39f206cf1cb5863dc3770ec3a21339921364e647a3ab4dbb094eab83676d8",
+      "relevant_strings": 2
+    },
+    {
+      "name": "lib/arm64-v8a/libc++.so",
+      "bytes": 1083168,
+      "sha256": "794eb8fafd7be35da3725e9ec0b15189c6f4f2544f5b78afd8a647dde5b69195",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libcutils.so",
+      "bytes": 118424,
+      "sha256": "61132547a338bee3731e88add456d158987ad04e46e66bf8733edace72706a79",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libdl_android.so",
+      "bytes": 34664,
+      "sha256": "10370703f28cb1aebc12f30cec1e6e3940e65975495e01c69642f29195b31adc",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libgojni.so",
+      "bytes": 3073976,
+      "sha256": "e88dba95a5f1085aa3c3396d06dd0c0a6c57f0165a994bd596f658969936f969",
+      "relevant_strings": 279
+    },
+    {
+      "name": "lib/arm64-v8a/libjadbd.so",
+      "bytes": 455832,
+      "sha256": "9ceb48520917dcadffaf398718504df6ed0296a9bebb0e0b23d531daadb02386",
+      "relevant_strings": 32
+    },
+    {
+      "name": "lib/arm64-v8a/libmicastcore.so",
+      "bytes": 1849672,
+      "sha256": "ac4c62e52cb3618a2e1e5394aaabbd5e163d52037a77a910d7f739cb6e5d3825",
+      "relevant_strings": 313
+    },
+    {
+      "name": "lib/arm64-v8a/libmmkv.so",
+      "bytes": 597000,
+      "sha256": "3850acf55b2c29bd3a3714ac84b7ab6ef402fedc61d9646209dd273d604d1bd1",
+      "relevant_strings": 3
+    },
+    {
+      "name": "lib/arm64-v8a/libmp3lame.so",
+      "bytes": 226176,
+      "sha256": "8a2903c974ee2e23c758f1aa9928556f43ecd00e55c5bf50919f4aef18027db2",
+      "relevant_strings": 3
+    },
+    {
+      "name": "lib/arm64-v8a/libshadowhook.so",
+      "bytes": 79464,
+      "sha256": "5afb272443eafb5c6ccabf4bb019e49840aa0a22698930164a8ac0fd25de684a",
+      "relevant_strings": 2
+    },
+    {
+      "name": "lib/arm64-v8a/libshadowhook_nothing.so",
+      "bytes": 1112,
+      "sha256": "f2cc6a6f94d7361be915daafff1d25b7b3af34972e7308ac540982cfd608bd32",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libtun2socks.so",
+      "bytes": 242440,
+      "sha256": "0285ad5ede8ceccdb61beed1c90939cc1b75b0023c6e00a62e04f04dd85e6332",
+      "relevant_strings": 47
+    },
+    {
+      "name": "lib/arm64-v8a/libutils.so",
+      "bytes": 151224,
+      "sha256": "3c56f3270f11617af152a3bc29b505b99b2fcb4af654d121e89a367e059902b7",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libvad2.so",
+      "bytes": 1591568,
+      "sha256": "386f048d2fb517e75c4638997a449fa45b277df5232e51be0e66b5f3186556ed",
+      "relevant_strings": 8
+    },
+    {
+      "name": "lib/arm64-v8a/libvndksupport.so",
+      "bytes": 51352,
+      "sha256": "cdbda0b47c80f3142c31c1c68bd9c143eb00c61615f18064d7584409303526bb",
+      "relevant_strings": 0
+    },
+    {
+      "name": "lib/arm64-v8a/libwakeup-engine-1.0.6.so",
+      "bytes": 2481576,
+      "sha256": "28255dd989b8ef194b8abae5f80e66ec73b1e6e386f4f9fd26428afb1e5b56d2",
+      "relevant_strings": 9
+    },
+    {
+      "name": "lib/arm64-v8a/libxcrash.so",
+      "bytes": 90776,
+      "sha256": "ad573840e4152b56a7dd4b91618b9adb6c286ca58d8dddf70651aa50b37956c0",
+      "relevant_strings": 6
+    },
+    {
+      "name": "lib/arm64-v8a/libxcrash_dumper.so",
+      "bytes": 118376,
+      "sha256": "7c1916bd90269f62a157a23a247ca07ed3452c97e3e6b2684b99f0a46ebf49e7",
+      "relevant_strings": 1
+    },
+    {
+      "name": "lib/arm64-v8a/libxmd.so",
+      "bytes": 2313120,
+      "sha256": "beeae157a49bd489abfd1c8dbf4cf114e915fc316d3e2b491a23c9b227302ab0",
+      "relevant_strings": 15
+    }
+  ],
+  "package": "com.miui.carlink",
+  "versionCode": "104000023",
+  "versionName": "4.0.23-20261016",
+  "sdk": {
+    "{http://schemas.android.com/apk/res/android}minSdkVersion": "29",
+    "{http://schemas.android.com/apk/res/android}targetSdkVersion": "33"
+  },
+  "application_attributes": {
+    "{http://schemas.android.com/apk/res/android}label": "@0x7f110068",
+    "{http://schemas.android.com/apk/res/android}icon": "@0x7f0801f1",
+    "{http://schemas.android.com/apk/res/android}name": "com.carwith.launcher.UCarApplication",
+    "{http://schemas.android.com/apk/res/android}persistent": "false",
+    "{http://schemas.android.com/apk/res/android}allowBackup": "false",
+    "{http://schemas.android.com/apk/res/android}supportsRtl": "true",
+    "{http://schemas.android.com/apk/res/android}extractNativeLibs": "false",
+    "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "true",
+    "{http://schemas.android.com/apk/res/android}resizeableActivity": "false",
+    "{http://schemas.android.com/apk/res/android}roundIcon": "@0x7f0801f1",
+    "{http://schemas.android.com/apk/res/android}appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "{http://schemas.android.com/apk/res/android}requestLegacyExternalStorage": "true"
+  },
+  "counts": {
+    "classes": 33418,
+    "fields": 497769,
+    "methods": 233147,
+    "application_fields": 177093,
+    "binder_interfaces": 122,
+    "binder_methods": 616,
+    "retrofit_methods": 4,
+    "proto_fields": 342,
+    "proto_enum_values": 157,
+    "asset_json_field_paths": 1128,
+    "url_occurrences": 318,
+    "components": 115
+  },
+  "enrichment_counts": {
+    "http_annotated_routes": 4,
+    "serialized_fields": 266,
+    "business_model_fields": 88,
+    "binder_transaction_constants": 576,
+    "native_methods": 182,
+    "javascript_interfaces": 7,
+    "literal_key_usages": 2185,
+    "distinct_literal_keys": 1137,
+    "url_reference_methods": 297,
+    "assembly_sources": 181
+  },
+  "supplement_counts": {
+    "native_exports": 21265,
+    "relative_path_candidates": 291,
+    "uuid_literals": 123,
+    "action_literals": 239,
+    "nested_archive_entries": 321,
+    "compiled_proto_fields_matched": 300,
+    "wire_service_id_records": 23,
+    "business_model_fields": 158,
+    "sdk_ai_model_fields": 10828,
+    "enum_annotation_markers": 883
+  }
+}

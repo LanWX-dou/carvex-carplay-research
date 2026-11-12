@@ -1,0 +1,603 @@
+Class #1266            -
+  Class descriptor  : 'Lsi/b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lsi/b;)
+      name          : 'a'
+      type          : '()Lsi/b$a;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 0
+      outs          : 6
+      insns size    : 138 16-bit code units
+1a13cc:                                        |[1a13cc] si.b.a:()Lsi/b$a;
+1a13dc: 1a00 e11e                              |0000: const-string v0, "LuckyMoneyUtils" // string@1ee1
+1a13e0: 7100 901c 0000                         |0002: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1a13e6: 0c01                                   |0005: move-result-object v1
+1a13e8: 6e10 de00 0100                         |0006: invoke-virtual {v1}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1a13ee: 0c02                                   |0009: move-result-object v2
+1a13f0: 1a01 483c                              |000a: const-string v1, "content://com.miui.luckymoney.provider/lmInfo" // string@3c48
+1a13f4: 7110 f601 0100                         |000c: invoke-static {v1}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1a13fa: 0c03                                   |000f: move-result-object v3
+1a13fc: 1206                                   |0010: const/4 v6, #int 0 // #0
+1a13fe: 1207                                   |0011: const/4 v7, #int 0 // #0
+1a1400: 1204                                   |0012: const/4 v4, #int 0 // #0
+1a1402: 1205                                   |0013: const/4 v5, #int 0 // #0
+1a1404: 7406 cd00 0200                         |0014: invoke-virtual/range {v2, v3, v4, v5, v6, v7}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+1a140a: 0c01                                   |0017: move-result-object v1
+1a140c: 2202 a50c                              |0018: new-instance v2, Lsi/b$a; // type@0ca5
+1a1410: 1203                                   |001a: const/4 v3, #int 0 // #0
+1a1412: 7020 de3a 3200                         |001b: invoke-direct {v2, v3}, Lsi/b$a;.<init>:(Lsi/a;)V // method@3ade
+1a1418: 3901 0300                              |001e: if-nez v1, 0021 // +0003
+1a141c: 1102                                   |0020: return-object v2
+1a141e: 7210 5501 0100                         |0021: invoke-interface {v1}, Landroid/database/Cursor;.moveToNext:()Z // method@0155
+1a1424: 0a03                                   |0024: move-result v3
+1a1426: 3803 6400                              |0025: if-eqz v3, 0089 // +0064
+1a142a: 1a03 e04d                              |0027: const-string v3, "max_group" // string@4de0
+1a142e: 7220 4e01 3100                         |0029: invoke-interface {v1, v3}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a1434: 0a03                                   |002c: move-result v3
+1a1436: 7220 5301 3100                         |002d: invoke-interface {v1, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a143c: 0c03                                   |0030: move-result-object v3
+1a143e: 5b23 37ff                              |0031: iput-object v3, v2, Lsi/b$a;.a:Ljava/lang/String; // field@ff37
+1a1442: 1a03 e14d                              |0033: const-string v3, "max_person" // string@4de1
+1a1446: 7220 4e01 3100                         |0035: invoke-interface {v1, v3}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a144c: 0a03                                   |0038: move-result v3
+1a144e: 7220 5301 3100                         |0039: invoke-interface {v1, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a1454: 0c03                                   |003c: move-result-object v3
+1a1456: 5b23 38ff                              |003d: iput-object v3, v2, Lsi/b$a;.b:Ljava/lang/String; // field@ff38
+1a145a: 1a03 e15c                              |003f: const-string v3, "money_total" // string@5ce1
+1a145e: 7220 4e01 3100                         |0041: invoke-interface {v1, v3}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a1464: 0a03                                   |0044: move-result v3
+1a1466: 7220 5301 3100                         |0045: invoke-interface {v1, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a146c: 0c03                                   |0048: move-result-object v3
+1a146e: 7110 ea33 0300                         |0049: invoke-static {v3}, Ljava/lang/Long;.valueOf:(Ljava/lang/String;)Ljava/lang/Long; // method@33ea
+1a1474: 0c03                                   |004c: move-result-object v3
+1a1476: 6e10 e633 0300                         |004d: invoke-virtual {v3}, Ljava/lang/Long;.longValue:()J // method@33e6
+1a147c: 0b03                                   |0050: move-result-wide v3
+1a147e: 5a23 39ff                              |0051: iput-wide v3, v2, Lsi/b$a;.c:J // field@ff39
+1a1482: 2807                                   |0053: goto 005a // +0007
+1a1484: 0d03                                   |0054: move-exception v3
+1a1486: 1a04 de61                              |0055: const-string v4, "parse total money error!" // string@61de
+1a148a: 7130 f407 4003                         |0057: invoke-static {v0, v4, v3}, Lcom/carwith/common/utils/w1;.C:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f4
+1a1490: 1a03 ef5f                              |005a: const-string v3, "num_total" // string@5fef
+1a1494: 7220 4e01 3100                         |005c: invoke-interface {v1, v3}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a149a: 0a03                                   |005f: move-result v3
+1a149c: 7220 5301 3100                         |0060: invoke-interface {v1, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a14a2: 0c01                                   |0063: move-result-object v1
+1a14a4: 7110 ea33 0100                         |0064: invoke-static {v1}, Ljava/lang/Long;.valueOf:(Ljava/lang/String;)Ljava/lang/Long; // method@33ea
+1a14aa: 0c01                                   |0067: move-result-object v1
+1a14ac: 6e10 e633 0100                         |0068: invoke-virtual {v1}, Ljava/lang/Long;.longValue:()J // method@33e6
+1a14b2: 0b03                                   |006b: move-result-wide v3
+1a14b4: 5a23 3aff                              |006c: iput-wide v3, v2, Lsi/b$a;.d:J // field@ff3a
+1a14b8: 2807                                   |006e: goto 0075 // +0007
+1a14ba: 0d01                                   |006f: move-exception v1
+1a14bc: 1a03 df61                              |0070: const-string v3, "parse total num error" // string@61df
+1a14c0: 7130 f407 3001                         |0072: invoke-static {v0, v3, v1}, Lcom/carwith/common/utils/w1;.C:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f4
+1a14c6: 2201 030b                              |0075: new-instance v1, Ljava/lang/StringBuilder; // type@0b03
+1a14ca: 7010 4334 0100                         |0077: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a14d0: 1a03 9344                              |007a: const-string v3, "getLuckyMoneyInfo = " // string@4493
+1a14d4: 6e20 4c34 3100                         |007c: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a14da: 6e20 4b34 2100                         |007f: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+1a14e0: 6e10 5334 0100                         |0082: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a14e6: 0c01                                   |0085: move-result-object v1
+1a14e8: 7120 f507 1000                         |0086: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+1a14ee: 1102                                   |0089: return-object v2
+      catches       : 2
+        0x0049 - 0x0053
+          Ljava/lang/NumberFormatException; -> 0x0054
+        0x0064 - 0x006e
+          Ljava/lang/NumberFormatException; -> 0x006f
+
+    #1              : (in Lsi/b;)
+      name          : 'b'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a0dd8:                                        |[1a0dd8] si.b.b:()Z
+1a0de8: 1a00 fb4b                              |0000: const-string v0, "lmEnable" // string@4bfb
+1a0dec: 7110 e73a 0000                         |0002: invoke-static {v0}, Lsi/b;.h:(Ljava/lang/String;)Z // method@3ae7
+1a0df2: 0a00                                   |0005: move-result v0
+1a0df4: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #2              : (in Lsi/b;)
+      name          : 'c'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a0df8:                                        |[1a0df8] si.b.c:()Z
+1a0e08: 1a00 fc4b                              |0000: const-string v0, "lmFastOpen" // string@4bfc
+1a0e0c: 7110 e73a 0000                         |0002: invoke-static {v0}, Lsi/b;.h:(Ljava/lang/String;)Z // method@3ae7
+1a0e12: 0a00                                   |0005: move-result v0
+1a0e14: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #3              : (in Lsi/b;)
+      name          : 'd'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a0e18:                                        |[1a0e18] si.b.d:()Z
+1a0e28: 1a00 fd4b                              |0000: const-string v0, "lmFloat" // string@4bfd
+1a0e2c: 7110 e73a 0000                         |0002: invoke-static {v0}, Lsi/b;.h:(Ljava/lang/String;)Z // method@3ae7
+1a0e32: 0a00                                   |0005: move-result v0
+1a0e34: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #4              : (in Lsi/b;)
+      name          : 'e'
+      type          : '(Ljava/lang/String;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 41 16-bit code units
+1a0e38:                                        |[1a0e38] si.b.e:(Ljava/lang/String;)Z
+1a0e48: 7110 ab02 0200                         |0000: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@02ab
+1a0e4e: 0a00                                   |0003: move-result v0
+1a0e50: 1201                                   |0004: const/4 v1, #int 0 // #0
+1a0e52: 3900 2300                              |0005: if-nez v0, 0028 // +0023
+1a0e56: 1a00 694e                              |0007: const-string v0, "miui.intent.action.HB_MAIN_ACTIVITY" // string@4e69
+1a0e5a: 6e20 1434 0200                         |0009: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@3414
+1a0e60: 0a00                                   |000c: move-result v0
+1a0e62: 3900 1a00                              |000d: if-nez v0, 0027 // +001a
+1a0e66: 1a00 6b4e                              |000f: const-string v0, "miui.luckymoney.action.ACCESS_LM_SHARE" // string@4e6b
+1a0e6a: 6e20 1434 0200                         |0011: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@3414
+1a0e70: 0a00                                   |0014: move-result v0
+1a0e72: 3900 1200                              |0015: if-nez v0, 0027 // +0012
+1a0e76: 1a00 6a4e                              |0017: const-string v0, "miui.intent.action.LUCKY_MORE_SETTING" // string@4e6a
+1a0e7a: 6e20 1434 0200                         |0019: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@3414
+1a0e80: 0a00                                   |001c: move-result v0
+1a0e82: 3900 0a00                              |001d: if-nez v0, 0027 // +000a
+1a0e86: 1a00 1e36                              |001f: const-string v0, "api.miui.security.xiaomi.com/netassist/floworderunity/cdn/luckymoneyhelp" // string@361e
+1a0e8a: 6e20 1434 0200                         |0021: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@3414
+1a0e90: 0a02                                   |0024: move-result v2
+1a0e92: 3802 0300                              |0025: if-eqz v2, 0028 // +0003
+1a0e96: 1211                                   |0027: const/4 v1, #int 1 // #1
+1a0e98: 0f01                                   |0028: return v1
+      catches       : (none)
+
+    #5              : (in Lsi/b;)
+      name          : 'f'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 3
+      insns size    : 59 16-bit code units
+1a0e9c:                                        |[1a0e9c] si.b.f:()Z
+1a0eac: 1a00 e11e                              |0000: const-string v0, "LuckyMoneyUtils" // string@1ee1
+1a0eb0: 7100 901c 0000                         |0002: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1a0eb6: 0c01                                   |0005: move-result-object v1
+1a0eb8: 6e10 e300 0100                         |0006: invoke-virtual {v1}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00e3
+1a0ebe: 0c01                                   |0009: move-result-object v1
+1a0ec0: 2202 3f00                              |000a: new-instance v2, Landroid/content/Intent; // type@003f
+1a0ec4: 1a03 6a4e                              |000c: const-string v3, "miui.intent.action.LUCKY_MORE_SETTING" // string@4e6a
+1a0ec8: 7020 fd00 3200                         |000e: invoke-direct {v2, v3}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@00fd
+1a0ece: 1203                                   |0011: const/4 v3, #int 0 // #0
+1a0ed0: 6e30 3501 2103                         |0012: invoke-virtual {v1, v2, v3}, Landroid/content/pm/PackageManager;.queryIntentActivities:(Landroid/content/Intent;I)Ljava/util/List; // method@0135
+1a0ed6: 0c01                                   |0015: move-result-object v1
+1a0ed8: 3801 1000                              |0016: if-eqz v1, 0026 // +0010
+1a0edc: 7210 aa35 0100                         |0018: invoke-interface {v1}, Ljava/util/List;.size:()I // method@35aa
+1a0ee2: 0a01                                   |001b: move-result v1
+1a0ee4: 3d01 0a00                              |001c: if-lez v1, 0026 // +000a
+1a0ee8: 1213                                   |001e: const/4 v3, #int 1 // #1
+1a0eea: 2807                                   |001f: goto 0026 // +0007
+1a0eec: 0d01                                   |0020: move-exception v1
+1a0eee: 1a02 044a                              |0021: const-string v2, "isSupportLuckyMoney Exception:" // string@4a04
+1a0ef2: 7130 f407 2001                         |0023: invoke-static {v0, v2, v1}, Lcom/carwith/common/utils/w1;.C:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f4
+1a0ef8: 2201 030b                              |0026: new-instance v1, Ljava/lang/StringBuilder; // type@0b03
+1a0efc: 7010 4334 0100                         |0028: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a0f02: 1a02 034a                              |002b: const-string v2, "isSupportLuckyMoney " // string@4a03
+1a0f06: 6e20 4c34 2100                         |002d: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0f0c: 6e20 4d34 3100                         |0030: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+1a0f12: 6e10 5334 0100                         |0033: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a0f18: 0c01                                   |0036: move-result-object v1
+1a0f1a: 7120 f507 1000                         |0037: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+1a0f20: 0f03                                   |003a: return v3
+      catches       : 1
+        0x0012 - 0x001c
+          Ljava/lang/Exception; -> 0x0020
+
+    #6              : (in Lsi/b;)
+      name          : 'g'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 53 16-bit code units
+1a11a8:                                        |[1a11a8] si.b.g:(Ljava/lang/String;)Ljava/lang/String;
+1a11b8: 3804 3400                              |0000: if-eqz v4, 0034 // +0034
+1a11bc: 1a00 6b4e                              |0002: const-string v0, "miui.luckymoney.action.ACCESS_LM_SHARE" // string@4e6b
+1a11c0: 6e20 1434 0400                         |0004: invoke-virtual {v4, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@3414
+1a11c6: 0a00                                   |0007: move-result v0
+1a11c8: 3800 2c00                              |0008: if-eqz v0, 0034 // +002c
+1a11cc: 1200                                   |000a: const/4 v0, #int 0 // #0
+1a11ce: 7120 0e38 0400                         |000b: invoke-static {v4, v0}, Lmj/q;.k:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; // method@380e
+1a11d4: 0c04                                   |000e: move-result-object v4
+1a11d6: 7100 e03a 0000                         |000f: invoke-static {}, Lsi/b;.a:()Lsi/b$a; // method@3ae0
+1a11dc: 0c00                                   |0012: move-result-object v0
+1a11de: 5401 37ff                              |0013: iget-object v1, v0, Lsi/b$a;.a:Ljava/lang/String; // field@ff37
+1a11e2: 1a02 bf4d                              |0015: const-string v2, "maxGroup" // string@4dbf
+1a11e6: 6e30 1001 2401                         |0017: invoke-virtual {v4, v2, v1}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; // method@0110
+1a11ec: 1a01 d14d                              |001a: const-string v1, "maxPersonal" // string@4dd1
+1a11f0: 5402 38ff                              |001c: iget-object v2, v0, Lsi/b$a;.b:Ljava/lang/String; // field@ff38
+1a11f4: 6e30 1001 1402                         |001e: invoke-virtual {v4, v1, v2}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; // method@0110
+1a11fa: 1a01 3667                              |0021: const-string v1, "receivedValue" // string@6736
+1a11fe: 5302 39ff                              |0023: iget-wide v2, v0, Lsi/b$a;.c:J // field@ff39
+1a1202: 6e40 0f01 1432                         |0025: invoke-virtual {v4, v1, v2, v3}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;J)Landroid/content/Intent; // method@010f
+1a1208: 1a01 2276                              |0028: const-string v1, "warningTotal" // string@7622
+1a120c: 5302 3aff                              |002a: iget-wide v2, v0, Lsi/b$a;.d:J // field@ff3a
+1a1210: 6e40 0f01 1432                         |002c: invoke-virtual {v4, v1, v2, v3}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;J)Landroid/content/Intent; // method@010f
+1a1216: 1210                                   |002f: const/4 v0, #int 1 // #1
+1a1218: 6e20 1a01 0400                         |0030: invoke-virtual {v4, v0}, Landroid/content/Intent;.toUri:(I)Ljava/lang/String; // method@011a
+1a121e: 0c04                                   |0033: move-result-object v4
+1a1220: 1104                                   |0034: return-object v4
+      catches       : (none)
+
+    #7              : (in Lsi/b;)
+      name          : 'h'
+      type          : '(Ljava/lang/String;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 6
+      insns size    : 131 16-bit code units
+1a0f34:                                        |[1a0f34] si.b.h:(Ljava/lang/String;)Z
+1a0f44: 7100 901c 0000                         |0000: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1a0f4a: 0c00                                   |0003: move-result-object v0
+1a0f4c: 6e10 de00 0000                         |0004: invoke-virtual {v0}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1a0f52: 0c01                                   |0007: move-result-object v1
+1a0f54: 2200 030b                              |0008: new-instance v0, Ljava/lang/StringBuilder; // type@0b03
+1a0f58: 7010 4334 0000                         |000a: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a0f5e: 1a02 473c                              |000d: const-string v2, "content://com.miui.luckymoney.provider/" // string@3c47
+1a0f62: 6e20 4c34 2000                         |000f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0f68: 6e20 4c34 7000                         |0012: invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0f6e: 6e10 5334 0000                         |0015: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a0f74: 0c00                                   |0018: move-result-object v0
+1a0f76: 7110 f601 0000                         |0019: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1a0f7c: 0c02                                   |001c: move-result-object v2
+1a0f7e: 1205                                   |001d: const/4 v5, #int 0 // #0
+1a0f80: 1206                                   |001e: const/4 v6, #int 0 // #0
+1a0f82: 1203                                   |001f: const/4 v3, #int 0 // #0
+1a0f84: 1204                                   |0020: const/4 v4, #int 0 // #0
+1a0f86: 7406 cd00 0100                         |0021: invoke-virtual/range {v1, v2, v3, v4, v5, v6}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+1a0f8c: 0c00                                   |0024: move-result-object v0
+1a0f8e: 1a01 8a00                              |0025: const-string v1, " isEnable: " // string@008a
+1a0f92: 1a02 e11e                              |0027: const-string v2, "LuckyMoneyUtils" // string@1ee1
+1a0f96: 1203                                   |0029: const/4 v3, #int 0 // #0
+1a0f98: 3900 2500                              |002a: if-nez v0, 004f // +0025
+1a0f9c: 2204 030b                              |002c: new-instance v4, Ljava/lang/StringBuilder; // type@0b03
+1a0fa0: 7010 4334 0400                         |002e: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a0fa6: 1a05 8e66                              |0031: const-string v5, "queryEnable: " // string@668e
+1a0faa: 6e20 4c34 5400                         |0033: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0fb0: 6e20 4c34 7400                         |0036: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0fb6: 1a07 6500                              |0039: const-string v7, " cursor: " // string@0065
+1a0fba: 6e20 4c34 7400                         |003b: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0fc0: 6e20 4b34 0400                         |003e: invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+1a0fc6: 6e20 4c34 1400                         |0041: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a0fcc: 6e20 4d34 3400                         |0044: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+1a0fd2: 6e10 5334 0400                         |0047: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a0fd8: 0c07                                   |004a: move-result-object v7
+1a0fda: 7120 f507 7200                         |004b: invoke-static {v2, v7}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+1a0fe0: 0f03                                   |004e: return v3
+1a0fe2: 7210 5501 0000                         |004f: invoke-interface {v0}, Landroid/database/Cursor;.moveToNext:()Z // method@0155
+1a0fe8: 0a04                                   |0052: move-result v4
+1a0fea: 3804 2f00                              |0053: if-eqz v4, 0082 // +002f
+1a0fee: 1a03 e53f                              |0055: const-string v3, "enable" // string@3fe5
+1a0ff2: 7220 4e01 3000                         |0057: invoke-interface {v0, v3}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a0ff8: 0a03                                   |005a: move-result v3
+1a0ffa: 7220 5301 3000                         |005b: invoke-interface {v0, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a1000: 0c03                                   |005e: move-result-object v3
+1a1002: 7110 a333 0300                         |005f: invoke-static {v3}, Ljava/lang/Boolean;.valueOf:(Ljava/lang/String;)Ljava/lang/Boolean; // method@33a3
+1a1008: 0c03                                   |0062: move-result-object v3
+1a100a: 6e10 9f33 0300                         |0063: invoke-virtual {v3}, Ljava/lang/Boolean;.booleanValue:()Z // method@339f
+1a1010: 0a03                                   |0066: move-result v3
+1a1012: 2204 030b                              |0067: new-instance v4, Ljava/lang/StringBuilder; // type@0b03
+1a1016: 7010 4334 0400                         |0069: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a101c: 1a05 8d66                              |006c: const-string v5, "queryEnable table: " // string@668d
+1a1020: 6e20 4c34 5400                         |006e: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1026: 6e20 4c34 7400                         |0071: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a102c: 6e20 4c34 1400                         |0074: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1032: 6e20 4d34 3400                         |0077: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+1a1038: 6e10 5334 0400                         |007a: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a103e: 0c04                                   |007d: move-result-object v4
+1a1040: 7120 fd07 4200                         |007e: invoke-static {v2, v4}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+1a1046: 28ce                                   |0081: goto 004f // -0032
+1a1048: 0f03                                   |0082: return v3
+      catches       : (none)
+
+    #8              : (in Lsi/b;)
+      name          : 'i'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 6
+      insns size    : 107 16-bit code units
+1a1224:                                        |[1a1224] si.b.i:(Ljava/lang/String;)Ljava/lang/String;
+1a1234: 7100 901c 0000                         |0000: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1a123a: 0c00                                   |0003: move-result-object v0
+1a123c: 6e10 de00 0000                         |0004: invoke-virtual {v0}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1a1242: 0c01                                   |0007: move-result-object v1
+1a1244: 1a00 483c                              |0008: const-string v0, "content://com.miui.luckymoney.provider/lmInfo" // string@3c48
+1a1248: 7110 f601 0000                         |000a: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1a124e: 0c02                                   |000d: move-result-object v2
+1a1250: 1205                                   |000e: const/4 v5, #int 0 // #0
+1a1252: 1206                                   |000f: const/4 v6, #int 0 // #0
+1a1254: 1203                                   |0010: const/4 v3, #int 0 // #0
+1a1256: 1204                                   |0011: const/4 v4, #int 0 // #0
+1a1258: 7406 cd00 0100                         |0012: invoke-virtual/range {v1, v2, v3, v4, v5, v6}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+1a125e: 0c00                                   |0015: move-result-object v0
+1a1260: 1a01 c500                              |0016: const-string v1, " value: " // string@00c5
+1a1264: 1a02 e11e                              |0018: const-string v2, "LuckyMoneyUtils" // string@1ee1
+1a1268: 1a03 0000                              |001a: const-string v3, "" // string@0000
+1a126c: 3900 2500                              |001c: if-nez v0, 0041 // +0025
+1a1270: 2204 030b                              |001e: new-instance v4, Ljava/lang/StringBuilder; // type@0b03
+1a1274: 7010 4334 0400                         |0020: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a127a: 1a05 ac00                              |0023: const-string v5, " queryInfo key: " // string@00ac
+1a127e: 6e20 4c34 5400                         |0025: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1284: 6e20 4c34 7400                         |0028: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a128a: 1a07 6500                              |002b: const-string v7, " cursor: " // string@0065
+1a128e: 6e20 4c34 7400                         |002d: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1294: 6e20 4b34 0400                         |0030: invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+1a129a: 6e20 4c34 1400                         |0033: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12a0: 6e20 4c34 3400                         |0036: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12a6: 6e10 5334 0400                         |0039: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a12ac: 0c07                                   |003c: move-result-object v7
+1a12ae: 7120 f507 7200                         |003d: invoke-static {v2, v7}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+1a12b4: 1103                                   |0040: return-object v3
+1a12b6: 7210 5501 0000                         |0041: invoke-interface {v0}, Landroid/database/Cursor;.moveToNext:()Z // method@0155
+1a12bc: 0a04                                   |0044: move-result v4
+1a12be: 3804 2500                              |0045: if-eqz v4, 006a // +0025
+1a12c2: 7220 4e01 7000                         |0047: invoke-interface {v0, v7}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1a12c8: 0a03                                   |004a: move-result v3
+1a12ca: 7220 5301 3000                         |004b: invoke-interface {v0, v3}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0153
+1a12d0: 0c03                                   |004e: move-result-object v3
+1a12d2: 2204 030b                              |004f: new-instance v4, Ljava/lang/StringBuilder; // type@0b03
+1a12d6: 7010 4334 0400                         |0051: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a12dc: 1a05 9066                              |0054: const-string v5, "queryInfo key: " // string@6690
+1a12e0: 6e20 4c34 5400                         |0056: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12e6: 6e20 4c34 7400                         |0059: invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12ec: 6e20 4c34 1400                         |005c: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12f2: 6e20 4c34 3400                         |005f: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a12f8: 6e10 5334 0400                         |0062: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a12fe: 0c04                                   |0065: move-result-object v4
+1a1300: 7120 fd07 4200                         |0066: invoke-static {v2, v4}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+1a1306: 28d8                                   |0069: goto 0041 // -0028
+1a1308: 1103                                   |006a: return-object v3
+      catches       : (none)
+
+    #9              : (in Lsi/b;)
+      name          : 'j'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a130c:                                        |[1a130c] si.b.j:()Ljava/lang/String;
+1a131c: 1a00 e04d                              |0000: const-string v0, "max_group" // string@4de0
+1a1320: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a1326: 0c00                                   |0005: move-result-object v0
+1a1328: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #10              : (in Lsi/b;)
+      name          : 'k'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a132c:                                        |[1a132c] si.b.k:()Ljava/lang/String;
+1a133c: 1a00 e14d                              |0000: const-string v0, "max_person" // string@4de1
+1a1340: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a1346: 0c00                                   |0005: move-result-object v0
+1a1348: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #11              : (in Lsi/b;)
+      name          : 'l'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a134c:                                        |[1a134c] si.b.l:()Ljava/lang/String;
+1a135c: 1a00 be5c                              |0000: const-string v0, "mm_money_total" // string@5cbe
+1a1360: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a1366: 0c00                                   |0005: move-result-object v0
+1a1368: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #12              : (in Lsi/b;)
+      name          : 'm'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a136c:                                        |[1a136c] si.b.m:()Ljava/lang/String;
+1a137c: 1a00 e15c                              |0000: const-string v0, "money_total" // string@5ce1
+1a1380: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a1386: 0c00                                   |0005: move-result-object v0
+1a1388: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #13              : (in Lsi/b;)
+      name          : 'n'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a138c:                                        |[1a138c] si.b.n:()Ljava/lang/String;
+1a139c: 1a00 ef5f                              |0000: const-string v0, "num_total" // string@5fef
+1a13a0: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a13a6: 0c00                                   |0005: move-result-object v0
+1a13a8: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #14              : (in Lsi/b;)
+      name          : 'o'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a13ac:                                        |[1a13ac] si.b.o:()Ljava/lang/String;
+1a13bc: 1a00 7566                              |0000: const-string v0, "qq_money_total" // string@6675
+1a13c0: 7110 e83a 0000                         |0002: invoke-static {v0}, Lsi/b;.i:(Ljava/lang/String;)Ljava/lang/String; // method@3ae8
+1a13c6: 0c00                                   |0005: move-result-object v0
+1a13c8: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #15              : (in Lsi/b;)
+      name          : 'p'
+      type          : '(Z)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+1a104c:                                        |[1a104c] si.b.p:(Z)Z
+1a105c: 1a00 fb4b                              |0000: const-string v0, "lmEnable" // string@4bfb
+1a1060: 7120 f23a 1000                         |0002: invoke-static {v0, v1}, Lsi/b;.s:(Ljava/lang/String;Z)Z // method@3af2
+1a1066: 0a01                                   |0005: move-result v1
+1a1068: 0f01                                   |0006: return v1
+      catches       : (none)
+
+    #16              : (in Lsi/b;)
+      name          : 'q'
+      type          : '(Z)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+1a106c:                                        |[1a106c] si.b.q:(Z)Z
+1a107c: 1a00 fc4b                              |0000: const-string v0, "lmFastOpen" // string@4bfc
+1a1080: 7120 f23a 1000                         |0002: invoke-static {v0, v1}, Lsi/b;.s:(Ljava/lang/String;Z)Z // method@3af2
+1a1086: 0a01                                   |0005: move-result v1
+1a1088: 0f01                                   |0006: return v1
+      catches       : (none)
+
+    #17              : (in Lsi/b;)
+      name          : 'r'
+      type          : '(Z)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+1a108c:                                        |[1a108c] si.b.r:(Z)Z
+1a109c: 1a00 fd4b                              |0000: const-string v0, "lmFloat" // string@4bfd
+1a10a0: 7120 f23a 1000                         |0002: invoke-static {v0, v1}, Lsi/b;.s:(Ljava/lang/String;Z)Z // method@3af2
+1a10a6: 0a01                                   |0005: move-result v1
+1a10a8: 0f01                                   |0006: return v1
+      catches       : (none)
+
+    #18              : (in Lsi/b;)
+      name          : 's'
+      type          : '(Ljava/lang/String;Z)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 2
+      outs          : 5
+      insns size    : 110 16-bit code units
+1a10ac:                                        |[1a10ac] si.b.s:(Ljava/lang/String;Z)Z
+1a10bc: 1a00 e11e                              |0000: const-string v0, "LuckyMoneyUtils" // string@1ee1
+1a10c0: 7100 901c 0000                         |0002: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1a10c6: 0c01                                   |0005: move-result-object v1
+1a10c8: 6e10 de00 0100                         |0006: invoke-virtual {v1}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1a10ce: 0c01                                   |0009: move-result-object v1
+1a10d0: 2202 030b                              |000a: new-instance v2, Ljava/lang/StringBuilder; // type@0b03
+1a10d4: 7010 4334 0200                         |000c: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a10da: 1a03 473c                              |000f: const-string v3, "content://com.miui.luckymoney.provider/" // string@3c47
+1a10de: 6e20 4c34 3200                         |0011: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a10e4: 6e20 4c34 6200                         |0014: invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a10ea: 6e10 5334 0200                         |0017: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a10f0: 0c02                                   |001a: move-result-object v2
+1a10f2: 7110 f601 0200                         |001b: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1a10f8: 0c02                                   |001e: move-result-object v2
+1a10fa: 2203 3d00                              |001f: new-instance v3, Landroid/content/ContentValues; // type@003d
+1a10fe: 7010 d300 0300                         |0021: invoke-direct {v3}, Landroid/content/ContentValues;.<init>:()V // method@00d3
+1a1104: 7110 a433 0700                         |0024: invoke-static {v7}, Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean; // method@33a4
+1a110a: 0c04                                   |0027: move-result-object v4
+1a110c: 1a05 e53f                              |0028: const-string v5, "enable" // string@3fe5
+1a1110: 6e30 d600 5304                         |002a: invoke-virtual {v3, v5, v4}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Boolean;)V // method@00d6
+1a1116: 1204                                   |002d: const/4 v4, #int 0 // #0
+1a1118: 6e54 d100 2143                         |002e: invoke-virtual {v1, v2, v3, v4, v4}, Landroid/content/ContentResolver;.update:(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I // method@00d1
+1a111e: 1211                                   |0031: const/4 v1, #int 1 // #1
+1a1120: 2817                                   |0032: goto 0049 // +0017
+1a1122: 0d01                                   |0033: move-exception v1
+1a1124: 2202 030b                              |0034: new-instance v2, Ljava/lang/StringBuilder; // type@0b03
+1a1128: 7010 4334 0200                         |0036: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a112e: 1a03 0e74                              |0039: const-string v3, "updateEnable Exception:" // string@740e
+1a1132: 6e20 4c34 3200                         |003b: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1138: 6e20 4b34 1200                         |003e: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+1a113e: 6e10 5334 0200                         |0041: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a1144: 0c01                                   |0044: move-result-object v1
+1a1146: 7120 f307 1000                         |0045: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.B:(Ljava/lang/String;Ljava/lang/String;)V // method@07f3
+1a114c: 1201                                   |0048: const/4 v1, #int 0 // #0
+1a114e: 2202 030b                              |0049: new-instance v2, Ljava/lang/StringBuilder; // type@0b03
+1a1152: 7010 4334 0200                         |004b: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a1158: 1a03 c200                              |004e: const-string v3, " updateEnable: " // string@00c2
+1a115c: 6e20 4c34 3200                         |0050: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1162: 6e20 4c34 6200                         |0053: invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1168: 1a06 6b00                              |0056: const-string v6, " enable: " // string@006b
+1a116c: 6e20 4c34 6200                         |0058: invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1172: 6e20 4d34 7200                         |005b: invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+1a1178: 1a06 8c00                              |005e: const-string v6, " isSuccess: " // string@008c
+1a117c: 6e20 4c34 6200                         |0060: invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1182: 6e20 4d34 1200                         |0063: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+1a1188: 6e10 5334 0200                         |0066: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a118e: 0c06                                   |0069: move-result-object v6
+1a1190: 7120 f507 6000                         |006a: invoke-static {v0, v6}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+1a1196: 0f01                                   |006d: return v1
+      catches       : 1
+        0x002e - 0x0031
+          Ljava/lang/Exception; -> 0x0033
+
+  Virtual methods   -
+  source_file_idx   : 7906 (LuckyMoneyUtils.java)
+

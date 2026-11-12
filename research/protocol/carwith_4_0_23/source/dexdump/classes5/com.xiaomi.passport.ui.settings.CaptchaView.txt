@@ -1,0 +1,539 @@
+Class #3669            -
+  Class descriptor  : 'Lcom/xiaomi/passport/ui/settings/CaptchaView;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Landroid/widget/FrameLayout;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'a'
+      type          : 'Landroid/widget/ImageView;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'b'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'f'
+      type          : 'Lcom/xiaomi/passport/uicontroller/a;'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'g'
+      type          : 'Lcom/xiaomi/passport/uicontroller/a;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 11 16-bit code units
+4097a8:                                        |[4097a8] com.xiaomi.passport.ui.settings.CaptchaView.<init>:(Landroid/content/Context;)V
+4097b8: 7020 1406 2100                         |0000: invoke-direct {v1, v2}, Landroid/widget/FrameLayout;.<init>:(Landroid/content/Context;)V // method@0614
+4097be: 1a00 1fa5                              |0003: const-string v0, "https://account.xiaomi.com/pass/getCode?icodeType=login&0.07169544044424958" // string@a51f
+4097c2: 5b10 35d5                              |0005: iput-object v0, v1, Lcom/xiaomi/passport/ui/settings/CaptchaView;.c:Ljava/lang/String; // field@d535
+4097c6: 6e20 d3c0 2100                         |0007: invoke-virtual {v1, v2}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.p:(Landroid/content/Context;)V // method@c0d3
+4097cc: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Landroid/util/AttributeSet;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 8 16-bit code units
+4097d0:                                        |[4097d0] com.xiaomi.passport.ui.settings.CaptchaView.<init>:(Landroid/content/Context;Landroid/util/AttributeSet;)V
+4097e0: 1200                                   |0000: const/4 v0, #int 0 // #0
+4097e2: 7040 c0c0 2103                         |0001: invoke-direct {v1, v2, v3, v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.<init>:(Landroid/content/Context;Landroid/util/AttributeSet;I)V // method@c0c0
+4097e8: 6e20 d3c0 2100                         |0004: invoke-virtual {v1, v2}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.p:(Landroid/content/Context;)V // method@c0d3
+4097ee: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Landroid/util/AttributeSet;I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 11 16-bit code units
+4097f0:                                        |[4097f0] com.xiaomi.passport.ui.settings.CaptchaView.<init>:(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+409800: 7040 1606 1032                         |0000: invoke-direct {v0, v1, v2, v3}, Landroid/widget/FrameLayout;.<init>:(Landroid/content/Context;Landroid/util/AttributeSet;I)V // method@0616
+409806: 1a02 1fa5                              |0003: const-string v2, "https://account.xiaomi.com/pass/getCode?icodeType=login&0.07169544044424958" // string@a51f
+40980a: 5b02 35d5                              |0005: iput-object v2, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.c:Ljava/lang/String; // field@d535
+40980e: 6e20 d3c0 1000                         |0007: invoke-virtual {v0, v1}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.p:(Landroid/content/Context;)V // method@c0d3
+409814: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'a'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+409818:                                        |[409818] com.xiaomi.passport.ui.settings.CaptchaView.a:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V
+409828: 6e10 d5c0 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.r:()V // method@c0d5
+40982e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'b'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Z'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4096fc:                                        |[4096fc] com.xiaomi.passport.ui.settings.CaptchaView.b:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Z
+40970c: 5500 34d5                              |0000: iget-boolean v0, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.b:Z // field@d534
+409710: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'c'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Ljava/lang/String;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+409714:                                        |[409714] com.xiaomi.passport.ui.settings.CaptchaView.c:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Ljava/lang/String;
+409724: 5400 36d5                              |0000: iget-object v0, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.d:Ljava/lang/String; // field@d536
+409728: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'd'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+409830:                                        |[409830] com.xiaomi.passport.ui.settings.CaptchaView.d:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)V
+409840: 6e20 cfc0 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.m:(Ljava/lang/String;)V // method@c0cf
+409846: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'e'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Ljava/lang/String;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+40972c:                                        |[40972c] com.xiaomi.passport.ui.settings.CaptchaView.e:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Ljava/lang/String;
+40973c: 5400 35d5                              |0000: iget-object v0, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.c:Ljava/lang/String; // field@d535
+409740: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'f'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+409848:                                        |[409848] com.xiaomi.passport.ui.settings.CaptchaView.f:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)V
+409858: 6e20 d0c0 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.n:(Ljava/lang/String;)V // method@c0d0
+40985e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'g'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+409744:                                        |[409744] com.xiaomi.passport.ui.settings.CaptchaView.g:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;)Ljava/lang/String;
+409754: 5b01 37d5                              |0000: iput-object v1, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.e:Ljava/lang/String; // field@d537
+409758: 1101                                   |0002: return-object v1
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'h'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Landroid/widget/ImageView;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4096e4:                                        |[4096e4] com.xiaomi.passport.ui.settings.CaptchaView.h:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)Landroid/widget/ImageView;
+4096f4: 5400 33d5                              |0000: iget-object v0, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.a:Landroid/widget/ImageView; // field@d533
+4096f8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #11              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'i'
+      type          : '(Lcom/xiaomi/passport/ui/settings/CaptchaView;Landroid/content/Context;Ljava/lang/String;)Landroid/util/Pair;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 5 16-bit code units
+409608:                                        |[409608] com.xiaomi.passport.ui.settings.CaptchaView.i:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Landroid/content/Context;Ljava/lang/String;)Landroid/util/Pair;
+409618: 6e30 cdc0 1002                         |0000: invoke-virtual {v0, v1, v2}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.k:(Landroid/content/Context;Ljava/lang/String;)Landroid/util/Pair; // method@c0cd
+40961e: 0c00                                   |0003: move-result-object v0
+409620: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #12              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'j'
+      type          : '(Ljava/lang/String;II)Landroid/graphics/Bitmap;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 5 16-bit code units
+4095bc:                                        |[4095bc] com.xiaomi.passport.ui.settings.CaptchaView.j:(Ljava/lang/String;II)Landroid/graphics/Bitmap;
+4095cc: 7130 d1c0 1002                         |0000: invoke-static {v0, v1, v2}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.o:(Ljava/lang/String;II)Landroid/graphics/Bitmap; // method@c0d1
+4095d2: 0c00                                   |0003: move-result-object v0
+4095d4: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #13              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'o'
+      type          : '(Ljava/lang/String;II)Landroid/graphics/Bitmap;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 15 16-bit code units
+4095d8:                                        |[4095d8] com.xiaomi.passport.ui.settings.CaptchaView.o:(Ljava/lang/String;II)Landroid/graphics/Bitmap;
+4095e8: 7110 7c02 0100                         |0000: invoke-static {v1}, Landroid/graphics/BitmapFactory;.decodeFile:(Ljava/lang/String;)Landroid/graphics/Bitmap; // method@027c
+4095ee: 0c01                                   |0003: move-result-object v1
+4095f0: 1210                                   |0004: const/4 v0, #int 1 // #1
+4095f2: 7140 7702 2103                         |0005: invoke-static {v1, v2, v3, v0}, Landroid/graphics/Bitmap;.createScaledBitmap:(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap; // method@0277
+4095f8: 0c02                                   |0008: move-result-object v2
+4095fa: 3221 0500                              |0009: if-eq v1, v2, 000e // +0005
+4095fe: 6e10 7a02 0100                         |000b: invoke-virtual {v1}, Landroid/graphics/Bitmap;.recycle:()V // method@027a
+409604: 1102                                   |000e: return-object v2
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'getHint'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 18 16-bit code units
+40975c:                                        |[40975c] com.xiaomi.passport.ui.settings.CaptchaView.getHint:()Ljava/lang/String;
+40976c: 6e10 d204 0100                         |0000: invoke-virtual {v1}, Landroid/view/View;.getContext:()Landroid/content/Context; // method@04d2
+409772: 0c00                                   |0003: move-result-object v0
+409774: 5511 34d5                              |0004: iget-boolean v1, v1, Lcom/xiaomi/passport/ui/settings/CaptchaView;.b:Z // field@d534
+409778: 3801 0500                              |0006: if-eqz v1, 000b // +0005
+40977c: 6001 fe63                              |0008: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_input_voice_captcha_hint:I // field@63fe
+409780: 2803                                   |000a: goto 000d // +0003
+409782: 6001 f963                              |000b: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_input_captcha_hint:I // field@63f9
+409786: 6e20 bf01 1000                         |000d: invoke-virtual {v0, v1}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@01bf
+40978c: 0c01                                   |0010: move-result-object v1
+40978e: 1101                                   |0011: return-object v1
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'getIck'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+409790:                                        |[409790] com.xiaomi.passport.ui.settings.CaptchaView.getIck:()Ljava/lang/String;
+4097a0: 5400 37d5                              |0000: iget-object v0, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.e:Ljava/lang/String; // field@d537
+4097a4: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'k'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Landroid/util/Pair;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 3
+      insns size    : 66 16-bit code units
+409624:                                        |[409624] com.xiaomi.passport.ui.settings.CaptchaView.k:(Landroid/content/Context;Ljava/lang/String;)Landroid/util/Pair;
+409634: 1a04 3995                              |0000: const-string v4, "getCaptcha" // string@9539
+409638: 1a00 9110                              |0002: const-string v0, "CaptchaView" // string@1091
+40963c: 1201                                   |0004: const/4 v1, #int 0 // #0
+40963e: 7130 e1d5 1601                         |0005: invoke-static {v6, v1, v1}, Lnd/l;.e:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Lnd/k$g; // method@d5e1
+409644: 0c06                                   |0008: move-result-object v6
+409646: 2810                                   |0009: goto 0019 // +0010
+409648: 0d06                                   |000a: move-exception v6
+40964a: 7130 20d7 4006                         |000b: invoke-static {v0, v4, v6}, Lpd/b;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@d720
+409650: 280a                                   |000e: goto 0018 // +000a
+409652: 0d06                                   |000f: move-exception v6
+409654: 7130 20d7 4006                         |0010: invoke-static {v0, v4, v6}, Lpd/b;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@d720
+40965a: 2805                                   |0013: goto 0018 // +0005
+40965c: 0d06                                   |0014: move-exception v6
+40965e: 7130 20d7 4006                         |0015: invoke-static {v0, v4, v6}, Lpd/b;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@d720
+409664: 0716                                   |0018: move-object v6, v1
+409666: 3906 0300                              |0019: if-nez v6, 001c // +0003
+40966a: 1101                                   |001b: return-object v1
+40966c: 6e10 c3d5 0600                         |001c: invoke-virtual {v6}, Lnd/k$g;.i:()Ljava/io/InputStream; // method@d5c3
+409672: 0c02                                   |001f: move-result-object v2
+409674: 1a03 f384                              |0020: const-string v3, "captcha" // string@84f3
+409678: 7130 1ecf 2503                         |0022: invoke-static {v5, v2, v3}, Lkd/c;.d:(Landroid/content/Context;Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/File; // method@cf1e
+40967e: 0c05                                   |0025: move-result-object v5
+409680: 1a02 91a5                              |0026: const-string v2, "ick" // string@a591
+409684: 6e20 b6d5 2600                         |0028: invoke-virtual {v6, v2}, Lnd/k$d;.b:(Ljava/lang/String;)Ljava/lang/String; // method@d5b6
+40968a: 0c02                                   |002b: move-result-object v2
+40968c: 7120 9904 2500                         |002c: invoke-static {v5, v2}, Landroid/util/Pair;.create:(Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/Pair; // method@0499
+409692: 0c04                                   |002f: move-result-object v4
+409694: 6e10 c2d5 0600                         |0030: invoke-virtual {v6}, Lnd/k$g;.h:()V // method@d5c2
+40969a: 1104                                   |0033: return-object v4
+40969c: 0d04                                   |0034: move-exception v4
+40969e: 2809                                   |0035: goto 003e // +0009
+4096a0: 0d05                                   |0036: move-exception v5
+4096a2: 7130 20d7 4005                         |0037: invoke-static {v0, v4, v5}, Lpd/b;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@d720
+4096a8: 6e10 c2d5 0600                         |003a: invoke-virtual {v6}, Lnd/k$g;.h:()V // method@d5c2
+4096ae: 1101                                   |003d: return-object v1
+4096b0: 6e10 c2d5 0600                         |003e: invoke-virtual {v6}, Lnd/k$g;.h:()V // method@d5c2
+4096b6: 2704                                   |0041: throw v4
+      catches       : 3
+        0x0005 - 0x0009
+          Ljava/io/IOException; -> 0x0014
+          Lcom/xiaomi/accountsdk/request/AccessDeniedException; -> 0x000f
+          Lcom/xiaomi/accountsdk/request/AuthenticationFailureException; -> 0x000a
+        0x001c - 0x0030
+          Ljava/io/IOException; -> 0x0036
+          <any> -> 0x0034
+        0x0037 - 0x003a
+          <any> -> 0x0034
+
+    #3              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'l'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 21 16-bit code units
+409860:                                        |[409860] com.xiaomi.passport.ui.settings.CaptchaView.l:()V
+409870: 5430 38d5                              |0000: iget-object v0, v3, Lcom/xiaomi/passport/ui/settings/CaptchaView;.f:Lcom/xiaomi/passport/uicontroller/a; // field@d538
+409874: 1201                                   |0002: const/4 v1, #int 0 // #0
+409876: 1212                                   |0003: const/4 v2, #int 1 // #1
+409878: 3800 0700                              |0004: if-eqz v0, 000b // +0007
+40987c: 6e20 40c2 2000                         |0006: invoke-virtual {v0, v2}, Lcom/xiaomi/passport/uicontroller/a;.cancel:(Z)Z // method@c240
+409882: 5b31 38d5                              |0009: iput-object v1, v3, Lcom/xiaomi/passport/ui/settings/CaptchaView;.f:Lcom/xiaomi/passport/uicontroller/a; // field@d538
+409886: 5430 39d5                              |000b: iget-object v0, v3, Lcom/xiaomi/passport/ui/settings/CaptchaView;.g:Lcom/xiaomi/passport/uicontroller/a; // field@d539
+40988a: 3800 0700                              |000d: if-eqz v0, 0014 // +0007
+40988e: 6e20 40c2 2000                         |000f: invoke-virtual {v0, v2}, Lcom/xiaomi/passport/uicontroller/a;.cancel:(Z)Z // method@c240
+409894: 5b31 39d5                              |0012: iput-object v1, v3, Lcom/xiaomi/passport/ui/settings/CaptchaView;.g:Lcom/xiaomi/passport/uicontroller/a; // field@d539
+409898: 0e00                                   |0014: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'm'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 4
+      insns size    : 58 16-bit code units
+40989c:                                        |[40989c] com.xiaomi.passport.ui.settings.CaptchaView.m:(Ljava/lang/String;)V
+4098ac: 5440 39d5                              |0000: iget-object v0, v4, Lcom/xiaomi/passport/ui/settings/CaptchaView;.g:Lcom/xiaomi/passport/uicontroller/a; // field@d539
+4098b0: 3800 1000                              |0002: if-eqz v0, 0012 // +0010
+4098b4: 6e10 1ece 0000                         |0004: invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;.isDone:()Z // method@ce1e
+4098ba: 0a00                                   |0007: move-result v0
+4098bc: 3900 0a00                              |0008: if-nez v0, 0012 // +000a
+4098c0: 1a04 9110                              |000a: const-string v4, "CaptchaView" // string@1091
+4098c4: 1a05 24cb                              |000c: const-string v5, "pre speaker task is doing" // string@cb24
+4098c8: 7120 1fd7 5400                         |000e: invoke-static {v4, v5}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+4098ce: 0e00                                   |0011: return-void
+4098d0: 2200 c500                              |0012: new-instance v0, Landroid/media/MediaPlayer; // type@00c5
+4098d4: 7010 2f03 0000                         |0014: invoke-direct {v0}, Landroid/media/MediaPlayer;.<init>:()V // method@032f
+4098da: 2201 931d                              |0017: new-instance v1, Lcom/xiaomi/passport/ui/settings/CaptchaView$e; // type@1d93
+4098de: 7020 b7c0 4100                         |0019: invoke-direct {v1, v4}, Lcom/xiaomi/passport/ui/settings/CaptchaView$e;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V // method@c0b7
+4098e4: 6e20 3503 1000                         |001c: invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;.setOnCompletionListener:(Landroid/media/MediaPlayer$OnCompletionListener;)V // method@0335
+4098ea: 2201 941d                              |001f: new-instance v1, Lcom/xiaomi/passport/ui/settings/CaptchaView$f; // type@1d94
+4098ee: 7030 b9c0 4100                         |0021: invoke-direct {v1, v4, v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView$f;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Landroid/media/MediaPlayer;)V // method@c0b9
+4098f4: 2202 f01d                              |0024: new-instance v2, Lcom/xiaomi/passport/uicontroller/a; // type@1df0
+4098f8: 2203 951d                              |0026: new-instance v3, Lcom/xiaomi/passport/ui/settings/CaptchaView$g; // type@1d95
+4098fc: 7040 bbc0 4305                         |0028: invoke-direct {v3, v4, v5, v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView$g;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Ljava/lang/String;Landroid/media/MediaPlayer;)V // method@c0bb
+409902: 7030 3ec2 3201                         |002b: invoke-direct {v2, v3, v1}, Lcom/xiaomi/passport/uicontroller/a;.<init>:(Ljava/util/concurrent/Callable;Lcom/xiaomi/passport/uicontroller/a$b;)V // method@c23e
+409908: 5b42 39d5                              |002e: iput-object v2, v4, Lcom/xiaomi/passport/ui/settings/CaptchaView;.g:Lcom/xiaomi/passport/uicontroller/a; // field@d539
+40990c: 7100 06cf 0000                         |0030: invoke-static {}, Ljg/t;.a:()Ljava/util/concurrent/ExecutorService; // method@cf06
+409912: 0c05                                   |0033: move-result-object v5
+409914: 5444 39d5                              |0034: iget-object v4, v4, Lcom/xiaomi/passport/ui/settings/CaptchaView;.g:Lcom/xiaomi/passport/uicontroller/a; // field@d539
+409918: 7220 04ce 4500                         |0036: invoke-interface {v5, v4}, Ljava/util/concurrent/Executor;.execute:(Ljava/lang/Runnable;)V // method@ce04
+40991e: 0e00                                   |0039: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'n'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 2
+      outs          : 6
+      insns size    : 76 16-bit code units
+409920:                                        |[409920] com.xiaomi.passport.ui.settings.CaptchaView.n:(Ljava/lang/String;)V
+409930: 5490 38d5                              |0000: iget-object v0, v9, Lcom/xiaomi/passport/ui/settings/CaptchaView;.f:Lcom/xiaomi/passport/uicontroller/a; // field@d538
+409934: 3800 1000                              |0002: if-eqz v0, 0012 // +0010
+409938: 6e10 1ece 0000                         |0004: invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;.isDone:()Z // method@ce1e
+40993e: 0a00                                   |0007: move-result v0
+409940: 3900 0a00                              |0008: if-nez v0, 0012 // +000a
+409944: 1a09 9110                              |000a: const-string v9, "CaptchaView" // string@1091
+409948: 1a0a 23cb                              |000c: const-string v10, "pre image task passport_input_speaker_capcha_hintis doing" // string@cb23
+40994c: 7120 1fd7 a900                         |000e: invoke-static {v9, v10}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+409952: 0e00                                   |0011: return-void
+409954: 6e10 d204 0900                         |0012: invoke-virtual {v9}, Landroid/view/View;.getContext:()Landroid/content/Context; // method@04d2
+40995a: 0c00                                   |0015: move-result-object v0
+40995c: 6e10 ae01 0000                         |0016: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@01ae
+409962: 0c03                                   |0019: move-result-object v3
+409964: 6e10 e204 0900                         |001a: invoke-virtual {v9}, Landroid/view/View;.getResources:()Landroid/content/res/Resources; // method@04e2
+40996a: 0c00                                   |001d: move-result-object v0
+40996c: 6001 b560                              |001e: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$dimen;.passport_captcha_img_w:I // field@60b5
+409970: 6e20 3402 1000                         |0020: invoke-virtual {v0, v1}, Landroid/content/res/Resources;.getDimensionPixelSize:(I)I // method@0234
+409976: 0a05                                   |0023: move-result v5
+409978: 6e10 e204 0900                         |0024: invoke-virtual {v9}, Landroid/view/View;.getResources:()Landroid/content/res/Resources; // method@04e2
+40997e: 0c00                                   |0027: move-result-object v0
+409980: 6001 b460                              |0028: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$dimen;.passport_captcha_img_h:I // field@60b4
+409984: 6e20 3402 1000                         |002a: invoke-virtual {v0, v1}, Landroid/content/res/Resources;.getDimensionPixelSize:(I)I // method@0234
+40998a: 0a06                                   |002d: move-result v6
+40998c: 2200 911d                              |002e: new-instance v0, Lcom/xiaomi/passport/ui/settings/CaptchaView$c; // type@1d91
+409990: 7020 b2c0 9000                         |0030: invoke-direct {v0, v9}, Lcom/xiaomi/passport/ui/settings/CaptchaView$c;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V // method@c0b2
+409996: 2207 f01d                              |0033: new-instance v7, Lcom/xiaomi/passport/uicontroller/a; // type@1df0
+40999a: 2208 921d                              |0035: new-instance v8, Lcom/xiaomi/passport/ui/settings/CaptchaView$d; // type@1d92
+40999e: 0781                                   |0037: move-object v1, v8
+4099a0: 0792                                   |0038: move-object v2, v9
+4099a2: 07a4                                   |0039: move-object v4, v10
+4099a4: 7606 b4c0 0100                         |003a: invoke-direct/range {v1, v2, v3, v4, v5, v6}, Lcom/xiaomi/passport/ui/settings/CaptchaView$d;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;Landroid/content/Context;Ljava/lang/String;II)V // method@c0b4
+4099aa: 7030 3ec2 8700                         |003d: invoke-direct {v7, v8, v0}, Lcom/xiaomi/passport/uicontroller/a;.<init>:(Ljava/util/concurrent/Callable;Lcom/xiaomi/passport/uicontroller/a$b;)V // method@c23e
+4099b0: 5b97 38d5                              |0040: iput-object v7, v9, Lcom/xiaomi/passport/ui/settings/CaptchaView;.f:Lcom/xiaomi/passport/uicontroller/a; // field@d538
+4099b4: 7100 06cf 0000                         |0042: invoke-static {}, Ljg/t;.a:()Ljava/util/concurrent/ExecutorService; // method@cf06
+4099ba: 0c0a                                   |0045: move-result-object v10
+4099bc: 5499 38d5                              |0046: iget-object v9, v9, Lcom/xiaomi/passport/ui/settings/CaptchaView;.f:Lcom/xiaomi/passport/uicontroller/a; // field@d538
+4099c0: 7220 04ce 9a00                         |0048: invoke-interface {v10, v9}, Ljava/util/concurrent/Executor;.execute:(Ljava/lang/Runnable;)V // method@ce04
+4099c6: 0e00                                   |004b: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'onDetachedFromWindow'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 7 16-bit code units
+409a3c:                                        |[409a3c] com.xiaomi.passport.ui.settings.CaptchaView.onDetachedFromWindow:()V
+409a4c: 6e10 cec0 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.l:()V // method@c0ce
+409a52: 6f10 0405 0000                         |0003: invoke-super {v0}, Landroid/view/View;.onDetachedFromWindow:()V // method@0504
+409a58: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'p'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 4
+      insns size    : 50 16-bit code units
+4099c8:                                        |[4099c8] com.xiaomi.passport.ui.settings.CaptchaView.p:(Landroid/content/Context;)V
+4099d8: 2200 7c01                              |0000: new-instance v0, Landroid/widget/ImageView; // type@017c
+4099dc: 7020 1d06 3000                         |0002: invoke-direct {v0, v3}, Landroid/widget/ImageView;.<init>:(Landroid/content/Context;)V // method@061d
+4099e2: 5b20 33d5                              |0005: iput-object v0, v2, Lcom/xiaomi/passport/ui/settings/CaptchaView;.a:Landroid/widget/ImageView; // field@d533
+4099e6: 12f1                                   |0007: const/4 v1, #int -1 // #ff
+4099e8: 6e40 5e05 0211                         |0008: invoke-virtual {v2, v0, v1, v1}, Landroid/view/ViewGroup;.addView:(Landroid/view/View;II)V // method@055e
+4099ee: 7110 61d7 0300                         |000b: invoke-static {v3}, Lpd/u;.a:(Landroid/content/Context;)Z // method@d761
+4099f4: 0a03                                   |000e: move-result v3
+4099f6: 5c23 34d5                              |000f: iput-boolean v3, v2, Lcom/xiaomi/passport/ui/settings/CaptchaView;.b:Z // field@d534
+4099fa: 5423 33d5                              |0011: iget-object v3, v2, Lcom/xiaomi/passport/ui/settings/CaptchaView;.a:Landroid/widget/ImageView; // field@d533
+4099fe: 6e10 e204 0200                         |0013: invoke-virtual {v2}, Landroid/view/View;.getResources:()Landroid/content/res/Resources; // method@04e2
+409a04: 0c00                                   |0016: move-result-object v0
+409a06: 5521 34d5                              |0017: iget-boolean v1, v2, Lcom/xiaomi/passport/ui/settings/CaptchaView;.b:Z // field@d534
+409a0a: 3801 0500                              |0019: if-eqz v1, 001e // +0005
+409a0e: 6001 5964                              |001b: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_talkback_voice_captcha:I // field@6459
+409a12: 2803                                   |001d: goto 0020 // +0003
+409a14: 6001 5664                              |001e: sget v1, Lcom/xiaomi/account/passportsdk/account_sso/R$string;.passport_talkback_image_captcha:I // field@6456
+409a18: 6e20 3802 1000                         |0020: invoke-virtual {v0, v1}, Landroid/content/res/Resources;.getString:(I)Ljava/lang/String; // method@0238
+409a1e: 0c00                                   |0023: move-result-object v0
+409a20: 6e20 2705 0300                         |0024: invoke-virtual {v3, v0}, Landroid/view/View;.setContentDescription:(Ljava/lang/CharSequence;)V // method@0527
+409a26: 5423 33d5                              |0027: iget-object v3, v2, Lcom/xiaomi/passport/ui/settings/CaptchaView;.a:Landroid/widget/ImageView; // field@d533
+409a2a: 2200 8f1d                              |0029: new-instance v0, Lcom/xiaomi/passport/ui/settings/CaptchaView$a; // type@1d8f
+409a2e: 7020 aec0 2000                         |002b: invoke-direct {v0, v2}, Lcom/xiaomi/passport/ui/settings/CaptchaView$a;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V // method@c0ae
+409a34: 6e20 3605 0300                         |002e: invoke-virtual {v3, v0}, Landroid/view/View;.setOnClickListener:(Landroid/view/View$OnClickListener;)V // method@0536
+409a3a: 0e00                                   |0031: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'q'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+409a5c:                                        |[409a5c] com.xiaomi.passport.ui.settings.CaptchaView.q:(Ljava/lang/String;Ljava/lang/String;)V
+409a6c: 5b02 36d5                              |0000: iput-object v2, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.d:Ljava/lang/String; // field@d536
+409a70: 5b01 35d5                              |0002: iput-object v1, v0, Lcom/xiaomi/passport/ui/settings/CaptchaView;.c:Ljava/lang/String; // field@d535
+409a74: 6e10 d5c0 0000                         |0004: invoke-virtual {v0}, Lcom/xiaomi/passport/ui/settings/CaptchaView;.r:()V // method@c0d5
+409a7a: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/passport/ui/settings/CaptchaView;)
+      name          : 'r'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+409a7c:                                        |[409a7c] com.xiaomi.passport.ui.settings.CaptchaView.r:()V
+409a8c: 2200 901d                              |0000: new-instance v0, Lcom/xiaomi/passport/ui/settings/CaptchaView$b; // type@1d90
+409a90: 7020 b0c0 1000                         |0002: invoke-direct {v0, v1}, Lcom/xiaomi/passport/ui/settings/CaptchaView$b;.<init>:(Lcom/xiaomi/passport/ui/settings/CaptchaView;)V // method@c0b0
+409a96: 6e20 1205 0100                         |0005: invoke-virtual {v1, v0}, Landroid/view/View;.post:(Ljava/lang/Runnable;)Z // method@0512
+409a9c: 0e00                                   |0008: return-void
+      catches       : (none)
+
+  source_file_idx   : 4242 (CaptchaView.java)
+

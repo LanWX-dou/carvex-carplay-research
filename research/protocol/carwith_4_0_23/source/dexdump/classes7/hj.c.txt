@@ -1,0 +1,368 @@
+Class #534            -
+  Class descriptor  : 'Lhj/c;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lhj/c;)
+      name          : 'a'
+      type          : 'Lhj/c;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lhj/c;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+141618:                                        |[141618] hj.c.<clinit>:()V
+141628: 2200 e006                              |0000: new-instance v0, Lhj/c; // type@06e0
+14162c: 7010 491c 0000                         |0002: invoke-direct {v0}, Lhj/c;.<init>:()V // method@1c49
+141632: 6900 b1f2                              |0005: sput-object v0, Lhj/c;.a:Lhj/c; // field@f2b1
+141636: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lhj/c;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+141638:                                        |[141638] hj.c.<init>:()V
+141648: 7010 fd33 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@33fd
+14164e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lhj/c;)
+      name          : 'a'
+      type          : '(Luk/l;Ljava/lang/Object;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+1415e8:                                        |[1415e8] hj.c.a:(Luk/l;Ljava/lang/Object;)V
+1415f8: 7120 521c 1000                         |0000: invoke-static {v0, v1}, Lhj/c;.i:(Luk/l;Ljava/lang/Object;)V // method@1c52
+1415fe: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #3              : (in Lhj/c;)
+      name          : 'b'
+      type          : '(Luk/l;Ljava/lang/Object;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+141600:                                        |[141600] hj.c.b:(Luk/l;Ljava/lang/Object;)V
+141610: 7120 511c 1000                         |0000: invoke-static {v0, v1}, Lhj/c;.h:(Luk/l;Ljava/lang/Object;)V // method@1c51
+141616: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #4              : (in Lhj/c;)
+      name          : 'd'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 21 16-bit code units
+1412a4:                                        |[1412a4] hj.c.d:()Ljava/lang/String;
+1412b4: 7100 a33a 0000                         |0000: invoke-static {}, Lrh/a;.k:()Z // method@3aa3
+1412ba: 0a00                                   |0003: move-result v0
+1412bc: 3800 0500                              |0004: if-eqz v0, 0009 // +0005
+1412c0: 1a00 ff47                              |0006: const-string v0, "https://i-preview4test.xiaomixiaoai.com/userPortrait/api/user/devices/iauth" // string@47ff
+1412c4: 280c                                   |0008: goto 0014 // +000c
+1412c6: 7100 a43a 0000                         |0009: invoke-static {}, Lrh/a;.l:()Z // method@3aa4
+1412cc: 0a00                                   |000c: move-result v0
+1412ce: 3800 0500                              |000d: if-eqz v0, 0012 // +0005
+1412d2: 1a00 fe47                              |000f: const-string v0, "https://i-preview.xiaomixiaoai.com/userPortrait/api/user/devices/iauth" // string@47fe
+1412d6: 2803                                   |0011: goto 0014 // +0003
+1412d8: 1a00 0048                              |0012: const-string v0, "https://i.xiaomixiaoai.com/userPortrait/api/user/devices/iauth" // string@4800
+1412dc: 1100                                   |0014: return-object v0
+      catches       : (none)
+
+    #5              : (in Lhj/c;)
+      name          : 'f'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 18
+      ins           : 0
+      outs          : 6
+      insns size    : 208 16-bit code units
+1412e0:                                        |[1412e0] hj.c.f:()Ljava/lang/String;
+1412f0: 1a01 6c72                              |0000: const-string v1, "toLowerCase(...)" // string@726c
+1412f4: 1a02 d24c                              |0002: const-string v2, "mUrl.protocol" // string@4cd2
+1412f8: 7100 4d1c 0000                         |0004: invoke-static {}, Lhj/c;.d:()Ljava/lang/String; // method@1c4d
+1412fe: 0c09                                   |0007: move-result-object v9
+141300: 220a 930b                              |0008: new-instance v10, Ljava/util/concurrent/atomic/AtomicInteger; // type@0b93
+141304: 1230                                   |000a: const/4 v0, #int 3 // #3
+141306: 7020 3d36 0a00                         |000b: invoke-direct {v10, v0}, Ljava/util/concurrent/atomic/AtomicInteger;.<init>:(I)V // method@363d
+14130c: 1a00 0000                              |000e: const-string v0, "" // string@0000
+141310: 1203                                   |0010: const/4 v3, #int 0 // #0
+141312: 1604 0000                              |0011: const-wide/16 v4, #int 0 // #0
+141316: 070b                                   |0013: move-object v11, v0
+141318: 0446                                   |0014: move-wide v6, v4
+14131a: 6e10 4036 0a00                         |0015: invoke-virtual {v10}, Ljava/util/concurrent/atomic/AtomicInteger;.decrementAndGet:()I // method@3640
+141320: 0a00                                   |0018: move-result v0
+141322: 1a0c 8824                              |0019: const-string v12, "PrivacyInfoRepo" // string@2488
+141326: 3a00 9f00                              |001b: if-ltz v0, 00ba // +009f
+14132a: 220d d703                              |001d: new-instance v13, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$b; // type@03d7
+14132e: 7010 d00b 0d00                         |001f: invoke-direct {v13}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$b;.<init>:()V // method@0bd0
+141334: 2204 5e0b                              |0022: new-instance v4, Ljava/util/HashMap; // type@0b5e
+141338: 7010 6c35 0400                         |0024: invoke-direct {v4}, Ljava/util/HashMap;.<init>:()V // method@356c
+14133e: 7100 5534 0000                         |0027: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@3455
+141344: 0b0e                                   |002a: move-result-wide v14
+141346: 7110 fc08 0300                         |002b: invoke-static {v3}, Lcom/xiaomi/ai/SpeechEngineHelper;.getAuthorization:(Z)Ljava/lang/String; // method@08fc
+14134c: 0c00                                   |002e: move-result-object v0
+14134e: 1a03 8a05                              |002f: const-string v3, "Authorization" // string@058a
+141352: 6e30 7235 3400                         |0031: invoke-virtual {v4, v3, v0}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@3572
+141358: 1a00 cc73                              |0034: const-string v0, "uid" // string@73cc
+14135c: 7100 4b1b 0000                         |0036: invoke-static {}, Lgh/a;.c:()Ljava/lang/String; // method@1b4b
+141362: 0c03                                   |0039: move-result-object v3
+141364: 6e30 7235 0403                         |003a: invoke-virtual {v4, v0, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@3572
+14136a: 7100 5534 0000                         |003d: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@3455
+141370: 0b10                                   |0040: move-result-wide v16
+141372: 2200 2f0b                              |0041: new-instance v0, Ljava/net/URL; // type@0b2f
+141376: 7020 c934 9000                         |0043: invoke-direct {v0, v9}, Ljava/net/URL;.<init>:(Ljava/lang/String;)V // method@34c9
+14137c: 1a03 bb47                              |0046: const-string v3, "https" // string@47bb
+141380: 6e10 cb34 0000                         |0048: invoke-virtual {v0}, Ljava/net/URL;.getProtocol:()Ljava/lang/String; // method@34cb
+141386: 0c05                                   |004b: move-result-object v5
+141388: 7120 db36 2500                         |004c: invoke-static {v5, v2}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+14138e: 6e10 3034 0500                         |004f: invoke-virtual {v5}, Ljava/lang/String;.toLowerCase:()Ljava/lang/String; // method@3430
+141394: 0c05                                   |0052: move-result-object v5
+141396: 7120 db36 1500                         |0053: invoke-static {v5, v1}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+14139c: 7120 d836 5300                         |0056: invoke-static {v3, v5}, Lkotlin/jvm/internal/j;.a:(Ljava/lang/Object;Ljava/lang/Object;)Z // method@36d8
+1413a2: 0a03                                   |0059: move-result v3
+1413a4: 3803 1500                              |005a: if-eqz v3, 006f // +0015
+1413a8: 6206 2702                              |005c: sget-object v6, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod;.GET:Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod; // field@0227
+1413ac: 1217                                   |005e: const/4 v7, #int 1 // #1
+1413ae: 1205                                   |005f: const/4 v5, #int 0 // #0
+1413b0: 0793                                   |0060: move-object v3, v9
+1413b2: 07d8                                   |0061: move-object v8, v13
+1413b4: 7706 d70b 0300                         |0062: invoke-static/range {v3, v4, v5, v6, v7, v8}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils;.e:(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod;ZLcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$b;)Ljava/lang/String; // method@0bd7
+1413ba: 0c00                                   |0065: move-result-object v0
+1413bc: 1a03 0848                              |0066: const-string v3, "httpsRequest(url, header…tpMethod.GET, true, code)" // string@4808
+1413c0: 7120 db36 3000                         |0068: invoke-static {v0, v3}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+1413c6: 070b                                   |006b: move-object v11, v0
+1413c8: 283d                                   |006c: goto 00a9 // +003d
+1413ca: 0d00                                   |006d: move-exception v0
+1413cc: 2827                                   |006e: goto 0095 // +0027
+1413ce: 1a03 af47                              |006f: const-string v3, "http" // string@47af
+1413d2: 6e10 cb34 0000                         |0071: invoke-virtual {v0}, Ljava/net/URL;.getProtocol:()Ljava/lang/String; // method@34cb
+1413d8: 0c00                                   |0074: move-result-object v0
+1413da: 7120 db36 2000                         |0075: invoke-static {v0, v2}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+1413e0: 6e10 3034 0000                         |0078: invoke-virtual {v0}, Ljava/lang/String;.toLowerCase:()Ljava/lang/String; // method@3430
+1413e6: 0c00                                   |007b: move-result-object v0
+1413e8: 7120 db36 1000                         |007c: invoke-static {v0, v1}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+1413ee: 7120 d836 0300                         |007f: invoke-static {v3, v0}, Lkotlin/jvm/internal/j;.a:(Ljava/lang/Object;Ljava/lang/Object;)Z // method@36d8
+1413f4: 0a00                                   |0082: move-result v0
+1413f6: 3800 2600                              |0083: if-eqz v0, 00a9 // +0026
+1413fa: 6206 2702                              |0085: sget-object v6, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod;.GET:Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod; // field@0227
+1413fe: 1217                                   |0087: const/4 v7, #int 1 // #1
+141400: 1205                                   |0088: const/4 v5, #int 0 // #0
+141402: 0793                                   |0089: move-object v3, v9
+141404: 07d8                                   |008a: move-object v8, v13
+141406: 7706 d60b 0300                         |008b: invoke-static/range {v3, v4, v5, v6, v7, v8}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils;.d:(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$HttpMethod;ZLcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$b;)Ljava/lang/String; // method@0bd6
+14140c: 0c00                                   |008e: move-result-object v0
+14140e: 1a03 b847                              |008f: const-string v3, "httpRequest(url, headers…tpMethod.GET, true, code)" // string@47b8
+141412: 7120 db36 3000                         |0091: invoke-static {v0, v3}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+141418: 28d7                                   |0094: goto 006b // -0029
+14141a: 2203 030b                              |0095: new-instance v3, Ljava/lang/StringBuilder; // type@0b03
+14141e: 7010 4334 0300                         |0097: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+141424: 1a04 a41f                              |009a: const-string v4, "MalformedURLException: " // string@1fa4
+141428: 6e20 4c34 4300                         |009c: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+14142e: 6e20 4b34 0300                         |009f: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+141434: 6e10 5334 0300                         |00a2: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+14143a: 0c03                                   |00a5: move-result-object v3
+14143c: 7130 f907 3c00                         |00a6: invoke-static {v12, v3, v0}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f9
+141442: 6e10 d20b 0d00                         |00a9: invoke-virtual {v13}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetUtils$b;.c:()I // method@0bd2
+141448: 0a00                                   |00ac: move-result v0
+14144a: 1303 9101                              |00ad: const/16 v3, #int 401 // #191
+14144e: 3330 0800                              |00af: if-ne v0, v3, 00b7 // +0008
+141452: 1213                                   |00b1: const/4 v3, #int 1 // #1
+141454: 04e4                                   |00b2: move-wide v4, v14
+141456: 0506 1000                              |00b3: move-wide/from16 v6, v16
+14145a: 2900 60ff                              |00b5: goto/16 0015 // -00a0
+14145e: 04e4                                   |00b7: move-wide v4, v14
+141460: 0506 1000                              |00b8: move-wide/from16 v6, v16
+141464: bc46                                   |00ba: sub-long/2addr v6, v4
+141466: 2200 030b                              |00bb: new-instance v0, Ljava/lang/StringBuilder; // type@0b03
+14146a: 7010 4334 0000                         |00bd: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+141470: 1a01 4668                              |00c0: const-string v1, "requestUserDevicesInfo: setTokenCost = " // string@6846
+141474: 6e20 4c34 1000                         |00c2: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+14147a: 6e30 4a34 6007                         |00c5: invoke-virtual {v0, v6, v7}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@344a
+141480: 6e10 5334 0000                         |00c8: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+141486: 0c00                                   |00cb: move-result-object v0
+141488: 7120 f507 0c00                         |00cc: invoke-static {v12, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+14148e: 110b                                   |00cf: return-object v11
+      catches       : 1
+        0x0041 - 0x0094
+          Ljava/net/MalformedURLException; -> 0x006d
+
+    #6              : (in Lhj/c;)
+      name          : 'h'
+      type          : '(Luk/l;Ljava/lang/Object;)V'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 9 16-bit code units
+141650:                                        |[141650] hj.c.h:(Luk/l;Ljava/lang/Object;)V
+141660: 1a00 ef00                              |0000: const-string v0, "$tmp0" // string@00ef
+141664: 7120 dc36 0100                         |0002: invoke-static {v1, v0}, Lkotlin/jvm/internal/j;.f:(Ljava/lang/Object;Ljava/lang/String;)V // method@36dc
+14166a: 7220 343b 2100                         |0005: invoke-interface {v1, v2}, Luk/l;.invoke:(Ljava/lang/Object;)Ljava/lang/Object; // method@3b34
+141670: 0e00                                   |0008: return-void
+      catches       : (none)
+
+    #7              : (in Lhj/c;)
+      name          : 'i'
+      type          : '(Luk/l;Ljava/lang/Object;)V'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 9 16-bit code units
+141674:                                        |[141674] hj.c.i:(Luk/l;Ljava/lang/Object;)V
+141684: 1a00 ef00                              |0000: const-string v0, "$tmp0" // string@00ef
+141688: 7120 dc36 0100                         |0002: invoke-static {v1, v0}, Lkotlin/jvm/internal/j;.f:(Ljava/lang/Object;Ljava/lang/String;)V // method@36dc
+14168e: 7220 343b 2100                         |0005: invoke-interface {v1, v2}, Luk/l;.invoke:(Ljava/lang/Object;)Ljava/lang/Object; // method@3b34
+141694: 0e00                                   |0008: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lhj/c;)
+      name          : 'c'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 28 16-bit code units
+14125c:                                        |[14125c] hj.c.c:()Ljava/lang/String;
+14126c: 7100 a53a 0000                         |0000: invoke-static {}, Lrh/a;.m:()Z // method@3aa5
+141272: 0a00                                   |0003: move-result v0
+141274: 3800 0500                              |0004: if-eqz v0, 0009 // +0005
+141278: 1a00 b547                              |0006: const-string v0, "http://nlp-staging.ai.srv/" // string@47b5
+14127c: 2813                                   |0008: goto 001b // +0013
+14127e: 7100 a43a 0000                         |0009: invoke-static {}, Lrh/a;.l:()Z // method@3aa4
+141284: 0a00                                   |000c: move-result v0
+141286: 3900 0c00                              |000d: if-nez v0, 0019 // +000c
+14128a: 7100 a33a 0000                         |000f: invoke-static {}, Lrh/a;.k:()Z // method@3aa3
+141290: 0a00                                   |0012: move-result v0
+141292: 3800 0300                              |0013: if-eqz v0, 0016 // +0003
+141296: 2804                                   |0015: goto 0019 // +0004
+141298: 1a00 0448                              |0016: const-string v0, "https://nlp.xiaomixiaoai.com/" // string@4804
+14129c: 2803                                   |0018: goto 001b // +0003
+14129e: 1a00 0248                              |0019: const-string v0, "https://nlp-preview.xiaomixiaoai.com/" // string@4802
+1412a2: 1100                                   |001b: return-object v0
+      catches       : (none)
+
+    #1              : (in Lhj/c;)
+      name          : 'e'
+      type          : '()Ltj/i;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 28 16-bit code units
+1414a0:                                        |[1414a0] hj.c.e:()Ltj/i;
+1414b0: 6200 40f2                              |0000: sget-object v0, Leb/d;.a:Leb/d; // field@f240
+1414b4: 6e10 4c1c 0200                         |0002: invoke-virtual {v2}, Lhj/c;.c:()Ljava/lang/String; // method@1c4c
+1414ba: 0c02                                   |0005: move-result-object v2
+1414bc: 1c01 9306                              |0006: const-class v1, Lfb/c; // type@0693
+1414c0: 6e30 e81a 2001                         |0008: invoke-virtual {v0, v2, v1}, Leb/d;.d:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object; // method@1ae8
+1414c6: 0c02                                   |000b: move-result-object v2
+1414c8: 1f02 9306                              |000c: check-cast v2, Lfb/c; // type@0693
+1414cc: 7100 c50b 0000                         |000e: invoke-static {}, Lcom/xiaomi/ai/utils/b;.b:()Ljava/lang/String; // method@0bc5
+1414d2: 0c00                                   |0011: move-result-object v0
+1414d4: 1a01 a243                              |0012: const-string v1, "getDeviceId()" // string@43a2
+1414d8: 7120 db36 1000                         |0014: invoke-static {v0, v1}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+1414de: 7220 421b 0200                         |0017: invoke-interface {v2, v0}, Lfb/c;.a:(Ljava/lang/String;)Ltj/i; // method@1b42
+1414e4: 0c02                                   |001a: move-result-object v2
+1414e6: 1102                                   |001b: return-object v2
+      catches       : (none)
+
+    #2              : (in Lhj/c;)
+      name          : 'g'
+      type          : '(Lcb/a;)Ltj/i;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 119 16-bit code units
+1414e8:                                        |[1414e8] hj.c.g:(Lcb/a;)Ltj/i;
+1414f8: 3903 0c00                              |0000: if-nez v3, 000c // +000c
+1414fc: 7100 1a3b 0000                         |0002: invoke-static {}, Ltj/i;.g:()Ltj/i; // method@3b1a
+141502: 0c02                                   |0005: move-result-object v2
+141504: 1a03 d73f                              |0006: const-string v3, "empty()" // string@3fd7
+141508: 7120 db36 3200                         |0008: invoke-static {v2, v3}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+14150e: 1102                                   |000b: return-object v2
+141510: 7100 c50b 0000                         |000c: invoke-static {}, Lcom/xiaomi/ai/utils/b;.b:()Ljava/lang/String; // method@0bc5
+141516: 0c00                                   |000f: move-result-object v0
+141518: 1a01 a243                              |0010: const-string v1, "getDeviceId()" // string@43a2
+14151c: 7120 db36 1000                         |0012: invoke-static {v0, v1}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+141522: 6e20 ca04 0300                         |0015: invoke-virtual {v3, v0}, Lcb/a;.d:(Ljava/lang/String;)V // method@04ca
+141528: 7100 5534 0000                         |0018: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@3455
+14152e: 0b00                                   |001b: move-result-wide v0
+141530: 6e30 cc04 0301                         |001c: invoke-virtual {v3, v0, v1}, Lcb/a;.f:(J)V // method@04cc
+141536: 7100 361a 0000                         |001f: invoke-static {}, Ldh/a;.f:()Z // method@1a36
+14153c: 0a00                                   |0022: move-result v0
+14153e: 3800 1800                              |0023: if-eqz v0, 003b // +0018
+141542: 2200 030b                              |0025: new-instance v0, Ljava/lang/StringBuilder; // type@0b03
+141546: 7010 4334 0000                         |0027: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+14154c: 1a01 033f                              |002a: const-string v1, "doStoreSwitchInfo input jsonStr==" // string@3f03
+141550: 6e20 4c34 1000                         |002c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+141556: 6e20 4b34 3000                         |002f: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@344b
+14155c: 6e10 5334 0000                         |0032: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+141562: 0c00                                   |0035: move-result-object v0
+141564: 1a01 8824                              |0036: const-string v1, "PrivacyInfoRepo" // string@2488
+141568: 7120 f507 0100                         |0038: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+14156e: 6200 40f2                              |003b: sget-object v0, Leb/d;.a:Leb/d; // field@f240
+141572: 6e10 4c1c 0200                         |003d: invoke-virtual {v2}, Lhj/c;.c:()Ljava/lang/String; // method@1c4c
+141578: 0c02                                   |0040: move-result-object v2
+14157a: 1c01 9306                              |0041: const-class v1, Lfb/c; // type@0693
+14157e: 6e30 e81a 2001                         |0043: invoke-virtual {v0, v2, v1}, Leb/d;.d:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object; // method@1ae8
+141584: 0c02                                   |0046: move-result-object v2
+141586: 1f02 9306                              |0047: check-cast v2, Lfb/c; // type@0693
+14158a: 7220 431b 3200                         |0049: invoke-interface {v2, v3}, Lfb/c;.b:(Lcb/a;)Ltj/i; // method@1b43
+141590: 0c02                                   |004c: move-result-object v2
+141592: 2200 de06                              |004d: new-instance v0, Lhj/c$a; // type@06de
+141596: 7020 421c 3000                         |004f: invoke-direct {v0, v3}, Lhj/c$a;.<init>:(Lcb/a;)V // method@1c42
+14159c: 2201 dc06                              |0052: new-instance v1, Lhj/a; // type@06dc
+1415a0: 7020 3e1c 0100                         |0054: invoke-direct {v1, v0}, Lhj/a;.<init>:(Luk/l;)V // method@1c3e
+1415a6: 6e20 183b 1200                         |0057: invoke-virtual {v2, v1}, Ltj/i;.e:(Lzj/g;)Ltj/i; // method@3b18
+1415ac: 0c02                                   |005a: move-result-object v2
+1415ae: 2200 df06                              |005b: new-instance v0, Lhj/c$b; // type@06df
+1415b2: 7020 451c 3000                         |005d: invoke-direct {v0, v3}, Lhj/c$b;.<init>:(Lcb/a;)V // method@1c45
+1415b8: 2203 dd06                              |0060: new-instance v3, Lhj/b; // type@06dd
+1415bc: 7020 401c 0300                         |0062: invoke-direct {v3, v0}, Lhj/b;.<init>:(Luk/l;)V // method@1c40
+1415c2: 6e20 193b 3200                         |0065: invoke-virtual {v2, v3}, Ltj/i;.f:(Lzj/g;)Ltj/i; // method@3b19
+1415c8: 0c02                                   |0068: move-result-object v2
+1415ca: 7100 531c 0000                         |0069: invoke-static {}, Lhk/a;.b:()Ltj/n; // method@1c53
+1415d0: 0c03                                   |006c: move-result-object v3
+1415d2: 6e20 223b 3200                         |006d: invoke-virtual {v2, v3}, Ltj/i;.z:(Ltj/n;)Ltj/i; // method@3b22
+1415d8: 0c02                                   |0070: move-result-object v2
+1415da: 1a03 1a4c                              |0071: const-string v3, "localDataEntity: DataEnt…scribeOn(Schedulers.io())" // string@4c1a
+1415de: 7120 db36 3200                         |0073: invoke-static {v2, v3}, Lkotlin/jvm/internal/j;.e:(Ljava/lang/Object;Ljava/lang/String;)V // method@36db
+1415e4: 1102                                   |0076: return-object v2
+      catches       : (none)
+
+  source_file_idx   : 9353 (PrivacyInfoRepo.kt)
+

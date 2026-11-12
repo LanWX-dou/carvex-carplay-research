@@ -1,0 +1,68 @@
+Class #534            -
+  Class descriptor  : 'Lcom/tencent/open/utils/b$a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Thread;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/tencent/open/utils/b$a;)
+      name          : 'a'
+      type          : 'Landroid/content/Context;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #1              : (in Lcom/tencent/open/utils/b$a;)
+      name          : 'b'
+      type          : 'Landroid/os/Bundle;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/tencent/open/utils/b$a;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Landroid/os/Bundle;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+16b854:                                        |[16b854] com.tencent.open.utils.b$a.<init>:(Landroid/content/Context;Landroid/os/Bundle;)V
+16b864: 5b01 31e2                              |0000: iput-object v1, v0, Lcom/tencent/open/utils/b$a;.a:Landroid/content/Context; // field@e231
+16b868: 5b02 32e2                              |0002: iput-object v2, v0, Lcom/tencent/open/utils/b$a;.b:Landroid/os/Bundle; // field@e232
+16b86c: 7010 9634 0000                         |0004: invoke-direct {v0}, Ljava/lang/Thread;.<init>:()V // method@3496
+16b872: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/tencent/open/utils/b$a;)
+      name          : 'run'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 4
+      insns size    : 40 16-bit code units
+16b874:                                        |[16b874] com.tencent.open.utils.b$a.run:()V
+16b884: 5430 31e2                              |0000: iget-object v0, v3, Lcom/tencent/open/utils/b$a;.a:Landroid/content/Context; // field@e231
+16b888: 1a01 3b43                              |0002: const-string v1, "http://cgi.qplus.com/report/report" // string@433b
+16b88c: 1a02 7e0e                              |0004: const-string v2, "GET" // string@0e7e
+16b890: 5433 32e2                              |0006: iget-object v3, v3, Lcom/tencent/open/utils/b$a;.b:Landroid/os/Bundle; // field@e232
+16b894: 7140 042c 1032                         |0008: invoke-static {v0, v1, v2, v3}, Lcom/tencent/open/utils/HttpUtils;.j:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/tencent/open/utils/b$b; // method@2c04
+16b89a: 281c                                   |000b: goto 0027 // +001c
+16b89c: 0d03                                   |000c: move-exception v3
+16b89e: 2200 7e07                              |000d: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+16b8a2: 7010 7b34 0000                         |000f: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16b8a8: 1a01 0161                              |0012: const-string v1, "reportBernoulli has exception: " // string@6101
+16b8ac: 6e20 8434 1000                         |0014: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16b8b2: 6e10 b134 0300                         |0017: invoke-virtual {v3}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+16b8b8: 0c03                                   |001a: move-result-object v3
+16b8ba: 6e20 8434 3000                         |001b: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16b8c0: 6e10 8b34 0000                         |001e: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16b8c6: 0c03                                   |0021: move-result-object v3
+16b8c8: 1a00 c35b                              |0022: const-string v0, "openSDK_LOG.Util" // string@5bc3
+16b8cc: 7120 1644 3000                         |0024: invoke-static {v0, v3}, Lxb/i;.l:(Ljava/lang/String;Ljava/lang/String;)V // method@4416
+16b8d2: 0e00                                   |0027: return-void
+      catches       : 1
+        0x0000 - 0x000b
+          Ljava/lang/Exception; -> 0x000c
+
+  source_file_idx   : 8879 (ProGuard)
+

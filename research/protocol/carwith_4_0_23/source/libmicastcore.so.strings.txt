@@ -1,0 +1,313 @@
+/sdcard/Android/data/com.miui.carlink/cache/log/
+/sdcard/Android/data/com.miui.carlink/cache/log_
+/sdcard/Android/data/com.miui.carlink/cache/logaudio_
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ABitReader.cpp:115 CHECK_LE( n,32u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ABitReader.cpp:56 CHECK(getBitsGraceful(n, &ret)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ABuffer.cpp:69 CHECK_LE( offset,mCapacity) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ABuffer.cpp:70 CHECK_LE( offset + size,mCapacity) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ALooper.cpp:245 CHECK(replyToken != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/ALooperRoster.cpp:41 CHECK(!"A handler must only be registered once.") failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AMessage.cpp:200 CHECK(mNumItems < kMaxNumItems) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AMessage.cpp:49 CHECK(mReply == NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AMessage.cpp:529 CHECK_LT( (size_t)indent,sizeof(kWhitespace)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AMessage.cpp:634 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AMessage.cpp:933 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:124 CHECK(&from != this) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:171 CHECK_LT( start,mSize) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:172 CHECK_LE( start + n,mSize) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:197 CHECK(mData != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:216 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:223 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:230 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:237 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:244 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:251 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:258 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:265 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:272 CHECK((result > 0) && ((size_t) result) < sizeof(s)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:277 CHECK_LE( start,size()) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:294 CHECK_LE( insertionPos,mSize) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/AString.cpp:301 CHECK(mData != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:113 CHECK(prevCount > 0) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:117 CHECK(mObserver != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:118 CHECK_EQ( mRefCount.load(std::memory_order_relaxed),1) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:147 CHECK(offset + length <= mSize) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:163 CHECK(mObserver == NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:177 CHECK(observer == NULL || mObserver == NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MediaBuffer.cpp:99 CHECK_EQ( mRefCount,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MetaDataBase.cpp:177 CHECK_EQ( size,sizeof(*value)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MetaDataBase.cpp:192 CHECK_EQ( size,sizeof(*value)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MetaDataBase.cpp:207 CHECK_EQ( size,sizeof(*value)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MetaDataBase.cpp:222 CHECK_EQ( size,sizeof(*value)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/MetaDataBase.cpp:240 CHECK_EQ( size,sizeof(Rect)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:414 CHECK(picParamSet != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:555 CHECK(data != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:583 CHECK_NE( video_object_type_indication,0x21u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:601 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:603 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:605 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:608 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:610 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:614 CHECK_EQ( video_object_layer_shape,0x00u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:616 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:618 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:630 CHECK_GT( vop_time_increment_resolution,0u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:642 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:644 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/avc_utils.cpp:646 CHECK(br.getBits(1)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/foundation/hexdump.cpp:37 CHECK_LT( (size_t)indent,sizeof(kWhitespace)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/stagefright/AudioSource.cpp:76 CHECK(channelCount == 1 || channelCount == 2 || channelCount == 4 || channelCount == 6) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/android_support/stagefright/AudioSource.cpp:80 CHECK(sampleRate > 0) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1021 CHECK_LE( size,65535) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1116 CHECK(mState == CONNECTED || mState == DATAGRAM) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1130 CHECK_LE( size,65535) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1139 CHECK_LE( size,16777215) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1219 CHECK(mState == CONNECTED || mState == DATAGRAM) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1222 CHECK_GE( size,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1885 CHECK_EQ( mode,kModeCreateUDPSession) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:1933 CHECK_EQ( mode,kModeCreateUDPSession) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:269 CHECK_GE( res,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:276 CHECK_GE( res,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:374 CHECK_EQ( mMode,MODE_DATAGRAM) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:607 CHECK_EQ( mMode,MODE_WEBSOCKET) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:746 CHECK(!mOutFragments.empty()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:818 CHECK_EQ( getsockopt(mSocket, 1, 4, &err, &optionLen),0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:819 CHECK_EQ( optionLen,(socklen_t) sizeof(err)) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:834 CHECK_EQ( mState,CONNECTED) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:835 CHECK(!mOutFragments.empty()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ANetworkSession.cpp:970 CHECK(mState == CONNECTED || mState == DATAGRAM) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:160 CHECK(format->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:382 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:411 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:438 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:531 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:612 CHECK(msg->findInt32("generation", &generation)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:622 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:628 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:636 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:653 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:662 CHECK(msg->findSize("numBytesQueued", &numBytesQueued)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:671 CHECK(msg->findInt64("avgLatencyUs", &avgLatencyUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:674 CHECK(msg->findInt64("maxLatencyUs", &maxLatencyUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:685 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/MediaSender.cpp:725 CHECK(accessUnit->meta()->findMessage("notify", &notify) && notify != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ParsedMessage.cpp:186 CHECK(findString("_", &line)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/ParsedMessage.cpp:231 CHECK(findString("_", &line)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:1049 CHECK_LE( offset + 58,size) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:237 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:238 CHECK(GetConfiguration(type, index, NULL, NULL, NULL, NULL)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:304 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:305 CHECK(GetConfiguration(type, index, NULL, NULL, NULL, NULL)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:320 CHECK_LT( type,kNumCodecTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:379 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:380 CHECK(GetConfiguration(type, index, NULL, NULL, NULL, NULL)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:389 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:390 CHECK(GetConfiguration(type, index, NULL, NULL, NULL, NULL)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:419 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:420 CHECK(GetConfiguration(type, index, NULL, NULL, NULL, NULL)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:897 CHECK_LT( type,kNumResolutionTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:997 CHECK_LT( profile,kNumProfileTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/VideoFormats.cpp:998 CHECK_LT( level,kNumLevelTypes) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1026 CHECK_EQ( outBytesUsed,12u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1147 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1232 CHECK_EQ( outBytesUsed,12u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:131 CHECK_NE( rtpMode,TRANSPORT_TCP_INTERLEAVED) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:132 CHECK_NE( rtcpMode,TRANSPORT_TCP_INTERLEAVED) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1336 CHECK_LE( packet->size(),kMaxUDPPacketSize - 12) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1339 CHECK(packet->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1369 CHECK_LE( packet->size(),kMaxUDPPacketSize - 12) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1372 CHECK(packet->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1434 CHECK(mRTPConnected) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:146 CHECK_EQ( mRTPSessionID,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:147 CHECK_EQ( mRTCPSessionID,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1485 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1491 CHECK(msg->findInt32("reason", &reason)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1497 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1500 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1503 CHECK(msg->findInt32("send", &errorOccuredDuringSend)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1506 CHECK(msg->findString("detail", &detail)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1542 CHECK(msg->findBuffer("data", &data)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1555 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1558 CHECK_EQ( mRTPMode,TRANSPORT_TCP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1559 CHECK_EQ( sessionID,mRTPSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1562 CHECK_EQ( mRTCPMode,TRANSPORT_TCP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1563 CHECK_EQ( sessionID,mRTCPSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1577 CHECK(msg->findSize("numBytesQueued", &numBytesQueued)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1584 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:163 CHECK_EQ( rtpMode,TRANSPORT_TCP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:1711 CHECK_EQ( (status_t)OK,sendRTPPacket(buffer, false )) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:209 CHECK_EQ( rtcpMode,TRANSPORT_TCP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:275 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:299 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:309 CHECK(packet->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:353 CHECK_EQ( 0u,tsPackets->size() % 188) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:356 CHECK_EQ( true,mRTPMode != TRANSPORT_UDP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:359 CHECK(tsPackets->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:488 CHECK(packet->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:519 CHECK_EQ( 0u,tsPackets->size() % 188) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:522 CHECK_EQ( true,mRTPMode != TRANSPORT_UDP) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:525 CHECK(tsPackets->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:58 CHECK(mRTPConnected) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:654 CHECK_EQ( outBytesUsed,1u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:736 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:805 CHECK_EQ( outBytesUsed,1u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:880 CHECK_LE( packet->size(),kMaxUDPPacketSize - 1) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:883 CHECK(packet->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/rtp/RTPSender.cpp:945 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:104 CHECK(mOutputFormat->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:1046 CHECK(buffer->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:1106 CHECK(mCSD0 != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:1113 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:1339 CHECK(!(mFlags & FLAG_USE_SURFACE_INPUT)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:158 CHECK(mEncoder == NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:196 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:264 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:294 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:324 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:352 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:380 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:401 CHECK(VideoFormats::reconfig(&width, &height)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:465 CHECK(mFlags & FLAG_USE_SURFACE_INPUT) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:499 CHECK(mOutputFormat->findString("mime", &outputMIME)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:613 CHECK(mIsVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:694 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:702 CHECK(msg->findBuffer("accessUnit", &accessUnit)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:716 CHECK_EQ( what,MediaPuller::kWhatAccessUnit) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:719 CHECK(msg->findBuffer("accessUnit", &accessUnit)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:828 CHECK(mOutputFormat->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:848 CHECK(msg->findInt32("bufferIndex", (int32_t*)&bufferIndex)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:849 CHECK(bufferIndex < mEncoderOutputBuffers.size()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:859 CHECK(msg->findInt32("suspend", &suspend)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:880 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:953 CHECK(buffer->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/Converter.cpp:999 CHECK(buffer->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:121 CHECK(msg->senderAwaitsResponse(&replyID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:130 CHECK(meta->findCString(kKeyMIMEType, &tmp)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:139 CHECK(msg->findMessage("notify", &notify)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:147 CHECK(msg->findInt32("generation", &generation)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:186 CHECK(mbuf->meta_data().findInt64(kKeyTime, &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:234 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/MediaPuller.cpp:44 CHECK(meta->findCString(kKeyMIMEType, &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1033 CHECK(format->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1068 CHECK_GE( mediaSenderTrackIndex,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1146 CHECK(enableAudio || enableVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1174 CHECK(!usePCMAudio || !isVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1176 CHECK(!profileIdc || isVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1177 CHECK(!levelIdc || isVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1178 CHECK(!constraintSet || isVideo) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1300 CHECK_GE( mediaSenderTrackIndex,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1320 CHECK(VideoFormats::GetConfiguration( videoResolutionType, videoResolutionIndex, &width, &height, &framesPerSecond, &interlaced)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1328 CHECK(VideoFormats::GetProfileLevel( videoProfileType, videoLevelType, &profileIdc, &levelIdc, &constraintSet)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1508 CHECK(format->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:1596 CHECK(VideoFormats::GetConfiguration( mVideoResolutionType, mVideoResolutionIndex, &width, &height, &framesPerSecond, &interlaced)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:183 CHECK(!mStarted) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:200 CHECK(format->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:223 CHECK_GE( mMediaSenderTrackIndex,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:235 CHECK(!mStarted) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:335 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:350 CHECK(accessUnit != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:399 CHECK(outputBuffer->meta()->findInt64("timeUs", timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:411 CHECK(!mQueuedOutputBuffers.empty()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:603 CHECK_EQ( (status_t)OK,mTracks.editValueAt(i)->start()) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:653 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:656 CHECK(msg->findSize("trackIndex", &trackIndex)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:668 CHECK(msg->findBuffer("accessUnit", &accessUnit)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:685 CHECK(buffer->meta()->findSize("trackIndex", &index)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:709 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:757 CHECK_GE( index,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:774 CHECK_EQ( what,Converter::kWhatError) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:777 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:789 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:793 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:804 CHECK(msg->findSize("numBytesQueued", &numBytesQueued)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:820 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:828 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:831 CHECK(msg->findSize("trackIndex", &trackIndex)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:909 CHECK(msg->findInt32("generation", &generation)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:924 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:930 CHECK(msg->findInt64("avgLatencyUs", &avgLatencyUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/PlaybackSession.cpp:933 CHECK(msg->findInt64("maxLatencyUs", &maxLatencyUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1052 CHECK_EQ( ptr,packetDataStart + 188) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1058 CHECK(packetDataStart == buffer->data() + buffer->capacity()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1090 CHECK_LT( trackIndex,mTracks.size()) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1095 CHECK(IsIDR(accessUnit->data(), accessUnit->size())) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1096 CHECK(IsHevcIDR(accessUnit->data(), accessUnit->size())) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:1099 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:205 CHECK_EQ( mCSD.size(),1u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:252 CHECK_LT( index,mDescriptors.size()) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:284 CHECK(!memcmp("\x00\x00\x00\x01", sps->data(), 4)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:285 CHECK_GE( sps->size(),7u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:290 CHECK(mFormat->findInt32("profile-idc", &profileIdc)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:291 CHECK(mFormat->findInt32("level-idc", &levelIdc)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:292 CHECK(mFormat->findInt32("constraint-set", &constraintSet)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:293 CHECK_GE( profileIdc,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:294 CHECK_GE( levelIdc,0) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:335 CHECK(mFormat->findInt32("channel-count", &channelCount)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:336 CHECK_EQ( channelCount,2) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:339 CHECK(mFormat->findInt32("sample-rate", &sampleRate)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:340 CHECK(sampleRate == 44100 || sampleRate == 48000) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:379 CHECK(format->findString("mime", &mime)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:465 CHECK(accessUnit->meta()->findInt64("timeUs", &timeUs)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:489 CHECK(!(flags & IS_ENCRYPTED)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:566 CHECK_LE( PES_header_size,188u - 4u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:794 CHECK_LT( program_info_length,0x400u) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:822 CHECK_LE( ES_info_length,0xfffu) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:901 CHECK(track->isVideo()) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:99 CHECK(format->findString("mime", &mMIME)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/TSPacketizer.cpp:994 CHECK_EQ( ptr,packetDataStart + 188) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1000 CHECK_LT( mState,AWAITING_CLIENT_TEARDOWN) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1084 CHECK(msg->findInt32("playbackSessionID", &playbackSessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1087 CHECK(msg->findInt32("what", &what)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1116 CHECK(VideoFormats::GetConfiguration( mChosenVideoResolutionType, mChosenVideoResolutionIndex, &width, &height, &fps , NULL )) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1171 CHECK(msg->findInt32("limit", &limit)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1225 CHECK_EQ( what,PlaybackSession::kWhatBinaryData) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1228 CHECK(msg->findInt32("channel", &channel)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1231 CHECK(msg->findBuffer("data", &data)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1233 CHECK_LE( channel,0xff) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1234 CHECK_LE( data->size(),0xffffu) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1237 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1257 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1278 CHECK(mStopReplyID != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1294 CHECK(msg->findInt32("reason", &reason)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1302 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1318 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1320 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1323 CHECK(msg->findString("detail", &detail)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1343 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1353 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1470 CHECK_EQ( sessionID,mClientSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1577 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:1610 CHECK_EQ( sessionID,mClientSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2058 CHECK_EQ( sessionID,mClientSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2102 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2105 CHECK(msg->findObject("data", &obj)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2226 CHECK_EQ( sessionID,mClientSessionID) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2499 CHECK_EQ( mState,AWAITING_CLIENT_PLAY) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2510 CHECK_EQ( err,(status_t)OK) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2533 CHECK_EQ( err,(status_t)OK) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2572 CHECK(mStopReplyID != NULL) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2776 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:2779 CHECK(msg->findBuffer("data", &obj)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:324 CHECK_EQ( mState,INITIALIZED) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:827 CHECK(msg->senderAwaitsResponse(&replyID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:830 CHECK(msg->findString("iface", &iface)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:899 CHECK(msg->findInt32("reason", &reason)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:905 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:910 CHECK(msg->findInt32("err", &err)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:913 CHECK(msg->findString("detail", &detail)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:931 CHECK(msg->findString("detail", &detail)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:942 CHECK(msg->findInt32("sessionID", &sessionID)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:952 CHECK_EQ( mState,AWAITING_CLIENT_CONNECTION) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:954 CHECK(msg->findString("client-ip", &mClientInfo.mRemoteIP)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:955 CHECK(msg->findString("server-ip", &mClientInfo.mLocalIP)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:957 CHECK(msg->findInt32( "server-port", &mClientInfo.mLocalPort)) failed.
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:968 CHECK_EQ( err,(status_t)OK) failed: 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:990 Should not be here. 
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/cast_fwk/src/main/jni/jni/source/WifiDisplaySource.cpp:997 CHECK(msg->senderAwaitsResponse(&mStopReplyID)) failed.
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+JNI_OnLoad
+JNI_OnLoad RemoteDisplay
+_ZN7android10JNI_OnLoadEP7_JavaVMPv
+com/miui/carlink/castfwk/CastController
+persist.sys.carlink.fps
+persist.sys.carlink.wfd.dumpts

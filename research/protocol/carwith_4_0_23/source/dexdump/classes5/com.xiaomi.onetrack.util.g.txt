@@ -1,0 +1,162 @@
+Class #3437            -
+  Class descriptor  : 'Lcom/xiaomi/onetrack/util/g;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljava/lang/Runnable;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+    #1              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+    #2              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+    #3              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : 'd'
+      type          : 'Lcom/xiaomi/onetrack/util/d;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : '<init>'
+      type          : '(Lcom/xiaomi/onetrack/util/d;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 1
+      insns size    : 12 16-bit code units
+3e9a88:                                        |[3e9a88] com.xiaomi.onetrack.util.g.<init>:(Lcom/xiaomi/onetrack/util/d;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3e9a98: 5b01 8ad1                              |0000: iput-object v1, v0, Lcom/xiaomi/onetrack/util/g;.d:Lcom/xiaomi/onetrack/util/d; // field@d18a
+3e9a9c: 5b02 87d1                              |0002: iput-object v2, v0, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9aa0: 5b03 88d1                              |0004: iput-object v3, v0, Lcom/xiaomi/onetrack/util/g;.b:Ljava/lang/String; // field@d188
+3e9aa4: 5b04 89d1                              |0006: iput-object v4, v0, Lcom/xiaomi/onetrack/util/g;.c:Ljava/lang/String; // field@d189
+3e9aa8: 7010 e2cb 0000                         |0008: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+3e9aae: 0e00                                   |000b: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/onetrack/util/g;)
+      name          : 'run'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 210 16-bit code units
+3e9ab0:                                        |[3e9ab0] com.xiaomi.onetrack.util.g.run:()V
+3e9ac0: 1a00 16a5                              |0000: const-string v0, "https://" // string@a516
+3e9ac4: 5451 87d1                              |0002: iget-object v1, v5, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9ac8: 7110 7204 0100                         |0004: invoke-static {v1}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3e9ace: 0a01                                   |0007: move-result v1
+3e9ad0: 3801 0300                              |0008: if-eqz v1, 000b // +0003
+3e9ad4: 0e00                                   |000a: return-void
+3e9ad6: 5451 87d1                              |000b: iget-object v1, v5, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9ada: 1a02 eaa4                              |000d: const-string v2, "http://" // string@a4ea
+3e9ade: 6e20 07cc 2100                         |000f: invoke-virtual {v1, v2}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@cc07
+3e9ae4: 0a01                                   |0012: move-result v1
+3e9ae6: 1a02 3b04                              |0013: const-string v2, "/api/open/device/writeBack" // string@043b
+3e9aea: 3901 2300                              |0015: if-nez v1, 0038 // +0023
+3e9aee: 5451 87d1                              |0017: iget-object v1, v5, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9af2: 6e20 07cc 0100                         |0019: invoke-virtual {v1, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@cc07
+3e9af8: 0a01                                   |001c: move-result v1
+3e9afa: 3801 0300                              |001d: if-eqz v1, 0020 // +0003
+3e9afe: 2819                                   |001f: goto 0038 // +0019
+3e9b00: 2201 ea1f                              |0020: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+3e9b04: 7010 3dcc 0100                         |0022: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3e9b0a: 6e20 47cc 0100                         |0025: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3e9b10: 5450 87d1                              |0028: iget-object v0, v5, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9b14: 6e20 47cc 0100                         |002a: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3e9b1a: 6e20 47cc 2100                         |002d: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3e9b20: 6e10 50cc 0100                         |0030: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3e9b26: 0c00                                   |0033: move-result-object v0
+3e9b28: 2815                                   |0034: goto 0049 // +0015
+3e9b2a: 0d05                                   |0035: move-exception v5
+3e9b2c: 2900 9000                              |0036: goto/16 00c6 // +0090
+3e9b30: 2200 ea1f                              |0038: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+3e9b34: 7010 3dcc 0000                         |003a: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3e9b3a: 5451 87d1                              |003d: iget-object v1, v5, Lcom/xiaomi/onetrack/util/g;.a:Ljava/lang/String; // field@d187
+3e9b3e: 6e20 47cc 1000                         |003f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3e9b44: 6e20 47cc 2000                         |0042: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3e9b4a: 6e10 50cc 0000                         |0045: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3e9b50: 0c00                                   |0048: move-result-object v0
+3e9b52: 2201 5920                              |0049: new-instance v1, Ljava/util/HashMap; // type@2059
+3e9b56: 7010 67cd 0100                         |004b: invoke-direct {v1}, Ljava/util/HashMap;.<init>:()V // method@cd67
+3e9b5c: 1a02 e5a6                              |004e: const-string v2, "instanceId" // string@a6e5
+3e9b60: 7100 b4b9 0000                         |0050: invoke-static {}, Lcom/xiaomi/onetrack/util/o;.a:()Lcom/xiaomi/onetrack/util/o; // method@b9b4
+3e9b66: 0c03                                   |0053: move-result-object v3
+3e9b68: 6e10 b7b9 0300                         |0054: invoke-virtual {v3}, Lcom/xiaomi/onetrack/util/o;.b:()Ljava/lang/String; // method@b9b7
+3e9b6e: 0c03                                   |0057: move-result-object v3
+3e9b70: 6e30 71cd 2103                         |0058: invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cd71
+3e9b76: 1a02 ffa5                              |005b: const-string v2, "imei" // string@a5ff
+3e9b7a: 5453 8ad1                              |005d: iget-object v3, v5, Lcom/xiaomi/onetrack/util/g;.d:Lcom/xiaomi/onetrack/util/d; // field@d18a
+3e9b7e: 7110 6fb9 0300                         |005f: invoke-static {v3}, Lcom/xiaomi/onetrack/util/d;.a:(Lcom/xiaomi/onetrack/util/d;)Landroid/content/Context; // method@b96f
+3e9b84: 0c03                                   |0062: move-result-object v3
+3e9b86: 7110 d9b8 0300                         |0063: invoke-static {v3}, Lcom/xiaomi/onetrack/util/DeviceUtil;.b:(Landroid/content/Context;)Ljava/lang/String; // method@b8d9
+3e9b8c: 0c03                                   |0066: move-result-object v3
+3e9b8e: 6e30 71cd 2103                         |0067: invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cd71
+3e9b94: 1a02 afc3                              |006a: const-string v2, "oaid" // string@c3af
+3e9b98: 7100 f1b9 0000                         |006c: invoke-static {}, Lcom/xiaomi/onetrack/util/oaid/a;.a:()Lcom/xiaomi/onetrack/util/oaid/a; // method@b9f1
+3e9b9e: 0c03                                   |006f: move-result-object v3
+3e9ba0: 5454 8ad1                              |0070: iget-object v4, v5, Lcom/xiaomi/onetrack/util/g;.d:Lcom/xiaomi/onetrack/util/d; // field@d18a
+3e9ba4: 7110 6fb9 0400                         |0072: invoke-static {v4}, Lcom/xiaomi/onetrack/util/d;.a:(Lcom/xiaomi/onetrack/util/d;)Landroid/content/Context; // method@b96f
+3e9baa: 0c04                                   |0075: move-result-object v4
+3e9bac: 6e20 f2b9 4300                         |0076: invoke-virtual {v3, v4}, Lcom/xiaomi/onetrack/util/oaid/a;.a:(Landroid/content/Context;)Ljava/lang/String; // method@b9f2
+3e9bb2: 0c03                                   |0079: move-result-object v3
+3e9bb4: 6e30 71cd 2103                         |007a: invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cd71
+3e9bba: 1a02 16cc                              |007d: const-string v2, "projectId" // string@cc16
+3e9bbe: 5453 88d1                              |007f: iget-object v3, v5, Lcom/xiaomi/onetrack/util/g;.b:Ljava/lang/String; // field@d188
+3e9bc2: 6e30 71cd 2103                         |0081: invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cd71
+3e9bc8: 1a02 13eb                              |0084: const-string v2, "user" // string@eb13
+3e9bcc: 5453 89d1                              |0086: iget-object v3, v5, Lcom/xiaomi/onetrack/util/g;.c:Ljava/lang/String; // field@d189
+3e9bd0: 6e30 71cd 2103                         |0088: invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cd71
+3e9bd6: 1202                                   |008b: const/4 v2, #int 0 // #0
+3e9bd8: 7130 aeb8 1002                         |008c: invoke-static {v0, v1, v2}, Lcom/xiaomi/onetrack/g/b;.b:(Ljava/lang/String;Ljava/util/Map;Z)Ljava/lang/String; // method@b8ae
+3e9bde: 0c00                                   |008f: move-result-object v0
+3e9be0: 7110 7204 0000                         |0090: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3e9be6: 0a01                                   |0093: move-result v1
+3e9be8: 3901 1100                              |0094: if-nez v1, 00a5 // +0011
+3e9bec: 1a01 0000                              |0096: const-string v1, "" // string@0000
+3e9bf0: 6e20 09cc 0100                         |0098: invoke-virtual {v1, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+3e9bf6: 0a01                                   |009b: move-result v1
+3e9bf8: 3801 0300                              |009c: if-eqz v1, 009f // +0003
+3e9bfc: 2807                                   |009e: goto 00a5 // +0007
+3e9bfe: 5455 8ad1                              |009f: iget-object v5, v5, Lcom/xiaomi/onetrack/util/g;.d:Lcom/xiaomi/onetrack/util/d; // field@d18a
+3e9c02: 7120 7ab9 0500                         |00a1: invoke-static {v5, v0}, Lcom/xiaomi/onetrack/util/d;.c:(Lcom/xiaomi/onetrack/util/d;Ljava/lang/String;)V // method@b97a
+3e9c08: 282d                                   |00a4: goto 00d1 // +002d
+3e9c0a: 7100 e603 0000                         |00a5: invoke-static {}, Landroid/os/Message;.obtain:()Landroid/os/Message; // method@03e6
+3e9c10: 0c00                                   |00a8: move-result-object v0
+3e9c12: 1301 6400                              |00a9: const/16 v1, #int 100 // #64
+3e9c16: 5901 b500                              |00ab: iput v1, v0, Landroid/os/Message;.what:I // field@00b5
+3e9c1a: 2201 db00                              |00ad: new-instance v1, Landroid/os/Bundle; // type@00db
+3e9c1e: 7010 8c03 0100                         |00af: invoke-direct {v1}, Landroid/os/Bundle;.<init>:()V // method@038c
+3e9c24: 1a02 76a4                              |00b2: const-string v2, "hint" // string@a476
+3e9c28: 1a03 25f0                              |00b4: const-string v3, "注册信息失败，请检查是网络环境是否在内网" // string@f025
+3e9c2c: 6e30 8303 2103                         |00b6: invoke-virtual {v1, v2, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+3e9c32: 6e20 e803 1000                         |00b9: invoke-virtual {v0, v1}, Landroid/os/Message;.setData:(Landroid/os/Bundle;)V // method@03e8
+3e9c38: 5455 8ad1                              |00bc: iget-object v5, v5, Lcom/xiaomi/onetrack/util/g;.d:Lcom/xiaomi/onetrack/util/d; // field@d18a
+3e9c3c: 7110 76b9 0500                         |00be: invoke-static {v5}, Lcom/xiaomi/onetrack/util/d;.b:(Lcom/xiaomi/onetrack/util/d;)Landroid/os/Handler; // method@b976
+3e9c42: 0c05                                   |00c1: move-result-object v5
+3e9c44: 6e20 d503 0500                         |00c2: invoke-virtual {v5, v0}, Landroid/os/Handler;.sendMessage:(Landroid/os/Message;)Z // method@03d5
+3e9c4a: 0e00                                   |00c5: return-void
+3e9c4c: 7100 77b9 0000                         |00c6: invoke-static {}, Lcom/xiaomi/onetrack/util/d;.b:()Ljava/lang/String; // method@b977
+3e9c52: 0c00                                   |00c9: move-result-object v0
+3e9c54: 6e10 76cc 0500                         |00ca: invoke-virtual {v5}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@cc76
+3e9c5a: 0c05                                   |00cd: move-result-object v5
+3e9c5c: 7120 3eba 5000                         |00ce: invoke-static {v0, v5}, Lcom/xiaomi/onetrack/util/p;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@ba3e
+3e9c62: 0e00                                   |00d1: return-void
+      catches       : 2
+        0x0002 - 0x0013
+          Ljava/lang/Exception; -> 0x0035
+        0x0017 - 0x00c5
+          Ljava/lang/Exception; -> 0x0035
+
+  source_file_idx   : -1 (unknown)
+

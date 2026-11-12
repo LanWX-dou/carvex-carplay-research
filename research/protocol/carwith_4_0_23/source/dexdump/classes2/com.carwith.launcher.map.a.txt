@@ -1,0 +1,250 @@
+Class #497            -
+  Class descriptor  : 'Lcom/carwith/launcher/map/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'b'
+      type          : 'Ljava/lang/Class;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #1              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'c'
+      type          : 'Ljava/lang/Object;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #2              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'd'
+      type          : 'Ljava/lang/reflect/Method;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #3              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #4              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'f'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'a'
+      type          : 'Ll2/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/map/a;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 3
+      insns size    : 40 16-bit code units
+1b4dac:                                        |[1b4dac] com.carwith.launcher.map.a.<clinit>:()V
+1b4dbc: 1a00 e368                              |0000: const-string v0, "com.android.id.impl.IdProviderImpl" // string@68e3
+1b4dc0: 7110 ff80 0000                         |0002: invoke-static {v0}, Ljava/lang/Class;.forName:(Ljava/lang/String;)Ljava/lang/Class; // method@80ff
+1b4dc6: 0c00                                   |0005: move-result-object v0
+1b4dc8: 6900 15c5                              |0006: sput-object v0, Lcom/carwith/launcher/map/a;.b:Ljava/lang/Class; // field@c515
+1b4dcc: 6e10 2381 0000                         |0008: invoke-virtual {v0}, Ljava/lang/Class;.newInstance:()Ljava/lang/Object; // method@8123
+1b4dd2: 0c00                                   |000b: move-result-object v0
+1b4dd4: 6900 16c5                              |000c: sput-object v0, Lcom/carwith/launcher/map/a;.c:Ljava/lang/Object; // field@c516
+1b4dd8: 6200 15c5                              |000e: sget-object v0, Lcom/carwith/launcher/map/a;.b:Ljava/lang/Class; // field@c515
+1b4ddc: 1a01 417b                              |0010: const-string v1, "getOAID" // string@7b41
+1b4de0: 1c02 5d00                              |0012: const-class v2, Landroid/content/Context; // type@005d
+1b4de4: 2410 8c1b 0200                         |0014: filled-new-array {v2}, [Ljava/lang/Class; // type@1b8c
+1b4dea: 0c02                                   |0017: move-result-object v2
+1b4dec: 6e30 1481 1002                         |0018: invoke-virtual {v0, v1, v2}, Ljava/lang/Class;.getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; // method@8114
+1b4df2: 0c00                                   |001b: move-result-object v0
+1b4df4: 6900 17c5                              |001c: sput-object v0, Lcom/carwith/launcher/map/a;.d:Ljava/lang/reflect/Method; // field@c517
+1b4df8: 2809                                   |001e: goto 0027 // +0009
+1b4dfa: 0d00                                   |001f: move-exception v0
+1b4dfc: 1a01 740c                              |0020: const-string v1, "BaiduMapHttp" // string@0c74
+1b4e00: 1a02 34ad                              |0022: const-string v2, "reflect exception!" // string@ad34
+1b4e04: 7130 7c0e 2100                         |0024: invoke-static {v1, v2, v0}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0e7c
+1b4e0a: 0e00                                   |0027: return-void
+      catches       : 1
+        0x0000 - 0x001e
+          Ljava/lang/Exception; -> 0x001f
+
+    #1              : (in Lcom/carwith/launcher/map/a;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 11 16-bit code units
+1b4e1c:                                        |[1b4e1c] com.carwith.launcher.map.a.<init>:()V
+1b4e2c: 7010 8c81 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@818c
+1b4e32: 2200 a715                              |0003: new-instance v0, Ll2/d; // type@15a7
+1b4e36: 7010 9785 0000                         |0005: invoke-direct {v0}, Ll2/d;.<init>:()V // method@8597
+1b4e3c: 5b10 14c5                              |0008: iput-object v0, v1, Lcom/carwith/launcher/map/a;.a:Ll2/d; // field@c514
+1b4e40: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 19 16-bit code units
+1b4d18:                                        |[1b4d18] com.carwith.launcher.map.a.b:(Landroid/content/Context;)Ljava/lang/String;
+1b4d28: 6200 18c5                              |0000: sget-object v0, Lcom/carwith/launcher/map/a;.e:Ljava/lang/String; // field@c518
+1b4d2c: 7110 2905 0000                         |0002: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0529
+1b4d32: 0a00                                   |0005: move-result v0
+1b4d34: 3800 0a00                              |0006: if-eqz v0, 0010 // +000a
+1b4d38: 6200 17c5                              |0008: sget-object v0, Lcom/carwith/launcher/map/a;.d:Ljava/lang/reflect/Method; // field@c517
+1b4d3c: 7120 8c20 0100                         |000a: invoke-static {v1, v0}, Lcom/carwith/launcher/map/a;.c:(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String; // method@208c
+1b4d42: 0c01                                   |000d: move-result-object v1
+1b4d44: 6901 18c5                              |000e: sput-object v1, Lcom/carwith/launcher/map/a;.e:Ljava/lang/String; // field@c518
+1b4d48: 6201 18c5                              |0010: sget-object v1, Lcom/carwith/launcher/map/a;.e:Ljava/lang/String; // field@c518
+1b4d4c: 1101                                   |0012: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 29 16-bit code units
+1b4d50:                                        |[1b4d50] com.carwith.launcher.map.a.c:(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;
+1b4d60: 6200 16c5                              |0000: sget-object v0, Lcom/carwith/launcher/map/a;.c:Ljava/lang/Object; // field@c516
+1b4d64: 3800 1900                              |0002: if-eqz v0, 001b // +0019
+1b4d68: 3802 1700                              |0004: if-eqz v2, 001b // +0017
+1b4d6c: 2410 8f1b 0100                         |0006: filled-new-array {v1}, [Ljava/lang/Object; // type@1b8f
+1b4d72: 0c01                                   |0009: move-result-object v1
+1b4d74: 6e30 5282 0201                         |000a: invoke-virtual {v2, v0, v1}, Ljava/lang/reflect/Method;.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; // method@8252
+1b4d7a: 0c01                                   |000d: move-result-object v1
+1b4d7c: 3801 0d00                              |000e: if-eqz v1, 001b // +000d
+1b4d80: 1f01 a814                              |0010: check-cast v1, Ljava/lang/String; // type@14a8
+1b4d84: 1101                                   |0012: return-object v1
+1b4d86: 0d01                                   |0013: move-exception v1
+1b4d88: 1a02 740c                              |0014: const-string v2, "BaiduMapHttp" // string@0c74
+1b4d8c: 1a00 f882                              |0016: const-string v0, "invoke exception!" // string@82f8
+1b4d90: 7130 7c0e 0201                         |0018: invoke-static {v2, v0, v1}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0e7c
+1b4d96: 1201                                   |001b: const/4 v1, #int 0 // #0
+1b4d98: 1101                                   |001c: return-object v1
+      catches       : 1
+        0x0006 - 0x0012
+          Ljava/lang/Exception; -> 0x0013
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 30 16-bit code units
+1b4ccc:                                        |[1b4ccc] com.carwith.launcher.map.a.a:()Ljava/lang/String;
+1b4cdc: 7100 b20d 0000                         |0000: invoke-static {}, Lcom/carwith/common/utils/h0;.f:()Z // method@0db2
+1b4ce2: 0a00                                   |0003: move-result v0
+1b4ce4: 3800 0500                              |0004: if-eqz v0, 0009 // +0005
+1b4ce8: 1a00 0081                              |0006: const-string v0, "iccoa" // string@8100
+1b4cec: 1100                                   |0008: return-object v0
+1b4cee: 7100 b10d 0000                         |0009: invoke-static {}, Lcom/carwith/common/utils/h0;.d:()Z // method@0db1
+1b4cf4: 0a00                                   |000c: move-result v0
+1b4cf6: 3800 0500                              |000d: if-eqz v0, 0012 // +0005
+1b4cfa: 1a00 4365                              |000f: const-string v0, "carlife" // string@6543
+1b4cfe: 1100                                   |0011: return-object v0
+1b4d00: 7100 b40d 0000                         |0012: invoke-static {}, Lcom/carwith/common/utils/h0;.j:()Z // method@0db4
+1b4d06: 0a00                                   |0015: move-result v0
+1b4d08: 3800 0500                              |0016: if-eqz v0, 001b // +0005
+1b4d0c: 1a00 dd71                              |0018: const-string v0, "easy" // string@71dd
+1b4d10: 1100                                   |001a: return-object v0
+1b4d12: 1a00 0000                              |001b: const-string v0, "" // string@0000
+1b4d16: 1100                                   |001d: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/map/a;)
+      name          : 'd'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 4
+      insns size    : 159 16-bit code units
+1b4e44:                                        |[1b4e44] com.carwith.launcher.map.a.d:(Z)V
+1b4e54: 3805 0800                              |0000: if-eqz v5, 0008 // +0008
+1b4e58: 6e10 8a20 0400                         |0002: invoke-virtual {v4}, Lcom/carwith/launcher/map/a;.a:()Ljava/lang/String; // method@208a
+1b4e5e: 0c00                                   |0005: move-result-object v0
+1b4e60: 6900 19c5                              |0006: sput-object v0, Lcom/carwith/launcher/map/a;.f:Ljava/lang/String; // field@c519
+1b4e64: 2200 aa14                              |0008: new-instance v0, Ljava/lang/StringBuilder; // type@14aa
+1b4e68: 7010 e381 0000                         |000a: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1b4e6e: 1a01 51b1                              |000d: const-string v1, "sendConnectEvent isConnecting=" // string@b151
+1b4e72: 6e20 ee81 1000                         |000f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1b4e78: 6e20 ef81 5000                         |0012: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+1b4e7e: 1a01 1b01                              |0015: const-string v1, " mConnectType=" // string@011b
+1b4e82: 6e20 ee81 1000                         |0017: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1b4e88: 6201 19c5                              |001a: sget-object v1, Lcom/carwith/launcher/map/a;.f:Ljava/lang/String; // field@c519
+1b4e8c: 6e20 ee81 1000                         |001c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1b4e92: 6e10 fd81 0000                         |001f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1b4e98: 0c00                                   |0022: move-result-object v0
+1b4e9a: 1a01 740c                              |0023: const-string v1, "BaiduMapHttp" // string@0c74
+1b4e9e: 7120 790e 0100                         |0025: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+1b4ea4: 2200 1215                              |0028: new-instance v0, Ljava/util/HashMap; // type@1512
+1b4ea8: 7010 a083 0000                         |002a: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@83a0
+1b4eae: 2201 aa14                              |002d: new-instance v1, Ljava/lang/StringBuilder; // type@14aa
+1b4eb2: 7010 e381 0100                         |002f: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1b4eb8: 7100 ff81 0000                         |0032: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@81ff
+1b4ebe: 0b02                                   |0035: move-result-wide v2
+1b4ec0: 6e30 ea81 2103                         |0036: invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@81ea
+1b4ec6: 1a02 0000                              |0039: const-string v2, "" // string@0000
+1b4eca: 6e20 ee81 2100                         |003b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1b4ed0: 6e10 fd81 0100                         |003e: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1b4ed6: 0c01                                   |0041: move-result-object v1
+1b4ed8: 1a02 23c1                              |0042: const-string v2, "ts" // string@c123
+1b4edc: 6e30 aa83 2001                         |0044: invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4ee2: 1a01 e78a                              |0047: const-string v1, "mb" // string@8ae7
+1b4ee6: 6202 d100                              |0049: sget-object v2, Landroid/os/Build;.MODEL:Ljava/lang/String; // field@00d1
+1b4eea: 6e30 aa83 1002                         |004b: invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4ef0: 2201 aa14                              |004e: new-instance v1, Ljava/lang/StringBuilder; // type@14aa
+1b4ef4: 7010 e381 0100                         |0050: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1b4efa: 1a02 630a                              |0053: const-string v2, "Android" // string@0a63
+1b4efe: 6e20 ee81 2100                         |0055: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1b4f04: 6002 ce00                              |0058: sget v2, Landroid/os/Build$VERSION;.SDK_INT:I // field@00ce
+1b4f08: 6e20 e981 2100                         |005a: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@81e9
+1b4f0e: 6e10 fd81 0100                         |005d: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1b4f14: 0c01                                   |0060: move-result-object v1
+1b4f16: 1a02 ada3                              |0061: const-string v2, "os" // string@a3ad
+1b4f1a: 6e30 aa83 2001                         |0063: invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4f20: 7100 750c 0000                         |0066: invoke-static {}, Lcom/carwith/common/BaseApplication;.c:()Landroid/content/Context; // method@0c75
+1b4f26: 0c01                                   |0069: move-result-object v1
+1b4f28: 7110 8b20 0100                         |006a: invoke-static {v1}, Lcom/carwith/launcher/map/a;.b:(Landroid/content/Context;)Ljava/lang/String; // method@208b
+1b4f2e: 0c01                                   |006d: move-result-object v1
+1b4f30: 1a02 429f                              |006e: const-string v2, "oaid" // string@9f42
+1b4f34: 6e30 aa83 2001                         |0070: invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4f3a: 1a01 1ca8                              |0073: const-string v1, "phonebrand" // string@a81c
+1b4f3e: 1a02 e4c8                              |0075: const-string v2, "xiaomi" // string@c8e4
+1b4f42: 6e30 aa83 1002                         |0077: invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4f48: 3805 0500                              |007a: if-eqz v5, 007f // +0005
+1b4f4c: 1a01 f603                              |007c: const-string v1, "0" // string@03f6
+1b4f50: 2803                                   |007e: goto 0081 // +0003
+1b4f52: 1a01 0504                              |007f: const-string v1, "1" // string@0405
+1b4f56: 1a02 3c73                              |0081: const-string v2, "event" // string@733c
+1b4f5a: 6e30 aa83 2001                         |0083: invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4f60: 1a01 ff76                              |0086: const-string v1, "from" // string@76ff
+1b4f64: 6202 19c5                              |0088: sget-object v2, Lcom/carwith/launcher/map/a;.f:Ljava/lang/String; // field@c519
+1b4f68: 6e30 aa83 1002                         |008a: invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@83aa
+1b4f6e: 5441 14c5                              |008d: iget-object v1, v4, Lcom/carwith/launcher/map/a;.a:Ll2/d; // field@c514
+1b4f72: 2202 9507                              |008f: new-instance v2, Lcom/carwith/launcher/map/a$a; // type@0795
+1b4f76: 7020 7d20 4200                         |0091: invoke-direct {v2, v4}, Lcom/carwith/launcher/map/a$a;.<init>:(Lcom/carwith/launcher/map/a;)V // method@207d
+1b4f7c: 1a04 d57f                              |0094: const-string v4, "https://oem.map.baidu.com/agent/incar/event" // string@7fd5
+1b4f80: 6e40 9885 0124                         |0096: invoke-virtual {v1, v0, v4, v2}, Ll2/d;.b:(Ljava/util/Map;Ljava/lang/String;Ll2/d$c;)V // method@8598
+1b4f86: 3905 0500                              |0099: if-nez v5, 009e // +0005
+1b4f8a: 1204                                   |009b: const/4 v4, #int 0 // #0
+1b4f8c: 6904 19c5                              |009c: sput-object v4, Lcom/carwith/launcher/map/a;.f:Ljava/lang/String; // field@c519
+1b4f90: 0e00                                   |009e: return-void
+      catches       : (none)
+
+  source_file_idx   : 3189 (BaiduMapHttp.java)
+

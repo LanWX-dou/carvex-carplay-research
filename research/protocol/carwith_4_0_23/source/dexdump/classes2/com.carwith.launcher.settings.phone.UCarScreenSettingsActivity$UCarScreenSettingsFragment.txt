@@ -1,0 +1,1884 @@
+Class #5160            -
+  Class descriptor  : 'Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;'
+  Interfaces        -
+    #0              : 'Landroidx/preference/Preference$OnPreferenceClickListener;'
+  Static fields     -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'p0'
+      type          : 'J'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'P'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Q'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'R'
+      type          : 'Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'S'
+      type          : 'Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'T'
+      type          : 'Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'U'
+      type          : 'Landroidx/preference/PreferenceCategory;'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'V'
+      type          : 'Lmiuix/preference/DropDownPreference;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'W'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'X'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #9              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Y'
+      type          : 'Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference;'
+      access        : 0x0001 (PUBLIC)
+    #10              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Z'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #11              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'a0'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #12              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'b0'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #13              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'c0'
+      type          : 'Lcom/carwith/launcher/view/LoadingTextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #14              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'd0'
+      type          : 'Lcom/carwith/launcher/view/LoadingTextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #15              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'e0'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #16              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'f0'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #17              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'g0'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #18              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'h0'
+      type          : 'Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+    #19              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'i0'
+      type          : 'Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x0001 (PUBLIC)
+    #20              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'j0'
+      type          : 'Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;'
+      access        : 0x0001 (PUBLIC)
+    #21              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'k0'
+      type          : 'Lmiuix/appcompat/app/AlertDialog;'
+      access        : 0x0001 (PUBLIC)
+    #22              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'l0'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #23              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'm0'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #24              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'n0'
+      type          : 'Lmiuix/appcompat/app/AlertDialog;'
+      access        : 0x0001 (PUBLIC)
+    #25              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'o0'
+      type          : 'Landroid/os/Handler;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 0
+      ins           : 0
+      outs          : 0
+      insns size    : 1 16-bit code units
+2213e8:                                        |[2213e8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.<clinit>:()V
+2213f8: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 25 16-bit code units
+2213fc:                                        |[2213fc] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.<init>:()V
+22140c: 7010 c833 0200                         |0000: invoke-direct {v2}, Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;.<init>:()V // method@33c8
+221412: 2200 0415                              |0003: new-instance v0, Ljava/util/ArrayList; // type@1504
+221416: 7010 2283 0000                         |0005: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@8322
+22141c: 5b20 59ce                              |0008: iput-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h0:Ljava/util/List; // field@ce59
+221420: 1200                                   |000a: const/4 v0, #int 0 // #0
+221422: 5b20 5fce                              |000b: iput-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.n0:Lmiuix/appcompat/app/AlertDialog; // field@ce5f
+221426: 2200 8e0a                              |000d: new-instance v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$i; // type@0a8e
+22142a: 7100 6c04 0000                         |000f: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@046c
+221430: 0c01                                   |0012: move-result-object v1
+221432: 7030 4335 2001                         |0013: invoke-direct {v0, v2, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$i;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroid/os/Looper;)V // method@3543
+221438: 5b20 60ce                              |0016: iput-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.o0:Landroid/os/Handler; // field@ce60
+22143c: 0e00                                   |0018: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'K0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroidx/preference/Preference;Ljava/lang/Object;)Z'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 5 16-bit code units
+220d68:                                        |[220d68] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.K0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroidx/preference/Preference;Ljava/lang/Object;)Z
+220d78: 6e30 7c35 1002                         |0000: invoke-virtual {v0, v1, v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.j1:(Landroidx/preference/Preference;Ljava/lang/Object;)Z // method@357c
+220d7e: 0a00                                   |0003: move-result v0
+220d80: 0f00                                   |0004: return v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'L0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroid/content/Context;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+2212b0:                                        |[2212b0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.L0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroid/content/Context;)V
+2212c0: 6e20 7e35 1000                         |0000: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.l1:(Landroid/content/Context;)V // method@357e
+2212c6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'M0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Object;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+2212c8:                                        |[2212c8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.M0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Object;)V
+2212d8: 6e20 7d35 1000                         |0000: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.k1:(Ljava/lang/Object;)V // method@357d
+2212de: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'N0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+221250:                                        |[221250] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.N0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;
+221260: 5400 5bce                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.j0:Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo; // field@ce5b
+221264: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'O0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Z'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+220d84:                                        |[220d84] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.O0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Z
+220d94: 5500 47ce                              |0000: iget-boolean v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.P:Z // field@ce47
+220d98: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'P0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+221238:                                        |[221238] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.P0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference;
+221248: 5400 50ce                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Y:Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference; // field@ce50
+22124c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Q0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+221268:                                        |[221268] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.Q0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;
+221278: 5400 5ace                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.i0:Lmiuix/preference/CheckBoxPreference; // field@ce5a
+22127c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'R0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+221280:                                        |[221280] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.R0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;
+221290: 5400 4ace                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221294: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #10              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'S0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+221298:                                        |[221298] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.S0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)Lmiuix/preference/CheckBoxPreference;
+2212a8: 5400 49ce                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+2212ac: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #11              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'T0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+2212e0:                                        |[2212e0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.T0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;)V
+2212f0: 5b01 5bce                              |0000: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.j0:Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo; // field@ce5b
+2212f4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'U0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Z)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+2212f8:                                        |[2212f8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.U0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Z)V
+221308: 5c01 47ce                              |0000: iput-boolean v1, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.P:Z // field@ce47
+22130c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #13              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'V0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Z)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+221310:                                        |[221310] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.V0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Z)V
+221320: 6e20 7735 1000                         |0000: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.e1:(Z)V // method@3577
+221326: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'W0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+221328:                                        |[221328] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.W0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+221338: 6e10 7835 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.f1:()V // method@3578
+22133e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #15              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'X0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+221340:                                        |[221340] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.X0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+221350: 6e10 7f35 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.m1:()V // method@357f
+221356: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #16              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Y0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+221358:                                        |[221358] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.Y0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+221368: 6e10 8135 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.o1:()V // method@3581
+22136e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #17              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'Z0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+221370:                                        |[221370] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.Z0:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+221380: 6e10 8835 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.p1:()V // method@3588
+221386: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #18              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'a1'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+221388:                                        |[221388] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.a1:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+221398: 6e10 8a35 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.r1:()V // method@358a
+22139e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #19              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'b1'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Runnable;Ljava/lang/Runnable;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+2213a0:                                        |[2213a0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.b1:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+2213b0: 6e30 8c35 1002                         |0000: invoke-virtual {v0, v1, v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.t1:(Ljava/lang/Runnable;Ljava/lang/Runnable;)V // method@358c
+2213b6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #20              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'c1'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+2213b8:                                        |[2213b8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.c1:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V
+2213c8: 6e10 8d35 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.u1:()V // method@358d
+2213ce: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #21              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'd1'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/util/List;Ljava/util/Map;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+2213d0:                                        |[2213d0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.d1:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/util/List;Ljava/util/Map;)V
+2213e0: 6e30 9035 1002                         |0000: invoke-virtual {v0, v1, v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.x1:(Ljava/util/List;Ljava/util/Map;)V // method@3590
+2213e6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'e1'
+      type          : '(Z)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 62 16-bit code units
+221440:                                        |[221440] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.e1:(Z)V
+221450: 2200 aa14                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@14aa
+221454: 7010 e381 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+22145a: 1a01 3eba                              |0005: const-string v1, "startConnect agreePermission:" // string@ba3e
+22145e: 6e20 ee81 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221464: 6e20 ef81 4000                         |000a: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+22146a: 6e10 fd81 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+221470: 0c00                                   |0010: move-result-object v0
+221472: 1a01 464d                              |0011: const-string v1, "UCarScreenSettingsFragment" // string@4d46
+221476: 7120 7b0e 0100                         |0013: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7b
+22147c: 3904 1a00                              |0016: if-nez v4, 0030 // +001a
+221480: 2204 6500                              |0018: new-instance v4, Landroid/content/Intent; // type@0065
+221484: 7010 8e01 0400                         |001a: invoke-direct {v4}, Landroid/content/Intent;.<init>:()V // method@018e
+22148a: 1a00 ff68                              |001d: const-string v0, "com.baidu.carlife.xiaomi" // string@68ff
+22148e: 1a02 fe68                              |001f: const-string v2, "com.baidu.carlife.mix.xiaomi.XiaomiPermissionActivity" // string@68fe
+221492: 6e30 b501 0402                         |0021: invoke-virtual {v4, v0, v2}, Landroid/content/Intent;.setClassName:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; // method@01b5
+221498: 1300 e903                              |0024: const/16 v0, #int 1001 // #3e9
+22149c: 6e30 6e09 4300                         |0026: invoke-virtual {v3, v4, v0}, Landroidx/fragment/app/Fragment;.startActivityForResult:(Landroid/content/Intent;I)V // method@096e
+2214a2: 2814                                   |0029: goto 003d // +0014
+2214a4: 1a03 0fba                              |002a: const-string v3, "startActivityForResult fail!" // string@ba0f
+2214a8: 7120 7b0e 3100                         |002c: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7b
+2214ae: 280e                                   |002f: goto 003d // +000e
+2214b0: 6e10 4409 0300                         |0030: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2214b6: 0c04                                   |0033: move-result-object v4
+2214b8: 7110 8c9c 0400                         |0034: invoke-static {v4}, Lp9/d;.J:(Landroid/content/Context;)Lp9/d; // method@9c8c
+2214be: 0c04                                   |0037: move-result-object v4
+2214c0: 5433 5bce                              |0038: iget-object v3, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.j0:Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo; // field@ce5b
+2214c4: 6e20 919c 3400                         |003a: invoke-virtual {v4, v3}, Lp9/d;.d0:(Lcom/miui/carlink/castfwk/autoconnect/carlife/CarlifeConnectInfo;)Z // method@9c91
+2214ca: 0e00                                   |003d: return-void
+      catches       : 1
+        0x0026 - 0x0029
+          Ljava/lang/Exception; -> 0x002a
+
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'f1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 17 16-bit code units
+2214dc:                                        |[2214dc] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.f1:()V
+2214ec: 7100 0c99 0000                         |0000: invoke-static {}, Lp2/j;.s:()Lp2/j; // method@990c
+2214f2: 0c00                                   |0003: move-result-object v0
+2214f4: 6e10 4409 0300                         |0004: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2214fa: 0c01                                   |0007: move-result-object v1
+2214fc: 2202 8f0a                              |0008: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$j; // type@0a8f
+221500: 7020 4535 3200                         |000a: invoke-direct {v2, v3}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$j;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3545
+221506: 6e30 0a99 1002                         |000d: invoke-virtual {v0, v1, v2}, Lp2/j;.n:(Landroid/content/Context;Lp2/j$d;)V // method@990a
+22150c: 0e00                                   |0010: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'g1'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 1
+      insns size    : 37 16-bit code units
+221510:                                        |[221510] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.g1:()V
+221520: 6200 67ce                              |0000: sget-object v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity;.p:Lcom/carwith/launcher/l; // field@ce67
+221524: 1201                                   |0002: const/4 v1, #int 0 // #0
+221526: 3800 0700                              |0003: if-eqz v0, 000a // +0007
+22152a: 6e10 8b1f 0000                         |0005: invoke-virtual {v0}, Lcom/carwith/launcher/l;.l:()V // method@1f8b
+221530: 6901 67ce                              |0008: sput-object v1, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity;.p:Lcom/carwith/launcher/l; // field@ce67
+221534: 5420 59ce                              |000a: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h0:Ljava/util/List; // field@ce59
+221538: 3800 0700                              |000c: if-eqz v0, 0013 // +0007
+22153c: 7210 d783 0000                         |000e: invoke-interface {v0}, Ljava/util/List;.clear:()V // method@83d7
+221542: 5b21 59ce                              |0011: iput-object v1, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h0:Ljava/util/List; // field@ce59
+221546: 5420 5fce                              |0013: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.n0:Lmiuix/appcompat/app/AlertDialog; // field@ce5f
+22154a: 3800 0f00                              |0015: if-eqz v0, 0024 // +000f
+22154e: 6e10 0b01 0000                         |0017: invoke-virtual {v0}, Landroid/app/Dialog;.isShowing:()Z // method@010b
+221554: 0a00                                   |001a: move-result v0
+221556: 3800 0900                              |001b: if-eqz v0, 0024 // +0009
+22155a: 5420 5fce                              |001d: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.n0:Lmiuix/appcompat/app/AlertDialog; // field@ce5f
+22155e: 6e10 3089 0000                         |001f: invoke-virtual {v0}, Lmiuix/appcompat/app/AlertDialog;.dismiss:()V // method@8930
+221564: 5b21 5fce                              |0022: iput-object v1, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.n0:Lmiuix/appcompat/app/AlertDialog; // field@ce5f
+221568: 0e00                                   |0024: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'h1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 571 16-bit code units
+22156c:                                        |[22156c] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.h1:()V
+22157c: 1200                                   |0000: const/4 v0, #int 0 // #0
+22157e: 1211                                   |0001: const/4 v1, #int 1 // #1
+221580: 6002 01bf                              |0002: sget v2, Lcom/carwith/launcher/R$xml;.ucar_screen_settings:I // field@bf01
+221584: 6e20 d209 2500                         |0004: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.addPreferencesFromResource:(I)V // method@09d2
+22158a: 1a02 63c3                              |0007: const-string v2, "ucar_wireless_switch" // string@c363
+22158e: 6e20 d309 2500                         |0009: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221594: 0c02                                   |000c: move-result-object v2
+221596: 1f02 e417                              |000d: check-cast v2, Lmiuix/preference/CheckBoxPreference; // type@17e4
+22159a: 5b52 49ce                              |000f: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+22159e: 6202 67ce                              |0011: sget-object v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity;.p:Lcom/carwith/launcher/l; // field@ce67
+2215a2: 3802 0500                              |0013: if-eqz v2, 0018 // +0005
+2215a6: 6e10 8b1f 0200                         |0015: invoke-virtual {v2}, Lcom/carwith/launcher/l;.l:()V // method@1f8b
+2215ac: 2202 7207                              |0018: new-instance v2, Lcom/carwith/launcher/l; // type@0772
+2215b0: 6e10 4409 0500                         |001a: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2215b6: 0c03                                   |001d: move-result-object v3
+2215b8: 7020 7f1f 3200                         |001e: invoke-direct {v2, v3}, Lcom/carwith/launcher/l;.<init>:(Landroid/content/Context;)V // method@1f7f
+2215be: 6902 67ce                              |0021: sput-object v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity;.p:Lcom/carwith/launcher/l; // field@ce67
+2215c2: 5452 49ce                              |0023: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+2215c6: 3802 2c00                              |0025: if-eqz v2, 0051 // +002c
+2215ca: 6e10 4409 0500                         |0027: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2215d0: 0c02                                   |002a: move-result-object v2
+2215d2: 3902 0300                              |002b: if-nez v2, 002e // +0003
+2215d6: 0e00                                   |002d: return-void
+2215d8: 6e10 4409 0500                         |002e: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2215de: 0c02                                   |0031: move-result-object v2
+2215e0: 6e10 6401 0200                         |0032: invoke-virtual {v2}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@0164
+2215e6: 0c02                                   |0035: move-result-object v2
+2215e8: 1a03 65c3                              |0036: const-string v3, "ucar_wireless_switch_name" // string@c365
+2215ec: 6e30 7101 3200                         |0038: invoke-virtual {v2, v3, v0}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+2215f2: 0c02                                   |003b: move-result-object v2
+2215f4: 1a03 64c3                              |003c: const-string v3, "ucar_wireless_switch_key" // string@c364
+2215f8: 7230 cc01 3201                         |003e: invoke-interface {v2, v3, v1}, Landroid/content/SharedPreferences;.getBoolean:(Ljava/lang/String;Z)Z // method@01cc
+2215fe: 0a03                                   |0041: move-result v3
+221600: 5454 49ce                              |0042: iget-object v4, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+221604: 6e20 e709 3400                         |0044: invoke-virtual {v4, v3}, Landroidx/preference/TwoStatePreference;.setChecked:(Z)V // method@09e7
+22160a: 5453 49ce                              |0047: iget-object v3, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+22160e: 2204 930a                              |0049: new-instance v4, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$n; // type@0a93
+221612: 7030 4d35 5402                         |004b: invoke-direct {v4, v5, v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$n;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroid/content/SharedPreferences;)V // method@354d
+221618: 6e20 c809 4300                         |004e: invoke-virtual {v3, v4}, Landroidx/preference/Preference;.setOnPreferenceChangeListener:(Landroidx/preference/Preference$OnPreferenceChangeListener;)V // method@09c8
+22161e: 1a02 2dc3                              |0051: const-string v2, "ucar_record_switch" // string@c32d
+221622: 6e20 d309 2500                         |0053: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221628: 0c02                                   |0056: move-result-object v2
+22162a: 1f02 e417                              |0057: check-cast v2, Lmiuix/preference/CheckBoxPreference; // type@17e4
+22162e: 5b52 4ace                              |0059: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221632: 3802 2000                              |005b: if-eqz v2, 007b // +0020
+221636: 6e10 4409 0500                         |005d: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+22163c: 0c02                                   |0060: move-result-object v2
+22163e: 1a03 8e85                              |0061: const-string v3, "key_record_screen" // string@858e
+221642: 7130 610e 3200                         |0063: invoke-static {v2, v3, v0}, Lcom/carwith/common/utils/u2;.c:(Landroid/content/Context;Ljava/lang/String;Z)Z // method@0e61
+221648: 0a02                                   |0066: move-result v2
+22164a: 5453 4ace                              |0067: iget-object v3, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+22164e: 6e20 e709 2300                         |0069: invoke-virtual {v3, v2}, Landroidx/preference/TwoStatePreference;.setChecked:(Z)V // method@09e7
+221654: 5452 4ace                              |006c: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221658: 6e20 cf09 0200                         |006e: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+22165e: 5452 4ace                              |0071: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221662: 2203 940a                              |0073: new-instance v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$o; // type@0a94
+221666: 7020 4f35 5300                         |0075: invoke-direct {v3, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$o;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@354f
+22166c: 6e20 c809 3200                         |0078: invoke-virtual {v2, v3}, Landroidx/preference/Preference;.setOnPreferenceChangeListener:(Landroidx/preference/Preference$OnPreferenceChangeListener;)V // method@09c8
+221672: 1a02 13c3                              |007b: const-string v2, "ucar_my_car" // string@c313
+221676: 6e20 d309 2500                         |007d: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22167c: 0c02                                   |0080: move-result-object v2
+22167e: 1f02 9602                              |0081: check-cast v2, Landroidx/preference/PreferenceCategory; // type@0296
+221682: 5b52 4cce                              |0083: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.U:Landroidx/preference/PreferenceCategory; // field@ce4c
+221686: 6e10 8835 0500                         |0085: invoke-virtual {v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.p1:()V // method@3588
+22168c: 1a02 1cc3                              |0088: const-string v2, "ucar_priority_connection" // string@c31c
+221690: 6e20 d309 2500                         |008a: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221696: 0c02                                   |008d: move-result-object v2
+221698: 1f02 e617                              |008e: check-cast v2, Lmiuix/preference/DropDownPreference; // type@17e6
+22169c: 5b52 4dce                              |0090: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.V:Lmiuix/preference/DropDownPreference; // field@ce4d
+2216a0: 3802 2400                              |0092: if-eqz v2, 00b6 // +0024
+2216a4: 6002 e3ab                              |0094: sget v2, Lcom/carwith/launcher/R$string;.ucar_mov_screen_text:I // field@abe3
+2216a8: 6e20 4a09 2500                         |0096: invoke-virtual {v5, v2}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@094a
+2216ae: 0c02                                   |0099: move-result-object v2
+2216b0: 6003 24a4                              |009a: sget v3, Lcom/carwith/launcher/R$string;.baidu_carlife_text:I // field@a424
+2216b4: 6e20 4a09 3500                         |009c: invoke-virtual {v5, v3}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@094a
+2216ba: 0c03                                   |009f: move-result-object v3
+2216bc: 1224                                   |00a0: const/4 v4, #int 2 // #2
+2216be: 2344 8b1b                              |00a1: new-array v4, v4, [Ljava/lang/CharSequence; // type@1b8b
+2216c2: 4d02 0400                              |00a3: aput-object v2, v4, v0
+2216c6: 4d03 0401                              |00a5: aput-object v3, v4, v1
+2216ca: 5452 4dce                              |00a7: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.V:Lmiuix/preference/DropDownPreference; // field@ce4d
+2216ce: 6e20 3397 4200                         |00a9: invoke-virtual {v2, v4}, Lmiuix/preference/DropDownPreference;.setEntries:([Ljava/lang/CharSequence;)V // method@9733
+2216d4: 5452 4dce                              |00ac: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.V:Lmiuix/preference/DropDownPreference; // field@ce4d
+2216d8: 6e20 3597 4200                         |00ae: invoke-virtual {v2, v4}, Lmiuix/preference/DropDownPreference;.setEntryValues:([Ljava/lang/CharSequence;)V // method@9735
+2216de: 5452 4dce                              |00b1: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.V:Lmiuix/preference/DropDownPreference; // field@ce4d
+2216e2: 6e20 cf09 0200                         |00b3: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+2216e8: 1a02 53c3                              |00b6: const-string v2, "ucar_support_type" // string@c353
+2216ec: 6e20 d309 2500                         |00b8: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2216f2: 0c02                                   |00bb: move-result-object v2
+2216f4: 1f02 eb17                              |00bc: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+2216f8: 5b52 4ece                              |00be: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.W:Lmiuix/preference/TextPreference; // field@ce4e
+2216fc: 3802 0500                              |00c0: if-eqz v2, 00c5 // +0005
+221700: 6e20 c909 5200                         |00c2: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221706: 1a02 48c3                              |00c5: const-string v2, "ucar_service_feedback" // string@c348
+22170a: 6e20 d309 2500                         |00c7: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221710: 0c02                                   |00ca: move-result-object v2
+221712: 1f02 eb17                              |00cb: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+221716: 5b52 4fce                              |00cd: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.X:Lmiuix/preference/TextPreference; // field@ce4f
+22171a: 3802 0500                              |00cf: if-eqz v2, 00d4 // +0005
+22171e: 6e20 c909 5200                         |00d1: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221724: 1a02 8bc2                              |00d4: const-string v2, "ucar_check_update" // string@c28b
+221728: 6e20 d309 2500                         |00d6: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22172e: 0c02                                   |00d9: move-result-object v2
+221730: 1f02 2c0b                              |00da: check-cast v2, Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference; // type@0b2c
+221734: 5b52 50ce                              |00dc: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Y:Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference; // field@ce50
+221738: 3802 1c00                              |00de: if-eqz v2, 00fa // +001c
+22173c: 2203 950a                              |00e0: new-instance v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$p; // type@0a95
+221740: 7020 5135 5300                         |00e2: invoke-direct {v3, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$p;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3551
+221746: 6e20 c909 3200                         |00e5: invoke-virtual {v2, v3}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+22174c: 7100 750c 0000                         |00e8: invoke-static {}, Lcom/carwith/common/BaseApplication;.c:()Landroid/content/Context; // method@0c75
+221752: 0c02                                   |00eb: move-result-object v2
+221754: 7110 070e 0200                         |00ec: invoke-static {v2}, Lcom/carwith/common/utils/n;.n:(Landroid/content/Context;)Ljava/lang/String; // method@0e07
+22175a: 0c02                                   |00ef: move-result-object v2
+22175c: 5453 50ce                              |00f0: iget-object v3, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Y:Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference; // field@ce50
+221760: 6e20 cc09 2300                         |00f2: invoke-virtual {v3, v2}, Landroidx/preference/Preference;.setSummary:(Ljava/lang/CharSequence;)V // method@09cc
+221766: 5452 50ce                              |00f5: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Y:Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference; // field@ce50
+22176a: 6e20 af38 0200                         |00f7: invoke-virtual {v2, v0}, Lcom/carwith/launcher/settings/phone/preference/CheckUpdatePreference;.r:(Z)V // method@38af
+221770: 1a02 5fc3                              |00fa: const-string v2, "ucar_user_agreement" // string@c35f
+221774: 6e20 d309 2500                         |00fc: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22177a: 0c02                                   |00ff: move-result-object v2
+22177c: 1f02 eb17                              |0100: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+221780: 5b52 51ce                              |0102: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Z:Lmiuix/preference/TextPreference; // field@ce51
+221784: 3802 0500                              |0104: if-eqz v2, 0109 // +0005
+221788: 6e20 c909 5200                         |0106: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+22178e: 1a02 26c3                              |0109: const-string v2, "ucar_privacy_policy" // string@c326
+221792: 6e20 d309 2500                         |010b: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221798: 0c02                                   |010e: move-result-object v2
+22179a: 1f02 eb17                              |010f: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+22179e: 5b52 52ce                              |0111: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.a0:Lmiuix/preference/TextPreference; // field@ce52
+2217a2: 3802 0500                              |0113: if-eqz v2, 0118 // +0005
+2217a6: 6e20 c909 5200                         |0115: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+2217ac: 1a02 25c3                              |0118: const-string v2, "ucar_privacy_permission" // string@c325
+2217b0: 6e20 d309 2500                         |011a: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2217b6: 0c02                                   |011d: move-result-object v2
+2217b8: 1f02 eb17                              |011e: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+2217bc: 5b52 53ce                              |0120: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.b0:Lmiuix/preference/TextPreference; // field@ce53
+2217c0: 3802 0500                              |0122: if-eqz v2, 0127 // +0005
+2217c4: 6e20 c909 5200                         |0124: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+2217ca: 1a02 76c4                              |0127: const-string v2, "user_photo_collection" // string@c476
+2217ce: 6e20 d309 2500                         |0129: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2217d4: 0c02                                   |012c: move-result-object v2
+2217d6: 1f02 eb17                              |012d: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+2217da: 3802 0a00                              |012f: if-eqz v2, 0139 // +000a
+2217de: 2203 960a                              |0131: new-instance v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$q; // type@0a96
+2217e2: 7020 5435 5300                         |0133: invoke-direct {v3, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$q;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3554
+2217e8: 6e20 c909 3200                         |0136: invoke-virtual {v2, v3}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+2217ee: 1a02 e8a7                              |0139: const-string v2, "phone_driving_mode" // string@a7e8
+2217f2: 6e20 d309 2500                         |013b: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2217f8: 0c02                                   |013e: move-result-object v2
+2217fa: 1f02 eb17                              |013f: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+2217fe: 3802 0a00                              |0141: if-eqz v2, 014b // +000a
+221802: 2203 970a                              |0143: new-instance v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$r; // type@0a97
+221806: 7020 5635 5300                         |0145: invoke-direct {v3, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$r;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3556
+22180c: 6e20 c909 3200                         |0148: invoke-virtual {v2, v3}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221812: 1a02 a39e                              |014b: const-string v2, "notice_circulation" // string@9ea3
+221816: 6e20 d309 2500                         |014d: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22181c: 0c02                                   |0150: move-result-object v2
+22181e: 1f02 eb17                              |0151: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+221822: 5b52 56ce                              |0153: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.e0:Lmiuix/preference/TextPreference; // field@ce56
+221826: 3802 0500                              |0155: if-eqz v2, 015a // +0005
+22182a: 6e20 c909 5200                         |0157: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221830: 1a02 61b6                              |015a: const-string v2, "shake_location_item" // string@b661
+221834: 6e20 d309 2500                         |015c: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22183a: 0c02                                   |015f: move-result-object v2
+22183c: 1f02 eb17                              |0160: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+221840: 5b52 58ce                              |0162: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.g0:Lmiuix/preference/TextPreference; // field@ce58
+221844: 3802 1d00                              |0164: if-eqz v2, 0181 // +001d
+221848: 6e20 c909 5200                         |0166: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+22184e: 6002 ce00                              |0169: sget v2, Landroid/os/Build$VERSION;.SDK_INT:I // field@00ce
+221852: 1303 2200                              |016b: const/16 v3, #int 34 // #22
+221856: 3532 0f00                              |016d: if-ge v2, v3, 017c // +000f
+22185a: 1a02 464d                              |016f: const-string v2, "UCarScreenSettingsFragment" // string@4d46
+22185e: 1a03 8e55                              |0171: const-string v3, "[screenshotU] Android U or above is required for screenshotU method." // string@558e
+221862: 7120 7b0e 3200                         |0173: invoke-static {v2, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7b
+221868: 5452 58ce                              |0176: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.g0:Lmiuix/preference/TextPreference; // field@ce58
+22186c: 6e20 cf09 0200                         |0178: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221872: 2806                                   |017b: goto 0181 // +0006
+221874: 5452 58ce                              |017c: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.g0:Lmiuix/preference/TextPreference; // field@ce58
+221878: 6e20 cf09 1200                         |017e: invoke-virtual {v2, v1}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+22187e: 1a02 66b0                              |0181: const-string v2, "screen_shot_switch" // string@b066
+221882: 6e20 d309 2500                         |0183: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221888: 0c02                                   |0186: move-result-object v2
+22188a: 1f02 e417                              |0187: check-cast v2, Lmiuix/preference/CheckBoxPreference; // type@17e4
+22188e: 5b52 4bce                              |0189: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.T:Lmiuix/preference/CheckBoxPreference; // field@ce4b
+221892: 3802 1700                              |018b: if-eqz v2, 01a2 // +0017
+221896: 7100 8c9e 0000                         |018d: invoke-static {}, Ls5/f;.h:()Ls5/f; // method@9e8c
+22189c: 0c03                                   |0190: move-result-object v3
+22189e: 6e10 909e 0300                         |0191: invoke-virtual {v3}, Ls5/f;.l:()Z // method@9e90
+2218a4: 0a03                                   |0194: move-result v3
+2218a6: 6e20 e709 3200                         |0195: invoke-virtual {v2, v3}, Landroidx/preference/TwoStatePreference;.setChecked:(Z)V // method@09e7
+2218ac: 5452 4bce                              |0198: iget-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.T:Lmiuix/preference/CheckBoxPreference; // field@ce4b
+2218b0: 2203 000b                              |019a: new-instance v3, Lcom/carwith/launcher/settings/phone/g1; // type@0b00
+2218b4: 7020 3438 5300                         |019c: invoke-direct {v3, v5}, Lcom/carwith/launcher/settings/phone/g1;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3834
+2218ba: 6e20 c809 3200                         |019f: invoke-virtual {v2, v3}, Landroidx/preference/Preference;.setOnPreferenceChangeListener:(Landroidx/preference/Preference$OnPreferenceChangeListener;)V // method@09c8
+2218c0: 1a02 73c4                              |01a2: const-string v2, "user_custom_wallpaper" // string@c473
+2218c4: 6e20 d309 2500                         |01a4: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2218ca: 0c02                                   |01a7: move-result-object v2
+2218cc: 1f02 eb17                              |01a8: check-cast v2, Lmiuix/preference/TextPreference; // type@17eb
+2218d0: 5b52 57ce                              |01aa: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.f0:Lmiuix/preference/TextPreference; // field@ce57
+2218d4: 3802 0500                              |01ac: if-eqz v2, 01b1 // +0005
+2218d8: 6e20 c909 5200                         |01ae: invoke-virtual {v2, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+2218de: 1a02 5965                              |01b1: const-string v2, "carlife_connect" // string@6559
+2218e2: 6e20 d309 2500                         |01b3: invoke-virtual {v5, v2}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+2218e8: 0c02                                   |01b6: move-result-object v2
+2218ea: 1f02 d70b                              |01b7: check-cast v2, Lcom/carwith/launcher/view/LoadingTextPreference; // type@0bd7
+2218ee: 5b52 54ce                              |01b9: iput-object v2, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+2218f2: 3802 1400                              |01bb: if-eqz v2, 01cf // +0014
+2218f6: 6003 ce00                              |01bd: sget v3, Landroid/os/Build$VERSION;.SDK_INT:I // field@00ce
+2218fa: 1304 2100                              |01bf: const/16 v4, #int 33 // #21
+2218fe: 3443 0b00                              |01c1: if-lt v3, v4, 01cc // +000b
+221902: 6e20 cf09 1200                         |01c3: invoke-virtual {v2, v1}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221908: 5450 54ce                              |01c6: iget-object v0, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+22190c: 6e20 c909 5000                         |01c8: invoke-virtual {v0, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221912: 2804                                   |01cb: goto 01cf // +0004
+221914: 6e20 cf09 0200                         |01cc: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+22191a: 1a00 15c9                              |01cf: const-string v0, "yi_lian_connect" // string@c915
+22191e: 6e20 d309 0500                         |01d1: invoke-virtual {v5, v0}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+221924: 0c00                                   |01d4: move-result-object v0
+221926: 1f00 d70b                              |01d5: check-cast v0, Lcom/carwith/launcher/view/LoadingTextPreference; // type@0bd7
+22192a: 5b50 55ce                              |01d7: iput-object v0, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.d0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce55
+22192e: 3800 0500                              |01d9: if-eqz v0, 01de // +0005
+221932: 6e20 c909 5000                         |01db: invoke-virtual {v0, v5}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+221938: 1a00 766a                              |01de: const-string v0, "connectStatus" // string@6a76
+22193c: 7110 ec0b 0000                         |01e0: invoke-static {v0}, Lcc/a;.b:(Ljava/lang/String;)Lcom/thkj/liveeventbus/core/b; // method@0bec
+221942: 0c00                                   |01e3: move-result-object v0
+221944: 2201 030b                              |01e4: new-instance v1, Lcom/carwith/launcher/settings/phone/h1; // type@0b03
+221948: 7020 3a38 5100                         |01e6: invoke-direct {v1, v5}, Lcom/carwith/launcher/settings/phone/h1;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@383a
+22194e: 7230 1c79 5001                         |01e9: invoke-interface {v0, v5, v1}, Lcom/thkj/liveeventbus/core/b;.d:(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V // method@791c
+221954: 1a00 08c3                              |01ec: const-string v0, "ucar_log_switch" // string@c308
+221958: 6e20 d309 0500                         |01ee: invoke-virtual {v5, v0}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+22195e: 0c00                                   |01f1: move-result-object v0
+221960: 1f00 e417                              |01f2: check-cast v0, Lmiuix/preference/CheckBoxPreference; // type@17e4
+221964: 5b50 5ace                              |01f4: iput-object v0, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.i0:Lmiuix/preference/CheckBoxPreference; // field@ce5a
+221968: 3800 1800                              |01f6: if-eqz v0, 020e // +0018
+22196c: 6e20 7b35 0500                         |01f8: invoke-virtual {v5, v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.i1:(Lmiuix/preference/CheckBoxPreference;)V // method@357b
+221972: 5450 5ace                              |01fb: iget-object v0, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.i0:Lmiuix/preference/CheckBoxPreference; // field@ce5a
+221976: 7100 7d0e 0000                         |01fd: invoke-static {}, Lcom/carwith/common/utils/w1;.l:()Z // method@0e7d
+22197c: 0a01                                   |0200: move-result v1
+22197e: 6e20 c409 1000                         |0201: invoke-virtual {v0, v1}, Landroidx/preference/Preference;.setEnabled:(Z)V // method@09c4
+221984: 5450 5ace                              |0204: iget-object v0, v5, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.i0:Lmiuix/preference/CheckBoxPreference; // field@ce5a
+221988: 2201 990a                              |0206: new-instance v1, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$s; // type@0a99
+22198c: 7020 5a35 5100                         |0208: invoke-direct {v1, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$s;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@355a
+221992: 6e20 c809 1000                         |020b: invoke-virtual {v0, v1}, Landroidx/preference/Preference;.setOnPreferenceChangeListener:(Landroidx/preference/Preference$OnPreferenceChangeListener;)V // method@09c8
+221998: 1a00 ce5a                              |020e: const-string v0, "action.phone.settings.connect_switch" // string@5ace
+22199c: 1c01 a814                              |0210: const-class v1, Ljava/lang/String; // type@14a8
+2219a0: 7120 ed0b 1000                         |0212: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@0bed
+2219a6: 0c00                                   |0215: move-result-object v0
+2219a8: 2202 9a0a                              |0216: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$t; // type@0a9a
+2219ac: 7020 5e35 5200                         |0218: invoke-direct {v2, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$t;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@355e
+2219b2: 7230 1f79 5002                         |021b: invoke-interface {v0, v5, v2}, Lcom/thkj/liveeventbus/core/b;.g:(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V // method@791f
+2219b8: 1a00 cd5a                              |021e: const-string v0, "action.phone.settings.connect_state_change" // string@5acd
+2219bc: 7120 ed0b 1000                         |0220: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@0bed
+2219c2: 0c00                                   |0223: move-result-object v0
+2219c4: 2202 860a                              |0224: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$a; // type@0a86
+2219c8: 7020 3135 5200                         |0226: invoke-direct {v2, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$a;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3531
+2219ce: 7230 1c79 5002                         |0229: invoke-interface {v0, v5, v2}, Lcom/thkj/liveeventbus/core/b;.d:(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V // method@791c
+2219d4: 1a00 7b6a                              |022c: const-string v0, "connect_state" // string@6a7b
+2219d8: 7120 ed0b 1000                         |022e: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@0bed
+2219de: 0c00                                   |0231: move-result-object v0
+2219e0: 2201 870a                              |0232: new-instance v1, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$b; // type@0a87
+2219e4: 7020 3435 5100                         |0234: invoke-direct {v1, v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$b;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3534
+2219ea: 7230 1c79 5001                         |0237: invoke-interface {v0, v5, v1}, Lcom/thkj/liveeventbus/core/b;.d:(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V // method@791c
+2219f0: 0e00                                   |023a: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'i1'
+      type          : '(Lmiuix/preference/CheckBoxPreference;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 2
+      outs          : 3
+      insns size    : 85 16-bit code units
+2219f4:                                        |[2219f4] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.i1:(Lmiuix/preference/CheckBoxPreference;)V
+221a04: 7100 580c 0000                         |0000: invoke-static {}, Lcom/blankj/utilcode/util/r;.a:()Landroid/app/Application; // method@0c58
+221a0a: 0c05                                   |0003: move-result-object v5
+221a0c: 6e10 6a01 0500                         |0004: invoke-virtual {v5}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@016a
+221a12: 0c05                                   |0007: move-result-object v5
+221a14: 1a00 f9c2                              |0008: const-string v0, "ucar_file_logging" // string@c2f9
+221a18: 7120 b704 0500                         |000a: invoke-static {v5, v0}, Landroid/provider/Settings$Global;.getString:(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String; // method@04b7
+221a1e: 0c05                                   |000d: move-result-object v5
+221a20: 1a01 7e9f                              |000e: const-string v1, "on" // string@9f7e
+221a24: 7120 2805 1500                         |0010: invoke-static {v5, v1}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+221a2a: 0a05                                   |0013: move-result v5
+221a2c: 7100 580c 0000                         |0014: invoke-static {}, Lcom/blankj/utilcode/util/r;.a:()Landroid/app/Application; // method@0c58
+221a32: 0c02                                   |0017: move-result-object v2
+221a34: 6e10 6401 0200                         |0018: invoke-virtual {v2}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@0164
+221a3a: 0c02                                   |001b: move-result-object v2
+221a3c: 1203                                   |001c: const/4 v3, #int 0 // #0
+221a3e: 6e30 7101 0203                         |001d: invoke-virtual {v2, v0, v3}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+221a44: 0c00                                   |0020: move-result-object v0
+221a46: 1a02 55c3                              |0021: const-string v2, "ucar_switch_log" // string@c355
+221a4a: 1a04 5d9f                              |0023: const-string v4, "off" // string@9f5d
+221a4e: 7230 d001 2004                         |0025: invoke-interface {v0, v2, v4}, Landroid/content/SharedPreferences;.getString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@01d0
+221a54: 0c00                                   |0028: move-result-object v0
+221a56: 7120 2805 1000                         |0029: invoke-static {v0, v1}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+221a5c: 0a00                                   |002c: move-result v0
+221a5e: 3905 0400                              |002d: if-nez v5, 0031 // +0004
+221a62: 3800 0300                              |002f: if-eqz v0, 0032 // +0003
+221a66: 1213                                   |0031: const/4 v3, #int 1 // #1
+221a68: 6e20 e709 3600                         |0032: invoke-virtual {v6, v3}, Landroidx/preference/TwoStatePreference;.setChecked:(Z)V // method@09e7
+221a6e: 7100 7e0e 0000                         |0035: invoke-static {}, Lcom/carwith/common/utils/w1;.m:()Z // method@0e7e
+221a74: 0a05                                   |0038: move-result v5
+221a76: 3235 0500                              |0039: if-eq v5, v3, 003e // +0005
+221a7a: 7100 810e 0000                         |003b: invoke-static {}, Lcom/carwith/common/utils/w1;.s:()V // method@0e81
+221a80: 2205 aa14                              |003e: new-instance v5, Ljava/lang/StringBuilder; // type@14aa
+221a84: 7010 e381 0500                         |0040: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+221a8a: 1a06 1c88                              |0043: const-string v6, "log status : " // string@881c
+221a8e: 6e20 ee81 6500                         |0045: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221a94: 6e20 ef81 3500                         |0048: invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+221a9a: 6e10 fd81 0500                         |004b: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+221aa0: 0c05                                   |004e: move-result-object v5
+221aa2: 1a06 464d                              |004f: const-string v6, "UCarScreenSettingsFragment" // string@4d46
+221aa6: 7120 790e 5600                         |0051: invoke-static {v6, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221aac: 0e00                                   |0054: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'j1'
+      type          : '(Landroidx/preference/Preference;Ljava/lang/Object;)Z'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 50 16-bit code units
+220d9c:                                        |[220d9c] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.j1:(Landroidx/preference/Preference;Ljava/lang/Object;)Z
+220dac: 1f02 7a14                              |0000: check-cast v2, Ljava/lang/Boolean; // type@147a
+220db0: 7100 8c9e 0000                         |0002: invoke-static {}, Ls5/f;.h:()Ls5/f; // method@9e8c
+220db6: 0c01                                   |0005: move-result-object v1
+220db8: 6e10 e480 0200                         |0006: invoke-virtual {v2}, Ljava/lang/Boolean;.booleanValue:()Z // method@80e4
+220dbe: 0a02                                   |0009: move-result v2
+220dc0: 6e20 959e 2100                         |000a: invoke-virtual {v1, v2}, Ls5/f;.q:(Z)V // method@9e95
+220dc6: 6e10 4409 0000                         |000d: invoke-virtual {v0}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220dcc: 0c01                                   |0010: move-result-object v1
+220dce: 7110 a978 0100                         |0011: invoke-static {v1}, Lcom/miui/carlink/castfwk/m0;.l:(Landroid/content/Context;)Lcom/miui/carlink/castfwk/m0; // method@78a9
+220dd4: 0c01                                   |0014: move-result-object v1
+220dd6: 6e10 ab78 0100                         |0015: invoke-virtual {v1}, Lcom/miui/carlink/castfwk/m0;.o:()Z // method@78ab
+220ddc: 0a02                                   |0018: move-result v2
+220dde: 3902 0e00                              |0019: if-nez v2, 0027 // +000e
+220de2: 7100 6b78 0000                         |001b: invoke-static {}, Lcom/miui/carlink/castfwk/c0;.g:()Lcom/miui/carlink/castfwk/c0; // method@786b
+220de8: 0c01                                   |001e: move-result-object v1
+220dea: 6e10 4409 0000                         |001f: invoke-virtual {v0}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220df0: 0c00                                   |0022: move-result-object v0
+220df2: 6e20 6d78 0100                         |0023: invoke-virtual {v1, v0}, Lcom/miui/carlink/castfwk/c0;.k:(Landroid/content/Context;)V // method@786d
+220df8: 280a                                   |0026: goto 0030 // +000a
+220dfa: 7100 b30d 0000                         |0027: invoke-static {}, Lcom/carwith/common/utils/h0;.h:()Z // method@0db3
+220e00: 0a00                                   |002a: move-result v0
+220e02: 3900 0500                              |002b: if-nez v0, 0030 // +0005
+220e06: 6e10 aa78 0100                         |002d: invoke-virtual {v1}, Lcom/miui/carlink/castfwk/m0;.m:()V // method@78aa
+220e0c: 1210                                   |0030: const/4 v0, #int 1 // #1
+220e0e: 0f00                                   |0031: return v0
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'k1'
+      type          : '(Ljava/lang/Object;)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 94 16-bit code units
+221ab0:                                        |[221ab0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.k1:(Ljava/lang/Object;)V
+221ac0: 1a00 40ba                              |0000: const-string v0, "startConnecting" // string@ba40
+221ac4: 6e20 8e81 0300                         |0002: invoke-virtual {v3, v0}, Ljava/lang/Object;.equals:(Ljava/lang/Object;)Z // method@818e
+221aca: 0a03                                   |0005: move-result v3
+221acc: 3803 3800                              |0006: if-eqz v3, 003e // +0038
+221ad0: 7100 b10d 0000                         |0008: invoke-static {}, Lcom/carwith/common/utils/h0;.d:()Z // method@0db1
+221ad6: 0a03                                   |000b: move-result v3
+221ad8: 1210                                   |000c: const/4 v0, #int 1 // #1
+221ada: 3803 1600                              |000d: if-eqz v3, 0023 // +0016
+221ade: 5423 54ce                              |000f: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+221ae2: 3803 1200                              |0011: if-eqz v3, 0023 // +0012
+221ae6: 5c20 5dce                              |0013: iput-boolean v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.l0:Z // field@ce5d
+221aea: 6001 bfa6                              |0015: sget v1, Lcom/carwith/launcher/R$string;.loading_status_text:I // field@a6bf
+221aee: 6e20 4a09 1200                         |0017: invoke-virtual {v2, v1}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@094a
+221af4: 0c01                                   |001a: move-result-object v1
+221af6: 6e20 4897 1300                         |001b: invoke-virtual {v3, v1}, Lmiuix/preference/TextPreference;.setText:(Ljava/lang/String;)V // method@9748
+221afc: 5423 54ce                              |001e: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+221b00: 6e20 4c3c 0300                         |0020: invoke-virtual {v3, v0}, Lcom/carwith/launcher/view/LoadingTextPreference;.r:(I)V // method@3c4c
+221b06: 7100 b40d 0000                         |0023: invoke-static {}, Lcom/carwith/common/utils/h0;.j:()Z // method@0db4
+221b0c: 0a03                                   |0026: move-result v3
+221b0e: 3803 3600                              |0027: if-eqz v3, 005d // +0036
+221b12: 5423 55ce                              |0029: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.d0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce55
+221b16: 3803 3200                              |002b: if-eqz v3, 005d // +0032
+221b1a: 5c20 5ece                              |002d: iput-boolean v0, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.m0:Z // field@ce5e
+221b1e: 6001 bfa6                              |002f: sget v1, Lcom/carwith/launcher/R$string;.loading_status_text:I // field@a6bf
+221b22: 6e20 4a09 1200                         |0031: invoke-virtual {v2, v1}, Landroidx/fragment/app/Fragment;.getString:(I)Ljava/lang/String; // method@094a
+221b28: 0c01                                   |0034: move-result-object v1
+221b2a: 6e20 4897 1300                         |0035: invoke-virtual {v3, v1}, Lmiuix/preference/TextPreference;.setText:(Ljava/lang/String;)V // method@9748
+221b30: 5422 55ce                              |0038: iget-object v2, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.d0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce55
+221b34: 6e20 4c3c 0200                         |003a: invoke-virtual {v2, v0}, Lcom/carwith/launcher/view/LoadingTextPreference;.r:(I)V // method@3c4c
+221b3a: 2820                                   |003d: goto 005d // +0020
+221b3c: 5423 54ce                              |003e: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+221b40: 1a00 0000                              |0040: const-string v0, "" // string@0000
+221b44: 1201                                   |0042: const/4 v1, #int 0 // #0
+221b46: 3803 0a00                              |0043: if-eqz v3, 004d // +000a
+221b4a: 6e20 4897 0300                         |0045: invoke-virtual {v3, v0}, Lmiuix/preference/TextPreference;.setText:(Ljava/lang/String;)V // method@9748
+221b50: 5423 54ce                              |0048: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.c0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce54
+221b54: 6e20 4c3c 1300                         |004a: invoke-virtual {v3, v1}, Lcom/carwith/launcher/view/LoadingTextPreference;.r:(I)V // method@3c4c
+221b5a: 5423 55ce                              |004d: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.d0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce55
+221b5e: 3803 0a00                              |004f: if-eqz v3, 0059 // +000a
+221b62: 6e20 4897 0300                         |0051: invoke-virtual {v3, v0}, Lmiuix/preference/TextPreference;.setText:(Ljava/lang/String;)V // method@9748
+221b68: 5423 55ce                              |0054: iget-object v3, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.d0:Lcom/carwith/launcher/view/LoadingTextPreference; // field@ce55
+221b6c: 6e20 4c3c 1300                         |0056: invoke-virtual {v3, v1}, Lcom/carwith/launcher/view/LoadingTextPreference;.r:(I)V // method@3c4c
+221b72: 5c21 5dce                              |0059: iput-boolean v1, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.l0:Z // field@ce5d
+221b76: 5c21 5ece                              |005b: iput-boolean v1, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.m0:Z // field@ce5e
+221b7a: 0e00                                   |005d: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'l1'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 4
+      insns size    : 165 16-bit code units
+221b7c:                                        |[221b7c] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.l1:(Landroid/content/Context;)V
+221b8c: 7100 059f 0000                         |0000: invoke-static {}, Lt2/d;.f:()Lt2/d; // method@9f05
+221b92: 0c00                                   |0003: move-result-object v0
+221b94: 6e10 089f 0000                         |0004: invoke-virtual {v0}, Lt2/d;.l:()Ljava/util/List; // method@9f08
+221b9a: 0c00                                   |0007: move-result-object v0
+221b9c: 3900 0700                              |0008: if-nez v0, 000f // +0007
+221ba0: 2200 0415                              |000a: new-instance v0, Ljava/util/ArrayList; // type@1504
+221ba4: 7010 2283 0000                         |000c: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@8322
+221baa: 2201 1215                              |000f: new-instance v1, Ljava/util/HashMap; // type@1512
+221bae: 7010 a083 0100                         |0011: invoke-direct {v1}, Ljava/util/HashMap;.<init>:()V // method@83a0
+221bb4: 7210 df83 0000                         |0014: invoke-interface {v0}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@83df
+221bba: 0c02                                   |0017: move-result-object v2
+221bbc: 7210 bc83 0200                         |0018: invoke-interface {v2}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+221bc2: 0a03                                   |001b: move-result v3
+221bc4: 3803 7600                              |001c: if-eqz v3, 0092 // +0076
+221bc8: 7210 bd83 0200                         |001e: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+221bce: 0c03                                   |0021: move-result-object v3
+221bd0: 1f03 e513                              |0022: check-cast v3, Lh2/a; // type@13e5
+221bd4: 6e10 e27c 0300                         |0024: invoke-virtual {v3}, Lh2/a;.b:()I // method@7ce2
+221bda: 0a04                                   |0027: move-result v4
+221bdc: 1215                                   |0028: const/4 v5, #int 1 // #1
+221bde: 1a06 464d                              |0029: const-string v6, "UCarScreenSettingsFragment" // string@4d46
+221be2: 3354 5400                              |002b: if-ne v4, v5, 007f // +0054
+221be6: 6e10 6a01 0900                         |002d: invoke-virtual {v9}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@016a
+221bec: 0c04                                   |0030: move-result-object v4
+221bee: 1a05 88c2                              |0031: const-string v5, "ucar_casting_state" // string@c288
+221bf2: 1207                                   |0033: const/4 v7, #int 0 // #0
+221bf4: 7130 b604 5407                         |0034: invoke-static {v4, v5, v7}, Landroid/provider/Settings$Global;.getInt:(Landroid/content/ContentResolver;Ljava/lang/String;I)I // method@04b6
+221bfa: 0a04                                   |0037: move-result v4
+221bfc: 7100 217d 0000                         |0038: invoke-static {}, Lha/b;.c:()Lha/b; // method@7d21
+221c02: 0c05                                   |003b: move-result-object v5
+221c04: 6e10 247d 0500                         |003c: invoke-virtual {v5}, Lha/b;.f:()Z // method@7d24
+221c0a: 0a05                                   |003f: move-result v5
+221c0c: 3904 1b00                              |0040: if-nez v4, 005b // +001b
+221c10: 3905 1900                              |0042: if-nez v5, 005b // +0019
+221c14: 7100 059f 0000                         |0044: invoke-static {}, Lt2/d;.f:()Lt2/d; // method@9f05
+221c1a: 0c04                                   |0047: move-result-object v4
+221c1c: 6e10 e57c 0300                         |0048: invoke-virtual {v3}, Lh2/a;.e:()Ljava/lang/String; // method@7ce5
+221c22: 0c05                                   |004b: move-result-object v5
+221c24: 6e30 0b9f 5407                         |004c: invoke-virtual {v4, v5, v7}, Lt2/d;.p:(Ljava/lang/String;I)V // method@9f0b
+221c2a: 6004 d8ab                              |004f: sget v4, Lcom/carwith/launcher/R$string;.ucar_has_disconnected_text:I // field@abd8
+221c2e: 6e20 7201 4900                         |0051: invoke-virtual {v9, v4}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@0172
+221c34: 0c04                                   |0054: move-result-object v4
+221c36: 1a05 6270                              |0055: const-string v5, "disconnected : Settings.Global.getInt = 0" // string@7062
+221c3a: 7120 790e 5600                         |0057: invoke-static {v6, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221c40: 2830                                   |005a: goto 008a // +0030
+221c42: 6004 84ab                              |005b: sget v4, Lcom/carwith/launcher/R$string;.ucar_casting_text:I // field@ab84
+221c46: 6e20 7201 4900                         |005d: invoke-virtual {v9, v4}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@0172
+221c4c: 0c04                                   |0060: move-result-object v4
+221c4e: 2205 aa14                              |0061: new-instance v5, Ljava/lang/StringBuilder; // type@14aa
+221c52: 7010 e381 0500                         |0063: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+221c58: 1a07 b665                              |0066: const-string v7, "casting : deviceName : " // string@65b6
+221c5c: 6e20 ee81 7500                         |0068: invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221c62: 6e10 e67c 0300                         |006b: invoke-virtual {v3}, Lh2/a;.f:()Ljava/lang/String; // method@7ce6
+221c68: 0c07                                   |006e: move-result-object v7
+221c6a: 6e20 ee81 7500                         |006f: invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221c70: 1a07 e503                              |0072: const-string v7, "..." // string@03e5
+221c74: 6e20 ee81 7500                         |0074: invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221c7a: 6e10 fd81 0500                         |0077: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+221c80: 0c05                                   |007a: move-result-object v5
+221c82: 7120 790e 5600                         |007b: invoke-static {v6, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221c88: 280c                                   |007e: goto 008a // +000c
+221c8a: 6004 d8ab                              |007f: sget v4, Lcom/carwith/launcher/R$string;.ucar_has_disconnected_text:I // field@abd8
+221c8e: 6e20 7201 4900                         |0081: invoke-virtual {v9, v4}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@0172
+221c94: 0c04                                   |0084: move-result-object v4
+221c96: 1a05 6170                              |0085: const-string v5, "disconnected : CarLinkDeviceEntity.STATE_CASTING" // string@7061
+221c9a: 7120 790e 5600                         |0087: invoke-static {v6, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221ca0: 6e10 e57c 0300                         |008a: invoke-virtual {v3}, Lh2/a;.e:()Ljava/lang/String; // method@7ce5
+221ca6: 0c03                                   |008d: move-result-object v3
+221ca8: 7230 0284 3104                         |008e: invoke-interface {v1, v3, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+221cae: 2887                                   |0091: goto 0018 // -0079
+221cb0: 6e10 4109 0800                         |0092: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+221cb6: 0c09                                   |0095: move-result-object v9
+221cb8: 3809 0e00                              |0096: if-eqz v9, 00a4 // +000e
+221cbc: 6e10 4109 0800                         |0098: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+221cc2: 0c09                                   |009b: move-result-object v9
+221cc4: 2202 8a0a                              |009c: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$e; // type@0a8a
+221cc8: 7040 3b35 8210                         |009e: invoke-direct {v2, v8, v0, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$e;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/util/List;Ljava/util/Map;)V // method@353b
+221cce: 6e20 e700 2900                         |00a1: invoke-virtual {v9, v2}, Landroid/app/Activity;.runOnUiThread:(Ljava/lang/Runnable;)V // method@00e7
+221cd4: 0e00                                   |00a4: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'm1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 92 16-bit code units
+221cd8:                                        |[221cd8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.m1:()V
+221ce8: 7100 ba0d 0000                         |0000: invoke-static {}, Lcom/carwith/common/utils/h0;.r:()Z // method@0dba
+221cee: 0a00                                   |0003: move-result v0
+221cf0: 1a01 464d                              |0004: const-string v1, "UCarScreenSettingsFragment" // string@4d46
+221cf4: 3900 2600                              |0006: if-nez v0, 002c // +0026
+221cf8: 1a00 a738                              |0008: const-string v0, "LocalReceiver onReceive not casting" // string@38a7
+221cfc: 7120 790e 0100                         |000a: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221d02: 5430 57ce                              |000d: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.f0:Lmiuix/preference/TextPreference; // field@ce57
+221d06: 1211                                   |000f: const/4 v1, #int 1 // #1
+221d08: 3800 0500                              |0010: if-eqz v0, 0015 // +0005
+221d0c: 6e20 cf09 1000                         |0012: invoke-virtual {v0, v1}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d12: 5430 4bce                              |0015: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.T:Lmiuix/preference/CheckBoxPreference; // field@ce4b
+221d16: 3800 0500                              |0017: if-eqz v0, 001c // +0005
+221d1a: 6e20 cf09 1000                         |0019: invoke-virtual {v0, v1}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d20: 5430 56ce                              |001c: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.e0:Lmiuix/preference/TextPreference; // field@ce56
+221d24: 3800 0500                              |001e: if-eqz v0, 0023 // +0005
+221d28: 6e20 cf09 1000                         |0020: invoke-virtual {v0, v1}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d2e: 5433 4ace                              |0023: iget-object v3, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221d32: 3803 0600                              |0025: if-eqz v3, 002b // +0006
+221d36: 1200                                   |0027: const/4 v0, #int 0 // #0
+221d38: 6e20 cf09 0300                         |0028: invoke-virtual {v3, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d3e: 0e00                                   |002b: return-void
+221d40: 7100 d30d 0000                         |002c: invoke-static {}, Lcom/carwith/common/utils/i3;.e:()Lcom/carwith/common/utils/i3; // method@0dd3
+221d46: 0c00                                   |002f: move-result-object v0
+221d48: 6e10 d70d 0000                         |0030: invoke-virtual {v0}, Lcom/carwith/common/utils/i3;.m:()Z // method@0dd7
+221d4e: 0a00                                   |0033: move-result v0
+221d50: 5432 57ce                              |0034: iget-object v2, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.f0:Lmiuix/preference/TextPreference; // field@ce57
+221d54: 3802 0600                              |0036: if-eqz v2, 003c // +0006
+221d58: 6e20 cf09 0200                         |0038: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d5e: 2806                                   |003b: goto 0041 // +0006
+221d60: 1a02 1089                              |003c: const-string v2, "mUserCustomWallpaper is null" // string@8910
+221d64: 7120 790e 2100                         |003e: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221d6a: 5432 4bce                              |0041: iget-object v2, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.T:Lmiuix/preference/CheckBoxPreference; // field@ce4b
+221d6e: 3802 0600                              |0043: if-eqz v2, 0049 // +0006
+221d72: 6e20 cf09 0200                         |0045: invoke-virtual {v2, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d78: 2806                                   |0048: goto 004e // +0006
+221d7a: 1a00 0e89                              |0049: const-string v0, "mUcarCaptureScreenSwitch is null" // string@890e
+221d7e: 7120 790e 0100                         |004b: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221d84: 5433 4ace                              |004e: iget-object v3, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.S:Lmiuix/preference/CheckBoxPreference; // field@ce4a
+221d88: 7100 d30d 0000                         |0050: invoke-static {}, Lcom/carwith/common/utils/i3;.e:()Lcom/carwith/common/utils/i3; // method@0dd3
+221d8e: 0c00                                   |0053: move-result-object v0
+221d90: 6e10 d70d 0000                         |0054: invoke-virtual {v0}, Lcom/carwith/common/utils/i3;.m:()Z // method@0dd7
+221d96: 0a00                                   |0057: move-result v0
+221d98: 6e20 cf09 0300                         |0058: invoke-virtual {v3, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+221d9e: 0e00                                   |005b: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'n1'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 22 16-bit code units
+221de0:                                        |[221de0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.n1:()V
+221df0: 1a00 464d                              |0000: const-string v0, "UCarScreenSettingsFragment" // string@4d46
+221df4: 1a01 9e9f                              |0002: const-string v1, "onActivityResume" // string@9f9e
+221df8: 7120 790e 1000                         |0004: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221dfe: 6e10 8935 0200                         |0007: invoke-virtual {v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.q1:()V // method@3589
+221e04: 1c02 a814                              |000a: const-class v2, Ljava/lang/String; // type@14a8
+221e08: 1a00 7b6a                              |000c: const-string v0, "connect_state" // string@6a7b
+221e0c: 7120 ed0b 2000                         |000e: invoke-static {v0, v2}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@0bed
+221e12: 0c02                                   |0011: move-result-object v2
+221e14: 7220 1b79 0200                         |0012: invoke-interface {v2, v0}, Lcom/thkj/liveeventbus/core/b;.c:(Ljava/lang/Object;)V // method@791b
+221e1a: 0e00                                   |0015: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'o1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 4
+      insns size    : 64 16-bit code units
+221f10:                                        |[221f10] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.o1:()V
+221f20: 7100 b00d 0000                         |0000: invoke-static {}, Lcom/carwith/common/utils/h0;.a:()Ljava/lang/String; // method@0db0
+221f26: 0c00                                   |0003: move-result-object v0
+221f28: 1a01 749e                              |0004: const-string v1, "none" // string@9e74
+221f2c: 6e20 b181 1000                         |0006: invoke-virtual {v0, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+221f32: 0a00                                   |0009: move-result v0
+221f34: 3900 0300                              |000a: if-nez v0, 000d // +0003
+221f38: 0e00                                   |000c: return-void
+221f3a: 6e10 4909 0600                         |000d: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getResources:()Landroid/content/res/Resources; // method@0949
+221f40: 0c00                                   |0010: move-result-object v0
+221f42: 6001 fda2                              |0011: sget v1, Lcom/carwith/launcher/R$plurals;.ucar_debug_click_title:I // field@a2fd
+221f46: 1212                                   |0013: const/4 v2, #int 1 // #1
+221f48: 7110 6181 0200                         |0014: invoke-static {v2}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@8161
+221f4e: 0c02                                   |0017: move-result-object v2
+221f50: 1253                                   |0018: const/4 v3, #int 5 // #5
+221f52: 7110 6181 0300                         |0019: invoke-static {v3}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@8161
+221f58: 0c04                                   |001c: move-result-object v4
+221f5a: 7110 6181 0300                         |001d: invoke-static {v3}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@8161
+221f60: 0c05                                   |0020: move-result-object v5
+221f62: 2430 8f1b 4205                         |0021: filled-new-array {v2, v4, v5}, [Ljava/lang/Object; // type@1b8f
+221f68: 0c02                                   |0024: move-result-object v2
+221f6a: 6e40 0f02 1023                         |0025: invoke-virtual {v0, v1, v3, v2}, Landroid/content/res/Resources;.getQuantityString:(II[Ljava/lang/Object;)Ljava/lang/String; // method@020f
+221f70: 0c00                                   |0028: move-result-object v0
+221f72: 6e10 4109 0600                         |0029: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+221f78: 0c01                                   |002c: move-result-object v1
+221f7a: 1202                                   |002d: const/4 v2, #int 0 // #0
+221f7c: 7130 9a0e 0102                         |002e: invoke-static {v1, v0, v2}, Lcom/carwith/common/utils/z2;.b:(Landroid/content/Context;Ljava/lang/CharSequence;I)V // method@0e9a
+221f82: 2200 6500                              |0031: new-instance v0, Landroid/content/Intent; // type@0065
+221f86: 6e10 4409 0600                         |0033: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221f8c: 0c01                                   |0036: move-result-object v1
+221f8e: 1c02 f80a                              |0037: const-class v2, Lcom/carwith/launcher/settings/phone/debug/CarPhoneDebugActivity; // type@0af8
+221f92: 7030 8f01 1002                         |0039: invoke-direct {v0, v1, v2}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+221f98: 6e20 6c09 0600                         |003c: invoke-virtual {v6, v0}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+221f9e: 0e00                                   |003f: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onActivityResult'
+      type          : '(IILandroid/content/Intent;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 4
+      insns size    : 23 16-bit code units
+221da0:                                        |[221da0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onActivityResult:(IILandroid/content/Intent;)V
+221db0: 6f40 5709 2143                         |0000: invoke-super {v1, v2, v3, v4}, Landroidx/fragment/app/Fragment;.onActivityResult:(IILandroid/content/Intent;)V // method@0957
+221db6: 12f4                                   |0003: const/4 v4, #int -1 // #ff
+221db8: 3902 0800                              |0004: if-nez v2, 000c // +0008
+221dbc: 3343 0600                              |0006: if-ne v3, v4, 000c // +0006
+221dc0: 6e10 8835 0100                         |0008: invoke-virtual {v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.p1:()V // method@3588
+221dc6: 280b                                   |000b: goto 0016 // +000b
+221dc8: 1300 e903                              |000c: const/16 v0, #int 1001 // #3e9
+221dcc: 3302 0800                              |000e: if-ne v2, v0, 0016 // +0008
+221dd0: 3343 0600                              |0010: if-ne v3, v4, 0016 // +0006
+221dd4: 1212                                   |0012: const/4 v2, #int 1 // #1
+221dd6: 6e20 7735 2100                         |0013: invoke-virtual {v1, v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.e1:(Z)V // method@3577
+221ddc: 0e00                                   |0016: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onCreatePreferences'
+      type          : '(Landroid/os/Bundle;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 14 16-bit code units
+221e1c:                                        |[221e1c] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onCreatePreferences:(Landroid/os/Bundle;Ljava/lang/String;)V
+221e2c: 1a01 464d                              |0000: const-string v1, "UCarScreenSettingsFragment" // string@4d46
+221e30: 1a02 48a0                              |0002: const-string v2, "onCreatePreferences" // string@a048
+221e34: 7120 790e 2100                         |0004: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221e3a: 1201                                   |0007: const/4 v1, #int 0 // #0
+221e3c: 5c01 47ce                              |0008: iput-boolean v1, v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.P:Z // field@ce47
+221e40: 6e10 7a35 0000                         |000a: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h1:()V // method@357a
+221e46: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #13              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onDestroyView'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 14 16-bit code units
+221e48:                                        |[221e48] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onDestroyView:()V
+221e58: 6f10 3e97 0000                         |0000: invoke-super {v0}, Lmiuix/preference/PreferenceFragment;.onDestroyView:()V // method@973e
+221e5e: 6e10 7935 0000                         |0003: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.g1:()V // method@3579
+221e64: 7100 0c99 0000                         |0006: invoke-static {}, Lp2/j;.s:()Lp2/j; // method@990c
+221e6a: 0c00                                   |0009: move-result-object v0
+221e6c: 6e10 0999 0000                         |000a: invoke-virtual {v0}, Lp2/j;.F:()V // method@9909
+221e72: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onPreferenceClick'
+      type          : '(Landroidx/preference/Preference;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 3
+      insns size    : 512 16-bit code units
+220e10:                                        |[220e10] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onPreferenceClick:(Landroidx/preference/Preference;)Z
+220e20: 6e10 5009 0800                         |0000: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.isAdded:()Z // method@0950
+220e26: 0a00                                   |0003: move-result v0
+220e28: 1201                                   |0004: const/4 v1, #int 0 // #0
+220e2a: 3900 0300                              |0005: if-nez v0, 0008 // +0003
+220e2e: 0f01                                   |0007: return v1
+220e30: 6e10 bd09 0900                         |0008: invoke-virtual {v9}, Landroidx/preference/Preference;.getKey:()Ljava/lang/String; // method@09bd
+220e36: 0c09                                   |000b: move-result-object v9
+220e38: 1a00 53c3                              |000c: const-string v0, "ucar_support_type" // string@c353
+220e3c: 7120 2805 0900                         |000e: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220e42: 0a00                                   |0011: move-result v0
+220e44: 1a02 464d                              |0012: const-string v2, "UCarScreenSettingsFragment" // string@4d46
+220e48: 1213                                   |0014: const/4 v3, #int 1 // #1
+220e4a: 3800 7100                              |0015: if-eqz v0, 0086 // +0071
+220e4e: 7100 090e 0000                         |0017: invoke-static {}, Lcom/carwith/common/utils/n;.p:()I // method@0e09
+220e54: 0a09                                   |001a: move-result v9
+220e56: 1300 0d00                              |001b: const/16 v0, #int 13 // #d
+220e5a: 1a01 d37f                              |001d: const-string v1, "https://carwith.link.miui.com/static/supportedCarModels.html" // string@7fd3
+220e5e: 3709 1900                              |001f: if-le v9, v0, 0038 // +0019
+220e62: 6009 ce00                              |0021: sget v9, Landroid/os/Build$VERSION;.SDK_INT:I // field@00ce
+220e66: 1300 2100                              |0023: const/16 v0, #int 33 // #21
+220e6a: 3409 1300                              |0025: if-lt v9, v0, 0038 // +0013
+220e6e: 2209 aa14                              |0027: new-instance v9, Ljava/lang/StringBuilder; // type@14aa
+220e72: 7010 e381 0900                         |0029: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+220e78: 6e20 ee81 1900                         |002c: invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220e7e: 1a00 5108                              |002f: const-string v0, "?protocol=2" // string@0851
+220e82: 6e20 ee81 0900                         |0031: invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220e88: 6e10 fd81 0900                         |0034: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+220e8e: 0c01                                   |0037: move-result-object v1
+220e90: 7110 1404 0100                         |0038: invoke-static {v1}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+220e96: 0c09                                   |003b: move-result-object v9
+220e98: 2200 6500                              |003c: new-instance v0, Landroid/content/Intent; // type@0065
+220e9c: 1a04 e55d                              |003e: const-string v4, "android.intent.action.VIEW" // string@5de5
+220ea0: 7030 9201 4009                         |0040: invoke-direct {v0, v4, v9}, Landroid/content/Intent;.<init>:(Ljava/lang/String;Landroid/net/Uri;)V // method@0192
+220ea6: 1a09 e168                              |0043: const-string v9, "com.android.browser" // string@68e1
+220eaa: 6e20 ba01 9000                         |0045: invoke-virtual {v0, v9}, Landroid/content/Intent;.setPackage:(Ljava/lang/String;)Landroid/content/Intent; // method@01ba
+220eb0: 6e20 6c09 0800                         |0048: invoke-virtual {v8, v0}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+220eb6: 2900 b401                              |004b: goto/16 01ff // +01b4
+220eba: 0d09                                   |004d: move-exception v9
+220ebc: 2204 aa14                              |004e: new-instance v4, Ljava/lang/StringBuilder; // type@14aa
+220ec0: 7010 e381 0400                         |0050: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+220ec6: 1a05 a1bc                              |0053: const-string v5, "system browser not available, url=" // string@bca1
+220eca: 6e20 ee81 5400                         |0055: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220ed0: 6e20 ee81 1400                         |0058: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220ed6: 6e10 fd81 0400                         |005b: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+220edc: 0c04                                   |005e: move-result-object v4
+220ede: 7130 780e 4209                         |005f: invoke-static {v2, v4, v9}, Lcom/carwith/common/utils/w1;.C:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0e78
+220ee4: 1209                                   |0062: const/4 v9, #int 0 // #0
+220ee6: 6e20 ba01 9000                         |0063: invoke-virtual {v0, v9}, Landroid/content/Intent;.setPackage:(Ljava/lang/String;)Landroid/content/Intent; // method@01ba
+220eec: 7120 9501 9000                         |0066: invoke-static {v0, v9}, Landroid/content/Intent;.createChooser:(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent; // method@0195
+220ef2: 0c09                                   |0069: move-result-object v9
+220ef4: 6e20 6c09 9800                         |006a: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+220efa: 2900 9201                              |006d: goto/16 01ff // +0192
+220efe: 0d08                                   |006f: move-exception v8
+220f00: 2209 aa14                              |0070: new-instance v9, Ljava/lang/StringBuilder; // type@14aa
+220f04: 7010 e381 0900                         |0072: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+220f0a: 1a00 279e                              |0075: const-string v0, "no app can handle ACTION_VIEW for " // string@9e27
+220f0e: 6e20 ee81 0900                         |0077: invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220f14: 6e20 ee81 1900                         |007a: invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+220f1a: 6e10 fd81 0900                         |007d: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+220f20: 0c09                                   |0080: move-result-object v9
+220f22: 7130 7c0e 9208                         |0081: invoke-static {v2, v9, v8}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0e7c
+220f28: 2900 7b01                              |0084: goto/16 01ff // +017b
+220f2c: 1a00 48c3                              |0086: const-string v0, "ucar_service_feedback" // string@c348
+220f30: 7120 2805 0900                         |0088: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220f36: 0a00                                   |008b: move-result v0
+220f38: 3800 0d00                              |008c: if-eqz v0, 0099 // +000d
+220f3c: 6e10 4409 0800                         |008e: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220f42: 0c08                                   |0091: move-result-object v8
+220f44: 6009 22ab                              |0092: sget v9, Lcom/carwith/launcher/R$string;.toast_feature_is_development:I // field@ab22
+220f48: 7130 990e 9801                         |0094: invoke-static {v8, v9, v1}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+220f4e: 2900 6801                              |0097: goto/16 01ff // +0168
+220f52: 1a00 5fc3                              |0099: const-string v0, "ucar_user_agreement" // string@c35f
+220f56: 7120 2805 0900                         |009b: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220f5c: 0a00                                   |009e: move-result v0
+220f5e: 3800 0d00                              |009f: if-eqz v0, 00ac // +000d
+220f62: 6e10 4409 0800                         |00a1: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220f68: 0c08                                   |00a4: move-result-object v8
+220f6a: 6009 22ab                              |00a5: sget v9, Lcom/carwith/launcher/R$string;.toast_feature_is_development:I // field@ab22
+220f6e: 7130 990e 9801                         |00a7: invoke-static {v8, v9, v1}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+220f74: 2900 5501                              |00aa: goto/16 01ff // +0155
+220f78: 1a00 26c3                              |00ac: const-string v0, "ucar_privacy_policy" // string@c326
+220f7c: 7120 2805 0900                         |00ae: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220f82: 0a00                                   |00b1: move-result v0
+220f84: 3800 0d00                              |00b2: if-eqz v0, 00bf // +000d
+220f88: 6e10 4409 0800                         |00b4: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220f8e: 0c08                                   |00b7: move-result-object v8
+220f90: 6009 22ab                              |00b8: sget v9, Lcom/carwith/launcher/R$string;.toast_feature_is_development:I // field@ab22
+220f94: 7130 990e 9801                         |00ba: invoke-static {v8, v9, v1}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+220f9a: 2900 4201                              |00bd: goto/16 01ff // +0142
+220f9e: 1a00 25c3                              |00bf: const-string v0, "ucar_privacy_permission" // string@c325
+220fa2: 7120 2805 0900                         |00c1: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220fa8: 0a00                                   |00c4: move-result v0
+220faa: 3800 1200                              |00c5: if-eqz v0, 00d7 // +0012
+220fae: 2209 6500                              |00c7: new-instance v9, Landroid/content/Intent; // type@0065
+220fb2: 6e10 4409 0800                         |00c9: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+220fb8: 0c00                                   |00cc: move-result-object v0
+220fba: 1c01 790a                              |00cd: const-class v1, Lcom/carwith/launcher/settings/phone/PrivacyActivity; // type@0a79
+220fbe: 7030 8f01 0901                         |00cf: invoke-direct {v9, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+220fc4: 6e20 6c09 9800                         |00d2: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+220fca: 2900 2a01                              |00d5: goto/16 01ff // +012a
+220fce: 1a00 5965                              |00d7: const-string v0, "carlife_connect" // string@6559
+220fd2: 7120 2805 0900                         |00d9: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+220fd8: 0a00                                   |00dc: move-result v0
+220fda: 1a04 c710                              |00dd: const-string v4, "CarlinkService.sServiceIsStart: " // string@10c7
+220fde: 1a05 749e                              |00df: const-string v5, "none" // string@9e74
+220fe2: 1a06 e063                              |00e1: const-string v6, "cancelConnect" // string@63e0
+220fe6: 3800 6200                              |00e3: if-eqz v0, 0145 // +0062
+220fea: 5589 5dce                              |00e5: iget-boolean v9, v8, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.l0:Z // field@ce5d
+220fee: 3809 2a00                              |00e7: if-eqz v9, 0111 // +002a
+220ff2: 2208 aa14                              |00e9: new-instance v8, Ljava/lang/StringBuilder; // type@14aa
+220ff6: 7010 e381 0800                         |00eb: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+220ffc: 6e20 ee81 4800                         |00ee: invoke-virtual {v8, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+221002: 7100 4078 0000                         |00f1: invoke-static {}, Lcom/miui/carlink/castfwk/CarlinkService;.s:()Z // method@7840
+221008: 0a09                                   |00f4: move-result v9
+22100a: 6e20 ef81 9800                         |00f5: invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+221010: 6e10 fd81 0800                         |00f8: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+221016: 0c08                                   |00fb: move-result-object v8
+221018: 7120 790e 8200                         |00fc: invoke-static {v2, v8}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+22101e: 7100 4078 0000                         |00ff: invoke-static {}, Lcom/miui/carlink/castfwk/CarlinkService;.s:()Z // method@7840
+221024: 0a08                                   |0102: move-result v8
+221026: 3808 0a00                              |0103: if-eqz v8, 010d // +000a
+22102a: 7110 ec0b 0600                         |0105: invoke-static {v6}, Lcc/a;.b:(Ljava/lang/String;)Lcom/thkj/liveeventbus/core/b; // method@0bec
+221030: 0c08                                   |0108: move-result-object v8
+221032: 7220 1b79 6800                         |0109: invoke-interface {v8, v6}, Lcom/thkj/liveeventbus/core/b;.c:(Ljava/lang/Object;)V // method@791b
+221038: 2804                                   |010c: goto 0110 // +0004
+22103a: 7110 bb0d 0500                         |010d: invoke-static {v5}, Lcom/carwith/common/utils/h0;.s:(Ljava/lang/String;)V // method@0dbb
+221040: 0f03                                   |0110: return v3
+221042: 6e10 4409 0800                         |0111: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221048: 0c09                                   |0114: move-result-object v9
+22104a: 1a00 ff68                              |0115: const-string v0, "com.baidu.carlife.xiaomi" // string@68ff
+22104e: 7120 499a 0900                         |0117: invoke-static {v9, v0}, Lp6/i0;.i:(Landroid/content/Context;Ljava/lang/String;)Z // method@9a49
+221054: 0a09                                   |011a: move-result v9
+221056: 3909 0600                              |011b: if-nez v9, 0121 // +0006
+22105a: 6e10 8b35 0800                         |011d: invoke-virtual {v8}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.s1:()V // method@358b
+221060: 0f03                                   |0120: return v3
+221062: 7100 b00d 0000                         |0121: invoke-static {}, Lcom/carwith/common/utils/h0;.a:()Ljava/lang/String; // method@0db0
+221068: 0c09                                   |0124: move-result-object v9
+22106a: 6e20 b181 5900                         |0125: invoke-virtual {v9, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+221070: 0a09                                   |0128: move-result v9
+221072: 3909 0c00                              |0129: if-nez v9, 0135 // +000c
+221076: 6e10 4109 0800                         |012b: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+22107c: 0c08                                   |012e: move-result-object v8
+22107e: 6009 b3a4                              |012f: sget v9, Lcom/carwith/launcher/R$string;.carlife_connected_hint:I // field@a4b3
+221082: 7130 990e 9801                         |0131: invoke-static {v8, v9, v1}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+221088: 0f03                                   |0134: return v3
+22108a: 2209 6500                              |0135: new-instance v9, Landroid/content/Intent; // type@0065
+22108e: 6e10 4409 0800                         |0137: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221094: 0c00                                   |013a: move-result-object v0
+221096: 1c01 b60a                              |013b: const-class v1, Lcom/carwith/launcher/settings/phone/carlife/CarLifeConnectActivity; // type@0ab6
+22109a: 7030 8f01 0901                         |013d: invoke-direct {v9, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+2210a0: 6e20 6c09 9800                         |0140: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+2210a6: 2900 bc00                              |0143: goto/16 01ff // +00bc
+2210aa: 1a00 15c9                              |0145: const-string v0, "yi_lian_connect" // string@c915
+2210ae: 7120 2805 0900                         |0147: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+2210b4: 0a00                                   |014a: move-result v0
+2210b6: 3800 5100                              |014b: if-eqz v0, 019c // +0051
+2210ba: 5589 5ece                              |014d: iget-boolean v9, v8, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.m0:Z // field@ce5e
+2210be: 3809 2a00                              |014f: if-eqz v9, 0179 // +002a
+2210c2: 2208 aa14                              |0151: new-instance v8, Ljava/lang/StringBuilder; // type@14aa
+2210c6: 7010 e381 0800                         |0153: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+2210cc: 6e20 ee81 4800                         |0156: invoke-virtual {v8, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+2210d2: 7100 4078 0000                         |0159: invoke-static {}, Lcom/miui/carlink/castfwk/CarlinkService;.s:()Z // method@7840
+2210d8: 0a09                                   |015c: move-result v9
+2210da: 6e20 ef81 9800                         |015d: invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+2210e0: 6e10 fd81 0800                         |0160: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+2210e6: 0c08                                   |0163: move-result-object v8
+2210e8: 7120 790e 8200                         |0164: invoke-static {v2, v8}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+2210ee: 7100 4078 0000                         |0167: invoke-static {}, Lcom/miui/carlink/castfwk/CarlinkService;.s:()Z // method@7840
+2210f4: 0a08                                   |016a: move-result v8
+2210f6: 3808 0a00                              |016b: if-eqz v8, 0175 // +000a
+2210fa: 7110 ec0b 0600                         |016d: invoke-static {v6}, Lcc/a;.b:(Ljava/lang/String;)Lcom/thkj/liveeventbus/core/b; // method@0bec
+221100: 0c08                                   |0170: move-result-object v8
+221102: 7220 1b79 6800                         |0171: invoke-interface {v8, v6}, Lcom/thkj/liveeventbus/core/b;.c:(Ljava/lang/Object;)V // method@791b
+221108: 2804                                   |0174: goto 0178 // +0004
+22110a: 7110 bb0d 0500                         |0175: invoke-static {v5}, Lcom/carwith/common/utils/h0;.s:(Ljava/lang/String;)V // method@0dbb
+221110: 0f03                                   |0178: return v3
+221112: 7100 b00d 0000                         |0179: invoke-static {}, Lcom/carwith/common/utils/h0;.a:()Ljava/lang/String; // method@0db0
+221118: 0c09                                   |017c: move-result-object v9
+22111a: 6e20 b181 5900                         |017d: invoke-virtual {v9, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+221120: 0a09                                   |0180: move-result v9
+221122: 3909 0c00                              |0181: if-nez v9, 018d // +000c
+221126: 6e10 4109 0800                         |0183: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+22112c: 0c08                                   |0186: move-result-object v8
+22112e: 6009 b3a4                              |0187: sget v9, Lcom/carwith/launcher/R$string;.carlife_connected_hint:I // field@a4b3
+221132: 7130 990e 9801                         |0189: invoke-static {v8, v9, v1}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+221138: 0f03                                   |018c: return v3
+22113a: 2209 6500                              |018d: new-instance v9, Landroid/content/Intent; // type@0065
+22113e: 6e10 4409 0800                         |018f: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221144: 0c00                                   |0192: move-result-object v0
+221146: 1c01 8f0b                              |0193: const-class v1, Lcom/carwith/launcher/settings/phone/yilian/YiLianConnectActivity; // type@0b8f
+22114a: 7030 8f01 0901                         |0195: invoke-direct {v9, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+221150: 6e20 6c09 9800                         |0198: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+221156: 2864                                   |019b: goto 01ff // +0064
+221158: 1a00 a39e                              |019c: const-string v0, "notice_circulation" // string@9ea3
+22115c: 7120 2805 0900                         |019e: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+221162: 0a00                                   |01a1: move-result v0
+221164: 3800 1a00                              |01a2: if-eqz v0, 01bc // +001a
+221168: 2209 6500                              |01a4: new-instance v9, Landroid/content/Intent; // type@0065
+22116c: 1a00 105e                              |01a6: const-string v0, "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS" // string@5e10
+221170: 7020 9101 0900                         |01a8: invoke-direct {v9, v0}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@0191
+221176: 7100 750c 0000                         |01ab: invoke-static {}, Lcom/carwith/common/BaseApplication;.c:()Landroid/content/Context; // method@0c75
+22117c: 0c00                                   |01ae: move-result-object v0
+22117e: 6e10 6f01 0000                         |01af: invoke-virtual {v0}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@016f
+221184: 0c00                                   |01b2: move-result-object v0
+221186: 1a01 0d5e                              |01b3: const-string v1, "android.provider.extra.APP_PACKAGE" // string@5e0d
+22118a: 6e30 ac01 1900                         |01b5: invoke-virtual {v9, v1, v0}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; // method@01ac
+221190: 6e20 6c09 9800                         |01b8: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+221196: 2844                                   |01bb: goto 01ff // +0044
+221198: 1a00 73c4                              |01bc: const-string v0, "user_custom_wallpaper" // string@c473
+22119c: 7120 2805 0900                         |01be: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+2211a2: 0a00                                   |01c1: move-result v0
+2211a4: 3800 2700                              |01c2: if-eqz v0, 01e9 // +0027
+2211a8: 7100 ae04 0000                         |01c4: invoke-static {}, Landroid/os/SystemClock;.elapsedRealtime:()J // method@04ae
+2211ae: 0b00                                   |01c7: move-result-wide v0
+2211b0: 5384 48ce                              |01c8: iget-wide v4, v8, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Q:J // field@ce48
+2211b4: 9c04 0004                              |01ca: sub-long v4, v0, v4
+2211b8: 1606 f401                              |01cc: const-wide/16 v6, #int 500 // #1f4
+2211bc: 3109 0406                              |01ce: cmp-long v9, v4, v6
+2211c0: 3b09 0300                              |01d0: if-gez v9, 01d3 // +0003
+2211c4: 0f03                                   |01d2: return v3
+2211c6: 5a80 48ce                              |01d3: iput-wide v0, v8, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.Q:J // field@ce48
+2211ca: 2209 6500                              |01d5: new-instance v9, Landroid/content/Intent; // type@0065
+2211ce: 6e10 4409 0800                         |01d7: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2211d4: 0c00                                   |01da: move-result-object v0
+2211d6: 1c01 9e0a                              |01db: const-class v1, Lcom/carwith/launcher/settings/phone/UserCustomWallpaperActivity; // type@0a9e
+2211da: 7030 8f01 0901                         |01dd: invoke-direct {v9, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+2211e0: 1500 0020                              |01e0: const/high16 v0, #int 536870912 // #2000
+2211e4: 6e20 9401 0900                         |01e2: invoke-virtual {v9, v0}, Landroid/content/Intent;.addFlags:(I)Landroid/content/Intent; // method@0194
+2211ea: 6e20 6c09 9800                         |01e5: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+2211f0: 2817                                   |01e8: goto 01ff // +0017
+2211f2: 1a00 61b6                              |01e9: const-string v0, "shake_location_item" // string@b661
+2211f6: 7120 2805 0900                         |01eb: invoke-static {v9, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+2211fc: 0a09                                   |01ee: move-result v9
+2211fe: 3809 1000                              |01ef: if-eqz v9, 01ff // +0010
+221202: 2209 6500                              |01f1: new-instance v9, Landroid/content/Intent; // type@0065
+221206: 6e10 4409 0800                         |01f3: invoke-virtual {v8}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+22120c: 0c00                                   |01f6: move-result-object v0
+22120e: 1c01 7b0a                              |01f7: const-class v1, Lcom/carwith/launcher/settings/phone/ShakeLocationSwitchActivity; // type@0a7b
+221212: 7030 8f01 0901                         |01f9: invoke-direct {v9, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+221218: 6e20 6c09 9800                         |01fc: invoke-virtual {v8, v9}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+22121e: 0f03                                   |01ff: return v3
+      catches       : 2
+        0x0048 - 0x004b
+          Landroid/content/ActivityNotFoundException; -> 0x004d
+        0x0066 - 0x006d
+          Landroid/content/ActivityNotFoundException; -> 0x006f
+
+    #15              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onResume'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 47 16-bit code units
+221e74:                                        |[221e74] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onResume:()V
+221e84: 6f10 6109 0400                         |0000: invoke-super {v4}, Landroidx/fragment/app/Fragment;.onResume:()V // method@0961
+221e8a: 1a00 464d                              |0003: const-string v0, "UCarScreenSettingsFragment" // string@4d46
+221e8e: 1a01 0ea2                              |0005: const-string v1, "onResume" // string@a20e
+221e92: 7120 790e 1000                         |0007: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221e98: 6e10 4409 0400                         |000a: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221e9e: 0c00                                   |000d: move-result-object v0
+221ea0: 1a01 0000                              |000e: const-string v1, "" // string@0000
+221ea4: 1a02 856c                              |0010: const-string v2, "ctaconfig" // string@6c85
+221ea8: 1a03 866c                              |0012: const-string v3, "ctadialog" // string@6c86
+221eac: 7140 25a1 3021                         |0014: invoke-static {v0, v3, v1, v2}, Lw9/l;.g:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@a125
+221eb2: 0c00                                   |0017: move-result-object v0
+221eb4: 7110 2905 0000                         |0018: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0529
+221eba: 0a00                                   |001b: move-result v0
+221ebc: 3900 1200                              |001c: if-nez v0, 002e // +0012
+221ec0: 7100 0c99 0000                         |001e: invoke-static {}, Lp2/j;.s:()Lp2/j; // method@990c
+221ec6: 0c00                                   |0021: move-result-object v0
+221ec8: 6e10 4409 0400                         |0022: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221ece: 0c01                                   |0025: move-result-object v1
+221ed0: 2202 920a                              |0026: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$m; // type@0a92
+221ed4: 7020 4b35 4200                         |0028: invoke-direct {v2, v4}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$m;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@354b
+221eda: 6e30 0b99 1002                         |002b: invoke-virtual {v0, v1, v2}, Lp2/j;.o:(Landroid/content/Context;Lp2/j$d;)V // method@990b
+221ee0: 0e00                                   |002e: return-void
+      catches       : (none)
+
+    #16              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'onStart'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 14 16-bit code units
+221ee4:                                        |[221ee4] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onStart:()V
+221ef4: 6f10 d609 0200                         |0000: invoke-super {v2}, Landroidx/preference/PreferenceFragmentCompat;.onStart:()V // method@09d6
+221efa: 1a00 464d                              |0003: const-string v0, "UCarScreenSettingsFragment" // string@4d46
+221efe: 1a01 51a2                              |0005: const-string v1, "onStart" // string@a251
+221f02: 7120 790e 1000                         |0007: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+221f08: 6e10 8f35 0200                         |000a: invoke-virtual {v2}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.w1:()V // method@358f
+221f0e: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #17              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'p1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 16 16-bit code units
+221fa0:                                        |[221fa0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.p1:()V
+221fb0: 6e10 4409 0200                         |0000: invoke-virtual {v2}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221fb6: 0c00                                   |0003: move-result-object v0
+221fb8: 3900 0300                              |0004: if-nez v0, 0007 // +0003
+221fbc: 0e00                                   |0006: return-void
+221fbe: 2201 fd0a                              |0007: new-instance v1, Lcom/carwith/launcher/settings/phone/f1; // type@0afd
+221fc2: 7030 2e38 2100                         |0009: invoke-direct {v1, v2, v0}, Lcom/carwith/launcher/settings/phone/f1;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Landroid/content/Context;)V // method@382e
+221fc8: 7110 740e 0100                         |000c: invoke-static {v1}, Lcom/carwith/common/utils/v2;.d:(Ljava/lang/Runnable;)Ljava/util/concurrent/Future; // method@0e74
+221fce: 0e00                                   |000f: return-void
+      catches       : (none)
+
+    #18              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'q1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 28 16-bit code units
+221fd0:                                        |[221fd0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.q1:()V
+221fe0: 5410 49ce                              |0000: iget-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.R:Lmiuix/preference/CheckBoxPreference; // field@ce49
+221fe4: 3800 1900                              |0002: if-eqz v0, 001b // +0019
+221fe8: 6e10 e509 0000                         |0004: invoke-virtual {v0}, Landroidx/preference/TwoStatePreference;.isChecked:()Z // method@09e5
+221fee: 0a00                                   |0007: move-result v0
+221ff0: 3800 1300                              |0008: if-eqz v0, 001b // +0013
+221ff4: 6e10 4409 0100                         |000a: invoke-virtual {v1}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+221ffa: 0c01                                   |000d: move-result-object v1
+221ffc: 3801 0d00                              |000e: if-eqz v1, 001b // +000d
+222000: 7100 b678 0000                         |0010: invoke-static {}, Lcom/miui/carlink/castfwk/wireless/bt/o;.D:()Lcom/miui/carlink/castfwk/wireless/bt/o; // method@78b6
+222006: 0c00                                   |0013: move-result-object v0
+222008: 6e10 6401 0100                         |0014: invoke-virtual {v1}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@0164
+22200e: 0c01                                   |0017: move-result-object v1
+222010: 6e20 b778 1000                         |0018: invoke-virtual {v0, v1}, Lcom/miui/carlink/castfwk/wireless/bt/o;.G:(Landroid/content/Context;)V // method@78b7
+222016: 0e00                                   |001b: return-void
+      catches       : (none)
+
+    #19              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'r1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 3
+      insns size    : 92 16-bit code units
+222018:                                        |[222018] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.r1:()V
+222028: 2200 900a                              |0000: new-instance v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$k; // type@0a90
+22202c: 7020 4735 7000                         |0002: invoke-direct {v0, v7}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$k;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3547
+222032: 6e10 4409 0700                         |0005: invoke-virtual {v7}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+222038: 0c01                                   |0008: move-result-object v1
+22203a: 7110 820c 0100                         |0009: invoke-static {v1}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.K0:(Landroid/content/Context;)I // method@0c82
+222040: 0a01                                   |000c: move-result v1
+222042: 2202 910a                              |000d: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$l; // type@0a91
+222046: 7030 4935 7201                         |000f: invoke-direct {v2, v7, v1}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$l;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;I)V // method@3549
+22204c: 6e10 4409 0700                         |0012: invoke-virtual {v7}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+222052: 0c03                                   |0015: move-result-object v3
+222054: 7110 b605 0300                         |0016: invoke-static {v3}, Landroid/view/LayoutInflater;.from:(Landroid/content/Context;)Landroid/view/LayoutInflater; // method@05b6
+22205a: 0c03                                   |0019: move-result-object v3
+22205c: 6004 6ea0                              |001a: sget v4, Lcom/carwith/launcher/R$layout;.auto_connect_dialog:I // field@a06e
+222060: 1205                                   |001c: const/4 v5, #int 0 // #0
+222062: 6e30 b705 4305                         |001d: invoke-virtual {v3, v4, v5}, Landroid/view/LayoutInflater;.inflate:(ILandroid/view/ViewGroup;)Landroid/view/View; // method@05b7
+222068: 0c03                                   |0020: move-result-object v3
+22206a: 2204 9016                              |0021: new-instance v4, Lmiuix/appcompat/app/AlertDialog$a; // type@1690
+22206e: 6e10 4409 0700                         |0023: invoke-virtual {v7}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+222074: 0c05                                   |0026: move-result-object v5
+222076: 7020 1589 5400                         |0027: invoke-direct {v4, v5}, Lmiuix/appcompat/app/AlertDialog$a;.<init>:(Landroid/content/Context;)V // method@8915
+22207c: 6005 74ab                              |002a: sget v5, Lcom/carwith/launcher/R$string;.ucar_autoconnect_dialog_title:I // field@ab74
+222080: 6e20 1c89 5400                         |002c: invoke-virtual {v4, v5}, Lmiuix/appcompat/app/AlertDialog$a;.J:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@891c
+222086: 0c05                                   |002f: move-result-object v5
+222088: 6e20 1e89 3500                         |0030: invoke-virtual {v5, v3}, Lmiuix/appcompat/app/AlertDialog$a;.M:(Landroid/view/View;)Lmiuix/appcompat/app/AlertDialog$a; // method@891e
+22208e: 0c03                                   |0033: move-result-object v3
+222090: 1215                                   |0034: const/4 v5, #int 1 // #1
+222092: 6e20 2289 5300                         |0035: invoke-virtual {v3, v5}, Lmiuix/appcompat/app/AlertDialog$a;.e:(Z)Lmiuix/appcompat/app/AlertDialog$a; // method@8922
+222098: 0c03                                   |0038: move-result-object v3
+22209a: 6006 72ab                              |0039: sget v6, Lcom/carwith/launcher/R$string;.ucar_autoconnect_dialog_connect:I // field@ab72
+22209e: 6e30 1989 6300                         |003b: invoke-virtual {v3, v6, v0}, Lmiuix/appcompat/app/AlertDialog$a;.D:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8919
+2220a4: 0c03                                   |003e: move-result-object v3
+2220a6: 6006 71ab                              |003f: sget v6, Lcom/carwith/launcher/R$string;.ucar_autoconnect_dialog_cancel:I // field@ab71
+2220aa: 6e30 2b89 6300                         |0041: invoke-virtual {v3, v6, v0}, Lmiuix/appcompat/app/AlertDialog$a;.v:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@892b
+2220b0: 0c00                                   |0044: move-result-object v0
+2220b2: 6e20 1789 2000                         |0045: invoke-virtual {v0, v2}, Lmiuix/appcompat/app/AlertDialog$a;.A:(Landroid/content/DialogInterface$OnDismissListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8917
+2220b8: 6e10 2089 0400                         |0048: invoke-virtual {v4}, Lmiuix/appcompat/app/AlertDialog$a;.a:()Lmiuix/appcompat/app/AlertDialog; // method@8920
+2220be: 0c00                                   |004b: move-result-object v0
+2220c0: 5b70 5cce                              |004c: iput-object v0, v7, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.k0:Lmiuix/appcompat/app/AlertDialog; // field@ce5c
+2220c4: 7110 810c 0100                         |004e: invoke-static {v1}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.H0:(I)V // method@0c81
+2220ca: 5470 5cce                              |0051: iget-object v0, v7, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.k0:Lmiuix/appcompat/app/AlertDialog; // field@ce5c
+2220ce: 6e20 3989 5000                         |0053: invoke-virtual {v0, v5}, Lmiuix/appcompat/app/AlertDialog;.setMaterialEnabled:(Z)V // method@8939
+2220d4: 5477 5cce                              |0056: iget-object v7, v7, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.k0:Lmiuix/appcompat/app/AlertDialog; // field@ce5c
+2220d8: 6e10 3c89 0700                         |0058: invoke-virtual {v7}, Lmiuix/appcompat/app/AlertDialog;.show:()V // method@893c
+2220de: 0e00                                   |005b: return-void
+      catches       : (none)
+
+    #20              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 's1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 3
+      insns size    : 73 16-bit code units
+2220e0:                                        |[2220e0] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.s1:()V
+2220f0: 2200 8c0a                              |0000: new-instance v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$g; // type@0a8c
+2220f4: 7020 3f35 6000                         |0002: invoke-direct {v0, v6}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$g;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@353f
+2220fa: 2201 8d0a                              |0005: new-instance v1, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$h; // type@0a8d
+2220fe: 7020 4135 6100                         |0007: invoke-direct {v1, v6}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$h;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)V // method@3541
+222104: 6e10 4409 0600                         |000a: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+22210a: 0c02                                   |000d: move-result-object v2
+22210c: 7110 820c 0200                         |000e: invoke-static {v2}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.K0:(Landroid/content/Context;)I // method@0c82
+222112: 0a02                                   |0011: move-result v2
+222114: 2203 9016                              |0012: new-instance v3, Lmiuix/appcompat/app/AlertDialog$a; // type@1690
+222118: 6e10 4409 0600                         |0014: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+22211e: 0c06                                   |0017: move-result-object v6
+222120: 7020 1589 6300                         |0018: invoke-direct {v3, v6}, Lmiuix/appcompat/app/AlertDialog$a;.<init>:(Landroid/content/Context;)V // method@8915
+222126: 6006 cdab                              |001b: sget v6, Lcom/carwith/launcher/R$string;.ucar_download_carlife_dialog_title:I // field@abcd
+22212a: 6e20 1c89 6300                         |001d: invoke-virtual {v3, v6}, Lmiuix/appcompat/app/AlertDialog$a;.J:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@891c
+222130: 0c06                                   |0020: move-result-object v6
+222132: 6004 ccab                              |0021: sget v4, Lcom/carwith/launcher/R$string;.ucar_download_carlife_dialog_message:I // field@abcc
+222136: 6e20 2989 4600                         |0023: invoke-virtual {v6, v4}, Lmiuix/appcompat/app/AlertDialog$a;.q:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@8929
+22213c: 0c06                                   |0026: move-result-object v6
+22213e: 1214                                   |0027: const/4 v4, #int 1 // #1
+222140: 6e20 2289 4600                         |0028: invoke-virtual {v6, v4}, Lmiuix/appcompat/app/AlertDialog$a;.e:(Z)Lmiuix/appcompat/app/AlertDialog$a; // method@8922
+222146: 0c06                                   |002b: move-result-object v6
+222148: 6005 cbab                              |002c: sget v5, Lcom/carwith/launcher/R$string;.ucar_download_carlife_dialog_comfirm:I // field@abcb
+22214c: 6e30 1989 5600                         |002e: invoke-virtual {v6, v5, v0}, Lmiuix/appcompat/app/AlertDialog$a;.D:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8919
+222152: 0c06                                   |0031: move-result-object v6
+222154: 6005 caab                              |0032: sget v5, Lcom/carwith/launcher/R$string;.ucar_download_carlife_dialog_cancel:I // field@abca
+222158: 6e30 2b89 5600                         |0034: invoke-virtual {v6, v5, v0}, Lmiuix/appcompat/app/AlertDialog$a;.v:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@892b
+22215e: 0c06                                   |0037: move-result-object v6
+222160: 6e20 1789 1600                         |0038: invoke-virtual {v6, v1}, Lmiuix/appcompat/app/AlertDialog$a;.A:(Landroid/content/DialogInterface$OnDismissListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8917
+222166: 6e10 2089 0300                         |003b: invoke-virtual {v3}, Lmiuix/appcompat/app/AlertDialog$a;.a:()Lmiuix/appcompat/app/AlertDialog; // method@8920
+22216c: 0c06                                   |003e: move-result-object v6
+22216e: 7110 810c 0200                         |003f: invoke-static {v2}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.H0:(I)V // method@0c81
+222174: 6e20 3989 4600                         |0042: invoke-virtual {v6, v4}, Lmiuix/appcompat/app/AlertDialog;.setMaterialEnabled:(Z)V // method@8939
+22217a: 6e10 3c89 0600                         |0045: invoke-virtual {v6}, Lmiuix/appcompat/app/AlertDialog;.show:()V // method@893c
+222180: 0e00                                   |0048: return-void
+      catches       : (none)
+
+    #21              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 't1'
+      type          : '(Ljava/lang/Runnable;Ljava/lang/Runnable;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 8
+      ins           : 3
+      outs          : 3
+      insns size    : 73 16-bit code units
+222184:                                        |[222184] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.t1:(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+222194: 6e10 4109 0500                         |0000: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+22219a: 0c00                                   |0003: move-result-object v0
+22219c: 3900 0300                              |0004: if-nez v0, 0007 // +0003
+2221a0: 0e00                                   |0006: return-void
+2221a2: 6e10 4409 0500                         |0007: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2221a8: 0c01                                   |000a: move-result-object v1
+2221aa: 7110 820c 0100                         |000b: invoke-static {v1}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.K0:(Landroid/content/Context;)I // method@0c82
+2221b0: 0a01                                   |000e: move-result v1
+2221b2: 2202 9016                              |000f: new-instance v2, Lmiuix/appcompat/app/AlertDialog$a; // type@1690
+2221b6: 7020 1589 0200                         |0011: invoke-direct {v2, v0}, Lmiuix/appcompat/app/AlertDialog$a;.<init>:(Landroid/content/Context;)V // method@8915
+2221bc: 6000 dcab                              |0014: sget v0, Lcom/carwith/launcher/R$string;.ucar_log_switch_title:I // field@abdc
+2221c0: 6e20 1c89 0200                         |0016: invoke-virtual {v2, v0}, Lmiuix/appcompat/app/AlertDialog$a;.J:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@891c
+2221c6: 0c00                                   |0019: move-result-object v0
+2221c8: 6003 ddab                              |001a: sget v3, Lcom/carwith/launcher/R$string;.ucar_log_tips_content:I // field@abdd
+2221cc: 6e20 2989 3000                         |001c: invoke-virtual {v0, v3}, Lmiuix/appcompat/app/AlertDialog$a;.q:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@8929
+2221d2: 0c00                                   |001f: move-result-object v0
+2221d4: 1203                                   |0020: const/4 v3, #int 0 // #0
+2221d6: 6e20 2289 3000                         |0021: invoke-virtual {v0, v3}, Lmiuix/appcompat/app/AlertDialog$a;.e:(Z)Lmiuix/appcompat/app/AlertDialog$a; // method@8922
+2221dc: 0c00                                   |0024: move-result-object v0
+2221de: 6003 15ac                              |0025: sget v3, Lcom/carwith/launcher/R$string;.ucar_update_dialog_cancel:I // field@ac15
+2221e2: 2204 890a                              |0027: new-instance v4, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$d; // type@0a89
+2221e6: 7030 3935 5407                         |0029: invoke-direct {v4, v5, v7}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$d;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Runnable;)V // method@3539
+2221ec: 6e30 2b89 3004                         |002c: invoke-virtual {v0, v3, v4}, Lmiuix/appcompat/app/AlertDialog$a;.v:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@892b
+2221f2: 0c07                                   |002f: move-result-object v7
+2221f4: 6000 29a4                              |0030: sget v0, Lcom/carwith/launcher/R$string;.ble_dialog_ok:I // field@a429
+2221f8: 2203 880a                              |0032: new-instance v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$c; // type@0a88
+2221fc: 7030 3735 5306                         |0034: invoke-direct {v3, v5, v6}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$c;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Ljava/lang/Runnable;)V // method@3537
+222202: 6e30 1989 0703                         |0037: invoke-virtual {v7, v0, v3}, Lmiuix/appcompat/app/AlertDialog$a;.D:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8919
+222208: 6e10 2089 0200                         |003a: invoke-virtual {v2}, Lmiuix/appcompat/app/AlertDialog$a;.a:()Lmiuix/appcompat/app/AlertDialog; // method@8920
+22220e: 0c05                                   |003d: move-result-object v5
+222210: 7110 810c 0100                         |003e: invoke-static {v1}, Lcom/carwith/common/activity/BaseActionBarSettingsActivity;.H0:(I)V // method@0c81
+222216: 1216                                   |0041: const/4 v6, #int 1 // #1
+222218: 6e20 3989 6500                         |0042: invoke-virtual {v5, v6}, Lmiuix/appcompat/app/AlertDialog;.setMaterialEnabled:(Z)V // method@8939
+22221e: 6e10 3c89 0500                         |0045: invoke-virtual {v5}, Lmiuix/appcompat/app/AlertDialog;.show:()V // method@893c
+222224: 0e00                                   |0048: return-void
+      catches       : (none)
+
+    #22              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'u1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 3
+      insns size    : 41 16-bit code units
+222228:                                        |[222228] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.u1:()V
+222238: 6e10 4409 0600                         |0000: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+22223e: 0c00                                   |0003: move-result-object v0
+222240: 3900 0a00                              |0004: if-nez v0, 000e // +000a
+222244: 1a06 464d                              |0006: const-string v6, "UCarScreenSettingsFragment" // string@4d46
+222248: 1a00 6b66                              |0008: const-string v0, "checkUpdate: context is null or fragment not added" // string@666b
+22224c: 7120 7b0e 0600                         |000a: invoke-static {v6, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7b
+222252: 0e00                                   |000d: return-void
+222254: 7100 ff81 0000                         |000e: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@81ff
+22225a: 0b00                                   |0011: move-result-wide v0
+22225c: 6102 61ce                              |0012: sget-wide v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.p0:J // field@ce61
+222260: 9c02 0002                              |0014: sub-long v2, v0, v2
+222264: 1604 dc05                              |0016: const-wide/16 v4, #int 1500 // #5dc
+222268: 3102 0204                              |0018: cmp-long v2, v2, v4
+22226c: 3a02 0e00                              |001a: if-ltz v2, 0028 // +000e
+222270: 6e10 4409 0600                         |001c: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+222276: 0c06                                   |001f: move-result-object v6
+222278: 6002 2cab                              |0020: sget v2, Lcom/carwith/launcher/R$string;.toast_no_new_version:I // field@ab2c
+22227c: 1203                                   |0022: const/4 v3, #int 0 // #0
+22227e: 7130 990e 2603                         |0023: invoke-static {v6, v2, v3}, Lcom/carwith/common/utils/z2;.a:(Landroid/content/Context;II)V // method@0e99
+222284: 6800 61ce                              |0026: sput-wide v0, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.p0:J // field@ce61
+222288: 0e00                                   |0028: return-void
+      catches       : (none)
+
+    #23              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'v1'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 21 16-bit code units
+22228c:                                        |[22228c] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.v1:()V
+22229c: 1a00 464d                              |0000: const-string v0, "UCarScreenSettingsFragment" // string@4d46
+2222a0: 1a01 21ba                              |0002: const-string v1, "startAutoConnect" // string@ba21
+2222a4: 7120 790e 1000                         |0004: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+2222aa: 6e10 4409 0200                         |0007: invoke-virtual {v2}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2222b0: 0c00                                   |000a: move-result-object v0
+2222b2: 7110 d398 0000                         |000b: invoke-static {v0}, Lo9/b;.o:(Landroid/content/Context;)Lo9/b; // method@98d3
+2222b8: 0c00                                   |000e: move-result-object v0
+2222ba: 5422 60ce                              |000f: iget-object v2, v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.o0:Landroid/os/Handler; // field@ce60
+2222be: 6e20 d098 2000                         |0011: invoke-virtual {v0, v2}, Lo9/b;.D:(Landroid/os/Handler;)V // method@98d0
+2222c4: 0e00                                   |0014: return-void
+      catches       : (none)
+
+    #24              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'w1'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 4
+      insns size    : 54 16-bit code units
+2222c8:                                        |[2222c8] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.w1:()V
+2222d8: 6e10 4109 0500                         |0000: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+2222de: 0c00                                   |0003: move-result-object v0
+2222e0: 1a01 464d                              |0004: const-string v1, "UCarScreenSettingsFragment" // string@4d46
+2222e4: 3900 0800                              |0006: if-nez v0, 000e // +0008
+2222e8: 1a05 17c1                              |0008: const-string v5, "tryHalfAutoConnect: activity is null" // string@c117
+2222ec: 7120 790e 5100                         |000a: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+2222f2: 0e00                                   |000d: return-void
+2222f4: 1a02 0000                              |000e: const-string v2, "" // string@0000
+2222f8: 1a03 856c                              |0010: const-string v3, "ctaconfig" // string@6c85
+2222fc: 1a04 866c                              |0012: const-string v4, "ctadialog" // string@6c86
+222300: 7140 25a1 4032                         |0014: invoke-static {v0, v4, v2, v3}, Lw9/l;.g:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@a125
+222306: 0c00                                   |0017: move-result-object v0
+222308: 7110 2905 0000                         |0018: invoke-static {v0}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0529
+22230e: 0a00                                   |001b: move-result v0
+222310: 3800 0800                              |001c: if-eqz v0, 0024 // +0008
+222314: 1a05 18c1                              |001e: const-string v5, "tryHalfAutoConnect: skip, wait for CTA" // string@c118
+222318: 7120 790e 5100                         |0020: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+22231e: 0e00                                   |0023: return-void
+222320: 6e10 4109 0500                         |0024: invoke-virtual {v5}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+222326: 0c00                                   |0027: move-result-object v0
+222328: 1a01 fe5d                              |0028: const-string v1, "android.permission.BLUETOOTH_CONNECT" // string@5dfe
+22232c: 1302 1227                              |002a: const/16 v2, #int 10002 // #2712
+222330: 7130 c50d 1002                         |002c: invoke-static {v0, v1, v2}, Lcom/carwith/common/utils/h2;.e:(Landroid/app/Activity;Ljava/lang/String;I)Z // method@0dc5
+222336: 0a00                                   |002f: move-result v0
+222338: 3800 0500                              |0030: if-eqz v0, 0035 // +0005
+22233c: 6e10 8e35 0500                         |0032: invoke-virtual {v5}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.v1:()V // method@358e
+222342: 0e00                                   |0035: return-void
+      catches       : (none)
+
+    #25              : (in Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;)
+      name          : 'x1'
+      type          : '(Ljava/util/List;Ljava/util/Map;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 3
+      outs          : 3
+      insns size    : 97 16-bit code units
+222344:                                        |[222344] com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.x1:(Ljava/util/List;Ljava/util/Map;)V
+222354: 5b34 59ce                              |0000: iput-object v4, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h0:Ljava/util/List; // field@ce59
+222358: 5430 4cce                              |0002: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.U:Landroidx/preference/PreferenceCategory; // field@ce4c
+22235c: 3804 0a00                              |0004: if-eqz v4, 000e // +000a
+222360: 7210 e483 0400                         |0006: invoke-interface {v4}, Ljava/util/List;.size:()I // method@83e4
+222366: 0a04                                   |0009: move-result v4
+222368: 3804 0400                              |000a: if-eqz v4, 000e // +0004
+22236c: 1214                                   |000c: const/4 v4, #int 1 // #1
+22236e: 2802                                   |000d: goto 000f // +0002
+222370: 1204                                   |000e: const/4 v4, #int 0 // #0
+222372: 6e20 cf09 4000                         |000f: invoke-virtual {v0, v4}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+222378: 5434 4cce                              |0012: iget-object v4, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.U:Landroidx/preference/PreferenceCategory; // field@ce4c
+22237c: 6e10 db09 0400                         |0014: invoke-virtual {v4}, Landroidx/preference/PreferenceGroup;.removeAll:()V // method@09db
+222382: 5434 59ce                              |0017: iget-object v4, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.h0:Ljava/util/List; // field@ce59
+222386: 3904 0300                              |0019: if-nez v4, 001c // +0003
+22238a: 0e00                                   |001b: return-void
+22238c: 7210 df83 0400                         |001c: invoke-interface {v4}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@83df
+222392: 0c04                                   |001f: move-result-object v4
+222394: 7210 bc83 0400                         |0020: invoke-interface {v4}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+22239a: 0a00                                   |0023: move-result v0
+22239c: 3800 3c00                              |0024: if-eqz v0, 0060 // +003c
+2223a0: 7210 bd83 0400                         |0026: invoke-interface {v4}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+2223a6: 0c00                                   |0029: move-result-object v0
+2223a8: 1f00 e513                              |002a: check-cast v0, Lh2/a; // type@13e5
+2223ac: 6e10 4409 0300                         |002c: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2223b2: 0c01                                   |002f: move-result-object v1
+2223b4: 7110 380d 0100                         |0030: invoke-static {v1}, Lcom/carwith/common/utils/a1;.g:(Landroid/content/Context;)V // method@0d38
+2223ba: 2201 eb17                              |0033: new-instance v1, Lmiuix/preference/TextPreference; // type@17eb
+2223be: 6e10 4409 0300                         |0035: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+2223c4: 0c02                                   |0038: move-result-object v2
+2223c6: 7020 4297 2100                         |0039: invoke-direct {v1, v2}, Lmiuix/preference/TextPreference;.<init>:(Landroid/content/Context;)V // method@9742
+2223cc: 6e10 e67c 0000                         |003c: invoke-virtual {v0}, Lh2/a;.f:()Ljava/lang/String; // method@7ce6
+2223d2: 0c02                                   |003f: move-result-object v2
+2223d4: 6e20 ce09 2100                         |0040: invoke-virtual {v1, v2}, Landroidx/preference/Preference;.setTitle:(Ljava/lang/CharSequence;)V // method@09ce
+2223da: 6e10 e57c 0000                         |0043: invoke-virtual {v0}, Lh2/a;.e:()Ljava/lang/String; // method@7ce5
+2223e0: 0c02                                   |0046: move-result-object v2
+2223e2: 7220 fd83 2500                         |0047: invoke-interface {v5, v2}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@83fd
+2223e8: 0c02                                   |004a: move-result-object v2
+2223ea: 1f02 a814                              |004b: check-cast v2, Ljava/lang/String; // type@14a8
+2223ee: 3802 0500                              |004d: if-eqz v2, 0052 // +0005
+2223f2: 6e20 4897 2100                         |004f: invoke-virtual {v1, v2}, Lmiuix/preference/TextPreference;.setText:(Ljava/lang/String;)V // method@9748
+2223f8: 2202 8b0a                              |0052: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$f; // type@0a8b
+2223fc: 7030 3d35 3200                         |0054: invoke-direct {v2, v3, v0}, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment$f;.<init>:(Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;Lh2/a;)V // method@353d
+222402: 6e20 c909 2100                         |0057: invoke-virtual {v1, v2}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+222408: 5430 4cce                              |005a: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarScreenSettingsActivity$UCarScreenSettingsFragment;.U:Landroidx/preference/PreferenceCategory; // field@ce4c
+22240c: 6e20 d709 1000                         |005c: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+222412: 28c1                                   |005f: goto 0020 // -003f
+222414: 0e00                                   |0060: return-void
+      catches       : (none)
+
+  source_file_idx   : 19781 (UCarScreenSettingsActivity.java)
+

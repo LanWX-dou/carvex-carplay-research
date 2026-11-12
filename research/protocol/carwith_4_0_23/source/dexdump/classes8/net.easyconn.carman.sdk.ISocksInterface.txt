@@ -1,0 +1,24 @@
+Class #1270            -
+  Class descriptor  : 'Lnet/easyconn/carman/sdk/ISocksInterface;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lnet/easyconn/carman/sdk/ISocksInterface;)
+      name          : 'start'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lnet/easyconn/carman/sdk/ISocksInterface;)
+      name          : 'stop'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 6606 (ISocksInterface.java)
+

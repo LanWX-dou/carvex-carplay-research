@@ -1,0 +1,12 @@
+{
+  "http_annotated_routes": 4,
+  "serialized_fields": 1149,
+  "business_model_fields": 88,
+  "binder_transaction_constants": 576,
+  "native_methods": 182,
+  "javascript_interfaces": 7,
+  "literal_key_usages": 2185,
+  "distinct_literal_keys": 1137,
+  "url_reference_methods": 297,
+  "assembly_sources": 181
+}

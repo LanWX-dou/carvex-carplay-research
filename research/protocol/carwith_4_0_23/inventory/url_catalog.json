@@ -1,0 +1,2346 @@
+[
+  {
+    "url": "content://calendar/calendars",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://calendar/events",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://calendar/reminders",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://cn.nubia.identity/identity",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.onetrack.util.oaid.helpers.h.a:(Landroid/content/Context;)Ljava/lang/String;@0x3ec994"
+    ]
+  },
+  {
+    "url": "content://com.android.bluetooth.btservice.BluetoothDeviceTypeProvider/btdevicetype/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.carwith.common.Constants.a:(Landroid/content/Context;Ljava/lang/String;)I@0x43aeb8"
+    ]
+  },
+  {
+    "url": "content://com.android.calendar/calendars",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://com.android.calendar/events",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://com.android.calendar/reminders",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.l.<clinit>:()V@0x0e3f44"
+    ]
+  },
+  {
+    "url": "content://com.android.deskclock/alarm",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:com.xiaomi.voiceassistant.instruction.model.Alarm$b.<clinit>:()V@0x1155a0"
+    ]
+  },
+  {
+    "url": "content://com.android.deskclock/timercountdown",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:mj.j0.<clinit>:()V@0x1971f8"
+    ]
+  },
+  {
+    "url": "content://com.android.externalstorage.documents/document/primary%3ADownload%2FcarShare",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.activity.ReceiverActivity$b.onClick:(Landroid/view/View;)V@0x182888"
+    ]
+  },
+  {
+    "url": "content://com.baidu.baidumaps.oemdata.OemContentProvider/common_addr",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.ucar.map.reader.BaiduMapReader.<clinit>:()V@0x1b9a48"
+    ]
+  },
+  {
+    "url": "content://com.baidu.baidumaps.oemdata.OemContentProvider/navi_status",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.ucar.map.reader.BaiduMapReader.<clinit>:()V@0x1b9a48"
+    ]
+  },
+  {
+    "url": "content://com.meizu.flyme.openidsdk/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.onetrack.util.oaid.helpers.f.a:(Landroid/content/Context;)Ljava/lang/String;@0x3ec6cc"
+    ]
+  },
+  {
+    "url": "content://com.miui.analytics.OneTrackProvider/insId",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.onetrack.util.o.b:(Ljava/lang/String;)V@0x3ed784",
+      "classes5.dex:com.xiaomi.onetrack.util.o.c:()Ljava/lang/String;@0x3ed5bc"
+    ]
+  },
+  {
+    "url": "content://com.miui.analytics.server.AnalyticsProvider/aaid",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.onetrack.util.DeviceUtil.o:(Landroid/content/Context;)Ljava/lang/String;@0x3e6998"
+    ]
+  },
+  {
+    "url": "content://com.miui.calendar/chineseFestivalCountDownList/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:b4.a.b:(Landroid/content/Context;J)Ljava/lang/String;@0x154b7c"
+    ]
+  },
+  {
+    "url": "content://com.miui.calendar/chineseFestivalLunarDate/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:b4.a.c:(Landroid/content/Context;J)Ljava/lang/String;@0x154ccc"
+    ]
+  },
+  {
+    "url": "content://com.miui.calendar/daysoff",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.view.calendar.CustomCalendarView$c.run:()V@0x241470"
+    ]
+  },
+  {
+    "url": "content://com.miui.luckymoney.provider/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:si.b.h:(Ljava/lang/String;)Z@0x1a0f34",
+      "classes7.dex:si.b.s:(Ljava/lang/String;Z)Z@0x1a10ac"
+    ]
+  },
+  {
+    "url": "content://com.miui.luckymoney.provider/lmInfo",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:si.b.a:()Lsi/b$a;@0x1a13cc",
+      "classes7.dex:si.b.i:(Ljava/lang/String;)Ljava/lang/String;@0x1a1224"
+    ]
+  },
+  {
+    "url": "content://com.miui.networkassistant.provider/mobile_restrict",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes6.dex:com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.f:(Landroid/content/Context;)Z@0x0b4d18"
+    ]
+  },
+  {
+    "url": "content://com.miui.powercenter.powersaver",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes6.dex:hh.d.a:(Landroid/content/Context;Z)Z@0x0c4070"
+    ]
+  },
+  {
+    "url": "content://com.miui.todo.provider/todo/out_insert",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:ci.o1.D:(Landroid/content/Context;)V@0x0e9cd0"
+    ]
+  },
+  {
+    "url": "content://com.miui.voiceassist.privacyinfo/",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:com.xiaomi.voiceassistant.utils.privacyinfo.PrivacyInfoProvider.a:(Ljava/lang/String;)Landroid/net/Uri;@0x12b8a8"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/addCardToWX",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.o:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b3e4c"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/chooseCardFromWX",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.p:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b3eb8"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/createChatroom",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.g:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b32a8"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/genTokenForOpenSdk",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.h:(Landroid/content/Context;)Ljava/lang/String;@0x1b4d38"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/handleScanResult",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.q:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b3f80"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/joinChatroom",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.k:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b3bdc"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/jumpToOfflinePay",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.s:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b4064"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/launchWXMiniprogram",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.t:(Landroid/content/Context;Lpb/a;)Z@0x1b40b8"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openBusiLuckyMoney",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.v:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b41bc"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openBusinessView",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.w:(Landroid/content/Context;Lpb/a;)Z@0x1b424c"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openBusinessWebview",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.x:(Landroid/content/Context;Lpb/a;)Z@0x1b42b4"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openRankList",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.y:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b4358"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openTypeWebview",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.A:(Landroid/content/Context;Lpb/a;)Z@0x1b4410",
+      "classes4.dex:tb.b.D:(Landroid/content/Context;Lpb/a;)Z@0x1b4af0",
+      "classes4.dex:tb.b.E:(Landroid/content/Context;Lpb/a;)Z@0x1b4b60",
+      "classes4.dex:tb.b.r:(Landroid/content/Context;Lpb/a;)Z@0x1b3fe0",
+      "classes4.dex:tb.b.u:(Landroid/content/Context;Lpb/a;)Z@0x1b4138"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/openWebview",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.z:(Landroid/content/Context;Landroid/os/Bundle;)Z@0x1b43a4"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.comm.provider/preloadWXMiniprogram",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:tb.b.C:(Landroid/content/Context;Lpb/a;)Z@0x1b45a0"
+    ]
+  },
+  {
+    "url": "content://com.tencent.mm.sdk.plugin.provider/sharedpref",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:ub.e.<clinit>:()V@0x1b5d04"
+    ]
+  },
+  {
+    "url": "content://com.vivo.permissionmanager.provider.permission/fuzzy_location_apps",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:k9.j4.j0:(Landroid/content/Context;)Z@0x33a7dc"
+    ]
+  },
+  {
+    "url": "content://com.vivo.permissionmanager.provider.permission/start_bg_activity",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:net.easyconn.carman.utils.BackgroundStartUtil.b:(Landroid/content/Context;)I@0x219914"
+    ]
+  },
+  {
+    "url": "content://com.vivo.vms.IdProvider/IdentifierId/OAID",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.onetrack.util.oaid.helpers.l.a:(Landroid/content/Context;)Ljava/lang/String;@0x3ed1ac"
+    ]
+  },
+  {
+    "url": "content://downloads/all_downloads",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.blankj.utilcode.util.q.e:(Landroid/net/Uri;)Ljava/io/File;@0x420ca4"
+    ]
+  },
+  {
+    "url": "content://downloads/my_downloads",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.blankj.utilcode.util.q.e:(Landroid/net/Uri;)Ljava/io/File;@0x420ca4"
+    ]
+  },
+  {
+    "url": "content://downloads/public_downloads",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.blankj.utilcode.util.q.e:(Landroid/net/Uri;)Ljava/io/File;@0x420ca4",
+      "classes3.dex:d9.a.f:(Landroid/net/Uri;)Ljava/lang/String;@0x307208"
+    ]
+  },
+  {
+    "url": "content://miui.statusbar.notification.public",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:com.miui.carlink.castfwk.l0.f:()Z@0x0f66ec"
+    ]
+  },
+  {
+    "url": "content://settings/system/button_auto_record_call",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:a3.a.d:(Landroid/content/Context;)Z@0x1a528c"
+    ]
+  },
+  {
+    "url": "content://telephony/carriers/preferapn",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:yb.a.<clinit>:()V@0x1c3cac"
+    ]
+  },
+  {
+    "url": "content://weather/actualWeatherData",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:i3.b.c:(Landroid/content/Context;)Lcom/carwith/common/view/weather/WeatherBean;@0x48d628"
+    ]
+  },
+  {
+    "url": "content://weather/weather",
+    "category": "本地 Content URI",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:i3.b.c:(Landroid/content/Context;)Lcom/carwith/common/view/weather/WeatherBean;@0x48d628"
+    ]
+  },
+  {
+    "url": "http://.account.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:jg.j.<clinit>:()V@0x430b20"
+    ]
+  },
+  {
+    "url": "http://abroad.apilocate.amap.com/mobile/binary",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.loc.f.d:(Lk9/x3;I)Ljava/lang/String;@0x2f2588",
+      "classes3.dex:k9.b4.e:(Landroid/content/Context;)V@0x337208",
+      "classes3.dex:k9.b4.n:(Landroid/content/Context;)V@0x337768",
+      "classes3.dex:k9.h4.t:(Lcom/amap/api/location/AMapLocation;)Z@0x338574"
+    ]
+  },
+  {
+    "url": "http://account-staging.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:()Ljava/lang/String;@0x373e20"
+    ]
+  },
+  {
+    "url": "http://account-staging.xiaomixiaoai.com/ws/session/rsa/public",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:xe.a.w:()Ljava/lang/String;@0x473a38"
+    ]
+  },
+  {
+    "url": "http://account.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c",
+      "classes5.dex:zc.a.<clinit>:()V@0x478734"
+    ]
+  },
+  {
+    "url": "http://account.preview.n.xiaomi.net/oauth2/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://account.preview.n.xiaomi.net/pass",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://act.preview.account.xiaomi.com/pass/activator",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:mg.a.<clinit>:()V@0x43bbe4"
+    ]
+  },
+  {
+    "url": "http://apache.org/xml/features/disallow-doctype-decl",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.fasterxml.jackson.databind.ext.DOMDeserializer.<clinit>:()V@0x2a40f0"
+    ]
+  },
+  {
+    "url": "http://apache.org/xml/features/nonvalidating/load-external-dtd",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.fasterxml.jackson.databind.ext.DOMDeserializer.<clinit>:()V@0x2a40f0"
+    ]
+  },
+  {
+    "url": "http://api.account.preview.n.xiaomi.net/pass",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.account.preview.n.xiaomi.net/pass/v2",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.account.preview.n.xiaomi.net/pass/v2/safe",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.account.preview.n.xiaomi.net/pass/v3",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.account.xiaomi.com/pass",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.device.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://api.micloud.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://api.micloud.preview.n.xiaomi.net/micAnonymous/mic/account/config",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://apilocate.amap.com/mobile/binary",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:k9.b4.<clinit>:()V@0x33717c",
+      "classes3.dex:k9.b4.n:(Landroid/content/Context;)V@0x337768"
+    ]
+  },
+  {
+    "url": "http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:kb.a$b.<init>:(Lkb/a;Lbc/b;)V@0x188a68",
+      "classes4.dex:kb.a$b.e:()V@0x188aac"
+    ]
+  },
+  {
+    "url": "http://cacerts-staging.mica.ai.xiaomi.com/api/certificate/sync",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:(I)Ljava/lang/String;@0x373e68"
+    ]
+  },
+  {
+    "url": "http://cdn.cnbj1.fds.api.mi-img.com/ai-open-file-service/phonecall_icons/com.android.contacts.png?GalaxyAccessKeyId=5151729087601&Expires=9223372036854775807&Signature=BkZkuNM25P71N8MQdXtwTPWJV5I=",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.domain.phonecall.InstructionHelper.buildOthers:(Ljava/lang/String;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallAnswer;Lcom/xiaomi/ai/domain/phonecall/common/DeviceApp;ZLcom/xiaomi/ai/api/common/Instruction;Lcom/xiaomi/ai/api/common/Instruction;Ljava/util/List;IZ)Ljava/util/List;@0x389478",
+      "classes5.dex:com.xiaomi.ai.domain.phonecall.InstructionHelper.genShowContacts:(Ljava/util/List;Lcom/xiaomi/ai/domain/phonecall/common/NameType;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallIntention;Lcom/xiaomi/ai/domain/phonecall/common/DeviceApp;I)Lcom/xiaomi/ai/api/Phone$ShowContacts;@0x388c04"
+    ]
+  },
+  {
+    "url": "http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:com.tencent.open.utils.a$a.run:()V@0x16b1e4"
+    ]
+  },
+  {
+    "url": "http://cgi.qplus.com/report/report",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:com.tencent.open.utils.b$a.run:()V@0x16b874"
+    ]
+  },
+  {
+    "url": "http://cgicol.amap.com/collection/collectData?src=baseCol&ver=v74&",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:k9.r1.a:([B)Z@0x321208"
+    ]
+  },
+  {
+    "url": "http://cloudcontrol-staging.xiaomixiaoai.com/aivs/v1.0/config",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:()Ljava/lang/String;@0x373ee4"
+    ]
+  },
+  {
+    "url": "http://dualstack-a.apilocate.amap.com/mobile/binary",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:k9.b4.<clinit>:()V@0x33717c",
+      "classes3.dex:k9.b4.n:(Landroid/content/Context;)V@0x337768"
+    ]
+  },
+  {
+    "url": "http://dualstack-arestapi.amap.com/v3/geocode/regeo",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.loc.g.b:(Landroid/content/Context;DD)Ljava/lang/String;@0x2f2c70"
+    ]
+  },
+  {
+    "url": "http://fileapi.micloud.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://galleryapi.micloud.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://javax.xml.XMLConstants/feature/secure-processing",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.fasterxml.jackson.databind.ext.DOMDeserializer.<clinit>:()V@0x2a40f0"
+    ]
+  },
+  {
+    "url": "http://jmdns.org",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:javax.jmdns.impl.JmDNSImpl.main:([Ljava/lang/String;)V@0x4aa17c"
+    ]
+  },
+  {
+    "url": "http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.amap.api.location.AMapLocation.X:()Ljava/lang/String;@0x408bac"
+    ]
+  },
+  {
+    "url": "http://micloud.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://nlp-staging.ai.srv",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:yi.a.b:()Ljava/lang/String;@0x1aa9f4"
+    ]
+  },
+  {
+    "url": "http://nlp-staging.ai.srv/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:hj.c.c:()Ljava/lang/String;@0x14125c"
+    ]
+  },
+  {
+    "url": "http://nlp-staging.ai.srv/voiceassistant/privacy/v2",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.l:()Ljava/lang/String;@0x3741d0"
+    ]
+  },
+  {
+    "url": "http://ns.adobe.com/xap/1.0/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:androidx.exifinterface.media.ExifInterface.<clinit>:()V@0x2e1680"
+    ]
+  },
+  {
+    "url": "http://open.account.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.k:()Ljava/lang/String;@0x37419c",
+      "classes5.dex:zc.a.<clinit>:()V@0x478734"
+    ]
+  },
+  {
+    "url": "http://open.account.preview.n.xiaomi.net/third/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "http://openmobile.qq.com/oauth2.0/m_jump_by_version?",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:mb.a.c:(Ljava/lang/String;)Ljava/lang/String;@0x18d03c"
+    ]
+  },
+  {
+    "url": "http://pest.w3.org/",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://preview.api.developer.appstore.pt.xiaomi.com/autoupdate/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.market.sdk.ServerType.<clinit>:()V@0x3ce904"
+    ]
+  },
+  {
+    "url": "http://preview4test-query-suggestion.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.n:()Ljava/lang/String;@0x374258"
+    ]
+  },
+  {
+    "url": "http://query-suggestion-preview.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.n:()Ljava/lang/String;@0x374258"
+    ]
+  },
+  {
+    "url": "http://query-suggestion-staging.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.n:()Ljava/lang/String;@0x374258"
+    ]
+  },
+  {
+    "url": "http://query-suggestion.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.n:()Ljava/lang/String;@0x374258"
+    ]
+  },
+  {
+    "url": "http://qzs.qq.com/open/mobile/login/qzsjump.html?",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:kb.c$d.onReceivedError:(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V@0x18a204",
+      "classes4.dex:kb.c.c:()Ljava/lang/String;@0x18a94c",
+      "classes4.dex:kb.c.c:()Ljava/lang/String;@0x18a94c"
+    ]
+  },
+  {
+    "url": "http://relocationapi.micloud.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://restsdk.amap.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:k9.z4.a:(Landroid/content/Context;)Ljava/net/Proxy;@0x34f054"
+    ]
+  },
+  {
+    "url": "http://restsdk.amap.com/sdk/compliance/params",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:s.d0.q:()Ljava/lang/String;@0x50ba70",
+      "classes3.dex:k9.q.j:()Ljava/lang/String;@0x318990"
+    ]
+  },
+  {
+    "url": "http://restsdk.amap.com/v3/geocode/regeo",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.loc.g.b:(Landroid/content/Context;DD)Ljava/lang/String;@0x2f2c70"
+    ]
+  },
+  {
+    "url": "http://restsdk.amap.com/v5",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:s.n1.b:()Ljava/lang/String;@0x51198c"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res-auto",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.google.android.material.chip.ChipDrawable.loadFromAttributes:(Landroid/util/AttributeSet;II)V@0x15c338"
+    ]
+  },
+  {
+    "url": "http://schemas.android.com/apk/res/android",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:androidx.core.content.pm.ShortcutXmlParser.getAttributeValue:(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;@0x28bdd4",
+      "classes.dex:androidx.core.content.res.TypedArrayUtils.hasAttribute:(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z@0x28f7f8",
+      "classes3.dex:com.google.android.material.chip.Chip.validateAttributes:(Landroid/util/AttributeSet;)V@0x1604d8"
+    ]
+  },
+  {
+    "url": "http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.google.android.exoplayer2.drm.HttpMediaDrmCallback.executeKeyRequest:(Ljava/util/UUID;Lcom/google/android/exoplayer2/drm/ExoMediaDrm$KeyRequest;)[B@0x2ec33c"
+    ]
+  },
+  {
+    "url": "http://schemas.xmlsoap.org/soap/encoding/",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64",
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://schemas.xmlsoap.org/soap/envelope/",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://speech-staging.ai.srv/speech/v1.0/ptts/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:th.a.b:()Ljava/lang/String;@0x1a154c"
+    ]
+  },
+  {
+    "url": "http://speech-staging.ai.srv/speech/v1.0/wensheng/store",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.f:()Ljava/lang/String;@0x373fd4"
+    ]
+  },
+  {
+    "url": "http://speech-staging.xiaomixiaoai.com/speech/v2.0/dump",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.b:(I)Ljava/lang/String;@0x373eac",
+      "classes5.dex:com.xiaomi.ai.core.a.i:()Ljava/lang/String;@0x374128"
+    ]
+  },
+  {
+    "url": "http://staging.api.developer.n.xiaomi.com/autoupdate/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.market.sdk.ServerType.<clinit>:()V@0x3ce904"
+    ]
+  },
+  {
+    "url": "http://statusapi.micloud.preview.n.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://statusapi.micloud.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "http://tracker-staging.ai.srv/track/perf/v2",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.m:()Ljava/lang/String;@0x374214"
+    ]
+  },
+  {
+    "url": "http://tracker-staging.ai.srv/track/v3",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.e:()Ljava/lang/String;@0x373f78"
+    ]
+  },
+  {
+    "url": "http://www.cs.caltech.edu/~adam/",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://www.cs.caltech.edu/~adam/schemas/bCard",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://www.slf4j.org/codes.html#null_MDCA",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.f.a:(Ljava/lang/String;Ljava/lang/String;)V@0x122fa0",
+      "classes8.dex:kr.f.b:(Ljava/lang/String;)V@0x122fe4"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/1999/XMLSchema",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/1999/XMLSchema-instance",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:org.json.Test.main:([Ljava/lang/String;)V@0x253d64"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/1999/xlink",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.F:(Lcom/caverock/androidsvg/SVG$j;Lorg/xml/sax/Attributes;)V@0x26114c",
+      "classes2.dex:com.caverock.androidsvg.d.G:(Lcom/caverock/androidsvg/SVG$o;Lorg/xml/sax/Attributes;)V@0x2612a4",
+      "classes2.dex:com.caverock.androidsvg.d.M:(Lcom/caverock/androidsvg/SVG$y;Lorg/xml/sax/Attributes;)V@0x2618b0",
+      "classes2.dex:com.caverock.androidsvg.d.T:(Lcom/caverock/androidsvg/SVG$t0;Lorg/xml/sax/Attributes;)V@0x262038",
+      "classes2.dex:com.caverock.androidsvg.d.U:(Lcom/caverock/androidsvg/SVG$y0;Lorg/xml/sax/Attributes;)V@0x2620cc",
+      "classes2.dex:com.caverock.androidsvg.d.X:(Lcom/caverock/androidsvg/SVG$d1;Lorg/xml/sax/Attributes;)V@0x262274"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/2000/svg",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.X0:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@0x263524",
+      "classes2.dex:com.caverock.androidsvg.d.p:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V@0x2608b8"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/TR/SVG11/feature#",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.z0:(Ljava/lang/String;)Ljava/util/Set;@0x260418"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/ns/ttml#parameter",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.google.android.exoplayer2.text.ttml.TtmlDecoder.parseCellResolution:(Lorg/xmlpull/v1/XmlPullParser;Lcom/google/android/exoplayer2/text/ttml/TtmlDecoder$CellResolution;)Lcom/google/android/exoplayer2/text/ttml/TtmlDecoder$CellResolution;@0x323a6c",
+      "classes2.dex:com.google.android.exoplayer2.text.ttml.TtmlDecoder.parseFrameAndTickRates:(Lorg/xmlpull/v1/XmlPullParser;)Lcom/google/android/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;@0x323b84"
+    ]
+  },
+  {
+    "url": "http://xml.apache.org/xslt}indent-amount",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.carwith.common.utils.x1$g.e:(Ljava/lang/String;)Ljava/lang/String;@0x457da0"
+    ]
+  },
+  {
+    "url": "http://xml.org/sax/features/external-general-entities",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.K0:(Ljava/io/InputStream;)V@0x262670"
+    ]
+  },
+  {
+    "url": "http://xml.org/sax/features/external-parameter-entities",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.K0:(Ljava/io/InputStream;)V@0x262670"
+    ]
+  },
+  {
+    "url": "http://xml.org/sax/properties/lexical-handler",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.K0:(Ljava/io/InputStream;)V@0x262670"
+    ]
+  },
+  {
+    "url": "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.L0:(Ljava/io/InputStream;Z)V@0x26273c"
+    ]
+  },
+  {
+    "url": "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.caverock.androidsvg.d.L0:(Ljava/io/InputStream;Z)V@0x26273c"
+    ]
+  },
+  {
+    "url": "https://.account.xiaomi.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:jg.j.<clinit>:()V@0x430b20"
+    ]
+  },
+  {
+    "url": "https://account-preview.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:()Ljava/lang/String;@0x373e20"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c",
+      "classes5.dex:com.xiaomi.ai.core.a.k:()Ljava/lang/String;@0x37419c",
+      "classes5.dex:zc.a.<clinit>:()V@0x478734"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/about/protocol/agreement?_locale=%s",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.passport.ui.license.a.a:()Ljava/lang/String;@0x3ff420"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/helpcenter",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:hg.i.e:(Landroid/content/Context;)Landroid/content/Intent;@0x42c690"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/helpcenter/faq/_/02.faqs/05.sms-and-email-verification-code/faq-1",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:hg.i.c:(Landroid/content/Context;)Landroid/content/Intent;@0x42c5e8"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/oauth2/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/oauth2/user-credentials/issued-token",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://account.xiaomi.com/oauth2/user-credentials/scopes",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://account.xiaomi.com/pass",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://account.xiaomi.com/pass/getCode?icodeType=login&0.07169544044424958",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.passport.ui.settings.CaptchaView.<init>:(Landroid/content/Context;)V@0x4097a8",
+      "classes5.dex:com.xiaomi.passport.ui.settings.CaptchaView.<init>:(Landroid/content/Context;Landroid/util/AttributeSet;I)V@0x4097f0"
+    ]
+  },
+  {
+    "url": "https://account.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:()Ljava/lang/String;@0x373e20"
+    ]
+  },
+  {
+    "url": "https://account.xiaomixiaoai.com/ws/session/rsa/public",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:xe.a.w:()Ljava/lang/String;@0x473a38"
+    ]
+  },
+  {
+    "url": "https://act.account.xiaomi.com/pass/activator",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:mg.a.<clinit>:()V@0x43bbe4"
+    ]
+  },
+  {
+    "url": "https://adiu.amap.com/ws/device/adius",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.amap.api.col.s.k.q:()Ljava/lang/String;@0x400d80",
+      "classes3.dex:com.loc.b.j:()Ljava/lang/String;@0x2ed184"
+    ]
+  },
+  {
+    "url": "https://ai.engine.miui.com/api/aiModel/completionText",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.carwith.common.aicr.model.aiaddress.b.b:(Ljava/lang/String;Ly1/a;)V@0x4416d0"
+    ]
+  },
+  {
+    "url": "https://api.account.xiaomi.com/pass",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://api.account.xiaomi.com/pass/v2",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://api.account.xiaomi.com/pass/v2/safe",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://api.account.xiaomi.com/pass/v3",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://api.developer.xiaomi.com/autoupdate/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.market.sdk.ServerType.<clinit>:()V@0x2ff388",
+      "classes5.dex:com.xiaomi.market.sdk.ServerType.<clinit>:()V@0x3ce904"
+    ]
+  },
+  {
+    "url": "https://api.device.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://api.g.micloud.xiaomi.net/micAnonymous/mic/account/config",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:yb.f$e.run:()V@0x1c520c"
+    ]
+  },
+  {
+    "url": "https://beian.miit.gov.cn",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.settings.phone.preference.IpcRecordNumberPreferenceCategory$a.onClick:(Landroid/view/View;)V@0x2314e0"
+    ]
+  },
+  {
+    "url": "https://cacerts-preview.mica.xiaomixiaoai.com/api/certificate/sync",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:(I)Ljava/lang/String;@0x373e68"
+    ]
+  },
+  {
+    "url": "https://cacerts.mica.xiaomixiaoai.com/api/certificate/sync",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.a:(I)Ljava/lang/String;@0x373e68"
+    ]
+  },
+  {
+    "url": "https://carbitpublicprodstoreh.carbit.cn/file/carbitsdk/PrivacyPolicy.html",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:l6.f.b:()V@0x36f62c"
+    ]
+  },
+  {
+    "url": "https://carlife.baidu.com/static/carlifemis/duty/disclaimer_new.html",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:d6.e.b:()V@0x340fe4"
+    ]
+  },
+  {
+    "url": "https://carlife.baidu.com/static/carlifemis/duty/secretright_new.html",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:d6.e.b:()V@0x340fe4"
+    ]
+  },
+  {
+    "url": "https://carlife.baidu.com/static/carlifemis/duty/service_new.html",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:d6.e.b:()V@0x340fe4"
+    ]
+  },
+  {
+    "url": "https://carwith.link.miui.com/api/carLink/getConfig",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.market.helper.i.b:(Lcom/carwith/launcher/market/helper/k;)V@0x1e3b2c",
+      "classes2.dex:p6.l.d:(Landroid/content/Context;)V@0x3b5a48",
+      "classes2.dex:com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.Z0:()V@0x21d20c",
+      "classes4.dex:r9.a$d.a:(Lr9/a$c;)V@0x1ae424"
+    ]
+  },
+  {
+    "url": "https://carwith.link.miui.com/static/supportedCarModels.html",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.settings.phone.UCarScreenSettingsActivity$UCarScreenSettingsFragment.onPreferenceClick:(Landroidx/preference/Preference;)Z@0x220e10"
+    ]
+  },
+  {
+    "url": "https://carwith.link.miui.com/static/userProtocol.html",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.onPreferenceClick:(Landroidx/preference/Preference;)Z@0x21b640"
+    ]
+  },
+  {
+    "url": "https://cdn.cnbj1.fds.api.mi-img.com/ai-open-file-service/domain_icons/phoneCall.png",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.domain.phonecall.InstructionHelper.buildOthers:(Ljava/lang/String;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallAnswer;Lcom/xiaomi/ai/domain/phonecall/common/DeviceApp;ZLcom/xiaomi/ai/api/common/Instruction;Lcom/xiaomi/ai/api/common/Instruction;Ljava/util/List;IZ)Ljava/util/List;@0x389478",
+      "classes5.dex:com.xiaomi.ai.domain.phonecall.InstructionHelper.genShowContacts:(Ljava/util/List;Lcom/xiaomi/ai/domain/phonecall/common/NameType;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallIntention;Lcom/xiaomi/ai/domain/phonecall/common/DeviceApp;I)Lcom/xiaomi/ai/api/Phone$ShowContacts;@0x388c04",
+      "classes5.dex:com.xiaomi.ai.domain.phonecall.InstructionHelper.genShowMessage:(Ljava/util/List;Lcom/xiaomi/ai/domain/phonecall/common/NameType;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallIntention;Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallAnswer;Lcom/xiaomi/ai/api/Phone$ShowMessageType;)Lcom/xiaomi/ai/api/Phone$ShowMessage;@0x388e4c"
+    ]
+  },
+  {
+    "url": "https://cloudcontrol-preview.xiaomixiaoai.com/aivs/v1.0/config",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:()Ljava/lang/String;@0x373ee4"
+    ]
+  },
+  {
+    "url": "https://cloudcontrol.xiaomixiaoai.com/aivs/v1.0/config",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:()Ljava/lang/String;@0x373ee4"
+    ]
+  },
+  {
+    "url": "https://data.sec.miui.com/privacy/agree/v1",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:com.miui.privacypolicy.a.a:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I@0x15c314"
+    ]
+  },
+  {
+    "url": "https://dualstack-arestapi.amap.com/v3/iasdkauth",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.amap.api.col.s.h$d.a:()Ljava/lang/String;@0x3fcab8",
+      "classes3.dex:com.loc.i$d.m:()Ljava/lang/String;@0x2f4c0c"
+    ]
+  },
+  {
+    "url": "https://github.com/ReactiveX/RxJava/wiki/Error-Handling",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:io.reactivex.exceptions.OnErrorNotImplementedException.<init>:(Ljava/lang/Throwable;)V@0x48f764"
+    ]
+  },
+  {
+    "url": "https://github.com/ReactiveX/RxJava/wiki/Plugins",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:tj.d.q:(Ltj/e;)V@0x517f2c",
+      "classes.dex:tj.f.a:(Ltj/g;)V@0x518088",
+      "classes.dex:tj.i.a:(Ltj/m;)V@0x51871c",
+      "classes.dex:tj.o.a:(Ltj/p;)V@0x518dcc"
+    ]
+  },
+  {
+    "url": "https://github.com/ReactiveX/RxJava/wiki/What",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:io.reactivex.exceptions.UndeliverableException.<init>:(Ljava/lang/Throwable;)V@0x48f7b8"
+    ]
+  },
+  {
+    "url": "https://github.com/google/gson/blob/main/Troubleshooting.md#",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.google.gson.internal.TroubleshootingGuide.createUrl:(Ljava/lang/String;)Ljava/lang/String;@0x281908"
+    ]
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1703",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1704",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1710",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1712",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1764",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1767",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1770",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1771",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1779",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1783",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1785",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1787",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1788",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1789",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1869",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1914",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/1975",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2022",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2132",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2189",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2222",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2563",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2592",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2607",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2666",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2861",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/2924",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3117",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3363",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3399",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3706",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3713",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/3982",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4017",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4056",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4159",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4359",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4471",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4683",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4691",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4692",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4693",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4694",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4901",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4972",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/4984",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5029",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5113",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5189",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5279",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5332",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5635",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5777",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/5999",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6043",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6138",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6279",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6438",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6454",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/6575",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/7393",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/7479",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/7621",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://github.com/grpc/grpc-java/issues/933",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": []
+  },
+  {
+    "url": "https://global.developer.xiaomi.com/autoupdate/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes3.dex:com.market.sdk.ServerType.<clinit>:()V@0x2ff388"
+    ]
+  },
+  {
+    "url": "https://huatuocode.huatuo.qq.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:yb.c.b:(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;IILjava/lang/String;)V@0x1c40ec"
+    ]
+  },
+  {
+    "url": "https://i-preview.xiaomixiaoai.com/userPortrait/api/user/devices/iauth",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:hj.c.d:()Ljava/lang/String;@0x1412a4"
+    ]
+  },
+  {
+    "url": "https://i-preview4test.xiaomixiaoai.com/userPortrait/api/user/devices/iauth",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:hj.c.d:()Ljava/lang/String;@0x1412a4"
+    ]
+  },
+  {
+    "url": "https://i.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.d0.i0:(Z)V@0x1e3b1c"
+    ]
+  },
+  {
+    "url": "https://i.xiaomixiaoai.com/userPortrait/api/user/devices/iauth",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:hj.c.d:()Ljava/lang/String;@0x1412a4"
+    ]
+  },
+  {
+    "url": "https://infosec-captcha-staging.pt.xiaomi.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes6.dex:ch.e.a:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;@0x0a6218"
+    ]
+  },
+  {
+    "url": "https://multimodal-access-p4t.xiaomixiaoai.com/v1/resource/response",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:(I)Ljava/lang/String;@0x373f28"
+    ]
+  },
+  {
+    "url": "https://multimodal-access-preview.xiaomixiaoai.com/v1/resource/response",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:(I)Ljava/lang/String;@0x373f28"
+    ]
+  },
+  {
+    "url": "https://multimodal-access.xiaomixiaoai.com/v1/resource/response",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.c:(I)Ljava/lang/String;@0x373f28"
+    ]
+  },
+  {
+    "url": "https://nlp-preview.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:yi.a.b:()Ljava/lang/String;@0x1aa9f4"
+    ]
+  },
+  {
+    "url": "https://nlp-preview.xiaomixiaoai.com/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:hj.c.c:()Ljava/lang/String;@0x14125c"
+    ]
+  },
+  {
+    "url": "https://nlp-preview.xiaomixiaoai.com/voiceassistant/privacy/v2",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.l:()Ljava/lang/String;@0x3741d0"
+    ]
+  },
+  {
+    "url": "https://nlp.xiaomixiaoai.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:yi.a.b:()Ljava/lang/String;@0x1aa9f4"
+    ]
+  },
+  {
+    "url": "https://nlp.xiaomixiaoai.com/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:hj.c.c:()Ljava/lang/String;@0x14125c"
+    ]
+  },
+  {
+    "url": "https://nlp.xiaomixiaoai.com/voiceassistant/privacy/v2",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.l:()Ljava/lang/String;@0x3741d0"
+    ]
+  },
+  {
+    "url": "https://oem.map.baidu.com/agent/incar/event",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.map.a.d:(Z)V@0x1b4e44"
+    ]
+  },
+  {
+    "url": "https://open.account.xiaomi.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:zc.a.<clinit>:()V@0x478734"
+    ]
+  },
+  {
+    "url": "https://open.account.xiaomi.com/third/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.accountsdk.account.c.<clinit>:()V@0x1ce95c"
+    ]
+  },
+  {
+    "url": "https://open.account.xiaomi.com/user/profile",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.b:()Ljava/lang/String;@0x373e94"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:com.tencent.open.utils.HttpUtils.k:(Lkb/b;Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Ljava/lang/String;)Lorg/json/JSONObject;@0x16ad7c"
+    ]
+  },
+  {
+    "url": "https://openmobile.qq.com/oauth2.0/m_authorize?",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:kb.a.i:(ZLbc/b;Z)I@0x1891c8"
+    ]
+  },
+  {
+    "url": "https://preview4test-speech.xiaomixiaoai.com/speech/v1.0/ptts/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:th.a.b:()Ljava/lang/String;@0x1a154c"
+    ]
+  },
+  {
+    "url": "https://preview4test-speech.xiaomixiaoai.com/speech/v2.0/dump",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.b:(I)Ljava/lang/String;@0x373eac",
+      "classes5.dex:com.xiaomi.ai.core.a.i:()Ljava/lang/String;@0x374128"
+    ]
+  },
+  {
+    "url": "https://privacy.mi.com/%s/%s/",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.passport.ui.license.a.b:()Ljava/lang/String;@0x3ff458"
+    ]
+  },
+  {
+    "url": "https://privacy.mi.com/CarWith/zh_CN/",
+    "category": "页面或隐私相关资源/API；需看代码",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes2.dex:com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.onPreferenceClick:(Landroidx/preference/Preference;)Z@0x21b640"
+    ]
+  },
+  {
+    "url": "https://relocationapi.micloud.xiaomi.net",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:mf.g$a.<clinit>:()V@0x43b8a8"
+    ]
+  },
+  {
+    "url": "https://resolver.mi.xiaomi.com/gslb/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:xe.c.p:(Ljava/lang/String;)V@0x475518"
+    ]
+  },
+  {
+    "url": "https://restsdk.amap.com/sdk/compliance/params",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:s.d0.q:()Ljava/lang/String;@0x50ba70",
+      "classes3.dex:k9.q.j:()Ljava/lang/String;@0x318990"
+    ]
+  },
+  {
+    "url": "https://restsdk.amap.com/v3/iasdkauth",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:com.amap.api.col.s.h$d.q:()Ljava/lang/String;@0x3fcb48",
+      "classes3.dex:com.loc.i$d.j:()Ljava/lang/String;@0x2f4be8"
+    ]
+  },
+  {
+    "url": "https://restsdk.amap.com/v5",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:s.n1.b:()Ljava/lang/String;@0x51198c"
+    ]
+  },
+  {
+    "url": "https://speech-preview.xiaomixiaoai.com/speech/v1.0/ptts/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes7.dex:th.a.b:()Ljava/lang/String;@0x1a154c"
+    ]
+  },
+  {
+    "url": "https://speech-preview.xiaomixiaoai.com/speech/v1.0/wensheng/store",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.f:()Ljava/lang/String;@0x373fd4"
+    ]
+  },
+  {
+    "url": "https://speech-preview.xiaomixiaoai.com/speech/v2.0/dump",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.b:(I)Ljava/lang/String;@0x373eac",
+      "classes5.dex:com.xiaomi.ai.core.a.i:()Ljava/lang/String;@0x374128"
+    ]
+  },
+  {
+    "url": "https://speech.xiaomixiaoai.com/speech/v1.0/ptts/",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes7.dex:th.a.b:()Ljava/lang/String;@0x1a154c"
+    ]
+  },
+  {
+    "url": "https://speech.xiaomixiaoai.com/speech/v1.0/wensheng/store",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.f:()Ljava/lang/String;@0x373fd4"
+    ]
+  },
+  {
+    "url": "https://speech.xiaomixiaoai.com/speech/v2.0/dump",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.b:(I)Ljava/lang/String;@0x373eac",
+      "classes5.dex:com.xiaomi.ai.core.a.i:()Ljava/lang/String;@0x374128"
+    ]
+  },
+  {
+    "url": "https://tracker-preview.xiaomixiaoai.com/track/perf/v2",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.m:()Ljava/lang/String;@0x374214"
+    ]
+  },
+  {
+    "url": "https://tracker-preview.xiaomixiaoai.com/track/v3",
+    "category": "HTTP(S) 地址候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.e:()Ljava/lang/String;@0x373f78"
+    ]
+  },
+  {
+    "url": "https://tracker.xiaomixiaoai.com/track/perf/v2",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.m:()Ljava/lang/String;@0x374214"
+    ]
+  },
+  {
+    "url": "https://tracker.xiaomixiaoai.com/track/v3",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.e:()Ljava/lang/String;@0x373f78"
+    ]
+  },
+  {
+    "url": "https://tz.sec.xiaomi.com/session",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.passport.c.c:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V@0x3f2478"
+    ]
+  },
+  {
+    "url": "https://verify.sec.xiaomi.com",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.passport.ui.page.BaseLoginFragment.j0:()V@0x401374",
+      "classes6.dex:ch.e.a:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;@0x0a6218"
+    ]
+  },
+  {
+    "url": "https://wspeed.qq.com/w.cgi",
+    "category": "HTTP(S) 地址候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes4.dex:yb.f$d.run:()V@0x1c5034"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#ignoredBindings",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.w:(Ljava/util/Set;)V@0x122b20"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#loggerNameMismatch",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.k:(Ljava/lang/Class;)Lkr/c;@0x12256c"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#multiple_bindings",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.x:(Ljava/util/List;)V@0x122ba8"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#noProviders",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.b:()V@0x122708"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#replay",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.d:(I)V@0x122810"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#substituteLogger",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.e:()V@0x122868"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#unsuccessfulInit",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.m:()Llr/e;@0x122608"
+    ]
+  },
+  {
+    "url": "https://www.slf4j.org/codes.html#version_mismatch",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes8.dex:kr.e.z:()V@0x122c98"
+    ]
+  },
+  {
+    "url": "https://youtrack.jetbrains.com/issue/KT-55980",
+    "category": "文档/namespace/错误说明",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes.dex:kotlin.jvm.internal.PropertyReference.getReflected:()Lzk/k;@0x4caed4"
+    ]
+  },
+  {
+    "url": "ws://access.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.g:()Ljava/lang/String;@0x374018"
+    ]
+  },
+  {
+    "url": "ws://preview.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.g:()Ljava/lang/String;@0x374018"
+    ]
+  },
+  {
+    "url": "ws://preview4test.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.g:()Ljava/lang/String;@0x374018"
+    ]
+  },
+  {
+    "url": "ws://speech-staging.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.o:()Ljava/lang/String;@0x3742a0"
+    ]
+  },
+  {
+    "url": "ws://staging.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.g:()Ljava/lang/String;@0x374018"
+    ]
+  },
+  {
+    "url": "ws://tw.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.g:()Ljava/lang/String;@0x374018"
+    ]
+  },
+  {
+    "url": "wss://preview4test-access-speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.o:()Ljava/lang/String;@0x3742a0"
+    ]
+  },
+  {
+    "url": "wss://speech-preview.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "preview/staging/test 字面量",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.o:()Ljava/lang/String;@0x3742a0"
+    ]
+  },
+  {
+    "url": "wss://speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.o:()Ljava/lang/String;@0x3742a0"
+    ]
+  },
+  {
+    "url": "wss://tw.speech.xiaomixiaoai.com/speech/v1.0/longaccess",
+    "category": "WebSocket SDK 候选",
+    "environment": "生产命名或未明确环境；非运行时选择结果",
+    "references": [
+      "classes5.dex:com.xiaomi.ai.core.a.o:()Ljava/lang/String;@0x3742a0"
+    ]
+  }
+]

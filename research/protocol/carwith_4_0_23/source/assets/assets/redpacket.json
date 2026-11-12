@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "click": {
+        "index": 0,
+        "packageName": "com.tencent.mm",
+        "action": "openintent",
+        "id": "",
+        "type": "",
+        "className": "com.tencent.mm.ui.LauncherUI",
+        "words": "",
+        "text": "",
+        "path": "",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "我小爱已用尽洪荒之力"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "",
+        "toSpeak": ""
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "打开微信",
+      "nodeId": 1,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 1,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "0000000101",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "唉 小爱只能帮你到这儿了"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "",
+        "toSpeak": ""
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "点击通讯录",
+      "nodeId": 2,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 2,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "00001010",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "居然难倒我了,你厉害"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "",
+        "toSpeak": ""
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "点击聊天页面右上角小人/点击联系人搜索按钮/按小相机",
+      "nodeId": 301,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 3,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "settext",
+        "className": "",
+        "words": "llllj|llllll|sdfsdfsdfsdfs",
+        "text": "",
+        "path": "0000000011",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "好像没帮到你,抱歉啊"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "",
+        "toSpeak": "搞定了"
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "在搜索框里输入关键字",
+      "nodeId": 88,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 4,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "000100001",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "好像没帮到你,抱歉啊"
+      },
+      "client": {
+        "type": "check",
+        "subType": "",
+        "pageId": "",
+        "toSpeak": ""
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "点击候选list的第一个",
+      "nodeId": 89,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 5,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "000000001000300|000002000300",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "试了下还是不行"
+      },
+      "client": {
+        "type": "requery",
+        "subType": "",
+        "pageId": "weixin_2",
+        "toSpeak": "搞定了"
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "点击加号",
+      "nodeId": 6,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 6,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "红包",
+        "path": "",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "唉 小爱只能帮你到这儿了"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "weixin_3",
+        "toSpeak": "搞定了"
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "点击红包按钮",
+      "nodeId": 7,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 7,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "settext",
+        "className": "",
+        "words": "10",
+        "text": "",
+        "path": "0000000000001",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "好像没帮到你,抱歉啊"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "weixin_4",
+        "toSpeak": "搞定~"
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "输入金额",
+      "nodeId": 8,
+      "versionCode": 1160
+    },
+    {
+      "click": {
+        "index": 8,
+        "packageName": "com.tencent.mm",
+        "action": "",
+        "id": "",
+        "type": "click",
+        "className": "",
+        "words": "",
+        "text": "",
+        "path": "00000000003",
+        "scrollPath": "",
+        "x": "",
+        "y": "",
+        "waitTime": 0,
+        "extra": "",
+        "toSpeak": "居然难倒我了,你厉害"
+      },
+      "client": {
+        "type": "",
+        "subType": "",
+        "pageId": "weixin_8",
+        "toSpeak": ""
+      },
+      "intent": {
+        "type": "",
+        "uri": ""
+      },
+      "name": "塞进红包",
+      "nodeId": 11,
+      "versionCode": 1160
+    }
+  ],
+  "to_speak": "我搞定啦",
+  "open_mic": true
+}

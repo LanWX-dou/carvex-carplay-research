@@ -1,0 +1,544 @@
+Class #2807            -
+  Class descriptor  : 'Lcom/xiaomi/ai/core/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'a'
+      type          : 'Lcom/xiaomi/ai/core/AivsConfig;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/ai/core/a;)
+      name          : '<init>'
+      type          : '(Lcom/xiaomi/ai/core/AivsConfig;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+374328:                                        |[374328] com.xiaomi.ai.core.a.<init>:(Lcom/xiaomi/ai/core/AivsConfig;)V
+374338: 7010 e2cb 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+37433e: 5b01 97c4                              |0003: iput-object v1, v0, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+374342: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'a'
+      type          : '(I)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 14 16-bit code units
+373e68:                                        |[373e68] com.xiaomi.ai.core.a.a:(I)Ljava/lang/String;
+373e78: 3801 0b00                              |0000: if-eqz v1, 000b // +000b
+373e7c: 1210                                   |0002: const/4 v0, #int 1 // #1
+373e7e: 3201 0500                              |0003: if-eq v1, v0, 0008 // +0005
+373e82: 1a01 faa4                              |0005: const-string v1, "http://cacerts-staging.mica.ai.xiaomi.com/api/certificate/sync" // string@a4fa
+373e86: 1101                                   |0007: return-object v1
+373e88: 1a01 2aa5                              |0008: const-string v1, "https://cacerts-preview.mica.xiaomixiaoai.com/api/certificate/sync" // string@a52a
+373e8c: 1101                                   |000a: return-object v1
+373e8e: 1a01 2ba5                              |000b: const-string v1, "https://cacerts.mica.xiaomixiaoai.com/api/certificate/sync" // string@a52b
+373e92: 1101                                   |000d: return-object v1
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'b'
+      type          : '(I)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 20 16-bit code units
+373eac:                                        |[373eac] com.xiaomi.ai.core.a.b:(I)Ljava/lang/String;
+373ebc: 3901 0500                              |0000: if-nez v1, 0005 // +0005
+373ec0: 1a01 3fa5                              |0002: const-string v1, "https://speech.xiaomixiaoai.com/speech/v2.0/dump" // string@a53f
+373ec4: 1101                                   |0004: return-object v1
+373ec6: 1210                                   |0005: const/4 v0, #int 1 // #1
+373ec8: 3301 0500                              |0006: if-ne v1, v0, 000b // +0005
+373ecc: 1a01 3da5                              |0008: const-string v1, "https://speech-preview.xiaomixiaoai.com/speech/v2.0/dump" // string@a53d
+373ed0: 1101                                   |000a: return-object v1
+373ed2: 1230                                   |000b: const/4 v0, #int 3 // #3
+373ed4: 3301 0500                              |000c: if-ne v1, v0, 0011 // +0005
+373ed8: 1a01 38a5                              |000e: const-string v1, "https://preview4test-speech.xiaomixiaoai.com/speech/v2.0/dump" // string@a538
+373edc: 1101                                   |0010: return-object v1
+373ede: 1a01 0aa5                              |0011: const-string v1, "http://speech-staging.xiaomixiaoai.com/speech/v2.0/dump" // string@a50a
+373ee2: 1101                                   |0013: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'c'
+      type          : '(I)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 18 16-bit code units
+373f28:                                        |[373f28] com.xiaomi.ai.core.a.c:(I)Ljava/lang/String;
+373f38: 3902 0500                              |0000: if-nez v2, 0005 // +0005
+373f3c: 1a02 32a5                              |0002: const-string v2, "https://multimodal-access.xiaomixiaoai.com/v1/resource/response" // string@a532
+373f40: 1102                                   |0004: return-object v2
+373f42: 1210                                   |0005: const/4 v0, #int 1 // #1
+373f44: 1a01 31a5                              |0006: const-string v1, "https://multimodal-access-preview.xiaomixiaoai.com/v1/resource/response" // string@a531
+373f48: 3302 0300                              |0008: if-ne v2, v0, 000b // +0003
+373f4c: 1101                                   |000a: return-object v1
+373f4e: 1230                                   |000b: const/4 v0, #int 3 // #3
+373f50: 3302 0500                              |000c: if-ne v2, v0, 0011 // +0005
+373f54: 1a02 30a5                              |000e: const-string v2, "https://multimodal-access-p4t.xiaomixiaoai.com/v1/resource/response" // string@a530
+373f58: 1102                                   |0010: return-object v2
+373f5a: 1101                                   |0011: return-object v1
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 27 16-bit code units
+373e20:                                        |[373e20] com.xiaomi.ai.core.a.a:()Ljava/lang/String;
+373e30: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373e34: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+373e38: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373e3e: 0a01                                   |0007: move-result v1
+373e40: 1220                                   |0008: const/4 v0, #int 2 // #2
+373e42: 3301 0500                              |0009: if-ne v1, v0, 000e // +0005
+373e46: 1a01 eca4                              |000b: const-string v1, "http://account-staging.xiaomixiaoai.com" // string@a4ec
+373e4a: 1101                                   |000d: return-object v1
+373e4c: 1210                                   |000e: const/4 v0, #int 1 // #1
+373e4e: 3201 0900                              |000f: if-eq v1, v0, 0018 // +0009
+373e52: 1230                                   |0011: const/4 v0, #int 3 // #3
+373e54: 3301 0300                              |0012: if-ne v1, v0, 0015 // +0003
+373e58: 2804                                   |0014: goto 0018 // +0004
+373e5a: 1a01 20a5                              |0015: const-string v1, "https://account.xiaomixiaoai.com" // string@a520
+373e5e: 1101                                   |0017: return-object v1
+373e60: 1a01 18a5                              |0018: const-string v1, "https://account-preview.xiaomixiaoai.com" // string@a518
+373e64: 1101                                   |001a: return-object v1
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+373e94:                                        |[373e94] com.xiaomi.ai.core.a.b:()Ljava/lang/String;
+373ea4: 1a00 37a5                              |0000: const-string v0, "https://open.account.xiaomi.com/user/profile" // string@a537
+373ea8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'c'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 26 16-bit code units
+373ee4:                                        |[373ee4] com.xiaomi.ai.core.a.c:()Ljava/lang/String;
+373ef4: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373ef8: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+373efc: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373f02: 0a01                                   |0007: move-result v1
+373f04: 3901 0500                              |0008: if-nez v1, 000d // +0005
+373f08: 1a01 2ea5                              |000a: const-string v1, "https://cloudcontrol.xiaomixiaoai.com/aivs/v1.0/config" // string@a52e
+373f0c: 1101                                   |000c: return-object v1
+373f0e: 1210                                   |000d: const/4 v0, #int 1 // #1
+373f10: 3201 0900                              |000e: if-eq v1, v0, 0017 // +0009
+373f14: 1230                                   |0010: const/4 v0, #int 3 // #3
+373f16: 3301 0300                              |0011: if-ne v1, v0, 0014 // +0003
+373f1a: 2804                                   |0013: goto 0017 // +0004
+373f1c: 1a01 fca4                              |0014: const-string v1, "http://cloudcontrol-staging.xiaomixiaoai.com/aivs/v1.0/config" // string@a4fc
+373f20: 1101                                   |0016: return-object v1
+373f22: 1a01 2da5                              |0017: const-string v1, "https://cloudcontrol-preview.xiaomixiaoai.com/aivs/v1.0/config" // string@a52d
+373f26: 1101                                   |0019: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'd'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 5 16-bit code units
+373f5c:                                        |[373f5c] com.xiaomi.ai.core.a.d:()Ljava/lang/String;
+373f6c: 6e10 62a3 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ai/core/a;.a:()Ljava/lang/String; // method@a362
+373f72: 0c00                                   |0003: move-result-object v0
+373f74: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'e'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 38 16-bit code units
+373f78:                                        |[373f78] com.xiaomi.ai.core.a.e:()Ljava/lang/String;
+373f88: 5430 97c4                              |0000: iget-object v0, v3, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373f8c: 1a01 c37f                              |0002: const-string v1, "aivs.env" // string@7fc3
+373f90: 6e20 8fa2 1000                         |0004: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373f96: 0a00                                   |0007: move-result v0
+373f98: 3900 0500                              |0008: if-nez v0, 000d // +0005
+373f9c: 1a03 43a5                              |000a: const-string v3, "https://tracker.xiaomixiaoai.com/track/v3" // string@a543
+373fa0: 1103                                   |000c: return-object v3
+373fa2: 5430 97c4                              |000d: iget-object v0, v3, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373fa6: 6e20 8fa2 1000                         |000f: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373fac: 0a00                                   |0012: move-result v0
+373fae: 1212                                   |0013: const/4 v2, #int 1 // #1
+373fb0: 3220 0f00                              |0014: if-eq v0, v2, 0023 // +000f
+373fb4: 5433 97c4                              |0016: iget-object v3, v3, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373fb8: 6e20 8fa2 1300                         |0018: invoke-virtual {v3, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373fbe: 0a03                                   |001b: move-result v3
+373fc0: 1230                                   |001c: const/4 v0, #int 3 // #3
+373fc2: 3303 0300                              |001d: if-ne v3, v0, 0020 // +0003
+373fc6: 2804                                   |001f: goto 0023 // +0004
+373fc8: 1a03 0fa5                              |0020: const-string v3, "http://tracker-staging.ai.srv/track/v3" // string@a50f
+373fcc: 1103                                   |0022: return-object v3
+373fce: 1a03 41a5                              |0023: const-string v3, "https://tracker-preview.xiaomixiaoai.com/track/v3" // string@a541
+373fd2: 1103                                   |0025: return-object v3
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'f'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 26 16-bit code units
+373fd4:                                        |[373fd4] com.xiaomi.ai.core.a.f:()Ljava/lang/String;
+373fe4: 5422 97c4                              |0000: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+373fe8: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+373fec: 6e20 8fa2 0200                         |0004: invoke-virtual {v2, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+373ff2: 0a02                                   |0007: move-result v2
+373ff4: 3902 0500                              |0008: if-nez v2, 000d // +0005
+373ff8: 1a02 3ea5                              |000a: const-string v2, "https://speech.xiaomixiaoai.com/speech/v1.0/wensheng/store" // string@a53e
+373ffc: 1102                                   |000c: return-object v2
+373ffe: 1210                                   |000d: const/4 v0, #int 1 // #1
+374000: 1a01 3ca5                              |000e: const-string v1, "https://speech-preview.xiaomixiaoai.com/speech/v1.0/wensheng/store" // string@a53c
+374004: 3302 0300                              |0010: if-ne v2, v0, 0013 // +0003
+374008: 1101                                   |0012: return-object v1
+37400a: 1230                                   |0013: const/4 v0, #int 3 // #3
+37400c: 3302 0300                              |0014: if-ne v2, v0, 0017 // +0003
+374010: 1101                                   |0016: return-object v1
+374012: 1a02 09a5                              |0017: const-string v2, "http://speech-staging.ai.srv/speech/v1.0/wensheng/store" // string@a509
+374016: 1102                                   |0019: return-object v2
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'g'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 60 16-bit code units
+374018:                                        |[374018] com.xiaomi.ai.core.a.g:()Ljava/lang/String;
+374028: 5420 97c4                              |0000: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37402c: 1a01 4b89                              |0002: const-string v1, "connection.external_connect_url" // string@894b
+374030: 6e20 88a2 1000                         |0004: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.containsKey:(Ljava/lang/String;)Z // method@a288
+374036: 0a00                                   |0007: move-result v0
+374038: 3800 0900                              |0008: if-eqz v0, 0011 // +0009
+37403c: 5422 97c4                              |000a: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+374040: 6e20 93a2 1200                         |000c: invoke-virtual {v2, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@a293
+374046: 0c02                                   |000f: move-result-object v2
+374048: 1102                                   |0010: return-object v2
+37404a: 5420 97c4                              |0011: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37404e: 1a01 c37f                              |0013: const-string v1, "aivs.env" // string@7fc3
+374052: 6e20 8fa2 1000                         |0015: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+374058: 0a00                                   |0018: move-result v0
+37405a: 1221                                   |0019: const/4 v1, #int 2 // #2
+37405c: 3310 0500                              |001a: if-ne v0, v1, 001f // +0005
+374060: 1a02 ebed                              |001c: const-string v2, "ws://staging.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edeb
+374064: 1102                                   |001e: return-object v2
+374066: 1211                                   |001f: const/4 v1, #int 1 // #1
+374068: 3310 0500                              |0020: if-ne v0, v1, 0025 // +0005
+37406c: 1a02 e8ed                              |0022: const-string v2, "ws://preview.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ede8
+374070: 1102                                   |0024: return-object v2
+374072: 1231                                   |0025: const/4 v1, #int 3 // #3
+374074: 3310 0500                              |0026: if-ne v0, v1, 002b // +0005
+374078: 1a02 e9ed                              |0028: const-string v2, "ws://preview4test.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ede9
+37407c: 1102                                   |002a: return-object v2
+37407e: 5422 97c4                              |002b: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+374082: 1a00 3c89                              |002d: const-string v0, "connection.enable_abroad_url" // string@893c
+374086: 1201                                   |002f: const/4 v1, #int 0 // #0
+374088: 6e30 8aa2 0201                         |0030: invoke-virtual {v2, v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+37408e: 0a02                                   |0033: move-result v2
+374090: 3802 0500                              |0034: if-eqz v2, 0039 // +0005
+374094: 1a02 eced                              |0036: const-string v2, "ws://tw.access.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edec
+374098: 1102                                   |0038: return-object v2
+37409a: 1a02 e7ed                              |0039: const-string v2, "ws://access.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ede7
+37409e: 1102                                   |003b: return-object v2
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'h'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 60 16-bit code units
+3740a0:                                        |[3740a0] com.xiaomi.ai.core.a.h:()Ljava/lang/String;
+3740b0: 5420 97c4                              |0000: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3740b4: 1a01 4b89                              |0002: const-string v1, "connection.external_connect_url" // string@894b
+3740b8: 6e20 88a2 1000                         |0004: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.containsKey:(Ljava/lang/String;)Z // method@a288
+3740be: 0a00                                   |0007: move-result v0
+3740c0: 3800 0900                              |0008: if-eqz v0, 0011 // +0009
+3740c4: 5422 97c4                              |000a: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3740c8: 6e20 93a2 1200                         |000c: invoke-virtual {v2, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@a293
+3740ce: 0c02                                   |000f: move-result-object v2
+3740d0: 1102                                   |0010: return-object v2
+3740d2: 5420 97c4                              |0011: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3740d6: 1a01 c37f                              |0013: const-string v1, "aivs.env" // string@7fc3
+3740da: 6e20 8fa2 1000                         |0015: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+3740e0: 0a00                                   |0018: move-result v0
+3740e2: 1221                                   |0019: const/4 v1, #int 2 // #2
+3740e4: 3310 0500                              |001a: if-ne v0, v1, 001f // +0005
+3740e8: 1a02 37ee                              |001c: const-string v2, "xmd://staging.accessxmd.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ee37
+3740ec: 1102                                   |001e: return-object v2
+3740ee: 1211                                   |001f: const/4 v1, #int 1 // #1
+3740f0: 3310 0500                              |0020: if-ne v0, v1, 0025 // +0005
+3740f4: 1a02 35ee                              |0022: const-string v2, "xmd://preview.accessxmd.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ee35
+3740f8: 1102                                   |0024: return-object v2
+3740fa: 1231                                   |0025: const/4 v1, #int 3 // #3
+3740fc: 3310 0500                              |0026: if-ne v0, v1, 002b // +0005
+374100: 1a02 36ee                              |0028: const-string v2, "xmd://preview4test.accessxmd.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ee36
+374104: 1102                                   |002a: return-object v2
+374106: 5422 97c4                              |002b: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37410a: 1a00 3c89                              |002d: const-string v0, "connection.enable_abroad_url" // string@893c
+37410e: 1201                                   |002f: const/4 v1, #int 0 // #0
+374110: 6e30 8aa2 0201                         |0030: invoke-virtual {v2, v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+374116: 0a02                                   |0033: move-result v2
+374118: 3802 0500                              |0034: if-eqz v2, 0039 // +0005
+37411c: 1a02 38ee                              |0036: const-string v2, "xmd://tw.accessxmd.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ee38
+374120: 1102                                   |0038: return-object v2
+374122: 1a02 34ee                              |0039: const-string v2, "xmd://accessxmd.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@ee34
+374126: 1102                                   |003b: return-object v2
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'i'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 28 16-bit code units
+374128:                                        |[374128] com.xiaomi.ai.core.a.i:()Ljava/lang/String;
+374138: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37413c: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+374140: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+374146: 0a01                                   |0007: move-result v1
+374148: 3901 0500                              |0008: if-nez v1, 000d // +0005
+37414c: 1a01 3fa5                              |000a: const-string v1, "https://speech.xiaomixiaoai.com/speech/v2.0/dump" // string@a53f
+374150: 1101                                   |000c: return-object v1
+374152: 1210                                   |000d: const/4 v0, #int 1 // #1
+374154: 3301 0500                              |000e: if-ne v1, v0, 0013 // +0005
+374158: 1a01 3da5                              |0010: const-string v1, "https://speech-preview.xiaomixiaoai.com/speech/v2.0/dump" // string@a53d
+37415c: 1101                                   |0012: return-object v1
+37415e: 1230                                   |0013: const/4 v0, #int 3 // #3
+374160: 3301 0500                              |0014: if-ne v1, v0, 0019 // +0005
+374164: 1a01 38a5                              |0016: const-string v1, "https://preview4test-speech.xiaomixiaoai.com/speech/v2.0/dump" // string@a538
+374168: 1101                                   |0018: return-object v1
+37416a: 1a01 0aa5                              |0019: const-string v1, "http://speech-staging.xiaomixiaoai.com/speech/v2.0/dump" // string@a50a
+37416e: 1101                                   |001b: return-object v1
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'j'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 13 16-bit code units
+374170:                                        |[374170] com.xiaomi.ai.core.a.j:()Ljava/lang/String;
+374180: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+374184: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+374188: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+37418e: 0a01                                   |0007: move-result v1
+374190: 7110 67a3 0100                         |0008: invoke-static {v1}, Lcom/xiaomi/ai/core/a;.c:(I)Ljava/lang/String; // method@a367
+374196: 0c01                                   |000b: move-result-object v1
+374198: 1101                                   |000c: return-object v1
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'k'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 17 16-bit code units
+37419c:                                        |[37419c] com.xiaomi.ai.core.a.k:()Ljava/lang/String;
+3741ac: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3741b0: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+3741b4: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+3741ba: 0a01                                   |0007: move-result v1
+3741bc: 1220                                   |0008: const/4 v0, #int 2 // #2
+3741be: 3301 0500                              |0009: if-ne v1, v0, 000e // +0005
+3741c2: 1a01 01a5                              |000b: const-string v1, "http://open.account.preview.n.xiaomi.net" // string@a501
+3741c6: 1101                                   |000d: return-object v1
+3741c8: 1a01 19a5                              |000e: const-string v1, "https://account.xiaomi.com" // string@a519
+3741cc: 1101                                   |0010: return-object v1
+      catches       : (none)
+
+    #11              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'l'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 26 16-bit code units
+3741d0:                                        |[3741d0] com.xiaomi.ai.core.a.l:()Ljava/lang/String;
+3741e0: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3741e4: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+3741e8: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+3741ee: 0a01                                   |0007: move-result v1
+3741f0: 3901 0500                              |0008: if-nez v1, 000d // +0005
+3741f4: 1a01 34a5                              |000a: const-string v1, "https://nlp.xiaomixiaoai.com/voiceassistant/privacy/v2" // string@a534
+3741f8: 1101                                   |000c: return-object v1
+3741fa: 1210                                   |000d: const/4 v0, #int 1 // #1
+3741fc: 3201 0900                              |000e: if-eq v1, v0, 0017 // +0009
+374200: 1230                                   |0010: const/4 v0, #int 3 // #3
+374202: 3301 0300                              |0011: if-ne v1, v0, 0014 // +0003
+374206: 2804                                   |0013: goto 0017 // +0004
+374208: 1a01 00a5                              |0014: const-string v1, "http://nlp-staging.ai.srv/voiceassistant/privacy/v2" // string@a500
+37420c: 1101                                   |0016: return-object v1
+37420e: 1a01 33a5                              |0017: const-string v1, "https://nlp-preview.xiaomixiaoai.com/voiceassistant/privacy/v2" // string@a533
+374212: 1101                                   |0019: return-object v1
+      catches       : (none)
+
+    #12              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'm'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 26 16-bit code units
+374214:                                        |[374214] com.xiaomi.ai.core.a.m:()Ljava/lang/String;
+374224: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+374228: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+37422c: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+374232: 0a01                                   |0007: move-result v1
+374234: 3901 0500                              |0008: if-nez v1, 000d // +0005
+374238: 1a01 42a5                              |000a: const-string v1, "https://tracker.xiaomixiaoai.com/track/perf/v2" // string@a542
+37423c: 1101                                   |000c: return-object v1
+37423e: 1210                                   |000d: const/4 v0, #int 1 // #1
+374240: 3201 0900                              |000e: if-eq v1, v0, 0017 // +0009
+374244: 1230                                   |0010: const/4 v0, #int 3 // #3
+374246: 3301 0300                              |0011: if-ne v1, v0, 0014 // +0003
+37424a: 2804                                   |0013: goto 0017 // +0004
+37424c: 1a01 0ea5                              |0014: const-string v1, "http://tracker-staging.ai.srv/track/perf/v2" // string@a50e
+374250: 1101                                   |0016: return-object v1
+374252: 1a01 40a5                              |0017: const-string v1, "https://tracker-preview.xiaomixiaoai.com/track/perf/v2" // string@a540
+374256: 1101                                   |0019: return-object v1
+      catches       : (none)
+
+    #13              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'n'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 28 16-bit code units
+374258:                                        |[374258] com.xiaomi.ai.core.a.n:()Ljava/lang/String;
+374268: 5411 97c4                              |0000: iget-object v1, v1, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37426c: 1a00 c37f                              |0002: const-string v0, "aivs.env" // string@7fc3
+374270: 6e20 8fa2 0100                         |0004: invoke-virtual {v1, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+374276: 0a01                                   |0007: move-result v1
+374278: 3901 0500                              |0008: if-nez v1, 000d // +0005
+37427c: 1a01 07a5                              |000a: const-string v1, "http://query-suggestion.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/" // string@a507
+374280: 1101                                   |000c: return-object v1
+374282: 1210                                   |000d: const/4 v0, #int 1 // #1
+374284: 3301 0500                              |000e: if-ne v1, v0, 0013 // +0005
+374288: 1a01 05a5                              |0010: const-string v1, "http://query-suggestion-preview.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/" // string@a505
+37428c: 1101                                   |0012: return-object v1
+37428e: 1230                                   |0013: const/4 v0, #int 3 // #3
+374290: 3301 0500                              |0014: if-ne v1, v0, 0019 // +0005
+374294: 1a01 04a5                              |0016: const-string v1, "http://preview4test-query-suggestion.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/" // string@a504
+374298: 1101                                   |0018: return-object v1
+37429a: 1a01 06a5                              |0019: const-string v1, "http://query-suggestion-staging.xiaomixiaoai.com/simple/litecrypto/uniform/suggest/" // string@a506
+37429e: 1101                                   |001b: return-object v1
+      catches       : (none)
+
+    #14              : (in Lcom/xiaomi/ai/core/a;)
+      name          : 'o'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 60 16-bit code units
+3742a0:                                        |[3742a0] com.xiaomi.ai.core.a.o:()Ljava/lang/String;
+3742b0: 5420 97c4                              |0000: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3742b4: 1a01 4b89                              |0002: const-string v1, "connection.external_connect_url" // string@894b
+3742b8: 6e20 88a2 1000                         |0004: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.containsKey:(Ljava/lang/String;)Z // method@a288
+3742be: 0a00                                   |0007: move-result v0
+3742c0: 3800 0900                              |0008: if-eqz v0, 0011 // +0009
+3742c4: 5422 97c4                              |000a: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3742c8: 6e20 93a2 1200                         |000c: invoke-virtual {v2, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@a293
+3742ce: 0c02                                   |000f: move-result-object v2
+3742d0: 1102                                   |0010: return-object v2
+3742d2: 5420 97c4                              |0011: iget-object v0, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+3742d6: 1a01 c37f                              |0013: const-string v1, "aivs.env" // string@7fc3
+3742da: 6e20 8fa2 1000                         |0015: invoke-virtual {v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+3742e0: 0a00                                   |0018: move-result v0
+3742e2: 1221                                   |0019: const/4 v1, #int 2 // #2
+3742e4: 3310 0500                              |001a: if-ne v0, v1, 001f // +0005
+3742e8: 1a02 eaed                              |001c: const-string v2, "ws://speech-staging.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edea
+3742ec: 1102                                   |001e: return-object v2
+3742ee: 1211                                   |001f: const/4 v1, #int 1 // #1
+3742f0: 3310 0500                              |0020: if-ne v0, v1, 0025 // +0005
+3742f4: 1a02 f1ed                              |0022: const-string v2, "wss://speech-preview.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edf1
+3742f8: 1102                                   |0024: return-object v2
+3742fa: 1231                                   |0025: const/4 v1, #int 3 // #3
+3742fc: 3310 0500                              |0026: if-ne v0, v1, 002b // +0005
+374300: 1a02 f0ed                              |0028: const-string v2, "wss://preview4test-access-speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edf0
+374304: 1102                                   |002a: return-object v2
+374306: 5422 97c4                              |002b: iget-object v2, v2, Lcom/xiaomi/ai/core/a;.a:Lcom/xiaomi/ai/core/AivsConfig; // field@c497
+37430a: 1a00 3c89                              |002d: const-string v0, "connection.enable_abroad_url" // string@893c
+37430e: 1201                                   |002f: const/4 v1, #int 0 // #0
+374310: 6e30 8aa2 0201                         |0030: invoke-virtual {v2, v0, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+374316: 0a02                                   |0033: move-result v2
+374318: 3802 0500                              |0034: if-eqz v2, 0039 // +0005
+37431c: 1a02 f3ed                              |0036: const-string v2, "wss://tw.speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edf3
+374320: 1102                                   |0038: return-object v2
+374322: 1a02 f2ed                              |0039: const-string v2, "wss://speech.xiaomixiaoai.com/speech/v1.0/longaccess" // string@edf2
+374326: 1102                                   |003b: return-object v2
+      catches       : (none)
+
+  source_file_idx   : 25929 (SourceFile)
+

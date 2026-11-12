@@ -1,0 +1,161 @@
+[
+  {
+    "dex": "classes4.dex",
+    "class": "Lfb/a;",
+    "method": "a",
+    "http_method": "POST",
+    "path": "/voiceassistant/miotauth/status",
+    "signature": "tj.o a(cb.b)",
+    "annotations": [
+      {
+        "type": "Ldalvik/annotation/Signature;",
+        "values": {
+          "value": [
+            "(",
+            "Lcb/b;",
+            ")",
+            "Ltj/o<",
+            "Lcb/b;",
+            ">;"
+          ]
+        }
+      },
+      {
+        "type": "Lpr/o;",
+        "values": {
+          "value": "/voiceassistant/miotauth/status"
+        }
+      }
+    ],
+    "parameters": [
+      [
+        {
+          "type": "Lpr/a;",
+          "values": {}
+        }
+      ]
+    ]
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lfb/b;",
+    "method": "a",
+    "http_method": "POST",
+    "path": "tone",
+    "signature": "tj.o a(cb.f)",
+    "annotations": [
+      {
+        "type": "Ldalvik/annotation/Signature;",
+        "values": {
+          "value": [
+            "(",
+            "Lcb/f;",
+            ")",
+            "Ltj/o<",
+            "Lcb/e;",
+            ">;"
+          ]
+        }
+      },
+      {
+        "type": "Lpr/o;",
+        "values": {
+          "value": "tone"
+        }
+      }
+    ],
+    "parameters": [
+      [
+        {
+          "type": "Lpr/a;",
+          "values": {}
+        }
+      ]
+    ]
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lfb/c;",
+    "method": "a",
+    "http_method": "GET",
+    "path": "voiceassistant/privacy/status",
+    "signature": "tj.i a(java.lang.String)",
+    "annotations": [
+      {
+        "type": "Ldalvik/annotation/Signature;",
+        "values": {
+          "value": [
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Ltj/i<",
+            "Lcb/d;",
+            ">;"
+          ]
+        }
+      },
+      {
+        "type": "Lpr/f;",
+        "values": {
+          "value": "voiceassistant/privacy/status"
+        }
+      }
+    ],
+    "parameters": [
+      [
+        {
+          "type": "Lpr/t;",
+          "values": {
+            "value": "deviceId"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lfb/c;",
+    "method": "b",
+    "http_method": "POST",
+    "path": "voiceassistant/privacy/status",
+    "signature": "tj.i b(cb.a)",
+    "annotations": [
+      {
+        "type": "Ldalvik/annotation/Signature;",
+        "values": {
+          "value": [
+            "(",
+            "Lcb/a;",
+            ")",
+            "Ltj/i<",
+            "Lcb/d;",
+            ">;"
+          ]
+        }
+      },
+      {
+        "type": "Lpr/k;",
+        "values": {
+          "value": [
+            "content-type:application/json",
+            "accept:*/*"
+          ]
+        }
+      },
+      {
+        "type": "Lpr/o;",
+        "values": {
+          "value": "voiceassistant/privacy/status"
+        }
+      }
+    ],
+    "parameters": [
+      [
+        {
+          "type": "Lpr/a;",
+          "values": {}
+        }
+      ]
+    ]
+  }
+]

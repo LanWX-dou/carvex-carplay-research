@@ -1,0 +1,37 @@
+Class #4352            -
+  Class descriptor  : 'Lio/reactivex/exceptions/UndeliverableException;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/IllegalStateException;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lio/reactivex/exceptions/UndeliverableException;)
+      name          : 'serialVersionUID'
+      type          : 'J'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : 1644750035281290266
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lio/reactivex/exceptions/UndeliverableException;)
+      name          : '<init>'
+      type          : '(Ljava/lang/Throwable;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 21 16-bit code units
+48f7b8:                                        |[48f7b8] io.reactivex.exceptions.UndeliverableException.<init>:(Ljava/lang/Throwable;)V
+48f7c8: 2200 4f1d                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1d4f
+48f7cc: 7010 9abc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+48f7d2: 1a01 726f                              |0005: const-string v1, "The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | " // string@6f72
+48f7d6: 6e20 a5bc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+48f7dc: 6e20 a4bc 3000                         |000a: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@bca4
+48f7e2: 6e10 b7bc 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+48f7e8: 0c00                                   |0010: move-result-object v0
+48f7ea: 7030 d9bb 0203                         |0011: invoke-direct {v2, v0, v3}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@bbd9
+48f7f0: 0e00                                   |0014: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 29356 (UndeliverableException.java)
+

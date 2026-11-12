@@ -1,0 +1,3210 @@
+[
+  {
+    "dex": "classes.dex",
+    "class": "Lx1/b;",
+    "field": "a",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "code"
+      }
+    }
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lx1/b;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "message"
+      }
+    }
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lx1/b;",
+    "field": "c",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "traceId"
+      }
+    }
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lx1/b;",
+    "field": "d",
+    "type": "java.lang.Object",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "data"
+      }
+    }
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lx1/c;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "resultContent"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/iccoa/share/transfer/bean/DownloadIntention;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/iccoa/share/transfer/bean/DownloadIntention;",
+    "field": "b",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "action"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AdsBannerInfo;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "iconUrl"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AdsBannerInfo;",
+    "field": "b",
+    "type": "android.net.Uri",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "iconUri"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AdsBannerInfo;",
+    "field": "c",
+    "type": "android.net.Uri",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "uri"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appId"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkgName"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "c",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "title"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "d",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "ads"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "e",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "digest"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "f",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "experimentalId"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "g",
+    "type": "android.net.Uri",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "iconUri"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "h",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "iconMask"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "i",
+    "type": "android.net.Uri",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appUri"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "j",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "mApkBriefDescription"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "k",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "mApkSize"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "l",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "mParameters"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "m",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "viewMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "n",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "clickMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "o",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "impressionMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "p",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "adInfoPassback"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/AppstoreAppInfo;",
+    "field": "q",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "mFlag"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "a",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "folderId"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "b",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appInfoList"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "c",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "bannerList"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "d",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "backgroundImageUrl"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "e",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "description"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "f",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "sid"
+      }
+    }
+  },
+  {
+    "dex": "classes3.dex",
+    "class": "Lcom/market/sdk/DesktopRecommendInfo;",
+    "field": "g",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cacheTime"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/a;",
+    "field": "a",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "watermark"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/a;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "device_id"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/a;",
+    "field": "c",
+    "type": "cb.c",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "privacy"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/a;",
+    "field": "d",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "status"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/b;",
+    "field": "a",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "accredit_switch"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "a",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "address"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "b",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "smart_travel"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "c",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "simulation"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "d",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "contact"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "e",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "personalize"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "f",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "voice_wakeup"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "g",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "continuous_talk"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/c;",
+    "field": "h",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "schedule"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/d;",
+    "field": "a",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "code"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/d;",
+    "field": "b",
+    "type": "cb.a",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "data"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/d;",
+    "field": "c",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "message"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/f;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "request_id"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/f;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "vendor_id"
+      }
+    }
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcb/f;",
+    "field": "c",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "speak"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/DeviceInfo;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/DeviceInfo;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "name"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "name"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "c",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "count"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "d",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "size"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "e",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "thumbUri"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "f",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "imageFileCount"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "g",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "videoFileCount"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "h",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "audioFileCount"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "i",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "docFileCount"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "j",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "otherFileCount"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "k",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "imageFileSize"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "l",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "videoFileSize"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "m",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "audioFileSize"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "n",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "docFileSize"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/ucar/sdk/bean/TaskInfo;",
+    "field": "o",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "otherFileSize"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/CloudCommonConfig;",
+    "field": "mDisplayTime",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "displayTime"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/CloudCommonConfig;",
+    "field": "mKeyeventMinTime",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "keyevent_min_time"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/CloudCommonConfig;",
+    "field": "mSimplifyTimeout",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "simplify_timeout"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/CloudVadConfig;",
+    "field": "mCloudVad",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cloud_vad"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/FullDuplexConfig;",
+    "field": "mAecModel",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "aec_model"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/FullDuplexConfig;",
+    "field": "mBigCardBtTimeout",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "big_card_bt_timeout"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/FullDuplexConfig;",
+    "field": "mBigCardTimeout",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "big_card_timeout"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/FullDuplexConfig;",
+    "field": "mSmallCardBtTimeout",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "small_card_bt_timeout"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/FullDuplexConfig;",
+    "field": "mSmallCardTimeout",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "small_card_timeout"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/ModelScore;",
+    "field": "mModel",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "model"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/ModelScore;",
+    "field": "mScore",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "score"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/TrainingConfig;",
+    "field": "mIntroVideo",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "intro_video"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VadPrestartConfig;",
+    "field": "mVadPrestart",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "vad_prestart"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VendorTtsConfig;",
+    "field": "mAsrDetectScore",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "asr_detect_score"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VendorTtsConfig;",
+    "field": "mModelScores",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "environment_detect_model_score"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VendorTtsConfig;",
+    "field": "mTotalFeatureOn",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "total_feature_on"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VendorTtsConfig;",
+    "field": "mVendorTtsModel",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "vendor_tts_model"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/data/VoiceWaveConfig;",
+    "field": "mDevices",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "devices"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallContent;",
+    "field": "messageText",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "alternate": [
+          "messageText"
+        ],
+        "value": "message_text"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallContent;",
+    "field": "phoneList",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "alternate": [
+          "phoneList"
+        ],
+        "value": "phone_list"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallContent;",
+    "field": "toDisplay",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "alternate": [
+          "toDisplay"
+        ],
+        "value": "to_display"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/domain/phonecall/common/PhoneCallContent;",
+    "field": "toSpeak",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "alternate": [
+          "toSpeak"
+        ],
+        "value": "to_speak"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lcom/xiaomi/ai/domain/phonecall/contact/PhoneItem;",
+    "field": "userId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "alternate": [
+          "userId",
+          "userID"
+        ],
+        "value": "user_id"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lkd/a;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "sha1"
+      }
+    }
+  },
+  {
+    "dex": "classes5.dex",
+    "class": "Lkd/a;",
+    "field": "b",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "md5"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "a",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "address"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "b",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "lng"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "c",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "city"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "d",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "district"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "e",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lbj/a;",
+    "field": "f",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "lat"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AccessibilityInfo;",
+    "field": "allAppInfo",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "all_app_info"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AccessibilityInfo;",
+    "field": "currentPageInfo",
+    "type": "com.xiaomi.voiceassistant.fastjson.CurrentPageInfo",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "current_page_info"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AccessibilityInfo;",
+    "field": "currentPlayInfo",
+    "type": "com.xiaomi.voiceassistant.fastjson.CurrentPlayInfo",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "current_play_info"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AccessibilityInfo;",
+    "field": "driveMode",
+    "type": "com.xiaomi.voiceassistant.fastjson.DriveMode",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "drive_mode"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AccessibilityInfo;",
+    "field": "isLockState",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_lock_state"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AllAppInfoItem;",
+    "field": "pkgName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkg_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AllAppInfoItem;",
+    "field": "versionCode",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "version_code"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AllAppInfoItem;",
+    "field": "versionName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "version_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppInfo;",
+    "field": "appInfo",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "app_info"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppInfoItem;",
+    "field": "pkgName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkg_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppVersionsItem;",
+    "field": "classPatterns",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "classPatterns"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppVersionsItem;",
+    "field": "contentPatterns",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "contentPatterns"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppVersionsItem;",
+    "field": "idPatterns",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "idPatterns"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppVersionsItem;",
+    "field": "textPatterns",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "textPatterns"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/AppVersionsItem;",
+    "field": "versionCode",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "versionCode"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/ClassPatternsItem;",
+    "field": "className",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "class_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/ClassPatternsItem;",
+    "field": "enabled",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "enabled"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/ClassPatternsItem;",
+    "field": "text",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "text"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "X",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "x"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "Y",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "y"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "action",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "action"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "extra",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "extra"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "id",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "issetBitVector",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "__isset_bit_vector"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mClassName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "className"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mIndex",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "index"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mPath",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "path"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mScrollPath",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "scrollPath"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mType",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mWords",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "words"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "mtoSpeak",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "toSpeak"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "nodeDesc",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "nodeDesc"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "packageName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "packageName"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "text",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "text"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Click;",
+    "field": "waitTime",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "waitTime"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Client;",
+    "field": "pageId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pageId"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Client;",
+    "field": "subType",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "subType"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Client;",
+    "field": "toSpeak",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "toSpeak"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Client;",
+    "field": "type",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/ContentPatternsItem;",
+    "field": "enabled",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "enabled"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/ContentPatternsItem;",
+    "field": "regex",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "regex"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "lastSuccessNodeId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "last_success_node_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "matchType",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "match_type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "pageId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "page_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "pkgName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkg_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "platformVersion",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "platform_version"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "versionCode",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "version_code"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPageInfo;",
+    "field": "versionName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "version_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/CurrentPlayInfo;",
+    "field": "pkgName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkg_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DeviceConfigInfo;",
+    "field": "deviceOpen",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "device_open"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DeviceConfigInfo;",
+    "field": "imeiList",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "imei"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "inDriveMode",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "in_drive_mode"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "isPassiveMode",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_passive_mode"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "needConfirmEducation",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "need_confirm_education"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "needFinishEducation",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "need_finish_education"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "needReplyEducation",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "need_reply_education"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "promptForBlockedMessageSender",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "prompt_for_blocked_message_sender"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/DriveMode;",
+    "field": "reinputButtonClicked",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "reinput_button_clicked"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/IdPatternsItem;",
+    "field": "className",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "class_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/IdPatternsItem;",
+    "field": "enabled",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "enabled"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/IdPatternsItem;",
+    "field": "text",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "text"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Intent;",
+    "field": "type",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Intent;",
+    "field": "uri",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "uri"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeExecuteTimeItem;",
+    "field": "executeTime",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "execute_time"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeExecuteTimeItem;",
+    "field": "nodeId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "node_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeExecuteTimeItem;",
+    "field": "waitUserTime",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "wait_user_time"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeIdInfosItem;",
+    "field": "appVersions",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appVersions"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeIdInfosItem;",
+    "field": "pageId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pageId"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeInfo;",
+    "field": "nodeInfo",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "nodeInfo"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodeInfoItem;",
+    "field": "nodeIdInfos",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "nodeIdInfos"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "click",
+    "type": "com.xiaomi.voiceassistant.fastjson.Click",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "click"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "client",
+    "type": "com.xiaomi.voiceassistant.fastjson.Client",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "client"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "intent",
+    "type": "com.xiaomi.voiceassistant.fastjson.Intent",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "intent"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "issetBitVector",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "__isset_bit_vector"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "name",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "nodeId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "nodeId"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/NodesItem;",
+    "field": "versionCode",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "versionCode"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "X",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "x"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "Y",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "y"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "action",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "action"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "className",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "className"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "extra",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "extra"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "id",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "index",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "index"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "issetBitVector",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "__isset_bit_vector"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "packageName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "packageName"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "path",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "path"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "text",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "text"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "type",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "waitTime",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "waitTime"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/Sdk;",
+    "field": "words",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "words"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/TextPatternsItem;",
+    "field": "className",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "class_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/TextPatternsItem;",
+    "field": "enabled",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "enabled"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/TextPatternsItem;",
+    "field": "text",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "text"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/appdownload/Intent;",
+    "field": "permission",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "permission"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/appdownload/Intent;",
+    "field": "pkgName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "pkg_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/appdownload/Intent;",
+    "field": "type",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/appdownload/Intent;",
+    "field": "uri",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "uri"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/AsrEvaluate;",
+    "field": "result",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "result"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "asr",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "asr"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "asrFinalTime",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "asr_final_time"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "file",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "file"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "requestId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "request_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "startRequestTime",
+    "type": "long",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "start_request_time"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/asrevaluate/ResultItem;",
+    "field": "vadEndTime",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "vad_end_time"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "autoMic",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "auto_mic"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "groupId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "group_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "guideTitle",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "guide_title"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "queryList",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "query_list"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "totalTtsIntroduceEnd",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "total_tts_introduce_end"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/FirstGuideQueries;",
+    "field": "totalTtsIntroduceEndError",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "total_tts_introduce_end_error"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/QueryListItem;",
+    "field": "matchList",
+    "type": "java.util.List",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "match_list"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/QueryListItem;",
+    "field": "query",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "query"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/QueryListItem;",
+    "field": "queryTts",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "query_tts"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/guide/QueryListItem;",
+    "field": "queryTtsWrong",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "query_tts_wrong"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "albumId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "album_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "albumName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "album_name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "allRate",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "all_rate"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "artist",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "artist"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "artistId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "artist_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "audioId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "audio_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "copyType",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "copy_type"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "coverUrl",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cover_url"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "cp",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cp"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "cpId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cp_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "cpSongId",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "cp_song_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "duration",
+    "type": "int",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "duration"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "globalId",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "global_id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "id",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "id"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "isLoadedCover",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_loaded_cover"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "isOriginalSinging",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_original_singing"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "isPayment",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "payment"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "isVip",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_vip"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "isVisible",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "is_visible"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "mid",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "mid"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "originSong",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "origin_song"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "refer",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "refer"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "song",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "song"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "songRank",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "song_rank"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/fastjson/music/MusicItem;",
+    "field": "tags",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "tags"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "a",
+    "type": "java.lang.Object",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "uid"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "b",
+    "type": "java.lang.Object",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "address"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "c",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "lng"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "d",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "city"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "e",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "district"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "f",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "name"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lcom/xiaomi/voiceassistant/personalInfo/data/loadAddr/ResultItem;",
+    "field": "g",
+    "type": "double",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "lat"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mAiEx",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "aiEx"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mAppRef",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appRef"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mAppSignature",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "appSignature"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mAutoDownload",
+    "type": "boolean",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "autoDownload"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mClickMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "clickMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mEx",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "ex"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mExtChannel",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "extChannel"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mFinishDownloadMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "finishDownloadMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mFinishInstallMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "finishInstallMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mIcon",
+    "type": "android.graphics.drawable.Drawable",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "icon"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mIconUrl",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "iconUrl"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mLabel",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "label"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mLaunchMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "launchMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mNonce",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "nonce"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mPackageName",
+    "type": "java.lang.String",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "packageName"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mStartDownloadMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "startDownloadMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mStartInstallMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "startInstallMonitorUrls"
+      }
+    }
+  },
+  {
+    "dex": "classes7.dex",
+    "class": "Lmj/d;",
+    "field": "mViewMonitorUrls",
+    "type": "java.lang.String[]",
+    "annotation": {
+      "type": "Lcom/google/gson/annotations/SerializedName;",
+      "values": {
+        "value": "viewMonitorUrls"
+      }
+    }
+  }
+]

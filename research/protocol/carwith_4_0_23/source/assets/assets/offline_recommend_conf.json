@@ -1,0 +1,5700 @@
+{
+    "guide_queries": [
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最新电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "最新电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最新的美剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "最新的美剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最小的树", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "最小的树", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最咸的树", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "最咸的树", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最热的韩剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "最热的韩剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "新上映的电影", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "最近有什么新上映的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "最火的日剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "最火的日剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "桌面整理", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "桌面整理", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "周星驰的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "周星驰的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "周润发的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "周润发的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "周末的天气", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "周末的天气", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "指南针", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "指南针", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "整理桌面", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "整理桌面", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "真香", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.lockscreen", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "真香", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "张钧甯的电视剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "张钧甯的电视剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "怎么快速止嗝", 
+            "scenes": [
+                "com.xiaoai.lockscreen", 
+                "com.miui.homecom.miui.home", 
+                "com.tencent.mm", 
+                "", 
+                "ox", 
+                "com.miui.voiceassist", 
+                "com.tencent.mobileqq", 
+                "com.android.systemui", 
+                "com.android.contacts", 
+                "com.android.browser", 
+                "com.ss.android.ugc.aweme", 
+                "com.ss.android.article.news", 
+                "com.taobao.taobao", 
+                "com.android."
+            ], 
+            "send_query": "怎么快速止嗝", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：云烟成雨", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "云烟成雨", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "圆周率", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "圆周率是多少", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "娱乐新闻", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "娱乐新闻", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "高分电影", 
+            "scenes": [
+                "com.miui.home "
+            ], 
+            "send_query": "有什么高分电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "游戏加速", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "游戏加速", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "优化加速", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "优化加速", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "应用双开", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "应用双开", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "应用商店", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "应用商店", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "应用管理", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "应用管理", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：一百万个可能", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "音乐：一百万个可能", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：说散就散", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "音乐：说散就散", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "衣服上的血迹怎么洗", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen", 
+                "com.android.browser", 
+                "com.zhihu.android"
+            ], 
+            "send_query": "衣服上的血迹怎么洗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "一米等于几厘米", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "一米等于多少厘米", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "1美元=多少欧元？", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "一美元等于多少欧元", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "一加一等于几", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "一加一等于几", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "一壶老酒", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "一壶老酒", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "100+200=?", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "一百加两百", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "摇滚乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "摇滚乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "杨幂的电视剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "杨幂的电视剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：学猫叫", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "学猫叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "学狗叫", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "学狗叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "写短信", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "写信息", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "笑话", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "笑话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小猪佩奇", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "小猪佩奇", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小苹果", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "小苹果", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小米商城", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "小米商城", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小米钱包", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "小米钱包", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小米米粉节", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "小米米粉节", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小狗怎么叫", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "小狗怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小白兔", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "小白兔白又白", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "相声", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "相声", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "聊一聊", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "闲聊", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "系统更新", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "系统更新", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "息屏", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "息屏", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今天的雾霾指数", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "雾霾指数", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "五月天的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "五月天的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日步数", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "我走了多少步", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "听首歌", 
+            "scenes": [
+                "com.miui.player "
+            ], 
+            "send_query": "我想听一首歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小苹果", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "我想听小苹果", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "民谣歌曲", 
+            "scenes": [
+                "com.miui.player", 
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.tencent.karaoke", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "我想听民谣", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "孟浩然的诗", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "我想听孟浩然的诗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "我喜欢你", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "我喜欢你", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "我吃火锅你吃火锅底料", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "我吃火锅你吃火锅底料", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "文件管理", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "文件管理", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "为什么会长白头发", 
+            "scenes": [
+                "com.miui.voiceassist", 
+                "com.miui.home", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.android.quicksearchbox", 
+                "com.UCMobile", 
+                "com.tencent.mtt"
+            ], 
+            "send_query": "为什么会长白头发", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.tencent.mm", 
+            "min_version": 1340, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信扫一扫", 
+            "scenes": [
+                "com.tencent.mm"
+            ], 
+            "send_query": "微信扫一扫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.tencent.mm", 
+            "min_version": 1340, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信付款码", 
+            "scenes": [
+                "com.tencent.mm"
+            ], 
+            "send_query": "微信付款码", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.tencent.mm", 
+            "min_version": 1340, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信二维码", 
+            "scenes": [
+                "com.tencent.mm"
+            ], 
+            "send_query": "微信二维码", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：往后余生", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "往后余生", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "网络助手", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "网络助手", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "流量查询", 
+            "scenes": [
+                "com.miui.securitycenter"
+            ], 
+            "send_query": "网络助手", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "游戏推荐", 
+            "scenes": [
+                " com.miui.home "
+            ], 
+            "send_query": "推荐个游戏", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "好玩的声音", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "听声音", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "听歌识曲", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist", 
+                "com.tencent.karaoke", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "听歌识曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日天蝎座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "天蝎座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "天气预报", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "天气预报", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "天气", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "天气", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日天秤座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "天秤座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "提醒我明天10点开会", 
+            "scenes": [
+                "com.android.deskclock", 
+                "com.android.deskclock", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "提醒我明天10点开会", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "提醒晚上8点给妈妈打电话", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "提醒晚上8点给妈妈打电话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "提醒明天10点开会", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "提醒明天10点开会", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "锁屏", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "锁屏", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "孙燕姿的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "孙燕姿的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "松鼠的叫声", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "松鼠怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：说散就散", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "说散就散", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "说情话", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.lockscreen", 
+                "com.tencent.mm", 
+                "com.android.browser", 
+                "com.zhihu.android", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.quicksearchbox"
+            ], 
+            "send_query": "说情话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "睡不着怎么办", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.browser", 
+                "com.android.quicksearchbox", 
+                "com.sina.weibo", 
+                "com.UCMobile", 
+                "com.tencent.mtt "
+            ], 
+            "send_query": "睡不着怎么办", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "水手", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "水手", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日水瓶座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "水瓶座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日双子座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "双子座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日双鱼座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "双鱼座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "手机瘦身", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "手机瘦身", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "手机加速", 
+            "scenes": [
+                "com.miui.home", 
+                "", 
+                "com.miui.cleanmaster", 
+                "com.cleanmaster.mguard_cn"
+            ], 
+            "send_query": "手机加速", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "手机分身", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "手机分身", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "手电筒", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "手电筒", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "收音机", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "收音机", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "适合开车听的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "适合开车听的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "视频", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "视频", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "世界第一高楼是？", 
+            "scenes": [
+                "com.android.systemui", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.android.quicksearchbox", 
+                "com.ss.android.article.news", 
+                "com.ss.android.article.lite", 
+                "com.tencent.tmgp.sgame", 
+                "com.xiaoai.lockscreen", 
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.tencent.mtt"
+            ], 
+            "send_query": "世界第一高楼", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.deskclock", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "十分钟后提醒我", 
+            "scenes": [
+                "com.android.deskclock"
+            ], 
+            "send_query": "十分钟后提醒我", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日狮子座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "狮子座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "系统升级", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassistcom.android.settings "
+            ], 
+            "send_query": "升级MIUI", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日射手座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "射手座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "设置闹钟", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "设置闹钟", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "嗓子疼怎么办", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "嗓子疼怎么办", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "37×28=？", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "三十七乘二十八", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "三个牛怎么读", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "三个牛怎么读", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "300元打78折", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "三百元打七八折", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "如何减肥", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.browser", 
+                "com.android.quicksearchbox", 
+                "com.sina.weibo", 
+                "com.UCMobile", 
+                "com.tencent.mtt"
+            ], 
+            "send_query": "如何才能减肥", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "日历", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "日历", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "人体最大的器官是？", 
+            "scenes": [
+                "com.xiaoai.lockscreen", 
+                "com.android.systemui", 
+                "com.ss.android.article.lite", 
+                "com.ss.android.article.news", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.UCMobile", 
+                "com.tencent.mtt", 
+                "com.miui.voiceassist", 
+                "TOTAL", 
+                "com.android.quicksearchbox"
+            ], 
+            "send_query": "人体最大的器官是", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "人体血管加起来有多长？", 
+            "scenes": [
+                "com.xiaoai.lockscreen", 
+                "com.android.systemui", 
+                "com.ss.android.article.lite", 
+                "com.ss.android.article.news", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.UCMobile", 
+                "com.tencent.mtt", 
+                "com.miui.voiceassist", 
+                "TOTAL", 
+                "com.android.quicksearchbox"
+            ], 
+            "send_query": "人体所有血管加起来有多长？", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "关机", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "确认关闭手机", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "全球最大的军舰", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "全球最大的军舰", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "穷怎么办", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.lockscree"
+            ], 
+            "send_query": "穷怎么办", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "清理微信缓存", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "清理微信缓存", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信清理", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "清理微信", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "清理手机垃圾", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "清理手机垃圾", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "清理垃圾", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "清理垃圾", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "清理病毒", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "清理病毒", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "清理QQ", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "清理QQ", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "轻音乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "轻音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "无敌模式", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "启动无敌模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "奇葩说5", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "奇葩说5", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "屏幕暗一点", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "屏幕暗一点", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "怕怕", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "怕怕救命", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "牛奶过期了怎么办", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen", 
+                "com.android.browser", 
+                "com.zhihu.android"
+            ], 
+            "send_query": "牛奶过期了怎么办", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小爱技能", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "你能干什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日摩羯座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "摩羯座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明早8点叫我起床", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明早8点叫我起床", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.deskclock", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明早八点叫我起床", 
+            "scenes": [
+                "com.android.deskclock"
+            ], 
+            "send_query": "明天早上8点叫我起床", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天下雨吗", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明天下雨吗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天天气", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明天天气", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天降温吗", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.tencent.mm "
+            ], 
+            "send_query": "明天降温吗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天几号", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明天几号", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天多少度", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明天多少度", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "明天北京到上海的机票", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "明天北京到上海的机票", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "民谣", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "民谣", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "免费主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.android.thememanager "
+            ], 
+            "send_query": "免费主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "萌宠图片", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "萌宠图片", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "美元汇率", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "美元兑人民币汇率", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "美少女变身", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "美少女变身", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "美女图片", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.baidu.searchbox", 
+                "com.tencent.mtt", 
+                "com.UCMobile", 
+                "com.android.browser", 
+                "com.ss.android.article.news"
+            ], 
+            "send_query": "美女图片", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "马冬梅", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "马冬梅", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "妈妈的妈妈叫什么", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "妈妈的妈妈叫什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "妈妈的妈妈的儿子叫？", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "妈妈的妈妈的儿子叫什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "妈妈的姑姑叫什么", 
+            "scenes": [
+                "com.miui.voiceassist", 
+                "com.miui.home", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.android.quicksearchbox", 
+                "com.UCMobile", 
+                "com.tencent.mtt"
+            ], 
+            "send_query": "妈妈的姑姑叫什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "妈妈的表哥叫什么", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "妈妈的表哥叫什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "骆驼怎么叫", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "骆驼怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "录音", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "录音", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "流行歌曲", 
+            "scenes": [
+                "com.miui.home", 
+                "", 
+                "com.tencent.karaoke", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "流行歌曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "刘德华的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.video", 
+                "com.tencent.qqlive", 
+                "com.qiyi.video", 
+                "com.ss.android.article.video", 
+                "com.youku.phone", 
+                "tv.danmaku.bili "
+            ], 
+            "send_query": "刘德华的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "林俊杰的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "林俊杰的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "offline", 
+            "query": "连接网络", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "连接网络", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "冷笑话", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "冷笑话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "雷阵雨的声音", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "雷阵雨的声音", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "雷军有多少钱", 
+            "scenes": [
+                "com.xiaoai.lockscreen", 
+                "com.android.systemui", 
+                "com.ss.android.article.lite", 
+                "com.ss.android.article.news", 
+                "com.android.browser", 
+                "com.baidu.searchbox", 
+                "com.UCMobile", 
+                "com.tencent.mtt", 
+                "com.miui.voiceassist", 
+                "TOTAL", 
+                "com.android.quicksearchbox"
+            ], 
+            "send_query": "雷军有多少钱", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "老鼠怎么叫", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "老鼠怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "老师最常说的话", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "老师最常说的话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "老虎怎么叫", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "老虎怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "看新闻", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "看新闻", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "看电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "看电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "自嗨模式", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "开启自嗨模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "自黑模式", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "开启自黑模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "音乐：卡路里", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "卡路里", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "播放《卡路里》", 
+            "scenes": [
+                "com.miui.player", 
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.tencent.karaoke", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "卡路里", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日巨蟹座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "巨蟹座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "99元打8折", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "九十九元打八折", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "99元打8折是多少钱", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "九十九元打八折", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "990÷42=?", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen", 
+                "com.miui.calculator"
+            ], 
+            "send_query": "九百九除以四十二", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "900÷45=?", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "九百除以四十五", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "经典歌曲", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "经典歌曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日金牛座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "金牛座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今天星期几", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "今天星期几", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日限号", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "今天限行的车号", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今天农历几号", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "今天农历几号", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今天几号", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "今天几号", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "截屏", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "截屏", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "降低亮度", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "降低亮度", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "讲故事", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "讲故事", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "姜文导演的影片", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "姜文导演的影片", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "返回桌面", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "回到桌面", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "黄渤的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "黄渤的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.settings", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "换主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "换主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "换壁纸", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "换壁纸", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "护眼模式", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "护眼模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "降低屏幕蓝光", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "护眼模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "黑眼圈怎么去除？", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "黑眼圈怎么去除？", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "好听的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "好听的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "好看的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "好看的电影推荐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "哈士奇和狼的区别", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "哈士奇和狼的区别", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "龟和鳖的区别", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "龟和鳖的区别", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "观看直播", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "观看直播", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "关闭流量开关", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "关闭流量开关", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "关闭导航", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.autonavi.minimap "
+            ], 
+            "send_query": "关闭导航", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "古诗词", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "浏览器", 
+                "com.baidu.searchbox", 
+                "com.tencent.mtt", 
+                "com.UCMobile"
+            ], 
+            "send_query": "古诗词", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "古诗", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "古诗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换字体", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "更换字体", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换铃声", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.settings", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "更换铃声", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换壁纸", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "更换壁纸", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "跟我学", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "跟我学", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "讲个故事", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "给我讲个故事", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "沙漠骆驼", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "给我放一首沙漠骆驼", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "个性壁纸", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "个性壁纸", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "个税计算", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "个税计算", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "搞笑动图", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "搞笑动态图", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "感冒挂什么科室", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "感冒了挂什么科", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "附近好吃的", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "附近好吃的", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "风吹树叶的声音", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "风吹树叶的声音", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "睡前音乐", 
+            "scenes": [
+                "com.miui.player"
+            ], 
+            "send_query": "放一些睡前音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "放首歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "放首歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "放手机里的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "放手机里的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "房贷计算", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "房贷计算", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "返回桌面", 
+            "scenes": [
+                "com.tencent.mm"
+            ], 
+            "send_query": "返回桌面", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "你的翻译官", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "翻译", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信红包", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "发个微信红包", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "儿歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "儿歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "斗破苍穹", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "斗破苍穹", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "抖音神曲", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "抖音神曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "动物园里有什么", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "动物园里有什么", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "动画片", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "动画片", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "董洁的电视剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "董洁的电视剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "电台", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "电台", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "电视剧", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "电视剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "电量管理", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "电量管理", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "弟子规", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "弟子规", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.deskclock", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "倒计时五分钟", 
+            "scenes": [
+                "com.android.deskclock"
+            ], 
+            "send_query": "倒计时五分钟", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "大鱼", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "大鱼", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "作业帮", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "打开作业帮", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "个性主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "主题风格", 
+            "scenes": [
+                "com.miui.home", 
+                "com.android.thememanager"
+            ], 
+            "send_query": "打开主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.eg.android.AlipayGphone", 
+            "min_version": 124, 
+            "network_status": "all", 
+            "query": "支付宝收款码", 
+            "scenes": [
+                "com.eg.android.AlipayGphone"
+            ], 
+            "send_query": "打开支付宝收款码", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.eg.android.AlipayGphone", 
+            "min_version": 124, 
+            "network_status": "all", 
+            "query": "支付宝扫一扫", 
+            "scenes": [
+                "com.eg.android.AlipayGphone"
+            ], 
+            "send_query": "打开支付宝扫一扫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.eg.android.AlipayGphone", 
+            "min_version": 124, 
+            "network_status": "all", 
+            "query": "支付宝付款码", 
+            "scenes": [
+                "com.eg.android.AlipayGphone"
+            ], 
+            "send_query": "打开支付宝付款码", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开支付宝", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开支付宝", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开小米云", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开小米云", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.video", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小米视频", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开小米视频", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小红书", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "打开小红书", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开相机", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开相机", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开相册", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开相册", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "微信", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "打开微信", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开微博", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开微博", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开网易云音乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "打开网易云音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "网易云音乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist "
+            ], 
+            "send_query": "打开网易云音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "王者荣耀", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "打开王者荣耀", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开通讯录", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开通讯录", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "天气", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "打开天气预报", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开淘宝", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开淘宝", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "手电筒", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "打开手电筒", 
+            "time": [
+                "00-05", 
+                "18-24"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.securitycenter", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "省电模式", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开省电模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更改字体大小", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开设置字体大小", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.settings", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开设置主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "设置主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.settings", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开设置主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换主题", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.android.settings", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开设置主题", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "更换手机壁纸", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "打开设置壁纸", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开设置", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开设置", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "设置", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开设置", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.settings", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "打开热点", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "打开热点", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开拼多多", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开拼多多", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "拼多多", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开拼多多", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.tencent.mm", 
+            "min_version": 1340, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "朋友圈", 
+            "scenes": [
+                "com.tencent.mm"
+            ], 
+            "send_query": "打开朋友圈", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开闹钟", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开闹钟", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "录音机", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "打开录音机", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "录屏", 
+            "scenes": [
+                " com.miui.home", 
+                "com.tencent.mm"
+            ], 
+            "send_query": "打开录屏", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开浏览器", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "打开浏览器", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "你的通讯录", 
+            "scenes": [
+                "com.miui.home", 
+                "com.android.mms", 
+                "com.android.contacts", 
+                "com.miui.securitycenter", 
+                "com.android.settings"
+            ], 
+            "send_query": "打开联系人", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.android.settings", 
+            "min_version": 0, 
+            "network_status": "all", 
+            "query": "打开蓝牙", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "打开蓝牙", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "快手", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.smile.gifmaker"
+            ], 
+            "send_query": "打开快手", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开酷狗音乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开酷狗音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "绝地求生", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.xiaomi.market", 
+                "com.xiaomi.gamecenter"
+            ], 
+            "send_query": "打开绝地求生", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "让手机静音", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.lockscreen", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开静音模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开今日头条", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开今日头条", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "计算器", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开计算器", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开黄页", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开黄页", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "黄页", 
+            "scenes": [
+                " com.miui.home"
+            ], 
+            "send_query": "打开黄页", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "护眼模式", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开护眼模式", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开高德地图", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开高德地图", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开抖音", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开抖音", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "导航", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.autonavi.minimap"
+            ], 
+            "send_query": "打开导航", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开便签", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开便签", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "记事本", 
+            "scenes": [
+                "com.miui.notes"
+            ], 
+            "send_query": "打开便签", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开备忘录", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "打开备忘录", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开百度地图", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开百度地图", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "百度", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot "
+            ], 
+            "send_query": "打开百度", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "爱奇艺", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开爱奇艺", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开WiFi", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "打开wifi", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打开QQ", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打开QQ", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "打电话", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "打电话", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "催眠曲", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "催眠曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "春节是哪天", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "春节是哪天", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日处女座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "处女座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "充话费", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "充话费", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "吃宵夜的坏处", 
+            "scenes": [
+                "com.xiaoai.lockscreen", 
+                "com.miui.homecom.miui.home", 
+                "com.tencent.mm", 
+                "", 
+                "ox", 
+                "com.miui.voiceassist", 
+                "com.tencent.mobileqq", 
+                "com.android.systemui", 
+                "com.android.contacts", 
+                "com.android.browser", 
+                "com.ss.android.ugc.aweme", 
+                "com.ss.android.article.news", 
+                "com.taobao.taobao"
+            ], 
+            "send_query": "吃宵夜的坏处", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "吃鸡", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.lockscreen", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshotcom.tencent.tmgp.pubgmhd", 
+                "com.xiaomi.gamecenter", 
+                "com.smile.gifmaker", 
+                "com.ss.android.ugc.aweme"
+            ], 
+            "send_query": "吃鸡", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "陈奕迅的歌", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "陈奕迅的歌", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "沙漠骆驼", 
+            "scenes": [
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "唱一首沙漠骆驼", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "你的手机文件", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "查找文件", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "查看微信聊天记录", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "查看微信聊天记录", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "不想上班怎么办", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "不想上班怎么办", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "赵丽颖的电视剧", 
+            "scenes": [
+                "com.tencent.qqlive", 
+                "com.miui.video", 
+                "com.tencent.qqlivexiaomi"
+            ], 
+            "send_query": "播放赵丽颖的电视剧", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "放音乐", 
+            "scenes": [
+                "com.miui.home", 
+                "com.tencent.mm", 
+                "com.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "播放音乐", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "听唐诗", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaomi.lockscreen", 
+                "com.xiaomi.home.quickshot", 
+                "com.miui.voiceassist"
+            ], 
+            "send_query": "播放一首唐诗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "小提琴曲", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic"
+            ], 
+            "send_query": "播放小提琴曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "刘亦菲的电影", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.video", 
+                "com.tencent.qqlive", 
+                "com.qiyi.video", 
+                "com.ss.android.article.video", 
+                "com.youku.phone", 
+                "tv.danmaku.bili "
+            ], 
+            "send_query": "播放刘亦菲的电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "李白的诗", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "浏览器", 
+                "com.tencent.mtt", 
+                "com.UCMobile"
+            ], 
+            "send_query": "播放李白的诗", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "钢琴曲", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot", 
+                "com.miui.player", 
+                "com.kugou.android", 
+                "com.tencent.qqmusic", 
+                "com.netease.cloudmusic "
+            ], 
+            "send_query": "播放钢琴曲", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "《创业时代》", 
+            "scenes": [
+                "com.qiyi.video", 
+                "com.miui.video"
+            ], 
+            "send_query": "播放创业时代", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "病毒扫描", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "病毒扫描", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "病毒扫描", 
+            "scenes": [
+                "com.miui.home", 
+                "", 
+                "com.miui.cleanmaster", 
+                "com.cleanmaster.mguard_cn"
+            ], 
+            "send_query": "病毒扫描", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "清理病毒", 
+            "scenes": [
+                "com.miui.home", 
+                "com.miui.cleanmaster", 
+                "com.cleanmaster.mguard_cn", 
+                "com.miui.securitycenter"
+            ], 
+            "send_query": "病毒清理", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.notes", 
+            "min_version": 18, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "帮我记一下周末跑步", 
+            "scenes": [
+                "com.miui.notes"
+            ], 
+            "send_query": "帮我记一下周末跑步", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "帮我记一下周末看电影", 
+            "scenes": [
+                "com.miui.notes", 
+                "com.android.deskclock", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "帮我记一下周末看电影", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "帮我记一下下周一开会", 
+            "scenes": [
+                "com.miui.notes", 
+                "com.android.deskclock", 
+                "com.miui.personalassistant"
+            ], 
+            "send_query": "帮我记一下下周一开会", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.notes", 
+            "min_version": 18, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "帮我记一下明天打球", 
+            "scenes": [
+                "com.miui.notes"
+            ], 
+            "send_query": "帮我记一下明天打球", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "斑马叫", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "斑马怎么叫", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "今日白羊座运势", 
+            "scenes": [
+                "com.miui.home", 
+                "om.miui.voiceassist", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "白羊座今天的运势", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "奥特曼", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "奥特曼", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "熬夜有什么危害？", 
+            "scenes": [
+                "com.miui.home"
+            ], 
+            "send_query": "熬夜的坏处？", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "安全中心", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "安全中心", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "爱情公寓", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.home.quickshot"
+            ], 
+            "send_query": "爱情公寓", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "NBA赛程", 
+            "scenes": [
+                "com.miui.home", 
+                "com.xiaoai.lockscreen"
+            ], 
+            "send_query": "nba比赛日程", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }, 
+        {
+            "exe_pkg_name": "com.miui.calculator", 
+            "min_version": 0, 
+            "network_status": "wifi_or_mobile_network", 
+            "query": "13英寸等于多少厘米", 
+            "scenes": [
+                "com.miui.calculator"
+            ], 
+            "send_query": "13英寸等于多少厘米", 
+            "time": [
+                "00-23"
+            ], 
+            "weekday": [
+                "1-7"
+            ]
+        }
+    ], 
+    "max_wait_time": 300
+}

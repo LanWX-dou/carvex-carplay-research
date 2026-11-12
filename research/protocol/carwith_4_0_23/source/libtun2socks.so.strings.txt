@@ -1,0 +1,47 @@
+        --socks-server-addr <addr>
+--socks-server-addr
+--socks-server-addr is required
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/base/BLog.h
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/system/BConnection_unix.c
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/system/BReactor_badvpn.c
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/system/BSignal.c
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/system/BTime.h
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/system/BUnixSignal.c
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/tun2socks/tun2socks.c
+/workspace/repo/tinybuildapk/build_apk_env/miui/car/uCar/databus/src/main/jni/badvpn/tuntap/BTap.c
+Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+BSocksClient
+BSocksClient_Free
+BSocksClient_GetRecvInterface
+BSocksClient_GetSendInterface
+BSocksClient_Init
+BSocksClient_auth_none
+BSocksClient_auth_password
+BadVPN tun2socks 1.999.130
+Java_com_miui_carlink_databus_sharenetwork_service_LocalProxyService_nativeTcpServerStart
+Java_com_miui_carlink_databus_sharenetwork_service_LocalProxyService_nativeTcpServerStop
+Java_com_miui_carlink_databus_sharenetwork_service_LocalProxyService_nativeTun2socksStart
+SOCKS closed
+SOCKS error
+SOCKS up
+SocksUdpGwClient
+SocksUdpGwClient_Free
+SocksUdpGwClient_Init
+SocksUdpGwClient_Init failed
+SocksUdpGwClient_SubmitPacket
+authpriv
+initializing BadVPN tun2socks 1.999.130
+invalid number of authentication methods
+libtun2socks.so
+listener accept: BSocksClient_Init failed
+no authentication
+password authentication
+removing after SOCKS went down
+server didn't accept any authentication method
+socks server addr: BAddr_Parse2 failed
+socks_auth_info
+socks_num_auth_info
+socks_server_addr
+tun2SocksStart
+tun2socks
+waiting untill buffered data is sent to SOCKS

@@ -1,0 +1,308 @@
+Class #519            -
+  Class descriptor  : 'Lcom/tencent/mmkv/MMKVContentProvider;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Landroid/content/ContentProvider;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'a'
+      type          : 'Landroid/net/Uri;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+16897c:                                        |[16897c] com.tencent.mmkv.MMKVContentProvider.<init>:()V
+16898c: 7010 ba00 0000                         |0000: invoke-direct {v0}, Landroid/content/ContentProvider;.<init>:()V // method@00ba
+168992: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;)Landroid/net/Uri;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 40 16-bit code units
+168698:                                        |[168698] com.tencent.mmkv.MMKVContentProvider.a:(Landroid/content/Context;)Landroid/net/Uri;
+1686a8: 6200 08e2                              |0000: sget-object v0, Lcom/tencent/mmkv/MMKVContentProvider;.a:Landroid/net/Uri; // field@e208
+1686ac: 3800 0300                              |0002: if-eqz v0, 0005 // +0003
+1686b0: 1100                                   |0004: return-object v0
+1686b2: 1200                                   |0005: const/4 v0, #int 0 // #0
+1686b4: 3902 0300                              |0006: if-nez v2, 0009 // +0003
+1686b8: 1100                                   |0008: return-object v0
+1686ba: 7110 cf2b 0200                         |0009: invoke-static {v2}, Lcom/tencent/mmkv/MMKVContentProvider;.d:(Landroid/content/Context;)Ljava/lang/String; // method@2bcf
+1686c0: 0c02                                   |000c: move-result-object v2
+1686c2: 3902 0300                              |000d: if-nez v2, 0010 // +0003
+1686c6: 1100                                   |000f: return-object v0
+1686c8: 2200 7e07                              |0010: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+1686cc: 7010 7b34 0000                         |0012: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1686d2: 1a01 4339                              |0015: const-string v1, "content://" // string@3943
+1686d6: 6e20 8434 1000                         |0017: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1686dc: 6e20 8434 2000                         |001a: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1686e2: 6e10 8b34 0000                         |001d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+1686e8: 0c02                                   |0020: move-result-object v2
+1686ea: 7110 7002 0200                         |0021: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0270
+1686f0: 0c02                                   |0024: move-result-object v2
+1686f2: 6902 08e2                              |0025: sput-object v2, Lcom/tencent/mmkv/MMKVContentProvider;.a:Landroid/net/Uri; // field@e208
+1686f6: 1102                                   |0027: return-object v2
+      catches       : (none)
+
+    #2              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;I)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 51 16-bit code units
+16888c:                                        |[16888c] com.tencent.mmkv.MMKVContentProvider.b:(Landroid/content/Context;I)Ljava/lang/String;
+16889c: 7100 0e03 0000                         |0000: invoke-static {}, Landroid/os/Process;.myPid:()I // method@030e
+1688a2: 0a00                                   |0003: move-result v0
+1688a4: 3303 0700                              |0004: if-ne v3, v0, 000b // +0007
+1688a8: 7110 7d42 0200                         |0006: invoke-static {v2}, Lvb/b;.a:(Landroid/content/Context;)Ljava/lang/String; // method@427d
+1688ae: 0c02                                   |0009: move-result-object v2
+1688b0: 1102                                   |000a: return-object v2
+1688b2: 1a00 6a31                              |000b: const-string v0, "activity" // string@316a
+1688b6: 6e20 d900 0200                         |000d: invoke-virtual {v2, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@00d9
+1688bc: 0c02                                   |0010: move-result-object v2
+1688be: 1f02 1700                              |0011: check-cast v2, Landroid/app/ActivityManager; // type@0017
+1688c2: 3802 1d00                              |0013: if-eqz v2, 0030 // +001d
+1688c6: 6e10 4900 0200                         |0015: invoke-virtual {v2}, Landroid/app/ActivityManager;.getRunningAppProcesses:()Ljava/util/List; // method@0049
+1688cc: 0c02                                   |0018: move-result-object v2
+1688ce: 7210 ac35 0200                         |0019: invoke-interface {v2}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@35ac
+1688d4: 0c02                                   |001c: move-result-object v2
+1688d6: 7210 9935 0200                         |001d: invoke-interface {v2}, Ljava/util/Iterator;.hasNext:()Z // method@3599
+1688dc: 0a00                                   |0020: move-result v0
+1688de: 3800 0f00                              |0021: if-eqz v0, 0030 // +000f
+1688e2: 7210 9a35 0200                         |0023: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@359a
+1688e8: 0c00                                   |0026: move-result-object v0
+1688ea: 1f00 1500                              |0027: check-cast v0, Landroid/app/ActivityManager$RunningAppProcessInfo; // type@0015
+1688ee: 5201 1000                              |0029: iget v1, v0, Landroid/app/ActivityManager$RunningAppProcessInfo;.pid:I // field@0010
+1688f2: 3331 f2ff                              |002b: if-ne v1, v3, 001d // -000e
+1688f6: 5402 1100                              |002d: iget-object v2, v0, Landroid/app/ActivityManager$RunningAppProcessInfo;.processName:Ljava/lang/String; // field@0011
+1688fa: 1102                                   |002f: return-object v2
+1688fc: 1a02 0000                              |0030: const-string v2, "" // string@0000
+168900: 1102                                   |0032: return-object v2
+      catches       : (none)
+
+    #3              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 33 16-bit code units
+168918:                                        |[168918] com.tencent.mmkv.MMKVContentProvider.d:(Landroid/content/Context;)Ljava/lang/String;
+168928: 2200 3600                              |0000: new-instance v0, Landroid/content/ComponentName; // type@0036
+16892c: 1c01 c305                              |0002: const-class v1, Lcom/tencent/mmkv/MMKVContentProvider; // type@05c3
+168930: 6e10 f633 0100                         |0004: invoke-virtual {v1}, Ljava/lang/Class;.getName:()Ljava/lang/String; // method@33f6
+168936: 0c01                                   |0007: move-result-object v1
+168938: 7030 b500 2001                         |0008: invoke-direct {v0, v2, v1}, Landroid/content/ComponentName;.<init>:(Landroid/content/Context;Ljava/lang/String;)V // method@00b5
+16893e: 6e10 d300 0200                         |000b: invoke-virtual {v2}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00d3
+168944: 0c02                                   |000e: move-result-object v2
+168946: 3802 1000                              |000f: if-eqz v2, 001f // +0010
+16894a: 1201                                   |0011: const/4 v1, #int 0 // #0
+16894c: 6e30 2801 0201                         |0012: invoke-virtual {v2, v0, v1}, Landroid/content/pm/PackageManager;.getProviderInfo:(Landroid/content/ComponentName;I)Landroid/content/pm/ProviderInfo; // method@0128
+168952: 0c02                                   |0015: move-result-object v2
+168954: 3802 0900                              |0016: if-eqz v2, 001f // +0009
+168958: 5422 2000                              |0018: iget-object v2, v2, Landroid/content/pm/ProviderInfo;.authority:Ljava/lang/String; // field@0020
+16895c: 1102                                   |001a: return-object v2
+16895e: 0d02                                   |001b: move-exception v2
+168960: 6e10 b334 0200                         |001c: invoke-virtual {v2}, Ljava/lang/Throwable;.printStackTrace:()V // method@34b3
+168966: 1202                                   |001f: const/4 v2, #int 0 // #0
+168968: 1102                                   |0020: return-object v2
+      catches       : 1
+        0x0000 - 0x001a
+          Ljava/lang/Exception; -> 0x001b
+
+  Virtual methods   -
+    #0              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;IILjava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 5
+      insns size    : 65 16-bit code units
+168794:                                        |[168794] com.tencent.mmkv.MMKVContentProvider.c:(Ljava/lang/String;IILjava/lang/String;)Landroid/os/Bundle;
+1687a4: 6e10 bb00 0000                         |0000: invoke-virtual {v0}, Landroid/content/ContentProvider;.getContext:()Landroid/content/Context; // method@00bb
+1687aa: 0c00                                   |0003: move-result-object v0
+1687ac: 7154 a52b 1032                         |0004: invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mmkv/MMKV;.n:(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)Lcom/tencent/mmkv/MMKV; // method@2ba5
+1687b2: 0c00                                   |0007: move-result-object v0
+1687b4: 2202 c705                              |0008: new-instance v2, Lcom/tencent/mmkv/ParcelableMMKV; // type@05c7
+1687b8: 7020 e42b 0200                         |000a: invoke-direct {v2, v0}, Lcom/tencent/mmkv/ParcelableMMKV;.<init>:(Lcom/tencent/mmkv/MMKV;)V // method@2be4
+1687be: 2203 7e07                              |000d: new-instance v3, Ljava/lang/StringBuilder; // type@077e
+1687c2: 7010 7b34 0300                         |000f: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1687c8: 6e20 8434 1300                         |0012: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1687ce: 1a01 9c00                              |0015: const-string v1, " fd = " // string@009c
+1687d2: 6e20 8434 1300                         |0017: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1687d8: 6e10 572b 0000                         |001a: invoke-virtual {v0}, Lcom/tencent/mmkv/MMKV;.ashmemFD:()I // method@2b57
+1687de: 0a01                                   |001d: move-result v1
+1687e0: 6e20 8134 1300                         |001e: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+1687e6: 1a01 3a02                              |0021: const-string v1, ", meta fd = " // string@023a
+1687ea: 6e20 8434 1300                         |0023: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1687f0: 6e10 582b 0000                         |0026: invoke-virtual {v0}, Lcom/tencent/mmkv/MMKV;.ashmemMetaFD:()I // method@2b58
+1687f6: 0a00                                   |0029: move-result v0
+1687f8: 6e20 8134 0300                         |002a: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+1687fe: 6e10 8b34 0300                         |002d: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+168804: 0c00                                   |0030: move-result-object v0
+168806: 1a01 e81d                              |0031: const-string v1, "MMKV" // string@1de8
+16880a: 7120 7d03 0100                         |0033: invoke-static {v1, v0}, Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I // method@037d
+168810: 2200 c600                              |0036: new-instance v0, Landroid/os/Bundle; // type@00c6
+168814: 7010 a602 0000                         |0038: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16881a: 1a01 5610                              |003b: const-string v1, "KEY" // string@1056
+16881e: 6e30 ae02 1002                         |003d: invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;.putParcelable:(Ljava/lang/String;Landroid/os/Parcelable;)V // method@02ae
+168824: 1100                                   |0040: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'call'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 4
+      outs          : 5
+      insns size    : 45 16-bit code units
+168718:                                        |[168718] com.tencent.mmkv.MMKVContentProvider.call:(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+168728: 1a00 5557                              |0000: const-string v0, "mmkvFromAshmemID" // string@5755
+16872c: 6e20 5034 0400                         |0002: invoke-virtual {v4, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+168732: 0a04                                   |0005: move-result v4
+168734: 1200                                   |0006: const/4 v0, #int 0 // #0
+168736: 3804 2500                              |0007: if-eqz v4, 002c // +0025
+16873a: 3806 2300                              |0009: if-eqz v6, 002c // +0023
+16873e: 1a04 7a10                              |000b: const-string v4, "KEY_SIZE" // string@107a
+168742: 6e20 9502 4600                         |000d: invoke-virtual {v6, v4}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;)I // method@0295
+168748: 0a04                                   |0010: move-result v4
+16874a: 1a01 7810                              |0011: const-string v1, "KEY_MODE" // string@1078
+16874e: 6e20 9502 1600                         |0013: invoke-virtual {v6, v1}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;)I // method@0295
+168754: 0a01                                   |0016: move-result v1
+168756: 1a02 7610                              |0017: const-string v2, "KEY_CRYPT" // string@1076
+16875a: 6e20 9802 2600                         |0019: invoke-virtual {v6, v2}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0298
+168760: 0c06                                   |001c: move-result-object v6
+168762: 6e56 cd2b 5314                         |001d: invoke-virtual {v3, v5, v4, v1, v6}, Lcom/tencent/mmkv/MMKVContentProvider;.c:(Ljava/lang/String;IILjava/lang/String;)Landroid/os/Bundle; // method@2bcd
+168768: 0c03                                   |0020: move-result-object v3
+16876a: 1103                                   |0021: return-object v3
+16876c: 0d03                                   |0022: move-exception v3
+16876e: 1a04 e81d                              |0023: const-string v4, "MMKV" // string@1de8
+168772: 6e10 b134 0300                         |0025: invoke-virtual {v3}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+168778: 0c03                                   |0028: move-result-object v3
+16877a: 7120 7a03 3400                         |0029: invoke-static {v4, v3}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@037a
+168780: 1100                                   |002c: return-object v0
+      catches       : 1
+        0x001d - 0x0021
+          Ljava/lang/Exception; -> 0x0022
+
+    #2              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'delete'
+      type          : '(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 2
+      insns size    : 8 16-bit code units
+16884c:                                        |[16884c] com.tencent.mmkv.MMKVContentProvider.delete:(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
+16885c: 2200 8407                              |0000: new-instance v0, Ljava/lang/UnsupportedOperationException; // type@0784
+168860: 1a01 8c20                              |0002: const-string v1, "Not implement in MMKV" // string@208c
+168864: 7020 b634 1000                         |0004: invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;.<init>:(Ljava/lang/String;)V // method@34b6
+16886a: 2700                                   |0007: throw v0
+      catches       : (none)
+
+    #3              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'getType'
+      type          : '(Landroid/net/Uri;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 2 16-bit code units
+168904:                                        |[168904] com.tencent.mmkv.MMKVContentProvider.getType:(Landroid/net/Uri;)Ljava/lang/String;
+168914: 1200                                   |0000: const/4 v0, #int 0 // #0
+168916: 1100                                   |0001: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'insert'
+      type          : '(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 8 16-bit code units
+1686f8:                                        |[1686f8] com.tencent.mmkv.MMKVContentProvider.insert:(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+168708: 2200 8407                              |0000: new-instance v0, Ljava/lang/UnsupportedOperationException; // type@0784
+16870c: 1a01 8c20                              |0002: const-string v1, "Not implement in MMKV" // string@208c
+168710: 7020 b634 1000                         |0004: invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;.<init>:(Ljava/lang/String;)V // method@34b6
+168716: 2700                                   |0007: throw v0
+      catches       : (none)
+
+    #5              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'onCreate'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+168828:                                        |[168828] com.tencent.mmkv.MMKVContentProvider.onCreate:()Z
+168838: 6e10 bb00 0000                         |0000: invoke-virtual {v0}, Landroid/content/ContentProvider;.getContext:()Landroid/content/Context; // method@00bb
+16883e: 0c00                                   |0003: move-result-object v0
+168840: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+168844: 1200                                   |0006: const/4 v0, #int 0 // #0
+168846: 0f00                                   |0007: return v0
+168848: 1210                                   |0008: const/4 v0, #int 1 // #1
+16884a: 0f00                                   |0009: return v0
+      catches       : (none)
+
+    #6              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'query'
+      type          : '(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 6
+      outs          : 2
+      insns size    : 8 16-bit code units
+168678:                                        |[168678] com.tencent.mmkv.MMKVContentProvider.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+168688: 2200 8407                              |0000: new-instance v0, Ljava/lang/UnsupportedOperationException; // type@0784
+16868c: 1a01 8c20                              |0002: const-string v1, "Not implement in MMKV" // string@208c
+168690: 7020 b634 1000                         |0004: invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;.<init>:(Ljava/lang/String;)V // method@34b6
+168696: 2700                                   |0007: throw v0
+      catches       : (none)
+
+    #7              : (in Lcom/tencent/mmkv/MMKVContentProvider;)
+      name          : 'update'
+      type          : '(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 2
+      insns size    : 8 16-bit code units
+16886c:                                        |[16886c] com.tencent.mmkv.MMKVContentProvider.update:(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+16887c: 2200 8407                              |0000: new-instance v0, Ljava/lang/UnsupportedOperationException; // type@0784
+168880: 1a01 8c20                              |0002: const-string v1, "Not implement in MMKV" // string@208c
+168884: 7020 b634 1000                         |0004: invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;.<init>:(Ljava/lang/String;)V // method@34b6
+16888a: 2700                                   |0007: throw v0
+      catches       : (none)
+
+  source_file_idx   : 7659 (MMKVContentProvider.java)
+

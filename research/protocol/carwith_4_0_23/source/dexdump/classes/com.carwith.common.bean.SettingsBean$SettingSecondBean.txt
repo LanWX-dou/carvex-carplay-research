@@ -1,0 +1,45 @@
+Class #6477            -
+  Class descriptor  : 'Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : 'router'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : 'subTitle'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : 'title'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : 'type'
+      type          : 'I'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : 'value'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+443820:                                        |[443820] com.carwith.common.bean.SettingsBean$SettingSecondBean.<init>:()V
+443830: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+443836: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 26385 (SettingsBean.java)
+

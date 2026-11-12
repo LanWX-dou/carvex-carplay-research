@@ -1,0 +1,6 @@
+/dev/socket/tombstoned_java_trace
+Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+JNI_OnLoad
+xc_xcrash_record_java_stacktrace, do not dump java stacktrace again on the java layer
+xc_xcrash_record_java_stacktrace, this is a java thread
+xc_xcrash_record_java_stacktrace, this is not a java thread

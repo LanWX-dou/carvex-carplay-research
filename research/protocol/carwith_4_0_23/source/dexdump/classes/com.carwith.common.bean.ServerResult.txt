@@ -1,0 +1,121 @@
+Class #6475            -
+  Class descriptor  : 'Lcom/carwith/common/bean/ServerResult;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'code'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'data'
+      type          : 'Lcom/carwith/common/bean/CloudControlBean;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'msg'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+443488:                                        |[443488] com.carwith.common.bean.ServerResult.<init>:()V
+443498: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+44349e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'getCode'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443458:                                        |[443458] com.carwith.common.bean.ServerResult.getCode:()Ljava/lang/String;
+443468: 5400 e9e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/ServerResult;.code:Ljava/lang/String; // field@e3e9
+44346c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'getData'
+      type          : '()Lcom/carwith/common/bean/CloudControlBean;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443440:                                        |[443440] com.carwith.common.bean.ServerResult.getData:()Lcom/carwith/common/bean/CloudControlBean;
+443450: 5400 eae3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/ServerResult;.data:Lcom/carwith/common/bean/CloudControlBean; // field@e3ea
+443454: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'getMsg'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443470:                                        |[443470] com.carwith.common.bean.ServerResult.getMsg:()Ljava/lang/String;
+443480: 5400 ebe3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/ServerResult;.msg:Ljava/lang/String; // field@e3eb
+443484: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'setCode'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4434a0:                                        |[4434a0] com.carwith.common.bean.ServerResult.setCode:(Ljava/lang/String;)V
+4434b0: 5b01 e9e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/ServerResult;.code:Ljava/lang/String; // field@e3e9
+4434b4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'setData'
+      type          : '(Lcom/carwith/common/bean/CloudControlBean;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4434b8:                                        |[4434b8] com.carwith.common.bean.ServerResult.setData:(Lcom/carwith/common/bean/CloudControlBean;)V
+4434c8: 5b01 eae3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/ServerResult;.data:Lcom/carwith/common/bean/CloudControlBean; // field@e3ea
+4434cc: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/common/bean/ServerResult;)
+      name          : 'setMsg'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4434d0:                                        |[4434d0] com.carwith.common.bean.ServerResult.setMsg:(Ljava/lang/String;)V
+4434e0: 5b01 ebe3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/ServerResult;.msg:Ljava/lang/String; // field@e3eb
+4434e4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 26316 (ServerResult.java)
+

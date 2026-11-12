@@ -1,0 +1,309 @@
+Class #3884            -
+  Class descriptor  : 'Lcom/carwith/common/bean/SettingCategory;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'key'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'router'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'spValue'
+      type          : 'I'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'subTitle'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'title'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #5              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'type'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #6              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'value'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 8
+      ins           : 8
+      outs          : 1
+      insns size    : 18 16-bit code units
+44366c:                                        |[44366c] com.carwith.common.bean.SettingCategory.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+44367c: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+443682: 5b01 f1e3                              |0003: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.type:Ljava/lang/String; // field@e3f1
+443686: 5b02 f0e3                              |0005: iput-object v2, v0, Lcom/carwith/common/bean/SettingCategory;.title:Ljava/lang/String; // field@e3f0
+44368a: 5b03 f2e3                              |0007: iput-object v3, v0, Lcom/carwith/common/bean/SettingCategory;.value:Ljava/util/List; // field@e3f2
+44368e: 5b04 ede3                              |0009: iput-object v4, v0, Lcom/carwith/common/bean/SettingCategory;.router:Ljava/lang/String; // field@e3ed
+443692: 5b05 efe3                              |000b: iput-object v5, v0, Lcom/carwith/common/bean/SettingCategory;.subTitle:Ljava/lang/String; // field@e3ef
+443696: 5b06 ece3                              |000d: iput-object v6, v0, Lcom/carwith/common/bean/SettingCategory;.key:Ljava/lang/String; // field@e3ec
+44369a: 5907 eee3                              |000f: iput v7, v0, Lcom/carwith/common/bean/SettingCategory;.spValue:I // field@e3ee
+44369e: 0e00                                   |0011: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getKey'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443500:                                        |[443500] com.carwith.common.bean.SettingCategory.getKey:()Ljava/lang/String;
+443510: 5400 ece3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.key:Ljava/lang/String; // field@e3ec
+443514: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getRouter'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443518:                                        |[443518] com.carwith.common.bean.SettingCategory.getRouter:()Ljava/lang/String;
+443528: 5400 ede3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.router:Ljava/lang/String; // field@e3ed
+44352c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getSpValue'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4434e8:                                        |[4434e8] com.carwith.common.bean.SettingCategory.getSpValue:()I
+4434f8: 5200 eee3                              |0000: iget v0, v0, Lcom/carwith/common/bean/SettingCategory;.spValue:I // field@e3ee
+4434fc: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getSubTitle'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443530:                                        |[443530] com.carwith.common.bean.SettingCategory.getSubTitle:()Ljava/lang/String;
+443540: 5400 efe3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.subTitle:Ljava/lang/String; // field@e3ef
+443544: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getTitle'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443548:                                        |[443548] com.carwith.common.bean.SettingCategory.getTitle:()Ljava/lang/String;
+443558: 5400 f0e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.title:Ljava/lang/String; // field@e3f0
+44355c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getType'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443560:                                        |[443560] com.carwith.common.bean.SettingCategory.getType:()Ljava/lang/String;
+443570: 5400 f1e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.type:Ljava/lang/String; // field@e3f1
+443574: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'getValue'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443654:                                        |[443654] com.carwith.common.bean.SettingCategory.getValue:()Ljava/util/List;
+443664: 5400 f2e3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingCategory;.value:Ljava/util/List; // field@e3f2
+443668: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setKey'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4436a0:                                        |[4436a0] com.carwith.common.bean.SettingCategory.setKey:(Ljava/lang/String;)V
+4436b0: 5b01 ece3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.key:Ljava/lang/String; // field@e3ec
+4436b4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setRouter'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4436b8:                                        |[4436b8] com.carwith.common.bean.SettingCategory.setRouter:(Ljava/lang/String;)V
+4436c8: 5b01 ede3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.router:Ljava/lang/String; // field@e3ed
+4436cc: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setSpValue'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4436d0:                                        |[4436d0] com.carwith.common.bean.SettingCategory.setSpValue:(I)V
+4436e0: 5901 eee3                              |0000: iput v1, v0, Lcom/carwith/common/bean/SettingCategory;.spValue:I // field@e3ee
+4436e4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setSubTitle'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4436e8:                                        |[4436e8] com.carwith.common.bean.SettingCategory.setSubTitle:(Ljava/lang/String;)V
+4436f8: 5b01 efe3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.subTitle:Ljava/lang/String; // field@e3ef
+4436fc: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setTitle'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443700:                                        |[443700] com.carwith.common.bean.SettingCategory.setTitle:(Ljava/lang/String;)V
+443710: 5b01 f0e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.title:Ljava/lang/String; // field@e3f0
+443714: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setType'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443718:                                        |[443718] com.carwith.common.bean.SettingCategory.setType:(Ljava/lang/String;)V
+443728: 5b01 f1e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.type:Ljava/lang/String; // field@e3f1
+44372c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #13              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'setValue'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443730:                                        |[443730] com.carwith.common.bean.SettingCategory.setValue:(Ljava/util/List;)V
+443740: 5b01 f2e3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingCategory;.value:Ljava/util/List; // field@e3f2
+443744: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/carwith/common/bean/SettingCategory;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 102 16-bit code units
+443578:                                        |[443578] com.carwith.common.bean.SettingCategory.toString:()Ljava/lang/String;
+443588: 2200 4f1d                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1d4f
+44358c: 7010 9abc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+443592: 1a01 0e67                              |0005: const-string v1, "SettingCategory{type='" // string@670e
+443596: 6e20 a5bc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+44359c: 5431 f1e3                              |000a: iget-object v1, v3, Lcom/carwith/common/bean/SettingCategory;.type:Ljava/lang/String; // field@e3f1
+4435a0: 6e20 a5bc 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435a6: 1301 2700                              |000f: const/16 v1, #int 39 // #27
+4435aa: 6e20 9dbc 1000                         |0011: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+4435b0: 1a02 e307                              |0014: const-string v2, ", title='" // string@07e3
+4435b4: 6e20 a5bc 2000                         |0016: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435ba: 5432 f0e3                              |0019: iget-object v2, v3, Lcom/carwith/common/bean/SettingCategory;.title:Ljava/lang/String; // field@e3f0
+4435be: 6e20 a5bc 2000                         |001b: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435c4: 6e20 9dbc 1000                         |001e: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+4435ca: 1a02 f707                              |0021: const-string v2, ", value=" // string@07f7
+4435ce: 6e20 a5bc 2000                         |0023: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435d4: 5432 f2e3                              |0026: iget-object v2, v3, Lcom/carwith/common/bean/SettingCategory;.value:Ljava/util/List; // field@e3f2
+4435d8: 6e20 a4bc 2000                         |0028: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@bca4
+4435de: 1a02 b107                              |002b: const-string v2, ", router='" // string@07b1
+4435e2: 6e20 a5bc 2000                         |002d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435e8: 5432 ede3                              |0030: iget-object v2, v3, Lcom/carwith/common/bean/SettingCategory;.router:Ljava/lang/String; // field@e3ed
+4435ec: 6e20 a5bc 2000                         |0032: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+4435f2: 6e20 9dbc 1000                         |0035: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+4435f8: 1a02 d007                              |0038: const-string v2, ", subTitle='" // string@07d0
+4435fc: 6e20 a5bc 2000                         |003a: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+443602: 5432 efe3                              |003d: iget-object v2, v3, Lcom/carwith/common/bean/SettingCategory;.subTitle:Ljava/lang/String; // field@e3ef
+443606: 6e20 a5bc 2000                         |003f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+44360c: 6e20 9dbc 1000                         |0042: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+443612: 1a02 1307                              |0045: const-string v2, ", key='" // string@0713
+443616: 6e20 a5bc 2000                         |0047: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+44361c: 5432 ece3                              |004a: iget-object v2, v3, Lcom/carwith/common/bean/SettingCategory;.key:Ljava/lang/String; // field@e3ec
+443620: 6e20 a5bc 2000                         |004c: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+443626: 6e20 9dbc 1000                         |004f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+44362c: 1a01 c807                              |0052: const-string v1, ", spValue=" // string@07c8
+443630: 6e20 a5bc 1000                         |0054: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+443636: 5233 eee3                              |0057: iget v3, v3, Lcom/carwith/common/bean/SettingCategory;.spValue:I // field@e3ee
+44363a: 6e20 a0bc 3000                         |0059: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@bca0
+443640: 1303 7d00                              |005c: const/16 v3, #int 125 // #7d
+443644: 6e20 9dbc 3000                         |005e: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@bc9d
+44364a: 6e10 b7bc 0000                         |0061: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+443650: 0c03                                   |0064: move-result-object v3
+443652: 1103                                   |0065: return-object v3
+      catches       : (none)
+
+  source_file_idx   : 26381 (SettingCategory.java)
+

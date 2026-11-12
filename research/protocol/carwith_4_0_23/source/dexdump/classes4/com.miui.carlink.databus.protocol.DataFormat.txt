@@ -1,0 +1,133 @@
+Class #364            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/protocol/DataFormat;'
+  Access flags      : 0x4011 (PUBLIC FINAL ENUM)
+  Superclass        : 'Ljava/lang/Enum;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : '$VALUES'
+      type          : '[Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x101a (PRIVATE STATIC FINAL SYNTHETIC)
+    #1              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'PB3'
+      type          : 'Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #2              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'RAW'
+      type          : 'Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'mValue'
+      type          : 'I'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : '$values'
+      type          : '()[Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x100a (PRIVATE STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 9 16-bit code units
+153040:                                        |[153040] com.miui.carlink.databus.protocol.DataFormat.$values:()[Lcom/miui/carlink/databus/protocol/DataFormat;
+153050: 6200 e772                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/DataFormat;.RAW:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e7
+153054: 6201 e672                              |0002: sget-object v1, Lcom/miui/carlink/databus/protocol/DataFormat;.PB3:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e6
+153058: 2420 ac0b 1000                         |0004: filled-new-array {v0, v1}, [Lcom/miui/carlink/databus/protocol/DataFormat; // type@0bac
+15305e: 0c00                                   |0007: move-result-object v0
+153060: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 4
+      insns size    : 27 16-bit code units
+1530a0:                                        |[1530a0] com.miui.carlink.databus.protocol.DataFormat.<clinit>:()V
+1530b0: 2200 f704                              |0000: new-instance v0, Lcom/miui/carlink/databus/protocol/DataFormat; // type@04f7
+1530b4: 1a01 f122                              |0002: const-string v1, "RAW" // string@22f1
+1530b8: 1202                                   |0004: const/4 v2, #int 0 // #0
+1530ba: 7040 c727 1022                         |0005: invoke-direct {v0, v1, v2, v2}, Lcom/miui/carlink/databus/protocol/DataFormat;.<init>:(Ljava/lang/String;II)V // method@27c7
+1530c0: 6900 e772                              |0008: sput-object v0, Lcom/miui/carlink/databus/protocol/DataFormat;.RAW:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e7
+1530c4: 2200 f704                              |000a: new-instance v0, Lcom/miui/carlink/databus/protocol/DataFormat; // type@04f7
+1530c8: 1a01 8b21                              |000c: const-string v1, "PB3" // string@218b
+1530cc: 1212                                   |000e: const/4 v2, #int 1 // #1
+1530ce: 7040 c727 1022                         |000f: invoke-direct {v0, v1, v2, v2}, Lcom/miui/carlink/databus/protocol/DataFormat;.<init>:(Ljava/lang/String;II)V // method@27c7
+1530d4: 6900 e672                              |0012: sput-object v0, Lcom/miui/carlink/databus/protocol/DataFormat;.PB3:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e6
+1530d8: 7100 c527 0000                         |0014: invoke-static {}, Lcom/miui/carlink/databus/protocol/DataFormat;.$values:()[Lcom/miui/carlink/databus/protocol/DataFormat; // method@27c5
+1530de: 0c00                                   |0017: move-result-object v0
+1530e0: 6900 e572                              |0018: sput-object v0, Lcom/miui/carlink/databus/protocol/DataFormat;.$VALUES:[Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e5
+1530e4: 0e00                                   |001a: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;II)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 3
+      insns size    : 6 16-bit code units
+1530e8:                                        |[1530e8] com.miui.carlink.databus.protocol.DataFormat.<init>:(Ljava/lang/String;II)V
+1530f8: 7030 0234 1002                         |0000: invoke-direct {v0, v1, v2}, Ljava/lang/Enum;.<init>:(Ljava/lang/String;I)V // method@3402
+1530fe: 5903 e872                              |0003: iput v3, v0, Lcom/miui/carlink/databus/protocol/DataFormat;.mValue:I // field@72e8
+153102: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'valueOf'
+      type          : '(Ljava/lang/String;)Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+15301c:                                        |[15301c] com.miui.carlink.databus.protocol.DataFormat.valueOf:(Ljava/lang/String;)Lcom/miui/carlink/databus/protocol/DataFormat;
+15302c: 1c00 f704                              |0000: const-class v0, Lcom/miui/carlink/databus/protocol/DataFormat; // type@04f7
+153030: 7120 0534 1000                         |0002: invoke-static {v0, v1}, Ljava/lang/Enum;.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum; // method@3405
+153036: 0c01                                   |0005: move-result-object v1
+153038: 1f01 f704                              |0006: check-cast v1, Lcom/miui/carlink/databus/protocol/DataFormat; // type@04f7
+15303c: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'values'
+      type          : '()[Lcom/miui/carlink/databus/protocol/DataFormat;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 9 16-bit code units
+153064:                                        |[153064] com.miui.carlink.databus.protocol.DataFormat.values:()[Lcom/miui/carlink/databus/protocol/DataFormat;
+153074: 6200 e572                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/DataFormat;.$VALUES:[Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e5
+153078: 6e10 6346 0000                         |0002: invoke-virtual {v0}, [Lcom/miui/carlink/databus/protocol/DataFormat;.clone:()Ljava/lang/Object; // method@4663
+15307e: 0c00                                   |0005: move-result-object v0
+153080: 1f00 ac0b                              |0006: check-cast v0, [Lcom/miui/carlink/databus/protocol/DataFormat; // type@0bac
+153084: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/protocol/DataFormat;)
+      name          : 'getValue'
+      type          : '()I'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+153088:                                        |[153088] com.miui.carlink.databus.protocol.DataFormat.getValue:()I
+153098: 5200 e872                              |0000: iget v0, v0, Lcom/miui/carlink/databus/protocol/DataFormat;.mValue:I // field@72e8
+15309c: 0f00                                   |0002: return v0
+      catches       : (none)
+
+  source_file_idx   : 3197 (DataFormat.java)
+

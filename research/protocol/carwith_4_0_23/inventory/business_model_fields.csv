@@ -1,0 +1,159 @@
+﻿dex,class,field,type,annotations
+classes.dex,Lcom/baidu/carlife/mixing/CastConfig;,a,int,[]
+classes.dex,Lcom/baidu/carlife/mixing/CastConfig;,b,int,[]
+classes.dex,Lcom/baidu/carlife/mixing/CastConfig;,c,int,[]
+classes.dex,Lcom/baidu/carlife/mixing/CastConfig;,d,android.view.Surface,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,a,java.lang.String,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,b,java.lang.String,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,c,java.lang.String,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,d,long,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,e,int,[]
+classes.dex,Lcom/baidu/carlife/mixing/MusicInfo;,f,int,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,key,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,router,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,spValue,int,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,subTitle,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,title,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,type,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingCategory;,value,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/SettingCategory;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/a;,a,android.bluetooth.BluetoothDevice,[]
+classes.dex,Lcom/carwith/common/bean/a;,b,int,[]
+classes.dex,Lx1/a;,a,android.content.Context,[]
+classes.dex,Lx1/b;,a,int,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""code""}}]"
+classes.dex,Lx1/b;,b,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""message""}}]"
+classes.dex,Lx1/b;,c,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""traceId""}}]"
+classes.dex,Lx1/b;,d,java.lang.Object,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""data""}}, {""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""TT;""]}}]"
+classes.dex,Lx1/c;,a,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""resultContent""}}]"
+classes.dex,Lcom/carwith/common/bean/AppBlackItem;,packageName,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/AppBlackItem;,versionCodeList,java.util.ArrayList,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/ArrayList<"", ""Ljava/lang/Long;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,appCategory,int,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,appId,int,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,appMode,int,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,appName,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,applicationType,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,castType,int,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,packageName,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/AppWhiteItem;,versionCode,long,[]
+classes.dex,Lcom/carwith/common/bean/CarAppItem;,carAppMode,int,[]
+classes.dex,Lcom/carwith/common/bean/CarAppItem;,packageName,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CarModelBlockItem;,carModelAppTypeList,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/CarAppItem;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/CarModelBlockItem;,carModelId,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CarModelBlockItem;,carModelName,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CarModelBlockItem;,carVIN,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CarModelBlockItem;,vehicleManufacturerId,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CloudControlBean;,appBlackList,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/AppBlackItem;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/CloudControlBean;,appWhiteList,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/AppWhiteItem;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/CloudControlBean;,carAppVersion,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/CloudControlBean;,carModelBlackList,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/CarModelBlockItem;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/CloudControlBean;,uCarAppVersion,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/ServerResult;,code,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/ServerResult;,data,com.carwith.common.bean.CloudControlBean,[]
+classes.dex,Lcom/carwith/common/bean/ServerResult;,msg,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingDataBean;,router,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingDataBean;,title,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingDataBean;,type,int,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingDataBean;,value,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;,router,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;,subTitle,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;,title,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;,type,int,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean$SettingSecondBean;,value,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/SettingsBean;,settingData,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/SettingsBean$SettingDataBean;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean$WallpapersBean;,dark_color,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean$WallpapersBean;,id,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean$WallpapersBean;,light_color,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean$WallpapersBean;,wallpaper_name,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;,categoryId,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;,categoryNameKey,java.lang.String,[]
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;,wallpapers,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean$WallpapersBean;"", "">;""]}}]"
+classes.dex,Lcom/carwith/common/bean/WallpaperResBean;,wallpaperCategorys,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;"", "">;""]}}]"
+classes4.dex,Lcb/a;,a,long,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""watermark""}}]"
+classes4.dex,Lcb/a;,b,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""device_id""}}]"
+classes4.dex,Lcb/a;,c,cb.c,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""privacy""}}]"
+classes4.dex,Lcb/a;,d,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""status""}}]"
+classes4.dex,Lcb/b;,a,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""accredit_switch""}}]"
+classes4.dex,Lcb/c;,a,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""address""}}]"
+classes4.dex,Lcb/c;,b,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""smart_travel""}}]"
+classes4.dex,Lcb/c;,c,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""simulation""}}]"
+classes4.dex,Lcb/c;,d,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""contact""}}]"
+classes4.dex,Lcb/c;,e,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""personalize""}}]"
+classes4.dex,Lcb/c;,f,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""voice_wakeup""}}]"
+classes4.dex,Lcb/c;,g,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""continuous_talk""}}]"
+classes4.dex,Lcb/c;,h,boolean,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""schedule""}}]"
+classes4.dex,Lcb/d;,a,int,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""code""}}]"
+classes4.dex,Lcb/d;,b,cb.a,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""data""}}]"
+classes4.dex,Lcb/d;,c,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""message""}}]"
+classes4.dex,Lcb/e;,a,java.util.List,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Ljava/lang/String;"", "">;""]}}]"
+classes4.dex,Lcb/f;,a,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""request_id""}}]"
+classes4.dex,Lcb/f;,b,java.lang.String,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""vendor_id""}}]"
+classes4.dex,Lcb/f;,c,java.util.List,"[{""type"": ""Lcom/google/gson/annotations/SerializedName;"", ""values"": {""value"": ""speak""}}, {""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/List<"", ""Ljava/lang/String;"", "">;""]}}]"
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,a,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,b,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,c,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,d,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,e,long,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,f,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,g,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,h,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,i,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,j,int,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,k,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,l,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,m,byte[],[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;,n,int,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,a,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,b,byte[],[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,c,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,d,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,e,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,f,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,g,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,h,java.lang.String,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/NavigationInfo;,i,int,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,a,com.miui.carlink.databus.proto.UCarProto$CALL_STATE,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,b,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,c,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,d,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,e,java.util.Optional,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/Optional<"", ""Ljava/lang/Boolean;"", "">;""]}}]"
+classes4.dex,Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;,f,java.util.Optional,"[{""type"": ""Ldalvik/annotation/Signature;"", ""values"": {""value"": [""Ljava/util/Optional<"", ""Ljava/lang/Boolean;"", "">;""]}}]"
+classes4.dex,Lcom/miui/carlink/databus/sensor/AccInfo;,a,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/AccInfo;,b,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/AccInfo;,c,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/AccInfo;,d,long,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GearInfo;,a,com.miui.carlink.databus.proto.UCarProto$GearInfo$GearState,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GearInfo;,b,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,a,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,b,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,c,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,d,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,e,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,f,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,g,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,h,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,i,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GpsInfo;,j,long,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GyroInfo;,a,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GyroInfo;,b,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GyroInfo;,c,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GyroInfo;,d,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/GyroInfo;,e,long,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightSensorInfo;,a,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightSensorInfo;,b,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightSensorInfo;,c,double,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightsInfo;,a,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightsInfo;,b,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightsInfo;,c,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightsInfo;,d,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/LightsInfo;,e,boolean,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/OilInfo;,a,int,[]
+classes4.dex,Lcom/miui/carlink/databus/sensor/OilInfo;,b,int,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,crossingIcon,android.graphics.drawable.Icon,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,directionIcon,android.graphics.drawable.Icon,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,distance,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,distanceUnit,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,operation,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,pkg,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,progress,int,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,title1,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,title2,java.lang.String,[]
+classes5.dex,Lcom/ucar/map/UCarMapInfo;,where,java.lang.String,[]

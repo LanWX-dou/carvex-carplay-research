@@ -1,0 +1,85 @@
+Class #3031            -
+  Class descriptor  : 'Lcom/carwith/launcher/card/CardMiniMapView$b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Llc/b$b;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/card/CardMiniMapView$b;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+    #1              : (in Lcom/carwith/launcher/card/CardMiniMapView$b;)
+      name          : 'b'
+      type          : 'Lcom/carwith/launcher/card/CardMiniMapView;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/card/CardMiniMapView$b;)
+      name          : '<init>'
+      type          : '(Lcom/carwith/launcher/card/CardMiniMapView;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+18ab00:                                        |[18ab00] com.carwith.launcher.card.CardMiniMapView$b.<init>:(Lcom/carwith/launcher/card/CardMiniMapView;Ljava/lang/String;)V
+18ab10: 5b01 f4bf                              |0000: iput-object v1, v0, Lcom/carwith/launcher/card/CardMiniMapView$b;.b:Lcom/carwith/launcher/card/CardMiniMapView; // field@bff4
+18ab14: 5b02 f3bf                              |0002: iput-object v2, v0, Lcom/carwith/launcher/card/CardMiniMapView$b;.a:Ljava/lang/String; // field@bff3
+18ab18: 7010 8c81 0000                         |0004: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+18ab1e: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/card/CardMiniMapView$b;)
+      name          : 'a'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 81 16-bit code units
+18ab20:                                        |[18ab20] com.carwith.launcher.card.CardMiniMapView$b.a:(Landroid/os/Bundle;)V
+18ab30: 1a00 9fb1                              |0000: const-string v0, "serviceConnected callback" // string@b19f
+18ab34: 1a01 7710                              |0002: const-string v1, "CardMiniMapView" // string@1077
+18ab38: 7120 790e 0100                         |0004: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+18ab3e: 3803 3600                              |0007: if-eqz v3, 003d // +0036
+18ab42: 1a00 38c2                              |0009: const-string v0, "ucar.map.bundle.IS_NAV_ON" // string@c238
+18ab46: 6e20 3304 0300                         |000b: invoke-virtual {v3, v0}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@0433
+18ab4c: 0a03                                   |000e: move-result v3
+18ab4e: 3803 1a00                              |000f: if-eqz v3, 0029 // +001a
+18ab52: 1a03 3c77                              |0011: const-string v3, "gaode map in navigation" // string@773c
+18ab56: 7120 790e 3100                         |0013: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+18ab5c: 7100 e721 0000                         |0016: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+18ab62: 0c03                                   |0019: move-result-object v3
+18ab64: 5420 f4bf                              |001a: iget-object v0, v2, Lcom/carwith/launcher/card/CardMiniMapView$b;.b:Lcom/carwith/launcher/card/CardMiniMapView; // field@bff4
+18ab68: 7110 ec15 0000                         |001c: invoke-static {v0}, Lcom/carwith/launcher/card/CardMiniMapView;.s:(Lcom/carwith/launcher/card/CardMiniMapView;)Ljava/lang/String; // method@15ec
+18ab6e: 0c00                                   |001f: move-result-object v0
+18ab70: 2201 0405                              |0020: new-instance v1, Lcom/carwith/launcher/card/CardMiniMapView$b$a; // type@0504
+18ab74: 7020 7015 2100                         |0022: invoke-direct {v1, v2}, Lcom/carwith/launcher/card/CardMiniMapView$b$a;.<init>:(Lcom/carwith/launcher/card/CardMiniMapView$b;)V // method@1570
+18ab7a: 6e30 a621 0301                         |0025: invoke-virtual {v3, v0, v1}, Lcom/carwith/launcher/map/k;.G0:(Ljava/lang/String;Ljava/lang/Runnable;)V // method@21a6
+18ab80: 2828                                   |0028: goto 0050 // +0028
+18ab82: 1a03 3d77                              |0029: const-string v3, "gaode map not in navigation" // string@773d
+18ab86: 7120 790e 3100                         |002b: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+18ab8c: 7100 e721 0000                         |002e: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+18ab92: 0c03                                   |0031: move-result-object v3
+18ab94: 5420 f3bf                              |0032: iget-object v0, v2, Lcom/carwith/launcher/card/CardMiniMapView$b;.a:Ljava/lang/String; // field@bff3
+18ab98: 2201 0505                              |0034: new-instance v1, Lcom/carwith/launcher/card/CardMiniMapView$b$b; // type@0505
+18ab9c: 7020 7215 2100                         |0036: invoke-direct {v1, v2}, Lcom/carwith/launcher/card/CardMiniMapView$b$b;.<init>:(Lcom/carwith/launcher/card/CardMiniMapView$b;)V // method@1572
+18aba2: 6e30 a621 0301                         |0039: invoke-virtual {v3, v0, v1}, Lcom/carwith/launcher/map/k;.G0:(Ljava/lang/String;Ljava/lang/Runnable;)V // method@21a6
+18aba8: 2814                                   |003c: goto 0050 // +0014
+18abaa: 1a03 a0b1                              |003d: const-string v3, "serviceConnected startMiniMap" // string@b1a0
+18abae: 7120 790e 3100                         |003f: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+18abb4: 7100 e721 0000                         |0042: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+18abba: 0c03                                   |0045: move-result-object v3
+18abbc: 5420 f3bf                              |0046: iget-object v0, v2, Lcom/carwith/launcher/card/CardMiniMapView$b;.a:Ljava/lang/String; // field@bff3
+18abc0: 2201 0605                              |0048: new-instance v1, Lcom/carwith/launcher/card/CardMiniMapView$b$c; // type@0506
+18abc4: 7020 7415 2100                         |004a: invoke-direct {v1, v2}, Lcom/carwith/launcher/card/CardMiniMapView$b$c;.<init>:(Lcom/carwith/launcher/card/CardMiniMapView$b;)V // method@1574
+18abca: 6e30 a621 0301                         |004d: invoke-virtual {v3, v0, v1}, Lcom/carwith/launcher/map/k;.G0:(Ljava/lang/String;Ljava/lang/Runnable;)V // method@21a6
+18abd0: 0e00                                   |0050: return-void
+      catches       : (none)
+
+  source_file_idx   : 4216 (CardMiniMapView.java)
+

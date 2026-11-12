@@ -1,0 +1,267 @@
+Class #1441            -
+  Class descriptor  : 'Lnet/easyconn/carman/utils/BackgroundStartUtil;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+2199cc:                                        |[2199cc] net.easyconn.carman.utils.BackgroundStartUtil.<init>:()V
+2199dc: 7010 ea11 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@11ea
+2199e2: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 15 16-bit code units
+219700:                                        |[219700] net.easyconn.carman.utils.BackgroundStartUtil.a:(Ljava/lang/String;)Z
+219710: 7110 5e03 0100                         |0000: invoke-static {v1}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@035e
+219716: 0a00                                   |0003: move-result v0
+219718: 3800 0400                              |0004: if-eqz v0, 0008 // +0004
+21971c: 1201                                   |0006: const/4 v1, #int 0 // #0
+21971e: 0f01                                   |0007: return v1
+219720: 6200 5f00                              |0008: sget-object v0, Landroid/os/Build;.MANUFACTURER:Ljava/lang/String; // field@005f
+219724: 6e20 1812 0100                         |000a: invoke-virtual {v1, v0}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@1218
+21972a: 0a01                                   |000d: move-result v1
+21972c: 0f01                                   |000e: return v1
+      catches       : (none)
+
+    #2              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 6
+      insns size    : 76 16-bit code units
+219914:                                        |[219914] net.easyconn.carman.utils.BackgroundStartUtil.b:(Landroid/content/Context;)I
+219924: 1a00 ab50                              |0000: const-string v0, "content://com.vivo.permissionmanager.provider.permission/start_bg_activity" // string@50ab
+219928: 7110 9b02 0000                         |0002: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@029b
+21992e: 0c02                                   |0005: move-result-object v2
+219930: 1a04 147c                              |0006: const-string v4, "pkgname = ?" // string@7c14
+219934: 6e10 8700 0700                         |0008: invoke-virtual {v7}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@0087
+21993a: 0c00                                   |000b: move-result-object v0
+21993c: 2410 cd10 0000                         |000c: filled-new-array {v0}, [Ljava/lang/String; // type@10cd
+219942: 0c05                                   |000f: move-result-object v5
+219944: 1210                                   |0010: const/4 v0, #int 1 // #1
+219946: 6e10 8000 0700                         |0011: invoke-virtual {v7}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0080
+21994c: 0c01                                   |0014: move-result-object v1
+21994e: 1203                                   |0015: const/4 v3, #int 0 // #0
+219950: 1206                                   |0016: const/4 v6, #int 0 // #0
+219952: 7406 7800 0100                         |0017: invoke-virtual/range {v1, v2, v3, v4, v5, v6}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0078
+219958: 0c07                                   |001a: move-result-object v7
+21995a: 3807 1a00                              |001b: if-eqz v7, 0035 // +001a
+21995e: 7210 f800 0700                         |001d: invoke-interface {v7}, Landroid/database/Cursor;.moveToFirst:()Z // method@00f8
+219964: 0a01                                   |0020: move-result v1
+219966: 3801 1400                              |0021: if-eqz v1, 0035 // +0014
+21996a: 1a01 8151                              |0023: const-string v1, "currentstate" // string@5181
+21996e: 7220 f300 1700                         |0025: invoke-interface {v7, v1}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@00f3
+219974: 0a01                                   |0028: move-result v1
+219976: 7220 f500 1700                         |0029: invoke-interface {v7, v1}, Landroid/database/Cursor;.getInt:(I)I // method@00f5
+21997c: 0a00                                   |002c: move-result v0
+21997e: 7210 f200 0700                         |002d: invoke-interface {v7}, Landroid/database/Cursor;.close:()V // method@00f2
+219984: 2805                                   |0030: goto 0035 // +0005
+219986: 0d07                                   |0031: move-exception v7
+219988: 6e10 9b12 0700                         |0032: invoke-virtual {v7}, Ljava/lang/Throwable;.printStackTrace:()V // method@129b
+21998e: 2207 e603                              |0035: new-instance v7, Ljava/lang/StringBuilder; // type@03e6
+219992: 7010 5212 0700                         |0037: invoke-direct {v7}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+219998: 1a01 2c5d                              |003a: const-string v1, "getVivoBgStartPermissionStatus: " // string@5d2c
+21999c: 6e20 5c12 1700                         |003c: invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2199a2: 6e20 5812 0700                         |003f: invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+2199a8: 6e10 6912 0700                         |0042: invoke-virtual {v7}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2199ae: 0c07                                   |0045: move-result-object v7
+2199b0: 1a01 b90a                              |0046: const-string v1, "BackgroundStartUtil" // string@0ab9
+2199b4: 7120 7153 7100                         |0048: invoke-static {v1, v7}, Lnet/easyconn/carman/utils/L;.d:(Ljava/lang/String;Ljava/lang/String;)V // method@5371
+2199ba: 0f00                                   |004b: return v0
+      catches       : 1
+        0x0011 - 0x0030
+          Ljava/lang/Exception; -> 0x0031
+
+    #3              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+219818:                                        |[219818] net.easyconn.carman.utils.BackgroundStartUtil.c:(Landroid/content/Context;)Z
+219828: 7110 1552 0000                         |0000: invoke-static {v0}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.b:(Landroid/content/Context;)I // method@5215
+21982e: 0a00                                   |0003: move-result v0
+219830: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+219834: 1210                                   |0006: const/4 v0, #int 1 // #1
+219836: 2802                                   |0007: goto 0009 // +0002
+219838: 1200                                   |0008: const/4 v0, #int 0 // #0
+21983a: 0f00                                   |0009: return v0
+      catches       : (none)
+
+    #4              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 3
+      insns size    : 76 16-bit code units
+21985c:                                        |[21985c] net.easyconn.carman.utils.BackgroundStartUtil.d:(Landroid/content/Context;)Z
+21986c: 1a00 e64a                              |0000: const-string v0, "appops" // string@4ae6
+219870: 6e20 8c00 0600                         |0002: invoke-virtual {v6, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@008c
+219876: 0c00                                   |0005: move-result-object v0
+219878: 1f00 2100                              |0006: check-cast v0, Landroid/app/AppOpsManager; // type@0021
+21987c: 1201                                   |0008: const/4 v1, #int 0 // #0
+21987e: 6e10 ed11 0000                         |0009: invoke-virtual {v0}, Ljava/lang/Object;.getClass:()Ljava/lang/Class; // method@11ed
+219884: 0c02                                   |000c: move-result-object v2
+219886: 1a03 eb4d                              |000d: const-string v3, "checkOpNoThrow" // string@4deb
+21988a: 6204 4808                              |000f: sget-object v4, Ljava/lang/Integer;.TYPE:Ljava/lang/Class; // field@0848
+21988e: 1c05 e403                              |0011: const-class v5, Ljava/lang/String; // type@03e4
+219892: 2430 c410 4405                         |0013: filled-new-array {v4, v4, v5}, [Ljava/lang/Class; // type@10c4
+219898: 0c04                                   |0016: move-result-object v4
+21989a: 6e30 6c11 3204                         |0017: invoke-virtual {v2, v3, v4}, Ljava/lang/Class;.getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; // method@116c
+2198a0: 0c02                                   |001a: move-result-object v2
+2198a2: 1303 2527                              |001b: const/16 v3, #int 10021 // #2725
+2198a6: 7110 b911 0300                         |001d: invoke-static {v3}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@11b9
+2198ac: 0c03                                   |0020: move-result-object v3
+2198ae: 7100 4203 0000                         |0021: invoke-static {}, Landroid/os/Process;.myUid:()I // method@0342
+2198b4: 0a04                                   |0024: move-result v4
+2198b6: 7110 b911 0400                         |0025: invoke-static {v4}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@11b9
+2198bc: 0c04                                   |0028: move-result-object v4
+2198be: 6e10 8700 0600                         |0029: invoke-virtual {v6}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@0087
+2198c4: 0c06                                   |002c: move-result-object v6
+2198c6: 2430 ca10 4306                         |002d: filled-new-array {v3, v4, v6}, [Ljava/lang/Object; // type@10ca
+2198cc: 0c06                                   |0030: move-result-object v6
+2198ce: 6e30 c312 0206                         |0031: invoke-virtual {v2, v0, v6}, Ljava/lang/reflect/Method;.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; // method@12c3
+2198d4: 0c06                                   |0034: move-result-object v6
+2198d6: 2060 c903                              |0035: instance-of v0, v6, Ljava/lang/Integer; // type@03c9
+2198da: 3800 0e00                              |0037: if-eqz v0, 0045 // +000e
+2198de: 1f06 c903                              |0039: check-cast v6, Ljava/lang/Integer; // type@03c9
+2198e2: 6e10 b111 0600                         |003b: invoke-virtual {v6}, Ljava/lang/Integer;.intValue:()I // method@11b1
+2198e8: 0a06                                   |003e: move-result v6
+2198ea: 3906 0300                              |003f: if-nez v6, 0042 // +0003
+2198ee: 1211                                   |0041: const/4 v1, #int 1 // #1
+2198f0: 0f01                                   |0042: return v1
+2198f2: 0d06                                   |0043: move-exception v6
+2198f4: 2802                                   |0044: goto 0046 // +0002
+2198f6: 0f01                                   |0045: return v1
+2198f8: 1a00 b90a                              |0046: const-string v0, "BackgroundStartUtil" // string@0ab9
+2198fc: 7120 7b53 6000                         |0048: invoke-static {v0, v6}, Lnet/easyconn/carman/utils/L;.e:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@537b
+219902: 0f01                                   |004b: return v1
+      catches       : 1
+        0x0009 - 0x003f
+          Ljava/lang/Exception; -> 0x0043
+
+    #5              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'isBackgroundStartAllowed'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 75 16-bit code units
+219730:                                        |[219730] net.easyconn.carman.utils.BackgroundStartUtil.isBackgroundStartAllowed:(Landroid/content/Context;)Z
+219740: 7100 1b52 0000                         |0000: invoke-static {}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.isXiaoMi:()Z // method@521b
+219746: 0a00                                   |0003: move-result v0
+219748: 3800 0700                              |0004: if-eqz v0, 000b // +0007
+21974c: 7110 1752 0200                         |0006: invoke-static {v2}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.d:(Landroid/content/Context;)Z // method@5217
+219752: 0a00                                   |0009: move-result v0
+219754: 2802                                   |000a: goto 000c // +0002
+219756: 1210                                   |000b: const/4 v0, #int 1 // #1
+219758: 7100 1a52 0000                         |000c: invoke-static {}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.isVivo:()Z // method@521a
+21975e: 0a01                                   |000f: move-result v1
+219760: 3801 0600                              |0010: if-eqz v1, 0016 // +0006
+219764: 7110 1652 0200                         |0012: invoke-static {v2}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.c:(Landroid/content/Context;)Z // method@5216
+21976a: 0a00                                   |0015: move-result v0
+21976c: 7100 1952 0000                         |0016: invoke-static {}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.isOppo:()Z // method@5219
+219772: 0a01                                   |0019: move-result v1
+219774: 3801 0600                              |001a: if-eqz v1, 0020 // +0006
+219778: 7110 5203 0200                         |001c: invoke-static {v2}, Landroid/provider/Settings;.canDrawOverlays:(Landroid/content/Context;)Z // method@0352
+21977e: 0a00                                   |001f: move-result v0
+219780: 2202 e603                              |0020: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+219784: 7010 5212 0200                         |0022: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+21978a: 1a01 a564                              |0025: const-string v1, "manufacturer: " // string@64a5
+21978e: 6e20 5c12 1200                         |0027: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+219794: 6201 5f00                              |002a: sget-object v1, Landroid/os/Build;.MANUFACTURER:Ljava/lang/String; // field@005f
+219798: 6e20 5c12 1200                         |002c: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+21979e: 1a01 4304                              |002f: const-string v1, ", version: " // string@0443
+2197a2: 6e20 5c12 1200                         |0031: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2197a8: 6001 5a00                              |0034: sget v1, Landroid/os/Build$VERSION;.SDK_INT:I // field@005a
+2197ac: 6e20 5812 1200                         |0036: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+2197b2: 1a01 fa03                              |0039: const-string v1, ", result: " // string@03fa
+2197b6: 6e20 5c12 1200                         |003b: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2197bc: 6e20 5d12 0200                         |003e: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@125d
+2197c2: 6e10 6912 0200                         |0041: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2197c8: 0c02                                   |0044: move-result-object v2
+2197ca: 1a01 b90a                              |0045: const-string v1, "BackgroundStartUtil" // string@0ab9
+2197ce: 7120 7153 2100                         |0047: invoke-static {v1, v2}, Lnet/easyconn/carman/utils/L;.d:(Ljava/lang/String;Ljava/lang/String;)V // method@5371
+2197d4: 0f00                                   |004a: return v0
+      catches       : (none)
+
+    #6              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'isOppo'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+2197d8:                                        |[2197d8] net.easyconn.carman.utils.BackgroundStartUtil.isOppo:()Z
+2197e8: 1a00 cc7a                              |0000: const-string v0, "oppo" // string@7acc
+2197ec: 7110 1452 0000                         |0002: invoke-static {v0}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.a:(Ljava/lang/String;)Z // method@5214
+2197f2: 0a00                                   |0005: move-result v0
+2197f4: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #7              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'isVivo'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+2197f8:                                        |[2197f8] net.easyconn.carman.utils.BackgroundStartUtil.isVivo:()Z
+219808: 1a00 408d                              |0000: const-string v0, "vivo" // string@8d40
+21980c: 7110 1452 0000                         |0002: invoke-static {v0}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.a:(Ljava/lang/String;)Z // method@5214
+219812: 0a00                                   |0005: move-result v0
+219814: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #8              : (in Lnet/easyconn/carman/utils/BackgroundStartUtil;)
+      name          : 'isXiaoMi'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+21983c:                                        |[21983c] net.easyconn.carman.utils.BackgroundStartUtil.isXiaoMi:()Z
+21984c: 1a00 6a8e                              |0000: const-string v0, "xiaomi" // string@8e6a
+219850: 7110 1452 0000                         |0002: invoke-static {v0}, Lnet/easyconn/carman/utils/BackgroundStartUtil;.a:(Ljava/lang/String;)Z // method@5214
+219856: 0a00                                   |0005: move-result v0
+219858: 0f00                                   |0006: return v0
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 2746 (BackgroundStartUtil.java)
+

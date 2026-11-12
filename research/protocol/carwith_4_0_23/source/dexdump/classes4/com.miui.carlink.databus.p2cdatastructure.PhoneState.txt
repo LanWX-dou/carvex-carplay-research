@@ -1,0 +1,290 @@
+Class #290            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/Parcelable;'
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'CREATOR'
+      type          : 'Landroid/os/Parcelable$Creator;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'a'
+      type          : 'Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'b'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'c'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'd'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'e'
+      type          : 'Ljava/util/Optional;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'f'
+      type          : 'Ljava/util/Optional;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+122824:                                        |[122824] com.miui.carlink.databus.p2cdatastructure.PhoneState.<clinit>:()V
+122834: 2200 8f03                              |0000: new-instance v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState$a; // type@038f
+122838: 7010 1111 0000                         |0002: invoke-direct {v0}, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState$a;.<init>:()V // method@1111
+12283e: 6900 226e                              |0005: sput-object v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.CREATOR:Landroid/os/Parcelable$Creator; // field@6e22
+122842: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : '<init>'
+      type          : '(I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 29 16-bit code units
+122844:                                        |[122844] com.miui.carlink.databus.p2cdatastructure.PhoneState.<init>:(I)V
+122854: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+12285a: 1200                                   |0003: const/4 v0, #int 0 // #0
+12285c: 5c10 246e                              |0004: iput-boolean v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.b:Z // field@6e24
+122860: 5c10 256e                              |0006: iput-boolean v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.c:Z // field@6e25
+122864: 5c10 266e                              |0008: iput-boolean v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.d:Z // field@6e26
+122868: 7100 d335 0000                         |000a: invoke-static {}, Ljava/util/Optional;.empty:()Ljava/util/Optional; // method@35d3
+12286e: 0c00                                   |000d: move-result-object v0
+122870: 5b10 276e                              |000e: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.e:Ljava/util/Optional; // field@6e27
+122874: 7100 d335 0000                         |0010: invoke-static {}, Ljava/util/Optional;.empty:()Ljava/util/Optional; // method@35d3
+12287a: 0c00                                   |0013: move-result-object v0
+12287c: 5b10 286e                              |0014: iput-object v0, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.f:Ljava/util/Optional; // field@6e28
+122880: 7110 8116 0200                         |0016: invoke-static {v2}, Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;.forNumber:(I)Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE; // method@1681
+122886: 0c02                                   |0019: move-result-object v2
+122888: 5b12 236e                              |001a: iput-object v2, v1, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.a:Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE; // field@6e23
+12288c: 0e00                                   |001c: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'a'
+      type          : '()Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1227c8:                                        |[1227c8] com.miui.carlink.databus.p2cdatastructure.PhoneState.a:()Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;
+1227d8: 5400 236e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.a:Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE; // field@6e23
+1227dc: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'b'
+      type          : '()Ljava/util/Optional;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1227f4:                                        |[1227f4] com.miui.carlink.databus.p2cdatastructure.PhoneState.b:()Ljava/util/Optional;
+122804: 5400 276e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.e:Ljava/util/Optional; // field@6e27
+122808: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'd'
+      type          : '()Ljava/util/Optional;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+12280c:                                        |[12280c] com.miui.carlink.databus.p2cdatastructure.PhoneState.d:()Ljava/util/Optional;
+12281c: 5400 286e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.f:Ljava/util/Optional; // field@6e28
+122820: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'describeContents'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 2 16-bit code units
+1227e0:                                        |[1227e0] com.miui.carlink.databus.p2cdatastructure.PhoneState.describeContents:()I
+1227f0: 1200                                   |0000: const/4 v0, #int 0 // #0
+1227f2: 0f00                                   |0001: return v0
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'e'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122780:                                        |[122780] com.miui.carlink.databus.p2cdatastructure.PhoneState.e:()Z
+122790: 5500 266e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.d:Z // field@6e26
+122794: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'f'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122798:                                        |[122798] com.miui.carlink.databus.p2cdatastructure.PhoneState.f:()Z
+1227a8: 5500 246e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.b:Z // field@6e24
+1227ac: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #6              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'g'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1227b0:                                        |[1227b0] com.miui.carlink.databus.p2cdatastructure.PhoneState.g:()Z
+1227c0: 5500 256e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.c:Z // field@6e25
+1227c4: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #7              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'h'
+      type          : '(Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122890:                                        |[122890] com.miui.carlink.databus.p2cdatastructure.PhoneState.h:(Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;)V
+1228a0: 5b01 236e                              |0000: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.a:Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE; // field@6e23
+1228a4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'i'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1228a8:                                        |[1228a8] com.miui.carlink.databus.p2cdatastructure.PhoneState.i:(Z)V
+1228b8: 5c01 266e                              |0000: iput-boolean v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.d:Z // field@6e26
+1228bc: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'j'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 11 16-bit code units
+1228c0:                                        |[1228c0] com.miui.carlink.databus.p2cdatastructure.PhoneState.j:(Z)V
+1228d0: 7110 de33 0100                         |0000: invoke-static {v1}, Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean; // method@33de
+1228d6: 0c01                                   |0003: move-result-object v1
+1228d8: 7110 d735 0100                         |0004: invoke-static {v1}, Ljava/util/Optional;.of:(Ljava/lang/Object;)Ljava/util/Optional; // method@35d7
+1228de: 0c01                                   |0007: move-result-object v1
+1228e0: 5b01 276e                              |0008: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.e:Ljava/util/Optional; // field@6e27
+1228e4: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'o'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 11 16-bit code units
+1228e8:                                        |[1228e8] com.miui.carlink.databus.p2cdatastructure.PhoneState.o:(Z)V
+1228f8: 7110 de33 0100                         |0000: invoke-static {v1}, Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean; // method@33de
+1228fe: 0c01                                   |0003: move-result-object v1
+122900: 7110 d735 0100                         |0004: invoke-static {v1}, Ljava/util/Optional;.of:(Ljava/lang/Object;)Ljava/util/Optional; // method@35d7
+122906: 0c01                                   |0007: move-result-object v1
+122908: 5b01 286e                              |0008: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.f:Ljava/util/Optional; // field@6e28
+12290c: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'q'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122910:                                        |[122910] com.miui.carlink.databus.p2cdatastructure.PhoneState.q:(Z)V
+122920: 5c01 246e                              |0000: iput-boolean v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.b:Z // field@6e24
+122924: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'r'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122928:                                        |[122928] com.miui.carlink.databus.p2cdatastructure.PhoneState.r:(Z)V
+122938: 5c01 256e                              |0000: iput-boolean v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.c:Z // field@6e25
+12293c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #13              : (in Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;)
+      name          : 'writeToParcel'
+      type          : '(Landroid/os/Parcel;I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 10 16-bit code units
+122940:                                        |[122940] com.miui.carlink.databus.p2cdatastructure.PhoneState.writeToParcel:(Landroid/os/Parcel;I)V
+122950: 5400 236e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/PhoneState;.a:Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE; // field@6e23
+122954: 6e10 8216 0000                         |0002: invoke-virtual {v0}, Lcom/miui/carlink/databus/proto/UCarProto$CALL_STATE;.getNumber:()I // method@1682
+12295a: 0a00                                   |0005: move-result v0
+12295c: 6e20 f302 0100                         |0006: invoke-virtual {v1, v0}, Landroid/os/Parcel;.writeInt:(I)V // method@02f3
+122962: 0e00                                   |0009: return-void
+      catches       : (none)
+
+  source_file_idx   : 8711 (PhoneState.java)
+

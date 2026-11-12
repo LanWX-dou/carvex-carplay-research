@@ -1,0 +1,109 @@
+Class #4050            -
+  Class descriptor  : 'Lmf/g$a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lmf/g$a;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lmf/g$a;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #2              : (in Lmf/g$a;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Lmf/g$a;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #4              : (in Lmf/g$a;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #5              : (in Lmf/g$a;)
+      name          : 'f'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #6              : (in Lmf/g$a;)
+      name          : 'g'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #7              : (in Lmf/g$a;)
+      name          : 'h'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lmf/g$a;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 2
+      insns size    : 115 16-bit code units
+43b8a8:                                        |[43b8a8] mf.g$a.<clinit>:()V
+43b8b8: 6300 dbda                              |0000: sget-boolean v0, Lmf/g;.a:Z // field@dadb
+43b8bc: 3800 0500                              |0002: if-eqz v0, 0007 // +0005
+43b8c0: 1a01 0ca5                              |0004: const-string v1, "http://statusapi.micloud.preview.n.xiaomi.net" // string@a50c
+43b8c4: 2803                                   |0006: goto 0009 // +0003
+43b8c6: 1a01 0da5                              |0007: const-string v1, "http://statusapi.micloud.xiaomi.net" // string@a50d
+43b8ca: 6901 d3da                              |0009: sput-object v1, Lmf/g$a;.a:Ljava/lang/String; // field@dad3
+43b8ce: 2202 ea1f                              |000b: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+43b8d2: 7010 3dcc 0200                         |000d: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+43b8d8: 6e20 47cc 1200                         |0010: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b8de: 1a01 6904                              |0013: const-string v1, "/mic/status/v2" // string@0469
+43b8e2: 6e20 47cc 1200                         |0015: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b8e8: 6e10 50cc 0200                         |0018: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+43b8ee: 0c01                                   |001b: move-result-object v1
+43b8f0: 6901 d4da                              |001c: sput-object v1, Lmf/g$a;.b:Ljava/lang/String; // field@dad4
+43b8f4: 2202 ea1f                              |001e: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+43b8f8: 7010 3dcc 0200                         |0020: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+43b8fe: 6e20 47cc 1200                         |0023: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b904: 1a03 c104                              |0026: const-string v3, "/user/overview" // string@04c1
+43b908: 6e20 47cc 3200                         |0028: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b90e: 6e10 50cc 0200                         |002b: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+43b914: 0c02                                   |002e: move-result-object v2
+43b916: 6902 d5da                              |002f: sput-object v2, Lmf/g$a;.c:Ljava/lang/String; // field@dad5
+43b91a: 2202 ea1f                              |0031: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+43b91e: 7010 3dcc 0200                         |0033: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+43b924: 6e20 47cc 1200                         |0036: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b92a: 1a03 bc04                              |0039: const-string v3, "/user/level" // string@04bc
+43b92e: 6e20 47cc 3200                         |003b: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b934: 6e10 50cc 0200                         |003e: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+43b93a: 0c02                                   |0041: move-result-object v2
+43b93c: 6902 d6da                              |0042: sput-object v2, Lmf/g$a;.d:Ljava/lang/String; // field@dad6
+43b940: 2202 ea1f                              |0044: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+43b944: 7010 3dcc 0200                         |0046: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+43b94a: 6e20 47cc 1200                         |0049: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b950: 1a01 b604                              |004c: const-string v1, "/user/family/quota/used" // string@04b6
+43b954: 6e20 47cc 1200                         |004e: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43b95a: 6e10 50cc 0200                         |0051: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+43b960: 0c01                                   |0054: move-result-object v1
+43b962: 6901 d7da                              |0055: sput-object v1, Lmf/g$a;.e:Ljava/lang/String; // field@dad7
+43b966: 3800 0500                              |0057: if-eqz v0, 005c // +0005
+43b96a: 1a01 ffa4                              |0059: const-string v1, "http://micloud.preview.n.xiaomi.net" // string@a4ff
+43b96e: 2803                                   |005b: goto 005e // +0003
+43b970: 1a01 fea4                              |005c: const-string v1, "http://galleryapi.micloud.xiaomi.net" // string@a4fe
+43b974: 6901 d8da                              |005e: sput-object v1, Lmf/g$a;.f:Ljava/lang/String; // field@dad8
+43b978: 3800 0500                              |0060: if-eqz v0, 0065 // +0005
+43b97c: 1a01 f8a4                              |0062: const-string v1, "http://api.micloud.preview.n.xiaomi.net" // string@a4f8
+43b980: 2803                                   |0064: goto 0067 // +0003
+43b982: 1a01 fda4                              |0065: const-string v1, "http://fileapi.micloud.xiaomi.net" // string@a4fd
+43b986: 6901 d9da                              |0067: sput-object v1, Lmf/g$a;.g:Ljava/lang/String; // field@dad9
+43b98a: 3800 0500                              |0069: if-eqz v0, 006e // +0005
+43b98e: 1a00 08a5                              |006b: const-string v0, "http://relocationapi.micloud.preview.n.xiaomi.net" // string@a508
+43b992: 2803                                   |006d: goto 0070 // +0003
+43b994: 1a00 3aa5                              |006e: const-string v0, "https://relocationapi.micloud.xiaomi.net" // string@a53a
+43b998: 6900 dada                              |0070: sput-object v0, Lmf/g$a;.h:Ljava/lang/String; // field@dada
+43b99c: 0e00                                   |0072: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 20992 (MiCloudConstants.java)
+

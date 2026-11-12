@@ -1,0 +1,467 @@
+Class #1166            -
+  Class descriptor  : 'Lmj/j0;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lmj/j0;)
+      name          : 'a'
+      type          : 'Landroid/net/Uri;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lmj/j0;)
+      name          : 'b'
+      type          : '[Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lmj/j0;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 4
+      insns size    : 23 16-bit code units
+1971f8:                                        |[1971f8] mj.j0.<clinit>:()V
+197208: 1a00 463c                              |0000: const-string v0, "content://com.android.deskclock/timercountdown" // string@3c46
+19720c: 7110 f601 0000                         |0002: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+197212: 0c00                                   |0005: move-result-object v0
+197214: 6900 d6fd                              |0006: sput-object v0, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+197218: 1a00 843f                              |0008: const-string v0, "duration" // string@3f84
+19721c: 1a01 3372                              |000a: const-string v1, "timerremained" // string@7233
+197220: 1a02 3672                              |000c: const-string v2, "timestate" // string@7236
+197224: 1a03 1b40                              |000e: const-string v3, "endtime" // string@401b
+197228: 2440 980d 3210                         |0010: filled-new-array {v2, v3, v0, v1}, [Ljava/lang/String; // type@0d98
+19722e: 0c00                                   |0013: move-result-object v0
+197230: 6900 d7fd                              |0014: sput-object v0, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+197234: 0e00                                   |0016: return-void
+      catches       : (none)
+
+    #1              : (in Lmj/j0;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;J)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 36 16-bit code units
+197238:                                        |[197238] mj.j0.a:(Landroid/content/Context;J)V
+197248: 2200 030b                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@0b03
+19724c: 7010 4334 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+197252: 1a01 cb34                              |0005: const-string v1, "add timer duration:" // string@34cb
+197256: 6e20 4c34 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+19725c: 6e30 4a34 3004                         |000a: invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@344a
+197262: 6e10 5334 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+197268: 0c00                                   |0010: move-result-object v0
+19726a: 1a01 9a2c                              |0011: const-string v1, "TimerHelper" // string@2c9a
+19726e: 7120 fd07 0100                         |0013: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+197274: 7120 ad37 4300                         |0016: invoke-static {v3, v4}, Lmj/j0;.b:(J)Landroid/content/ContentValues; // method@37ad
+19727a: 0c03                                   |0019: move-result-object v3
+19727c: 6e10 de00 0200                         |001a: invoke-virtual {v2}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+197282: 0c02                                   |001d: move-result-object v2
+197284: 6204 d6fd                              |001e: sget-object v4, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+197288: 6e30 cc00 4203                         |0020: invoke-virtual {v2, v4, v3}, Landroid/content/ContentResolver;.insert:(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; // method@00cc
+19728e: 0e00                                   |0023: return-void
+      catches       : (none)
+
+    #2              : (in Lmj/j0;)
+      name          : 'b'
+      type          : '(J)Landroid/content/ContentValues;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 49 16-bit code units
+196dd4:                                        |[196dd4] mj.j0.b:(J)Landroid/content/ContentValues;
+196de4: 2200 3d00                              |0000: new-instance v0, Landroid/content/ContentValues; // type@003d
+196de8: 1241                                   |0002: const/4 v1, #int 4 // #4
+196dea: 7020 d400 1000                         |0003: invoke-direct {v0, v1}, Landroid/content/ContentValues;.<init>:(I)V // method@00d4
+196df0: 1211                                   |0006: const/4 v1, #int 1 // #1
+196df2: 7110 e233 0100                         |0007: invoke-static {v1}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@33e2
+196df8: 0c01                                   |000a: move-result-object v1
+196dfa: 1a02 3672                              |000b: const-string v2, "timestate" // string@7236
+196dfe: 6e30 d700 2001                         |000d: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Integer;)V // method@00d7
+196e04: 7100 5534 0000                         |0010: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@3455
+196e0a: 0b01                                   |0013: move-result-wide v1
+196e0c: bb31                                   |0014: add-long/2addr v1, v3
+196e0e: 7120 e933 2100                         |0015: invoke-static {v1, v2}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@33e9
+196e14: 0c01                                   |0018: move-result-object v1
+196e16: 1a02 1b40                              |0019: const-string v2, "endtime" // string@401b
+196e1a: 6e30 d800 2001                         |001b: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Long;)V // method@00d8
+196e20: 7120 e933 4300                         |001e: invoke-static {v3, v4}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@33e9
+196e26: 0c01                                   |0021: move-result-object v1
+196e28: 1a02 843f                              |0022: const-string v2, "duration" // string@3f84
+196e2c: 6e30 d800 2001                         |0024: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Long;)V // method@00d8
+196e32: 7120 e933 4300                         |0027: invoke-static {v3, v4}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@33e9
+196e38: 0c03                                   |002a: move-result-object v3
+196e3a: 1a04 3372                              |002b: const-string v4, "timerremained" // string@7233
+196e3e: 6e30 d800 4003                         |002d: invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Long;)V // method@00d8
+196e44: 1100                                   |0030: return-object v0
+      catches       : (none)
+
+    #3              : (in Lmj/j0;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 4
+      insns size    : 11 16-bit code units
+197290:                                        |[197290] mj.j0.c:(Landroid/content/Context;)V
+1972a0: 6e10 de00 0200                         |0000: invoke-virtual {v2}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1972a6: 0c02                                   |0003: move-result-object v2
+1972a8: 6200 d6fd                              |0004: sget-object v0, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+1972ac: 1201                                   |0006: const/4 v1, #int 0 // #0
+1972ae: 6e40 ca00 0211                         |0007: invoke-virtual {v2, v0, v1, v1}, Landroid/content/ContentResolver;.delete:(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I // method@00ca
+1972b4: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #4              : (in Lmj/j0;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;)J'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 6
+      insns size    : 72 16-bit code units
+196ff4:                                        |[196ff4] mj.j0.d:(Landroid/content/Context;)J
+197004: 6e10 de00 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+19700a: 0c00                                   |0003: move-result-object v0
+19700c: 6201 d6fd                              |0004: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+197010: 6202 d7fd                              |0006: sget-object v2, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+197014: 1204                                   |0008: const/4 v4, #int 0 // #0
+197016: 1205                                   |0009: const/4 v5, #int 0 // #0
+197018: 1203                                   |000a: const/4 v3, #int 0 // #0
+19701a: 7406 cd00 0000                         |000b: invoke-virtual/range {v0, v1, v2, v3, v4, v5}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+197020: 0c06                                   |000e: move-result-object v6
+197022: 3806 3600                              |000f: if-eqz v6, 0045 // +0036
+197026: 7210 5401 0600                         |0011: invoke-interface {v6}, Landroid/database/Cursor;.moveToFirst:()Z // method@0154
+19702c: 0a00                                   |0014: move-result v0
+19702e: 3800 2800                              |0015: if-eqz v0, 003d // +0028
+197032: 1a00 843f                              |0017: const-string v0, "duration" // string@3f84
+197036: 7220 4e01 0600                         |0019: invoke-interface {v6, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+19703c: 0a00                                   |001c: move-result v0
+19703e: 7220 5201 0600                         |001d: invoke-interface {v6, v0}, Landroid/database/Cursor;.getLong:(I)J // method@0152
+197044: 0b00                                   |0020: move-result-wide v0
+197046: 1a02 9a2c                              |0021: const-string v2, "TimerHelper" // string@2c9a
+19704a: 2203 030b                              |0023: new-instance v3, Ljava/lang/StringBuilder; // type@0b03
+19704e: 7010 4334 0300                         |0025: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+197054: 1a04 3172                              |0028: const-string v4, "timer total duration:" // string@7231
+197058: 6e20 4c34 4300                         |002a: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+19705e: 6e30 4a34 0301                         |002d: invoke-virtual {v3, v0, v1}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@344a
+197064: 6e10 5334 0300                         |0030: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+19706a: 0c03                                   |0033: move-result-object v3
+19706c: 7120 fd07 3200                         |0034: invoke-static {v2, v3}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+197072: 7210 4d01 0600                         |0037: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+197078: 1000                                   |003a: return-wide v0
+19707a: 0d00                                   |003b: move-exception v0
+19707c: 2805                                   |003c: goto 0041 // +0005
+19707e: 7210 4d01 0600                         |003d: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+197084: 2805                                   |0040: goto 0045 // +0005
+197086: 7210 4d01 0600                         |0041: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+19708c: 2700                                   |0044: throw v0
+19708e: 1600 ffff                              |0045: const-wide/16 v0, #int -1 // #ffff
+197092: 1000                                   |0047: return-wide v0
+      catches       : 1
+        0x0011 - 0x0037
+          <any> -> 0x003b
+
+    #5              : (in Lmj/j0;)
+      name          : 'e'
+      type          : '(Landroid/content/Context;)J'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 6
+      insns size    : 72 16-bit code units
+1970a0:                                        |[1970a0] mj.j0.e:(Landroid/content/Context;)J
+1970b0: 6e10 de00 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1970b6: 0c00                                   |0003: move-result-object v0
+1970b8: 6201 d6fd                              |0004: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+1970bc: 6202 d7fd                              |0006: sget-object v2, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+1970c0: 1204                                   |0008: const/4 v4, #int 0 // #0
+1970c2: 1205                                   |0009: const/4 v5, #int 0 // #0
+1970c4: 1203                                   |000a: const/4 v3, #int 0 // #0
+1970c6: 7406 cd00 0000                         |000b: invoke-virtual/range {v0, v1, v2, v3, v4, v5}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+1970cc: 0c06                                   |000e: move-result-object v6
+1970ce: 3806 3600                              |000f: if-eqz v6, 0045 // +0036
+1970d2: 7210 5401 0600                         |0011: invoke-interface {v6}, Landroid/database/Cursor;.moveToFirst:()Z // method@0154
+1970d8: 0a00                                   |0014: move-result v0
+1970da: 3800 2800                              |0015: if-eqz v0, 003d // +0028
+1970de: 1a00 1b40                              |0017: const-string v0, "endtime" // string@401b
+1970e2: 7220 4e01 0600                         |0019: invoke-interface {v6, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+1970e8: 0a00                                   |001c: move-result v0
+1970ea: 7220 5201 0600                         |001d: invoke-interface {v6, v0}, Landroid/database/Cursor;.getLong:(I)J // method@0152
+1970f0: 0b00                                   |0020: move-result-wide v0
+1970f2: 1a02 9a2c                              |0021: const-string v2, "TimerHelper" // string@2c9a
+1970f6: 2203 030b                              |0023: new-instance v3, Ljava/lang/StringBuilder; // type@0b03
+1970fa: 7010 4334 0300                         |0025: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+197100: 1a04 2e72                              |0028: const-string v4, "timer  end time :" // string@722e
+197104: 6e20 4c34 4300                         |002a: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+19710a: 6e30 4a34 0301                         |002d: invoke-virtual {v3, v0, v1}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@344a
+197110: 6e10 5334 0300                         |0030: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+197116: 0c03                                   |0033: move-result-object v3
+197118: 7120 fd07 3200                         |0034: invoke-static {v2, v3}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+19711e: 7210 4d01 0600                         |0037: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+197124: 1000                                   |003a: return-wide v0
+197126: 0d00                                   |003b: move-exception v0
+197128: 2805                                   |003c: goto 0041 // +0005
+19712a: 7210 4d01 0600                         |003d: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+197130: 2805                                   |0040: goto 0045 // +0005
+197132: 7210 4d01 0600                         |0041: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+197138: 2700                                   |0044: throw v0
+19713a: 1600 ffff                              |0045: const-wide/16 v0, #int -1 // #ffff
+19713e: 1000                                   |0047: return-wide v0
+      catches       : 1
+        0x0011 - 0x0037
+          <any> -> 0x003b
+
+    #6              : (in Lmj/j0;)
+      name          : 'f'
+      type          : '(Landroid/content/Context;)J'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 6
+      insns size    : 72 16-bit code units
+19714c:                                        |[19714c] mj.j0.f:(Landroid/content/Context;)J
+19715c: 6e10 de00 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+197162: 0c00                                   |0003: move-result-object v0
+197164: 6201 d6fd                              |0004: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+197168: 6202 d7fd                              |0006: sget-object v2, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+19716c: 1204                                   |0008: const/4 v4, #int 0 // #0
+19716e: 1205                                   |0009: const/4 v5, #int 0 // #0
+197170: 1203                                   |000a: const/4 v3, #int 0 // #0
+197172: 7406 cd00 0000                         |000b: invoke-virtual/range {v0, v1, v2, v3, v4, v5}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+197178: 0c06                                   |000e: move-result-object v6
+19717a: 3806 3600                              |000f: if-eqz v6, 0045 // +0036
+19717e: 7210 5401 0600                         |0011: invoke-interface {v6}, Landroid/database/Cursor;.moveToFirst:()Z // method@0154
+197184: 0a00                                   |0014: move-result v0
+197186: 3800 2800                              |0015: if-eqz v0, 003d // +0028
+19718a: 1a00 3372                              |0017: const-string v0, "timerremained" // string@7233
+19718e: 7220 4e01 0600                         |0019: invoke-interface {v6, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+197194: 0a00                                   |001c: move-result v0
+197196: 7220 5201 0600                         |001d: invoke-interface {v6, v0}, Landroid/database/Cursor;.getLong:(I)J // method@0152
+19719c: 0b00                                   |0020: move-result-wide v0
+19719e: 1a02 9a2c                              |0021: const-string v2, "TimerHelper" // string@2c9a
+1971a2: 2203 030b                              |0023: new-instance v3, Ljava/lang/StringBuilder; // type@0b03
+1971a6: 7010 4334 0300                         |0025: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1971ac: 1a04 2f72                              |0028: const-string v4, "timer  remained time :" // string@722f
+1971b0: 6e20 4c34 4300                         |002a: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1971b6: 6e30 4a34 0301                         |002d: invoke-virtual {v3, v0, v1}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@344a
+1971bc: 6e10 5334 0300                         |0030: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1971c2: 0c03                                   |0033: move-result-object v3
+1971c4: 7120 fd07 3200                         |0034: invoke-static {v2, v3}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+1971ca: 7210 4d01 0600                         |0037: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+1971d0: 1000                                   |003a: return-wide v0
+1971d2: 0d00                                   |003b: move-exception v0
+1971d4: 2805                                   |003c: goto 0041 // +0005
+1971d6: 7210 4d01 0600                         |003d: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+1971dc: 2805                                   |0040: goto 0045 // +0005
+1971de: 7210 4d01 0600                         |0041: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+1971e4: 2700                                   |0044: throw v0
+1971e6: 1600 ffff                              |0045: const-wide/16 v0, #int -1 // #ffff
+1971ea: 1000                                   |0047: return-wide v0
+      catches       : 1
+        0x0011 - 0x0037
+          <any> -> 0x003b
+
+    #7              : (in Lmj/j0;)
+      name          : 'g'
+      type          : '(Landroid/content/Context;)Landroid/database/Cursor;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 6
+      insns size    : 16 16-bit code units
+196e48:                                        |[196e48] mj.j0.g:(Landroid/content/Context;)Landroid/database/Cursor;
+196e58: 6e10 de00 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+196e5e: 0c00                                   |0003: move-result-object v0
+196e60: 6201 d6fd                              |0004: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+196e64: 6202 d7fd                              |0006: sget-object v2, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+196e68: 1204                                   |0008: const/4 v4, #int 0 // #0
+196e6a: 1205                                   |0009: const/4 v5, #int 0 // #0
+196e6c: 1203                                   |000a: const/4 v3, #int 0 // #0
+196e6e: 7406 cd00 0000                         |000b: invoke-virtual/range {v0, v1, v2, v3, v4, v5}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+196e74: 0c06                                   |000e: move-result-object v6
+196e76: 1106                                   |000f: return-object v6
+      catches       : (none)
+
+    #8              : (in Lmj/j0;)
+      name          : 'h'
+      type          : '(Landroid/content/Context;)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 6
+      insns size    : 71 16-bit code units
+196f48:                                        |[196f48] mj.j0.h:(Landroid/content/Context;)I
+196f58: 6e10 de00 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+196f5e: 0c00                                   |0003: move-result-object v0
+196f60: 6201 d6fd                              |0004: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+196f64: 6202 d7fd                              |0006: sget-object v2, Lmj/j0;.b:[Ljava/lang/String; // field@fdd7
+196f68: 1204                                   |0008: const/4 v4, #int 0 // #0
+196f6a: 1205                                   |0009: const/4 v5, #int 0 // #0
+196f6c: 1203                                   |000a: const/4 v3, #int 0 // #0
+196f6e: 7406 cd00 0000                         |000b: invoke-virtual/range {v0, v1, v2, v3, v4, v5}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@00cd
+196f74: 0c06                                   |000e: move-result-object v6
+196f76: 3806 3600                              |000f: if-eqz v6, 0045 // +0036
+196f7a: 7210 5401 0600                         |0011: invoke-interface {v6}, Landroid/database/Cursor;.moveToFirst:()Z // method@0154
+196f80: 0a00                                   |0014: move-result v0
+196f82: 3800 2800                              |0015: if-eqz v0, 003d // +0028
+196f86: 1a00 3672                              |0017: const-string v0, "timestate" // string@7236
+196f8a: 7220 4e01 0600                         |0019: invoke-interface {v6, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@014e
+196f90: 0a00                                   |001c: move-result v0
+196f92: 7220 5101 0600                         |001d: invoke-interface {v6, v0}, Landroid/database/Cursor;.getInt:(I)I // method@0151
+196f98: 0a00                                   |0020: move-result v0
+196f9a: 1a01 9a2c                              |0021: const-string v1, "TimerHelper" // string@2c9a
+196f9e: 2202 030b                              |0023: new-instance v2, Ljava/lang/StringBuilder; // type@0b03
+196fa2: 7010 4334 0200                         |0025: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+196fa8: 1a03 3072                              |0028: const-string v3, "timer current statue:" // string@7230
+196fac: 6e20 4c34 3200                         |002a: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+196fb2: 6e20 4934 0200                         |002d: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3449
+196fb8: 6e10 5334 0200                         |0030: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+196fbe: 0c02                                   |0033: move-result-object v2
+196fc0: 7120 fd07 2100                         |0034: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+196fc6: 7210 4d01 0600                         |0037: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+196fcc: 0f00                                   |003a: return v0
+196fce: 0d00                                   |003b: move-exception v0
+196fd0: 2805                                   |003c: goto 0041 // +0005
+196fd2: 7210 4d01 0600                         |003d: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+196fd8: 2805                                   |0040: goto 0045 // +0005
+196fda: 7210 4d01 0600                         |0041: invoke-interface {v6}, Landroid/database/Cursor;.close:()V // method@014d
+196fe0: 2700                                   |0044: throw v0
+196fe2: 12f6                                   |0045: const/4 v6, #int -1 // #ff
+196fe4: 0f06                                   |0046: return v6
+      catches       : 1
+        0x0011 - 0x0037
+          <any> -> 0x003b
+
+    #9              : (in Lmj/j0;)
+      name          : 'i'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 53 16-bit code units
+196e78:                                        |[196e78] mj.j0.i:(Landroid/content/Context;)Z
+196e88: 1a00 9a2c                              |0000: const-string v0, "TimerHelper" // string@2c9a
+196e8c: 1201                                   |0002: const/4 v1, #int 0 // #0
+196e8e: 6e10 e300 0400                         |0003: invoke-virtual {v4}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00e3
+196e94: 0c04                                   |0006: move-result-object v4
+196e96: 1a02 523b                              |0007: const-string v2, "com.android.deskclock" // string@3b52
+196e9a: 1303 8000                              |0009: const/16 v3, #int 128 // #80
+196e9e: 6e30 3201 2403                         |000b: invoke-virtual {v4, v2, v3}, Landroid/content/pm/PackageManager;.getApplicationInfo:(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo; // method@0132
+196ea4: 0c04                                   |000e: move-result-object v4
+196ea6: 5444 4800                              |000f: iget-object v4, v4, Landroid/content/pm/ApplicationInfo;.metaData:Landroid/os/Bundle; // field@0048
+196eaa: 3804 0f00                              |0011: if-eqz v4, 0020 // +000f
+196eae: 1a02 533b                              |0013: const-string v2, "com.android.deskclock.voiceclock" // string@3b53
+196eb2: 6e20 ff01 2400                         |0015: invoke-virtual {v4, v2}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@01ff
+196eb8: 0a01                                   |0018: move-result v1
+196eba: 2807                                   |0019: goto 0020 // +0007
+196ebc: 0d04                                   |001a: move-exception v4
+196ebe: 1a02 2247                              |001b: const-string v2, "hasCountDownTimeFeature: " // string@4722
+196ec2: 7130 f907 2004                         |001d: invoke-static {v0, v2, v4}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f9
+196ec8: 2204 030b                              |0020: new-instance v4, Ljava/lang/StringBuilder; // type@0b03
+196ecc: 7010 4334 0400                         |0022: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+196ed2: 1a02 d675                              |0025: const-string v2, "voiceClock hasFeature:" // string@75d6
+196ed6: 6e20 4c34 2400                         |0027: invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+196edc: 6e20 4d34 1400                         |002a: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@344d
+196ee2: 6e10 5334 0400                         |002d: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+196ee8: 0c04                                   |0030: move-result-object v4
+196eea: 7120 f507 4000                         |0031: invoke-static {v0, v4}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@07f5
+196ef0: 0f01                                   |0034: return v1
+      catches       : 1
+        0x0003 - 0x0019
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x001a
+
+    #10              : (in Lmj/j0;)
+      name          : 'j'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+196f00:                                        |[196f00] mj.j0.j:(Landroid/content/Context;)Z
+196f10: 7110 b337 0100                         |0000: invoke-static {v1}, Lmj/j0;.h:(Landroid/content/Context;)I // method@37b3
+196f16: 0a01                                   |0003: move-result v1
+196f18: 1210                                   |0004: const/4 v0, #int 1 // #1
+196f1a: 3301 0300                              |0005: if-ne v1, v0, 0008 // +0003
+196f1e: 2802                                   |0007: goto 0009 // +0002
+196f20: 1200                                   |0008: const/4 v0, #int 0 // #0
+196f22: 0f00                                   |0009: return v0
+      catches       : (none)
+
+    #11              : (in Lmj/j0;)
+      name          : 'k'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+196f24:                                        |[196f24] mj.j0.k:(Landroid/content/Context;)Z
+196f34: 7110 b337 0000                         |0000: invoke-static {v0}, Lmj/j0;.h:(Landroid/content/Context;)I // method@37b3
+196f3a: 0a00                                   |0003: move-result v0
+196f3c: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+196f40: 1210                                   |0006: const/4 v0, #int 1 // #1
+196f42: 2802                                   |0007: goto 0009 // +0002
+196f44: 1200                                   |0008: const/4 v0, #int 0 // #0
+196f46: 0f00                                   |0009: return v0
+      catches       : (none)
+
+    #12              : (in Lmj/j0;)
+      name          : 'l'
+      type          : '(Landroid/content/Context;I)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 5
+      insns size    : 57 16-bit code units
+1972b8:                                        |[1972b8] mj.j0.l:(Landroid/content/Context;I)V
+1972c8: 2200 3d00                              |0000: new-instance v0, Landroid/content/ContentValues; // type@003d
+1972cc: 1211                                   |0002: const/4 v1, #int 1 // #1
+1972ce: 7020 d400 1000                         |0003: invoke-direct {v0, v1}, Landroid/content/ContentValues;.<init>:(I)V // method@00d4
+1972d4: 7110 e233 0400                         |0006: invoke-static {v4}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@33e2
+1972da: 0c01                                   |0009: move-result-object v1
+1972dc: 1a02 3672                              |000a: const-string v2, "timestate" // string@7236
+1972e0: 6e30 d700 2001                         |000c: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Integer;)V // method@00d7
+1972e6: 6e10 de00 0300                         |000f: invoke-virtual {v3}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+1972ec: 0c03                                   |0012: move-result-object v3
+1972ee: 6201 d6fd                              |0013: sget-object v1, Lmj/j0;.a:Landroid/net/Uri; // field@fdd6
+1972f2: 1202                                   |0015: const/4 v2, #int 0 // #0
+1972f4: 6e52 d100 1320                         |0016: invoke-virtual {v3, v1, v0, v2, v2}, Landroid/content/ContentResolver;.update:(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I // method@00d1
+1972fa: 0a03                                   |0019: move-result v3
+1972fc: 2200 030b                              |001a: new-instance v0, Ljava/lang/StringBuilder; // type@0b03
+197300: 7010 4334 0000                         |001c: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+197306: 1a01 0674                              |001f: const-string v1, "update timer state:" // string@7406
+19730a: 6e20 4c34 1000                         |0021: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+197310: 6e20 4934 4000                         |0024: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3449
+197316: 1a04 b000                              |0027: const-string v4, " result:" // string@00b0
+19731a: 6e20 4c34 4000                         |0029: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+197320: 6e20 4934 3000                         |002c: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3449
+197326: 6e10 5334 0000                         |002f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+19732c: 0c03                                   |0032: move-result-object v3
+19732e: 1a04 9a2c                              |0033: const-string v4, "TimerHelper" // string@2c9a
+197332: 7120 fd07 3400                         |0035: invoke-static {v4, v3}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@07fd
+197338: 0e00                                   |0038: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 11419 (TimerHelper.java)
+

@@ -1,0 +1,881 @@
+{
+  "nodeInfo": [
+    {
+      "nodeIdInfos": [
+        {
+          "pageId": "weixin_video_chat_answer_or_hangup",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "接听",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "挂断",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "邀请你进行视频通话",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_voice_chat_answer_or_hangup",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "接听",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "挂断",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "邀请你进行语音通话",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_search_contact",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "清除|语音输入",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_display_red_packet_button",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "红包",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "相册",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "拍摄",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,与(.*)的聊天",
+                  "enabled": ""
+                },
+                {
+                  "regex": "聊天信息",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_display_send_button",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "发送",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,与(.*)的聊天",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_display_plus_button",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,与(.*)的聊天",
+                  "enabled": ""
+                },
+                {
+                  "regex": "聊天信息",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_group_input_money_no_number_button_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "false"
+                },
+                {
+                  "text": "红包个数",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "^¥(([1-9]+).*.*|[0].*[1-9].*|[0].*[0][1-9])",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_group_input_money_button_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "false"
+                },
+                {
+                  "text": "红包个数",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_input_money_button_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "false"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_group_input_money_has_number_button_enable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "恭喜发财，大吉大利",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "true"
+                },
+                {
+                  "text": "红包个数",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_group_input_money_has_number_msg_button_en",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "true"
+                },
+                {
+                  "text": "红包个数",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_input_money_button_enable_message_empty",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "恭喜发财，大吉大利",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "true"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_input_money_button_enable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "true"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_select_pic_button_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "图片和视频",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发送|完成",
+                  "class_name": "",
+                  "enabled": "false"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,图片和视频",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_select_pic",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,图片和视频",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_circle_send_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "谁可以看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "提醒谁看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发送|发表",
+                  "class_name": "",
+                  "enabled": "false"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_circle_send_message_empty",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "这一刻的想法...",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "谁可以看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "提醒谁看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发送|发表",
+                  "class_name": "",
+                  "enabled": "true"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_circle_send",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "谁可以看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "提醒谁看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发送|发表",
+                  "class_name": "",
+                  "enabled": "true"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "图片",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_circle_send_photo_empty",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "谁可以看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "提醒谁看",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发送|发表",
+                  "class_name": "",
+                  "enabled": "true"
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_transfer_money_button_enable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "(\\d+)",
+                  "class_name": "android.widget.EditText",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "转账金额",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "转账",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_transfer_money_amount_empty",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "转账金额",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "转账",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

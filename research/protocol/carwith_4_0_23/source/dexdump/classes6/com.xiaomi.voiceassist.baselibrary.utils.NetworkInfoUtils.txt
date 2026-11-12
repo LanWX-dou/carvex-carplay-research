@@ -1,0 +1,361 @@
+Class #128            -
+  Class descriptor  : 'Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 2
+      insns size    : 110 16-bit code units
+0b4fe8:                                        |[0b4fe8] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.a:(Landroid/content/Context;)I
+0b4ff8: 1a00 db1f                              |0000: const-string v0, "connectivity" // string@1fdb
+0b4ffc: 6e20 7c00 0500                         |0002: invoke-virtual {v5, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b5002: 0c00                                   |0005: move-result-object v0
+0b5004: 1f00 5f00                              |0006: check-cast v0, Landroid/net/ConnectivityManager; // type@005f
+0b5008: 6e10 1201 0000                         |0008: invoke-virtual {v0}, Landroid/net/ConnectivityManager;.getActiveNetworkInfo:()Landroid/net/NetworkInfo; // method@0112
+0b500e: 0c00                                   |000b: move-result-object v0
+0b5010: 1201                                   |000c: const/4 v1, #int 0 // #0
+0b5012: 3900 0300                              |000d: if-nez v0, 0010 // +0003
+0b5016: 0f01                                   |000f: return v1
+0b5018: 6e10 1801 0000                         |0010: invoke-virtual {v0}, Landroid/net/NetworkInfo;.getType:()I // method@0118
+0b501e: 0a02                                   |0013: move-result v2
+0b5020: 1213                                   |0014: const/4 v3, #int 1 // #1
+0b5022: 3332 0400                              |0015: if-ne v2, v3, 0019 // +0004
+0b5026: 0131                                   |0017: move v1, v3
+0b5028: 2855                                   |0018: goto 006d // +0055
+0b502a: 3902 5400                              |0019: if-nez v2, 006d // +0054
+0b502e: 6e10 1601 0000                         |001b: invoke-virtual {v0}, Landroid/net/NetworkInfo;.getSubtype:()I // method@0116
+0b5034: 0a00                                   |001e: move-result v0
+0b5036: 1a01 2f3e                              |001f: const-string v1, "phone" // string@3e2f
+0b503a: 6e20 7c00 1500                         |0021: invoke-virtual {v5, v1}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b5040: 0c05                                   |0024: move-result-object v5
+0b5042: 1f05 8200                              |0025: check-cast v5, Landroid/telephony/TelephonyManager; // type@0082
+0b5046: 1301 0d00                              |0027: const/16 v1, #int 13 // #d
+0b504a: 1242                                   |0029: const/4 v2, #int 4 // #4
+0b504c: 3310 0a00                              |002a: if-ne v0, v1, 0034 // +000a
+0b5050: 6e10 6f01 0500                         |002c: invoke-virtual {v5}, Landroid/telephony/TelephonyManager;.isNetworkRoaming:()Z // method@016f
+0b5056: 0a01                                   |002f: move-result v1
+0b5058: 3901 0400                              |0030: if-nez v1, 0034 // +0004
+0b505c: 0121                                   |0032: move v1, v2
+0b505e: 283a                                   |0033: goto 006d // +003a
+0b5060: 1231                                   |0034: const/4 v1, #int 3 // #3
+0b5062: 3210 3800                              |0035: if-eq v0, v1, 006d // +0038
+0b5066: 1304 0e00                              |0037: const/16 v4, #int 14 // #e
+0b506a: 3240 3400                              |0039: if-eq v0, v4, 006d // +0034
+0b506e: 1304 0a00                              |003b: const/16 v4, #int 10 // #a
+0b5072: 3240 3000                              |003d: if-eq v0, v4, 006d // +0030
+0b5076: 1304 0900                              |003f: const/16 v4, #int 9 // #9
+0b507a: 3240 2c00                              |0041: if-eq v0, v4, 006d // +002c
+0b507e: 1304 0800                              |0043: const/16 v4, #int 8 // #8
+0b5082: 3240 2800                              |0045: if-eq v0, v4, 006d // +0028
+0b5086: 1304 0f00                              |0047: const/16 v4, #int 15 // #f
+0b508a: 3240 2400                              |0049: if-eq v0, v4, 006d // +0024
+0b508e: 1254                                   |004b: const/4 v4, #int 5 // #5
+0b5090: 3240 2100                              |004c: if-eq v0, v4, 006d // +0021
+0b5094: 1264                                   |004e: const/4 v4, #int 6 // #6
+0b5096: 3240 1e00                              |004f: if-eq v0, v4, 006d // +001e
+0b509a: 1304 0c00                              |0051: const/16 v4, #int 12 // #c
+0b509e: 3340 0900                              |0053: if-ne v0, v4, 005c // +0009
+0b50a2: 6e10 6f01 0500                         |0055: invoke-virtual {v5}, Landroid/telephony/TelephonyManager;.isNetworkRoaming:()Z // method@016f
+0b50a8: 0a04                                   |0058: move-result v4
+0b50aa: 3904 0300                              |0059: if-nez v4, 005c // +0003
+0b50ae: 2812                                   |005b: goto 006d // +0012
+0b50b0: 1221                                   |005c: const/4 v1, #int 2 // #2
+0b50b2: 3230 1000                              |005d: if-eq v0, v3, 006d // +0010
+0b50b6: 3210 0e00                              |005f: if-eq v0, v1, 006d // +000e
+0b50ba: 3220 0c00                              |0061: if-eq v0, v2, 006d // +000c
+0b50be: 1272                                   |0063: const/4 v2, #int 7 // #7
+0b50c0: 3220 0900                              |0064: if-eq v0, v2, 006d // +0009
+0b50c4: 1302 0b00                              |0066: const/16 v2, #int 11 // #b
+0b50c8: 3320 0500                              |0068: if-ne v0, v2, 006d // +0005
+0b50cc: 6e10 6f01 0500                         |006a: invoke-virtual {v5}, Landroid/telephony/TelephonyManager;.isNetworkRoaming:()Z // method@016f
+0b50d2: 0f01                                   |006d: return v1
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'b'
+      type          : '()Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 2
+      insns size    : 142 16-bit code units
+0b4e5c:                                        |[0b4e5c] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.b:()Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;
+0b4e6c: 6200 b969                              |0000: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.NONE:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b9
+0b4e70: 7100 3106 0000                         |0002: invoke-static {}, Ldh/a;.a:()Landroid/content/Context; // method@0631
+0b4e76: 0c01                                   |0005: move-result-object v1
+0b4e78: 1a02 db1f                              |0006: const-string v2, "connectivity" // string@1fdb
+0b4e7c: 6e20 7c00 2100                         |0008: invoke-virtual {v1, v2}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b4e82: 0c01                                   |000b: move-result-object v1
+0b4e84: 1f01 5f00                              |000c: check-cast v1, Landroid/net/ConnectivityManager; // type@005f
+0b4e88: 6e10 1201 0100                         |000e: invoke-virtual {v1}, Landroid/net/ConnectivityManager;.getActiveNetworkInfo:()Landroid/net/NetworkInfo; // method@0112
+0b4e8e: 0c01                                   |0011: move-result-object v1
+0b4e90: 3801 5300                              |0012: if-eqz v1, 0065 // +0053
+0b4e94: 6e10 1a01 0100                         |0014: invoke-virtual {v1}, Landroid/net/NetworkInfo;.isConnected:()Z // method@011a
+0b4e9a: 0a02                                   |0017: move-result v2
+0b4e9c: 3802 4d00                              |0018: if-eqz v2, 0065 // +004d
+0b4ea0: 6e10 1801 0100                         |001a: invoke-virtual {v1}, Landroid/net/NetworkInfo;.getType:()I // method@0118
+0b4ea6: 0a02                                   |001d: move-result v2
+0b4ea8: 1213                                   |001e: const/4 v3, #int 1 // #1
+0b4eaa: 3332 0500                              |001f: if-ne v2, v3, 0024 // +0005
+0b4eae: 6200 bb69                              |0021: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.WIFI:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69bb
+0b4eb2: 2842                                   |0023: goto 0065 // +0042
+0b4eb4: 6e10 1801 0100                         |0024: invoke-virtual {v1}, Landroid/net/NetworkInfo;.getType:()I // method@0118
+0b4eba: 0a02                                   |0027: move-result v2
+0b4ebc: 3902 3b00                              |0028: if-nez v2, 0063 // +003b
+0b4ec0: 6e10 1601 0100                         |002a: invoke-virtual {v1}, Landroid/net/NetworkInfo;.getSubtype:()I // method@0116
+0b4ec6: 0a02                                   |002d: move-result v2
+0b4ec8: 2b02 3800 0000                         |002e: packed-switch v2, 00000066 // +00000038
+0b4ece: 6e10 1701 0100                         |0031: invoke-virtual {v1}, Landroid/net/NetworkInfo;.getSubtypeName:()Ljava/lang/String; // method@0117
+0b4ed4: 0c01                                   |0034: move-result-object v1
+0b4ed6: 7110 7601 0100                         |0035: invoke-static {v1}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0176
+0b4edc: 0a02                                   |0038: move-result v2
+0b4ede: 3902 2c00                              |0039: if-nez v2, 0065 // +002c
+0b4ee2: 1a00 5d13                              |003b: const-string v0, "TD-SCDMA" // string@135d
+0b4ee6: 6e20 a607 0100                         |003d: invoke-virtual {v1, v0}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@07a6
+0b4eec: 0a00                                   |0040: move-result v0
+0b4eee: 3900 1600                              |0041: if-nez v0, 0057 // +0016
+0b4ef2: 1a00 7716                              |0043: const-string v0, "WCDMA" // string@1677
+0b4ef6: 6e20 a607 0100                         |0045: invoke-virtual {v1, v0}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@07a6
+0b4efc: 0a00                                   |0048: move-result v0
+0b4efe: 3900 0e00                              |0049: if-nez v0, 0057 // +000e
+0b4f02: 1a00 ae03                              |004b: const-string v0, "CDMA2000" // string@03ae
+0b4f06: 6e20 a607 0100                         |004d: invoke-virtual {v1, v0}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@07a6
+0b4f0c: 0a00                                   |0050: move-result v0
+0b4f0e: 3800 0300                              |0051: if-eqz v0, 0054 // +0003
+0b4f12: 2804                                   |0053: goto 0057 // +0004
+0b4f14: 6200 ba69                              |0054: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.UNKNOWN:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69ba
+0b4f18: 280f                                   |0056: goto 0065 // +000f
+0b4f1a: 6200 b769                              |0057: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.DATA_3G:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b7
+0b4f1e: 280c                                   |0059: goto 0065 // +000c
+0b4f20: 6200 b869                              |005a: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.DATA_4G:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b8
+0b4f24: 2809                                   |005c: goto 0065 // +0009
+0b4f26: 6200 b769                              |005d: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.DATA_3G:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b7
+0b4f2a: 2806                                   |005f: goto 0065 // +0006
+0b4f2c: 6200 b669                              |0060: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.DATA_2G:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b6
+0b4f30: 2803                                   |0062: goto 0065 // +0003
+0b4f32: 6200 ba69                              |0063: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.UNKNOWN:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69ba
+0b4f36: 1100                                   |0065: return-object v0
+0b4f38: 0001 1200 0100 0000 3200 0000 3200 ... |0066: packed-switch-data (40 units)
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'c'
+      type          : '()Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 39 16-bit code units
+0b4f88:                                        |[0b4f88] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.c:()Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;
+0b4f98: 7100 3106 0000                         |0000: invoke-static {}, Ldh/a;.a:()Landroid/content/Context; // method@0631
+0b4f9e: 0c00                                   |0003: move-result-object v0
+0b4fa0: 1a01 db1f                              |0004: const-string v1, "connectivity" // string@1fdb
+0b4fa4: 6e20 7c00 1000                         |0006: invoke-virtual {v0, v1}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b4faa: 0c00                                   |0009: move-result-object v0
+0b4fac: 1f00 5f00                              |000a: check-cast v0, Landroid/net/ConnectivityManager; // type@005f
+0b4fb0: 6e10 1201 0000                         |000c: invoke-virtual {v0}, Landroid/net/ConnectivityManager;.getActiveNetworkInfo:()Landroid/net/NetworkInfo; // method@0112
+0b4fb6: 0c01                                   |000f: move-result-object v1
+0b4fb8: 3801 1400                              |0010: if-eqz v1, 0024 // +0014
+0b4fbc: 6e10 1a01 0100                         |0012: invoke-virtual {v1}, Landroid/net/NetworkInfo;.isConnected:()Z // method@011a
+0b4fc2: 0a01                                   |0015: move-result v1
+0b4fc4: 3801 0e00                              |0016: if-eqz v1, 0024 // +000e
+0b4fc8: 6e10 1401 0000                         |0018: invoke-virtual {v0}, Landroid/net/ConnectivityManager;.isActiveNetworkMetered:()Z // method@0114
+0b4fce: 0a00                                   |001b: move-result v0
+0b4fd0: 3800 0500                              |001c: if-eqz v0, 0021 // +0005
+0b4fd4: 6200 b569                              |001e: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.DATA:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b5
+0b4fd8: 2803                                   |0020: goto 0023 // +0003
+0b4fda: 6200 bb69                              |0021: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.WIFI:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69bb
+0b4fde: 1100                                   |0023: return-object v0
+0b4fe0: 6200 b969                              |0024: sget-object v0, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType;.NONE:Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils$NetworkType; // field@69b9
+0b4fe4: 1100                                   |0026: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'd'
+      type          : '()I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 2
+      insns size    : 37 16-bit code units
+0b50d4:                                        |[0b50d4] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.d:()I
+0b50e4: 7100 3106 0000                         |0000: invoke-static {}, Ldh/a;.a:()Landroid/content/Context; // method@0631
+0b50ea: 0c00                                   |0003: move-result-object v0
+0b50ec: 1a01 db48                              |0004: const-string v1, "wifi" // string@48db
+0b50f0: 6e20 7c00 1000                         |0006: invoke-virtual {v0, v1}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b50f6: 0c00                                   |0009: move-result-object v0
+0b50f8: 1f00 6500                              |000a: check-cast v0, Landroid/net/wifi/WifiManager; // type@0065
+0b50fc: 1201                                   |000c: const/4 v1, #int 0 // #0
+0b50fe: 3900 0300                              |000d: if-nez v0, 0010 // +0003
+0b5102: 0f01                                   |000f: return v1
+0b5104: 6e10 2501 0000                         |0010: invoke-virtual {v0}, Landroid/net/wifi/WifiManager;.getConnectionInfo:()Landroid/net/wifi/WifiInfo; // method@0125
+0b510a: 0c00                                   |0013: move-result-object v0
+0b510c: 6e10 2201 0000                         |0014: invoke-virtual {v0}, Landroid/net/wifi/WifiInfo;.getBSSID:()Ljava/lang/String; // method@0122
+0b5112: 0c02                                   |0017: move-result-object v2
+0b5114: 3802 0c00                              |0018: if-eqz v2, 0024 // +000c
+0b5118: 6e10 2301 0000                         |001a: invoke-virtual {v0}, Landroid/net/wifi/WifiInfo;.getRssi:()I // method@0123
+0b511e: 0a00                                   |001d: move-result v0
+0b5120: 1251                                   |001e: const/4 v1, #int 5 // #5
+0b5122: 7120 2401 1000                         |001f: invoke-static {v0, v1}, Landroid/net/wifi/WifiManager;.calculateSignalLevel:(II)I // method@0124
+0b5128: 0a00                                   |0022: move-result v0
+0b512a: 0f00                                   |0023: return v0
+0b512c: 0f01                                   |0024: return v1
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'e'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 31 16-bit code units
+0b4cc8:                                        |[0b4cc8] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.e:()Z
+0b4cd8: 7100 3106 0000                         |0000: invoke-static {}, Ldh/a;.a:()Landroid/content/Context; // method@0631
+0b4cde: 0c00                                   |0003: move-result-object v0
+0b4ce0: 1a01 db1f                              |0004: const-string v1, "connectivity" // string@1fdb
+0b4ce4: 6e20 7c00 1000                         |0006: invoke-virtual {v0, v1}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b4cea: 0c00                                   |0009: move-result-object v0
+0b4cec: 1f00 5f00                              |000a: check-cast v0, Landroid/net/ConnectivityManager; // type@005f
+0b4cf0: 6e10 1201 0000                         |000c: invoke-virtual {v0}, Landroid/net/ConnectivityManager;.getActiveNetworkInfo:()Landroid/net/NetworkInfo; // method@0112
+0b4cf6: 0c01                                   |000f: move-result-object v1
+0b4cf8: 3801 0d00                              |0010: if-eqz v1, 001d // +000d
+0b4cfc: 6e10 1a01 0100                         |0012: invoke-virtual {v1}, Landroid/net/NetworkInfo;.isConnected:()Z // method@011a
+0b4d02: 0a01                                   |0015: move-result v1
+0b4d04: 3801 0700                              |0016: if-eqz v1, 001d // +0007
+0b4d08: 6e10 1401 0000                         |0018: invoke-virtual {v0}, Landroid/net/ConnectivityManager;.isActiveNetworkMetered:()Z // method@0114
+0b4d0e: 0a00                                   |001b: move-result v0
+0b4d10: 0f00                                   |001c: return v0
+0b4d12: 1200                                   |001d: const/4 v0, #int 0 // #0
+0b4d14: 0f00                                   |001e: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'f'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 9
+      ins           : 1
+      outs          : 6
+      insns size    : 78 16-bit code units
+0b4d18:                                        |[0b4d18] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.f:(Landroid/content/Context;)Z
+0b4d28: 7100 7105 0000                         |0000: invoke-static {}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;.e:()Z // method@0571
+0b4d2e: 0a00                                   |0003: move-result v0
+0b4d30: 1201                                   |0004: const/4 v1, #int 0 // #0
+0b4d32: 3900 0300                              |0005: if-nez v0, 0008 // +0003
+0b4d36: 0f01                                   |0007: return v1
+0b4d38: 1a00 eb1f                              |0008: const-string v0, "content://com.miui.networkassistant.provider/mobile_restrict" // string@1feb
+0b4d3c: 7110 2001 0000                         |000a: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0120
+0b4d42: 0c03                                   |000d: move-result-object v3
+0b4d44: 6e10 7600 0800                         |000e: invoke-virtual {v8}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0076
+0b4d4a: 0c02                                   |0011: move-result-object v2
+0b4d4c: 1206                                   |0012: const/4 v6, #int 0 // #0
+0b4d4e: 1207                                   |0013: const/4 v7, #int 0 // #0
+0b4d50: 1204                                   |0014: const/4 v4, #int 0 // #0
+0b4d52: 1205                                   |0015: const/4 v5, #int 0 // #0
+0b4d54: 7406 7000 0200                         |0016: invoke-virtual/range {v2, v3, v4, v5, v6, v7}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0070
+0b4d5a: 0c08                                   |0019: move-result-object v8
+0b4d5c: 3808 3300                              |001a: if-eqz v8, 004d // +0033
+0b4d60: 7210 db00 0800                         |001c: invoke-interface {v8}, Landroid/database/Cursor;.moveToNext:()Z // method@00db
+0b4d66: 0a00                                   |001f: move-result v0
+0b4d68: 3800 1d00                              |0020: if-eqz v0, 003d // +001d
+0b4d6c: 1a00 d33b                              |0022: const-string v0, "package_name" // string@3bd3
+0b4d70: 7220 d600 0800                         |0024: invoke-interface {v8, v0}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@00d6
+0b4d76: 0a00                                   |0027: move-result v0
+0b4d78: 7220 da00 0800                         |0028: invoke-interface {v8, v0}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@00da
+0b4d7e: 0c00                                   |002b: move-result-object v0
+0b4d80: 1a02 a51f                              |002c: const-string v2, "com.miui.voiceassist" // string@1fa5
+0b4d84: 6e20 a507 0200                         |002e: invoke-virtual {v2, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0b4d8a: 0a00                                   |0031: move-result v0
+0b4d8c: 3800 eaff                              |0032: if-eqz v0, 001c // -0016
+0b4d90: 7210 d500 0800                         |0034: invoke-interface {v8}, Landroid/database/Cursor;.close:()V // method@00d5
+0b4d96: 1218                                   |0037: const/4 v8, #int 1 // #1
+0b4d98: 0f08                                   |0038: return v8
+0b4d9a: 0d00                                   |0039: move-exception v0
+0b4d9c: 280f                                   |003a: goto 0049 // +000f
+0b4d9e: 0d00                                   |003b: move-exception v0
+0b4da0: 2805                                   |003c: goto 0041 // +0005
+0b4da2: 7210 d500 0800                         |003d: invoke-interface {v8}, Landroid/database/Cursor;.close:()V // method@00d5
+0b4da8: 280d                                   |0040: goto 004d // +000d
+0b4daa: 1a02 3d10                              |0041: const-string v2, "NetworkInfoUtils" // string@103d
+0b4dae: 1a03 ee26                              |0043: const-string v3, "isMobileRestrict" // string@26ee
+0b4db2: 7130 1704 3200                         |0045: invoke-static {v2, v3, v0}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0417
+0b4db8: 28f5                                   |0048: goto 003d // -000b
+0b4dba: 7210 d500 0800                         |0049: invoke-interface {v8}, Landroid/database/Cursor;.close:()V // method@00d5
+0b4dc0: 2700                                   |004c: throw v0
+0b4dc2: 0f01                                   |004d: return v1
+      catches       : 2
+        0x001c - 0x0032
+          Ljava/lang/Exception; -> 0x003b
+          <any> -> 0x0039
+        0x0041 - 0x0048
+          <any> -> 0x0039
+
+    #6              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'g'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 16 16-bit code units
+0b4ddc:                                        |[0b4ddc] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.g:(Landroid/content/Context;)Z
+0b4dec: 7100 8505 0000                         |0000: invoke-static {}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkStateReceiver;.g:()Ljava/lang/Boolean; // method@0585
+0b4df2: 0c00                                   |0003: move-result-object v0
+0b4df4: 3800 0700                              |0004: if-eqz v0, 000b // +0007
+0b4df8: 6e10 6707 0000                         |0006: invoke-virtual {v0}, Ljava/lang/Boolean;.booleanValue:()Z // method@0767
+0b4dfe: 0a01                                   |0009: move-result v1
+0b4e00: 0f01                                   |000a: return v1
+0b4e02: 7110 7405 0100                         |000b: invoke-static {v1}, Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;.h:(Landroid/content/Context;)Z // method@0574
+0b4e08: 0a01                                   |000e: move-result v1
+0b4e0a: 0f01                                   |000f: return v1
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/voiceassist/baselibrary/utils/NetworkInfoUtils;)
+      name          : 'h'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 32 16-bit code units
+0b4e0c:                                        |[0b4e0c] com.xiaomi.voiceassist.baselibrary.utils.NetworkInfoUtils.h:(Landroid/content/Context;)Z
+0b4e1c: 1a00 db1f                              |0000: const-string v0, "connectivity" // string@1fdb
+0b4e20: 6e20 7c00 0100                         |0002: invoke-virtual {v1, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@007c
+0b4e26: 0c01                                   |0005: move-result-object v1
+0b4e28: 1f01 5f00                              |0006: check-cast v1, Landroid/net/ConnectivityManager; // type@005f
+0b4e2c: 3801 1600                              |0008: if-eqz v1, 001e // +0016
+0b4e30: 6e10 1201 0100                         |000a: invoke-virtual {v1}, Landroid/net/ConnectivityManager;.getActiveNetworkInfo:()Landroid/net/NetworkInfo; // method@0112
+0b4e36: 0c01                                   |000d: move-result-object v1
+0b4e38: 3801 1000                              |000e: if-eqz v1, 001e // +0010
+0b4e3c: 6e10 1a01 0100                         |0010: invoke-virtual {v1}, Landroid/net/NetworkInfo;.isConnected:()Z // method@011a
+0b4e42: 0a00                                   |0013: move-result v0
+0b4e44: 3800 0a00                              |0014: if-eqz v0, 001e // +000a
+0b4e48: 6e10 1901 0100                         |0016: invoke-virtual {v1}, Landroid/net/NetworkInfo;.isAvailable:()Z // method@0119
+0b4e4e: 0a01                                   |0019: move-result v1
+0b4e50: 3801 0400                              |001a: if-eqz v1, 001e // +0004
+0b4e54: 1211                                   |001c: const/4 v1, #int 1 // #1
+0b4e56: 0f01                                   |001d: return v1
+0b4e58: 1201                                   |001e: const/4 v1, #int 0 // #0
+0b4e5a: 0f01                                   |001f: return v1
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 4158 (NetworkInfoUtils.java)
+

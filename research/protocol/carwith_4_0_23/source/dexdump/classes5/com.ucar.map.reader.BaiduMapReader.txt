@@ -1,0 +1,433 @@
+Class #117            -
+  Class descriptor  : 'Lcom/ucar/map/reader/BaiduMapReader;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'd'
+      type          : 'Landroid/net/Uri;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'e'
+      type          : 'Landroid/net/Uri;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'a'
+      type          : 'Landroid/content/Context;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'b'
+      type          : 'Ljava/lang/Object;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #2              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'c'
+      type          : 'Landroid/content/BroadcastReceiver;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 17 16-bit code units
+1b9a48:                                        |[1b9a48] com.ucar.map.reader.BaiduMapReader.<clinit>:()V
+1b9a58: 1a00 ab89                              |0000: const-string v0, "content://com.baidu.baidumaps.oemdata.OemContentProvider/navi_status" // string@89ab
+1b9a5c: 7110 5b03 0000                         |0002: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@035b
+1b9a62: 0c00                                   |0005: move-result-object v0
+1b9a64: 6900 fd35                              |0006: sput-object v0, Lcom/ucar/map/reader/BaiduMapReader;.d:Landroid/net/Uri; // field@35fd
+1b9a68: 1a00 aa89                              |0008: const-string v0, "content://com.baidu.baidumaps.oemdata.OemContentProvider/common_addr" // string@89aa
+1b9a6c: 7110 5b03 0000                         |000a: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@035b
+1b9a72: 0c00                                   |000d: move-result-object v0
+1b9a74: 6900 fe35                              |000e: sput-object v0, Lcom/ucar/map/reader/BaiduMapReader;.e:Landroid/net/Uri; // field@35fe
+1b9a78: 0e00                                   |0010: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 13 16-bit code units
+1b9a7c:                                        |[1b9a7c] com.ucar.map.reader.BaiduMapReader.<init>:(Landroid/content/Context;)V
+1b9a8c: 7010 e2cb 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@cbe2
+1b9a92: 2200 de1f                              |0003: new-instance v0, Ljava/lang/Object; // type@1fde
+1b9a96: 7010 e2cb 0000                         |0005: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+1b9a9c: 5b10 fb35                              |0008: iput-object v0, v1, Lcom/ucar/map/reader/BaiduMapReader;.b:Ljava/lang/Object; // field@35fb
+1b9aa0: 5b12 fa35                              |000a: iput-object v2, v1, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b9aa4: 0e00                                   |000c: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'a'
+      type          : '(Lcom/ucar/map/reader/BaiduMapReader;)Landroid/content/Context;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b9658:                                        |[1b9658] com.ucar.map.reader.BaiduMapReader.a:(Lcom/ucar/map/reader/BaiduMapReader;)Landroid/content/Context;
+1b9668: 5400 fa35                              |0000: iget-object v0, v0, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b966c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'b'
+      type          : '()[Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 1
+      insns size    : 18 16-bit code units
+1b9a14:                                        |[1b9a14] com.ucar.map.reader.BaiduMapReader.b:()[Z
+1b9a24: 6e10 620a 0300                         |0000: invoke-virtual {v3}, Lcom/ucar/map/reader/BaiduMapReader;.d:()Z // method@0a62
+1b9a2a: 0a00                                   |0003: move-result v0
+1b9a2c: 6e10 610a 0300                         |0004: invoke-virtual {v3}, Lcom/ucar/map/reader/BaiduMapReader;.c:()Z // method@0a61
+1b9a32: 0a03                                   |0007: move-result v3
+1b9a34: 1221                                   |0008: const/4 v1, #int 2 // #2
+1b9a36: 2311 7d28                              |0009: new-array v1, v1, [Z // type@287d
+1b9a3a: 1202                                   |000b: const/4 v2, #int 0 // #0
+1b9a3c: 4e00 0102                              |000c: aput-boolean v0, v1, v2
+1b9a40: 1210                                   |000e: const/4 v0, #int 1 // #1
+1b9a42: 4e03 0100                              |000f: aput-boolean v3, v1, v0
+1b9a46: 1101                                   |0011: return-object v1
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'c'
+      type          : '()Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 1
+      outs          : 6
+      insns size    : 115 16-bit code units
+1b9670:                                        |[1b9670] com.ucar.map.reader.BaiduMapReader.c:()Z
+1b9680: 1a00 b188                              |0000: const-string v0, "company_set_status" // string@88b1
+1b9684: 1a01 b80c                              |0002: const-string v1, "BaiduMapReader" // string@0cb8
+1b9688: 1202                                   |0004: const/4 v2, #int 0 // #0
+1b968a: 1203                                   |0005: const/4 v3, #int 0 // #0
+1b968c: 54aa fa35                              |0006: iget-object v10, v10, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b9690: 6e10 b301 0a00                         |0008: invoke-virtual {v10}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@01b3
+1b9696: 0c04                                   |000b: move-result-object v4
+1b9698: 6205 fe35                              |000c: sget-object v5, Lcom/ucar/map/reader/BaiduMapReader;.e:Landroid/net/Uri; // field@35fe
+1b969c: 2410 6c28 0000                         |000e: filled-new-array {v0}, [Ljava/lang/String; // type@286c
+1b96a2: 0c06                                   |0011: move-result-object v6
+1b96a4: 1208                                   |0012: const/4 v8, #int 0 // #0
+1b96a6: 1209                                   |0013: const/4 v9, #int 0 // #0
+1b96a8: 1207                                   |0014: const/4 v7, #int 0 // #0
+1b96aa: 7406 9c01 0400                         |0015: invoke-virtual/range {v4, v5, v6, v7, v8, v9}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@019c
+1b96b0: 0c03                                   |0018: move-result-object v3
+1b96b2: 3803 2c00                              |0019: if-eqz v3, 0045 // +002c
+1b96b6: 7210 5d02 0300                         |001b: invoke-interface {v3}, Landroid/database/Cursor;.moveToNext:()Z // method@025d
+1b96bc: 0a0a                                   |001e: move-result v10
+1b96be: 380a 2b00                              |001f: if-eqz v10, 004a // +002b
+1b96c2: 1a0a a6c1                              |0021: const-string v10, "name" // string@c1a6
+1b96c6: 7220 5102 a300                         |0023: invoke-interface {v3, v10}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b96cc: 0a0a                                   |0026: move-result v10
+1b96ce: 7220 5702 a300                         |0027: invoke-interface {v3, v10}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b96d4: 0c0a                                   |002a: move-result-object v10
+1b96d6: 7120 7004 0a00                         |002b: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0470
+1b96dc: 0a0a                                   |002e: move-result v10
+1b96de: 380a ecff                              |002f: if-eqz v10, 001b // -0014
+1b96e2: 1a0a b7eb                              |0031: const-string v10, "value" // string@ebb7
+1b96e6: 7220 5102 a300                         |0033: invoke-interface {v3, v10}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b96ec: 0a0a                                   |0036: move-result v10
+1b96ee: 7220 5702 a300                         |0037: invoke-interface {v3, v10}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b96f4: 0c0a                                   |003a: move-result-object v10
+1b96f6: 7110 60cb 0a00                         |003b: invoke-static {v10}, Ljava/lang/Boolean;.parseBoolean:(Ljava/lang/String;)Z // method@cb60
+1b96fc: 0a0a                                   |003e: move-result v10
+1b96fe: 01a2                                   |003f: move v2, v10
+1b9700: 28db                                   |0040: goto 001b // -0025
+1b9702: 0d0a                                   |0041: move-exception v10
+1b9704: 282b                                   |0042: goto 006d // +002b
+1b9706: 0d0a                                   |0043: move-exception v10
+1b9708: 280c                                   |0044: goto 0050 // +000c
+1b970a: 1a0a c8a3                              |0045: const-string v10, "hasCompanyAddress cursor == null" // string@a3c8
+1b970e: 7120 0bcf a100                         |0047: invoke-static {v1, v10}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b9714: 3803 0e00                              |004a: if-eqz v3, 0058 // +000e
+1b9718: 7210 4f02 0300                         |004c: invoke-interface {v3}, Landroid/database/Cursor;.close:()V // method@024f
+1b971e: 2809                                   |004f: goto 0058 // +0009
+1b9720: 1a00 c7a3                              |0050: const-string v0, "hasCompanyAddress" // string@a3c7
+1b9724: 7130 0dcf 010a                         |0052: invoke-static {v1, v0, v10}, Lkc/a;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@cf0d
+1b972a: 3803 0300                              |0055: if-eqz v3, 0058 // +0003
+1b972e: 28f5                                   |0057: goto 004c // -000b
+1b9730: 220a ea1f                              |0058: new-instance v10, Ljava/lang/StringBuilder; // type@1fea
+1b9734: 7010 3dcc 0a00                         |005a: invoke-direct {v10}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b973a: 1a00 c9a3                              |005d: const-string v0, "hasCompanyAddress() ==> " // string@a3c9
+1b973e: 6e20 47cc 0a00                         |005f: invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9744: 6e20 48cc 2a00                         |0062: invoke-virtual {v10, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b974a: 6e10 50cc 0a00                         |0065: invoke-virtual {v10}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9750: 0c0a                                   |0068: move-result-object v10
+1b9752: 7120 0bcf a100                         |0069: invoke-static {v1, v10}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b9758: 0f02                                   |006c: return v2
+1b975a: 3803 0500                              |006d: if-eqz v3, 0072 // +0005
+1b975e: 7210 4f02 0300                         |006f: invoke-interface {v3}, Landroid/database/Cursor;.close:()V // method@024f
+1b9764: 270a                                   |0072: throw v10
+      catches       : 4
+        0x0006 - 0x004a
+          Ljava/lang/Exception; -> 0x0043
+          <any> -> 0x0041
+        0x004c - 0x004f
+          Ljava/lang/Exception; -> 0x0058
+        0x0050 - 0x0055
+          <any> -> 0x0041
+        0x006f - 0x0072
+          Ljava/lang/Exception; -> 0x0072
+
+    #2              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'd'
+      type          : '()Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 1
+      outs          : 6
+      insns size    : 115 16-bit code units
+1b9798:                                        |[1b9798] com.ucar.map.reader.BaiduMapReader.d:()Z
+1b97a8: 1a00 a8a4                              |0000: const-string v0, "home_set_status" // string@a4a8
+1b97ac: 1a01 b80c                              |0002: const-string v1, "BaiduMapReader" // string@0cb8
+1b97b0: 1202                                   |0004: const/4 v2, #int 0 // #0
+1b97b2: 1203                                   |0005: const/4 v3, #int 0 // #0
+1b97b4: 54aa fa35                              |0006: iget-object v10, v10, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b97b8: 6e10 b301 0a00                         |0008: invoke-virtual {v10}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@01b3
+1b97be: 0c04                                   |000b: move-result-object v4
+1b97c0: 6205 fe35                              |000c: sget-object v5, Lcom/ucar/map/reader/BaiduMapReader;.e:Landroid/net/Uri; // field@35fe
+1b97c4: 2410 6c28 0000                         |000e: filled-new-array {v0}, [Ljava/lang/String; // type@286c
+1b97ca: 0c06                                   |0011: move-result-object v6
+1b97cc: 1208                                   |0012: const/4 v8, #int 0 // #0
+1b97ce: 1209                                   |0013: const/4 v9, #int 0 // #0
+1b97d0: 1207                                   |0014: const/4 v7, #int 0 // #0
+1b97d2: 7406 9c01 0400                         |0015: invoke-virtual/range {v4, v5, v6, v7, v8, v9}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@019c
+1b97d8: 0c03                                   |0018: move-result-object v3
+1b97da: 3803 2c00                              |0019: if-eqz v3, 0045 // +002c
+1b97de: 7210 5d02 0300                         |001b: invoke-interface {v3}, Landroid/database/Cursor;.moveToNext:()Z // method@025d
+1b97e4: 0a0a                                   |001e: move-result v10
+1b97e6: 380a 2b00                              |001f: if-eqz v10, 004a // +002b
+1b97ea: 1a0a a6c1                              |0021: const-string v10, "name" // string@c1a6
+1b97ee: 7220 5102 a300                         |0023: invoke-interface {v3, v10}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b97f4: 0a0a                                   |0026: move-result v10
+1b97f6: 7220 5702 a300                         |0027: invoke-interface {v3, v10}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b97fc: 0c0a                                   |002a: move-result-object v10
+1b97fe: 7120 7004 0a00                         |002b: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0470
+1b9804: 0a0a                                   |002e: move-result v10
+1b9806: 380a ecff                              |002f: if-eqz v10, 001b // -0014
+1b980a: 1a0a b7eb                              |0031: const-string v10, "value" // string@ebb7
+1b980e: 7220 5102 a300                         |0033: invoke-interface {v3, v10}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b9814: 0a0a                                   |0036: move-result v10
+1b9816: 7220 5702 a300                         |0037: invoke-interface {v3, v10}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b981c: 0c0a                                   |003a: move-result-object v10
+1b981e: 7110 60cb 0a00                         |003b: invoke-static {v10}, Ljava/lang/Boolean;.parseBoolean:(Ljava/lang/String;)Z // method@cb60
+1b9824: 0a0a                                   |003e: move-result v10
+1b9826: 01a2                                   |003f: move v2, v10
+1b9828: 28db                                   |0040: goto 001b // -0025
+1b982a: 0d0a                                   |0041: move-exception v10
+1b982c: 282b                                   |0042: goto 006d // +002b
+1b982e: 0d0a                                   |0043: move-exception v10
+1b9830: 280c                                   |0044: goto 0050 // +000c
+1b9832: 1a0a d1a3                              |0045: const-string v10, "hasHomeAddress cursor == null" // string@a3d1
+1b9836: 7120 0bcf a100                         |0047: invoke-static {v1, v10}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b983c: 3803 0e00                              |004a: if-eqz v3, 0058 // +000e
+1b9840: 7210 4f02 0300                         |004c: invoke-interface {v3}, Landroid/database/Cursor;.close:()V // method@024f
+1b9846: 2809                                   |004f: goto 0058 // +0009
+1b9848: 1a00 cfa3                              |0050: const-string v0, "hasHomeAddress" // string@a3cf
+1b984c: 7130 0dcf 010a                         |0052: invoke-static {v1, v0, v10}, Lkc/a;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@cf0d
+1b9852: 3803 0300                              |0055: if-eqz v3, 0058 // +0003
+1b9856: 28f5                                   |0057: goto 004c // -000b
+1b9858: 220a ea1f                              |0058: new-instance v10, Ljava/lang/StringBuilder; // type@1fea
+1b985c: 7010 3dcc 0a00                         |005a: invoke-direct {v10}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b9862: 1a00 d2a3                              |005d: const-string v0, "hasHomeAddress() ==> " // string@a3d2
+1b9866: 6e20 47cc 0a00                         |005f: invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b986c: 6e20 48cc 2a00                         |0062: invoke-virtual {v10, v2}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b9872: 6e10 50cc 0a00                         |0065: invoke-virtual {v10}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9878: 0c0a                                   |0068: move-result-object v10
+1b987a: 7120 0bcf a100                         |0069: invoke-static {v1, v10}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b9880: 0f02                                   |006c: return v2
+1b9882: 3803 0500                              |006d: if-eqz v3, 0072 // +0005
+1b9886: 7210 4f02 0300                         |006f: invoke-interface {v3}, Landroid/database/Cursor;.close:()V // method@024f
+1b988c: 270a                                   |0072: throw v10
+      catches       : 4
+        0x0006 - 0x004a
+          Ljava/lang/Exception; -> 0x0043
+          <any> -> 0x0041
+        0x004c - 0x004f
+          Ljava/lang/Exception; -> 0x0058
+        0x0050 - 0x0055
+          <any> -> 0x0041
+        0x006f - 0x0072
+          Ljava/lang/Exception; -> 0x0072
+
+    #3              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'e'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 6
+      insns size    : 136 16-bit code units
+1b98c0:                                        |[1b98c0] com.ucar.map.reader.BaiduMapReader.e:()Z
+1b98d0: 1a00 b80c                              |0000: const-string v0, "BaiduMapReader" // string@0cb8
+1b98d4: 1201                                   |0002: const/4 v1, #int 0 // #0
+1b98d6: 1202                                   |0003: const/4 v2, #int 0 // #0
+1b98d8: 5499 fa35                              |0004: iget-object v9, v9, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b98dc: 6e10 b301 0900                         |0006: invoke-virtual {v9}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@01b3
+1b98e2: 0c03                                   |0009: move-result-object v3
+1b98e4: 6204 fd35                              |000a: sget-object v4, Lcom/ucar/map/reader/BaiduMapReader;.d:Landroid/net/Uri; // field@35fd
+1b98e8: 1207                                   |000c: const/4 v7, #int 0 // #0
+1b98ea: 1208                                   |000d: const/4 v8, #int 0 // #0
+1b98ec: 1205                                   |000e: const/4 v5, #int 0 // #0
+1b98ee: 1206                                   |000f: const/4 v6, #int 0 // #0
+1b98f0: 7406 9c01 0300                         |0010: invoke-virtual/range {v3, v4, v5, v6, v7, v8}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@019c
+1b98f6: 0c02                                   |0013: move-result-object v2
+1b98f8: 3802 4600                              |0014: if-eqz v2, 005a // +0046
+1b98fc: 7210 5d02 0200                         |0016: invoke-interface {v2}, Landroid/database/Cursor;.moveToNext:()Z // method@025d
+1b9902: 0a09                                   |0019: move-result v9
+1b9904: 3809 4500                              |001a: if-eqz v9, 005f // +0045
+1b9908: 1a09 a6c1                              |001c: const-string v9, "name" // string@c1a6
+1b990c: 7220 5102 9200                         |001e: invoke-interface {v2, v9}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b9912: 0a09                                   |0021: move-result v9
+1b9914: 7220 5702 9200                         |0022: invoke-interface {v2, v9}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b991a: 0c09                                   |0025: move-result-object v9
+1b991c: 1a03 d5c1                              |0026: const-string v3, "navi_status" // string@c1d5
+1b9920: 7120 7004 3900                         |0028: invoke-static {v9, v3}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0470
+1b9926: 0a09                                   |002b: move-result v9
+1b9928: 3809 eaff                              |002c: if-eqz v9, 0016 // -0016
+1b992c: 1a09 b7eb                              |002e: const-string v9, "value" // string@ebb7
+1b9930: 7220 5102 9200                         |0030: invoke-interface {v2, v9}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0251
+1b9936: 0a09                                   |0033: move-result v9
+1b9938: 7220 5702 9200                         |0034: invoke-interface {v2, v9}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0257
+1b993e: 0c09                                   |0037: move-result-object v9
+1b9940: 1213                                   |0038: const/4 v3, #int 1 // #1
+1b9942: 7110 2dcc 0300                         |0039: invoke-static {v3}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@cc2d
+1b9948: 0c03                                   |003c: move-result-object v3
+1b994a: 7120 7004 3900                         |003d: invoke-static {v9, v3}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0470
+1b9950: 0a01                                   |0040: move-result v1
+1b9952: 2203 ea1f                              |0041: new-instance v3, Ljava/lang/StringBuilder; // type@1fea
+1b9956: 7010 3dcc 0300                         |0043: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b995c: 1a04 b8eb                              |0046: const-string v4, "value = " // string@ebb8
+1b9960: 6e20 47cc 4300                         |0048: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b9966: 6e20 47cc 9300                         |004b: invoke-virtual {v3, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b996c: 6e10 50cc 0300                         |004e: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b9972: 0c09                                   |0051: move-result-object v9
+1b9974: 7120 0ccf 9000                         |0052: invoke-static {v0, v9}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+1b997a: 28c1                                   |0055: goto 0016 // -003f
+1b997c: 0d09                                   |0056: move-exception v9
+1b997e: 282b                                   |0057: goto 0082 // +002b
+1b9980: 0d09                                   |0058: move-exception v9
+1b9982: 280c                                   |0059: goto 0065 // +000c
+1b9984: 1a09 d48a                              |005a: const-string v9, "cursor == null" // string@8ad4
+1b9988: 7120 0bcf 9000                         |005c: invoke-static {v0, v9}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b998e: 3802 0e00                              |005f: if-eqz v2, 006d // +000e
+1b9992: 7210 4f02 0200                         |0061: invoke-interface {v2}, Landroid/database/Cursor;.close:()V // method@024f
+1b9998: 2809                                   |0064: goto 006d // +0009
+1b999a: 1a03 56a9                              |0065: const-string v3, "isNavOn" // string@a956
+1b999e: 7130 0dcf 3009                         |0067: invoke-static {v0, v3, v9}, Lkc/a;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@cf0d
+1b99a4: 3802 0300                              |006a: if-eqz v2, 006d // +0003
+1b99a8: 28f5                                   |006c: goto 0061 // -000b
+1b99aa: 2209 ea1f                              |006d: new-instance v9, Ljava/lang/StringBuilder; // type@1fea
+1b99ae: 7010 3dcc 0900                         |006f: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b99b4: 1a02 58a9                              |0072: const-string v2, "isNavOn() ==> " // string@a958
+1b99b8: 6e20 47cc 2900                         |0074: invoke-virtual {v9, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b99be: 6e20 48cc 1900                         |0077: invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+1b99c4: 6e10 50cc 0900                         |007a: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b99ca: 0c09                                   |007d: move-result-object v9
+1b99cc: 7120 0bcf 9000                         |007e: invoke-static {v0, v9}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b99d2: 0f01                                   |0081: return v1
+1b99d4: 3802 0500                              |0082: if-eqz v2, 0087 // +0005
+1b99d8: 7210 4f02 0200                         |0084: invoke-interface {v2}, Landroid/database/Cursor;.close:()V // method@024f
+1b99de: 2709                                   |0087: throw v9
+      catches       : 4
+        0x0004 - 0x005f
+          Ljava/lang/Exception; -> 0x0058
+          <any> -> 0x0056
+        0x0061 - 0x0064
+          Ljava/lang/Exception; -> 0x006d
+        0x0065 - 0x006a
+          <any> -> 0x0056
+        0x0084 - 0x0087
+          Ljava/lang/Exception; -> 0x0087
+
+    #4              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'f'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 44 16-bit code units
+1b9aa8:                                        |[1b9aa8] com.ucar.map.reader.BaiduMapReader.f:()V
+1b9ab8: 5440 fb35                              |0000: iget-object v0, v4, Lcom/ucar/map/reader/BaiduMapReader;.b:Ljava/lang/Object; // field@35fb
+1b9abc: 1d00                                   |0002: monitor-enter v0
+1b9abe: 5441 fc35                              |0003: iget-object v1, v4, Lcom/ucar/map/reader/BaiduMapReader;.c:Landroid/content/BroadcastReceiver; // field@35fc
+1b9ac2: 3901 2300                              |0005: if-nez v1, 0028 // +0023
+1b9ac6: 1a01 b80c                              |0007: const-string v1, "BaiduMapReader" // string@0cb8
+1b9aca: 1a02 4dce                              |0009: const-string v2, "register" // string@ce4d
+1b9ace: 7120 0bcf 2100                         |000b: invoke-static {v1, v2}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b9ad4: 2201 6a00                              |000e: new-instance v1, Landroid/content/IntentFilter; // type@006a
+1b9ad8: 7010 fb01 0100                         |0010: invoke-direct {v1}, Landroid/content/IntentFilter;.<init>:()V // method@01fb
+1b9ade: 1a02 c587                              |0013: const-string v2, "com.baidu.BaiduMap.NAVI_STATUS_CHANCE" // string@87c5
+1b9ae2: 6e20 fd01 2100                         |0015: invoke-virtual {v1, v2}, Landroid/content/IntentFilter;.addAction:(Ljava/lang/String;)V // method@01fd
+1b9ae8: 2202 b802                              |0018: new-instance v2, Lcom/ucar/map/reader/BaiduMapReader$NavReceiver; // type@02b8
+1b9aec: 7020 5b0a 4200                         |001a: invoke-direct {v2, v4}, Lcom/ucar/map/reader/BaiduMapReader$NavReceiver;.<init>:(Lcom/ucar/map/reader/BaiduMapReader;)V // method@0a5b
+1b9af2: 5b42 fc35                              |001d: iput-object v2, v4, Lcom/ucar/map/reader/BaiduMapReader;.c:Landroid/content/BroadcastReceiver; // field@35fc
+1b9af6: 5444 fa35                              |001f: iget-object v4, v4, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b9afa: 1223                                   |0021: const/4 v3, #int 2 // #2
+1b9afc: 6e40 cb01 2431                         |0022: invoke-virtual {v4, v2, v1, v3}, Landroid/content/Context;.registerReceiver:(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent; // method@01cb
+1b9b02: 2803                                   |0025: goto 0028 // +0003
+1b9b04: 0d04                                   |0026: move-exception v4
+1b9b06: 2803                                   |0027: goto 002a // +0003
+1b9b08: 1e00                                   |0028: monitor-exit v0
+1b9b0a: 0e00                                   |0029: return-void
+1b9b0c: 1e00                                   |002a: monitor-exit v0
+1b9b0e: 2704                                   |002b: throw v4
+      catches       : 1
+        0x0003 - 0x002b
+          <any> -> 0x0026
+
+    #5              : (in Lcom/ucar/map/reader/BaiduMapReader;)
+      name          : 'g'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 31 16-bit code units
+1b9b1c:                                        |[1b9b1c] com.ucar.map.reader.BaiduMapReader.g:()V
+1b9b2c: 5430 fb35                              |0000: iget-object v0, v3, Lcom/ucar/map/reader/BaiduMapReader;.b:Ljava/lang/Object; // field@35fb
+1b9b30: 1d00                                   |0002: monitor-enter v0
+1b9b32: 5431 fc35                              |0003: iget-object v1, v3, Lcom/ucar/map/reader/BaiduMapReader;.c:Landroid/content/BroadcastReceiver; // field@35fc
+1b9b36: 3801 1600                              |0005: if-eqz v1, 001b // +0016
+1b9b3a: 1a01 b80c                              |0007: const-string v1, "BaiduMapReader" // string@0cb8
+1b9b3e: 1a02 57ea                              |0009: const-string v2, "unregister" // string@ea57
+1b9b42: 7120 0bcf 2100                         |000b: invoke-static {v1, v2}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+1b9b48: 5431 fa35                              |000e: iget-object v1, v3, Lcom/ucar/map/reader/BaiduMapReader;.a:Landroid/content/Context; // field@35fa
+1b9b4c: 5432 fc35                              |0010: iget-object v2, v3, Lcom/ucar/map/reader/BaiduMapReader;.c:Landroid/content/BroadcastReceiver; // field@35fc
+1b9b50: 6e20 d201 2100                         |0012: invoke-virtual {v1, v2}, Landroid/content/Context;.unregisterReceiver:(Landroid/content/BroadcastReceiver;)V // method@01d2
+1b9b56: 1201                                   |0015: const/4 v1, #int 0 // #0
+1b9b58: 5b31 fc35                              |0016: iput-object v1, v3, Lcom/ucar/map/reader/BaiduMapReader;.c:Landroid/content/BroadcastReceiver; // field@35fc
+1b9b5c: 2803                                   |0018: goto 001b // +0003
+1b9b5e: 0d03                                   |0019: move-exception v3
+1b9b60: 2803                                   |001a: goto 001d // +0003
+1b9b62: 1e00                                   |001b: monitor-exit v0
+1b9b64: 0e00                                   |001c: return-void
+1b9b66: 1e00                                   |001d: monitor-exit v0
+1b9b68: 2703                                   |001e: throw v3
+      catches       : 1
+        0x0003 - 0x001e
+          <any> -> 0x0019
+
+  source_file_idx   : 3257 (BaiduMapReader.java)
+

@@ -1,0 +1,497 @@
+Class #4028            -
+  Class descriptor  : 'Lmc/c;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lmc/c;)
+      name          : 'b'
+      type          : 'Lmc/c;'
+      access        : 0x0049 (PUBLIC STATIC VOLATILE)
+  Instance fields   -
+    #0              : (in Lmc/c;)
+      name          : 'a'
+      type          : 'Ljava/util/Map;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lmc/c;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 11 16-bit code units
+436e0c:                                        |[436e0c] mc.c.<init>:()V
+436e1c: 7010 e2cb 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@cbe2
+436e22: 2200 5920                              |0003: new-instance v0, Ljava/util/HashMap; // type@2059
+436e26: 7010 67cd 0000                         |0005: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+436e2c: 5b10 9ada                              |0008: iput-object v0, v1, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436e30: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #1              : (in Lmc/c;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+436df4:                                        |[436df4] mc.c.a:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V
+436e04: 7130 6dd0 1002                         |0000: invoke-static {v0, v1, v2}, Lmc/c;.j:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V // method@d06d
+436e0a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lmc/c;)
+      name          : 'h'
+      type          : '()Lmc/c;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 1
+      insns size    : 28 16-bit code units
+436da0:                                        |[436da0] mc.c.h:()Lmc/c;
+436db0: 6200 9bda                              |0000: sget-object v0, Lmc/c;.b:Lmc/c; // field@da9b
+436db4: 3900 1700                              |0002: if-nez v0, 0019 // +0017
+436db8: 1c00 2e21                              |0004: const-class v0, Lmc/c; // type@212e
+436dbc: 1d00                                   |0006: monitor-enter v0
+436dbe: 6201 9bda                              |0007: sget-object v1, Lmc/c;.b:Lmc/c; // field@da9b
+436dc2: 3901 0c00                              |0009: if-nez v1, 0015 // +000c
+436dc6: 2201 2e21                              |000b: new-instance v1, Lmc/c; // type@212e
+436dca: 7010 63d0 0100                         |000d: invoke-direct {v1}, Lmc/c;.<init>:()V // method@d063
+436dd0: 6901 9bda                              |0010: sput-object v1, Lmc/c;.b:Lmc/c; // field@da9b
+436dd4: 2803                                   |0012: goto 0015 // +0003
+436dd6: 0d01                                   |0013: move-exception v1
+436dd8: 2803                                   |0014: goto 0017 // +0003
+436dda: 1e00                                   |0015: monitor-exit v0
+436ddc: 2803                                   |0016: goto 0019 // +0003
+436dde: 1e00                                   |0017: monitor-exit v0
+436de0: 2701                                   |0018: throw v1
+436de2: 6200 9bda                              |0019: sget-object v0, Lmc/c;.b:Lmc/c; // field@da9b
+436de6: 1100                                   |001b: return-object v0
+      catches       : 1
+        0x0007 - 0x0018
+          <any> -> 0x0013
+
+    #3              : (in Lmc/c;)
+      name          : 'j'
+      type          : '(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 4
+      insns size    : 55 16-bit code units
+437038:                                        |[437038] mc.c.j:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V
+437048: 7110 500a 0200                         |0000: invoke-static {v2}, Lcom/ucar/map/e;.f:(Landroid/content/Context;)Lcom/ucar/map/e; // method@0a50
+43704e: 0c02                                   |0003: move-result-object v2
+437050: 6e10 510a 0200                         |0004: invoke-virtual {v2}, Lcom/ucar/map/e;.g:()Lcom/ucar/map/a; // method@0a51
+437056: 0c02                                   |0007: move-result-object v2
+437058: 3802 2e00                              |0008: if-eqz v2, 0036 // +002e
+43705c: 7210 dc09 0300                         |000a: invoke-interface {v3}, Lcom/ucar/map/IUCarMapCallback;.getCommuterAddress:()Landroid/os/Bundle; // method@09dc
+437062: 0c03                                   |000d: move-result-object v3
+437064: 3803 2800                              |000e: if-eqz v3, 0036 // +0028
+437068: 1a00 f4e9                              |0010: const-string v0, "ucar.map.bundle.HAS_HAS_SET_HOME" // string@e9f4
+43706c: 6e20 6c03 0300                         |0012: invoke-virtual {v3, v0}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@036c
+437072: 0a00                                   |0015: move-result v0
+437074: 1a01 f3e9                              |0016: const-string v1, "ucar.map.bundle.HAS_HAS_SET_COMPANY" // string@e9f3
+437078: 6e20 6c03 1300                         |0018: invoke-virtual {v3, v1}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@036c
+43707e: 0a03                                   |001b: move-result v3
+437080: 7240 390a 4230                         |001c: invoke-interface {v2, v4, v0, v3}, Lcom/ucar/map/a;.b:(Ljava/lang/String;ZZ)V // method@0a39
+437086: 2817                                   |001f: goto 0036 // +0017
+437088: 2202 ea1f                              |0020: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+43708c: 7010 3dcc 0200                         |0022: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+437092: 1a03 9390                              |0025: const-string v3, "fail to query " // string@9093
+437096: 6e20 47cc 3200                         |0027: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43709c: 6e20 47cc 4200                         |002a: invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4370a2: 6e10 50cc 0200                         |002d: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4370a8: 0c02                                   |0030: move-result-object v2
+4370aa: 1a03 4a6e                              |0031: const-string v3, "UCarMapClientManager" // string@6e4a
+4370ae: 7120 0ccf 2300                         |0033: invoke-static {v3, v2}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+4370b4: 0e00                                   |0036: return-void
+      catches       : 1
+        0x000a - 0x001f
+          Ljava/lang/Exception; -> 0x0020
+
+  Virtual methods   -
+    #0              : (in Lmc/c;)
+      name          : 'b'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 1
+      insns size    : 40 16-bit code units
+436e34:                                        |[436e34] mc.c.b:()V
+436e44: 5430 9ada                              |0000: iget-object v0, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436e48: 1d00                                   |0002: monitor-enter v0
+436e4a: 5431 9ada                              |0003: iget-object v1, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436e4e: 7210 b0cd 0100                         |0005: invoke-interface {v1}, Ljava/util/Map;.values:()Ljava/util/Collection; // method@cdb0
+436e54: 0c01                                   |0008: move-result-object v1
+436e56: 7210 50cd 0100                         |0009: invoke-interface {v1}, Ljava/util/Collection;.iterator:()Ljava/util/Iterator; // method@cd50
+436e5c: 0c01                                   |000c: move-result-object v1
+436e5e: 7210 7ccd 0100                         |000d: invoke-interface {v1}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+436e64: 0a02                                   |0010: move-result v2
+436e66: 3802 0e00                              |0011: if-eqz v2, 001f // +000e
+436e6a: 7210 7dcd 0100                         |0013: invoke-interface {v1}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+436e70: 0c02                                   |0016: move-result-object v2
+436e72: 1f02 2c21                              |0017: check-cast v2, Lmc/a; // type@212c
+436e76: 6e10 5fd0 0200                         |0019: invoke-virtual {v2}, Lmc/a;.a:()V // method@d05f
+436e7c: 28f1                                   |001c: goto 000d // -000f
+436e7e: 0d03                                   |001d: move-exception v3
+436e80: 2808                                   |001e: goto 0026 // +0008
+436e82: 5433 9ada                              |001f: iget-object v3, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436e86: 7210 a4cd 0300                         |0021: invoke-interface {v3}, Ljava/util/Map;.clear:()V // method@cda4
+436e8c: 1e00                                   |0024: monitor-exit v0
+436e8e: 0e00                                   |0025: return-void
+436e90: 1e00                                   |0026: monitor-exit v0
+436e92: 2703                                   |0027: throw v3
+      catches       : 1
+        0x0003 - 0x0027
+          <any> -> 0x001d
+
+    #1              : (in Lmc/c;)
+      name          : 'c'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 2
+      insns size    : 74 16-bit code units
+436ea0:                                        |[436ea0] mc.c.c:()V
+436eb0: 2200 4c20                              |0000: new-instance v0, Ljava/util/ArrayList; // type@204c
+436eb4: 7010 1ccd 0000                         |0002: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@cd1c
+436eba: 5451 9ada                              |0005: iget-object v1, v5, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436ebe: 1d01                                   |0007: monitor-enter v1
+436ec0: 5452 9ada                              |0008: iget-object v2, v5, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436ec4: 7210 b0cd 0200                         |000a: invoke-interface {v2}, Ljava/util/Map;.values:()Ljava/util/Collection; // method@cdb0
+436eca: 0c02                                   |000d: move-result-object v2
+436ecc: 7210 50cd 0200                         |000e: invoke-interface {v2}, Ljava/util/Collection;.iterator:()Ljava/util/Iterator; // method@cd50
+436ed2: 0c02                                   |0011: move-result-object v2
+436ed4: 7210 7ccd 0200                         |0012: invoke-interface {v2}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+436eda: 0a03                                   |0015: move-result v3
+436edc: 3803 1600                              |0016: if-eqz v3, 002c // +0016
+436ee0: 7210 7dcd 0200                         |0018: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+436ee6: 0c03                                   |001b: move-result-object v3
+436ee8: 1f03 2c21                              |001c: check-cast v3, Lmc/a; // type@212c
+436eec: 5434 93da                              |001e: iget-object v4, v3, Lmc/a;.a:Lcom/ucar/map/IUCarMapCallback; // field@da93
+436ef0: 3804 0800                              |0020: if-eqz v4, 0028 // +0008
+436ef4: 7220 8bcd 4000                         |0022: invoke-interface {v0, v4}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@cd8b
+436efa: 2803                                   |0025: goto 0028 // +0003
+436efc: 0d05                                   |0026: move-exception v5
+436efe: 2821                                   |0027: goto 0048 // +0021
+436f00: 6e10 5fd0 0300                         |0028: invoke-virtual {v3}, Lmc/a;.a:()V // method@d05f
+436f06: 28e7                                   |002b: goto 0012 // -0019
+436f08: 5455 9ada                              |002c: iget-object v5, v5, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436f0c: 7210 a4cd 0500                         |002e: invoke-interface {v5}, Ljava/util/Map;.clear:()V // method@cda4
+436f12: 1e01                                   |0031: monitor-exit v1
+436f14: 7210 93cd 0000                         |0032: invoke-interface {v0}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@cd93
+436f1a: 0c05                                   |0035: move-result-object v5
+436f1c: 7210 7ccd 0500                         |0036: invoke-interface {v5}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+436f22: 0a00                                   |0039: move-result v0
+436f24: 3800 0d00                              |003a: if-eqz v0, 0047 // +000d
+436f28: 7210 7dcd 0500                         |003c: invoke-interface {v5}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+436f2e: 0c00                                   |003f: move-result-object v0
+436f30: 1f00 9502                              |0040: check-cast v0, Lcom/ucar/map/IUCarMapCallback; // type@0295
+436f34: 1201                                   |0042: const/4 v1, #int 0 // #0
+436f36: 7220 df09 1000                         |0043: invoke-interface {v0, v1}, Lcom/ucar/map/IUCarMapCallback;.onUCarModeStateChange:(Z)V // method@09df
+436f3c: 28f0                                   |0046: goto 0036 // -0010
+436f3e: 0e00                                   |0047: return-void
+436f40: 1e01                                   |0048: monitor-exit v1
+436f42: 2705                                   |0049: throw v5
+      catches       : 3
+        0x0008 - 0x0032
+          <any> -> 0x0026
+        0x0043 - 0x0046
+          Ljava/lang/Exception; -> 0x0036
+        0x0048 - 0x0049
+          <any> -> 0x0026
+
+    #2              : (in Lmc/c;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 4
+      insns size    : 89 16-bit code units
+436f64:                                        |[436f64] mc.c.d:(Landroid/content/Context;Z)V
+436f74: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+436f78: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+436f7e: 1a01 c58e                              |0005: const-string v1, "enableService enable:" // string@8ec5
+436f82: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+436f88: 6e20 48cc 6000                         |000a: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+436f8e: 6e10 50cc 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+436f94: 0c00                                   |0010: move-result-object v0
+436f96: 1a01 4a6e                              |0011: const-string v1, "UCarMapClientManager" // string@6e4a
+436f9a: 7120 0bcf 0100                         |0013: invoke-static {v1, v0}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+436fa0: 3906 0500                              |0016: if-nez v6, 001b // +0005
+436fa4: 6e10 66d0 0400                         |0018: invoke-virtual {v4}, Lmc/c;.c:()V // method@d066
+436faa: 3905 0300                              |001b: if-nez v5, 001e // +0003
+436fae: 0e00                                   |001d: return-void
+436fb0: 6e10 bb01 0500                         |001e: invoke-virtual {v5}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@01bb
+436fb6: 0c04                                   |0021: move-result-object v4
+436fb8: 3904 0300                              |0022: if-nez v4, 0025 // +0003
+436fbc: 0e00                                   |0024: return-void
+436fbe: 2200 5f00                              |0025: new-instance v0, Landroid/content/ComponentName; // type@005f
+436fc2: 1c02 ba02                              |0027: const-class v2, Lcom/ucar/map/service/UCarMapService; // type@02ba
+436fc6: 7030 9001 5002                         |0029: invoke-direct {v0, v5, v2}, Landroid/content/ComponentName;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@0190
+436fcc: 1215                                   |002c: const/4 v5, #int 1 // #1
+436fce: 3806 0c00                              |002d: if-eqz v6, 0039 // +000c
+436fd2: 6e20 1502 0400                         |002f: invoke-virtual {v4, v0}, Landroid/content/pm/PackageManager;.getComponentEnabledSetting:(Landroid/content/ComponentName;)I // method@0215
+436fd8: 0a02                                   |0032: move-result v2
+436fda: 3252 2500                              |0033: if-eq v2, v5, 0058 // +0025
+436fde: 6e40 1f02 0455                         |0035: invoke-virtual {v4, v0, v5, v5}, Landroid/content/pm/PackageManager;.setComponentEnabledSetting:(Landroid/content/ComponentName;II)V // method@021f
+436fe4: 2820                                   |0038: goto 0058 // +0020
+436fe6: 6e20 1502 0400                         |0039: invoke-virtual {v4, v0}, Landroid/content/pm/PackageManager;.getComponentEnabledSetting:(Landroid/content/ComponentName;)I // method@0215
+436fec: 0a02                                   |003c: move-result v2
+436fee: 1223                                   |003d: const/4 v3, #int 2 // #2
+436ff0: 3232 1a00                              |003e: if-eq v2, v3, 0058 // +001a
+436ff4: 6e40 1f02 0453                         |0040: invoke-virtual {v4, v0, v3, v5}, Landroid/content/pm/PackageManager;.setComponentEnabledSetting:(Landroid/content/ComponentName;II)V // method@021f
+436ffa: 2815                                   |0043: goto 0058 // +0015
+436ffc: 2204 ea1f                              |0044: new-instance v4, Ljava/lang/StringBuilder; // type@1fea
+437000: 7010 3dcc 0400                         |0046: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+437006: 1a05 c68e                              |0049: const-string v5, "enableService fail. enable=" // string@8ec6
+43700a: 6e20 47cc 5400                         |004b: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+437010: 6e20 48cc 6400                         |004e: invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+437016: 6e10 50cc 0400                         |0051: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+43701c: 0c04                                   |0054: move-result-object v4
+43701e: 7120 0ccf 4100                         |0055: invoke-static {v1, v4}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+437024: 0e00                                   |0058: return-void
+      catches       : 1
+        0x0025 - 0x0043
+          Ljava/lang/Exception; -> 0x0044
+
+    #3              : (in Lmc/c;)
+      name          : 'e'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/IUCarMapCallback;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 18 16-bit code units
+436c78:                                        |[436c78] mc.c.e:(Ljava/lang/String;)Lcom/ucar/map/IUCarMapCallback;
+436c88: 6e20 69d0 1000                         |0000: invoke-virtual {v0, v1}, Lmc/c;.f:(Ljava/lang/String;)Lmc/a; // method@d069
+436c8e: 0c00                                   |0003: move-result-object v0
+436c90: 3900 0b00                              |0004: if-nez v0, 000f // +000b
+436c94: 1a00 4a6e                              |0006: const-string v0, "UCarMapClientManager" // string@6e4a
+436c98: 1a01 486e                              |0008: const-string v1, "UCarMapClient == null" // string@6e48
+436c9c: 7120 0ccf 1000                         |000a: invoke-static {v0, v1}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+436ca2: 1200                                   |000d: const/4 v0, #int 0 // #0
+436ca4: 1100                                   |000e: return-object v0
+436ca6: 5400 93da                              |000f: iget-object v0, v0, Lmc/a;.a:Lcom/ucar/map/IUCarMapCallback; // field@da93
+436caa: 1100                                   |0011: return-object v0
+      catches       : (none)
+
+    #4              : (in Lmc/c;)
+      name          : 'f'
+      type          : '(Ljava/lang/String;)Lmc/a;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 2
+      insns size    : 42 16-bit code units
+436d30:                                        |[436d30] mc.c.f:(Ljava/lang/String;)Lmc/a;
+436d40: 5430 9ada                              |0000: iget-object v0, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436d44: 1d00                                   |0002: monitor-enter v0
+436d46: 5433 9ada                              |0003: iget-object v3, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436d4a: 7210 b0cd 0300                         |0005: invoke-interface {v3}, Ljava/util/Map;.values:()Ljava/util/Collection; // method@cdb0
+436d50: 0c03                                   |0008: move-result-object v3
+436d52: 7210 50cd 0300                         |0009: invoke-interface {v3}, Ljava/util/Collection;.iterator:()Ljava/util/Iterator; // method@cd50
+436d58: 0c03                                   |000c: move-result-object v3
+436d5a: 7210 7ccd 0300                         |000d: invoke-interface {v3}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+436d60: 0a01                                   |0010: move-result v1
+436d62: 3801 1400                              |0011: if-eqz v1, 0025 // +0014
+436d66: 7210 7dcd 0300                         |0013: invoke-interface {v3}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+436d6c: 0c01                                   |0016: move-result-object v1
+436d6e: 1f01 2c21                              |0017: check-cast v1, Lmc/a; // type@212c
+436d72: 5412 95da                              |0019: iget-object v2, v1, Lmc/a;.c:Ljava/lang/String; // field@da95
+436d76: 7120 7004 4200                         |001b: invoke-static {v2, v4}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0470
+436d7c: 0a02                                   |001e: move-result v2
+436d7e: 3802 eeff                              |001f: if-eqz v2, 000d // -0012
+436d82: 1e00                                   |0021: monitor-exit v0
+436d84: 1101                                   |0022: return-object v1
+436d86: 0d03                                   |0023: move-exception v3
+436d88: 2804                                   |0024: goto 0028 // +0004
+436d8a: 1e00                                   |0025: monitor-exit v0
+436d8c: 1203                                   |0026: const/4 v3, #int 0 // #0
+436d8e: 1103                                   |0027: return-object v3
+436d90: 1e00                                   |0028: monitor-exit v0
+436d92: 2703                                   |0029: throw v3
+      catches       : 1
+        0x0003 - 0x0029
+          <any> -> 0x0023
+
+    #5              : (in Lmc/c;)
+      name          : 'g'
+      type          : '()Ljava/util/Map;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+436d18:                                        |[436d18] mc.c.g:()Ljava/util/Map;
+436d28: 5400 9ada                              |0000: iget-object v0, v0, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436d2c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lmc/c;)
+      name          : 'i'
+      type          : '(ILandroid/content/pm/PackageManager;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 2
+      insns size    : 35 16-bit code units
+436cac:                                        |[436cac] mc.c.i:(ILandroid/content/pm/PackageManager;)Ljava/lang/String;
+436cbc: 5420 9ada                              |0000: iget-object v0, v2, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436cc0: 1d00                                   |0002: monitor-enter v0
+436cc2: 5422 9ada                              |0003: iget-object v2, v2, Lmc/c;.a:Ljava/util/Map; // field@da9a
+436cc6: 7110 b5cb 0300                         |0005: invoke-static {v3}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+436ccc: 0c01                                   |0008: move-result-object v1
+436cce: 7220 a8cd 1200                         |0009: invoke-interface {v2, v1}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+436cd4: 0c02                                   |000c: move-result-object v2
+436cd6: 1f02 2c21                              |000d: check-cast v2, Lmc/a; // type@212c
+436cda: 3802 0800                              |000f: if-eqz v2, 0017 // +0008
+436cde: 5422 95da                              |0011: iget-object v2, v2, Lmc/a;.c:Ljava/lang/String; // field@da95
+436ce2: 1e00                                   |0013: monitor-exit v0
+436ce4: 1102                                   |0014: return-object v2
+436ce6: 0d02                                   |0015: move-exception v2
+436ce8: 280b                                   |0016: goto 0021 // +000b
+436cea: 1e00                                   |0017: monitor-exit v0
+436cec: 3804 0700                              |0018: if-eqz v4, 001f // +0007
+436cf0: 6e20 1602 3400                         |001a: invoke-virtual {v4, v3}, Landroid/content/pm/PackageManager;.getNameForUid:(I)Ljava/lang/String; // method@0216
+436cf6: 0c02                                   |001d: move-result-object v2
+436cf8: 1102                                   |001e: return-object v2
+436cfa: 1202                                   |001f: const/4 v2, #int 0 // #0
+436cfc: 1102                                   |0020: return-object v2
+436cfe: 1e00                                   |0021: monitor-exit v0
+436d00: 2702                                   |0022: throw v2
+      catches       : 2
+        0x0003 - 0x0018
+          <any> -> 0x0015
+        0x0021 - 0x0022
+          <any> -> 0x0015
+
+    #7              : (in Lmc/c;)
+      name          : 'k'
+      type          : '(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Landroid/content/pm/PackageManager;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 4
+      outs          : 4
+      insns size    : 117 16-bit code units
+4370c8:                                        |[4370c8] mc.c.k:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Landroid/content/pm/PackageManager;)V
+4370d8: 7100 8903 0000                         |0000: invoke-static {}, Landroid/os/Binder;.getCallingUid:()I // method@0389
+4370de: 0a00                                   |0003: move-result v0
+4370e0: 3907 0300                              |0004: if-nez v7, 0007 // +0003
+4370e4: 0e00                                   |0006: return-void
+4370e6: 6e20 1602 0700                         |0007: invoke-virtual {v7, v0}, Landroid/content/pm/PackageManager;.getNameForUid:(I)Ljava/lang/String; // method@0216
+4370ec: 0c07                                   |000a: move-result-object v7
+4370ee: 1a01 4a6e                              |000b: const-string v1, "UCarMapClientManager" // string@6e4a
+4370f2: 2202 ea1f                              |000d: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+4370f6: 7010 3dcc 0200                         |000f: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4370fc: 1a03 5dce                              |0012: const-string v3, "registerMapCallback " // string@ce5d
+437100: 6e20 47cc 3200                         |0014: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+437106: 6e20 47cc 7200                         |0017: invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43710c: 1a03 bb03                              |001a: const-string v3, ", uid=" // string@03bb
+437110: 6e20 47cc 3200                         |001c: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+437116: 6e20 43cc 0200                         |001f: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+43711c: 6e10 50cc 0200                         |0022: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+437122: 0c02                                   |0025: move-result-object v2
+437124: 7120 0ccf 2100                         |0026: invoke-static {v1, v2}, Lkc/a;.b:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0c
+43712a: 7110 7204 0700                         |0029: invoke-static {v7}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+437130: 0a01                                   |002c: move-result v1
+437132: 3801 0300                              |002d: if-eqz v1, 0030 // +0003
+437136: 0e00                                   |002f: return-void
+437138: 5441 9ada                              |0030: iget-object v1, v4, Lmc/c;.a:Ljava/util/Map; // field@da9a
+43713c: 1d01                                   |0032: monitor-enter v1
+43713e: 5442 9ada                              |0033: iget-object v2, v4, Lmc/c;.a:Ljava/util/Map; // field@da9a
+437142: 7110 b5cb 0000                         |0035: invoke-static {v0}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+437148: 0c03                                   |0038: move-result-object v3
+43714a: 7220 a8cd 3200                         |0039: invoke-interface {v2, v3}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+437150: 0c02                                   |003c: move-result-object v2
+437152: 1f02 2c21                              |003d: check-cast v2, Lmc/a; // type@212c
+437156: 3802 0800                              |003f: if-eqz v2, 0047 // +0008
+43715a: 6e10 5fd0 0200                         |0041: invoke-virtual {v2}, Lmc/a;.a:()V // method@d05f
+437160: 2803                                   |0044: goto 0047 // +0003
+437162: 0d04                                   |0045: move-exception v4
+437164: 282d                                   |0046: goto 0073 // +002d
+437166: 7210 e003 0600                         |0047: invoke-interface {v6}, Landroid/os/IInterface;.asBinder:()Landroid/os/IBinder; // method@03e0
+43716c: 0c02                                   |004a: move-result-object v2
+43716e: 3802 1100                              |004b: if-eqz v2, 005c // +0011
+437172: 2202 2c21                              |004d: new-instance v2, Lmc/a; // type@212c
+437176: 7040 5ed0 0267                         |004f: invoke-direct {v2, v0, v7, v6}, Lmc/a;.<init>:(ILjava/lang/String;Lcom/ucar/map/IUCarMapCallback;)V // method@d05e
+43717c: 5444 9ada                              |0052: iget-object v4, v4, Lmc/c;.a:Ljava/util/Map; // field@da9a
+437180: 7110 b5cb 0000                         |0054: invoke-static {v0}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+437186: 0c00                                   |0057: move-result-object v0
+437188: 7230 accd 0402                         |0058: invoke-interface {v4, v0, v2}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+43718e: 280a                                   |005b: goto 0065 // +000a
+437190: 5444 9ada                              |005c: iget-object v4, v4, Lmc/c;.a:Ljava/util/Map; // field@da9a
+437194: 7110 b5cb 0000                         |005e: invoke-static {v0}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+43719a: 0c00                                   |0061: move-result-object v0
+43719c: 7220 aecd 0400                         |0062: invoke-interface {v4, v0}, Ljava/util/Map;.remove:(Ljava/lang/Object;)Ljava/lang/Object; // method@cdae
+4371a2: 1e01                                   |0065: monitor-exit v1
+4371a4: 7100 ffd5 0000                         |0066: invoke-static {}, Loc/a;.b:()Loc/a; // method@d5ff
+4371aa: 0c04                                   |0069: move-result-object v4
+4371ac: 2200 2d21                              |006a: new-instance v0, Lmc/b; // type@212d
+4371b0: 7040 61d0 5076                         |006c: invoke-direct {v0, v5, v6, v7}, Lmc/b;.<init>:(Landroid/content/Context;Lcom/ucar/map/IUCarMapCallback;Ljava/lang/String;)V // method@d061
+4371b6: 6e20 fed5 0400                         |006f: invoke-virtual {v4, v0}, Loc/a;.a:(Ljava/lang/Runnable;)V // method@d5fe
+4371bc: 0e00                                   |0072: return-void
+4371be: 1e01                                   |0073: monitor-exit v1
+4371c0: 2704                                   |0074: throw v4
+      catches       : 2
+        0x0033 - 0x0066
+          <any> -> 0x0045
+        0x0073 - 0x0074
+          <any> -> 0x0045
+
+    #8              : (in Lmc/c;)
+      name          : 'l'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 2
+      insns size    : 36 16-bit code units
+4371d8:                                        |[4371d8] mc.c.l:(I)V
+4371e8: 5430 9ada                              |0000: iget-object v0, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+4371ec: 1d00                                   |0002: monitor-enter v0
+4371ee: 5431 9ada                              |0003: iget-object v1, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+4371f2: 7110 b5cb 0400                         |0005: invoke-static {v4}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+4371f8: 0c02                                   |0008: move-result-object v2
+4371fa: 7220 a8cd 2100                         |0009: invoke-interface {v1, v2}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+437200: 0c01                                   |000c: move-result-object v1
+437202: 1f01 2c21                              |000d: check-cast v1, Lmc/a; // type@212c
+437206: 3801 0800                              |000f: if-eqz v1, 0017 // +0008
+43720a: 6e10 5fd0 0100                         |0011: invoke-virtual {v1}, Lmc/a;.a:()V // method@d05f
+437210: 2803                                   |0014: goto 0017 // +0003
+437212: 0d03                                   |0015: move-exception v3
+437214: 280c                                   |0016: goto 0022 // +000c
+437216: 5433 9ada                              |0017: iget-object v3, v3, Lmc/c;.a:Ljava/util/Map; // field@da9a
+43721a: 7110 b5cb 0400                         |0019: invoke-static {v4}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@cbb5
+437220: 0c04                                   |001c: move-result-object v4
+437222: 7220 aecd 4300                         |001d: invoke-interface {v3, v4}, Ljava/util/Map;.remove:(Ljava/lang/Object;)Ljava/lang/Object; // method@cdae
+437228: 1e00                                   |0020: monitor-exit v0
+43722a: 0e00                                   |0021: return-void
+43722c: 1e00                                   |0022: monitor-exit v0
+43722e: 2703                                   |0023: throw v3
+      catches       : 1
+        0x0003 - 0x0023
+          <any> -> 0x0015
+
+  source_file_idx   : 28235 (UCarMapClientManager.java)
+

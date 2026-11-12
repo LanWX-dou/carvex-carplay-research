@@ -1,0 +1,585 @@
+Class #956            -
+  Class descriptor  : 'Lr9/a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lr9/a;)
+      name          : 'o'
+      type          : 'Lr9/a;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lr9/a;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lr9/a;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lr9/a;)
+      name          : 'c'
+      type          : 'Ljava/util/concurrent/atomic/AtomicBoolean;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #3              : (in Lr9/a;)
+      name          : 'd'
+      type          : 'Ljava/util/concurrent/atomic/AtomicBoolean;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lr9/a;)
+      name          : 'e'
+      type          : 'Lr9/b;'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #5              : (in Lr9/a;)
+      name          : 'f'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lr9/a;)
+      name          : 'g'
+      type          : 'I'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #7              : (in Lr9/a;)
+      name          : 'h'
+      type          : 'F'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #8              : (in Lr9/a;)
+      name          : 'i'
+      type          : 'I'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #9              : (in Lr9/a;)
+      name          : 'j'
+      type          : 'Landroid/content/Context;'
+      access        : 0x0001 (PUBLIC)
+    #10              : (in Lr9/a;)
+      name          : 'k'
+      type          : 'Lcom/carwith/common/bean/CloudControlBean;'
+      access        : 0x0001 (PUBLIC)
+    #11              : (in Lr9/a;)
+      name          : 'l'
+      type          : 'Ljava/lang/Thread;'
+      access        : 0x0001 (PUBLIC)
+    #12              : (in Lr9/a;)
+      name          : 'm'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #13              : (in Lr9/a;)
+      name          : 'n'
+      type          : 'Landroid/os/Handler;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lr9/a;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+1ae77c:                                        |[1ae77c] r9.a.<clinit>:()V
+1ae78c: 2200 340a                              |0000: new-instance v0, Lr9/a; // type@0a34
+1ae790: 7010 2740 0000                         |0002: invoke-direct {v0}, Lr9/a;.<init>:()V // method@4027
+1ae796: 6900 4df9                              |0005: sput-object v0, Lr9/a;.o:Lr9/a; // field@f94d
+1ae79a: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lr9/a;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 35 16-bit code units
+1ae79c:                                        |[1ae79c] r9.a.<init>:()V
+1ae7ac: 7010 3434 0200                         |0000: invoke-direct {v2}, Ljava/lang/Object;.<init>:()V // method@3434
+1ae7b2: 1a00 0000                              |0003: const-string v0, "" // string@0000
+1ae7b6: 5b20 40f9                              |0005: iput-object v0, v2, Lr9/a;.b:Ljava/lang/String; // field@f940
+1ae7ba: 2200 1708                              |0007: new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean; // type@0817
+1ae7be: 1211                                   |0009: const/4 v1, #int 1 // #1
+1ae7c0: 7020 3f36 1000                         |000a: invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.<init>:(Z)V // method@363f
+1ae7c6: 5b20 41f9                              |000d: iput-object v0, v2, Lr9/a;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f941
+1ae7ca: 2200 1708                              |000f: new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean; // type@0817
+1ae7ce: 1201                                   |0011: const/4 v1, #int 0 // #0
+1ae7d0: 7020 3f36 1000                         |0012: invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.<init>:(Z)V // method@363f
+1ae7d6: 5b20 42f9                              |0015: iput-object v0, v2, Lr9/a;.d:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f942
+1ae7da: 2200 2f0a                              |0017: new-instance v0, Lr9/a$a; // type@0a2f
+1ae7de: 7100 d302 0000                         |0019: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@02d3
+1ae7e4: 0c01                                   |001c: move-result-object v1
+1ae7e6: 7030 1a40 2001                         |001d: invoke-direct {v0, v2, v1}, Lr9/a$a;.<init>:(Lr9/a;Landroid/os/Looper;)V // method@401a
+1ae7ec: 5b20 4cf9                              |0020: iput-object v0, v2, Lr9/a;.n:Landroid/os/Handler; // field@f94c
+1ae7f0: 0e00                                   |0022: return-void
+      catches       : (none)
+
+    #2              : (in Lr9/a;)
+      name          : 'a'
+      type          : '(Lr9/a;)I'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae664:                                        |[1ae664] r9.a.a:(Lr9/a;)I
+1ae674: 5200 45f9                              |0000: iget v0, v0, Lr9/a;.g:I // field@f945
+1ae678: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #3              : (in Lr9/a;)
+      name          : 'b'
+      type          : '(Lr9/a;)Lr9/b;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae734:                                        |[1ae734] r9.a.b:(Lr9/a;)Lr9/b;
+1ae744: 5400 43f9                              |0000: iget-object v0, v0, Lr9/a;.e:Lr9/b; // field@f943
+1ae748: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lr9/a;)
+      name          : 'c'
+      type          : '(Lr9/a;)Landroid/content/Context;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae4cc:                                        |[1ae4cc] r9.a.c:(Lr9/a;)Landroid/content/Context;
+1ae4dc: 5400 48f9                              |0000: iget-object v0, v0, Lr9/a;.j:Landroid/content/Context; // field@f948
+1ae4e0: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lr9/a;)
+      name          : 'd'
+      type          : '(Lr9/a;)Ljava/lang/String;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae694:                                        |[1ae694] r9.a.d:(Lr9/a;)Ljava/lang/String;
+1ae6a4: 5400 3ff9                              |0000: iget-object v0, v0, Lr9/a;.a:Ljava/lang/String; // field@f93f
+1ae6a8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lr9/a;)
+      name          : 'e'
+      type          : '(Lr9/a;)Z'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae4e4:                                        |[1ae4e4] r9.a.e:(Lr9/a;)Z
+1ae4f4: 5500 4bf9                              |0000: iget-boolean v0, v0, Lr9/a;.m:Z // field@f94b
+1ae4f8: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #7              : (in Lr9/a;)
+      name          : 'f'
+      type          : '(Lr9/a;)I'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae67c:                                        |[1ae67c] r9.a.f:(Lr9/a;)I
+1ae68c: 5200 47f9                              |0000: iget v0, v0, Lr9/a;.i:I // field@f947
+1ae690: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #8              : (in Lr9/a;)
+      name          : 'g'
+      type          : '(Lr9/a;Lcom/carwith/common/bean/CloudControlBean;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae74c:                                        |[1ae74c] r9.a.g:(Lr9/a;Lcom/carwith/common/bean/CloudControlBean;)V
+1ae75c: 5b01 49f9                              |0000: iput-object v1, v0, Lr9/a;.k:Lcom/carwith/common/bean/CloudControlBean; // field@f949
+1ae760: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #9              : (in Lr9/a;)
+      name          : 'h'
+      type          : '(Lr9/a;I)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae764:                                        |[1ae764] r9.a.h:(Lr9/a;I)V
+1ae774: 5901 47f9                              |0000: iput v1, v0, Lr9/a;.i:I // field@f947
+1ae778: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #10              : (in Lr9/a;)
+      name          : 'i'
+      type          : '(Lr9/a;Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 5 16-bit code units
+1ae6ac:                                        |[1ae6ac] r9.a.i:(Lr9/a;Landroid/content/Context;)Ljava/lang/String;
+1ae6bc: 6e20 3740 1000                         |0000: invoke-virtual {v0, v1}, Lr9/a;.p:(Landroid/content/Context;)Ljava/lang/String; // method@4037
+1ae6c2: 0c00                                   |0003: move-result-object v0
+1ae6c4: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #11              : (in Lr9/a;)
+      name          : 'j'
+      type          : '(Lr9/a;)Z'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 5 16-bit code units
+1ae4fc:                                        |[1ae4fc] r9.a.j:(Lr9/a;)Z
+1ae50c: 6e10 3b40 0000                         |0000: invoke-virtual {v0}, Lr9/a;.t:()Z // method@403b
+1ae512: 0a00                                   |0003: move-result v0
+1ae514: 0f00                                   |0004: return v0
+      catches       : (none)
+
+    #12              : (in Lr9/a;)
+      name          : 'o'
+      type          : '()Lr9/a;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae71c:                                        |[1ae71c] r9.a.o:()Lr9/a;
+1ae72c: 6200 4df9                              |0000: sget-object v0, Lr9/a;.o:Lr9/a; // field@f94d
+1ae730: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lr9/a;)
+      name          : 'k'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 67 16-bit code units
+1ae7f4:                                        |[1ae7f4] r9.a.k:(Landroid/content/Context;)V
+1ae804: 6e10 3c40 0200                         |0000: invoke-virtual {v2}, Lr9/a;.u:()V // method@403c
+1ae80a: 7100 3906 0000                         |0003: invoke-static {}, Lcom/blankj/utilcode/util/r;.a:()Landroid/app/Application; // method@0639
+1ae810: 0c00                                   |0006: move-result-object v0
+1ae812: 6e10 ce00 0000                         |0007: invoke-virtual {v0}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00ce
+1ae818: 0c00                                   |000a: move-result-object v0
+1ae81a: 1a01 ea67                              |000b: const-string v1, "switch_cloud" // string@67ea
+1ae81e: 7120 1c03 1000                         |000d: invoke-static {v0, v1}, Landroid/provider/Settings$System;.getString:(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String; // method@031c
+1ae824: 0c00                                   |0010: move-result-object v0
+1ae826: 5b20 40f9                              |0011: iput-object v0, v2, Lr9/a;.b:Ljava/lang/String; // field@f940
+1ae82a: 5b23 48f9                              |0013: iput-object v3, v2, Lr9/a;.j:Landroid/content/Context; // field@f948
+1ae82e: 6e10 3a40 0200                         |0015: invoke-virtual {v2}, Lr9/a;.s:()Z // method@403a
+1ae834: 0a03                                   |0018: move-result v3
+1ae836: 1a00 8909                              |0019: const-string v0, "CloudControlMgr" // string@0989
+1ae83a: 3903 0800                              |001b: if-nez v3, 0023 // +0008
+1ae83e: 1a02 b437                              |001d: const-string v2, "cloud switch is off." // string@37b4
+1ae842: 7120 5907 2000                         |001f: invoke-static {v0, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae848: 0e00                                   |0022: return-void
+1ae84a: 5423 41f9                              |0023: iget-object v3, v2, Lr9/a;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f941
+1ae84e: 1211                                   |0025: const/4 v1, #int 1 // #1
+1ae850: 6e20 4236 1300                         |0026: invoke-virtual {v3, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@3642
+1ae856: 1a03 8235                              |0029: const-string v3, "check start." // string@3582
+1ae85a: 7120 5907 3000                         |002b: invoke-static {v0, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae860: 2203 8007                              |002e: new-instance v3, Ljava/lang/Thread; // type@0780
+1ae864: 2200 330a                              |0030: new-instance v0, Lr9/a$d; // type@0a33
+1ae868: 2201 300a                              |0032: new-instance v1, Lr9/a$b; // type@0a30
+1ae86c: 7020 1c40 2100                         |0034: invoke-direct {v1, v2}, Lr9/a$b;.<init>:(Lr9/a;)V // method@401c
+1ae872: 7030 2340 2001                         |0037: invoke-direct {v0, v2, v1}, Lr9/a$d;.<init>:(Lr9/a;Lr9/a$c;)V // method@4023
+1ae878: 7020 9734 0300                         |003a: invoke-direct {v3, v0}, Ljava/lang/Thread;.<init>:(Ljava/lang/Runnable;)V // method@3497
+1ae87e: 5b23 4af9                              |003d: iput-object v3, v2, Lr9/a;.l:Ljava/lang/Thread; // field@f94a
+1ae882: 6e10 a834 0300                         |003f: invoke-virtual {v3}, Ljava/lang/Thread;.start:()V // method@34a8
+1ae888: 0e00                                   |0042: return-void
+      catches       : (none)
+
+    #1              : (in Lr9/a;)
+      name          : 'l'
+      type          : '(Lr9/b;F)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 2
+      insns size    : 73 16-bit code units
+1ae88c:                                        |[1ae88c] r9.a.l:(Lr9/b;F)V
+1ae89c: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+1ae8a0: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1ae8a6: 1a01 4f6b                              |0005: const-string v1, "waitAuthResult car version = " // string@6b4f
+1ae8aa: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1ae8b0: 6e20 8034 4000                         |000a: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder; // method@3480
+1ae8b6: 6e10 8b34 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+1ae8bc: 0c00                                   |0010: move-result-object v0
+1ae8be: 1a01 8909                              |0011: const-string v1, "CloudControlMgr" // string@0989
+1ae8c2: 7120 5907 0100                         |0013: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae8c8: 3803 0d00                              |0016: if-eqz v3, 0023 // +000d
+1ae8cc: 6e10 3a40 0200                         |0018: invoke-virtual {v2}, Lr9/a;.s:()Z // method@403a
+1ae8d2: 0a00                                   |001b: move-result v0
+1ae8d4: 3900 0700                              |001c: if-nez v0, 0023 // +0007
+1ae8d8: 1202                                   |001e: const/4 v2, #int 0 // #0
+1ae8da: 7220 4040 2300                         |001f: invoke-interface {v3, v2}, Lr9/b;.a:(Z)V // method@4040
+1ae8e0: 0e00                                   |0022: return-void
+1ae8e2: 5b23 43f9                              |0023: iput-object v3, v2, Lr9/a;.e:Lr9/b; // field@f943
+1ae8e6: 8743                                   |0025: float-to-int v3, v4
+1ae8e8: 5923 45f9                              |0026: iput v3, v2, Lr9/a;.g:I // field@f945
+1ae8ec: 5924 46f9                              |0028: iput v4, v2, Lr9/a;.h:F // field@f946
+1ae8f0: 1213                                   |002a: const/4 v3, #int 1 // #1
+1ae8f2: 5923 47f9                              |002b: iput v3, v2, Lr9/a;.i:I // field@f947
+1ae8f6: 2204 7e07                              |002d: new-instance v4, Ljava/lang/StringBuilder; // type@077e
+1ae8fa: 7010 7b34 0400                         |002f: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1ae900: 1a00 4e6b                              |0032: const-string v0, "waitAuthResult car mLatch = " // string@6b4e
+1ae904: 6e20 8434 0400                         |0034: invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1ae90a: 5220 45f9                              |0037: iget v0, v2, Lr9/a;.g:I // field@f945
+1ae90e: 6e20 8134 0400                         |0039: invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+1ae914: 6e10 8b34 0400                         |003c: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+1ae91a: 0c04                                   |003f: move-result-object v4
+1ae91c: 7120 5907 4100                         |0040: invoke-static {v1, v4}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae922: 5422 4cf9                              |0043: iget-object v2, v2, Lr9/a;.n:Landroid/os/Handler; // field@f94c
+1ae926: 6e20 c602 3200                         |0045: invoke-virtual {v2, v3}, Landroid/os/Handler;.sendEmptyMessage:(I)Z // method@02c6
+1ae92c: 0e00                                   |0048: return-void
+      catches       : (none)
+
+    #2              : (in Lr9/a;)
+      name          : 'm'
+      type          : '()F'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 27 16-bit code units
+1ae61c:                                        |[1ae61c] r9.a.m:()F
+1ae62c: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+1ae630: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1ae636: 1a01 b246                              |0005: const-string v1, "mCarVersionOfFloat= " // string@46b2
+1ae63a: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1ae640: 5221 46f9                              |000a: iget v1, v2, Lr9/a;.h:F // field@f946
+1ae644: 6e20 8034 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder; // method@3480
+1ae64a: 6e10 8b34 0000                         |000f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+1ae650: 0c00                                   |0012: move-result-object v0
+1ae652: 1a01 8909                              |0013: const-string v1, "CloudControlMgr" // string@0989
+1ae656: 7120 5907 0100                         |0015: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae65c: 5222 46f9                              |0018: iget v2, v2, Lr9/a;.h:F // field@f946
+1ae660: 0f02                                   |001a: return v2
+      catches       : (none)
+
+    #3              : (in Lr9/a;)
+      name          : 'n'
+      type          : '()Lcom/carwith/common/bean/CloudControlBean;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae604:                                        |[1ae604] r9.a.n:()Lcom/carwith/common/bean/CloudControlBean;
+1ae614: 5400 49f9                              |0000: iget-object v0, v0, Lr9/a;.k:Lcom/carwith/common/bean/CloudControlBean; // field@f949
+1ae618: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lr9/a;)
+      name          : 'p'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 26 16-bit code units
+1ae6c8:                                        |[1ae6c8] r9.a.p:(Landroid/content/Context;)Ljava/lang/String;
+1ae6d8: 6e10 d300 0200                         |0000: invoke-virtual {v2}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00d3
+1ae6de: 0c01                                   |0003: move-result-object v1
+1ae6e0: 6e10 d400 0200                         |0004: invoke-virtual {v2}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@00d4
+1ae6e6: 0c02                                   |0007: move-result-object v2
+1ae6e8: 1200                                   |0008: const/4 v0, #int 0 // #0
+1ae6ea: 6e30 2701 2100                         |0009: invoke-virtual {v1, v2, v0}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@0127
+1ae6f0: 0c01                                   |000c: move-result-object v1
+1ae6f2: 5211 1e00                              |000d: iget v1, v1, Landroid/content/pm/PackageInfo;.versionCode:I // field@001e
+1ae6f6: 7110 7034 0100                         |000f: invoke-static {v1}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@3470
+1ae6fc: 0c01                                   |0012: move-result-object v1
+1ae6fe: 1101                                   |0013: return-object v1
+1ae700: 0d01                                   |0014: move-exception v1
+1ae702: 6e10 b334 0100                         |0015: invoke-virtual {v1}, Ljava/lang/Throwable;.printStackTrace:()V // method@34b3
+1ae708: 1201                                   |0018: const/4 v1, #int 0 // #0
+1ae70a: 1101                                   |0019: return-object v1
+      catches       : 1
+        0x0000 - 0x0013
+          Ljava/lang/Exception; -> 0x0014
+
+    #5              : (in Lr9/a;)
+      name          : 'q'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 15 16-bit code units
+1ae518:                                        |[1ae518] r9.a.q:()Z
+1ae528: 6e10 3a40 0100                         |0000: invoke-virtual {v1}, Lr9/a;.s:()Z // method@403a
+1ae52e: 0a00                                   |0003: move-result v0
+1ae530: 3900 0400                              |0004: if-nez v0, 0008 // +0004
+1ae534: 1201                                   |0006: const/4 v1, #int 0 // #0
+1ae536: 0f01                                   |0007: return v1
+1ae538: 5411 42f9                              |0008: iget-object v1, v1, Lr9/a;.d:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f942
+1ae53c: 6e10 4136 0100                         |000a: invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.get:()Z // method@3641
+1ae542: 0a01                                   |000d: move-result v1
+1ae544: 0f01                                   |000e: return v1
+      catches       : (none)
+
+    #6              : (in Lr9/a;)
+      name          : 'r'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae548:                                        |[1ae548] r9.a.r:()Z
+1ae558: 5500 44f9                              |0000: iget-boolean v0, v0, Lr9/a;.f:Z // field@f944
+1ae55c: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #7              : (in Lr9/a;)
+      name          : 's'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 35 16-bit code units
+1ae560:                                        |[1ae560] r9.a.s:()Z
+1ae570: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+1ae574: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+1ae57a: 1a01 f644                              |0005: const-string v1, "isSwitchCloud= " // string@44f6
+1ae57e: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1ae584: 5421 40f9                              |000a: iget-object v1, v2, Lr9/a;.b:Ljava/lang/String; // field@f940
+1ae588: 6e20 8434 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+1ae58e: 6e10 8b34 0000                         |000f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+1ae594: 0c00                                   |0012: move-result-object v0
+1ae596: 1a01 8909                              |0013: const-string v1, "CloudControlMgr" // string@0989
+1ae59a: 7120 5907 0100                         |0015: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0759
+1ae5a0: 1a00 6103                              |0018: const-string v0, "1" // string@0361
+1ae5a4: 5422 40f9                              |001a: iget-object v2, v2, Lr9/a;.b:Ljava/lang/String; // field@f940
+1ae5a8: 6e20 5034 2000                         |001c: invoke-virtual {v0, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+1ae5ae: 0a02                                   |001f: move-result v2
+1ae5b0: df02 0201                              |0020: xor-int/lit8 v2, v2, #int 1 // #01
+1ae5b4: 0f02                                   |0022: return v2
+      catches       : (none)
+
+    #8              : (in Lr9/a;)
+      name          : 't'
+      type          : '()Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 30 16-bit code units
+1ae5b8:                                        |[1ae5b8] r9.a.t:()Z
+1ae5c8: 7100 3906 0000                         |0000: invoke-static {}, Lcom/blankj/utilcode/util/r;.a:()Landroid/app/Application; // method@0639
+1ae5ce: 0c02                                   |0003: move-result-object v2
+1ae5d0: 6e10 c800 0200                         |0004: invoke-virtual {v2}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+1ae5d6: 0c02                                   |0007: move-result-object v2
+1ae5d8: 1a00 5f6a                              |0008: const-string v0, "ucar_cloud_switch_name" // string@6a5f
+1ae5dc: 1201                                   |000a: const/4 v1, #int 0 // #0
+1ae5de: 6e30 d600 0201                         |000b: invoke-virtual {v2, v0, v1}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@00d6
+1ae5e4: 0c02                                   |000e: move-result-object v2
+1ae5e6: 1a00 5e6a                              |000f: const-string v0, "ucar_cloud_switch_key" // string@6a5e
+1ae5ea: 1a01 a15a                              |0011: const-string v1, "off" // string@5aa1
+1ae5ee: 7230 1f01 0201                         |0013: invoke-interface {v2, v0, v1}, Landroid/content/SharedPreferences;.getString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@011f
+1ae5f4: 0c02                                   |0016: move-result-object v2
+1ae5f6: 1a00 ad5a                              |0017: const-string v0, "on" // string@5aad
+1ae5fa: 7120 6703 2000                         |0019: invoke-static {v0, v2}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0367
+1ae600: 0a02                                   |001c: move-result v2
+1ae602: 0f02                                   |001d: return v2
+      catches       : (none)
+
+    #9              : (in Lr9/a;)
+      name          : 'u'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 21 16-bit code units
+1ae930:                                        |[1ae930] r9.a.u:()V
+1ae940: 1200                                   |0000: const/4 v0, #int 0 // #0
+1ae942: 5c20 4bf9                              |0001: iput-boolean v0, v2, Lr9/a;.m:Z // field@f94b
+1ae946: 5c20 44f9                              |0003: iput-boolean v0, v2, Lr9/a;.f:Z // field@f944
+1ae94a: 5421 42f9                              |0005: iget-object v1, v2, Lr9/a;.d:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f942
+1ae94e: 6e20 4236 0100                         |0007: invoke-virtual {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@3642
+1ae954: 5421 41f9                              |000a: iget-object v1, v2, Lr9/a;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@f941
+1ae958: 6e20 4236 0100                         |000c: invoke-virtual {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@3642
+1ae95e: 1200                                   |000f: const/4 v0, #int 0 // #0
+1ae960: 5b20 43f9                              |0010: iput-object v0, v2, Lr9/a;.e:Lr9/b; // field@f943
+1ae964: 5b20 48f9                              |0012: iput-object v0, v2, Lr9/a;.j:Landroid/content/Context; // field@f948
+1ae968: 0e00                                   |0014: return-void
+      catches       : (none)
+
+    #10              : (in Lr9/a;)
+      name          : 'v'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+1ae96c:                                        |[1ae96c] r9.a.v:(Ljava/lang/String;)V
+1ae97c: 7110 2f07 0100                         |0000: invoke-static {v1}, Lcom/carwith/common/utils/q2;.Q:(Ljava/lang/String;)V // method@072f
+1ae982: 5b01 3ff9                              |0003: iput-object v1, v0, Lr9/a;.a:Ljava/lang/String; // field@f93f
+1ae986: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #11              : (in Lr9/a;)
+      name          : 'w'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae988:                                        |[1ae988] r9.a.w:(Z)V
+1ae998: 5c01 44f9                              |0000: iput-boolean v1, v0, Lr9/a;.f:Z // field@f944
+1ae99c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #12              : (in Lr9/a;)
+      name          : 'x'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1ae9a0:                                        |[1ae9a0] r9.a.x:(Z)V
+1ae9b0: 5c01 4bf9                              |0000: iput-boolean v1, v0, Lr9/a;.m:Z // field@f94b
+1ae9b4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 2442 (CloudControlMgr.java)
+

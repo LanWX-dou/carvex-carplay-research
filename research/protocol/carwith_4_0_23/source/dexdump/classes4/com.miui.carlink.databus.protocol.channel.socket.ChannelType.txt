@@ -1,0 +1,257 @@
+Class #369            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+  Access flags      : 0x4011 (PUBLIC FINAL ENUM)
+  Superclass        : 'Ljava/lang/Enum;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : '$VALUES'
+      type          : '[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x101a (PRIVATE STATIC FINAL SYNTHETIC)
+    #1              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'AUTH'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #2              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'CERT'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #3              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'CONTROL'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #4              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'CUSTOM'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #5              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'MEDIA'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #6              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'RTP'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #7              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'RTSP'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #8              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'SENSOR'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #9              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'SHARE'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #10              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'UIBC'
+      type          : 'Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #11              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'mValues'
+      type          : '[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x000a (PRIVATE STATIC)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'mPort'
+      type          : 'I'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : '$values'
+      type          : '()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x100a (PRIVATE STATIC SYNTHETIC)
+      code          -
+      registers     : 10
+      ins           : 0
+      outs          : 10
+      insns size    : 25 16-bit code units
+1533d4:                                        |[1533d4] com.miui.carlink.databus.protocol.channel.socket.ChannelType.$values:()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;
+1533e4: 6200 f772                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CUSTOM:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f7
+1533e8: 6201 fd72                              |0002: sget-object v1, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.UIBC:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fd
+1533ec: 6202 fa72                              |0004: sget-object v2, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.RTSP:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fa
+1533f0: 6203 f972                              |0006: sget-object v3, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.RTP:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f9
+1533f4: 6204 f472                              |0008: sget-object v4, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.AUTH:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f4
+1533f8: 6205 f672                              |000a: sget-object v5, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CONTROL:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f6
+1533fc: 6206 f872                              |000c: sget-object v6, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.MEDIA:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f8
+153400: 6207 fb72                              |000e: sget-object v7, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.SENSOR:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fb
+153404: 6208 f572                              |0010: sget-object v8, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CERT:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f5
+153408: 6209 fc72                              |0012: sget-object v9, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.SHARE:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fc
+15340c: 250a af0b 0000                         |0014: filled-new-array/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9}, [Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@0baf
+153412: 0c00                                   |0017: move-result-object v0
+153414: 1100                                   |0018: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 4
+      insns size    : 135 16-bit code units
+153454:                                        |[153454] com.miui.carlink.databus.protocol.channel.socket.ChannelType.<clinit>:()V
+153464: 2200 fc04                              |0000: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+153468: 1a01 5108                              |0002: const-string v1, "CUSTOM" // string@0851
+15346c: 1202                                   |0004: const/4 v2, #int 0 // #0
+15346e: 7040 dd27 1022                         |0005: invoke-direct {v0, v1, v2, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+153474: 6900 f772                              |0008: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CUSTOM:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f7
+153478: 2200 fc04                              |000a: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+15347c: 1211                                   |000c: const/4 v1, #int 1 // #1
+15347e: 1302 e110                              |000d: const/16 v2, #int 4321 // #10e1
+153482: 1a03 a829                              |000f: const-string v3, "UIBC" // string@29a8
+153486: 7040 dd27 3021                         |0011: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+15348c: 6900 fd72                              |0014: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.UIBC:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fd
+153490: 2200 fc04                              |0016: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+153494: 1221                                   |0018: const/4 v1, #int 2 // #2
+153496: 1302 441c                              |0019: const/16 v2, #int 7236 // #1c44
+15349a: 1a03 2323                              |001b: const-string v3, "RTSP" // string@2323
+15349e: 7040 dd27 3021                         |001d: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+1534a4: 6900 fa72                              |0020: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.RTSP:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fa
+1534a8: 2200 fc04                              |0022: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1534ac: 1231                                   |0024: const/4 v1, #int 3 // #3
+1534ae: 1302 be3c                              |0025: const/16 v2, #int 15550 // #3cbe
+1534b2: 1a03 2223                              |0027: const-string v3, "RTP" // string@2322
+1534b6: 7040 dd27 3021                         |0029: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+1534bc: 6900 f972                              |002c: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.RTP:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f9
+1534c0: 2200 fc04                              |002e: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1534c4: 1241                                   |0030: const/4 v1, #int 4 // #4
+1534c6: 1402 79df 0000                         |0031: const v2, #float 8.01669e-41 // #0000df79
+1534cc: 1a03 6204                              |0034: const-string v3, "AUTH" // string@0462
+1534d0: 7040 dd27 3021                         |0036: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+1534d6: 6900 f472                              |0039: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.AUTH:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f4
+1534da: 2200 fc04                              |003b: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1534de: 1251                                   |003d: const/4 v1, #int 5 // #5
+1534e0: 1402 83df 0000                         |003e: const v2, #float 8.01809e-41 // #0000df83
+1534e6: 1a03 4508                              |0041: const-string v3, "CONTROL" // string@0845
+1534ea: 7040 dd27 3021                         |0043: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+1534f0: 6900 f672                              |0046: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CONTROL:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f6
+1534f4: 2200 fc04                              |0048: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1534f8: 1261                                   |004a: const/4 v1, #int 6 // #6
+1534fa: 1402 8ddf 0000                         |004b: const v2, #float 8.01949e-41 // #0000df8d
+153500: 1a03 d61d                              |004e: const-string v3, "MEDIA" // string@1dd6
+153504: 7040 dd27 3021                         |0050: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+15350a: 6900 f872                              |0053: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.MEDIA:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f8
+15350e: 2200 fc04                              |0055: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+153512: 1271                                   |0057: const/4 v1, #int 7 // #7
+153514: 1402 97df 0000                         |0058: const v2, #float 8.02089e-41 // #0000df97
+15351a: 1a03 e223                              |005b: const-string v3, "SENSOR" // string@23e2
+15351e: 7040 dd27 3021                         |005d: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+153524: 6900 fb72                              |0060: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.SENSOR:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fb
+153528: 2200 fc04                              |0062: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+15352c: 1301 0800                              |0064: const/16 v1, #int 8 // #8
+153530: 1402 a1df 0000                         |0066: const v2, #float 8.02229e-41 // #0000dfa1
+153536: 1a03 1a08                              |0069: const-string v3, "CERT" // string@081a
+15353a: 7040 dd27 3021                         |006b: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+153540: 6900 f572                              |006e: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CERT:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f5
+153544: 2200 fc04                              |0070: new-instance v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+153548: 1301 0900                              |0072: const/16 v1, #int 9 // #9
+15354c: 1302 8127                              |0074: const/16 v2, #int 10113 // #2781
+153550: 1a03 ef23                              |0076: const-string v3, "SHARE" // string@23ef
+153554: 7040 dd27 3021                         |0078: invoke-direct {v0, v3, v1, v2}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.<init>:(Ljava/lang/String;II)V // method@27dd
+15355a: 6900 fc72                              |007b: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.SHARE:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72fc
+15355e: 7100 db27 0000                         |007d: invoke-static {}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.$values:()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // method@27db
+153564: 0c00                                   |0080: move-result-object v0
+153566: 6900 f372                              |0081: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.$VALUES:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f3
+15356a: 1200                                   |0083: const/4 v0, #int 0 // #0
+15356c: 6900 ff72                              |0084: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mValues:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72ff
+153570: 0e00                                   |0086: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;II)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 3
+      insns size    : 6 16-bit code units
+153574:                                        |[153574] com.miui.carlink.databus.protocol.channel.socket.ChannelType.<init>:(Ljava/lang/String;II)V
+153584: 7030 0234 1002                         |0000: invoke-direct {v0, v1, v2}, Ljava/lang/Enum;.<init>:(Ljava/lang/String;I)V // method@3402
+15358a: 5903 fe72                              |0003: iput v3, v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mPort:I // field@72fe
+15358e: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'fromPort'
+      type          : '(I)Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 0
+      insns size    : 29 16-bit code units
+153364:                                        |[153364] com.miui.carlink.databus.protocol.channel.socket.ChannelType.fromPort:(I)Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;
+153374: 6200 ff72                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mValues:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72ff
+153378: 3900 0800                              |0002: if-nez v0, 000a // +0008
+15337c: 7100 e127 0000                         |0004: invoke-static {}, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.values:()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // method@27e1
+153382: 0c00                                   |0007: move-result-object v0
+153384: 6900 ff72                              |0008: sput-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mValues:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72ff
+153388: 1200                                   |000a: const/4 v0, #int 0 // #0
+15338a: 6201 ff72                              |000b: sget-object v1, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mValues:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72ff
+15338e: 2112                                   |000d: array-length v2, v1
+153390: 3520 0c00                              |000e: if-ge v0, v2, 001a // +000c
+153394: 4601 0100                              |0010: aget-object v1, v1, v0
+153398: 5212 fe72                              |0012: iget v2, v1, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mPort:I // field@72fe
+15339c: 3332 0300                              |0014: if-ne v2, v3, 0017 // +0003
+1533a0: 1101                                   |0016: return-object v1
+1533a2: d800 0001                              |0017: add-int/lit8 v0, v0, #int 1 // #01
+1533a6: 28f2                                   |0019: goto 000b // -000e
+1533a8: 6203 f772                              |001a: sget-object v3, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.CUSTOM:Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f7
+1533ac: 1103                                   |001c: return-object v3
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'valueOf'
+      type          : '(Ljava/lang/String;)Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+1533b0:                                        |[1533b0] com.miui.carlink.databus.protocol.channel.socket.ChannelType.valueOf:(Ljava/lang/String;)Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;
+1533c0: 1c00 fc04                              |0000: const-class v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1533c4: 7120 0534 1000                         |0002: invoke-static {v0, v1}, Ljava/lang/Enum;.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum; // method@3405
+1533ca: 0c01                                   |0005: move-result-object v1
+1533cc: 1f01 fc04                              |0006: check-cast v1, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@04fc
+1533d0: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'values'
+      type          : '()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 9 16-bit code units
+153418:                                        |[153418] com.miui.carlink.databus.protocol.channel.socket.ChannelType.values:()[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;
+153428: 6200 f372                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.$VALUES:[Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // field@72f3
+15342c: 6e10 6646 0000                         |0002: invoke-virtual {v0}, [Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.clone:()Ljava/lang/Object; // method@4666
+153432: 0c00                                   |0005: move-result-object v0
+153434: 1f00 af0b                              |0006: check-cast v0, [Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType; // type@0baf
+153438: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;)
+      name          : 'getPort'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+15343c:                                        |[15343c] com.miui.carlink.databus.protocol.channel.socket.ChannelType.getPort:()I
+15344c: 5200 fe72                              |0000: iget v0, v0, Lcom/miui/carlink/databus/protocol/channel/socket/ChannelType;.mPort:I // field@72fe
+153450: 0f00                                   |0002: return v0
+      catches       : (none)
+
+  source_file_idx   : 2325 (ChannelType.java)
+

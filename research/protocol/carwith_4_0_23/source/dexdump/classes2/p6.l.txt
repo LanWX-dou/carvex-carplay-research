@@ -1,0 +1,152 @@
+Class #2638            -
+  Class descriptor  : 'Lp6/l;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lp6/l;)
+      name          : 'a'
+      type          : 'Lcom/miui/carlink/castfwk/wireless/bt/x;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lp6/l;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+3b5a28:                                        |[3b5a28] p6.l.<clinit>:()V
+3b5a38: 2200 0c13                              |0000: new-instance v0, Lcom/miui/carlink/castfwk/wireless/bt/x; // type@130c
+3b5a3c: 7010 bd78 0000                         |0002: invoke-direct {v0}, Lcom/miui/carlink/castfwk/wireless/bt/x;.<init>:()V // method@78bd
+3b5a42: 6900 75fc                              |0005: sput-object v0, Lp6/l;.a:Lcom/miui/carlink/castfwk/wireless/bt/x; // field@fc75
+3b5a46: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lp6/l;)
+      name          : 'a'
+      type          : '()Lcom/miui/carlink/castfwk/wireless/bt/x;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 3 16-bit code units
+3b598c:                                        |[3b598c] p6.l.a:()Lcom/miui/carlink/castfwk/wireless/bt/x;
+3b599c: 6200 75fc                              |0000: sget-object v0, Lp6/l;.a:Lcom/miui/carlink/castfwk/wireless/bt/x; // field@fc75
+3b59a0: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lp6/l;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 49 16-bit code units
+3b59a4:                                        |[3b59a4] p6.l.b:(Landroid/content/Context;)Ljava/lang/String;
+3b59b4: 6e10 6e01 0200                         |0000: invoke-virtual {v2}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@016e
+3b59ba: 0c00                                   |0003: move-result-object v0
+3b59bc: 6e10 6f01 0200                         |0004: invoke-virtual {v2}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@016f
+3b59c2: 0c02                                   |0007: move-result-object v2
+3b59c4: 1201                                   |0008: const/4 v1, #int 0 // #0
+3b59c6: 6e30 dc01 2001                         |0009: invoke-virtual {v0, v2, v1}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@01dc
+3b59cc: 0c02                                   |000c: move-result-object v2
+3b59ce: 5222 5e00                              |000d: iget v2, v2, Landroid/content/pm/PackageInfo;.versionCode:I // field@005e
+3b59d2: 7110 d381 0200                         |000f: invoke-static {v2}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@81d3
+3b59d8: 0c02                                   |0012: move-result-object v2
+3b59da: 1102                                   |0013: return-object v2
+3b59dc: 0d02                                   |0014: move-exception v2
+3b59de: 2200 aa14                              |0015: new-instance v0, Ljava/lang/StringBuilder; // type@14aa
+3b59e2: 7010 e381 0000                         |0017: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+3b59e8: 1a01 6a17                              |001a: const-string v1, "Exception: " // string@176a
+3b59ec: 6e20 ee81 1000                         |001c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+3b59f2: 6e10 1a82 0200                         |001f: invoke-virtual {v2}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@821a
+3b59f8: 0c02                                   |0022: move-result-object v2
+3b59fa: 6e20 ee81 2000                         |0023: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+3b5a00: 6e10 fd81 0000                         |0026: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+3b5a06: 0c02                                   |0029: move-result-object v2
+3b5a08: 1a00 9511                              |002a: const-string v0, "CloudControlUtil" // string@1195
+3b5a0c: 7120 7b0e 2000                         |002c: invoke-static {v0, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7b
+3b5a12: 1202                                   |002f: const/4 v2, #int 0 // #0
+3b5a14: 1102                                   |0030: return-object v2
+      catches       : 1
+        0x0000 - 0x0013
+          Ljava/lang/Exception; -> 0x0014
+
+    #3              : (in Lp6/l;)
+      name          : 'c'
+      type          : '()Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 3
+      insns size    : 30 16-bit code units
+3b5940:                                        |[3b5940] p6.l.c:()Z
+3b5950: 7100 580c 0000                         |0000: invoke-static {}, Lcom/blankj/utilcode/util/r;.a:()Landroid/app/Application; // method@0c58
+3b5956: 0c00                                   |0003: move-result-object v0
+3b5958: 6e10 6401 0000                         |0004: invoke-virtual {v0}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@0164
+3b595e: 0c00                                   |0007: move-result-object v0
+3b5960: 1a01 96c2                              |0008: const-string v1, "ucar_cloud_switch_name" // string@c296
+3b5964: 1202                                   |000a: const/4 v2, #int 0 // #0
+3b5966: 6e30 7101 1002                         |000b: invoke-virtual {v0, v1, v2}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+3b596c: 0c00                                   |000e: move-result-object v0
+3b596e: 1a01 95c2                              |000f: const-string v1, "ucar_cloud_switch_key" // string@c295
+3b5972: 1a02 5d9f                              |0011: const-string v2, "off" // string@9f5d
+3b5976: 7230 d001 1002                         |0013: invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;.getString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@01d0
+3b597c: 0c00                                   |0016: move-result-object v0
+3b597e: 1a01 7e9f                              |0017: const-string v1, "on" // string@9f7e
+3b5982: 7120 2805 0100                         |0019: invoke-static {v1, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+3b5988: 0a00                                   |001c: move-result v0
+3b598a: 0f00                                   |001d: return v0
+      catches       : (none)
+
+    #4              : (in Lp6/l;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 4
+      insns size    : 60 16-bit code units
+3b5a48:                                        |[3b5a48] p6.l.d:(Landroid/content/Context;)V
+3b5a58: 1a00 9511                              |0000: const-string v0, "CloudControlUtil" // string@1195
+3b5a5c: 1a01 0fc7                              |0002: const-string v1, "window.requestCloudControl" // string@c70f
+3b5a60: 7120 790e 1000                         |0004: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+3b5a66: 2200 1215                              |0007: new-instance v0, Ljava/util/HashMap; // type@1512
+3b5a6a: 7010 a083 0000                         |0009: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@83a0
+3b5a70: 7100 869a 0000                         |000c: invoke-static {}, Lp6/l;.c:()Z // method@9a86
+3b5a76: 0a01                                   |000f: move-result v1
+3b5a78: 1a02 2dc2                              |0010: const-string v2, "uCarAppVersion" // string@c22d
+3b5a7c: 3801 0800                              |0012: if-eqz v1, 001a // +0008
+3b5a80: 1a03 bf6e                              |0014: const-string v3, "dev_version" // string@6ebf
+3b5a84: 7230 0284 2003                         |0016: invoke-interface {v0, v2, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+3b5a8a: 2814                                   |0019: goto 002d // +0014
+3b5a8c: 7100 5278 0000                         |001a: invoke-static {}, Lcom/miui/carlink/castfwk/CastController;.isAndroidVOrAbove:()Z // method@7852
+3b5a92: 0a01                                   |001d: move-result v1
+3b5a94: 3801 0a00                              |001e: if-eqz v1, 0028 // +000a
+3b5a98: 7110 859a 0300                         |0020: invoke-static {v3}, Lp6/l;.b:(Landroid/content/Context;)Ljava/lang/String; // method@9a85
+3b5a9e: 0c03                                   |0023: move-result-object v3
+3b5aa0: 7230 0284 2003                         |0024: invoke-interface {v0, v2, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+3b5aa6: 2806                                   |0027: goto 002d // +0006
+3b5aa8: 1a03 8107                              |0028: const-string v3, "999999999" // string@0781
+3b5aac: 7230 0284 2003                         |002a: invoke-interface {v0, v2, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+3b5ab2: 7100 9585 0000                         |002d: invoke-static {}, Ll2/a;.c:()Ll2/a; // method@8595
+3b5ab8: 0c03                                   |0030: move-result-object v3
+3b5aba: 2201 ef18                              |0031: new-instance v1, Lp6/l$a; // type@18ef
+3b5abe: 7010 679a 0100                         |0033: invoke-direct {v1}, Lp6/l$a;.<init>:()V // method@9a67
+3b5ac4: 1a02 d27f                              |0036: const-string v2, "https://carwith.link.miui.com/api/carLink/getConfig" // string@7fd2
+3b5ac8: 6e40 9685 0312                         |0038: invoke-virtual {v3, v0, v2, v1}, Ll2/a;.d:(Ljava/util/Map;Ljava/lang/String;Ll2/e;)V // method@8596
+3b5ace: 0e00                                   |003b: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 4502 (CloudControlUtil.java)
+

@@ -1,0 +1,459 @@
+Class #7024            -
+  Class descriptor  : 'Ltj/d;'
+  Access flags      : 0x0401 (PUBLIC ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljr/a;'
+  Static fields     -
+    #0              : (in Ltj/d;)
+      name          : 'a'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Ltj/d;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 20 16-bit code units
+517e9c:                                        |[517e9c] tj.d.<clinit>:()V
+517eac: 1a00 b5e7                              |0000: const-string v0, "rx2.buffer-size" // string@e7b5
+517eb0: 1301 8000                              |0002: const/16 v1, #int 128 // #80
+517eb4: 7120 e0bb 1000                         |0004: invoke-static {v0, v1}, Ljava/lang/Integer;.getInteger:(Ljava/lang/String;I)Ljava/lang/Integer; // method@bbe0
+517eba: 0c00                                   |0007: move-result-object v0
+517ebc: 6e10 e3bb 0000                         |0008: invoke-virtual {v0}, Ljava/lang/Integer;.intValue:()I // method@bbe3
+517ec2: 0a00                                   |000b: move-result v0
+517ec4: 1211                                   |000c: const/4 v1, #int 1 // #1
+517ec6: 7120 13bc 0100                         |000d: invoke-static {v1, v0}, Ljava/lang/Math;.max:(II)I // method@bc13
+517ecc: 0a00                                   |0010: move-result v0
+517ece: 6700 62fa                              |0011: sput v0, Ltj/d;.a:I // field@fa62
+517ed2: 0e00                                   |0013: return-void
+      catches       : (none)
+
+    #1              : (in Ltj/d;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+517ed4:                                        |[517ed4] tj.d.<init>:()V
+517ee4: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+517eea: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Ltj/d;)
+      name          : 'b'
+      type          : '()I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 3 16-bit code units
+517b64:                                        |[517b64] tj.d.b:()I
+517b74: 6000 62fa                              |0000: sget v0, Ltj/d;.a:I // field@fa62
+517b78: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #3              : (in Ltj/d;)
+      name          : 'c'
+      type          : '(Ljr/a;Ljr/a;Lzj/c;)Ltj/d;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 2
+      insns size    : 28 16-bit code units
+517b7c:                                        |[517b7c] tj.d.c:(Ljr/a;Ljr/a;Lzj/c;)Ltj/d;
+517b8c: 1a00 79f4                              |0000: const-string v0, "source1 is null" // string@f479
+517b90: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517b96: 1a00 7af4                              |0005: const-string v0, "source2 is null" // string@f47a
+517b9a: 7120 5e87 0300                         |0007: invoke-static {v3, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517ba0: 7110 5887 0400                         |000a: invoke-static {v4}, Lbk/a;.c:(Lzj/c;)Lzj/h; // method@8758
+517ba6: 0c04                                   |000d: move-result-object v4
+517ba8: 1220                                   |000e: const/4 v0, #int 2 // #2
+517baa: 2300 9027                              |000f: new-array v0, v0, [Ljr/a; // type@2790
+517bae: 1201                                   |0011: const/4 v1, #int 0 // #0
+517bb0: 4d02 0001                              |0012: aput-object v2, v0, v1
+517bb4: 1212                                   |0014: const/4 v2, #int 1 // #1
+517bb6: 4d03 0002                              |0015: aput-object v3, v0, v2
+517bba: 7120 3fe0 0400                         |0017: invoke-static {v4, v0}, Ltj/d;.d:(Lzj/h;[Ljr/a;)Ltj/d; // method@e03f
+517bc0: 0c02                                   |001a: move-result-object v2
+517bc2: 1102                                   |001b: return-object v2
+      catches       : (none)
+
+    #4              : (in Ltj/d;)
+      name          : 'd'
+      type          : '(Lzj/h;[Ljr/a;)Ltj/d;'
+      access        : 0x0089 (PUBLIC STATIC VARARGS)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 9 16-bit code units
+517c18:                                        |[517c18] tj.d.d:(Lzj/h;[Ljr/a;)Ltj/d;
+517c28: 7100 3de0 0000                         |0000: invoke-static {}, Ltj/d;.b:()I // method@e03d
+517c2e: 0a00                                   |0003: move-result v0
+517c30: 7130 40e0 1200                         |0004: invoke-static {v2, v1, v0}, Ltj/d;.e:([Ljr/a;Lzj/h;I)Ltj/d; // method@e040
+517c36: 0c01                                   |0007: move-result-object v1
+517c38: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #5              : (in Ltj/d;)
+      name          : 'e'
+      type          : '([Ljr/a;Lzj/h;I)Ltj/d;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 5
+      insns size    : 34 16-bit code units
+517bc4:                                        |[517bc4] tj.d.e:([Ljr/a;Lzj/h;I)Ltj/d;
+517bd4: 1a00 80f4                              |0000: const-string v0, "sources is null" // string@f480
+517bd8: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517bde: 2120                                   |0005: array-length v0, v2
+517be0: 3900 0700                              |0006: if-nez v0, 000d // +0007
+517be4: 7100 42e0 0000                         |0008: invoke-static {}, Ltj/d;.g:()Ltj/d; // method@e042
+517bea: 0c02                                   |000b: move-result-object v2
+517bec: 1102                                   |000c: return-object v2
+517bee: 1a00 4f8f                              |000d: const-string v0, "combiner is null" // string@8f4f
+517bf2: 7120 5e87 0300                         |000f: invoke-static {v3, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517bf8: 1a00 3e89                              |0012: const-string v0, "bufferSize" // string@893e
+517bfc: 7120 5f87 0400                         |0014: invoke-static {v4, v0}, Lbk/b;.e:(ILjava/lang/String;)I // method@875f
+517c02: 2200 201c                              |0017: new-instance v0, Lio/reactivex/internal/operators/flowable/b; // type@1c20
+517c06: 1201                                   |0019: const/4 v1, #int 0 // #0
+517c08: 7051 54b6 2043                         |001a: invoke-direct {v0, v2, v3, v4, v1}, Lio/reactivex/internal/operators/flowable/b;.<init>:([Ljr/a;Lzj/h;IZ)V // method@b654
+517c0e: 7110 d4b2 0000                         |001d: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517c14: 0c02                                   |0020: move-result-object v2
+517c16: 1102                                   |0021: return-object v2
+      catches       : (none)
+
+    #6              : (in Ltj/d;)
+      name          : 'g'
+      type          : '()Ltj/d;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 7 16-bit code units
+517c3c:                                        |[517c3c] tj.d.g:()Ltj/d;
+517c4c: 6200 2deb                              |0000: sget-object v0, Lio/reactivex/internal/operators/flowable/d;.b:Ltj/d; // field@eb2d
+517c50: 7110 d4b2 0000                         |0002: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517c56: 0c00                                   |0005: move-result-object v0
+517c58: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #7              : (in Ltj/d;)
+      name          : 'j'
+      type          : '(Ljava/util/concurrent/Callable;)Ltj/d;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 15 16-bit code units
+517c8c:                                        |[517c8c] tj.d.j:(Ljava/util/concurrent/Callable;)Ltj/d;
+517c9c: 1a00 a0f6                              |0000: const-string v0, "supplier is null" // string@f6a0
+517ca0: 7120 5e87 0100                         |0002: invoke-static {v1, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517ca6: 2200 271c                              |0005: new-instance v0, Lio/reactivex/internal/operators/flowable/f; // type@1c27
+517caa: 7020 6fb6 1000                         |0007: invoke-direct {v0, v1}, Lio/reactivex/internal/operators/flowable/f;.<init>:(Ljava/util/concurrent/Callable;)V // method@b66f
+517cb0: 7110 d4b2 0000                         |000a: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517cb6: 0c01                                   |000d: move-result-object v1
+517cb8: 1101                                   |000e: return-object v1
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Ltj/d;)
+      name          : 'a'
+      type          : '(Ljr/b;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 24 16-bit code units
+517eec:                                        |[517eec] tj.d.a:(Ljr/b;)V
+517efc: 2020 d224                              |0000: instance-of v0, v2, Ltj/e; // type@24d2
+517f00: 3800 0800                              |0002: if-eqz v0, 000a // +0008
+517f04: 1f02 d224                              |0004: check-cast v2, Ltj/e; // type@24d2
+517f08: 6e20 4ce0 2100                         |0006: invoke-virtual {v1, v2}, Ltj/d;.q:(Ltj/e;)V // method@e04c
+517f0e: 280e                                   |0009: goto 0017 // +000e
+517f10: 1a00 c1e7                              |000a: const-string v0, "s is null" // string@e7c1
+517f14: 7120 5e87 0200                         |000c: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517f1a: 2200 8d1c                              |000f: new-instance v0, Lio/reactivex/internal/subscribers/StrictSubscriber; // type@1c8d
+517f1e: 7020 aab8 2000                         |0011: invoke-direct {v0, v2}, Lio/reactivex/internal/subscribers/StrictSubscriber;.<init>:(Ljr/b;)V // method@b8aa
+517f24: 6e20 4ce0 0100                         |0014: invoke-virtual {v1, v0}, Ltj/d;.q:(Ltj/e;)V // method@e04c
+517f2a: 0e00                                   |0017: return-void
+      catches       : (none)
+
+    #1              : (in Ltj/d;)
+      name          : 'f'
+      type          : '(J)Ltj/o;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 5
+      insns size    : 40 16-bit code units
+517e1c:                                        |[517e1c] tj.d.f:(J)Ltj/o;
+517e2c: 1600 0000                              |0000: const-wide/16 v0, #int 0 // #0
+517e30: 3100 0300                              |0002: cmp-long v0, v3, v0
+517e34: 3a00 0d00                              |0004: if-ltz v0, 0011 // +000d
+517e38: 2200 221c                              |0006: new-instance v0, Lio/reactivex/internal/operators/flowable/c; // type@1c22
+517e3c: 1201                                   |0008: const/4 v1, #int 0 // #0
+517e3e: 7051 5db6 2043                         |0009: invoke-direct {v0, v2, v3, v4, v1}, Lio/reactivex/internal/operators/flowable/c;.<init>:(Ltj/d;JLjava/lang/Object;)V // method@b65d
+517e44: 7110 d7b2 0000                         |000c: invoke-static {v0}, Lgk/a;.n:(Ltj/o;)Ltj/o; // method@b2d7
+517e4a: 0c02                                   |000f: move-result-object v2
+517e4c: 1102                                   |0010: return-object v2
+517e4e: 2202 2c1d                              |0011: new-instance v2, Ljava/lang/IndexOutOfBoundsException; // type@1d2c
+517e52: 2200 4f1d                              |0013: new-instance v0, Ljava/lang/StringBuilder; // type@1d4f
+517e56: 7010 9abc 0000                         |0015: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+517e5c: 1a01 65ac                              |0018: const-string v1, "index >= 0 required but it was " // string@ac65
+517e60: 6e20 a5bc 1000                         |001a: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+517e66: 6e30 a1bc 3004                         |001d: invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@bca1
+517e6c: 6e10 b7bc 0000                         |0020: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+517e72: 0c03                                   |0023: move-result-object v3
+517e74: 7020 dbbb 3200                         |0024: invoke-direct {v2, v3}, Ljava/lang/IndexOutOfBoundsException;.<init>:(Ljava/lang/String;)V // method@bbdb
+517e7a: 2702                                   |0027: throw v2
+      catches       : (none)
+
+    #2              : (in Ltj/d;)
+      name          : 'h'
+      type          : '(Lzj/j;)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 15 16-bit code units
+517c5c:                                        |[517c5c] tj.d.h:(Lzj/j;)Ltj/d;
+517c6c: 1a00 a6e1                              |0000: const-string v0, "predicate is null" // string@e1a6
+517c70: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517c76: 2200 261c                              |0005: new-instance v0, Lio/reactivex/internal/operators/flowable/e; // type@1c26
+517c7a: 7030 6db6 1002                         |0007: invoke-direct {v0, v1, v2}, Lio/reactivex/internal/operators/flowable/e;.<init>:(Ltj/d;Lzj/j;)V // method@b66d
+517c80: 7110 d4b2 0000                         |000a: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517c86: 0c01                                   |000d: move-result-object v1
+517c88: 1101                                   |000e: return-object v1
+      catches       : (none)
+
+    #3              : (in Ltj/d;)
+      name          : 'i'
+      type          : '()Ltj/o;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 7 16-bit code units
+517e7c:                                        |[517e7c] tj.d.i:()Ltj/o;
+517e8c: 1600 0000                              |0000: const-wide/16 v0, #int 0 // #0
+517e90: 6e30 41e0 0201                         |0002: invoke-virtual {v2, v0, v1}, Ltj/d;.f:(J)Ltj/o; // method@e041
+517e96: 0c02                                   |0005: move-result-object v2
+517e98: 1102                                   |0006: return-object v2
+      catches       : (none)
+
+    #4              : (in Ltj/d;)
+      name          : 'k'
+      type          : '(Ltj/n;)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 4
+      insns size    : 10 16-bit code units
+517cbc:                                        |[517cbc] tj.d.k:(Ltj/n;)Ltj/d;
+517ccc: 1200                                   |0000: const/4 v0, #int 0 // #0
+517cce: 7100 3de0 0000                         |0001: invoke-static {}, Ltj/d;.b:()I // method@e03d
+517cd4: 0a01                                   |0004: move-result v1
+517cd6: 6e40 47e0 3210                         |0005: invoke-virtual {v2, v3, v0, v1}, Ltj/d;.l:(Ltj/n;ZI)Ltj/d; // method@e047
+517cdc: 0c02                                   |0008: move-result-object v2
+517cde: 1102                                   |0009: return-object v2
+      catches       : (none)
+
+    #5              : (in Ltj/d;)
+      name          : 'l'
+      type          : '(Ltj/n;ZI)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 5
+      insns size    : 20 16-bit code units
+517ce0:                                        |[517ce0] tj.d.l:(Ltj/n;ZI)Ltj/d;
+517cf0: 1a00 aee9                              |0000: const-string v0, "scheduler is null" // string@e9ae
+517cf4: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517cfa: 1a00 3e89                              |0005: const-string v0, "bufferSize" // string@893e
+517cfe: 7120 5f87 0400                         |0007: invoke-static {v4, v0}, Lbk/b;.e:(ILjava/lang/String;)I // method@875f
+517d04: 2200 301c                              |000a: new-instance v0, Lio/reactivex/internal/operators/flowable/k; // type@1c30
+517d08: 7054 afb6 1032                         |000c: invoke-direct {v0, v1, v2, v3, v4}, Lio/reactivex/internal/operators/flowable/k;.<init>:(Ltj/d;Ltj/n;ZI)V // method@b6af
+517d0e: 7110 d4b2 0000                         |000f: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517d14: 0c01                                   |0012: move-result-object v1
+517d16: 1101                                   |0013: return-object v1
+      catches       : (none)
+
+    #6              : (in Ltj/d;)
+      name          : 'm'
+      type          : '()Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 4
+      insns size    : 11 16-bit code units
+517d18:                                        |[517d18] tj.d.m:()Ltj/d;
+517d28: 7100 3de0 0000                         |0000: invoke-static {}, Ltj/d;.b:()I // method@e03d
+517d2e: 0a00                                   |0003: move-result v0
+517d30: 1201                                   |0004: const/4 v1, #int 0 // #0
+517d32: 1212                                   |0005: const/4 v2, #int 1 // #1
+517d34: 6e40 49e0 0321                         |0006: invoke-virtual {v3, v0, v1, v2}, Ltj/d;.n:(IZZ)Ltj/d; // method@e049
+517d3a: 0c03                                   |0009: move-result-object v3
+517d3c: 1103                                   |000a: return-object v3
+      catches       : (none)
+
+    #7              : (in Ltj/d;)
+      name          : 'n'
+      type          : '(IZZ)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 4
+      outs          : 6
+      insns size    : 22 16-bit code units
+517d40:                                        |[517d40] tj.d.n:(IZZ)Ltj/d;
+517d50: 1a00 bf8a                              |0000: const-string v0, "capacity" // string@8abf
+517d54: 7120 5f87 0800                         |0002: invoke-static {v8, v0}, Lbk/b;.e:(ILjava/lang/String;)I // method@875f
+517d5a: 2200 321c                              |0005: new-instance v0, Lio/reactivex/internal/operators/flowable/l; // type@1c32
+517d5e: 6206 c961                              |0007: sget-object v6, Lbk/a;.c:Lzj/a; // field@61c9
+517d62: 0701                                   |0009: move-object v1, v0
+517d64: 0772                                   |000a: move-object v2, v7
+517d66: 0183                                   |000b: move v3, v8
+517d68: 01a4                                   |000c: move v4, v10
+517d6a: 0195                                   |000d: move v5, v9
+517d6c: 7606 beb6 0100                         |000e: invoke-direct/range {v1, v2, v3, v4, v5, v6}, Lio/reactivex/internal/operators/flowable/l;.<init>:(Ltj/d;IZZLzj/a;)V // method@b6be
+517d72: 7110 d4b2 0000                         |0011: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517d78: 0c07                                   |0014: move-result-object v7
+517d7a: 1107                                   |0015: return-object v7
+      catches       : (none)
+
+    #8              : (in Ltj/d;)
+      name          : 'o'
+      type          : '()Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 10 16-bit code units
+517d7c:                                        |[517d7c] tj.d.o:()Ltj/d;
+517d8c: 2200 341c                              |0000: new-instance v0, Lio/reactivex/internal/operators/flowable/m; // type@1c34
+517d90: 7020 c7b6 1000                         |0002: invoke-direct {v0, v1}, Lio/reactivex/internal/operators/flowable/m;.<init>:(Ltj/d;)V // method@b6c7
+517d96: 7110 d4b2 0000                         |0005: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517d9c: 0c01                                   |0008: move-result-object v1
+517d9e: 1101                                   |0009: return-object v1
+      catches       : (none)
+
+    #9              : (in Ltj/d;)
+      name          : 'p'
+      type          : '()Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 10 16-bit code units
+517da0:                                        |[517da0] tj.d.p:()Ltj/d;
+517db0: 2200 381c                              |0000: new-instance v0, Lio/reactivex/internal/operators/flowable/o; // type@1c38
+517db4: 7020 dcb6 1000                         |0002: invoke-direct {v0, v1}, Lio/reactivex/internal/operators/flowable/o;.<init>:(Ltj/d;)V // method@b6dc
+517dba: 7110 d4b2 0000                         |0005: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517dc0: 0c01                                   |0008: move-result-object v1
+517dc2: 1101                                   |0009: return-object v1
+      catches       : (none)
+
+    #10              : (in Ltj/d;)
+      name          : 'q'
+      type          : '(Ltj/e;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 40 16-bit code units
+517f2c:                                        |[517f2c] tj.d.q:(Ltj/e;)V
+517f3c: 1a00 c1e7                              |0000: const-string v0, "s is null" // string@e7c1
+517f40: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517f46: 7120 dcb2 2100                         |0005: invoke-static {v1, v2}, Lgk/a;.s:(Ltj/d;Ljr/b;)Ljr/b; // method@b2dc
+517f4c: 0c02                                   |0008: move-result-object v2
+517f4e: 1a00 626f                              |0009: const-string v0, "The RxJavaPlugins.onSubscribe hook returned a null FlowableSubscriber. Please check the handler provided to RxJavaPlugins.setOnFlowableSubscribe for invalid null returns. Further reading: https://github.com/ReactiveX/RxJava/wiki/Plugins" // string@6f62
+517f52: 7120 5e87 0200                         |000b: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517f58: 6e20 4de0 2100                         |000e: invoke-virtual {v1, v2}, Ltj/d;.r:(Ljr/b;)V // method@e04d
+517f5e: 0e00                                   |0011: return-void
+517f60: 0d01                                   |0012: move-exception v1
+517f62: 2803                                   |0013: goto 0016 // +0003
+517f64: 0d01                                   |0014: move-exception v1
+517f66: 2812                                   |0015: goto 0027 // +0012
+517f68: 7110 5be3 0100                         |0016: invoke-static {v1}, Lxj/a;.b:(Ljava/lang/Throwable;)V // method@e35b
+517f6e: 7110 d9b2 0100                         |0019: invoke-static {v1}, Lgk/a;.p:(Ljava/lang/Throwable;)V // method@b2d9
+517f74: 2202 3c1d                              |001c: new-instance v2, Ljava/lang/NullPointerException; // type@1d3c
+517f78: 1a00 d40d                              |001e: const-string v0, "Actually not, but can't throw other exceptions due to RS" // string@0dd4
+517f7c: 7020 29bc 0200                         |0020: invoke-direct {v2, v0}, Ljava/lang/NullPointerException;.<init>:(Ljava/lang/String;)V // method@bc29
+517f82: 6e20 ecbc 1200                         |0023: invoke-virtual {v2, v1}, Ljava/lang/Throwable;.initCause:(Ljava/lang/Throwable;)Ljava/lang/Throwable; // method@bcec
+517f88: 2702                                   |0026: throw v2
+517f8a: 2701                                   |0027: throw v1
+      catches       : 1
+        0x0005 - 0x0011
+          Ljava/lang/NullPointerException; -> 0x0014
+          <any> -> 0x0012
+
+    #11              : (in Ltj/d;)
+      name          : 'r'
+      type          : '(Ljr/b;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #12              : (in Ltj/d;)
+      name          : 's'
+      type          : '(Ltj/n;)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 11 16-bit code units
+517dc4:                                        |[517dc4] tj.d.s:(Ltj/n;)Ltj/d;
+517dd4: 1a00 aee9                              |0000: const-string v0, "scheduler is null" // string@e9ae
+517dd8: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517dde: 1210                                   |0005: const/4 v0, #int 1 // #1
+517de0: 6e30 4fe0 2100                         |0006: invoke-virtual {v1, v2, v0}, Ltj/d;.t:(Ltj/n;Z)Ltj/d; // method@e04f
+517de6: 0c01                                   |0009: move-result-object v1
+517de8: 1101                                   |000a: return-object v1
+      catches       : (none)
+
+    #13              : (in Ltj/d;)
+      name          : 't'
+      type          : '(Ltj/n;Z)Ltj/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 15 16-bit code units
+517dec:                                        |[517dec] tj.d.t:(Ltj/n;Z)Ltj/d;
+517dfc: 1a00 aee9                              |0000: const-string v0, "scheduler is null" // string@e9ae
+517e00: 7120 5e87 0200                         |0002: invoke-static {v2, v0}, Lbk/b;.d:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object; // method@875e
+517e06: 2200 3b1c                              |0005: new-instance v0, Lio/reactivex/internal/operators/flowable/p; // type@1c3b
+517e0a: 7040 e9b6 1032                         |0007: invoke-direct {v0, v1, v2, v3}, Lio/reactivex/internal/operators/flowable/p;.<init>:(Ltj/d;Ltj/n;Z)V // method@b6e9
+517e10: 7110 d4b2 0000                         |000a: invoke-static {v0}, Lgk/a;.k:(Ltj/d;)Ltj/d; // method@b2d4
+517e16: 0c01                                   |000d: move-result-object v1
+517e18: 1101                                   |000e: return-object v1
+      catches       : (none)
+
+  source_file_idx   : 8974 (Flowable.java)
+

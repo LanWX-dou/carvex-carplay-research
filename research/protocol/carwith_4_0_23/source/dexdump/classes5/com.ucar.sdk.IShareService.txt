@@ -1,0 +1,71 @@
+Class #122            -
+  Class descriptor  : 'Lcom/ucar/sdk/IShareService;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+    #0              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'DESCRIPTOR'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "com.ucar.sdk.IShareService"
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'cancelTransmit'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'download'
+      type          : '(Lcom/ucar/sdk/bean/TaskInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'getRemoteDevice'
+      type          : '()Lcom/ucar/sdk/bean/DeviceInfo;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'getStorePath'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'getTransmitStatus'
+      type          : '(Ljava/lang/String;)I'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'registerShareObserver'
+      type          : '(Lcom/ucar/sdk/IShareObserver;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'setStorePath'
+      type          : '(Ljava/lang/String;)Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'startTransmit'
+      type          : '(Ljava/lang/String;Ljava/util/List;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #8              : (in Lcom/ucar/sdk/IShareService;)
+      name          : 'unregisterShareObserver'
+      type          : '(Lcom/ucar/sdk/IShareObserver;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 9000 (IShareService.java)
+

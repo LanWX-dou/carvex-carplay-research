@@ -1,0 +1,32 @@
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Android (13624864, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+JNI_OnLoad
+JNI_OnLoad: GetEnv failed, rt=%d
+JNI_OnLoad: failed to GetMethodID onError
+JNI_OnLoad: failed to GetMethodID onUuidReceived
+JNI_OnLoad: failed to find class net.easyconn.carman.JAdbd
+Java_net_easyconn_carman_JAdbd_checkself
+Java_net_easyconn_carman_JAdbd_convertFormatNeon
+Java_net_easyconn_carman_JAdbd_convertFormatNeonFull
+Java_net_easyconn_carman_JAdbd_initAdbd
+Java_net_easyconn_carman_JAdbd_releaseAdbd
+N5jadbd10SockStreamE
+SockStream(%s-%d)
+[SockStream][%d][%d]recvDown: len=%d,%02x%02x%02x%02x %02x%02x%02x%02x %02x%02x%02x%02x %02x%02x%02x%02x
+_ZN5jadbd10SockStream11handleEventEii
+_ZN5jadbd10SockStream13createTcpSockEi
+_ZN5jadbd10SockStream15createLocalSockEPKci
+_ZN5jadbd10SockStream4openEv
+_ZN5jadbd10SockStream5closeEv
+_ZN5jadbd10SockStream5readyEv
+_ZN5jadbd10SockStream8recvDownENSt6__ndk110shared_ptrINS_6PacketEEE
+_ZN5jadbd10SockStream8sendDownENSt6__ndk110shared_ptrINS_6PacketEEE
+_ZN5jadbd10SockStreamC1EPKci
+_ZN5jadbd10SockStreamC2EPKci
+_ZN5jadbd10SockStreamD0Ev
+_ZN5jadbd10SockStreamD1Ev
+_ZN5jadbd10SockStreamD2Ev
+_ZTIN5jadbd10SockStreamE
+_ZTSN5jadbd10SockStreamE
+_ZTVN5jadbd10SockStreamE
+~SockStream(%s)

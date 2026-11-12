@@ -1,0 +1,60 @@
+Class #1267            -
+  Class descriptor  : 'Lnet/easyconn/carman/sdk/IDataCallback;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'isForeground'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'isPresentationShow'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'isReceiveAudioData'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'onConnectStatusChange'
+      type          : '(Z)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'sendCaptureConfig'
+      type          : '(IILandroid/view/Surface;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'sendMemoryFile'
+      type          : '(Landroid/os/ParcelFileDescriptor;I)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'sendSharedMemory'
+      type          : '(Landroid/os/SharedMemory;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lnet/easyconn/carman/sdk/IDataCallback;)
+      name          : 'sendTouchEvent'
+      type          : '(Landroid/view/MotionEvent;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 6424 (IDataCallback.java)
+

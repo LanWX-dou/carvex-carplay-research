@@ -1,0 +1,10 @@
+{
+  "aec_model": [
+    "crux",
+    "cepheus"
+  ],
+  "small_card_timeout": 120,
+  "big_card_timeout": 30,
+  "small_card_bt_timeout": 5,
+  "big_card_bt_timeout": 5
+}

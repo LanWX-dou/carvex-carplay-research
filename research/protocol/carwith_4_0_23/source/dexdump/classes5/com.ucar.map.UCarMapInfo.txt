@@ -1,0 +1,606 @@
+Class #106            -
+  Class descriptor  : 'Lcom/ucar/map/UCarMapInfo;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljava/io/Serializable;'
+  Static fields     -
+    #0              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'BAIDU_END_TYPE_ACTIVITY_DESTROY'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 0
+    #1              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'BAIDU_END_TYPE_USER_BACK'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 1
+    #2              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'BAIDU_NAV_TYPE_CROSS'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 1
+    #3              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'BAIDU_NAV_TYPE_NAV'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 0
+    #4              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_BAIDU_END_TYPE'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "EndType"
+    #5              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_BAIDU_NAV_TYPE'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "NavType"
+    #6              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_CROSSING_ICON'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.CROSSING_ICON"
+    #7              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_DIRECTION_ICON'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.DIRECTION_ICON"
+    #8              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_DISTANCE'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.DISTANCE"
+    #9              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_DISTANCE_UNIT'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.DISTANCE_UNIT"
+    #10              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_OPERATION'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.OPERATION"
+    #11              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_PKG'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "ucar.map.bundle.pkg"
+    #12              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_TITLE_1'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.TITLE_1"
+    #13              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_TITLE_2'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.TITLE_2"
+    #14              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'KEY_WHERE'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ucar.map.bundle.WHERE"
+    #15              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'STATUS_IN_CRUSE'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 1
+    #16              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'STATUS_IN_NAV'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2
+    #17              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'STATUS_NORMAL'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'crossingIcon'
+      type          : 'Landroid/graphics/drawable/Icon;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'directionIcon'
+      type          : 'Landroid/graphics/drawable/Icon;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'distance'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'distanceUnit'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'operation'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #5              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'pkg'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #6              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'progress'
+      type          : 'I'
+      access        : 0x0002 (PRIVATE)
+    #7              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'title1'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #8              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'title2'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #9              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'where'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+1b8f78:                                        |[1b8f78] com.ucar.map.UCarMapInfo.<init>:()V
+1b8f88: 7010 e2cb 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+1b8f8e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'fromBundle'
+      type          : '(Landroid/os/Bundle;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 2
+      insns size    : 100 16-bit code units
+1b8be4:                                        |[1b8be4] com.ucar.map.UCarMapInfo.fromBundle:(Landroid/os/Bundle;)Lcom/ucar/map/UCarMapInfo;
+1b8bf4: 1a00 f0e9                              |0000: const-string v0, "ucar.map.bundle.DIRECTION_ICON" // string@e9f0
+1b8bf8: 6e20 9803 0900                         |0002: invoke-virtual {v9, v0}, Landroid/os/Bundle;.getParcelable:(Ljava/lang/String;)Landroid/os/Parcelable; // method@0398
+1b8bfe: 0c00                                   |0005: move-result-object v0
+1b8c00: 1f00 af00                              |0006: check-cast v0, Landroid/graphics/drawable/Icon; // type@00af
+1b8c04: 1a01 f5e9                              |0008: const-string v1, "ucar.map.bundle.OPERATION" // string@e9f5
+1b8c08: 6e20 7703 1900                         |000a: invoke-virtual {v9, v1}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c0e: 0c01                                   |000d: move-result-object v1
+1b8c10: 1a02 f8e9                              |000e: const-string v2, "ucar.map.bundle.WHERE" // string@e9f8
+1b8c14: 6e20 7703 2900                         |0010: invoke-virtual {v9, v2}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c1a: 0c02                                   |0013: move-result-object v2
+1b8c1c: 1a03 f1e9                              |0014: const-string v3, "ucar.map.bundle.DISTANCE" // string@e9f1
+1b8c20: 6e20 7703 3900                         |0016: invoke-virtual {v9, v3}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c26: 0c03                                   |0019: move-result-object v3
+1b8c28: 1a04 f2e9                              |001a: const-string v4, "ucar.map.bundle.DISTANCE_UNIT" // string@e9f2
+1b8c2c: 6e20 7703 4900                         |001c: invoke-virtual {v9, v4}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c32: 0c04                                   |001f: move-result-object v4
+1b8c34: 1a05 f6e9                              |0020: const-string v5, "ucar.map.bundle.TITLE_1" // string@e9f6
+1b8c38: 6e20 7703 5900                         |0022: invoke-virtual {v9, v5}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c3e: 0c05                                   |0025: move-result-object v5
+1b8c40: 1a06 f7e9                              |0026: const-string v6, "ucar.map.bundle.TITLE_2" // string@e9f7
+1b8c44: 6e20 7703 6900                         |0028: invoke-virtual {v9, v6}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c4a: 0c06                                   |002b: move-result-object v6
+1b8c4c: 1a07 f9e9                              |002c: const-string v7, "ucar.map.bundle.pkg" // string@e9f9
+1b8c50: 6e20 7703 7900                         |002e: invoke-virtual {v9, v7}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@0377
+1b8c56: 0c07                                   |0031: move-result-object v7
+1b8c58: 1a08 efe9                              |0032: const-string v8, "ucar.map.bundle.CROSSING_ICON" // string@e9ef
+1b8c5c: 6e20 9803 8900                         |0034: invoke-virtual {v9, v8}, Landroid/os/Bundle;.getParcelable:(Ljava/lang/String;)Landroid/os/Parcelable; // method@0398
+1b8c62: 0c09                                   |0037: move-result-object v9
+1b8c64: 1f09 af00                              |0038: check-cast v9, Landroid/graphics/drawable/Icon; // type@00af
+1b8c68: 2208 ae02                              |003a: new-instance v8, Lcom/ucar/map/UCarMapInfo; // type@02ae
+1b8c6c: 7010 200a 0800                         |003c: invoke-direct {v8}, Lcom/ucar/map/UCarMapInfo;.<init>:()V // method@0a20
+1b8c72: 6e20 2d0a 0800                         |003f: invoke-virtual {v8, v0}, Lcom/ucar/map/UCarMapInfo;.setDirectionIcon:(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo; // method@0a2d
+1b8c78: 0c00                                   |0042: move-result-object v0
+1b8c7a: 6e20 300a 1000                         |0043: invoke-virtual {v0, v1}, Lcom/ucar/map/UCarMapInfo;.setOperation:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a30
+1b8c80: 0c00                                   |0046: move-result-object v0
+1b8c82: 6e20 350a 2000                         |0047: invoke-virtual {v0, v2}, Lcom/ucar/map/UCarMapInfo;.setWhere:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a35
+1b8c88: 0c00                                   |004a: move-result-object v0
+1b8c8a: 6e20 2e0a 3000                         |004b: invoke-virtual {v0, v3}, Lcom/ucar/map/UCarMapInfo;.setDistance:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a2e
+1b8c90: 0c00                                   |004e: move-result-object v0
+1b8c92: 6e20 2f0a 4000                         |004f: invoke-virtual {v0, v4}, Lcom/ucar/map/UCarMapInfo;.setDistanceUnit:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a2f
+1b8c98: 0c00                                   |0052: move-result-object v0
+1b8c9a: 6e20 330a 5000                         |0053: invoke-virtual {v0, v5}, Lcom/ucar/map/UCarMapInfo;.setTitle1:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a33
+1b8ca0: 0c00                                   |0056: move-result-object v0
+1b8ca2: 6e20 340a 6000                         |0057: invoke-virtual {v0, v6}, Lcom/ucar/map/UCarMapInfo;.setTitle2:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a34
+1b8ca8: 0c00                                   |005a: move-result-object v0
+1b8caa: 7020 310a 7000                         |005b: invoke-direct {v0, v7}, Lcom/ucar/map/UCarMapInfo;.setPkg:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo; // method@0a31
+1b8cb0: 0c00                                   |005e: move-result-object v0
+1b8cb2: 6e20 2c0a 9000                         |005f: invoke-virtual {v0, v9}, Lcom/ucar/map/UCarMapInfo;.setCrossingIcon:(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo; // method@0a2c
+1b8cb8: 0c09                                   |0062: move-result-object v9
+1b8cba: 1109                                   |0063: return-object v9
+      catches       : (none)
+
+    #2              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setPkg'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d34:                                        |[1b8d34] com.ucar.map.UCarMapInfo.setPkg:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d44: 5b01 df35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.pkg:Ljava/lang/String; // field@35df
+1b8d48: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getCrossingIcon'
+      type          : '()Landroid/graphics/drawable/Icon;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8b18:                                        |[1b8b18] com.ucar.map.UCarMapInfo.getCrossingIcon:()Landroid/graphics/drawable/Icon;
+1b8b28: 5400 da35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.crossingIcon:Landroid/graphics/drawable/Icon; // field@35da
+1b8b2c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getDirectionIcon'
+      type          : '()Landroid/graphics/drawable/Icon;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8b30:                                        |[1b8b30] com.ucar.map.UCarMapInfo.getDirectionIcon:()Landroid/graphics/drawable/Icon;
+1b8b40: 5400 db35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.directionIcon:Landroid/graphics/drawable/Icon; // field@35db
+1b8b44: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getDistance'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8dac:                                        |[1b8dac] com.ucar.map.UCarMapInfo.getDistance:()Ljava/lang/String;
+1b8dbc: 5400 dc35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.distance:Ljava/lang/String; // field@35dc
+1b8dc0: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getDistanceUnit'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8dc4:                                        |[1b8dc4] com.ucar.map.UCarMapInfo.getDistanceUnit:()Ljava/lang/String;
+1b8dd4: 5400 dd35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.distanceUnit:Ljava/lang/String; // field@35dd
+1b8dd8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getOperation'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8ddc:                                        |[1b8ddc] com.ucar.map.UCarMapInfo.getOperation:()Ljava/lang/String;
+1b8dec: 5400 de35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.operation:Ljava/lang/String; // field@35de
+1b8df0: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getPkg'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8df4:                                        |[1b8df4] com.ucar.map.UCarMapInfo.getPkg:()Ljava/lang/String;
+1b8e04: 5400 df35                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.pkg:Ljava/lang/String; // field@35df
+1b8e08: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getProgress'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d94:                                        |[1b8d94] com.ucar.map.UCarMapInfo.getProgress:()I
+1b8da4: 5200 e035                              |0000: iget v0, v0, Lcom/ucar/map/UCarMapInfo;.progress:I // field@35e0
+1b8da8: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #7              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getTitle1'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8e0c:                                        |[1b8e0c] com.ucar.map.UCarMapInfo.getTitle1:()Ljava/lang/String;
+1b8e1c: 5400 e135                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.title1:Ljava/lang/String; // field@35e1
+1b8e20: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #8              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getTitle2'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8e24:                                        |[1b8e24] com.ucar.map.UCarMapInfo.getTitle2:()Ljava/lang/String;
+1b8e34: 5400 e235                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.title2:Ljava/lang/String; // field@35e2
+1b8e38: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #9              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'getWhere'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8e3c:                                        |[1b8e3c] com.ucar.map.UCarMapInfo.getWhere:()Ljava/lang/String;
+1b8e4c: 5400 e335                              |0000: iget-object v0, v0, Lcom/ucar/map/UCarMapInfo;.where:Ljava/lang/String; // field@35e3
+1b8e50: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #10              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setCrossingIcon'
+      type          : '(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8cbc:                                        |[1b8cbc] com.ucar.map.UCarMapInfo.setCrossingIcon:(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo;
+1b8ccc: 5b01 da35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.crossingIcon:Landroid/graphics/drawable/Icon; // field@35da
+1b8cd0: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #11              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setDirectionIcon'
+      type          : '(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8cd4:                                        |[1b8cd4] com.ucar.map.UCarMapInfo.setDirectionIcon:(Landroid/graphics/drawable/Icon;)Lcom/ucar/map/UCarMapInfo;
+1b8ce4: 5b01 db35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.directionIcon:Landroid/graphics/drawable/Icon; // field@35db
+1b8ce8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #12              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setDistance'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8cec:                                        |[1b8cec] com.ucar.map.UCarMapInfo.setDistance:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8cfc: 5b01 dc35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.distance:Ljava/lang/String; // field@35dc
+1b8d00: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #13              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setDistanceUnit'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d04:                                        |[1b8d04] com.ucar.map.UCarMapInfo.setDistanceUnit:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d14: 5b01 dd35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.distanceUnit:Ljava/lang/String; // field@35dd
+1b8d18: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #14              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setOperation'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d1c:                                        |[1b8d1c] com.ucar.map.UCarMapInfo.setOperation:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d2c: 5b01 de35                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.operation:Ljava/lang/String; // field@35de
+1b8d30: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #15              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setProgress'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8f90:                                        |[1b8f90] com.ucar.map.UCarMapInfo.setProgress:(I)V
+1b8fa0: 5901 e035                              |0000: iput v1, v0, Lcom/ucar/map/UCarMapInfo;.progress:I // field@35e0
+1b8fa4: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #16              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setTitle1'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d4c:                                        |[1b8d4c] com.ucar.map.UCarMapInfo.setTitle1:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d5c: 5b01 e135                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.title1:Ljava/lang/String; // field@35e1
+1b8d60: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #17              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setTitle2'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d64:                                        |[1b8d64] com.ucar.map.UCarMapInfo.setTitle2:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d74: 5b01 e235                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.title2:Ljava/lang/String; // field@35e2
+1b8d78: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #18              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'setWhere'
+      type          : '(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+1b8d7c:                                        |[1b8d7c] com.ucar.map.UCarMapInfo.setWhere:(Ljava/lang/String;)Lcom/ucar/map/UCarMapInfo;
+1b8d8c: 5b01 e335                              |0000: iput-object v1, v0, Lcom/ucar/map/UCarMapInfo;.where:Ljava/lang/String; // field@35e3
+1b8d90: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #19              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'toBundle'
+      type          : '()Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 69 16-bit code units
+1b8b48:                                        |[1b8b48] com.ucar.map.UCarMapInfo.toBundle:()Landroid/os/Bundle;
+1b8b58: 2200 db00                              |0000: new-instance v0, Landroid/os/Bundle; // type@00db
+1b8b5c: 7010 8c03 0000                         |0002: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@038c
+1b8b62: 1a01 f0e9                              |0005: const-string v1, "ucar.map.bundle.DIRECTION_ICON" // string@e9f0
+1b8b66: 5432 db35                              |0007: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.directionIcon:Landroid/graphics/drawable/Icon; // field@35db
+1b8b6a: 6e30 af03 1002                         |0009: invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;.putParcelable:(Ljava/lang/String;Landroid/os/Parcelable;)V // method@03af
+1b8b70: 1a01 f5e9                              |000c: const-string v1, "ucar.map.bundle.OPERATION" // string@e9f5
+1b8b74: 5432 de35                              |000e: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.operation:Ljava/lang/String; // field@35de
+1b8b78: 6e30 8303 1002                         |0010: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8b7e: 1a01 f8e9                              |0013: const-string v1, "ucar.map.bundle.WHERE" // string@e9f8
+1b8b82: 5432 e335                              |0015: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.where:Ljava/lang/String; // field@35e3
+1b8b86: 6e30 8303 1002                         |0017: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8b8c: 1a01 f1e9                              |001a: const-string v1, "ucar.map.bundle.DISTANCE" // string@e9f1
+1b8b90: 5432 dc35                              |001c: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.distance:Ljava/lang/String; // field@35dc
+1b8b94: 6e30 8303 1002                         |001e: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8b9a: 1a01 f2e9                              |0021: const-string v1, "ucar.map.bundle.DISTANCE_UNIT" // string@e9f2
+1b8b9e: 5432 dd35                              |0023: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.distanceUnit:Ljava/lang/String; // field@35dd
+1b8ba2: 6e30 8303 1002                         |0025: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8ba8: 1a01 f6e9                              |0028: const-string v1, "ucar.map.bundle.TITLE_1" // string@e9f6
+1b8bac: 5432 e135                              |002a: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.title1:Ljava/lang/String; // field@35e1
+1b8bb0: 6e30 8303 1002                         |002c: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8bb6: 1a01 f7e9                              |002f: const-string v1, "ucar.map.bundle.TITLE_2" // string@e9f7
+1b8bba: 5432 e235                              |0031: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.title2:Ljava/lang/String; // field@35e2
+1b8bbe: 6e30 8303 1002                         |0033: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8bc4: 1a01 f9e9                              |0036: const-string v1, "ucar.map.bundle.pkg" // string@e9f9
+1b8bc8: 5432 df35                              |0038: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.pkg:Ljava/lang/String; // field@35df
+1b8bcc: 6e30 8303 1002                         |003a: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0383
+1b8bd2: 1a01 efe9                              |003d: const-string v1, "ucar.map.bundle.CROSSING_ICON" // string@e9ef
+1b8bd6: 5433 da35                              |003f: iget-object v3, v3, Lcom/ucar/map/UCarMapInfo;.crossingIcon:Landroid/graphics/drawable/Icon; // field@35da
+1b8bda: 6e30 af03 1003                         |0041: invoke-virtual {v0, v1, v3}, Landroid/os/Bundle;.putParcelable:(Ljava/lang/String;Landroid/os/Parcelable;)V // method@03af
+1b8be0: 1100                                   |0044: return-object v0
+      catches       : (none)
+
+    #20              : (in Lcom/ucar/map/UCarMapInfo;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 138 16-bit code units
+1b8e54:                                        |[1b8e54] com.ucar.map.UCarMapInfo.toString:()Ljava/lang/String;
+1b8e64: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+1b8e68: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+1b8e6e: 1a01 4d6e                              |0005: const-string v1, "UCarMapInfo{directionIcon=" // string@6e4d
+1b8e72: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8e78: 5431 db35                              |000a: iget-object v1, v3, Lcom/ucar/map/UCarMapInfo;.directionIcon:Landroid/graphics/drawable/Icon; // field@35db
+1b8e7c: 6e20 46cc 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@cc46
+1b8e82: 1a01 bc02                              |000f: const-string v1, ", distance='" // string@02bc
+1b8e86: 6e20 47cc 1000                         |0011: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8e8c: 5431 dc35                              |0014: iget-object v1, v3, Lcom/ucar/map/UCarMapInfo;.distance:Ljava/lang/String; // field@35dc
+1b8e90: 6e20 47cc 1000                         |0016: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8e96: 1301 2700                              |0019: const/16 v1, #int 39 // #27
+1b8e9a: 6e20 40cc 1000                         |001b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8ea0: 1a02 bd02                              |001e: const-string v2, ", distanceUnit='" // string@02bd
+1b8ea4: 6e20 47cc 2000                         |0020: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8eaa: 5432 dd35                              |0023: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.distanceUnit:Ljava/lang/String; // field@35dd
+1b8eae: 6e20 47cc 2000                         |0025: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8eb4: 6e20 40cc 1000                         |0028: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8eba: 1a02 5103                              |002b: const-string v2, ", operation='" // string@0351
+1b8ebe: 6e20 47cc 2000                         |002d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8ec4: 5432 de35                              |0030: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.operation:Ljava/lang/String; // field@35de
+1b8ec8: 6e20 47cc 2000                         |0032: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8ece: 6e20 40cc 1000                         |0035: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8ed4: 1a02 da03                              |0038: const-string v2, ", where='" // string@03da
+1b8ed8: 6e20 47cc 2000                         |003a: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8ede: 5432 e335                              |003d: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.where:Ljava/lang/String; // field@35e3
+1b8ee2: 6e20 47cc 2000                         |003f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8ee8: 6e20 40cc 1000                         |0042: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8eee: 1a02 b203                              |0045: const-string v2, ", title1='" // string@03b2
+1b8ef2: 6e20 47cc 2000                         |0047: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8ef8: 5432 e135                              |004a: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.title1:Ljava/lang/String; // field@35e1
+1b8efc: 6e20 47cc 2000                         |004c: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f02: 6e20 40cc 1000                         |004f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8f08: 1a02 b303                              |0052: const-string v2, ", title2='" // string@03b3
+1b8f0c: 6e20 47cc 2000                         |0054: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f12: 5432 e235                              |0057: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.title2:Ljava/lang/String; // field@35e2
+1b8f16: 6e20 47cc 2000                         |0059: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f1c: 6e20 40cc 1000                         |005c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8f22: 1a02 b302                              |005f: const-string v2, ", crossingIcon=" // string@02b3
+1b8f26: 6e20 47cc 2000                         |0061: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f2c: 5432 da35                              |0064: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.crossingIcon:Landroid/graphics/drawable/Icon; // field@35da
+1b8f30: 6e20 46cc 2000                         |0066: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@cc46
+1b8f36: 1a02 6503                              |0069: const-string v2, ", pkg='" // string@0365
+1b8f3a: 6e20 47cc 2000                         |006b: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f40: 5432 df35                              |006e: iget-object v2, v3, Lcom/ucar/map/UCarMapInfo;.pkg:Ljava/lang/String; // field@35df
+1b8f44: 6e20 47cc 2000                         |0070: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f4a: 6e20 40cc 1000                         |0073: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8f50: 1a01 6e03                              |0076: const-string v1, ", progress=" // string@036e
+1b8f54: 6e20 47cc 1000                         |0078: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+1b8f5a: 5233 e035                              |007b: iget v3, v3, Lcom/ucar/map/UCarMapInfo;.progress:I // field@35e0
+1b8f5e: 6e20 43cc 3000                         |007d: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+1b8f64: 1303 7d00                              |0080: const/16 v3, #int 125 // #7d
+1b8f68: 6e20 40cc 3000                         |0082: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@cc40
+1b8f6e: 6e10 50cc 0000                         |0085: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+1b8f74: 0c03                                   |0088: move-result-object v3
+1b8f76: 1103                                   |0089: return-object v3
+      catches       : (none)
+
+  source_file_idx   : 28236 (UCarMapInfo.java)
+

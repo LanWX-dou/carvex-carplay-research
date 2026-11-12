@@ -1,0 +1,119 @@
+Class #6480            -
+  Class descriptor  : 'Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'categoryId'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'categoryNameKey'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'wallpapers'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+4439cc:                                        |[4439cc] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.<init>:()V
+4439dc: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+4439e2: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'getCategoryId'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443958:                                        |[443958] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.getCategoryId:()Ljava/lang/String;
+443968: 5400 01e4                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;.categoryId:Ljava/lang/String; // field@e401
+44396c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'getCategoryName'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 4
+      insns size    : 26 16-bit code units
+443970:                                        |[443970] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.getCategoryName:(Landroid/content/Context;)Ljava/lang/String;
+443980: 6e10 9804 0400                         |0000: invoke-virtual {v4}, Landroid/content/Context;.getResources:()Landroid/content/res/Resources; // method@0498
+443986: 0c00                                   |0003: move-result-object v0
+443988: 5433 02e4                              |0004: iget-object v3, v3, Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;.categoryNameKey:Ljava/lang/String; // field@e402
+44398c: 1a01 32f6                              |0006: const-string v1, "string" // string@f632
+443990: 6e10 9704 0400                         |0008: invoke-virtual {v4}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@0497
+443996: 0c02                                   |000b: move-result-object v2
+443998: 6e40 c305 3021                         |000c: invoke-virtual {v0, v3, v1, v2}, Landroid/content/res/Resources;.getIdentifier:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I // method@05c3
+44399e: 0a03                                   |000f: move-result v3
+4439a0: 3803 0700                              |0010: if-eqz v3, 0017 // +0007
+4439a4: 6e20 9a04 3400                         |0012: invoke-virtual {v4, v3}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@049a
+4439aa: 0c03                                   |0015: move-result-object v3
+4439ac: 1103                                   |0016: return-object v3
+4439ae: 1a03 0000                              |0017: const-string v3, "" // string@0000
+4439b2: 1103                                   |0019: return-object v3
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'getWallpapers'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4439b4:                                        |[4439b4] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.getWallpapers:()Ljava/util/List;
+4439c4: 5400 03e4                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;.wallpapers:Ljava/util/List; // field@e403
+4439c8: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'setCategoryId'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4439e4:                                        |[4439e4] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.setCategoryId:(Ljava/lang/String;)V
+4439f4: 5b01 01e4                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;.categoryId:Ljava/lang/String; // field@e401
+4439f8: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;)
+      name          : 'setWallpapers'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+4439fc:                                        |[4439fc] com.carwith.common.bean.WallpaperResBean$WallpaperCategorysBean.setWallpapers:(Ljava/util/List;)V
+443a0c: 5b01 03e4                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/WallpaperResBean$WallpaperCategorysBean;.wallpapers:Ljava/util/List; // field@e403
+443a10: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 30490 (WallpaperResBean.java)
+

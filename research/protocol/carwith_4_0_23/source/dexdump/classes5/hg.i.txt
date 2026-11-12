@@ -1,0 +1,319 @@
+Class #3933            -
+  Class descriptor  : 'Lhg/i;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lhg/i;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 5 16-bit code units
+42c578:                                        |[42c578] hg.i.a:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
+42c588: 7120 3dbe 1000                         |0000: invoke-static {v0, v1}, Lcom/xiaomi/passport/ui/internal/PassportJsbWebViewActivity;.r0:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@be3d
+42c58e: 0c00                                   |0003: move-result-object v0
+42c590: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #1              : (in Lhg/i;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 34 16-bit code units
+42c594:                                        |[42c594] hg.i.b:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
+42c5a4: 2200 6900                              |0000: new-instance v0, Landroid/content/Intent; // type@0069
+42c5a8: 1a01 2280                              |0002: const-string v1, "android.intent.action.VIEW" // string@8022
+42c5ac: 7020 d901 1000                         |0004: invoke-direct {v0, v1}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@01d9
+42c5b2: 7110 5b03 0400                         |0007: invoke-static {v4}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@035b
+42c5b8: 0c01                                   |000a: move-result-object v1
+42c5ba: 6e20 f401 1000                         |000b: invoke-virtual {v0, v1}, Landroid/content/Intent;.setData:(Landroid/net/Uri;)Landroid/content/Intent; // method@01f4
+42c5c0: 6e10 bb01 0300                         |000e: invoke-virtual {v3}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@01bb
+42c5c6: 0c01                                   |0011: move-result-object v1
+42c5c8: 1202                                   |0012: const/4 v2, #int 0 // #0
+42c5ca: 6e30 1c02 0102                         |0013: invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;.queryIntentActivities:(Landroid/content/Intent;I)Ljava/util/List; // method@021c
+42c5d0: 0c01                                   |0016: move-result-object v1
+42c5d2: 7210 92cd 0100                         |0017: invoke-interface {v1}, Ljava/util/List;.isEmpty:()Z // method@cd92
+42c5d8: 0a01                                   |001a: move-result v1
+42c5da: 3801 0600                              |001b: if-eqz v1, 0021 // +0006
+42c5de: 7120 84ca 4300                         |001d: invoke-static {v3, v4}, Lhg/i;.a:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca84
+42c5e4: 0c00                                   |0020: move-result-object v0
+42c5e6: 1100                                   |0021: return-object v0
+      catches       : (none)
+
+    #2              : (in Lhg/i;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+42c5e8:                                        |[42c5e8] hg.i.c:(Landroid/content/Context;)Landroid/content/Intent;
+42c5f8: 1a00 1ca5                              |0000: const-string v0, "https://account.xiaomi.com/helpcenter/faq/_/02.faqs/05.sms-and-email-verification-code/faq-1" // string@a51c
+42c5fc: 7120 84ca 0100                         |0002: invoke-static {v1, v0}, Lhg/i;.a:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca84
+42c602: 0c01                                   |0005: move-result-object v1
+42c604: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #3              : (in Lhg/i;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 59 16-bit code units
+42c608:                                        |[42c608] hg.i.d:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
+42c618: 2200 5920                              |0000: new-instance v0, Ljava/util/HashMap; // type@2059
+42c61c: 7010 67cd 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+42c622: 1a01 347c                              |0005: const-string v1, "_bannerBiz" // string@7c34
+42c626: 7230 accd 1003                         |0007: invoke-interface {v0, v1, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c62c: 2203 2723                              |000a: new-instance v3, Ltf/e$b; // type@2327
+42c630: 7010 5dda 0300                         |000c: invoke-direct {v3}, Ltf/e$b;.<init>:()V // method@da5d
+42c636: 6201 98d2                              |000f: sget-object v1, Lcom/xiaomi/passport/a;.a:Ljava/lang/String; // field@d298
+42c63a: 7120 cdce 0100                         |0011: invoke-static {v1, v0}, Ljg/e;.a:(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String; // method@cecd
+42c640: 0c00                                   |0014: move-result-object v0
+42c642: 6e20 6bda 0300                         |0015: invoke-virtual {v3, v0}, Ltf/e$b;.n:(Ljava/lang/String;)Ltf/e$b; // method@da6b
+42c648: 0c03                                   |0018: move-result-object v3
+42c64a: 7100 5bda 0000                         |0019: invoke-static {}, Ltf/e$a;.b:()Ltf/e$a; // method@da5b
+42c650: 0c00                                   |001c: move-result-object v0
+42c652: 6e20 64da 0300                         |001d: invoke-virtual {v3, v0}, Ltf/e$b;.g:(Ltf/e$a;)Ltf/e$b; // method@da64
+42c658: 0c03                                   |0020: move-result-object v3
+42c65a: 1210                                   |0021: const/4 v0, #int 1 // #1
+42c65c: 6e20 6ada 0300                         |0022: invoke-virtual {v3, v0}, Ltf/e$b;.m:(Z)Ltf/e$b; // method@da6a
+42c662: 0c03                                   |0025: move-result-object v3
+42c664: 7110 71da 0000                         |0026: invoke-static {v0}, Ltf/e$d;.a:(Z)Ltf/e$d; // method@da71
+42c66a: 0c01                                   |0029: move-result-object v1
+42c66c: 6e20 68da 1300                         |002a: invoke-virtual {v3, v1}, Ltf/e$b;.k:(Ltf/e$d;)Ltf/e$b; // method@da68
+42c672: 0c03                                   |002d: move-result-object v3
+42c674: 6e20 66da 0300                         |002e: invoke-virtual {v3, v0}, Ltf/e$b;.i:(Z)Ltf/e$b; // method@da66
+42c67a: 0c03                                   |0031: move-result-object v3
+42c67c: 6e10 65da 0300                         |0032: invoke-virtual {v3}, Ltf/e$b;.h:()Ltf/e; // method@da65
+42c682: 0c03                                   |0035: move-result-object v3
+42c684: 7120 3fbe 3200                         |0036: invoke-static {v2, v3}, Lcom/xiaomi/passport/ui/internal/PassportJsbWebViewActivity;.s0:(Landroid/content/Context;Ltf/e;)Landroid/content/Intent; // method@be3f
+42c68a: 0c02                                   |0039: move-result-object v2
+42c68c: 1102                                   |003a: return-object v2
+      catches       : (none)
+
+    #4              : (in Lhg/i;)
+      name          : 'e'
+      type          : '(Landroid/content/Context;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+42c690:                                        |[42c690] hg.i.e:(Landroid/content/Context;)Landroid/content/Intent;
+42c6a0: 1a00 1ba5                              |0000: const-string v0, "https://account.xiaomi.com/helpcenter" // string@a51b
+42c6a4: 7120 84ca 0100                         |0002: invoke-static {v1, v0}, Lhg/i;.a:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca84
+42c6aa: 0c01                                   |0005: move-result-object v1
+42c6ac: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #5              : (in Lhg/i;)
+      name          : 'f'
+      type          : '(Landroid/content/Context;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+42c6b0:                                        |[42c6b0] hg.i.f:(Landroid/content/Context;)Landroid/content/Intent;
+42c6c0: 1a00 2f83                              |0000: const-string v0, "bindEmail" // string@832f
+42c6c4: 7120 8cca 0100                         |0002: invoke-static {v1, v0}, Lhg/i;.i:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca8c
+42c6ca: 0c01                                   |0005: move-result-object v1
+42c6cc: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #6              : (in Lhg/i;)
+      name          : 'g'
+      type          : '(Landroid/content/Context;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+42c6d0:                                        |[42c6d0] hg.i.g:(Landroid/content/Context;)Landroid/content/Intent;
+42c6e0: 1a00 3283                              |0000: const-string v0, "bindPhone" // string@8332
+42c6e4: 7120 8cca 0100                         |0002: invoke-static {v1, v0}, Lhg/i;.i:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca8c
+42c6ea: 0c01                                   |0005: move-result-object v1
+42c6ec: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #7              : (in Lhg/i;)
+      name          : 'h'
+      type          : '(Landroid/content/Context;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+42c6f0:                                        |[42c6f0] hg.i.h:(Landroid/content/Context;)Landroid/content/Intent;
+42c700: 1a00 2bdc                              |0000: const-string v0, "setPassword" // string@dc2b
+42c704: 7120 8cca 0100                         |0002: invoke-static {v1, v0}, Lhg/i;.i:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; // method@ca8c
+42c70a: 0c01                                   |0005: move-result-object v1
+42c70c: 1101                                   |0006: return-object v1
+      catches       : (none)
+
+    #8              : (in Lhg/i;)
+      name          : 'i'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 3
+      insns size    : 81 16-bit code units
+42c710:                                        |[42c710] hg.i.i:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
+42c720: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+42c724: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+42c72a: 6201 9f6c                              |0005: sget-object v1, Lcom/xiaomi/accountsdk/account/c;.b:Ljava/lang/String; // field@6c9f
+42c72e: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+42c734: 1a01 5404                              |000a: const-string v1, "/fe/service/account" // string@0454
+42c738: 6e20 47cc 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+42c73e: 6e10 50cc 0000                         |000f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+42c744: 0c00                                   |0012: move-result-object v0
+42c746: 2201 5920                              |0013: new-instance v1, Ljava/util/HashMap; // type@2059
+42c74a: 7010 67cd 0100                         |0015: invoke-direct {v1}, Ljava/util/HashMap;.<init>:()V // method@cd67
+42c750: 1a02 4f7c                              |0018: const-string v2, "_service" // string@7c4f
+42c754: 7230 accd 2105                         |001a: invoke-interface {v1, v2, v5}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c75a: 7100 52cc 0000                         |001d: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+42c760: 0b02                                   |0020: move-result-wide v2
+42c762: 7120 2ecc 3200                         |0021: invoke-static {v2, v3}, Ljava/lang/String;.valueOf:(J)Ljava/lang/String; // method@cc2e
+42c768: 0c05                                   |0024: move-result-object v5
+42c76a: 1a02 367c                              |0025: const-string v2, "_dc" // string@7c36
+42c76e: 7230 accd 2105                         |0027: invoke-interface {v1, v2, v5}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c774: 2205 2723                              |002a: new-instance v5, Ltf/e$b; // type@2327
+42c778: 7010 5dda 0500                         |002c: invoke-direct {v5}, Ltf/e$b;.<init>:()V // method@da5d
+42c77e: 7120 cdce 1000                         |002f: invoke-static {v0, v1}, Ljg/e;.a:(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String; // method@cecd
+42c784: 0c00                                   |0032: move-result-object v0
+42c786: 6e20 6bda 0500                         |0033: invoke-virtual {v5, v0}, Ltf/e$b;.n:(Ljava/lang/String;)Ltf/e$b; // method@da6b
+42c78c: 0c05                                   |0036: move-result-object v5
+42c78e: 1210                                   |0037: const/4 v0, #int 1 // #1
+42c790: 6e20 6ada 0500                         |0038: invoke-virtual {v5, v0}, Ltf/e$b;.m:(Z)Ltf/e$b; // method@da6a
+42c796: 0c05                                   |003b: move-result-object v5
+42c798: 6201 18da                              |003c: sget-object v1, Ljg/j;.a:Ljava/lang/String; // field@da18
+42c79c: 1a02 6ac9                              |003e: const-string v2, "passportapi" // string@c96a
+42c7a0: 7130 6eda 0102                         |0040: invoke-static {v1, v0, v2}, Ltf/e$c;.a:(Ljava/lang/String;ZLjava/lang/String;)Ltf/e$c; // method@da6e
+42c7a6: 0c00                                   |0043: move-result-object v0
+42c7a8: 6e20 67da 0500                         |0044: invoke-virtual {v5, v0}, Ltf/e$b;.j:(Ltf/e$c;)Ltf/e$b; // method@da67
+42c7ae: 0c05                                   |0047: move-result-object v5
+42c7b0: 6e10 65da 0500                         |0048: invoke-virtual {v5}, Ltf/e$b;.h:()Ltf/e; // method@da65
+42c7b6: 0c05                                   |004b: move-result-object v5
+42c7b8: 7120 3fbe 5400                         |004c: invoke-static {v4, v5}, Lcom/xiaomi/passport/ui/internal/PassportJsbWebViewActivity;.s0:(Landroid/content/Context;Ltf/e;)Landroid/content/Intent; // method@be3f
+42c7be: 0c04                                   |004f: move-result-object v4
+42c7c0: 1104                                   |0050: return-object v4
+      catches       : (none)
+
+    #9              : (in Lhg/i;)
+      name          : 'j'
+      type          : '(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 4
+      outs          : 3
+      insns size    : 69 16-bit code units
+42c7c4:                                        |[42c7c4] hg.i.j:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+42c7d4: 2200 5920                              |0000: new-instance v0, Ljava/util/HashMap; // type@2059
+42c7d8: 7010 67cd 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+42c7de: 1a01 81e2                              |0005: const-string v1, "sid" // string@e281
+42c7e2: 7230 accd 1003                         |0007: invoke-interface {v0, v1, v3}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c7e8: 1a03 597c                              |000a: const-string v3, "_uRegion" // string@7c59
+42c7ec: 7230 accd 3004                         |000c: invoke-interface {v0, v3, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c7f2: 1a03 347c                              |000f: const-string v3, "_bannerBiz" // string@7c34
+42c7f6: 7230 accd 3005                         |0011: invoke-interface {v0, v3, v5}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+42c7fc: 2203 2723                              |0014: new-instance v3, Ltf/e$b; // type@2327
+42c800: 7010 5dda 0300                         |0016: invoke-direct {v3}, Ltf/e$b;.<init>:()V // method@da5d
+42c806: 6204 c66c                              |0019: sget-object v4, Lcom/xiaomi/accountsdk/account/c;.u0:Ljava/lang/String; // field@6cc6
+42c80a: 7120 cdce 0400                         |001b: invoke-static {v4, v0}, Ljg/e;.a:(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String; // method@cecd
+42c810: 0c04                                   |001e: move-result-object v4
+42c812: 6e20 6bda 4300                         |001f: invoke-virtual {v3, v4}, Ltf/e$b;.n:(Ljava/lang/String;)Ltf/e$b; // method@da6b
+42c818: 0c03                                   |0022: move-result-object v3
+42c81a: 7100 5bda 0000                         |0023: invoke-static {}, Ltf/e$a;.b:()Ltf/e$a; // method@da5b
+42c820: 0c04                                   |0026: move-result-object v4
+42c822: 6e20 64da 4300                         |0027: invoke-virtual {v3, v4}, Ltf/e$b;.g:(Ltf/e$a;)Ltf/e$b; // method@da64
+42c828: 0c03                                   |002a: move-result-object v3
+42c82a: 1214                                   |002b: const/4 v4, #int 1 // #1
+42c82c: 6e20 6ada 4300                         |002c: invoke-virtual {v3, v4}, Ltf/e$b;.m:(Z)Ltf/e$b; // method@da6a
+42c832: 0c03                                   |002f: move-result-object v3
+42c834: 7110 71da 0400                         |0030: invoke-static {v4}, Ltf/e$d;.a:(Z)Ltf/e$d; // method@da71
+42c83a: 0c05                                   |0033: move-result-object v5
+42c83c: 6e20 68da 5300                         |0034: invoke-virtual {v3, v5}, Ltf/e$b;.k:(Ltf/e$d;)Ltf/e$b; // method@da68
+42c842: 0c03                                   |0037: move-result-object v3
+42c844: 6e20 66da 4300                         |0038: invoke-virtual {v3, v4}, Ltf/e$b;.i:(Z)Ltf/e$b; // method@da66
+42c84a: 0c03                                   |003b: move-result-object v3
+42c84c: 6e10 65da 0300                         |003c: invoke-virtual {v3}, Ltf/e$b;.h:()Ltf/e; // method@da65
+42c852: 0c03                                   |003f: move-result-object v3
+42c854: 7120 3fbe 3200                         |0040: invoke-static {v2, v3}, Lcom/xiaomi/passport/ui/internal/PassportJsbWebViewActivity;.s0:(Landroid/content/Context;Ltf/e;)Landroid/content/Intent; // method@be3f
+42c85a: 0c02                                   |0043: move-result-object v2
+42c85c: 1102                                   |0044: return-object v2
+      catches       : (none)
+
+    #10              : (in Lhg/i;)
+      name          : 'k'
+      type          : '(Landroid/content/Context;Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;)Landroid/content/Intent;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 2
+      outs          : 3
+      insns size    : 71 16-bit code units
+42c860:                                        |[42c860] hg.i.k:(Landroid/content/Context;Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;)Landroid/content/Intent;
+42c870: 2200 2723                              |0000: new-instance v0, Ltf/e$b; // type@2327
+42c874: 7010 5dda 0000                         |0002: invoke-direct {v0}, Ltf/e$b;.<init>:()V // method@da5d
+42c87a: 5471 63d3                              |0005: iget-object v1, v7, Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;.c:Ljava/lang/String; // field@d363
+42c87e: 6e20 6bda 1000                         |0007: invoke-virtual {v0, v1}, Ltf/e$b;.n:(Ljava/lang/String;)Ltf/e$b; // method@da6b
+42c884: 0c00                                   |000a: move-result-object v0
+42c886: 1211                                   |000b: const/4 v1, #int 1 // #1
+42c888: 6e20 6ada 1000                         |000c: invoke-virtual {v0, v1}, Ltf/e$b;.m:(Z)Ltf/e$b; // method@da6a
+42c88e: 0c00                                   |000f: move-result-object v0
+42c890: 1a02 d5c2                              |0010: const-string v2, "none" // string@c2d5
+42c894: 1203                                   |0012: const/4 v3, #int 0 // #0
+42c896: 7120 5ada 3200                         |0013: invoke-static {v2, v3}, Ltf/e$a;.a:(Ljava/lang/String;Ljava/lang/String;)Ltf/e$a; // method@da5a
+42c89c: 0c02                                   |0016: move-result-object v2
+42c89e: 6e20 64da 2000                         |0017: invoke-virtual {v0, v2}, Ltf/e$b;.g:(Ltf/e$a;)Ltf/e$b; // method@da64
+42c8a4: 0c00                                   |001a: move-result-object v0
+42c8a6: 2202 d01d                              |001b: new-instance v2, Lcom/xiaomi/passport/ui/webview/SNSCookieBindUrlInterceptor; // type@1dd0
+42c8aa: 5473 65d3                              |001d: iget-object v3, v7, Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;.e:Ljava/lang/Boolean; // field@d365
+42c8ae: 7020 bbc1 3200                         |001f: invoke-direct {v2, v3}, Lcom/xiaomi/passport/ui/webview/SNSCookieBindUrlInterceptor;.<init>:(Ljava/lang/Boolean;)V // method@c1bb
+42c8b4: 2313 4a28                              |0022: new-array v3, v1, [Lcom/xiaomi/passport/webview/UrlInterceptor; // type@284a
+42c8b8: 1204                                   |0024: const/4 v4, #int 0 // #0
+42c8ba: 4d02 0304                              |0025: aput-object v2, v3, v4
+42c8be: 2202 ce1d                              |0027: new-instance v2, Lcom/xiaomi/passport/ui/webview/SNSCookieBindULPT; // type@1dce
+42c8c2: 5475 61d3                              |0029: iget-object v5, v7, Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;.a:Ljava/lang/String; // field@d361
+42c8c6: 5477 62d3                              |002b: iget-object v7, v7, Lcom/xiaomi/passport/snscorelib/internal/entity/SNSBindParameter;.b:Ljava/lang/String; // field@d362
+42c8ca: 7030 b0c1 5207                         |002d: invoke-direct {v2, v5, v7}, Lcom/xiaomi/passport/ui/webview/SNSCookieBindULPT;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@c1b0
+42c8d0: 2317 4b28                              |0030: new-array v7, v1, [Lcom/xiaomi/passport/webview/UrlLoadPrepareTask; // type@284b
+42c8d4: 4d02 0704                              |0032: aput-object v2, v7, v4
+42c8d8: 2341 2b28                              |0034: new-array v1, v4, [Lcom/xiaomi/passport/jsb/ParcelablePassportJsbMethod; // type@282b
+42c8dc: 7130 74da 7301                         |0036: invoke-static {v3, v7, v1}, Ltf/e$e;.a:([Lcom/xiaomi/passport/webview/UrlInterceptor;[Lcom/xiaomi/passport/webview/UrlLoadPrepareTask;[Lcom/xiaomi/passport/jsb/ParcelablePassportJsbMethod;)Ltf/e$e; // method@da74
+42c8e2: 0c07                                   |0039: move-result-object v7
+42c8e4: 6e20 6cda 7000                         |003a: invoke-virtual {v0, v7}, Ltf/e$b;.o:(Ltf/e$e;)Ltf/e$b; // method@da6c
+42c8ea: 0c07                                   |003d: move-result-object v7
+42c8ec: 6e10 65da 0700                         |003e: invoke-virtual {v7}, Ltf/e$b;.h:()Ltf/e; // method@da65
+42c8f2: 0c07                                   |0041: move-result-object v7
+42c8f4: 7120 3fbe 7600                         |0042: invoke-static {v6, v7}, Lcom/xiaomi/passport/ui/internal/PassportJsbWebViewActivity;.s0:(Landroid/content/Context;Ltf/e;)Landroid/content/Intent; // method@be3f
+42c8fa: 0c06                                   |0045: move-result-object v6
+42c8fc: 1106                                   |0046: return-object v6
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 23020 (PassportPageIntent.java)
+

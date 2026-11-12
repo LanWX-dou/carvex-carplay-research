@@ -1,0 +1,183 @@
+﻿dex,class,method,signature
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeAddIgnore,int nativeAddIgnore(java.lang.String)
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetArch,java.lang.String nativeGetArch()
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetDebug,boolean nativeGetDebug()
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetMode,int nativeGetMode()
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetRecordable,boolean nativeGetRecordable()
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetRecords,java.lang.String nativeGetRecords(int)
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeGetVersion,java.lang.String nativeGetVersion()
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeInit,"int nativeInit(int, boolean)"
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeSetDebug,void nativeSetDebug(boolean)
+classes.dex,Lcom/bytedance/android/bytehook/ByteHook;,nativeSetRecordable,void nativeSetRecordable(boolean)
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetArch,java.lang.String nativeGetArch()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetDebuggable,boolean nativeGetDebuggable()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetInitErrno,int nativeGetInitErrno()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetMode,int nativeGetMode()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetRecordable,boolean nativeGetRecordable()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetRecords,java.lang.String nativeGetRecords(int)
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeGetVersion,java.lang.String nativeGetVersion()
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeInit,"int nativeInit(int, boolean)"
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeSetDebuggable,void nativeSetDebuggable(boolean)
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeSetRecordable,void nativeSetRecordable(boolean)
+classes.dex,Lcom/bytedance/shadowhook/ShadowHook;,nativeToErrmsg,java.lang.String nativeToErrmsg(int)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeAudioDataCallBack,"void nativeAudioDataCallBack(byte[], int, long, long)"
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeDispose,void nativeDispose(long)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeGetAvgRtpRtt,long nativeGetAvgRtpRtt(long)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeListen,"long nativeListen(java.lang.String, java.lang.String, int, int)"
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativePause,void nativePause(long)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeResume,void nativeResume(long)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeSetParameters,"void nativeSetParameters(java.util.HashMap, long, int)"
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeSetTwoDimArray,"void nativeSetTwoDimArray(int[][], int, int, int, boolean, long)"
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativeSetVerboseLogSwitch,void nativeSetVerboseLogSwitch(boolean)
+classes4.dex,Lcom/miui/carlink/castfwk/CastController;,nativesetLogFileSwitchOn,void nativesetLogFileSwitchOn(boolean)
+classes4.dex,Lcom/miui/carlink/databus/sharenetwork/service/LocalProxyService;,nativeTcpServerStart,int nativeTcpServerStart(java.lang.String)
+classes4.dex,Lcom/miui/carlink/databus/sharenetwork/service/LocalProxyService;,nativeTcpServerStop,int nativeTcpServerStop()
+classes4.dex,Lcom/miui/carlink/databus/sharenetwork/service/LocalProxyService;,nativeTun2socksStart,int nativeTun2socksStart(java.lang.String)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,actualSize,long actualSize(long)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,allKeys,"java.lang.String[] allKeys(long, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,backupAllToDirectory,long backupAllToDirectory(java.lang.String)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,backupOneToDirectory,"boolean backupOneToDirectory(java.lang.String, java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,checkProcessMode,boolean checkProcessMode(long)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,containsKey,"boolean containsKey(long, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,count,"long count(long, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,createNB,long createNB(int)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeBool,"boolean decodeBool(long, java.lang.String, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeBytes,"byte[] decodeBytes(long, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeDouble,"double decodeDouble(long, java.lang.String, double)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeFloat,"float decodeFloat(long, java.lang.String, float)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeInt,"int decodeInt(long, java.lang.String, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeLong,"long decodeLong(long, java.lang.String, long)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeString,"java.lang.String decodeString(long, java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,decodeStringSet,"java.lang.String[] decodeStringSet(long, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,destroyNB,"void destroyNB(long, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeBool,"boolean encodeBool(long, java.lang.String, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeBool_2,"boolean encodeBool_2(long, java.lang.String, boolean, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeBytes,"boolean encodeBytes(long, java.lang.String, byte[])"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeBytes_2,"boolean encodeBytes_2(long, java.lang.String, byte[], int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeDouble,"boolean encodeDouble(long, java.lang.String, double)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeDouble_2,"boolean encodeDouble_2(long, java.lang.String, double, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeFloat,"boolean encodeFloat(long, java.lang.String, float)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeFloat_2,"boolean encodeFloat_2(long, java.lang.String, float, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeInt,"boolean encodeInt(long, java.lang.String, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeInt_2,"boolean encodeInt_2(long, java.lang.String, int, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeLong,"boolean encodeLong(long, java.lang.String, long)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeLong_2,"boolean encodeLong_2(long, java.lang.String, long, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeSet,"boolean encodeSet(long, java.lang.String, java.lang.String[])"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeSet_2,"boolean encodeSet_2(long, java.lang.String, java.lang.String[], int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeString,"boolean encodeString(long, java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,encodeString_2,"boolean encodeString_2(long, java.lang.String, java.lang.String, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,getDefaultMMKV,"long getDefaultMMKV(int, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,getMMKVWithAshmemFD,"long getMMKVWithAshmemFD(java.lang.String, int, int, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,getMMKVWithID,"long getMMKVWithID(java.lang.String, int, java.lang.String, java.lang.String, long)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,getMMKVWithIDAndSize,"long getMMKVWithIDAndSize(java.lang.String, int, int, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,isCompareBeforeSetEnabled,boolean isCompareBeforeSetEnabled()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,isEncryptionEnabled,boolean isEncryptionEnabled()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,isExpirationEnabled,boolean isExpirationEnabled()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,isFileValid,"boolean isFileValid(java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,jniInitialize,"void jniInitialize(java.lang.String, java.lang.String, int, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,nativeEnableCompareBeforeSet,void nativeEnableCompareBeforeSet()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,onExit,void onExit()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,pageSize,int pageSize()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,removeStorage,"boolean removeStorage(java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,removeValueForKey,"void removeValueForKey(long, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,restoreAllFromDirectory,long restoreAllFromDirectory(java.lang.String)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,restoreOneMMKVFromDirectory,"boolean restoreOneMMKVFromDirectory(java.lang.String, java.lang.String, java.lang.String)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,setCallbackHandler,"void setCallbackHandler(boolean, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,setLogLevel,void setLogLevel(int)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,setWantsContentChangeNotify,void setWantsContentChangeNotify(boolean)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,sync,void sync(boolean)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,totalSize,long totalSize(long)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,valueSize,"int valueSize(long, java.lang.String, boolean)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,version,java.lang.String version()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,writeValueToNB,"int writeValueToNB(long, java.lang.String, long, int)"
+classes4.dex,Lcom/tencent/mmkv/MMKV;,ashmemFD,int ashmemFD()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,ashmemMetaFD,int ashmemMetaFD()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,checkContentChangedByOuterProcess,void checkContentChangedByOuterProcess()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,checkReSetCryptKey,void checkReSetCryptKey(java.lang.String)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,clearAll,void clearAll()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,clearAllWithKeepingSpace,void clearAllWithKeepingSpace()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,clearMemoryCache,void clearMemoryCache()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,close,void close()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,cryptKey,java.lang.String cryptKey()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,disableAutoKeyExpire,boolean disableAutoKeyExpire()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,disableCompareBeforeSet,void disableCompareBeforeSet()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,enableAutoKeyExpire,boolean enableAutoKeyExpire(int)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,lock,void lock()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,mmapID,java.lang.String mmapID()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,reKey,boolean reKey(java.lang.String)
+classes4.dex,Lcom/tencent/mmkv/MMKV;,removeValuesForKeys,void removeValuesForKeys(java.lang.String[])
+classes4.dex,Lcom/tencent/mmkv/MMKV;,trim,void trim()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,tryLock,boolean tryLock()
+classes4.dex,Lcom/tencent/mmkv/MMKV;,unlock,void unlock()
+classes4.dex,Lcom/tencent/open/web/security/JniInterface;,clearAllPWD,boolean clearAllPWD()
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_close,int lame_close(long)
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_encode,"int lame_encode(long, short[], short[], int, byte[], int)"
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_encode_interleaved,"int lame_encode_interleaved(long, short[], int, byte[], int)"
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_flush,"int lame_flush(long, byte[], int)"
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_init,"long lame_init(int, int, int, int, int, int, int)"
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_samples_to_encode,int lame_samples_to_encode(long)
+classes4.dex,Lmiuix/media/Mp3Encoder;,lame_write_vbr_header,"int lame_write_vbr_header(long, java.lang.String)"
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_delete,void native_delete(long)
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_encode,"int native_encode(long, byte[], byte[], boolean)"
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_init,int native_init(long)
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_new,long native_new()
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_setEncoderMode,"int native_setEncoderMode(long, int)"
+classes5.dex,Lcom/xiaomi/ai/android/codec/AudioEncoder;,native_setOpusBitrate,"int native_setOpusBitrate(long, int)"
+classes5.dex,Lcom/xiaomi/ai/android/utils/NetworkUtils;,ipv6Available,boolean ipv6Available()
+classes5.dex,Lcom/xiaomi/ai/android/utils/SecurityUtil;,native_aes,byte[] native_aes(byte[])
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintDestroy,int voiceprintDestroy()
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintGenerateModel,boolean voiceprintGenerateModel(java.lang.String)
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintInit,"int voiceprintInit(java.lang.String, java.lang.String)"
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintReEnrollRegister,"int voiceprintReEnrollRegister(java.lang.String, byte[], int, int)"
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintRecognition,"java.lang.String voiceprintRecognition(byte[], int, int)"
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintRegister,"int voiceprintRegister(java.lang.String, byte[], boolean)"
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintRemoveAll,void voiceprintRemoveAll()
+classes5.dex,Lcom/xiaomi/asr/engine/jni/VoicePrintInterface;,voiceprintVersion,java.lang.String voiceprintVersion()
+classes5.dex,Lcom/xiaomi/asr/engine/jni/WakeupEngineInterface;,wakeupDestroy,int wakeupDestroy()
+classes5.dex,Lcom/xiaomi/asr/engine/jni/WakeupEngineInterface;,wakeupFeedData,"int wakeupFeedData(byte[], int, int)"
+classes5.dex,Lcom/xiaomi/asr/engine/jni/WakeupEngineInterface;,wakeupInit,int wakeupInit(java.lang.String)
+classes5.dex,Lcom/xiaomi/asr/engine/jni/WakeupEngineInterface;,wakeupReset,int wakeupReset()
+classes5.dex,Lcom/xiaomi/asr/engine/jni/WakeupEngineInterface;,wakeupVersion,java.lang.String wakeupVersion()
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad2;,createTask,long createTask(long)
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad2;,hasVoice,"boolean hasVoice(long, long, byte[], int, int[])"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad2;,newVad,"long newVad(int, int, int, int)"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad2;,releaseVad,boolean releaseVad(long)
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad2;,stopTask,"boolean stopTask(long, long, int[])"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_delete,void native_delete(long)
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_new,long native_new()
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_vadCheckBegin,"int native_vadCheckBegin(long, byte[], int, int)"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_vadCheckEnd,"int native_vadCheckEnd(long, byte[], int, int)"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_vadInit,"int native_vadInit(long, int, int, float)"
+classes5.dex,Lcom/xiaomi/ai/android/vad/Vad;,native_vadUnInit,int native_vadUnInit(long)
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,connect_xmd,"long connect_xmd(long, java.lang.String, int, java.lang.String[])"
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,create_xmd_instance,long create_xmd_instance()
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,post_data,"boolean post_data(long, byte[], int, int)"
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,post_event,"boolean post_event(long, byte[], int, int)"
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,release_xmd_instance,boolean release_xmd_instance(long)
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,reset,void reset(long)
+classes5.dex,Lcom/xiaomi/ai/core/XMDChannel;,set_log_level,void set_log_level(int)
+classes7.dex,Lgo/Seq;,destroyRef,void destroyRef(int)
+classes7.dex,Lgo/Seq;,incGoRef,"void incGoRef(int, go.Seq$GoObject)"
+classes7.dex,Lgo/Seq;,init,void init()
+classes7.dex,Lgo/Seq;,setContext,void setContext(java.lang.Object)
+classes7.dex,Lgo/Universe;,_init,void _init()
+classes7.dex,Lgo/Universe$proxyerror;,error,java.lang.String error()
+classes8.dex,Lnet/easyconn/carman/JAdbd;,checkself,boolean checkself(int)
+classes8.dex,Lnet/easyconn/carman/JAdbd;,convertFormatNeon,"int convertFormatNeon(int, int, int, byte[], int, byte[], int)"
+classes8.dex,Lnet/easyconn/carman/JAdbd;,initAdbd,"int initAdbd(net.easyconn.carman.JAdbd, int, java.lang.String)"
+classes8.dex,Lnet/easyconn/carman/JAdbd;,releaseAdbd,int releaseAdbd()
+classes8.dex,Lnet/easyconn/carman/JNICodec;,encodeFrame,"int encodeFrame(byte[], int, byte[], int)"
+classes8.dex,Lnet/easyconn/carman/JNICodec;,encodeYUVFrame,"int encodeYUVFrame(byte[], int, byte[], int)"
+classes8.dex,Lnet/easyconn/carman/JNICodec;,initEncoder,"int initEncoder(int, int, int, int, int, int, int, int, int, int, int)"
+classes8.dex,Lnet/easyconn/carman/JNICodec;,releaseEncoder,void releaseEncoder(int)
+classes8.dex,Lnet/easyconn/carman/ecsocksserver/SocksService;,startDnsServer,int startDnsServer(int)
+classes8.dex,Lnet/easyconn/carman/ecsocksserver/SocksService;,startSocks5,"int startSocks5(int, java.lang.String, java.lang.String)"
+classes8.dex,Lnet/easyconn/carman/ecsocksserver/SocksService;,stopDnsServer,void stopDnsServer()
+classes8.dex,Lnet/easyconn/carman/ecsocksserver/SocksService;,stopSocks5,void stopSocks5()
+classes8.dex,Lsocksproxy/Socksproxy;,_init,void _init()
+classes8.dex,Lsocksproxy/Socksproxy;,startClient,"void startClient(java.lang.String, java.lang.String, java.lang.String)"
+classes8.dex,Lsocksproxy/Socksproxy;,startServer,"void startServer(java.lang.String, java.lang.String, java.lang.String)"
+classes8.dex,Lxcrash/NativeHandler;,nativeInit,"int nativeInit(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, boolean, boolean, boolean, int, int, int, boolean, boolean, boolean, boolean, boolean, int, java.lang.String[], boolean, boolean, int, int, int, boolean, boolean)"
+classes8.dex,Lxcrash/NativeHandler;,nativeNotifyJavaCrashed,void nativeNotifyJavaCrashed()
+classes8.dex,Lxcrash/NativeHandler;,nativeTestCrash,void nativeTestCrash(int)
+classes8.dex,Lxcrash/NativeHandler;,nativeTraceSignalInit,void nativeTraceSignalInit()

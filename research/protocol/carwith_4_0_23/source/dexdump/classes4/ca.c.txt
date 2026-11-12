@@ -1,0 +1,169 @@
+Class #18            -
+  Class descriptor  : 'Lca/c;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljava/util/zip/Checksum;'
+  Static fields     -
+    #0              : (in Lca/c;)
+      name          : 'b'
+      type          : '[I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lca/c;)
+      name          : 'a'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lca/c;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 526 16-bit code units
+0def94:                                        |[0def94] ca.c.<clinit>:()V
+0defa4: 1300 0001                              |0000: const/16 v0, #int 256 // #100
+0defa8: 2300 7b0b                              |0002: new-array v0, v0, [I // type@0b7b
+0defac: 2600 0600 0000                         |0004: fill-array-data v0, 0000000a // +00000006
+0defb2: 6900 c000                              |0007: sput-object v0, Lca/c;.b:[I // field@00c0
+0defb6: 0e00                                   |0009: return-void
+0defb8: 0003 0400 0001 0000 0000 0000 c1c0 ... |000a: array-data (516 units)
+      catches       : (none)
+
+    #1              : (in Lca/c;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 7 16-bit code units
+0df3c0:                                        |[0df3c0] ca.c.<init>:()V
+0df3d0: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+0df3d6: 1200                                   |0003: const/4 v0, #int 0 // #0
+0df3d8: 5910 bf00                              |0004: iput v0, v1, Lca/c;.a:I // field@00bf
+0df3dc: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #2              : (in Lca/c;)
+      name          : 'a'
+      type          : '([BII)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 3
+      outs          : 1
+      insns size    : 39 16-bit code units
+0def1c:                                        |[0def1c] ca.c.a:([BII)I
+0def2c: 6e10 3734 0500                         |0000: invoke-virtual {v5}, Ljava/lang/Object;.getClass:()Ljava/lang/Class; // method@3437
+0def32: 3a06 1e00                              |0003: if-ltz v6, 0021 // +001e
+0def36: 3a07 1c00                              |0005: if-ltz v7, 0021 // +001c
+0def3a: 2150                                   |0007: array-length v0, v5
+0def3c: b170                                   |0008: sub-int/2addr v0, v7
+0def3e: 3606 1800                              |0009: if-gt v6, v0, 0021 // +0018
+0def42: 1200                                   |000b: const/4 v0, #int 0 // #0
+0def44: 0161                                   |000c: move v1, v6
+0def46: 9002 0706                              |000d: add-int v2, v7, v6
+0def4a: 3521 1100                              |000f: if-ge v1, v2, 0020 // +0011
+0def4e: 4802 0501                              |0011: aget-byte v2, v5, v1
+0def52: e203 0008                              |0013: ushr-int/lit8 v3, v0, #int 8 // #08
+0def56: 6204 c000                              |0015: sget-object v4, Lca/c;.b:[I // field@00c0
+0def5a: b720                                   |0017: xor-int/2addr v0, v2
+0def5c: d500 ff00                              |0018: and-int/lit16 v0, v0, #int 255 // #00ff
+0def60: 4400 0400                              |001a: aget v0, v4, v0
+0def64: b730                                   |001c: xor-int/2addr v0, v3
+0def66: d801 0101                              |001d: add-int/lit8 v1, v1, #int 1 // #01
+0def6a: 28ee                                   |001f: goto 000d // -0012
+0def6c: 0f00                                   |0020: return v0
+0def6e: 2205 5407                              |0021: new-instance v5, Ljava/lang/ArrayIndexOutOfBoundsException; // type@0754
+0def72: 7010 d733 0500                         |0023: invoke-direct {v5}, Ljava/lang/ArrayIndexOutOfBoundsException;.<init>:()V // method@33d7
+0def78: 2705                                   |0026: throw v5
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lca/c;)
+      name          : 'getValue'
+      type          : '()J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 4 16-bit code units
+0def7c:                                        |[0def7c] ca.c.getValue:()J
+0def8c: 5222 bf00                              |0000: iget v2, v2, Lca/c;.a:I // field@00bf
+0def90: 8120                                   |0002: int-to-long v0, v2
+0def92: 1000                                   |0003: return-wide v0
+      catches       : (none)
+
+    #1              : (in Lca/c;)
+      name          : 'reset'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 4 16-bit code units
+0df3e0:                                        |[0df3e0] ca.c.reset:()V
+0df3f0: 1200                                   |0000: const/4 v0, #int 0 // #0
+0df3f2: 5910 bf00                              |0001: iput v0, v1, Lca/c;.a:I // field@00bf
+0df3f6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lca/c;)
+      name          : 'update'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 8 16-bit code units
+0df43c:                                        |[0df43c] ca.c.update:(I)V
+0df44c: 2200 8407                              |0000: new-instance v0, Ljava/lang/UnsupportedOperationException; // type@0784
+0df450: 1a01 8d20                              |0002: const-string v1, "Not implemented update(int b), use update(byte[] b, int off, int len) please." // string@208d
+0df454: 7020 b634 1000                         |0004: invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;.<init>:(Ljava/lang/String;)V // method@34b6
+0df45a: 2700                                   |0007: throw v0
+      catches       : (none)
+
+    #3              : (in Lca/c;)
+      name          : 'update'
+      type          : '([B)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 9 16-bit code units
+0df3f8:                                        |[0df3f8] ca.c.update:([B)V
+0df408: 2130                                   |0000: array-length v0, v3
+0df40a: 1201                                   |0001: const/4 v1, #int 0 // #0
+0df40c: 7130 5005 1300                         |0002: invoke-static {v3, v1, v0}, Lca/c;.a:([BII)I // method@0550
+0df412: 0a03                                   |0005: move-result v3
+0df414: 5923 bf00                              |0006: iput v3, v2, Lca/c;.a:I // field@00bf
+0df418: 0e00                                   |0008: return-void
+      catches       : (none)
+
+    #4              : (in Lca/c;)
+      name          : 'update'
+      type          : '([BII)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 3
+      insns size    : 7 16-bit code units
+0df41c:                                        |[0df41c] ca.c.update:([BII)V
+0df42c: 7130 5005 2103                         |0000: invoke-static {v1, v2, v3}, Lca/c;.a:([BII)I // method@0550
+0df432: 0a01                                   |0003: move-result v1
+0df434: 5901 bf00                              |0004: iput v1, v0, Lca/c;.a:I // field@00bf
+0df438: 0e00                                   |0006: return-void
+      catches       : (none)
+
+  source_file_idx   : 3096 (Crc16.java)
+

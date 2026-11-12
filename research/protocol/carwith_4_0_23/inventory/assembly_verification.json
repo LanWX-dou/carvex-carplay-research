@@ -1,0 +1,62 @@
+{
+  "apk_sha256": "c897a45d92c84f06e670fc4edd323824093a093f67d8e7d7b058fee2a737d06c",
+  "results": [
+    {
+      "dex": "classes.dex",
+      "classes_verified": 8194,
+      "assembly_stream_sha256": "bb2bce48cdd942975ce8c23a2a72ad89a08303ff2fb84acd073ab91e4384f17a",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes2.dex",
+      "classes_verified": 5241,
+      "assembly_stream_sha256": "f43092426d4729a5900091b3b6922cbe49349b8a721be5121fb64cba518611dc",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes3.dex",
+      "classes_verified": 4207,
+      "assembly_stream_sha256": "6277e5857634046af65e5c0ab132ed478d3e0fcfc23061bebc8fa9be97d234b3",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes4.dex",
+      "classes_verified": 1937,
+      "assembly_stream_sha256": "b9f6120be71879be6f6c225480a77f6068bbcb9862590c943f0739052e5551db",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes5.dex",
+      "classes_verified": 8089,
+      "assembly_stream_sha256": "a44a8d519ae251104becd2d45646d65ce60c06b1f3e362d409e657f6690a5531",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes6.dex",
+      "classes_verified": 470,
+      "assembly_stream_sha256": "7674545540b9f7a8f9759b84d227e255b80387759a4718fa29d44c9948da2c5a",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes7.dex",
+      "classes_verified": 2180,
+      "assembly_stream_sha256": "fad0611b588feb83800941951e0d586b3c0c6bd6c9bc1060a0dfd012b3ea334d",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    },
+    {
+      "dex": "classes8.dex",
+      "classes_verified": 3100,
+      "assembly_stream_sha256": "79819c92dfe4966841bb41977330e594da10a9d89f1bacf6b69efe37152b3345",
+      "comparison": "byte-for-byte equal",
+      "tool": "Android SDK 36.0.0 dexdump -d -n"
+    }
+  ],
+  "classes_verified": 33418
+}

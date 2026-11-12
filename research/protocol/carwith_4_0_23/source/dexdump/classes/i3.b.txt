@@ -1,0 +1,474 @@
+Class #4339            -
+  Class descriptor  : 'Li3/b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Li3/b;)
+      name          : 'a'
+      type          : 'Ljava/util/regex/Pattern;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Li3/b;)
+      name          : 'b'
+      type          : '[I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #2              : (in Li3/b;)
+      name          : 'c'
+      type          : '[Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Li3/b;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #4              : (in Li3/b;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Li3/b;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 27
+      ins           : 0
+      outs          : 26
+      insns size    : 93 16-bit code units
+48db48:                                        |[48db48] i3.b.<clinit>:()V
+48db58: 1a00 4508                              |0000: const-string v0, "-?\\d+" // string@0845
+48db5c: 7110 21c1 0000                         |0002: invoke-static {v0}, Ljava/util/regex/Pattern;.compile:(Ljava/lang/String;)Ljava/util/regex/Pattern; // method@c121
+48db62: 0c00                                   |0005: move-result-object v0
+48db64: 6900 74ea                              |0006: sput-object v0, Li3/b;.a:Ljava/util/regex/Pattern; // field@ea74
+48db68: 6001 f3c9                              |0008: sget v1, Lcom/carwith/common/R$drawable;.weather_0:I // field@c9f3
+48db6c: 6002 f4c9                              |000a: sget v2, Lcom/carwith/common/R$drawable;.weather_1:I // field@c9f4
+48db70: 6003 fac9                              |000c: sget v3, Lcom/carwith/common/R$drawable;.weather_2:I // field@c9fa
+48db74: 6004 fec9                              |000e: sget v4, Lcom/carwith/common/R$drawable;.weather_3:I // field@c9fe
+48db78: 6007 ffc9                              |0010: sget v7, Lcom/carwith/common/R$drawable;.weather_4:I // field@c9ff
+48db7c: 0175                                   |0012: move v5, v7
+48db7e: 017a                                   |0013: move v10, v7
+48db80: 0176                                   |0014: move v6, v7
+48db82: 6008 00ca                              |0015: sget v8, Lcom/carwith/common/R$drawable;.weather_7:I // field@ca00
+48db86: 601a f6c9                              |0017: sget v26, Lcom/carwith/common/R$drawable;.weather_11:I // field@c9f6
+48db8a: 0209 1a00                              |0019: move/from16 v9, v26
+48db8e: 020c 1a00                              |001b: move/from16 v12, v26
+48db92: 600b f5c9                              |001d: sget v11, Lcom/carwith/common/R$drawable;.weather_10:I // field@c9f5
+48db96: 600d f7c9                              |001f: sget v13, Lcom/carwith/common/R$drawable;.weather_12:I // field@c9f7
+48db9a: 600e f8c9                              |0021: sget v14, Lcom/carwith/common/R$drawable;.weather_13:I // field@c9f8
+48db9e: 01ef                                   |0023: move v15, v14
+48dba0: 0210 0e00                              |0024: move/from16 v16, v14
+48dba4: 0212 0e00                              |0026: move/from16 v18, v14
+48dba8: 0211 0e00                              |0028: move/from16 v17, v14
+48dbac: 6013 f9c9                              |002a: sget v19, Lcom/carwith/common/R$drawable;.weather_18:I // field@c9f9
+48dbb0: 0214 1300                              |002c: move/from16 v20, v19
+48dbb4: 6018 fbc9                              |002e: sget v24, Lcom/carwith/common/R$drawable;.weather_20:I // field@c9fb
+48dbb8: 0215 1800                              |0030: move/from16 v21, v24
+48dbbc: 0216 1800                              |0032: move/from16 v22, v24
+48dbc0: 6017 fcc9                              |0034: sget v23, Lcom/carwith/common/R$drawable;.weather_22:I // field@c9fc
+48dbc4: 6019 fdc9                              |0036: sget v25, Lcom/carwith/common/R$drawable;.weather_24:I // field@c9fd
+48dbc8: 251a 0d26 0100                         |0038: filled-new-array/range {v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26}, [I // type@260d
+48dbce: 0c00                                   |003b: move-result-object v0
+48dbd0: 6900 75ea                              |003c: sput-object v0, Li3/b;.b:[I // field@ea75
+48dbd4: 1b05 1c01 0100                         |003e: const-string/jumbo v5, "重度污染" // string@0001011c
+48dbda: 1b06 6000 0100                         |0041: const-string/jumbo v6, "严重污染" // string@00010060
+48dbe0: 1b01 6700 0100                         |0044: const-string/jumbo v1, "优" // string@00010067
+48dbe6: 1b02 f300 0100                         |0047: const-string/jumbo v2, "良" // string@000100f3
+48dbec: 1b03 1001 0100                         |004a: const-string/jumbo v3, "轻度污染" // string@00010110
+48dbf2: 1b04 6100 0100                         |004d: const-string/jumbo v4, "中度污染" // string@00010061
+48dbf8: 2506 6d27 0100                         |0050: filled-new-array/range {v1, v2, v3, v4, v5, v6}, [Ljava/lang/String; // type@276d
+48dbfe: 0c00                                   |0053: move-result-object v0
+48dc00: 6900 76ea                              |0054: sput-object v0, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48dc04: 1a00 0000                              |0056: const-string v0, "" // string@0000
+48dc08: 6900 77ea                              |0058: sput-object v0, Li3/b;.d:Ljava/lang/String; // field@ea77
+48dc0c: 6900 78ea                              |005a: sput-object v0, Li3/b;.e:Ljava/lang/String; // field@ea78
+48dc10: 0e00                                   |005c: return-void
+      catches       : (none)
+
+    #1              : (in Li3/b;)
+      name          : 'a'
+      type          : '(I)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 74 16-bit code units
+48da44:                                        |[48da44] i3.b.a:(I)Ljava/lang/String;
+48da54: 3a01 0c00                              |0000: if-ltz v1, 000c // +000c
+48da58: 1300 3200                              |0002: const/16 v0, #int 50 // #32
+48da5c: 3601 0800                              |0004: if-gt v1, v0, 000c // +0008
+48da60: 6201 76ea                              |0006: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48da64: 1200                                   |0008: const/4 v0, #int 0 // #0
+48da66: 4601 0100                              |0009: aget-object v1, v1, v0
+48da6a: 1101                                   |000b: return-object v1
+48da6c: 1300 3300                              |000c: const/16 v0, #int 51 // #33
+48da70: 3401 0c00                              |000e: if-lt v1, v0, 001a // +000c
+48da74: 1300 6400                              |0010: const/16 v0, #int 100 // #64
+48da78: 3601 0800                              |0012: if-gt v1, v0, 001a // +0008
+48da7c: 6201 76ea                              |0014: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48da80: 1210                                   |0016: const/4 v0, #int 1 // #1
+48da82: 4601 0100                              |0017: aget-object v1, v1, v0
+48da86: 1101                                   |0019: return-object v1
+48da88: 1300 6500                              |001a: const/16 v0, #int 101 // #65
+48da8c: 3401 0c00                              |001c: if-lt v1, v0, 0028 // +000c
+48da90: 1300 9600                              |001e: const/16 v0, #int 150 // #96
+48da94: 3601 0800                              |0020: if-gt v1, v0, 0028 // +0008
+48da98: 6201 76ea                              |0022: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48da9c: 1220                                   |0024: const/4 v0, #int 2 // #2
+48da9e: 4601 0100                              |0025: aget-object v1, v1, v0
+48daa2: 1101                                   |0027: return-object v1
+48daa4: 1300 9700                              |0028: const/16 v0, #int 151 // #97
+48daa8: 3401 0c00                              |002a: if-lt v1, v0, 0036 // +000c
+48daac: 1300 c800                              |002c: const/16 v0, #int 200 // #c8
+48dab0: 3601 0800                              |002e: if-gt v1, v0, 0036 // +0008
+48dab4: 6201 76ea                              |0030: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48dab8: 1230                                   |0032: const/4 v0, #int 3 // #3
+48daba: 4601 0100                              |0033: aget-object v1, v1, v0
+48dabe: 1101                                   |0035: return-object v1
+48dac0: 1300 c900                              |0036: const/16 v0, #int 201 // #c9
+48dac4: 3401 0c00                              |0038: if-lt v1, v0, 0044 // +000c
+48dac8: 1300 2c01                              |003a: const/16 v0, #int 300 // #12c
+48dacc: 3601 0800                              |003c: if-gt v1, v0, 0044 // +0008
+48dad0: 6201 76ea                              |003e: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48dad4: 1240                                   |0040: const/4 v0, #int 4 // #4
+48dad6: 4601 0100                              |0041: aget-object v1, v1, v0
+48dada: 1101                                   |0043: return-object v1
+48dadc: 6201 76ea                              |0044: sget-object v1, Li3/b;.c:[Ljava/lang/String; // field@ea76
+48dae0: 1250                                   |0046: const/4 v0, #int 5 // #5
+48dae2: 4601 0100                              |0047: aget-object v1, v1, v0
+48dae6: 1101                                   |0049: return-object v1
+      catches       : (none)
+
+    #2              : (in Li3/b;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 40 16-bit code units
+48dae8:                                        |[48dae8] i3.b.b:(Ljava/lang/String;)Ljava/lang/String;
+48daf8: 6e10 6fbc 0300                         |0000: invoke-virtual {v3}, Ljava/lang/String;.isEmpty:()Z // method@bc6f
+48dafe: 0a00                                   |0003: move-result v0
+48db00: 1a01 0000                              |0004: const-string v1, "" // string@0000
+48db04: 3800 0300                              |0006: if-eqz v0, 0009 // +0003
+48db08: 1101                                   |0008: return-object v1
+48db0a: 1a00 1309                              |0009: const-string v0, "0" // string@0913
+48db0e: 6e20 61bc 0300                         |000b: invoke-virtual {v3, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@bc61
+48db14: 0a00                                   |000e: move-result v0
+48db16: 3800 0300                              |000f: if-eqz v0, 0012 // +0003
+48db1a: 1101                                   |0011: return-object v1
+48db1c: 2200 eb1d                              |0012: new-instance v0, Ljava/util/Date; // type@1deb
+48db20: 7110 e6bb 0300                         |0014: invoke-static {v3}, Ljava/lang/Integer;.parseInt:(Ljava/lang/String;)I // method@bbe6
+48db26: 0a03                                   |0017: move-result v3
+48db28: 8131                                   |0018: int-to-long v1, v3
+48db2a: 7030 16bf 1002                         |0019: invoke-direct {v0, v1, v2}, Ljava/util/Date;.<init>:(J)V // method@bf16
+48db30: 2203 ce1d                              |001c: new-instance v3, Ljava/text/SimpleDateFormat; // type@1dce
+48db34: 1a01 1c25                              |001e: const-string v1, "HH:mm" // string@251c
+48db38: 7020 38be 1300                         |0020: invoke-direct {v3, v1}, Ljava/text/SimpleDateFormat;.<init>:(Ljava/lang/String;)V // method@be38
+48db3e: 6e20 2dbe 0300                         |0023: invoke-virtual {v3, v0}, Ljava/text/DateFormat;.format:(Ljava/util/Date;)Ljava/lang/String; // method@be2d
+48db44: 0c03                                   |0026: move-result-object v3
+48db46: 1103                                   |0027: return-object v3
+      catches       : (none)
+
+    #3              : (in Li3/b;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;)Lcom/carwith/common/view/weather/WeatherBean;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 6
+      insns size    : 183 16-bit code units
+48d628:                                        |[48d628] i3.b.c:(Landroid/content/Context;)Lcom/carwith/common/view/weather/WeatherBean;
+48d638: 1200                                   |0000: const/4 v0, #int 0 // #0
+48d63a: 1a01 2b77                              |0001: const-string v1, "WeatherUtil" // string@772b
+48d63e: 3909 0800                              |0003: if-nez v9, 000b // +0008
+48d642: 1a09 b98a                              |0005: const-string v9, "cannot get weather without context" // string@8ab9
+48d646: 7120 cbaa 9100                         |0007: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@aacb
+48d64c: 1100                                   |000a: return-object v0
+48d64e: 1202                                   |000b: const/4 v2, #int 0 // #0
+48d650: 6e10 9604 0900                         |000c: invoke-virtual {v9}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@0496
+48d656: 0c03                                   |000f: move-result-object v3
+48d658: 1a04 068f                              |0010: const-string v4, "com.miui.weather2" // string@8f06
+48d65c: 6e30 3705 4302                         |0012: invoke-virtual {v3, v4, v2}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@0537
+48d662: 0c03                                   |0015: move-result-object v3
+48d664: 6e10 2505 0300                         |0016: invoke-virtual {v3}, Landroid/content/pm/PackageInfo;.getLongVersionCode:()J // method@0525
+48d66a: 0b03                                   |0019: move-result-wide v3
+48d66c: 2808                                   |001a: goto 0022 // +0008
+48d66e: 1a03 4798                              |001b: const-string v3, "error in get Weather version" // string@9847
+48d672: 7120 cbaa 3100                         |001d: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@aacb
+48d678: 1603 0000                              |0020: const-wide/16 v3, #int 0 // #0
+48d67c: 1705 58be 9800                         |0022: const-wide/32 v5, #float 1.40273e-38 // #0098be58
+48d682: 3103 0305                              |0025: cmp-long v3, v3, v5
+48d686: 3a03 0300                              |0027: if-ltz v3, 002a // +0003
+48d68a: 1212                                   |0029: const/4 v2, #int 1 // #1
+48d68c: 3802 4300                              |002a: if-eqz v2, 006d // +0043
+48d690: 1a02 7290                              |002c: const-string v2, "content://weather/actualWeatherData" // string@9072
+48d694: 7110 020a 0200                         |002e: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0a02
+48d69a: 0c02                                   |0031: move-result-object v2
+48d69c: 6e10 ed09 0200                         |0032: invoke-virtual {v2}, Landroid/net/Uri;.buildUpon:()Landroid/net/Uri$Builder; // method@09ed
+48d6a2: 0c02                                   |0035: move-result-object v2
+48d6a4: 1a03 3009                              |0036: const-string v3, "1" // string@0930
+48d6a8: 6e20 e309 3200                         |0038: invoke-virtual {v2, v3}, Landroid/net/Uri$Builder;.appendPath:(Ljava/lang/String;)Landroid/net/Uri$Builder; // method@09e3
+48d6ae: 0c02                                   |003b: move-result-object v2
+48d6b0: 6e10 e609 0200                         |003c: invoke-virtual {v2}, Landroid/net/Uri$Builder;.build:()Landroid/net/Uri; // method@09e6
+48d6b6: 0c04                                   |003f: move-result-object v4
+48d6b8: 6e10 8704 0900                         |0040: invoke-virtual {v9}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0487
+48d6be: 0c03                                   |0043: move-result-object v3
+48d6c0: 1207                                   |0044: const/4 v7, #int 0 // #0
+48d6c2: 1208                                   |0045: const/4 v8, #int 0 // #0
+48d6c4: 1205                                   |0046: const/4 v5, #int 0 // #0
+48d6c6: 1206                                   |0047: const/4 v6, #int 0 // #0
+48d6c8: 7406 6004 0300                         |0048: invoke-virtual/range {v3, v4, v5, v6, v7, v8}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0460
+48d6ce: 0c02                                   |004b: move-result-object v2
+48d6d0: 3802 1600                              |004c: if-eqz v2, 0062 // +0016
+48d6d4: 7110 23b5 0200                         |004e: invoke-static {v2}, Li3/b;.d:(Landroid/database/Cursor;)Lcom/carwith/common/view/weather/WeatherBean; // method@b523
+48d6da: 0c00                                   |0051: move-result-object v0
+48d6dc: 2810                                   |0052: goto 0062 // +0010
+48d6de: 0d03                                   |0053: move-exception v3
+48d6e0: 3802 0d00                              |0054: if-eqz v2, 0061 // +000d
+48d6e4: 7210 0406 0200                         |0056: invoke-interface {v2}, Landroid/database/Cursor;.close:()V // method@0604
+48d6ea: 2808                                   |0059: goto 0061 // +0008
+48d6ec: 0d02                                   |005a: move-exception v2
+48d6ee: 6e20 e6bc 2300                         |005b: invoke-virtual {v3, v2}, Ljava/lang/Throwable;.addSuppressed:(Ljava/lang/Throwable;)V // method@bce6
+48d6f4: 2803                                   |005e: goto 0061 // +0003
+48d6f6: 0d02                                   |005f: move-exception v2
+48d6f8: 2808                                   |0060: goto 0068 // +0008
+48d6fa: 2703                                   |0061: throw v3
+48d6fc: 3802 0b00                              |0062: if-eqz v2, 006d // +000b
+48d700: 7210 0406 0200                         |0064: invoke-interface {v2}, Landroid/database/Cursor;.close:()V // method@0604
+48d706: 2806                                   |0067: goto 006d // +0006
+48d708: 1a03 2977                              |0068: const-string v3, "WeatherProvider new API query failed" // string@7729
+48d70c: 7130 ccaa 3102                         |006a: invoke-static {v1, v3, v2}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@aacc
+48d712: 3900 3500                              |006d: if-nez v0, 00a2 // +0035
+48d716: 6e10 8704 0900                         |006f: invoke-virtual {v9}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0487
+48d71c: 0c02                                   |0072: move-result-object v2
+48d71e: 1a09 7390                              |0073: const-string v9, "content://weather/weather" // string@9073
+48d722: 7110 020a 0900                         |0075: invoke-static {v9}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0a02
+48d728: 0c03                                   |0078: move-result-object v3
+48d72a: 1206                                   |0079: const/4 v6, #int 0 // #0
+48d72c: 1207                                   |007a: const/4 v7, #int 0 // #0
+48d72e: 1204                                   |007b: const/4 v4, #int 0 // #0
+48d730: 1205                                   |007c: const/4 v5, #int 0 // #0
+48d732: 7406 6004 0200                         |007d: invoke-virtual/range {v2, v3, v4, v5, v6, v7}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0460
+48d738: 0c09                                   |0080: move-result-object v9
+48d73a: 3809 1600                              |0081: if-eqz v9, 0097 // +0016
+48d73e: 7110 23b5 0900                         |0083: invoke-static {v9}, Li3/b;.d:(Landroid/database/Cursor;)Lcom/carwith/common/view/weather/WeatherBean; // method@b523
+48d744: 0c00                                   |0086: move-result-object v0
+48d746: 2810                                   |0087: goto 0097 // +0010
+48d748: 0d02                                   |0088: move-exception v2
+48d74a: 3809 0d00                              |0089: if-eqz v9, 0096 // +000d
+48d74e: 7210 0406 0900                         |008b: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+48d754: 2808                                   |008e: goto 0096 // +0008
+48d756: 0d09                                   |008f: move-exception v9
+48d758: 6e20 e6bc 9200                         |0090: invoke-virtual {v2, v9}, Ljava/lang/Throwable;.addSuppressed:(Ljava/lang/Throwable;)V // method@bce6
+48d75e: 2803                                   |0093: goto 0096 // +0003
+48d760: 0d09                                   |0094: move-exception v9
+48d762: 2808                                   |0095: goto 009d // +0008
+48d764: 2702                                   |0096: throw v2
+48d766: 3809 0b00                              |0097: if-eqz v9, 00a2 // +000b
+48d76a: 7210 0406 0900                         |0099: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+48d770: 2806                                   |009c: goto 00a2 // +0006
+48d772: 1a02 2a77                              |009d: const-string v2, "WeatherProvider old API query failed" // string@772a
+48d776: 7130 ccaa 2109                         |009f: invoke-static {v1, v2, v9}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@aacc
+48d77c: 2209 4f1d                              |00a2: new-instance v9, Ljava/lang/StringBuilder; // type@1d4f
+48d780: 7010 9abc 0900                         |00a4: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+48d786: 1a02 31fe                              |00a7: const-string v2, "weatherBean is " // string@fe31
+48d78a: 6e20 a5bc 2900                         |00a9: invoke-virtual {v9, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+48d790: 6e20 a4bc 0900                         |00ac: invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@bca4
+48d796: 6e10 b7bc 0900                         |00af: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+48d79c: 0c09                                   |00b2: move-result-object v9
+48d79e: 7120 d3aa 9100                         |00b3: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@aad3
+48d7a4: 1100                                   |00b6: return-object v0
+      catches       : 9
+        0x000c - 0x001a
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x001b
+        0x002c - 0x004c
+          Ljava/lang/Exception; -> 0x005f
+        0x004e - 0x0052
+          <any> -> 0x0053
+        0x0056 - 0x0059
+          <any> -> 0x005a
+        0x005b - 0x0067
+          Ljava/lang/Exception; -> 0x005f
+        0x006f - 0x0081
+          Ljava/lang/Exception; -> 0x0094
+        0x0083 - 0x0087
+          <any> -> 0x0088
+        0x008b - 0x008e
+          <any> -> 0x008f
+        0x0090 - 0x009c
+          Ljava/lang/Exception; -> 0x0094
+
+    #4              : (in Li3/b;)
+      name          : 'd'
+      type          : '(Landroid/database/Cursor;)Lcom/carwith/common/view/weather/WeatherBean;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 15
+      ins           : 1
+      outs          : 2
+      insns size    : 252 16-bit code units
+48d808:                                        |[48d808] i3.b.d:(Landroid/database/Cursor;)Lcom/carwith/common/view/weather/WeatherBean;
+48d818: 2200 3e1a                              |0000: new-instance v0, Lcom/carwith/common/view/weather/WeatherBean; // type@1a3e
+48d81c: 7010 9dac 0000                         |0002: invoke-direct {v0}, Lcom/carwith/common/view/weather/WeatherBean;.<init>:()V // method@ac9d
+48d822: 7210 1606 0e00                         |0005: invoke-interface {v14}, Landroid/database/Cursor;.moveToNext:()Z // method@0616
+48d828: 0a01                                   |0008: move-result v1
+48d82a: 3801 f200                              |0009: if-eqz v1, 00fb // +00f2
+48d82e: 1a01 2993                              |000b: const-string v1, "day" // string@9329
+48d832: 7220 0706 1e00                         |000d: invoke-interface {v14, v1}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d838: 0a01                                   |0010: move-result v1
+48d83a: 1a02 0000                              |0011: const-string v2, "" // string@0000
+48d83e: 12f3                                   |0013: const/4 v3, #int -1 // #ff
+48d840: 3731 0700                              |0014: if-le v1, v3, 001b // +0007
+48d844: 7220 1206 1e00                         |0016: invoke-interface {v14, v1}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d84a: 0c01                                   |0019: move-result-object v1
+48d84c: 2802                                   |001a: goto 001c // +0002
+48d84e: 0721                                   |001b: move-object v1, v2
+48d850: 1a04 f093                              |001c: const-string v4, "description" // string@93f0
+48d854: 7220 0706 4e00                         |001e: invoke-interface {v14, v4}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d85a: 0a04                                   |0021: move-result v4
+48d85c: 1a05 b4f8                              |0022: const-string v5, "tmphighs" // string@f8b4
+48d860: 7220 0706 5e00                         |0024: invoke-interface {v14, v5}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d866: 0a05                                   |0027: move-result v5
+48d868: 1a06 b5f8                              |0028: const-string v6, "tmplows" // string@f8b5
+48d86c: 7220 0706 6e00                         |002a: invoke-interface {v14, v6}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d872: 0a06                                   |002d: move-result v6
+48d874: 1a07 40fe                              |002e: const-string v7, "weather_type" // string@fe40
+48d878: 7220 0706 7e00                         |0030: invoke-interface {v14, v7}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d87e: 0a07                                   |0033: move-result v7
+48d880: 1a08 8bf7                              |0034: const-string v8, "temperature" // string@f78b
+48d884: 7220 0706 8e00                         |0036: invoke-interface {v14, v8}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d88a: 0a08                                   |0039: move-result v8
+48d88c: 1a09 db86                              |003a: const-string v9, "aqilevel" // string@86db
+48d890: 7220 0706 9e00                         |003c: invoke-interface {v14, v9}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d896: 0a09                                   |003f: move-result v9
+48d898: 1a0a b08c                              |0040: const-string v10, "city_name" // string@8cb0
+48d89c: 7220 0706 ae00                         |0042: invoke-interface {v14, v10}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d8a2: 0a0a                                   |0045: move-result v10
+48d8a4: 1a0b 93f6                              |0046: const-string v11, "sunrise" // string@f693
+48d8a8: 7220 0706 be00                         |0048: invoke-interface {v14, v11}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d8ae: 0a0b                                   |004b: move-result v11
+48d8b0: 1a0c 94f6                              |004c: const-string v12, "sunset" // string@f694
+48d8b4: 7220 0706 ce00                         |004e: invoke-interface {v14, v12}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+48d8ba: 0a0c                                   |0051: move-result v12
+48d8bc: 1a0d 3009                              |0052: const-string v13, "1" // string@0930
+48d8c0: 6e20 61bc 1d00                         |0054: invoke-virtual {v13, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@bc61
+48d8c6: 0a0d                                   |0057: move-result v13
+48d8c8: 380d 7a00                              |0058: if-eqz v13, 00d2 // +007a
+48d8cc: 1201                                   |005a: const/4 v1, #int 0 // #0
+48d8ce: 3737 0700                              |005b: if-le v7, v3, 0062 // +0007
+48d8d2: 7220 0e06 7e00                         |005d: invoke-interface {v14, v7}, Landroid/database/Cursor;.getInt:(I)I // method@060e
+48d8d8: 0a07                                   |0060: move-result v7
+48d8da: 2802                                   |0061: goto 0063 // +0002
+48d8dc: 0117                                   |0062: move v7, v1
+48d8de: 6e20 b5ac 7000                         |0063: invoke-virtual {v0, v7}, Lcom/carwith/common/view/weather/WeatherBean;.z:(I)V // method@acb5
+48d8e4: 3738 0700                              |0066: if-le v8, v3, 006d // +0007
+48d8e8: 7220 1206 8e00                         |0068: invoke-interface {v14, v8}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d8ee: 0c07                                   |006b: move-result-object v7
+48d8f0: 2802                                   |006c: goto 006e // +0002
+48d8f2: 0727                                   |006d: move-object v7, v2
+48d8f4: 6208 74ea                              |006e: sget-object v8, Li3/b;.a:Ljava/util/regex/Pattern; // field@ea74
+48d8f8: 6e20 24c1 7800                         |0070: invoke-virtual {v8, v7}, Ljava/util/regex/Pattern;.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher; // method@c124
+48d8fe: 0c08                                   |0073: move-result-object v8
+48d900: 6e10 12c1 0800                         |0074: invoke-virtual {v8}, Ljava/util/regex/Matcher;.find:()Z // method@c112
+48d906: 0a0d                                   |0077: move-result v13
+48d908: 380d 0600                              |0078: if-eqz v13, 007e // +0006
+48d90c: 6e10 14c1 0800                         |007a: invoke-virtual {v8}, Ljava/util/regex/Matcher;.group:()Ljava/lang/String; // method@c114
+48d912: 0c07                                   |007d: move-result-object v7
+48d914: 6e20 adac 7000                         |007e: invoke-virtual {v0, v7}, Lcom/carwith/common/view/weather/WeatherBean;.t:(Ljava/lang/String;)V // method@acad
+48d91a: 3734 0700                              |0081: if-le v4, v3, 0088 // +0007
+48d91e: 7220 1206 4e00                         |0083: invoke-interface {v14, v4}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d924: 0c04                                   |0086: move-result-object v4
+48d926: 2802                                   |0087: goto 0089 // +0002
+48d928: 0724                                   |0088: move-object v4, v2
+48d92a: 6e20 acac 4000                         |0089: invoke-virtual {v0, v4}, Lcom/carwith/common/view/weather/WeatherBean;.s:(Ljava/lang/String;)V // method@acac
+48d930: 3735 0700                              |008c: if-le v5, v3, 0093 // +0007
+48d934: 7220 1206 5e00                         |008e: invoke-interface {v14, v5}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d93a: 0c04                                   |0091: move-result-object v4
+48d93c: 2802                                   |0092: goto 0094 // +0002
+48d93e: 0724                                   |0093: move-object v4, v2
+48d940: 6e20 afac 4000                         |0094: invoke-virtual {v0, v4}, Lcom/carwith/common/view/weather/WeatherBean;.u:(Ljava/lang/String;)V // method@acaf
+48d946: 3736 0700                              |0097: if-le v6, v3, 009e // +0007
+48d94a: 7220 1206 6e00                         |0099: invoke-interface {v14, v6}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d950: 0c04                                   |009c: move-result-object v4
+48d952: 2802                                   |009d: goto 009f // +0002
+48d954: 0724                                   |009e: move-object v4, v2
+48d956: 6e20 b0ac 4000                         |009f: invoke-virtual {v0, v4}, Lcom/carwith/common/view/weather/WeatherBean;.v:(Ljava/lang/String;)V // method@acb0
+48d95c: 3739 0600                              |00a2: if-le v9, v3, 00a8 // +0006
+48d960: 7220 0e06 9e00                         |00a4: invoke-interface {v14, v9}, Landroid/database/Cursor;.getInt:(I)I // method@060e
+48d966: 0a01                                   |00a7: move-result v1
+48d968: 6e20 aaac 1000                         |00a8: invoke-virtual {v0, v1}, Lcom/carwith/common/view/weather/WeatherBean;.q:(I)V // method@acaa
+48d96e: 373a 0700                              |00ab: if-le v10, v3, 00b2 // +0007
+48d972: 7220 1206 ae00                         |00ad: invoke-interface {v14, v10}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d978: 0c01                                   |00b0: move-result-object v1
+48d97a: 2802                                   |00b1: goto 00b3 // +0002
+48d97c: 0721                                   |00b2: move-object v1, v2
+48d97e: 6e20 abac 1000                         |00b3: invoke-virtual {v0, v1}, Lcom/carwith/common/view/weather/WeatherBean;.r:(Ljava/lang/String;)V // method@acab
+48d984: 373b 0700                              |00b6: if-le v11, v3, 00bd // +0007
+48d988: 7220 1206 be00                         |00b8: invoke-interface {v14, v11}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d98e: 0c01                                   |00bb: move-result-object v1
+48d990: 2802                                   |00bc: goto 00be // +0002
+48d992: 0721                                   |00bd: move-object v1, v2
+48d994: 7110 21b5 0100                         |00be: invoke-static {v1}, Li3/b;.b:(Ljava/lang/String;)Ljava/lang/String; // method@b521
+48d99a: 0c01                                   |00c1: move-result-object v1
+48d99c: 6901 77ea                              |00c2: sput-object v1, Li3/b;.d:Ljava/lang/String; // field@ea77
+48d9a0: 373c 0600                              |00c4: if-le v12, v3, 00ca // +0006
+48d9a4: 7220 1206 ce00                         |00c6: invoke-interface {v14, v12}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d9aa: 0c02                                   |00c9: move-result-object v2
+48d9ac: 7110 21b5 0200                         |00ca: invoke-static {v2}, Li3/b;.b:(Ljava/lang/String;)Ljava/lang/String; // method@b521
+48d9b2: 0c01                                   |00cd: move-result-object v1
+48d9b4: 6901 78ea                              |00ce: sput-object v1, Li3/b;.e:Ljava/lang/String; // field@ea78
+48d9b8: 2900 35ff                              |00d0: goto/16 0005 // -00cb
+48d9bc: 1a07 5809                              |00d2: const-string v7, "2" // string@0958
+48d9c0: 6e20 61bc 1700                         |00d4: invoke-virtual {v7, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@bc61
+48d9c6: 0a01                                   |00d7: move-result v1
+48d9c8: 3801 2dff                              |00d8: if-eqz v1, 0005 // -00d3
+48d9cc: 3734 0700                              |00da: if-le v4, v3, 00e1 // +0007
+48d9d0: 7220 1206 4e00                         |00dc: invoke-interface {v14, v4}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d9d6: 0c01                                   |00df: move-result-object v1
+48d9d8: 2802                                   |00e0: goto 00e2 // +0002
+48d9da: 0721                                   |00e1: move-object v1, v2
+48d9dc: 6e20 b1ac 1000                         |00e2: invoke-virtual {v0, v1}, Lcom/carwith/common/view/weather/WeatherBean;.w:(Ljava/lang/String;)V // method@acb1
+48d9e2: 3735 0700                              |00e5: if-le v5, v3, 00ec // +0007
+48d9e6: 7220 1206 5e00                         |00e7: invoke-interface {v14, v5}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48d9ec: 0c01                                   |00ea: move-result-object v1
+48d9ee: 2802                                   |00eb: goto 00ed // +0002
+48d9f0: 0721                                   |00ec: move-object v1, v2
+48d9f2: 6e20 b3ac 1000                         |00ed: invoke-virtual {v0, v1}, Lcom/carwith/common/view/weather/WeatherBean;.x:(Ljava/lang/String;)V // method@acb3
+48d9f8: 3736 0600                              |00f0: if-le v6, v3, 00f6 // +0006
+48d9fc: 7220 1206 6e00                         |00f2: invoke-interface {v14, v6}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+48da02: 0c02                                   |00f5: move-result-object v2
+48da04: 6e20 b4ac 2000                         |00f6: invoke-virtual {v0, v2}, Lcom/carwith/common/view/weather/WeatherBean;.y:(Ljava/lang/String;)V // method@acb4
+48da0a: 2900 0cff                              |00f9: goto/16 0005 // -00f4
+48da0e: 1100                                   |00fb: return-object v0
+      catches       : (none)
+
+    #5              : (in Li3/b;)
+      name          : 'e'
+      type          : '(I)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 18 16-bit code units
+48da10:                                        |[48da10] i3.b.e:(I)I
+48da20: 1300 1900                              |0000: const/16 v0, #int 25 // #19
+48da24: 3601 0a00                              |0002: if-gt v1, v0, 000c // +000a
+48da28: 3b01 0300                              |0004: if-gez v1, 0007 // +0003
+48da2c: 2806                                   |0006: goto 000c // +0006
+48da2e: 6200 75ea                              |0007: sget-object v0, Li3/b;.b:[I // field@ea75
+48da32: 4401 0001                              |0009: aget v1, v0, v1
+48da36: 0f01                                   |000b: return v1
+48da38: 6201 75ea                              |000c: sget-object v1, Li3/b;.b:[I // field@ea75
+48da3c: 1200                                   |000e: const/4 v0, #int 0 // #0
+48da3e: 4401 0100                              |000f: aget v1, v1, v0
+48da42: 0f01                                   |0011: return v1
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 30508 (WeatherUtil.java)
+

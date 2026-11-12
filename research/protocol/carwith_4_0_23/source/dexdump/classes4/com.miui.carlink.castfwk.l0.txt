@@ -1,0 +1,362 @@
+Class #153            -
+  Class descriptor  : 'Lcom/miui/carlink/castfwk/l0;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'e'
+      type          : 'Lcom/miui/carlink/castfwk/l0;'
+      access        : 0x0049 (PUBLIC STATIC VOLATILE)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #1              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'b'
+      type          : 'Landroid/content/Context;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #2              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'c'
+      type          : 'Landroid/app/NotificationManager;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #3              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'd'
+      type          : 'Landroid/app/Notification;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 27 16-bit code units
+0f683c:                                        |[0f683c] com.miui.carlink.castfwk.l0.<init>:(Landroid/content/Context;)V
+0f684c: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+0f6852: 1a00 330e                              |0003: const-string v0, "FocusNotificationHelper" // string@0e33
+0f6856: 5b10 ed37                              |0005: iput-object v0, v1, Lcom/miui/carlink/castfwk/l0;.a:Ljava/lang/String; // field@37ed
+0f685a: 6e10 c800 0200                         |0007: invoke-virtual {v2}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@00c8
+0f6860: 0c02                                   |000a: move-result-object v2
+0f6862: 5b12 ee37                              |000b: iput-object v2, v1, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f6866: 1a00 f059                              |000d: const-string v0, "notification" // string@59f0
+0f686a: 6e20 d900 0200                         |000f: invoke-virtual {v2, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@00d9
+0f6870: 0c02                                   |0012: move-result-object v2
+0f6872: 1f02 2400                              |0013: check-cast v2, Landroid/app/NotificationManager; // type@0024
+0f6876: 5b12 ef37                              |0015: iput-object v2, v1, Lcom/miui/carlink/castfwk/l0;.c:Landroid/app/NotificationManager; // field@37ef
+0f687a: 6e10 8d0b 0100                         |0017: invoke-virtual {v1}, Lcom/miui/carlink/castfwk/l0;.d:()V // method@0b8d
+0f6880: 0e00                                   |001a: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'e'
+      type          : '(Landroid/content/Context;)Lcom/miui/carlink/castfwk/l0;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 38 16-bit code units
+0f6774:                                        |[0f6774] com.miui.carlink.castfwk.l0.e:(Landroid/content/Context;)Lcom/miui/carlink/castfwk/l0;
+0f6784: 3802 1e00                              |0000: if-eqz v2, 001e // +001e
+0f6788: 6200 f137                              |0002: sget-object v0, Lcom/miui/carlink/castfwk/l0;.e:Lcom/miui/carlink/castfwk/l0; // field@37f1
+0f678c: 3900 1700                              |0004: if-nez v0, 001b // +0017
+0f6790: 1c00 bf02                              |0006: const-class v0, Lcom/miui/carlink/castfwk/l0; // type@02bf
+0f6794: 1d00                                   |0008: monitor-enter v0
+0f6796: 6201 f137                              |0009: sget-object v1, Lcom/miui/carlink/castfwk/l0;.e:Lcom/miui/carlink/castfwk/l0; // field@37f1
+0f679a: 3901 0c00                              |000b: if-nez v1, 0017 // +000c
+0f679e: 2201 bf02                              |000d: new-instance v1, Lcom/miui/carlink/castfwk/l0; // type@02bf
+0f67a2: 7020 890b 2100                         |000f: invoke-direct {v1, v2}, Lcom/miui/carlink/castfwk/l0;.<init>:(Landroid/content/Context;)V // method@0b89
+0f67a8: 6901 f137                              |0012: sput-object v1, Lcom/miui/carlink/castfwk/l0;.e:Lcom/miui/carlink/castfwk/l0; // field@37f1
+0f67ac: 2803                                   |0014: goto 0017 // +0003
+0f67ae: 0d02                                   |0015: move-exception v2
+0f67b0: 2803                                   |0016: goto 0019 // +0003
+0f67b2: 1e00                                   |0017: monitor-exit v0
+0f67b4: 2803                                   |0018: goto 001b // +0003
+0f67b6: 1e00                                   |0019: monitor-exit v0
+0f67b8: 2702                                   |001a: throw v2
+0f67ba: 6202 f137                              |001b: sget-object v2, Lcom/miui/carlink/castfwk/l0;.e:Lcom/miui/carlink/castfwk/l0; // field@37f1
+0f67be: 1102                                   |001d: return-object v2
+0f67c0: 2202 6707                              |001e: new-instance v2, Ljava/lang/IllegalArgumentException; // type@0767
+0f67c4: 1a00 ee0b                              |0020: const-string v0, "Context cannot be null" // string@0bee
+0f67c8: 7020 0d34 0200                         |0022: invoke-direct {v2, v0}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@340d
+0f67ce: 2702                                   |0025: throw v2
+      catches       : 1
+        0x0009 - 0x001a
+          <any> -> 0x0015
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'a'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 45 16-bit code units
+0f6884:                                        |[0f6884] com.miui.carlink.castfwk.l0.a:()V
+0f6894: 1a00 320e                              |0000: const-string v0, "FocusNotification" // string@0e32
+0f6898: 5433 ef37                              |0002: iget-object v3, v3, Lcom/miui/carlink/castfwk/l0;.c:Landroid/app/NotificationManager; // field@37ef
+0f689c: 3803 0a00                              |0004: if-eqz v3, 000e // +000a
+0f68a0: 1301 7803                              |0006: const/16 v1, #int 888 // #378
+0f68a4: 6e20 7c00 1300                         |0008: invoke-virtual {v3, v1}, Landroid/app/NotificationManager;.cancel:(I)V // method@007c
+0f68aa: 2803                                   |000b: goto 000e // +0003
+0f68ac: 0d03                                   |000c: move-exception v3
+0f68ae: 2807                                   |000d: goto 0014 // +0007
+0f68b0: 1a03 2328                              |000e: const-string v3, "The notice has been canceled ID: 888" // string@2823
+0f68b4: 7120 7803 3000                         |0010: invoke-static {v0, v3}, Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I // method@0378
+0f68ba: 2819                                   |0013: goto 002c // +0019
+0f68bc: 2201 7e07                              |0014: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+0f68c0: 7010 7b34 0100                         |0016: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0f68c6: 1a02 7208                              |0019: const-string v2, "Canceling notifications failed: " // string@0872
+0f68ca: 6e20 8434 2100                         |001b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f68d0: 6e10 b134 0300                         |001e: invoke-virtual {v3}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+0f68d6: 0c02                                   |0021: move-result-object v2
+0f68d8: 6e20 8434 2100                         |0022: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f68de: 6e10 8b34 0100                         |0025: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0f68e4: 0c01                                   |0028: move-result-object v1
+0f68e6: 7130 7b03 1003                         |0029: invoke-static {v0, v1, v3}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I // method@037b
+0f68ec: 0e00                                   |002c: return-void
+      catches       : 1
+        0x0002 - 0x0013
+          Ljava/lang/Exception; -> 0x000c
+
+    #1              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'b'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 31 16-bit code units
+0f669c:                                        |[0f669c] com.miui.carlink.castfwk.l0.b:()Z
+0f66ac: 6000 6800                              |0000: sget v0, Landroid/os/Build$VERSION;.SDK_INT:I // field@0068
+0f66b0: 1301 2100                              |0002: const/16 v1, #int 33 // #21
+0f66b4: 3410 1000                              |0004: if-lt v0, v1, 0014 // +0010
+0f66b8: 5422 ee37                              |0006: iget-object v2, v2, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f66bc: 1a00 2732                              |0008: const-string v0, "android.permission.POST_NOTIFICATIONS" // string@3227
+0f66c0: 7120 d404 0200                         |000a: invoke-static {v2, v0}, Landroidx/core/content/ContextCompat;.checkSelfPermission:(Landroid/content/Context;Ljava/lang/String;)I // method@04d4
+0f66c6: 0a02                                   |000d: move-result v2
+0f66c8: 3902 0400                              |000e: if-nez v2, 0012 // +0004
+0f66cc: 1212                                   |0010: const/4 v2, #int 1 // #1
+0f66ce: 2802                                   |0011: goto 0013 // +0002
+0f66d0: 1202                                   |0012: const/4 v2, #int 0 // #0
+0f66d2: 0f02                                   |0013: return v2
+0f66d4: 5422 ee37                              |0014: iget-object v2, v2, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f66d8: 7110 d304 0200                         |0016: invoke-static {v2}, Landroidx/core/app/NotificationManagerCompat;.from:(Landroid/content/Context;)Landroidx/core/app/NotificationManagerCompat; // method@04d3
+0f66de: 0c02                                   |0019: move-result-object v2
+0f66e0: 6e10 d204 0200                         |001a: invoke-virtual {v2}, Landroidx/core/app/NotificationManagerCompat;.areNotificationsEnabled:()Z // method@04d2
+0f66e6: 0a02                                   |001d: move-result v2
+0f66e8: 0f02                                   |001e: return v2
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 39 16-bit code units
+0f67dc:                                        |[0f67dc] com.miui.carlink.castfwk.l0.c:(Ljava/lang/String;)Ljava/lang/String;
+0f67ec: 2201 7e07                              |0000: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+0f67f0: 7010 7b34 0100                         |0002: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0f67f6: 1a00 5f6c                              |0005: const-string v0, "{\n  \"param_v2\": {\n    \"protocol\": \"1\",\n    \"business\": \"CarWith\",\n    \"reopen\": \"reopen\",\n    \"aodTitle\": \"" // string@6c5f
+0f67fa: 6e20 8434 0100                         |0007: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6800: 6e20 8434 2100                         |000a: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6806: 1a00 2601                              |000d: const-string v0, "\",\n    \"aodPic\": \"miui.focus.pic_large\",\n    \"ticker\": \"" // string@0126
+0f680a: 6e20 8434 0100                         |000f: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6810: 6e20 8434 2100                         |0012: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6816: 1a00 2701                              |0015: const-string v0, "\",\n    \"tickerPic\": \"miui.focus.pic_large\",\n    \"islandFirstFloat\": \"false\",\n    \"isShowNotification\": \"false\",\n    \"param_island\": {\n      \"islandProperty\": 0,\n      \"islandPriority\": 2,\n      \"islandTimeout\": \"3\",\n      \"bigIslandArea\": {\n        \"imageTextInfoLeft\": {\n          \"type\": 1,\n          \"picInfo\": { \"type\": 1, \"pic\": \" \" },\n          \"textInfo\": { \"title\": \"CarWith \"}\n        },\n        \"imageTextInfoRight\": {\n          \"type\": 2,\n          \"picInfo\": { \"type\": 2, \"autoplay\": true, \"pic\": \"car_loading\" },\n          \"textInfo\": { \"title\": \"" // string@0127
+0f681a: 6e20 8434 0100                         |0017: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6820: 6e20 8434 2100                         |001a: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6826: 1a02 2c01                              |001d: const-string v2, "\"}\n        }\n      },\n      \"smallIslandArea\": {\n        \"picInfo\": { \"type\": 1, \"autoplay\": true, \"pic\": \"car_loading\" }\n      },\n      \"shareData\": { \"title\": \"\" }\n    }\n  }\n}" // string@012c
+0f682a: 6e20 8434 2100                         |001f: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6830: 6e10 8b34 0100                         |0022: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0f6836: 0c01                                   |0025: move-result-object v1
+0f6838: 1101                                   |0026: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'd'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 18 16-bit code units
+0f6900:                                        |[0f6900] com.miui.carlink.castfwk.l0.d:()V
+0f6910: 2200 2300                              |0000: new-instance v0, Landroid/app/NotificationChannel; // type@0023
+0f6914: 1a01 a86c                              |0002: const-string v1, "焦点通知" // string@6ca8
+0f6918: 1242                                   |0004: const/4 v2, #int 4 // #4
+0f691a: 1a03 cc67                              |0005: const-string v3, "super_notification_tag" // string@67cc
+0f691e: 7040 7a00 3021                         |0007: invoke-direct {v0, v3, v1, v2}, Landroid/app/NotificationChannel;.<init>:(Ljava/lang/String;Ljava/lang/CharSequence;I)V // method@007a
+0f6924: 5444 ef37                              |000a: iget-object v4, v4, Lcom/miui/carlink/castfwk/l0;.c:Landroid/app/NotificationManager; // field@37ef
+0f6928: 3804 0500                              |000c: if-eqz v4, 0011 // +0005
+0f692c: 6e20 7e00 0400                         |000e: invoke-virtual {v4, v0}, Landroid/app/NotificationManager;.createNotificationChannel:(Landroid/app/NotificationChannel;)V // method@007e
+0f6932: 0e00                                   |0011: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'f'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 5
+      insns size    : 51 16-bit code units
+0f66ec:                                        |[0f66ec] com.miui.carlink.castfwk.l0.f:()Z
+0f66fc: 1a00 a134                              |0000: const-string v0, "canShowFocus" // string@34a1
+0f6700: 1201                                   |0002: const/4 v1, #int 0 // #0
+0f6702: 1a02 5439                              |0003: const-string v2, "content://miui.statusbar.notification.public" // string@3954
+0f6706: 7110 7002 0200                         |0005: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0270
+0f670c: 0c02                                   |0008: move-result-object v2
+0f670e: 2203 c600                              |0009: new-instance v3, Landroid/os/Bundle; // type@00c6
+0f6712: 7010 a602 0300                         |000b: invoke-direct {v3}, Landroid/os/Bundle;.<init>:()V // method@02a6
+0f6718: 1a04 015c                              |000e: const-string v4, "package" // string@5c01
+0f671c: 5465 ee37                              |0010: iget-object v5, v6, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f6720: 6e10 d400 0500                         |0012: invoke-virtual {v5}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@00d4
+0f6726: 0c05                                   |0015: move-result-object v5
+0f6728: 6e30 a002 4305                         |0016: invoke-virtual {v3, v4, v5}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+0f672e: 5466 ee37                              |0019: iget-object v6, v6, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f6732: 6e10 ce00 0600                         |001b: invoke-virtual {v6}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00ce
+0f6738: 0c06                                   |001e: move-result-object v6
+0f673a: 1204                                   |001f: const/4 v4, #int 0 // #0
+0f673c: 6e53 bc00 2640                         |0020: invoke-virtual {v6, v2, v0, v4, v3}, Landroid/content/ContentResolver;.call:(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; // method@00bc
+0f6742: 0c06                                   |0023: move-result-object v6
+0f6744: 3806 0700                              |0024: if-eqz v6, 002b // +0007
+0f6748: 6e30 9402 0601                         |0026: invoke-virtual {v6, v0, v1}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;Z)Z // method@0294
+0f674e: 0a01                                   |0029: move-result v1
+0f6750: 2808                                   |002a: goto 0032 // +0008
+0f6752: 1a06 320e                              |002b: const-string v6, "FocusNotification" // string@0e32
+0f6756: 1a00 ed0b                              |002d: const-string v0, "ContentResolver null Bundle，Probably not a MIUI device" // string@0bed
+0f675a: 7120 8103 0600                         |002f: invoke-static {v6, v0}, Landroid/util/Log;.w:(Ljava/lang/String;Ljava/lang/String;)I // method@0381
+0f6760: 0f01                                   |0032: return v1
+      catches       : 1
+        0x0003 - 0x0032
+          Ljava/lang/Exception; -> 0x0032
+
+    #5              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'g'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 6 16-bit code units
+0f6934:                                        |[0f6934] com.miui.carlink.castfwk.l0.g:()V
+0f6944: 1a00 cc67                              |0000: const-string v0, "super_notification_tag" // string@67cc
+0f6948: 6e20 910b 0100                         |0002: invoke-virtual {v1, v0}, Lcom/miui/carlink/castfwk/l0;.h:(Ljava/lang/String;)V // method@0b91
+0f694e: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/miui/carlink/castfwk/l0;)
+      name          : 'h'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 3
+      insns size    : 174 16-bit code units
+0f6950:                                        |[0f6950] com.miui.carlink.castfwk.l0.h:(Ljava/lang/String;)V
+0f6960: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+0f6964: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0f696a: 1a01 7735                              |0005: const-string v1, "channelId -- > :  " // string@3577
+0f696e: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6974: 6e20 8434 5000                         |000a: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f697a: 6e10 8b34 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0f6980: 0c00                                   |0010: move-result-object v0
+0f6982: 1a01 320e                              |0011: const-string v1, "FocusNotification" // string@0e32
+0f6986: 7120 7a03 0100                         |0013: invoke-static {v1, v0}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@037a
+0f698c: 6e10 8b0b 0400                         |0016: invoke-virtual {v4}, Lcom/miui/carlink/castfwk/l0;.b:()Z // method@0b8b
+0f6992: 0a00                                   |0019: move-result v0
+0f6994: 3900 0800                              |001a: if-nez v0, 0022 // +0008
+0f6998: 1a04 9420                              |001c: const-string v4, "Notification permission is not granted" // string@2094
+0f699c: 7120 8103 4100                         |001e: invoke-static {v1, v4}, Landroid/util/Log;.w:(Ljava/lang/String;Ljava/lang/String;)I // method@0381
+0f69a2: 0e00                                   |0021: return-void
+0f69a4: 5440 ee37                              |0022: iget-object v0, v4, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f69a8: 3900 0800                              |0024: if-nez v0, 002c // +0008
+0f69ac: 1a04 7839                              |0026: const-string v4, "context is null" // string@3978
+0f69b0: 7120 8103 4100                         |0028: invoke-static {v1, v4}, Landroid/util/Log;.w:(Ljava/lang/String;Ljava/lang/String;)I // method@0381
+0f69b6: 0e00                                   |002b: return-void
+0f69b8: 2200 2100                              |002c: new-instance v0, Landroid/app/Notification$Builder; // type@0021
+0f69bc: 5442 ee37                              |002e: iget-object v2, v4, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f69c0: 7030 6900 2005                         |0030: invoke-direct {v0, v2, v5}, Landroid/app/Notification$Builder;.<init>:(Landroid/content/Context;Ljava/lang/String;)V // method@0069
+0f69c6: 5445 ee37                              |0033: iget-object v5, v4, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f69ca: 6002 3926                              |0035: sget v2, Lcom/miui/carlink/castfwk/R$string;.wireless_casting_notification_title:I // field@2639
+0f69ce: 6e20 d700 2500                         |0037: invoke-virtual {v5, v2}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@00d7
+0f69d4: 0c05                                   |003a: move-result-object v5
+0f69d6: 6e20 7200 5000                         |003b: invoke-virtual {v0, v5}, Landroid/app/Notification$Builder;.setContentTitle:(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder; // method@0072
+0f69dc: 0c05                                   |003e: move-result-object v5
+0f69de: 5442 ee37                              |003f: iget-object v2, v4, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f69e2: 6003 1b23                              |0041: sget v3, Lcom/miui/carlink/castfwk/R$string;.casting_notification_text:I // field@231b
+0f69e6: 6e20 d700 3200                         |0043: invoke-virtual {v2, v3}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@00d7
+0f69ec: 0c02                                   |0046: move-result-object v2
+0f69ee: 6e20 7100 2500                         |0047: invoke-virtual {v5, v2}, Landroid/app/Notification$Builder;.setContentText:(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder; // method@0071
+0f69f4: 0c05                                   |004a: move-result-object v5
+0f69f6: 6002 1118                              |004b: sget v2, Lcom/miui/carlink/castfwk/R$drawable;.app_icon_carwith:I // field@1811
+0f69fa: 6e20 7700 2500                         |004d: invoke-virtual {v5, v2}, Landroid/app/Notification$Builder;.setSmallIcon:(I)Landroid/app/Notification$Builder; // method@0077
+0f6a00: 6e10 6c00 0000                         |0050: invoke-virtual {v0}, Landroid/app/Notification$Builder;.build:()Landroid/app/Notification; // method@006c
+0f6a06: 0c05                                   |0053: move-result-object v5
+0f6a08: 5b45 f037                              |0054: iput-object v5, v4, Lcom/miui/carlink/castfwk/l0;.d:Landroid/app/Notification; // field@37f0
+0f6a0c: 5455 1400                              |0056: iget-object v5, v5, Landroid/app/Notification;.extras:Landroid/os/Bundle; // field@0014
+0f6a10: 1a00 ed48                              |0058: const-string v0, "miui.focus.param" // string@48ed
+0f6a14: 5442 ee37                              |005a: iget-object v2, v4, Lcom/miui/carlink/castfwk/l0;.b:Landroid/content/Context; // field@37ee
+0f6a18: 6003 1623                              |005c: sget v3, Lcom/miui/carlink/castfwk/R$string;.casting_global_island_text:I // field@2316
+0f6a1c: 6e20 d700 3200                         |005e: invoke-virtual {v2, v3}, Landroid/content/Context;.getString:(I)Ljava/lang/String; // method@00d7
+0f6a22: 0c02                                   |0061: move-result-object v2
+0f6a24: 6e20 8c0b 2400                         |0062: invoke-virtual {v4, v2}, Lcom/miui/carlink/castfwk/l0;.c:(Ljava/lang/String;)Ljava/lang/String; // method@0b8c
+0f6a2a: 0c02                                   |0065: move-result-object v2
+0f6a2c: 6e30 a002 0502                         |0066: invoke-virtual {v5, v0, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+0f6a32: 5445 ef37                              |0069: iget-object v5, v4, Lcom/miui/carlink/castfwk/l0;.c:Landroid/app/NotificationManager; // field@37ef
+0f6a36: 5444 f037                              |006b: iget-object v4, v4, Lcom/miui/carlink/castfwk/l0;.d:Landroid/app/Notification; // field@37f0
+0f6a3a: 1300 7803                              |006d: const/16 v0, #int 888 // #378
+0f6a3e: 6e30 8000 0504                         |006f: invoke-virtual {v5, v0, v4}, Landroid/app/NotificationManager;.notify:(ILandroid/app/Notification;)V // method@0080
+0f6a44: 1a04 330e                              |0072: const-string v4, "FocusNotificationHelper" // string@0e33
+0f6a48: 1a05 6b62                              |0074: const-string v5, "send notification : 888" // string@626b
+0f6a4c: 7120 7a03 5400                         |0076: invoke-static {v4, v5}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@037a
+0f6a52: 2834                                   |0079: goto 00ad // +0034
+0f6a54: 0d04                                   |007a: move-exception v4
+0f6a56: 2205 7e07                              |007b: new-instance v5, Ljava/lang/StringBuilder; // type@077e
+0f6a5a: 7010 7b34 0500                         |007d: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0f6a60: 1a00 d30d                              |0080: const-string v0, "Failed to add island parameters: " // string@0dd3
+0f6a64: 6e20 8434 0500                         |0082: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6a6a: 6e10 b134 0400                         |0085: invoke-virtual {v4}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+0f6a70: 0c04                                   |0088: move-result-object v4
+0f6a72: 6e20 8434 4500                         |0089: invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6a78: 6e10 8b34 0500                         |008c: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0f6a7e: 0c04                                   |008f: move-result-object v4
+0f6a80: 7120 8103 4100                         |0090: invoke-static {v1, v4}, Landroid/util/Log;.w:(Ljava/lang/String;Ljava/lang/String;)I // method@0381
+0f6a86: 281a                                   |0093: goto 00ad // +001a
+0f6a88: 0d04                                   |0094: move-exception v4
+0f6a8a: 2205 7e07                              |0095: new-instance v5, Ljava/lang/StringBuilder; // type@077e
+0f6a8e: 7010 7b34 0500                         |0097: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0f6a94: 1a00 dc0d                              |009a: const-string v0, "Failed to send notifications: " // string@0ddc
+0f6a98: 6e20 8434 0500                         |009c: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6a9e: 6e10 b134 0400                         |009f: invoke-virtual {v4}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+0f6aa4: 0c00                                   |00a2: move-result-object v0
+0f6aa6: 6e20 8434 0500                         |00a3: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0f6aac: 6e10 8b34 0500                         |00a6: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0f6ab2: 0c05                                   |00a9: move-result-object v5
+0f6ab4: 7130 7b03 5104                         |00aa: invoke-static {v1, v5, v4}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I // method@037b
+0f6aba: 0e00                                   |00ad: return-void
+      catches       : 3
+        0x002c - 0x0056
+          Ljava/lang/Exception; -> 0x0094
+        0x0056 - 0x0079
+          Ljava/lang/Exception; -> 0x007a
+        0x007b - 0x0093
+          Ljava/lang/Exception; -> 0x0094
+
+  source_file_idx   : 3636 (FocusNotificationHelper.java)
+

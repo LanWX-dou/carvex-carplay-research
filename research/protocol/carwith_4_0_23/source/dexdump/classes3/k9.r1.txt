@@ -1,0 +1,96 @@
+Class #1682            -
+  Class descriptor  : 'Lk9/r1;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lk9/r1;)
+      name          : 'a'
+      type          : '([B)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 3
+      insns size    : 139 16-bit code units
+321208:                                        |[321208] k9.r1.a:([B)Z
+321218: 1200                                   |0000: const/4 v0, #int 0 // #0
+32121a: 3806 8900                              |0001: if-eqz v6, 008a // +0089
+32121e: 2201 3211                              |0003: new-instance v1, Lk9/v2; // type@1132
+321222: 7010 6f94 0100                         |0005: invoke-direct {v1}, Lk9/v2;.<init>:()V // method@946f
+321228: 5412 f8dc                              |0008: iget-object v2, v1, Lk9/v2;.b:Ljava/util/Map; // field@dcf8
+32122c: 1a03 be10                              |000a: const-string v3, "Content-Type" // string@10be
+321230: 1a04 9451                              |000c: const-string v4, "application/octet-stream" // string@5194
+321234: 7230 758c 3204                         |000e: invoke-interface {v2, v3, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8c75
+32123a: 5412 f8dc                              |0011: iget-object v2, v1, Lk9/v2;.b:Ljava/util/Map; // field@dcf8
+32123e: 1a03 5b52                              |0013: const-string v3, "aps_c_src" // string@525b
+321242: 7100 7094 0000                         |0015: invoke-static {}, Lk9/v2;.a:()Ljava/lang/String; // method@9470
+321248: 0c04                                   |0018: move-result-object v4
+32124a: 6e10 ad89 0400                         |0019: invoke-virtual {v4}, Ljava/lang/String;.getBytes:()[B // method@89ad
+321250: 0c04                                   |001c: move-result-object v4
+321252: 1225                                   |001d: const/4 v5, #int 2 // #2
+321254: 7120 6004 5400                         |001e: invoke-static {v4, v5}, Landroid/util/Base64;.encodeToString:([BI)Ljava/lang/String; // method@0460
+32125a: 0c04                                   |0021: move-result-object v4
+32125c: 7230 758c 3204                         |0022: invoke-interface {v2, v3, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8c75
+321262: 5412 f8dc                              |0025: iget-object v2, v1, Lk9/v2;.b:Ljava/util/Map; // field@dcf8
+321266: 1a03 5a52                              |0027: const-string v3, "aps_c_key" // string@525a
+32126a: 7100 7194 0000                         |0029: invoke-static {}, Lk9/v2;.b:()Ljava/lang/String; // method@9471
+321270: 0c04                                   |002c: move-result-object v4
+321272: 6e10 ad89 0400                         |002d: invoke-virtual {v4}, Ljava/lang/String;.getBytes:()[B // method@89ad
+321278: 0c04                                   |0030: move-result-object v4
+32127a: 7120 6004 5400                         |0031: invoke-static {v4, v5}, Landroid/util/Base64;.encodeToString:([BI)Ljava/lang/String; // method@0460
+321280: 0c04                                   |0034: move-result-object v4
+321282: 7230 758c 3204                         |0035: invoke-interface {v2, v3, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8c75
+321288: 5b16 fadc                              |0038: iput-object v6, v1, Lk9/v2;.d:[B // field@dcfa
+32128c: 6306 99da                              |003a: sget-boolean v6, Lk9/i1;.a:Z // field@da99
+321290: 3806 0900                              |003c: if-eqz v6, 0045 // +0009
+321294: 1a06 5373                              |003e: const-string v6, "http://cgicol.amap.com/collection/collectData?src=baseCol&ver=v74&" // string@7353
+321298: 5b16 f7dc                              |0040: iput-object v6, v1, Lk9/v2;.a:Ljava/lang/String; // field@dcf7
+32129c: 281e                                   |0042: goto 0060 // +001e
+32129e: 0d06                                   |0043: move-exception v6
+3212a0: 2843                                   |0044: goto 0087 // +0043
+3212a2: 6306 9ada                              |0045: sget-boolean v6, Lk9/i1;.b:Z // field@da9a
+3212a6: 3806 0500                              |0047: if-eqz v6, 004c // +0005
+3212aa: 1a06 5d73                              |0049: const-string v6, "https://" // string@735d
+3212ae: 2803                                   |004b: goto 004e // +0003
+3212b0: 1a06 5073                              |004c: const-string v6, "http://" // string@7350
+3212b4: 1a02 b558                              |004e: const-string v2, "cgicol.amap.com/collection/collectData?src=baseCol&ver=v74&" // string@58b5
+3212b8: 2203 6f0f                              |0050: new-instance v3, Ljava/lang/StringBuilder; // type@0f6f
+3212bc: 7010 e089 0300                         |0052: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@89e0
+3212c2: 6e20 ec89 6300                         |0055: invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@89ec
+3212c8: 6e20 ec89 2300                         |0058: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@89ec
+3212ce: 6e10 fe89 0300                         |005b: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@89fe
+3212d4: 0c06                                   |005e: move-result-object v6
+3212d6: 28e1                                   |005f: goto 0040 // -001f
+3212d8: 7100 c391 0000                         |0060: invoke-static {}, Lk9/n2;.c:()Lk9/x2; // method@91c3
+3212de: 0c06                                   |0063: move-result-object v6
+3212e0: 7220 c694 1600                         |0064: invoke-interface {v6, v1}, Lk9/x2;.a:(Lk9/v2;)Lk9/w2; // method@94c6
+3212e6: 0c06                                   |0067: move-result-object v6
+3212e8: 3806 0b00                              |0068: if-eqz v6, 0073 // +000b
+3212ec: 5261 01dd                              |006a: iget v1, v6, Lk9/w2;.a:I // field@dd01
+3212f0: 1302 c800                              |006c: const/16 v2, #int 200 // #c8
+3212f4: 3321 0500                              |006e: if-ne v1, v2, 0073 // +0005
+3212f8: 5466 03dd                              |0070: iget-object v6, v6, Lk9/w2;.c:[B // field@dd03
+3212fc: 2802                                   |0072: goto 0074 // +0002
+3212fe: 1206                                   |0073: const/4 v6, #int 0 // #0
+321300: 3806 1600                              |0074: if-eqz v6, 008a // +0016
+321304: 1a01 e9b1                              |0076: const-string v1, "true" // string@b1e9
+321308: 2202 6d0f                              |0078: new-instance v2, Ljava/lang/String; // type@0f6d
+32130c: 6203 29d9                              |007a: sget-object v3, Ljava/nio/charset/StandardCharsets;.UTF_8:Ljava/nio/charset/Charset; // field@d929
+321310: 7030 9e89 6203                         |007c: invoke-direct {v2, v6, v3}, Ljava/lang/String;.<init>:([BLjava/nio/charset/Charset;)V // method@899e
+321316: 6e20 a989 2100                         |007f: invoke-virtual {v1, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@89a9
+32131c: 0a06                                   |0082: move-result v6
+32131e: 3806 0700                              |0083: if-eqz v6, 008a // +0007
+321322: 1210                                   |0085: const/4 v0, #int 1 // #1
+321324: 2804                                   |0086: goto 008a // +0004
+321326: 7110 0794 0600                         |0087: invoke-static {v6}, Lk9/u2;.a:(Ljava/lang/Throwable;)V // method@9407
+32132c: 0f00                                   |008a: return v0
+      catches       : 1
+        0x0003 - 0x0083
+          Ljava/lang/Exception; -> 0x0043
+
+  Virtual methods   -
+  source_file_idx   : 3745 (CollectionUploader.java)
+

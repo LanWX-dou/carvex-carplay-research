@@ -1,0 +1,1270 @@
+Class #4356            -
+  Class descriptor  : 'Lxe/c;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lxe/c;)
+      name          : 'a'
+      type          : 'Lcom/xiaomi/ai/core/Channel;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lxe/c;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lxe/c;)
+      name          : 'c'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lxe/c;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lxe/c;)
+      name          : 'e'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lxe/c;)
+      name          : 'f'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lxe/c;)
+      name          : 'g'
+      type          : 'Lso/z;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lxe/c;)
+      name          : 'h'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lxe/c;)
+      name          : 'i'
+      type          : 'Lcom/xiaomi/ai/core/b;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lxe/c;)
+      name          : '<init>'
+      type          : '(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 6
+      ins           : 3
+      outs          : 4
+      insns size    : 138 16-bit code units
+474e78:                                        |[474e78] xe.c.<init>:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)V
+474e88: 7010 e2cb 0300                         |0000: invoke-direct {v3}, Ljava/lang/Object;.<init>:()V // method@cbe2
+474e8e: 5b34 53f3                              |0003: iput-object v4, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474e92: 5b35 56f3                              |0005: iput-object v5, v3, Lxe/c;.d:Ljava/lang/String; // field@f356
+474e96: 12f0                                   |0007: const/4 v0, #int -1 // #ff
+474e98: 5930 55f3                              |0008: iput v0, v3, Lxe/c;.c:I // field@f355
+474e9c: 1200                                   |000a: const/4 v0, #int 0 // #0
+474e9e: 5c30 5af3                              |000b: iput-boolean v0, v3, Lxe/c;.h:Z // field@f35a
+474ea2: 2200 ea1f                              |000d: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474ea6: 7010 3dcc 0000                         |000f: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474eac: 1a01 85a6                              |0012: const-string v1, "init url:" // string@a685
+474eb0: 6e20 47cc 1000                         |0014: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474eb6: 6e20 47cc 5000                         |0017: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474ebc: 1a01 a202                              |001a: const-string v1, ", channel type:" // string@02a2
+474ec0: 6e20 47cc 1000                         |001c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474ec6: 6e10 a7a2 0400                         |001f: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+474ecc: 0c04                                   |0022: move-result-object v4
+474ece: 6e20 47cc 4000                         |0023: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474ed4: 6e10 50cc 0000                         |0026: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474eda: 0c04                                   |0029: move-result-object v4
+474edc: 1a00 a621                              |002a: const-string v0, "HttpDns" // string@21a6
+474ee0: 7120 7fc9 4000                         |002c: invoke-static {v0, v4}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+474ee6: 6e20 2bdd 5300                         |002f: invoke-virtual {v3, v5}, Lxe/c;.s:(Ljava/lang/String;)V // method@dd2b
+474eec: 5434 53f3                              |0032: iget-object v4, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474ef0: 6e10 a4a2 0400                         |0034: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+474ef6: 0c04                                   |0037: move-result-object v4
+474ef8: 1a05 4089                              |0038: const-string v5, "connection.enable_http_dns" // string@8940
+474efc: 1210                                   |003a: const/4 v0, #int 1 // #1
+474efe: 6e30 8aa2 5400                         |003b: invoke-virtual {v4, v5, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+474f04: 0a04                                   |003e: move-result v4
+474f06: 3804 4a00                              |003f: if-eqz v4, 0089 // +004a
+474f0a: 5434 53f3                              |0041: iget-object v4, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474f0e: 6e10 aea2 0400                         |0043: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+474f14: 0c04                                   |0046: move-result-object v4
+474f16: 6e10 caa2 0400                         |0047: invoke-virtual {v4}, Lcom/xiaomi/ai/core/ChannelListener;.getMiBuilder:()Lso/z$a; // method@a2ca
+474f1c: 0c04                                   |004a: move-result-object v4
+474f1e: 5435 53f3                              |004b: iget-object v5, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474f22: 6e10 a4a2 0500                         |004d: invoke-virtual {v5}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+474f28: 0c05                                   |0050: move-result-object v5
+474f2a: 1a01 3789                              |0051: const-string v1, "connection.connect_timeout" // string@8937
+474f2e: 6e20 8fa2 1500                         |0053: invoke-virtual {v5, v1}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+474f34: 0a05                                   |0056: move-result v5
+474f36: 8151                                   |0057: int-to-long v1, v5
+474f38: 6205 f2d9                              |0058: sget-object v5, Ljava/util/concurrent/TimeUnit;.SECONDS:Ljava/util/concurrent/TimeUnit; // field@d9f2
+474f3c: 6e40 2cd9 1452                         |005a: invoke-virtual {v4, v1, v2, v5}, Lso/z$a;.c:(JLjava/util/concurrent/TimeUnit;)Lso/z$a; // method@d92c
+474f42: 0c04                                   |005d: move-result-object v4
+474f44: 6e10 2bd9 0400                         |005e: invoke-virtual {v4}, Lso/z$a;.b:()Lso/z; // method@d92b
+474f4a: 0c04                                   |0061: move-result-object v4
+474f4c: 5b34 59f3                              |0062: iput-object v4, v3, Lxe/c;.g:Lso/z; // field@f359
+474f50: 5434 53f3                              |0064: iget-object v4, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474f54: 6e10 a7a2 0400                         |0066: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+474f5a: 0c04                                   |0069: move-result-object v4
+474f5c: 1a05 e3ed                              |006a: const-string v5, "ws" // string@ede3
+474f60: 6e20 09cc 5400                         |006c: invoke-virtual {v4, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+474f66: 0a04                                   |006f: move-result v4
+474f68: 3804 1900                              |0070: if-eqz v4, 0089 // +0019
+474f6c: 5434 53f3                              |0072: iget-object v4, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474f70: 6e10 a4a2 0400                         |0074: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+474f76: 0c04                                   |0077: move-result-object v4
+474f78: 1a05 3f89                              |0078: const-string v5, "connection.enable_horse_race" // string@893f
+474f7c: 6e30 8aa2 5400                         |007a: invoke-virtual {v4, v5, v0}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+474f82: 0a04                                   |007d: move-result v4
+474f84: 3804 0b00                              |007e: if-eqz v4, 0089 // +000b
+474f88: 2204 f618                              |0080: new-instance v4, Lcom/xiaomi/ai/core/b; // type@18f6
+474f8c: 5435 53f3                              |0082: iget-object v5, v3, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474f90: 7030 7fa3 5403                         |0084: invoke-direct {v4, v5, v3}, Lcom/xiaomi/ai/core/b;.<init>:(Lcom/xiaomi/ai/core/Channel;Lxe/c;)V // method@a37f
+474f96: 5b34 5bf3                              |0087: iput-object v4, v3, Lxe/c;.i:Lcom/xiaomi/ai/core/b; // field@f35b
+474f9a: 0e00                                   |0089: return-void
+      catches       : (none)
+
+    #1              : (in Lxe/c;)
+      name          : 'a'
+      type          : '(Lxe/c;)Lcom/xiaomi/ai/core/Channel;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+4746ec:                                        |[4746ec] xe.c.a:(Lxe/c;)Lcom/xiaomi/ai/core/Channel;
+4746fc: 5400 53f3                              |0000: iget-object v0, v0, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474700: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lxe/c;)
+      name          : 'e'
+      type          : '(Lxe/c;Lp7/p;Ljava/lang/String;)Lp7/a;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 5 16-bit code units
+474e5c:                                        |[474e5c] xe.c.e:(Lxe/c;Lp7/p;Ljava/lang/String;)Lp7/a;
+474e6c: 6e30 1cdd 1002                         |0000: invoke-virtual {v0, v1, v2}, Lxe/c;.d:(Lp7/p;Ljava/lang/String;)Lp7/a; // method@dd1c
+474e72: 0c00                                   |0003: move-result-object v0
+474e74: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #3              : (in Lxe/c;)
+      name          : 'i'
+      type          : '(Lxe/c;)Lcom/xiaomi/ai/core/b;'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+474704:                                        |[474704] xe.c.i:(Lxe/c;)Lcom/xiaomi/ai/core/b;
+474714: 5400 5bf3                              |0000: iget-object v0, v0, Lxe/c;.i:Lcom/xiaomi/ai/core/b; // field@f35b
+474718: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lxe/c;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+47471c:                                        |[47471c] xe.c.b:()Ljava/lang/String;
+47472c: 5400 54f3                              |0000: iget-object v0, v0, Lxe/c;.b:Ljava/lang/String; // field@f354
+474730: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lxe/c;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)Lp7/a;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 13
+      ins           : 3
+      outs          : 3
+      insns size    : 129 16-bit code units
+474ccc:                                        |[474ccc] xe.c.c:(Ljava/lang/String;Ljava/lang/String;)Lp7/a;
+474cdc: 1a00 678d                              |0000: const-string v0, "dns" // string@8d67
+474ce0: 1a01 a621                              |0002: const-string v1, "HttpDns" // string@21a6
+474ce4: 6e30 24dd ca0b                         |0004: invoke-virtual {v10, v12, v11}, Lxe/c;.l:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@dd24
+474cea: 0c02                                   |0007: move-result-object v2
+474cec: 7110 eab0 0200                         |0008: invoke-static {v2}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+474cf2: 0a03                                   |000b: move-result v3
+474cf4: 3903 7000                              |000c: if-nez v3, 007c // +0070
+474cf8: 7100 3264 0000                         |000e: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+474cfe: 0c03                                   |0011: move-result-object v3
+474d00: 6e20 fd08 2300                         |0012: invoke-virtual {v3, v2}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+474d06: 0c03                                   |0015: move-result-object v3
+474d08: 1f03 7622                              |0016: check-cast v3, Lp7/p; // type@2276
+474d0c: 1a04 0590                              |0018: const-string v4, "expire_at" // string@9005
+474d10: 6e20 ecd6 4300                         |001a: invoke-virtual {v3, v4}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474d16: 0c04                                   |001d: move-result-object v4
+474d18: 6e10 1309 0400                         |001e: invoke-virtual {v4}, Lcom/fasterxml/jackson/databind/e;.h:()J // method@0913
+474d1e: 0b04                                   |0021: move-result-wide v4
+474d20: 5aa4 58f3                              |0022: iput-wide v4, v10, Lxe/c;.f:J // field@f358
+474d24: 7100 52cc 0000                         |0024: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+474d2a: 0b04                                   |0027: move-result-wide v4
+474d2c: 53a6 58f3                              |0028: iget-wide v6, v10, Lxe/c;.f:J // field@f358
+474d30: 1608 1027                              |002a: const-wide/16 v8, #int 10000 // #2710
+474d34: bb86                                   |002c: add-long/2addr v6, v8
+474d36: 3104 0406                              |002d: cmp-long v4, v4, v6
+474d3a: 3d04 1b00                              |002f: if-lez v4, 004a // +001b
+474d3e: 2200 ea1f                              |0031: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474d42: 7010 3dcc 0000                         |0033: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474d48: 1a03 f19a                              |0036: const-string v3, "getLocalIp: local dns expired, mExpireAt=" // string@9af1
+474d4c: 6e20 47cc 3000                         |0038: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474d52: 53a3 58f3                              |003b: iget-wide v3, v10, Lxe/c;.f:J // field@f358
+474d56: 6e30 44cc 3004                         |003d: invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@cc44
+474d5c: 6e10 50cc 0000                         |0040: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474d62: 0c00                                   |0043: move-result-object v0
+474d64: 7120 82c9 0100                         |0044: invoke-static {v1, v0}, Lfe/a;.m:(Ljava/lang/String;Ljava/lang/String;)V // method@c982
+474d6a: 2835                                   |0047: goto 007c // +0035
+474d6c: 0d00                                   |0048: move-exception v0
+474d6e: 2818                                   |0049: goto 0061 // +0018
+474d70: 6e20 ecd6 0300                         |004a: invoke-virtual {v3, v0}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474d76: 0c04                                   |004d: move-result-object v4
+474d78: 6e10 1e09 0400                         |004e: invoke-virtual {v4}, Lcom/fasterxml/jackson/databind/e;.x:()Z // method@091e
+474d7e: 0a04                                   |0051: move-result v4
+474d80: 3804 2a00                              |0052: if-eqz v4, 007c // +002a
+474d84: 6e20 ecd6 0300                         |0054: invoke-virtual {v3, v0}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474d8a: 0c00                                   |0057: move-result-object v0
+474d8c: 1f00 7522                              |0058: check-cast v0, Lp7/a; // type@2275
+474d90: 6e10 ead6 0000                         |005a: invoke-virtual {v0}, Lp7/a;.size:()I // method@d6ea
+474d96: 0a01                                   |005d: move-result v1
+474d98: 3d01 1e00                              |005e: if-lez v1, 007c // +001e
+474d9c: 1100                                   |0060: return-object v0
+474d9e: 7110 86c9 0000                         |0061: invoke-static {v0}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+474da4: 0c00                                   |0064: move-result-object v0
+474da6: 7120 7cc9 0100                         |0065: invoke-static {v1, v0}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+474dac: 2200 ea1f                              |0068: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474db0: 7010 3dcc 0000                         |006a: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474db6: 1a03 f39a                              |006d: const-string v3, "getLocalIp:parse local ip failed: " // string@9af3
+474dba: 6e20 47cc 3000                         |006f: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474dc0: 6e20 47cc 2000                         |0072: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474dc6: 6e10 50cc 0000                         |0075: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474dcc: 0c00                                   |0078: move-result-object v0
+474dce: 7120 7cc9 0100                         |0079: invoke-static {v1, v0}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+474dd4: 6e30 26dd ca0b                         |007c: invoke-virtual {v10, v12, v11}, Lxe/c;.n:(Ljava/lang/String;Ljava/lang/String;)V // method@dd26
+474dda: 120a                                   |007f: const/4 v10, #int 0 // #0
+474ddc: 110a                                   |0080: return-object v10
+      catches       : 1
+        0x000e - 0x005e
+          Ljava/lang/Exception; -> 0x0048
+
+    #2              : (in Lxe/c;)
+      name          : 'd'
+      type          : '(Lp7/p;Ljava/lang/String;)Lp7/a;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 2
+      insns size    : 45 16-bit code units
+474df0:                                        |[474df0] xe.c.d:(Lp7/p;Ljava/lang/String;)Lp7/a;
+474e00: 6e20 ecd6 3200                         |0000: invoke-virtual {v2, v3}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474e06: 0c00                                   |0003: move-result-object v0
+474e08: 6e10 0e09 0000                         |0004: invoke-virtual {v0}, Lcom/fasterxml/jackson/databind/e;.B:()Z // method@090e
+474e0e: 0a00                                   |0007: move-result v0
+474e10: 3800 2300                              |0008: if-eqz v0, 002b // +0023
+474e14: 6e20 ecd6 3200                         |000a: invoke-virtual {v2, v3}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474e1a: 0c02                                   |000d: move-result-object v2
+474e1c: 1f02 7622                              |000e: check-cast v2, Lp7/p; // type@2276
+474e20: 5413 54f3                              |0010: iget-object v3, v1, Lxe/c;.b:Ljava/lang/String; // field@f354
+474e24: 6e20 ecd6 3200                         |0012: invoke-virtual {v2, v3}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474e2a: 0c03                                   |0015: move-result-object v3
+474e2c: 6e10 1e09 0300                         |0016: invoke-virtual {v3}, Lcom/fasterxml/jackson/databind/e;.x:()Z // method@091e
+474e32: 0a03                                   |0019: move-result v3
+474e34: 3803 1100                              |001a: if-eqz v3, 002b // +0011
+474e38: 5411 54f3                              |001c: iget-object v1, v1, Lxe/c;.b:Ljava/lang/String; // field@f354
+474e3c: 6e20 ecd6 1200                         |001e: invoke-virtual {v2, v1}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474e42: 0c01                                   |0021: move-result-object v1
+474e44: 1f01 7522                              |0022: check-cast v1, Lp7/a; // type@2275
+474e48: 6e10 ead6 0100                         |0024: invoke-virtual {v1}, Lp7/a;.size:()I // method@d6ea
+474e4e: 0a02                                   |0027: move-result v2
+474e50: 3d02 0300                              |0028: if-lez v2, 002b // +0003
+474e54: 1101                                   |002a: return-object v1
+474e56: 1201                                   |002b: const/4 v1, #int 0 // #0
+474e58: 1101                                   |002c: return-object v1
+      catches       : (none)
+
+    #3              : (in Lxe/c;)
+      name          : 'f'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 5
+      insns size    : 312 16-bit code units
+474f9c:                                        |[474f9c] xe.c.f:(Ljava/lang/String;)V
+474fac: 5480 57f3                              |0000: iget-object v0, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+474fb0: 3900 0300                              |0002: if-nez v0, 0005 // +0003
+474fb4: 0e00                                   |0004: return-void
+474fb6: 2200 ea1f                              |0005: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474fba: 7010 3dcc 0000                         |0007: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474fc0: 1a01 278d                              |000a: const-string v1, "discardDns: networkType:" // string@8d27
+474fc4: 6e20 47cc 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474fca: 6e20 47cc 9000                         |000f: invoke-virtual {v0, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474fd0: 6e10 50cc 0000                         |0012: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474fd6: 0c00                                   |0015: move-result-object v0
+474fd8: 1a01 a621                              |0016: const-string v1, "HttpDns" // string@21a6
+474fdc: 7120 7fc9 0100                         |0018: invoke-static {v1, v0}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+474fe2: 1c00 be23                              |001b: const-class v0, Lxe/c; // type@23be
+474fe6: 1d00                                   |001d: monitor-enter v0
+474fe8: 5481 53f3                              |001e: iget-object v1, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474fec: 6e10 a7a2 0100                         |0020: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+474ff2: 0c01                                   |0023: move-result-object v1
+474ff4: 1a02 33ee                              |0024: const-string v2, "xmd" // string@ee33
+474ff8: 6e20 09cc 2100                         |0026: invoke-virtual {v1, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+474ffe: 0a01                                   |0029: move-result v1
+475000: 3801 0500                              |002a: if-eqz v1, 002f // +0005
+475004: 1a01 39ee                              |002c: const-string v1, "xmd_dns_cache" // string@ee39
+475008: 284b                                   |002e: goto 0079 // +004b
+47500a: 5481 53f3                              |002f: iget-object v1, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47500e: 6e10 a4a2 0100                         |0031: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+475014: 0c01                                   |0034: move-result-object v1
+475016: 1a02 4489                              |0035: const-string v2, "connection.enable_ipv6_http_dns" // string@8944
+47501a: 6e20 89a2 2100                         |0037: invoke-virtual {v1, v2}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;)Z // method@a289
+475020: 0a01                                   |003a: move-result v1
+475022: 3801 3c00                              |003b: if-eqz v1, 0077 // +003c
+475026: 5481 57f3                              |003d: iget-object v1, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+47502a: 1a02 1177                              |003f: const-string v2, "[" // string@7711
+47502e: 6e20 07cc 2100                         |0041: invoke-virtual {v1, v2}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@cc07
+475034: 0a01                                   |0044: move-result v1
+475036: 3801 3200                              |0045: if-eqz v1, 0077 // +0032
+47503a: 5481 57f3                              |0047: iget-object v1, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+47503e: 1a02 e47b                              |0049: const-string v2, "]" // string@7be4
+475042: 6e20 07cc 2100                         |004b: invoke-virtual {v1, v2}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@cc07
+475048: 0a01                                   |004e: move-result v1
+47504a: 3801 2800                              |004f: if-eqz v1, 0077 // +0028
+47504e: 1a01 92a7                              |0051: const-string v1, "ipv6_http_dns_cache" // string@a792
+475052: 1212                                   |0053: const/4 v2, #int 1 // #1
+475054: 5c82 5af3                              |0054: iput-boolean v2, v8, Lxe/c;.h:Z // field@f35a
+475058: 1a02 a621                              |0056: const-string v2, "HttpDns" // string@21a6
+47505c: 2203 ea1f                              |0058: new-instance v3, Ljava/lang/StringBuilder; // type@1fea
+475060: 7010 3dcc 0300                         |005a: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+475066: 1a04 1689                              |005d: const-string v4, "connect ipv6 address " // string@8916
+47506a: 6e20 47cc 4300                         |005f: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475070: 5484 57f3                              |0062: iget-object v4, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+475074: 6e20 47cc 4300                         |0064: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47507a: 1a04 b700                              |0067: const-string v4, " failed!" // string@00b7
+47507e: 6e20 47cc 4300                         |0069: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475084: 6e10 50cc 0300                         |006c: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+47508a: 0c03                                   |006f: move-result-object v3
+47508c: 7120 7cc9 3200                         |0070: invoke-static {v2, v3}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+475092: 2806                                   |0073: goto 0079 // +0006
+475094: 0d08                                   |0074: move-exception v8
+475096: 2900 c100                              |0075: goto/16 0136 // +00c1
+47509a: 1a01 11a5                              |0077: const-string v1, "http_dns_cache" // string@a511
+47509e: 6e30 24dd 9801                         |0079: invoke-virtual {v8, v9, v1}, Lxe/c;.l:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@dd24
+4750a4: 0c02                                   |007c: move-result-object v2
+4750a6: 7110 eab0 0200                         |007d: invoke-static {v2}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+4750ac: 0a03                                   |0080: move-result v3
+4750ae: 3803 0400                              |0081: if-eqz v3, 0085 // +0004
+4750b2: 1e00                                   |0083: monitor-exit v0
+4750b4: 0e00                                   |0084: return-void
+4750b6: 7100 3264 0000                         |0085: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+4750bc: 0c03                                   |0088: move-result-object v3
+4750be: 6e20 fd08 2300                         |0089: invoke-virtual {v3, v2}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+4750c4: 0c02                                   |008c: move-result-object v2
+4750c6: 1f02 7622                              |008d: check-cast v2, Lp7/p; // type@2276
+4750ca: 1a03 678d                              |008f: const-string v3, "dns" // string@8d67
+4750ce: 6e20 ecd6 3200                         |0091: invoke-virtual {v2, v3}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+4750d4: 0c03                                   |0094: move-result-object v3
+4750d6: 6e10 1e09 0300                         |0095: invoke-virtual {v3}, Lcom/fasterxml/jackson/databind/e;.x:()Z // method@091e
+4750dc: 0a03                                   |0098: move-result v3
+4750de: 3903 0a00                              |0099: if-nez v3, 00a3 // +000a
+4750e2: 6e30 26dd 9801                         |009b: invoke-virtual {v8, v9, v1}, Lxe/c;.n:(Ljava/lang/String;Ljava/lang/String;)V // method@dd26
+4750e8: 1e00                                   |009e: monitor-exit v0
+4750ea: 0e00                                   |009f: return-void
+4750ec: 0d08                                   |00a0: move-exception v8
+4750ee: 2900 8a00                              |00a1: goto/16 012b // +008a
+4750f2: 1a03 678d                              |00a3: const-string v3, "dns" // string@8d67
+4750f6: 6e20 ecd6 3200                         |00a5: invoke-virtual {v2, v3}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+4750fc: 0c02                                   |00a8: move-result-object v2
+4750fe: 1f02 7522                              |00a9: check-cast v2, Lp7/a; // type@2275
+475102: 1203                                   |00ab: const/4 v3, #int 0 // #0
+475104: 0134                                   |00ac: move v4, v3
+475106: 6e10 ead6 0200                         |00ad: invoke-virtual {v2}, Lp7/a;.size:()I // method@d6ea
+47510c: 0a05                                   |00b0: move-result v5
+47510e: 3554 7200                              |00b1: if-ge v4, v5, 0123 // +0072
+475112: 5485 57f3                              |00b3: iget-object v5, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+475116: 6e20 e6d6 4200                         |00b5: invoke-virtual {v2, v4}, Lp7/a;.V:(I)Lcom/fasterxml/jackson/databind/e; // method@d6e6
+47511c: 0c06                                   |00b8: move-result-object v6
+47511e: 6e10 1609 0600                         |00b9: invoke-virtual {v6}, Lcom/fasterxml/jackson/databind/e;.j:()Ljava/lang/String; // method@0916
+475124: 0c06                                   |00bc: move-result-object v6
+475126: 6e20 09cc 6500                         |00bd: invoke-virtual {v5, v6}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+47512c: 0a05                                   |00c0: move-result v5
+47512e: 3905 0500                              |00c1: if-nez v5, 00c6 // +0005
+475132: d804 0401                              |00c3: add-int/lit8 v4, v4, #int 1 // #01
+475136: 28e8                                   |00c5: goto 00ad // -0018
+475138: 1a05 a621                              |00c6: const-string v5, "HttpDns" // string@21a6
+47513c: 2206 ea1f                              |00c8: new-instance v6, Ljava/lang/StringBuilder; // type@1fea
+475140: 7010 3dcc 0600                         |00ca: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+475146: 1a07 288d                              |00cd: const-string v7, "discardDns: remove " // string@8d28
+47514a: 6e20 47cc 7600                         |00cf: invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475150: 5487 57f3                              |00d2: iget-object v7, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+475154: 6e20 47cc 7600                         |00d4: invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47515a: 6e10 50cc 0600                         |00d7: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+475160: 0c06                                   |00da: move-result-object v6
+475162: 7120 7fc9 6500                         |00db: invoke-static {v5, v6}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+475168: 6e20 e7d6 4200                         |00de: invoke-virtual {v2, v4}, Lp7/a;.W:(I)Lcom/fasterxml/jackson/databind/e; // method@d6e7
+47516e: 6e10 ead6 0200                         |00e1: invoke-virtual {v2}, Lp7/a;.size:()I // method@d6ea
+475174: 0a04                                   |00e4: move-result v4
+475176: 3d04 0600                              |00e5: if-lez v4, 00eb // +0006
+47517a: 6e51 20dd 2893                         |00e7: invoke-virtual {v8, v2, v3, v9, v1}, Lxe/c;.h:(Lp7/a;ZLjava/lang/String;Ljava/lang/String;)V // method@dd20
+475180: 2836                                   |00ea: goto 0120 // +0036
+475182: 5482 53f3                              |00eb: iget-object v2, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475186: 6e10 a7a2 0200                         |00ed: invoke-virtual {v2}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+47518c: 0c02                                   |00f0: move-result-object v2
+47518e: 1a03 33ee                              |00f1: const-string v3, "xmd" // string@ee33
+475192: 6e20 09cc 3200                         |00f3: invoke-virtual {v2, v3}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+475198: 0a02                                   |00f6: move-result v2
+47519a: 3802 2600                              |00f7: if-eqz v2, 011d // +0026
+47519e: 7100 52cc 0000                         |00f9: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+4751a4: 0b02                                   |00fc: move-result-wide v2
+4751a6: 1604 e803                              |00fd: const-wide/16 v4, #int 1000 // #3e8
+4751aa: be42                                   |00ff: div-long/2addr v2, v4
+4751ac: 1404 8051 0100                         |0100: const v4, #float 1.21072e-40 // #00015180
+4751b2: 8144                                   |0103: int-to-long v4, v4
+4751b4: bb42                                   |0104: add-long/2addr v2, v4
+4751b6: 5484 53f3                              |0105: iget-object v4, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4751ba: 6e10 aea2 0400                         |0107: invoke-virtual {v4}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+4751c0: 0c04                                   |010a: move-result-object v4
+4751c2: 5485 53f3                              |010b: iget-object v5, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4751c6: 1a06 3aee                              |010d: const-string v6, "xmd_ws_expire_at" // string@ee3a
+4751ca: 7120 2ecc 3200                         |010f: invoke-static {v2, v3}, Ljava/lang/String;.valueOf:(J)Ljava/lang/String; // method@cc2e
+4751d0: 0c02                                   |0112: move-result-object v2
+4751d2: 6e40 e4a2 5426                         |0113: invoke-virtual {v4, v5, v6, v2}, Lcom/xiaomi/ai/core/ChannelListener;.onWrite:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;Ljava/lang/String;)Z // method@a2e4
+4751d8: 1a02 a621                              |0116: const-string v2, "HttpDns" // string@21a6
+4751dc: 1a03 e8e5                              |0118: const-string v3, "switch from xmd to ws next time" // string@e5e8
+4751e0: 7120 7fc9 3200                         |011a: invoke-static {v2, v3}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+4751e6: 6e30 26dd 9801                         |011d: invoke-virtual {v8, v9, v1}, Lxe/c;.n:(Ljava/lang/String;Ljava/lang/String;)V // method@dd26
+4751ec: 1201                                   |0120: const/4 v1, #int 0 // #0
+4751ee: 5b81 57f3                              |0121: iput-object v1, v8, Lxe/c;.e:Ljava/lang/String; // field@f357
+4751f2: 5488 5bf3                              |0123: iget-object v8, v8, Lxe/c;.i:Lcom/xiaomi/ai/core/b; // field@f35b
+4751f6: 3808 0f00                              |0125: if-eqz v8, 0134 // +000f
+4751fa: 6e20 82a3 9800                         |0127: invoke-virtual {v8, v9}, Lcom/xiaomi/ai/core/b;.a:(Ljava/lang/String;)V // method@a382
+475200: 280a                                   |012a: goto 0134 // +000a
+475202: 1a09 a621                              |012b: const-string v9, "HttpDns" // string@21a6
+475206: 7110 86c9 0800                         |012d: invoke-static {v8}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+47520c: 0c08                                   |0130: move-result-object v8
+47520e: 7120 7cc9 8900                         |0131: invoke-static {v9, v8}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+475214: 1e00                                   |0134: monitor-exit v0
+475216: 0e00                                   |0135: return-void
+475218: 1e00                                   |0136: monitor-exit v0
+47521a: 2708                                   |0137: throw v8
+      catches       : 11
+        0x001e - 0x002a
+          <any> -> 0x0074
+        0x002f - 0x004f
+          <any> -> 0x0074
+        0x0054 - 0x0056
+          <any> -> 0x0074
+        0x0058 - 0x0073
+          <any> -> 0x0074
+        0x0079 - 0x0084
+          <any> -> 0x0074
+        0x0085 - 0x009e
+          Ljava/lang/Exception; -> 0x00a0
+          <any> -> 0x0074
+        0x009e - 0x009f
+          <any> -> 0x0074
+        0x00a3 - 0x00c1
+          Ljava/lang/Exception; -> 0x00a0
+          <any> -> 0x0074
+        0x00c8 - 0x010d
+          Ljava/lang/Exception; -> 0x00a0
+          <any> -> 0x0074
+        0x010f - 0x012a
+          Ljava/lang/Exception; -> 0x00a0
+          <any> -> 0x0074
+        0x012d - 0x0137
+          <any> -> 0x0074
+
+    #4              : (in Lxe/c;)
+      name          : 'g'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 8
+      ins           : 4
+      outs          : 4
+      insns size    : 107 16-bit code units
+475280:                                        |[475280] xe.c.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+475290: 1a00 a621                              |0000: const-string v0, "HttpDns" // string@21a6
+475294: 5441 53f3                              |0002: iget-object v1, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475298: 6e10 aea2 0100                         |0004: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+47529e: 0c01                                   |0007: move-result-object v1
+4752a0: 5442 53f3                              |0008: iget-object v2, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4752a4: 6e30 e0a2 2107                         |000a: invoke-virtual {v1, v2, v7}, Lcom/xiaomi/ai/core/ChannelListener;.onRead:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)Ljava/lang/String; // method@a2e0
+4752aa: 0c01                                   |000d: move-result-object v1
+4752ac: 7110 eab0 0100                         |000e: invoke-static {v1}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+4752b2: 0a02                                   |0011: move-result v2
+4752b4: 1203                                   |0012: const/4 v3, #int 0 // #0
+4752b6: 3902 3700                              |0013: if-nez v2, 004a // +0037
+4752ba: 7100 3264 0000                         |0015: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+4752c0: 0c02                                   |0018: move-result-object v2
+4752c2: 6e20 fd08 1200                         |0019: invoke-virtual {v2, v1}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+4752c8: 0c01                                   |001c: move-result-object v1
+4752ca: 1f01 7622                              |001d: check-cast v1, Lp7/p; // type@2276
+4752ce: 3801 1600                              |001f: if-eqz v1, 0035 // +0016
+4752d2: 6e10 f8d6 0100                         |0021: invoke-virtual {v1}, Lp7/p;.size:()I // method@d6f8
+4752d8: 0a02                                   |0024: move-result v2
+4752da: 1303 2000                              |0025: const/16 v3, #int 32 // #20
+4752de: 3732 0e00                              |0027: if-le v2, v3, 0035 // +000e
+4752e2: 1a02 b1ed                              |0029: const-string v2, "writeHttpDnsCache: dns cache size over limit, clear all" // string@edb1
+4752e6: 7120 82c9 2000                         |002b: invoke-static {v0, v2}, Lfe/a;.m:(Ljava/lang/String;Ljava/lang/String;)V // method@c982
+4752ec: 6e10 f4d6 0100                         |002e: invoke-virtual {v1}, Lp7/p;.b0:()Lp7/p; // method@d6f4
+4752f2: 2804                                   |0031: goto 0035 // +0004
+4752f4: 0d02                                   |0032: move-exception v2
+4752f6: 0713                                   |0033: move-object v3, v1
+4752f8: 2804                                   |0034: goto 0038 // +0004
+4752fa: 0713                                   |0035: move-object v3, v1
+4752fc: 2814                                   |0036: goto 004a // +0014
+4752fe: 0d02                                   |0037: move-exception v2
+475300: 7110 86c9 0200                         |0038: invoke-static {v2}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+475306: 0c01                                   |003b: move-result-object v1
+475308: 7120 7cc9 1000                         |003c: invoke-static {v0, v1}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+47530e: 5440 53f3                              |003f: iget-object v0, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475312: 6e10 aea2 0000                         |0041: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+475318: 0c00                                   |0044: move-result-object v0
+47531a: 5441 53f3                              |0045: iget-object v1, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47531e: 6e30 e1a2 1007                         |0047: invoke-virtual {v0, v1, v7}, Lcom/xiaomi/ai/core/ChannelListener;.onRemove:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)V // method@a2e1
+475324: 3903 0a00                              |004a: if-nez v3, 0054 // +000a
+475328: 7100 3264 0000                         |004c: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+47532e: 0c00                                   |004f: move-result-object v0
+475330: 6e10 f908 0000                         |0050: invoke-virtual {v0}, Lcom/fasterxml/jackson/databind/ObjectMapper;.createObjectNode:()Lp7/p; // method@08f9
+475336: 0c03                                   |0053: move-result-object v3
+475338: 6e20 2add 5400                         |0054: invoke-virtual {v4, v5}, Lxe/c;.r:(Ljava/lang/String;)Ljava/lang/String; // method@dd2a
+47533e: 0c05                                   |0057: move-result-object v5
+475340: 6e30 f1d6 5306                         |0058: invoke-virtual {v3, v5, v6}, Lp7/p;.W:(Ljava/lang/String;Ljava/lang/String;)Lp7/p; // method@d6f1
+475346: 5445 53f3                              |005b: iget-object v5, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47534a: 6e10 aea2 0500                         |005d: invoke-virtual {v5}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+475350: 0c05                                   |0060: move-result-object v5
+475352: 5444 53f3                              |0061: iget-object v4, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475356: 6e10 f9d6 0300                         |0063: invoke-virtual {v3}, Lp7/p;.toString:()Ljava/lang/String; // method@d6f9
+47535c: 0c06                                   |0066: move-result-object v6
+47535e: 6e40 e4a2 4567                         |0067: invoke-virtual {v5, v4, v7, v6}, Lcom/xiaomi/ai/core/ChannelListener;.onWrite:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;Ljava/lang/String;)Z // method@a2e4
+475364: 0e00                                   |006a: return-void
+      catches       : 2
+        0x0015 - 0x001f
+          Ljava/io/IOException; -> 0x0037
+        0x0021 - 0x0031
+          Ljava/io/IOException; -> 0x0032
+
+    #5              : (in Lxe/c;)
+      name          : 'h'
+      type          : '(Lp7/a;ZLjava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 13
+      ins           : 5
+      outs          : 4
+      insns size    : 101 16-bit code units
+475384:                                        |[475384] xe.c.h:(Lp7/a;ZLjava/lang/String;Ljava/lang/String;)V
+475394: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+475398: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+47539e: 1a01 6fd0                              |0005: const-string v1, "saveDns: networkType:" // string@d06f
+4753a2: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4753a8: 6e20 47cc b000                         |000a: invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4753ae: 6e10 50cc 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4753b4: 0c00                                   |0010: move-result-object v0
+4753b6: 1a01 a621                              |0011: const-string v1, "HttpDns" // string@21a6
+4753ba: 7120 79c9 0100                         |0013: invoke-static {v1, v0}, Lfe/a;.d:(Ljava/lang/String;Ljava/lang/String;)V // method@c979
+4753c0: 7100 3264 0000                         |0016: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+4753c6: 0c00                                   |0019: move-result-object v0
+4753c8: 6e10 f908 0000                         |001a: invoke-virtual {v0}, Lcom/fasterxml/jackson/databind/ObjectMapper;.createObjectNode:()Lp7/p; // method@08f9
+4753ce: 0c00                                   |001d: move-result-object v0
+4753d0: 1a02 678d                              |001e: const-string v2, "dns" // string@8d67
+4753d4: 6e30 f5d6 2009                         |0020: invoke-virtual {v0, v2, v9}, Lp7/p;.d0:(Ljava/lang/String;Lcom/fasterxml/jackson/databind/e;)Lcom/fasterxml/jackson/databind/e; // method@d6f5
+4753da: 1a09 0590                              |0023: const-string v9, "expire_at" // string@9005
+4753de: 380a 1d00                              |0025: if-eqz v10, 0042 // +001d
+4753e2: 7100 52cc 0000                         |0027: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+4753e8: 0b02                                   |002a: move-result-wide v2
+4753ea: 548a 53f3                              |002b: iget-object v10, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4753ee: 6e10 a4a2 0a00                         |002d: invoke-virtual {v10}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+4753f4: 0c0a                                   |0030: move-result-object v10
+4753f6: 1a04 4f89                              |0031: const-string v4, "connection.http_dns_expire_in" // string@894f
+4753fa: 6e20 8fa2 4a00                         |0033: invoke-virtual {v10, v4}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;)I // method@a28f
+475400: 0a0a                                   |0036: move-result v10
+475402: 81a4                                   |0037: int-to-long v4, v10
+475404: 1606 e803                              |0038: const-wide/16 v6, #int 1000 // #3e8
+475408: bd64                                   |003a: mul-long/2addr v4, v6
+47540a: bb42                                   |003b: add-long/2addr v2, v4
+47540c: 5a82 58f3                              |003c: iput-wide v2, v8, Lxe/c;.f:J // field@f358
+475410: 6e40 efd6 9032                         |003e: invoke-virtual {v0, v9, v2, v3}, Lp7/p;.U:(Ljava/lang/String;J)Lp7/p; // method@d6ef
+475416: 2804                                   |0041: goto 0045 // +0004
+475418: 5382 58f3                              |0042: iget-wide v2, v8, Lxe/c;.f:J // field@f358
+47541c: 28fa                                   |0044: goto 003e // -0006
+47541e: 2209 ea1f                              |0045: new-instance v9, Ljava/lang/StringBuilder; // type@1fea
+475422: 7010 3dcc 0900                         |0047: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+475428: 1a0a 6ed0                              |004a: const-string v10, "saveDns:" // string@d06e
+47542c: 6e20 47cc a900                         |004c: invoke-virtual {v9, v10}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475432: 6e10 f9d6 0000                         |004f: invoke-virtual {v0}, Lp7/p;.toString:()Ljava/lang/String; // method@d6f9
+475438: 0c0a                                   |0052: move-result-object v10
+47543a: 6e20 47cc a900                         |0053: invoke-virtual {v9, v10}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475440: 6e10 50cc 0900                         |0056: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+475446: 0c09                                   |0059: move-result-object v9
+475448: 7120 7fc9 9100                         |005a: invoke-static {v1, v9}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+47544e: 6e10 f9d6 0000                         |005d: invoke-virtual {v0}, Lp7/p;.toString:()Ljava/lang/String; // method@d6f9
+475454: 0c09                                   |0060: move-result-object v9
+475456: 6e40 1fdd b8c9                         |0061: invoke-virtual {v8, v11, v9, v12}, Lxe/c;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@dd1f
+47545c: 0e00                                   |0064: return-void
+      catches       : (none)
+
+    #6              : (in Lxe/c;)
+      name          : 'j'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+474734:                                        |[474734] xe.c.j:()Ljava/lang/String;
+474744: 5400 56f3                              |0000: iget-object v0, v0, Lxe/c;.d:Ljava/lang/String; // field@f356
+474748: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #7              : (in Lxe/c;)
+      name          : 'k'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 3
+      insns size    : 159 16-bit code units
+47474c:                                        |[47474c] xe.c.k:(Ljava/lang/String;)Ljava/lang/String;
+47475c: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474760: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474766: 1a01 7197                              |0005: const-string v1, "getDnsUrl: networkType:" // string@9771
+47476a: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474770: 6e20 47cc 5000                         |000a: invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474776: 6e10 50cc 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+47477c: 0c00                                   |0010: move-result-object v0
+47477e: 1a01 a621                              |0011: const-string v1, "HttpDns" // string@21a6
+474782: 7120 7fc9 0100                         |0013: invoke-static {v1, v0}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+474788: 5440 53f3                              |0016: iget-object v0, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47478c: 6e10 a4a2 0000                         |0018: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+474792: 0c00                                   |001b: move-result-object v0
+474794: 1a01 4089                              |001c: const-string v1, "connection.enable_http_dns" // string@8940
+474798: 1212                                   |001e: const/4 v2, #int 1 // #1
+47479a: 6e30 8aa2 1002                         |001f: invoke-virtual {v0, v1, v2}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;Z)Z // method@a28a
+4747a0: 0a00                                   |0022: move-result v0
+4747a2: 3800 7200                              |0023: if-eqz v0, 0095 // +0072
+4747a6: 5440 56f3                              |0025: iget-object v0, v4, Lxe/c;.d:Ljava/lang/String; // field@f356
+4747aa: 1a01 efed                              |0027: const-string v1, "wss://" // string@edef
+4747ae: 6e20 22cc 1000                         |0029: invoke-virtual {v0, v1}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@cc22
+4747b4: 0a00                                   |002c: move-result v0
+4747b6: 3800 0300                              |002d: if-eqz v0, 0030 // +0003
+4747ba: 2866                                   |002f: goto 0095 // +0066
+4747bc: 1c00 be23                              |0030: const-class v0, Lxe/c; // type@23be
+4747c0: 1d00                                   |0032: monitor-enter v0
+4747c2: 6e20 25dd 5400                         |0033: invoke-virtual {v4, v5}, Lxe/c;.m:(Ljava/lang/String;)Ljava/lang/String; // method@dd25
+4747c8: 0c01                                   |0036: move-result-object v1
+4747ca: 3801 4b00                              |0037: if-eqz v1, 0082 // +004b
+4747ce: 1a05 a621                              |0039: const-string v5, "HttpDns" // string@21a6
+4747d2: 2202 ea1f                              |003b: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+4747d6: 7010 3dcc 0200                         |003d: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4747dc: 1a03 7097                              |0040: const-string v3, "getDnsUrl: localIp=" // string@9770
+4747e0: 6e20 47cc 3200                         |0042: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4747e6: 6e20 47cc 1200                         |0045: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4747ec: 6e10 50cc 0200                         |0048: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4747f2: 0c02                                   |004b: move-result-object v2
+4747f4: 7120 7fc9 2500                         |004c: invoke-static {v5, v2}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+4747fa: 5b41 57f3                              |004f: iput-object v1, v4, Lxe/c;.e:Ljava/lang/String; // field@f357
+4747fe: 5245 55f3                              |0051: iget v5, v4, Lxe/c;.c:I // field@f355
+474802: 12f2                                   |0053: const/4 v2, #int -1 // #ff
+474804: 3225 2400                              |0054: if-eq v5, v2, 0078 // +0024
+474808: 5445 56f3                              |0056: iget-object v5, v4, Lxe/c;.d:Ljava/lang/String; // field@f356
+47480c: 2202 ea1f                              |0058: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+474810: 7010 3dcc 0200                         |005a: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474816: 5443 54f3                              |005d: iget-object v3, v4, Lxe/c;.b:Ljava/lang/String; // field@f354
+47481a: 6e20 47cc 3200                         |005f: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474820: 1a03 6105                              |0062: const-string v3, ":" // string@0561
+474824: 6e20 47cc 3200                         |0064: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47482a: 5244 55f3                              |0067: iget v4, v4, Lxe/c;.c:I // field@f355
+47482e: 6e20 43cc 4200                         |0069: invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+474834: 6e10 50cc 0200                         |006c: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+47483a: 0c04                                   |006f: move-result-object v4
+47483c: 6e30 1fcc 4501                         |0070: invoke-virtual {v5, v4, v1}, Ljava/lang/String;.replaceFirst:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@cc1f
+474842: 0c04                                   |0073: move-result-object v4
+474844: 1e00                                   |0074: monitor-exit v0
+474846: 1104                                   |0075: return-object v4
+474848: 0d04                                   |0076: move-exception v4
+47484a: 281c                                   |0077: goto 0093 // +001c
+47484c: 5445 56f3                              |0078: iget-object v5, v4, Lxe/c;.d:Ljava/lang/String; // field@f356
+474850: 5444 54f3                              |007a: iget-object v4, v4, Lxe/c;.b:Ljava/lang/String; // field@f354
+474854: 6e30 1fcc 4501                         |007c: invoke-virtual {v5, v4, v1}, Ljava/lang/String;.replaceFirst:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@cc1f
+47485a: 0c04                                   |007f: move-result-object v4
+47485c: 1e00                                   |0080: monitor-exit v0
+47485e: 1104                                   |0081: return-object v4
+474860: 1201                                   |0082: const/4 v1, #int 0 // #0
+474862: 5b41 57f3                              |0083: iput-object v1, v4, Lxe/c;.e:Ljava/lang/String; // field@f357
+474866: 6e20 28dd 5400                         |0085: invoke-virtual {v4, v5}, Lxe/c;.p:(Ljava/lang/String;)V // method@dd28
+47486c: 1a05 a621                              |0088: const-string v5, "HttpDns" // string@21a6
+474870: 1a01 6e97                              |008a: const-string v1, "getDnsUrl:  local dns failed, use default dns" // string@976e
+474874: 7120 7fc9 1500                         |008c: invoke-static {v5, v1}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+47487a: 5444 56f3                              |008f: iget-object v4, v4, Lxe/c;.d:Ljava/lang/String; // field@f356
+47487e: 1e00                                   |0091: monitor-exit v0
+474880: 1104                                   |0092: return-object v4
+474882: 1e00                                   |0093: monitor-exit v0
+474884: 2704                                   |0094: throw v4
+474886: 1a05 a621                              |0095: const-string v5, "HttpDns" // string@21a6
+47488a: 1a00 6f97                              |0097: const-string v0, "getDnsUrl: httpdns is disabled" // string@976f
+47488e: 7120 7fc9 0500                         |0099: invoke-static {v5, v0}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+474894: 5444 56f3                              |009c: iget-object v4, v4, Lxe/c;.d:Ljava/lang/String; // field@f356
+474898: 1104                                   |009e: return-object v4
+      catches       : 2
+        0x0033 - 0x0037
+          <any> -> 0x0076
+        0x003b - 0x0094
+          <any> -> 0x0076
+
+    #8              : (in Lxe/c;)
+      name          : 'l'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 3
+      insns size    : 111 16-bit code units
+4748b0:                                        |[4748b0] xe.c.l:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+4748c0: 5440 53f3                              |0000: iget-object v0, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4748c4: 6e10 aea2 0000                         |0002: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+4748ca: 0c00                                   |0005: move-result-object v0
+4748cc: 5441 53f3                              |0006: iget-object v1, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4748d0: 6e30 e0a2 1006                         |0008: invoke-virtual {v0, v1, v6}, Lcom/xiaomi/ai/core/ChannelListener;.onRead:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)Ljava/lang/String; // method@a2e0
+4748d6: 0c00                                   |000b: move-result-object v0
+4748d8: 2201 ea1f                              |000c: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+4748dc: 7010 3dcc 0100                         |000e: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4748e2: 1a02 7dcd                              |0011: const-string v2, "readHttpDnsCache at " // string@cd7d
+4748e6: 6e20 47cc 2100                         |0013: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4748ec: 6e20 47cc 6100                         |0016: invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4748f2: 1a02 4003                              |0019: const-string v2, ", networkType:" // string@0340
+4748f6: 6e20 47cc 2100                         |001b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4748fc: 6e20 47cc 5100                         |001e: invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474902: 1a02 e902                              |0021: const-string v2, ", httpDnsCache:" // string@02e9
+474906: 6e20 47cc 2100                         |0023: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47490c: 6e20 47cc 0100                         |0026: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474912: 6e10 50cc 0100                         |0029: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474918: 0c01                                   |002c: move-result-object v1
+47491a: 1a02 a621                              |002d: const-string v2, "HttpDns" // string@21a6
+47491e: 7120 79c9 1200                         |002f: invoke-static {v2, v1}, Lfe/a;.d:(Ljava/lang/String;Ljava/lang/String;)V // method@c979
+474924: 7110 eab0 0000                         |0032: invoke-static {v0}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+47492a: 0a01                                   |0035: move-result v1
+47492c: 1203                                   |0036: const/4 v3, #int 0 // #0
+47492e: 3801 0300                              |0037: if-eqz v1, 003a // +0003
+474932: 1103                                   |0039: return-object v3
+474934: 7100 3264 0000                         |003a: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+47493a: 0c01                                   |003d: move-result-object v1
+47493c: 6e20 fd08 0100                         |003e: invoke-virtual {v1, v0}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+474942: 0c00                                   |0041: move-result-object v0
+474944: 1f00 7622                              |0042: check-cast v0, Lp7/p; // type@2276
+474948: 6e20 2add 5400                         |0044: invoke-virtual {v4, v5}, Lxe/c;.r:(Ljava/lang/String;)Ljava/lang/String; // method@dd2a
+47494e: 0c01                                   |0047: move-result-object v1
+474950: 6e20 1d09 1000                         |0048: invoke-virtual {v0, v1}, Lcom/fasterxml/jackson/databind/e;.v:(Ljava/lang/String;)Z // method@091d
+474956: 0a01                                   |004b: move-result v1
+474958: 3801 2200                              |004c: if-eqz v1, 006e // +0022
+47495c: 6e20 2add 5400                         |004e: invoke-virtual {v4, v5}, Lxe/c;.r:(Ljava/lang/String;)Ljava/lang/String; // method@dd2a
+474962: 0c05                                   |0051: move-result-object v5
+474964: 6e20 f7d6 5000                         |0052: invoke-virtual {v0, v5}, Lp7/p;.r:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6f7
+47496a: 0c05                                   |0055: move-result-object v5
+47496c: 6e10 1609 0500                         |0056: invoke-virtual {v5}, Lcom/fasterxml/jackson/databind/e;.j:()Ljava/lang/String; // method@0916
+474972: 0c04                                   |0059: move-result-object v4
+474974: 1104                                   |005a: return-object v4
+474976: 0d05                                   |005b: move-exception v5
+474978: 7110 86c9 0500                         |005c: invoke-static {v5}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+47497e: 0c05                                   |005f: move-result-object v5
+474980: 7120 7cc9 5200                         |0060: invoke-static {v2, v5}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+474986: 5445 53f3                              |0063: iget-object v5, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47498a: 6e10 aea2 0500                         |0065: invoke-virtual {v5}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+474990: 0c05                                   |0068: move-result-object v5
+474992: 5444 53f3                              |0069: iget-object v4, v4, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474996: 6e30 e1a2 4506                         |006b: invoke-virtual {v5, v4, v6}, Lcom/xiaomi/ai/core/ChannelListener;.onRemove:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)V // method@a2e1
+47499c: 1103                                   |006e: return-object v3
+      catches       : 1
+        0x003a - 0x005a
+          Ljava/lang/Exception; -> 0x005b
+
+    #9              : (in Lxe/c;)
+      name          : 'm'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 13
+      ins           : 2
+      outs          : 3
+      insns size    : 234 16-bit code units
+4749b0:                                        |[4749b0] xe.c.m:(Ljava/lang/String;)Ljava/lang/String;
+4749c0: 1a00 678d                              |0000: const-string v0, "dns" // string@8d67
+4749c4: 54b1 53f3                              |0002: iget-object v1, v11, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4749c8: 6e10 a7a2 0100                         |0004: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+4749ce: 0c01                                   |0007: move-result-object v1
+4749d0: 1a02 33ee                              |0008: const-string v2, "xmd" // string@ee33
+4749d4: 6e20 09cc 2100                         |000a: invoke-virtual {v1, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+4749da: 0a01                                   |000d: move-result v1
+4749dc: 1a02 a621                              |000e: const-string v2, "HttpDns" // string@21a6
+4749e0: 3801 0500                              |0010: if-eqz v1, 0015 // +0005
+4749e4: 1a01 39ee                              |0012: const-string v1, "xmd_dns_cache" // string@ee39
+4749e8: 284a                                   |0014: goto 005e // +004a
+4749ea: 54b1 53f3                              |0015: iget-object v1, v11, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4749ee: 6e10 a4a2 0100                         |0017: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+4749f4: 0c01                                   |001a: move-result-object v1
+4749f6: 1a03 4489                              |001b: const-string v3, "connection.enable_ipv6_http_dns" // string@8944
+4749fa: 6e20 89a2 3100                         |001d: invoke-virtual {v1, v3}, Lcom/xiaomi/ai/core/AivsConfig;.getBoolean:(Ljava/lang/String;)Z // method@a289
+474a00: 0a01                                   |0020: move-result v1
+474a02: 1a03 11a5                              |0021: const-string v3, "http_dns_cache" // string@a511
+474a06: 3801 3a00                              |0023: if-eqz v1, 005d // +003a
+474a0a: 54b1 53f3                              |0025: iget-object v1, v11, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474a0e: 6e10 aea2 0100                         |0027: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+474a14: 0c01                                   |002a: move-result-object v1
+474a16: 6e10 cca2 0100                         |002b: invoke-virtual {v1}, Lcom/xiaomi/ai/core/ChannelListener;.ipv6Available:()Z // method@a2cc
+474a1c: 0a01                                   |002e: move-result v1
+474a1e: 55b4 5af3                              |002f: iget-boolean v4, v11, Lxe/c;.h:Z // field@f35a
+474a22: 3904 0600                              |0031: if-nez v4, 0037 // +0006
+474a26: 3801 0400                              |0033: if-eqz v1, 0037 // +0004
+474a2a: 1a03 92a7                              |0035: const-string v3, "ipv6_http_dns_cache" // string@a792
+474a2e: 2204 ea1f                              |0037: new-instance v4, Ljava/lang/StringBuilder; // type@1fea
+474a32: 7010 3dcc 0400                         |0039: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474a38: 1a05 f29a                              |003c: const-string v5, "getLocalIp: networkType:" // string@9af2
+474a3c: 6e20 47cc 5400                         |003e: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474a42: 6e20 47cc c400                         |0041: invoke-virtual {v4, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474a48: 1a05 f502                              |0044: const-string v5, ", ipv6Available:" // string@02f5
+474a4c: 6e20 47cc 5400                         |0046: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474a52: 6e20 48cc 1400                         |0049: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+474a58: 1a01 ea03                              |004c: const-string v1, ",mIpv6ConnectFailed:" // string@03ea
+474a5c: 6e20 47cc 1400                         |004e: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474a62: 55b1 5af3                              |0051: iget-boolean v1, v11, Lxe/c;.h:Z // field@f35a
+474a66: 6e20 48cc 1400                         |0053: invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+474a6c: 6e10 50cc 0400                         |0056: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474a72: 0c01                                   |0059: move-result-object v1
+474a74: 7120 7fc9 1200                         |005a: invoke-static {v2, v1}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+474a7a: 0731                                   |005d: move-object v1, v3
+474a7c: 6e30 24dd cb01                         |005e: invoke-virtual {v11, v12, v1}, Lxe/c;.l:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@dd24
+474a82: 0c03                                   |0061: move-result-object v3
+474a84: 7110 eab0 0300                         |0062: invoke-static {v3}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+474a8a: 0a04                                   |0065: move-result v4
+474a8c: 3904 7f00                              |0066: if-nez v4, 00e5 // +007f
+474a90: 7100 3264 0000                         |0068: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+474a96: 0c04                                   |006b: move-result-object v4
+474a98: 6e20 fd08 3400                         |006c: invoke-virtual {v4, v3}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+474a9e: 0c04                                   |006f: move-result-object v4
+474aa0: 1f04 7622                              |0070: check-cast v4, Lp7/p; // type@2276
+474aa4: 1a05 0590                              |0072: const-string v5, "expire_at" // string@9005
+474aa8: 6e20 ecd6 5400                         |0074: invoke-virtual {v4, v5}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474aae: 0c05                                   |0077: move-result-object v5
+474ab0: 6e10 1309 0500                         |0078: invoke-virtual {v5}, Lcom/fasterxml/jackson/databind/e;.h:()J // method@0913
+474ab6: 0b05                                   |007b: move-result-wide v5
+474ab8: 5ab5 58f3                              |007c: iput-wide v5, v11, Lxe/c;.f:J // field@f358
+474abc: 7100 52cc 0000                         |007e: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+474ac2: 0b05                                   |0081: move-result-wide v5
+474ac4: 53b7 58f3                              |0082: iget-wide v7, v11, Lxe/c;.f:J // field@f358
+474ac8: 1609 1027                              |0084: const-wide/16 v9, #int 10000 // #2710
+474acc: bb97                                   |0086: add-long/2addr v7, v9
+474ace: 3105 0507                              |0087: cmp-long v5, v5, v7
+474ad2: 3d05 1b00                              |0089: if-lez v5, 00a4 // +001b
+474ad6: 2200 ea1f                              |008b: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474ada: 7010 3dcc 0000                         |008d: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474ae0: 1a04 f19a                              |0090: const-string v4, "getLocalIp: local dns expired, mExpireAt=" // string@9af1
+474ae4: 6e20 47cc 4000                         |0092: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474aea: 53b4 58f3                              |0095: iget-wide v4, v11, Lxe/c;.f:J // field@f358
+474aee: 6e30 44cc 4005                         |0097: invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@cc44
+474af4: 6e10 50cc 0000                         |009a: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474afa: 0c00                                   |009d: move-result-object v0
+474afc: 7120 82c9 0200                         |009e: invoke-static {v2, v0}, Lfe/a;.m:(Ljava/lang/String;Ljava/lang/String;)V // method@c982
+474b02: 2844                                   |00a1: goto 00e5 // +0044
+474b04: 0d00                                   |00a2: move-exception v0
+474b06: 2827                                   |00a3: goto 00ca // +0027
+474b08: 6e20 ecd6 0400                         |00a4: invoke-virtual {v4, v0}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474b0e: 0c05                                   |00a7: move-result-object v5
+474b10: 6e10 1e09 0500                         |00a8: invoke-virtual {v5}, Lcom/fasterxml/jackson/databind/e;.x:()Z // method@091e
+474b16: 0a05                                   |00ab: move-result v5
+474b18: 3805 3900                              |00ac: if-eqz v5, 00e5 // +0039
+474b1c: 6e20 ecd6 0400                         |00ae: invoke-virtual {v4, v0}, Lp7/p;.G:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6ec
+474b22: 0c00                                   |00b1: move-result-object v0
+474b24: 1f00 7522                              |00b2: check-cast v0, Lp7/a; // type@2275
+474b28: 6e10 ead6 0000                         |00b4: invoke-virtual {v0}, Lp7/a;.size:()I // method@d6ea
+474b2e: 0a04                                   |00b7: move-result v4
+474b30: 3d04 2d00                              |00b8: if-lez v4, 00e5 // +002d
+474b34: 1204                                   |00ba: const/4 v4, #int 0 // #0
+474b36: 6e20 e6d6 4000                         |00bb: invoke-virtual {v0, v4}, Lp7/a;.V:(I)Lcom/fasterxml/jackson/databind/e; // method@d6e6
+474b3c: 0c00                                   |00be: move-result-object v0
+474b3e: 6e10 1609 0000                         |00bf: invoke-virtual {v0}, Lcom/fasterxml/jackson/databind/e;.j:()Ljava/lang/String; // method@0916
+474b44: 0c00                                   |00c2: move-result-object v0
+474b46: 7110 eab0 0000                         |00c3: invoke-static {v0}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+474b4c: 0a02                                   |00c6: move-result v2
+474b4e: 3902 1e00                              |00c7: if-nez v2, 00e5 // +001e
+474b52: 1100                                   |00c9: return-object v0
+474b54: 7110 86c9 0000                         |00ca: invoke-static {v0}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+474b5a: 0c00                                   |00cd: move-result-object v0
+474b5c: 7120 7cc9 0200                         |00ce: invoke-static {v2, v0}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+474b62: 2200 ea1f                              |00d1: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474b66: 7010 3dcc 0000                         |00d3: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474b6c: 1a04 f39a                              |00d6: const-string v4, "getLocalIp:parse local ip failed: " // string@9af3
+474b70: 6e20 47cc 4000                         |00d8: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474b76: 6e20 47cc 3000                         |00db: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474b7c: 6e10 50cc 0000                         |00de: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474b82: 0c00                                   |00e1: move-result-object v0
+474b84: 7120 7cc9 0200                         |00e2: invoke-static {v2, v0}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+474b8a: 6e30 26dd cb01                         |00e5: invoke-virtual {v11, v12, v1}, Lxe/c;.n:(Ljava/lang/String;Ljava/lang/String;)V // method@dd26
+474b90: 120b                                   |00e8: const/4 v11, #int 0 // #0
+474b92: 110b                                   |00e9: return-object v11
+      catches       : 1
+        0x0068 - 0x00c7
+          Ljava/lang/Exception; -> 0x00a2
+
+    #10              : (in Lxe/c;)
+      name          : 'n'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 4
+      insns size    : 76 16-bit code units
+475460:                                        |[475460] xe.c.n:(Ljava/lang/String;Ljava/lang/String;)V
+475470: 5420 53f3                              |0000: iget-object v0, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475474: 6e10 aea2 0000                         |0002: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+47547a: 0c00                                   |0005: move-result-object v0
+47547c: 5421 53f3                              |0006: iget-object v1, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475480: 6e30 e0a2 1004                         |0008: invoke-virtual {v0, v1, v4}, Lcom/xiaomi/ai/core/ChannelListener;.onRead:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)Ljava/lang/String; // method@a2e0
+475486: 0c00                                   |000b: move-result-object v0
+475488: 7110 eab0 0000                         |000c: invoke-static {v0}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+47548e: 0a01                                   |000f: move-result v1
+475490: 3801 0300                              |0010: if-eqz v1, 0013 // +0003
+475494: 0e00                                   |0012: return-void
+475496: 7100 3264 0000                         |0013: invoke-static {}, Lcom/xiaomi/ai/api/common/APIUtils;.getObjectMapper:()Lcom/fasterxml/jackson/databind/ObjectMapper; // method@6432
+47549c: 0c01                                   |0016: move-result-object v1
+47549e: 6e20 fd08 0100                         |0017: invoke-virtual {v1, v0}, Lcom/fasterxml/jackson/databind/ObjectMapper;.readTree:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@08fd
+4754a4: 0c00                                   |001a: move-result-object v0
+4754a6: 1f00 7622                              |001b: check-cast v0, Lp7/p; // type@2276
+4754aa: 3800 1800                              |001d: if-eqz v0, 0035 // +0018
+4754ae: 6e20 2add 3200                         |001f: invoke-virtual {v2, v3}, Lxe/c;.r:(Ljava/lang/String;)Ljava/lang/String; // method@dd2a
+4754b4: 0c03                                   |0022: move-result-object v3
+4754b6: 6e20 f3d6 3000                         |0023: invoke-virtual {v0, v3}, Lp7/p;.a0:(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/e; // method@d6f3
+4754bc: 5423 53f3                              |0026: iget-object v3, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4754c0: 6e10 aea2 0300                         |0028: invoke-virtual {v3}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+4754c6: 0c03                                   |002b: move-result-object v3
+4754c8: 5422 53f3                              |002c: iget-object v2, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4754cc: 6e10 f9d6 0000                         |002e: invoke-virtual {v0}, Lp7/p;.toString:()Ljava/lang/String; // method@d6f9
+4754d2: 0c00                                   |0031: move-result-object v0
+4754d4: 6e40 e4a2 2304                         |0032: invoke-virtual {v3, v2, v4, v0}, Lcom/xiaomi/ai/core/ChannelListener;.onWrite:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;Ljava/lang/String;)Z // method@a2e4
+4754da: 0e00                                   |0035: return-void
+4754dc: 0d03                                   |0036: move-exception v3
+4754de: 7110 86c9 0300                         |0037: invoke-static {v3}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+4754e4: 0c03                                   |003a: move-result-object v3
+4754e6: 1a00 a621                              |003b: const-string v0, "HttpDns" // string@21a6
+4754ea: 7120 7cc9 3000                         |003d: invoke-static {v0, v3}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+4754f0: 5423 53f3                              |0040: iget-object v3, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+4754f4: 6e10 aea2 0300                         |0042: invoke-virtual {v3}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+4754fa: 0c03                                   |0045: move-result-object v3
+4754fc: 5422 53f3                              |0046: iget-object v2, v2, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475500: 6e30 e1a2 2304                         |0048: invoke-virtual {v3, v2, v4}, Lcom/xiaomi/ai/core/ChannelListener;.onRemove:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)V // method@a2e1
+475506: 0e00                                   |004b: return-void
+      catches       : 1
+        0x0013 - 0x001d
+          Ljava/io/IOException; -> 0x0036
+
+    #11              : (in Lxe/c;)
+      name          : 'o'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 49 16-bit code units
+474ba4:                                        |[474ba4] xe.c.o:(Ljava/lang/String;)Ljava/lang/String;
+474bb4: 6200 c991                              |0000: sget-object v0, Lcom/xiaomi/ai/api/Network$NetworkType;.DATA:Lcom/xiaomi/ai/api/Network$NetworkType; // field@91c9
+474bb8: 6e10 96cb 0000                         |0002: invoke-virtual {v0}, Ljava/lang/Enum;.name:()Ljava/lang/String; // method@cb96
+474bbe: 0c00                                   |0005: move-result-object v0
+474bc0: 6e20 09cc 2000                         |0006: invoke-virtual {v0, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+474bc6: 0a02                                   |0009: move-result v2
+474bc8: 3802 2400                              |000a: if-eqz v2, 002e // +0024
+474bcc: 5411 53f3                              |000c: iget-object v1, v1, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474bd0: 6e10 aea2 0100                         |000e: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+474bd6: 0c01                                   |0011: move-result-object v1
+474bd8: 6e10 d9a2 0100                         |0012: invoke-virtual {v1}, Lcom/xiaomi/ai/core/ChannelListener;.onGetMcc:()Ljava/lang/String; // method@a2d9
+474bde: 0c01                                   |0015: move-result-object v1
+474be0: 7110 eab0 0100                         |0016: invoke-static {v1}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+474be6: 0a02                                   |0019: move-result v2
+474be8: 3902 1400                              |001a: if-nez v2, 002e // +0014
+474bec: 2202 ea1f                              |001c: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+474bf0: 7010 3dcc 0200                         |001e: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474bf6: 1a00 0204                              |0021: const-string v0, "-" // string@0402
+474bfa: 6e20 47cc 0200                         |0023: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474c00: 6e20 47cc 1200                         |0026: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474c06: 6e10 50cc 0200                         |0029: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474c0c: 0c01                                   |002c: move-result-object v1
+474c0e: 1101                                   |002d: return-object v1
+474c10: 1a01 0000                              |002e: const-string v1, "" // string@0000
+474c14: 1101                                   |0030: return-object v1
+      catches       : (none)
+
+    #12              : (in Lxe/c;)
+      name          : 'p'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 4
+      insns size    : 249 16-bit code units
+475518:                                        |[475518] xe.c.p:(Ljava/lang/String;)V
+475528: 5480 53f3                              |0000: iget-object v0, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+47552c: 6e10 aea2 0000                         |0002: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+475532: 0c00                                   |0005: move-result-object v0
+475534: 6e10 cda2 0000                         |0006: invoke-virtual {v0}, Lcom/xiaomi/ai/core/ChannelListener;.isAllowCTA:()Z // method@a2cd
+47553a: 0a00                                   |0009: move-result v0
+47553c: 1a01 a621                              |000a: const-string v1, "HttpDns" // string@21a6
+475540: 3900 0800                              |000c: if-nez v0, 0014 // +0008
+475544: 1a08 739c                              |000e: const-string v8, "getOnlineIp: CTA is now allow" // string@9c73
+475548: 7120 7fc9 8100                         |0010: invoke-static {v1, v8}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+47554e: 0e00                                   |0013: return-void
+475550: 1a00 729c                              |0014: const-string v0, "getOnlineIp" // string@9c72
+475554: 7120 7fc9 0100                         |0016: invoke-static {v1, v0}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+47555a: 5480 59f3                              |0019: iget-object v0, v8, Lxe/c;.g:Lso/z; // field@f359
+47555e: 3900 0300                              |001b: if-nez v0, 001e // +0003
+475562: 0e00                                   |001d: return-void
+475564: 5480 53f3                              |001e: iget-object v0, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475568: 6e10 aea2 0000                         |0020: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+47556e: 0c00                                   |0023: move-result-object v0
+475570: 5482 53f3                              |0024: iget-object v2, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475574: 1a03 8dac                              |0026: const-string v3, "last_refresh_http_dns_at" // string@ac8d
+475578: 6e30 e0a2 2003                         |0028: invoke-virtual {v0, v2, v3}, Lcom/xiaomi/ai/core/ChannelListener;.onRead:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;)Ljava/lang/String; // method@a2e0
+47557e: 0c00                                   |002b: move-result-object v0
+475580: 7110 eab0 0000                         |002c: invoke-static {v0}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+475586: 0a02                                   |002f: move-result v2
+475588: 3902 3e00                              |0030: if-nez v2, 006e // +003e
+47558c: 7110 bccb 0000                         |0032: invoke-static {v0}, Ljava/lang/Long;.parseLong:(Ljava/lang/String;)J // method@cbbc
+475592: 0b04                                   |0035: move-result-wide v4
+475594: 5480 53f3                              |0036: iget-object v0, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475598: 6e10 a4a2 0000                         |0038: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getAivsConfig:()Lcom/xiaomi/ai/core/AivsConfig; // method@a2a4
+47559e: 0c00                                   |003b: move-result-object v0
+4755a0: 1a02 5f89                              |003c: const-string v2, "connection.refresh_http_dns_interval" // string@895f
+4755a4: 1306 1e00                              |003e: const/16 v6, #int 30 // #1e
+4755a8: 6e30 90a2 2006                         |0040: invoke-virtual {v0, v2, v6}, Lcom/xiaomi/ai/core/AivsConfig;.getInt:(Ljava/lang/String;I)I // method@a290
+4755ae: 0a00                                   |0043: move-result v0
+4755b0: d200 e803                              |0044: mul-int/lit16 v0, v0, #int 1000 // #03e8
+4755b4: 8106                                   |0046: int-to-long v6, v0
+4755b6: bb64                                   |0047: add-long/2addr v4, v6
+4755b8: 7100 52cc 0000                         |0048: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+4755be: 0b06                                   |004b: move-result-wide v6
+4755c0: 3100 0604                              |004c: cmp-long v0, v6, v4
+4755c4: 3b00 2000                              |004e: if-gez v0, 006e // +0020
+4755c8: 2208 ea1f                              |0050: new-instance v8, Ljava/lang/StringBuilder; // type@1fea
+4755cc: 7010 3dcc 0800                         |0052: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4755d2: 1a09 6992                              |0055: const-string v9, "frequency limited, wait until " // string@9269
+4755d6: 6e20 47cc 9800                         |0057: invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4755dc: 2209 5520                              |005a: new-instance v9, Ljava/util/Date; // type@2055
+4755e0: 7030 5ecd 4905                         |005c: invoke-direct {v9, v4, v5}, Ljava/util/Date;.<init>:(J)V // method@cd5e
+4755e6: 6e10 60cd 0900                         |005f: invoke-virtual {v9}, Ljava/util/Date;.toString:()Ljava/lang/String; // method@cd60
+4755ec: 0c09                                   |0062: move-result-object v9
+4755ee: 6e20 47cc 9800                         |0063: invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4755f4: 6e10 50cc 0800                         |0066: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4755fa: 0c08                                   |0069: move-result-object v8
+4755fc: 7120 7fc9 8100                         |006a: invoke-static {v1, v8}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+475602: 0e00                                   |006d: return-void
+475604: 5480 53f3                              |006e: iget-object v0, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475608: 6e10 aea2 0000                         |0070: invoke-virtual {v0}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+47560e: 0c00                                   |0073: move-result-object v0
+475610: 5482 53f3                              |0074: iget-object v2, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475614: 7100 52cc 0000                         |0076: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+47561a: 0b04                                   |0079: move-result-wide v4
+47561c: 7120 2ecc 5400                         |007a: invoke-static {v4, v5}, Ljava/lang/String;.valueOf:(J)Ljava/lang/String; // method@cc2e
+475622: 0c04                                   |007d: move-result-object v4
+475624: 6e40 e4a2 2043                         |007e: invoke-virtual {v0, v2, v3, v4}, Lcom/xiaomi/ai/core/ChannelListener;.onWrite:(Lcom/xiaomi/ai/core/Channel;Ljava/lang/String;Ljava/lang/String;)Z // method@a2e4
+47562a: 2200 ea1f                              |0081: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+47562e: 1a02 3ba5                              |0083: const-string v2, "https://resolver.mi.xiaomi.com/gslb/" // string@a53b
+475632: 7020 3fcc 2000                         |0085: invoke-direct {v0, v2}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@cc3f
+475638: 1a02 e105                              |0088: const-string v2, "?protocol=" // string@05e1
+47563c: 6e20 47cc 2000                         |008a: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475642: 5482 53f3                              |008d: iget-object v2, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475646: 6e10 a7a2 0200                         |008f: invoke-virtual {v2}, Lcom/xiaomi/ai/core/Channel;.getChannelType:()Ljava/lang/String; // method@a2a7
+47564c: 0c02                                   |0092: move-result-object v2
+47564e: 6e20 47cc 2000                         |0093: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475654: 1a02 7801                              |0096: const-string v2, "&" // string@0178
+475658: 6e20 47cc 2000                         |0098: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47565e: 1a02 5fad                              |009b: const-string v2, "list=" // string@ad5f
+475662: 6e20 47cc 2000                         |009d: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475668: 5482 54f3                              |00a0: iget-object v2, v8, Lxe/c;.b:Ljava/lang/String; // field@f354
+47566c: 6e20 47cc 2000                         |00a2: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475672: 1a02 7d01                              |00a5: const-string v2, "&did=" // string@017d
+475676: 6e20 47cc 2000                         |00a7: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47567c: 5482 53f3                              |00aa: iget-object v2, v8, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+475680: 6e10 a8a2 0200                         |00ac: invoke-virtual {v2}, Lcom/xiaomi/ai/core/Channel;.getClientInfo:()Lcom/xiaomi/ai/api/Settings$ClientInfo; // method@a2a8
+475686: 0c02                                   |00af: move-result-object v2
+475688: 6e10 323f 0200                         |00b0: invoke-virtual {v2}, Lcom/xiaomi/ai/api/Settings$ClientInfo;.getDeviceId:()Lef/a; // method@3f32
+47568e: 0c02                                   |00b3: move-result-object v2
+475690: 6e10 eec8 0200                         |00b4: invoke-virtual {v2}, Lef/a;.b:()Ljava/lang/Object; // method@c8ee
+475696: 0c02                                   |00b7: move-result-object v2
+475698: 1f02 e81f                              |00b8: check-cast v2, Ljava/lang/String; // type@1fe8
+47569c: 6e20 47cc 2000                         |00ba: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4756a2: 2202 ea1f                              |00bd: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+4756a6: 7010 3dcc 0200                         |00bf: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4756ac: 1a03 749c                              |00c2: const-string v3, "getOnlineIp: requestURL=" // string@9c74
+4756b0: 6e20 47cc 3200                         |00c4: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4756b6: 6e10 50cc 0000                         |00c7: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4756bc: 0c03                                   |00ca: move-result-object v3
+4756be: 6e20 47cc 3200                         |00cb: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4756c4: 6e10 50cc 0200                         |00ce: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4756ca: 0c02                                   |00d1: move-result-object v2
+4756cc: 7120 79c9 2100                         |00d2: invoke-static {v1, v2}, Lfe/a;.d:(Ljava/lang/String;Ljava/lang/String;)V // method@c979
+4756d2: 2201 df22                              |00d5: new-instance v1, Lso/a0$a; // type@22df
+4756d6: 7010 eed8 0100                         |00d7: invoke-direct {v1}, Lso/a0$a;.<init>:()V // method@d8ee
+4756dc: 6e10 50cc 0000                         |00da: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4756e2: 0c00                                   |00dd: move-result-object v0
+4756e4: 6e20 f6d8 0100                         |00de: invoke-virtual {v1, v0}, Lso/a0$a;.j:(Ljava/lang/String;)Lso/a0$a; // method@d8f6
+4756ea: 0c00                                   |00e1: move-result-object v0
+4756ec: 6e10 f1d8 0000                         |00e2: invoke-virtual {v0}, Lso/a0$a;.c:()Lso/a0$a; // method@d8f1
+4756f2: 0c00                                   |00e5: move-result-object v0
+4756f4: 6e10 f0d8 0000                         |00e6: invoke-virtual {v0}, Lso/a0$a;.b:()Lso/a0; // method@d8f0
+4756fa: 0c00                                   |00e9: move-result-object v0
+4756fc: 5481 59f3                              |00ea: iget-object v1, v8, Lxe/c;.g:Lso/z; // field@f359
+475700: 6e20 2ed9 0100                         |00ec: invoke-virtual {v1, v0}, Lso/z;.c:(Lso/a0;)Lso/e; // method@d92e
+475706: 0c00                                   |00ef: move-result-object v0
+475708: 2201 bd23                              |00f0: new-instance v1, Lxe/c$a; // type@23bd
+47570c: 7030 15dd 8109                         |00f2: invoke-direct {v1, v8, v9}, Lxe/c$a;.<init>:(Lxe/c;Ljava/lang/String;)V // method@dd15
+475712: 7220 11d9 1000                         |00f5: invoke-interface {v0, v1}, Lso/e;.i:(Lso/f;)V // method@d911
+475718: 0e00                                   |00f8: return-void
+      catches       : (none)
+
+    #13              : (in Lxe/c;)
+      name          : 'q'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 34 16-bit code units
+474c18:                                        |[474c18] xe.c.q:(Ljava/lang/String;)Ljava/lang/String;
+474c28: 6200 d091                              |0000: sget-object v0, Lcom/xiaomi/ai/api/Network$NetworkType;.WIFI:Lcom/xiaomi/ai/api/Network$NetworkType; // field@91d0
+474c2c: 6e10 96cb 0000                         |0002: invoke-virtual {v0}, Ljava/lang/Enum;.name:()Ljava/lang/String; // method@cb96
+474c32: 0c00                                   |0005: move-result-object v0
+474c34: 6e20 09cc 2000                         |0006: invoke-virtual {v0, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+474c3a: 0a02                                   |0009: move-result v2
+474c3c: 3802 1500                              |000a: if-eqz v2, 001f // +0015
+474c40: 5411 53f3                              |000c: iget-object v1, v1, Lxe/c;.a:Lcom/xiaomi/ai/core/Channel; // field@f353
+474c44: 6e10 aea2 0100                         |000e: invoke-virtual {v1}, Lcom/xiaomi/ai/core/Channel;.getListener:()Lcom/xiaomi/ai/core/ChannelListener; // method@a2ae
+474c4a: 0c01                                   |0011: move-result-object v1
+474c4c: 6e10 dda2 0100                         |0012: invoke-virtual {v1}, Lcom/xiaomi/ai/core/ChannelListener;.onGetSSID:()Ljava/lang/String; // method@a2dd
+474c52: 0c01                                   |0015: move-result-object v1
+474c54: 7110 eab0 0100                         |0016: invoke-static {v1}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+474c5a: 0a02                                   |0019: move-result v2
+474c5c: 3802 0700                              |001a: if-eqz v2, 0021 // +0007
+474c60: 1a01 47ea                              |001c: const-string v1, "unknown-wifi-ssid" // string@ea47
+474c64: 2803                                   |001e: goto 0021 // +0003
+474c66: 1a01 01c3                              |001f: const-string v1, "not-wifi" // string@c301
+474c6a: 1101                                   |0021: return-object v1
+      catches       : (none)
+
+    #14              : (in Lxe/c;)
+      name          : 'r'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 40 16-bit code units
+474c6c:                                        |[474c6c] xe.c.r:(Ljava/lang/String;)Ljava/lang/String;
+474c7c: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+474c80: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+474c86: 5421 54f3                              |0005: iget-object v1, v2, Lxe/c;.b:Ljava/lang/String; // field@f354
+474c8a: 6e20 47cc 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474c90: 1a01 0204                              |000a: const-string v1, "-" // string@0402
+474c94: 6e20 47cc 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474c9a: 6e20 47cc 3000                         |000f: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474ca0: 6e20 47cc 1000                         |0012: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474ca6: 6e20 29dd 3200                         |0015: invoke-virtual {v2, v3}, Lxe/c;.q:(Ljava/lang/String;)Ljava/lang/String; // method@dd29
+474cac: 0c01                                   |0018: move-result-object v1
+474cae: 6e20 47cc 1000                         |0019: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474cb4: 6e20 27dd 3200                         |001c: invoke-virtual {v2, v3}, Lxe/c;.o:(Ljava/lang/String;)Ljava/lang/String; // method@dd27
+474cba: 0c02                                   |001f: move-result-object v2
+474cbc: 6e20 47cc 2000                         |0020: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+474cc2: 6e10 50cc 0000                         |0023: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+474cc8: 0c02                                   |0026: move-result-object v2
+474cca: 1102                                   |0027: return-object v2
+      catches       : (none)
+
+    #15              : (in Lxe/c;)
+      name          : 's'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 2
+      outs          : 2
+      insns size    : 119 16-bit code units
+47571c:                                        |[47571c] xe.c.s:(Ljava/lang/String;)V
+47572c: 1a00 a621                              |0000: const-string v0, "HttpDns" // string@21a6
+475730: 7110 eab0 0600                         |0002: invoke-static {v6}, Lcom/xiaomi/ai/utils/l;.b:(Ljava/lang/String;)Z // method@b0ea
+475736: 0a01                                   |0005: move-result v1
+475738: 1a02 e9ea                              |0006: const-string v2, "url=" // string@eae9
+47573c: 3901 5a00                              |0008: if-nez v1, 0062 // +005a
+475740: 2201 1620                              |000a: new-instance v1, Ljava/net/URI; // type@2016
+475744: 7020 b3cc 6100                         |000c: invoke-direct {v1, v6}, Ljava/net/URI;.<init>:(Ljava/lang/String;)V // method@ccb3
+47574a: 6e10 b8cc 0100                         |000f: invoke-virtual {v1}, Ljava/net/URI;.getHost:()Ljava/lang/String; // method@ccb8
+475750: 0c03                                   |0012: move-result-object v3
+475752: 5b53 54f3                              |0013: iput-object v3, v5, Lxe/c;.b:Ljava/lang/String; // field@f354
+475756: 6e10 bacc 0100                         |0015: invoke-virtual {v1}, Ljava/net/URI;.getPort:()I // method@ccba
+47575c: 0a03                                   |0018: move-result v3
+47575e: 12f4                                   |0019: const/4 v4, #int -1 // #ff
+475760: 3243 0b00                              |001a: if-eq v3, v4, 0025 // +000b
+475764: 6e10 bacc 0100                         |001c: invoke-virtual {v1}, Ljava/net/URI;.getPort:()I // method@ccba
+47576a: 0a01                                   |001f: move-result v1
+47576c: 5951 55f3                              |0020: iput v1, v5, Lxe/c;.c:I // field@f355
+475770: 2803                                   |0022: goto 0025 // +0003
+475772: 0d05                                   |0023: move-exception v5
+475774: 2822                                   |0024: goto 0046 // +0022
+475776: 2206 ea1f                              |0025: new-instance v6, Ljava/lang/StringBuilder; // type@1fea
+47577a: 7010 3dcc 0600                         |0027: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+475780: 1a01 c3c6                              |002a: const-string v1, "parse: host=" // string@c6c3
+475784: 6e20 47cc 1600                         |002c: invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47578a: 5451 54f3                              |002f: iget-object v1, v5, Lxe/c;.b:Ljava/lang/String; // field@f354
+47578e: 6e20 47cc 1600                         |0031: invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475794: 1a01 6803                              |0034: const-string v1, ", port=" // string@0368
+475798: 6e20 47cc 1600                         |0036: invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47579e: 5255 55f3                              |0039: iget v5, v5, Lxe/c;.c:I // field@f355
+4757a2: 6e20 43cc 5600                         |003b: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+4757a8: 6e10 50cc 0600                         |003e: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4757ae: 0c05                                   |0041: move-result-object v5
+4757b0: 7120 7fc9 5000                         |0042: invoke-static {v0, v5}, Lfe/a;.j:(Ljava/lang/String;Ljava/lang/String;)V // method@c97f
+4757b6: 0e00                                   |0045: return-void
+4757b8: 7110 86c9 0500                         |0046: invoke-static {v5}, Lfe/a;.q:(Ljava/lang/Throwable;)Ljava/lang/String; // method@c986
+4757be: 0c05                                   |0049: move-result-object v5
+4757c0: 7120 7cc9 5000                         |004a: invoke-static {v0, v5}, Lfe/a;.g:(Ljava/lang/String;Ljava/lang/String;)V // method@c97c
+4757c6: 2205 cd1f                              |004d: new-instance v5, Ljava/lang/IllegalArgumentException; // type@1fcd
+4757ca: 2200 ea1f                              |004f: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+4757ce: 7010 3dcc 0000                         |0051: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4757d4: 6e20 47cc 2000                         |0054: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4757da: 6e20 47cc 6000                         |0057: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4757e0: 6e10 50cc 0000                         |005a: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4757e6: 0c06                                   |005d: move-result-object v6
+4757e8: 7020 a4cb 6500                         |005e: invoke-direct {v5, v6}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@cba4
+4757ee: 2705                                   |0061: throw v5
+4757f0: 2205 cd1f                              |0062: new-instance v5, Ljava/lang/IllegalArgumentException; // type@1fcd
+4757f4: 2200 ea1f                              |0064: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+4757f8: 7010 3dcc 0000                         |0066: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+4757fe: 6e20 47cc 2000                         |0069: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+475804: 6e20 47cc 6000                         |006c: invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+47580a: 6e10 50cc 0000                         |006f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+475810: 0c06                                   |0072: move-result-object v6
+475812: 7020 a4cb 6500                         |0073: invoke-direct {v5, v6}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@cba4
+475818: 2705                                   |0076: throw v5
+      catches       : 1
+        0x000a - 0x0022
+          Ljava/net/URISyntaxException; -> 0x0023
+
+  source_file_idx   : 25929 (SourceFile)
+

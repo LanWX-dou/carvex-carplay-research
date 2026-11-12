@@ -1,0 +1,152 @@
+Class #1915            -
+  Class descriptor  : 'Lci/o1;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lyh/c;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lci/o1;)
+      name          : 'k'
+      type          : 'Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lci/o1;)
+      name          : 'l'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lci/o1;)
+      name          : '<init>'
+      type          : '(Lcom/xiaomi/ai/api/common/Instruction;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+0e9cb8:                                        |[0e9cb8] ci.o1.<init>:(Lcom/xiaomi/ai/api/common/Instruction;)V
+0e9cc8: 7020 5c3c 1000                         |0000: invoke-direct {v0, v1}, Lyh/c;.<init>:(Lcom/xiaomi/ai/api/common/Instruction;)V // method@3c5c
+0e9cce: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lci/o1;)
+      name          : 'D'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 85 16-bit code units
+0e9cd0:                                        |[0e9cd0] ci.o1.D:(Landroid/content/Context;)V
+0e9ce0: 2200 3d00                              |0000: new-instance v0, Landroid/content/ContentValues; // type@003d
+0e9ce4: 7010 d300 0000                         |0002: invoke-direct {v0}, Landroid/content/ContentValues;.<init>:()V // method@00d3
+0e9cea: 5431 2601                              |0005: iget-object v1, v3, Lci/o1;.k:Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel; // field@0126
+0e9cee: 6e10 f813 0100                         |0007: invoke-virtual {v1}, Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel;.c:()Ljava/lang/String; // method@13f8
+0e9cf4: 0c01                                   |000a: move-result-object v1
+0e9cf6: 1a02 353c                              |000b: const-string v2, "content" // string@3c35
+0e9cfa: 6e30 d900 2001                         |000d: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/String;)V // method@00d9
+0e9d00: 5431 2601                              |0010: iget-object v1, v3, Lci/o1;.k:Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel; // field@0126
+0e9d04: 6e10 f713 0100                         |0012: invoke-virtual {v1}, Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel;.b:()Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel$RemindType; // method@13f7
+0e9d0a: 0c01                                   |0015: move-result-object v1
+0e9d0c: 6e10 ca33 0100                         |0016: invoke-virtual {v1}, Ljava/lang/Enum;.ordinal:()I // method@33ca
+0e9d12: 0a01                                   |0019: move-result v1
+0e9d14: 7110 e233 0100                         |001a: invoke-static {v1}, Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer; // method@33e2
+0e9d1a: 0c01                                   |001d: move-result-object v1
+0e9d1c: 1a02 d467                              |001e: const-string v2, "remind_type" // string@67d4
+0e9d20: 6e30 d700 2001                         |0020: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Integer;)V // method@00d7
+0e9d26: 5431 2601                              |0023: iget-object v1, v3, Lci/o1;.k:Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel; // field@0126
+0e9d2a: 6e10 f613 0100                         |0025: invoke-virtual {v1}, Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel;.a:()J // method@13f6
+0e9d30: 0b01                                   |0028: move-result-wide v1
+0e9d32: 7120 e933 2100                         |0029: invoke-static {v1, v2}, Ljava/lang/Long;.valueOf:(J)Ljava/lang/Long; // method@33e9
+0e9d38: 0c01                                   |002c: move-result-object v1
+0e9d3a: 1a02 d367                              |002d: const-string v2, "remind_time" // string@67d3
+0e9d3e: 6e30 d800 2001                         |002f: invoke-virtual {v0, v2, v1}, Landroid/content/ContentValues;.put:(Ljava/lang/String;Ljava/lang/Long;)V // method@00d8
+0e9d44: 6e10 de00 0400                         |0032: invoke-virtual {v4}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@00de
+0e9d4a: 0c04                                   |0035: move-result-object v4
+0e9d4c: 1a01 493c                              |0036: const-string v1, "content://com.miui.todo.provider/todo/out_insert" // string@3c49
+0e9d50: 7110 f601 0100                         |0038: invoke-static {v1}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+0e9d56: 0c01                                   |003b: move-result-object v1
+0e9d58: 6e30 cc00 1400                         |003c: invoke-virtual {v4, v1, v0}, Landroid/content/ContentResolver;.insert:(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; // method@00cc
+0e9d5e: 0c04                                   |003f: move-result-object v4
+0e9d60: 3804 0900                              |0040: if-eqz v4, 0049 // +0009
+0e9d64: 6e10 f701 0400                         |0042: invoke-virtual {v4}, Landroid/net/Uri;.toString:()Ljava/lang/String; // method@01f7
+0e9d6a: 0c04                                   |0045: move-result-object v4
+0e9d6c: 2804                                   |0046: goto 004a // +0004
+0e9d6e: 0d03                                   |0047: move-exception v3
+0e9d70: 2805                                   |0048: goto 004d // +0005
+0e9d72: 1204                                   |0049: const/4 v4, #int 0 // #0
+0e9d74: 5b34 2701                              |004a: iput-object v4, v3, Lci/o1;.l:Ljava/lang/String; // field@0127
+0e9d78: 2808                                   |004c: goto 0054 // +0008
+0e9d7a: 1a04 2027                              |004d: const-string v4, "SetTodoOperation" // string@2720
+0e9d7e: 1a00 a072                              |004f: const-string v0, "todo insert exception" // string@72a0
+0e9d82: 7130 f907 0403                         |0051: invoke-static {v4, v0, v3}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@07f9
+0e9d88: 0e00                                   |0054: return-void
+      catches       : 1
+        0x0032 - 0x004c
+          Ljava/lang/SecurityException; -> 0x0047
+
+    #1              : (in Lci/o1;)
+      name          : 'E'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0e9ca0:                                        |[0e9ca0] ci.o1.E:()Ljava/lang/String;
+0e9cb0: 5400 2701                              |0000: iget-object v0, v0, Lci/o1;.l:Ljava/lang/String; // field@0127
+0e9cb4: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lci/o1;)
+      name          : 'c'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0e9c88:                                        |[0e9c88] ci.o1.c:()Ljava/lang/String;
+0e9c98: 1a00 2027                              |0000: const-string v0, "SetTodoOperation" // string@2720
+0e9c9c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lci/o1;)
+      name          : 'x'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+0e9d9c:                                        |[0e9d9c] ci.o1.x:()V
+0e9dac: 5410 c9ff                              |0000: iget-object v0, v1, Lyh/c;.a:Lcom/xiaomi/ai/api/common/Instruction; // field@ffc9
+0e9db0: 7110 f913 0000                         |0002: invoke-static {v0}, Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel;.d:(Lcom/xiaomi/ai/api/common/Instruction;)Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel; // method@13f9
+0e9db6: 0c00                                   |0005: move-result-object v0
+0e9db8: 5b10 2601                              |0006: iput-object v0, v1, Lci/o1;.k:Lcom/xiaomi/voiceassistant/instruction/model/SetTodoModel; // field@0126
+0e9dbc: 0e00                                   |0008: return-void
+      catches       : (none)
+
+    #4              : (in Lci/o1;)
+      name          : 'y'
+      type          : '()Lcom/xiaomi/voiceassistant/instruction/base/OpEnums$OpState;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 10 16-bit code units
+0e9c64:                                        |[0e9c64] ci.o1.y:()Lcom/xiaomi/voiceassistant/instruction/base/OpEnums$OpState;
+0e9c74: 7100 901c 0000                         |0000: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+0e9c7a: 0c00                                   |0003: move-result-object v0
+0e9c7c: 6e20 9006 0100                         |0004: invoke-virtual {v1, v0}, Lci/o1;.D:(Landroid/content/Context;)V // method@0690
+0e9c82: 6201 7e7d                              |0007: sget-object v1, Lcom/xiaomi/voiceassistant/instruction/base/OpEnums$OpState;.STATE_SUCCESS:Lcom/xiaomi/voiceassistant/instruction/base/OpEnums$OpState; // field@7d7e
+0e9c86: 1101                                   |0009: return-object v1
+      catches       : (none)
+
+  source_file_idx   : 10017 (SetTodoOperation.java)
+

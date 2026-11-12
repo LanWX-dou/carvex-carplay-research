@@ -1,0 +1,671 @@
+Class #286            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/Parcelable;'
+  Static fields     -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'CREATOR'
+      type          : 'Landroid/os/Parcelable$Creator;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'e'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'f'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'g'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'h'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'i'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #9              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'j'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #10              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'k'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #11              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'l'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #12              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'm'
+      type          : '[B'
+      access        : 0x0001 (PUBLIC)
+    #13              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'n'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+1221cc:                                        |[1221cc] com.miui.carlink.databus.p2cdatastructure.MusicInfo.<clinit>:()V
+1221dc: 2200 8b03                              |0000: new-instance v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo$a; // type@038b
+1221e0: 7010 dd10 0000                         |0002: invoke-direct {v0}, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo$a;.<init>:()V // method@10dd
+1221e6: 6900 096e                              |0005: sput-object v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.CREATOR:Landroid/os/Parcelable$Creator; // field@6e09
+1221ea: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : '<init>'
+      type          : '(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 1
+      insns size    : 60 16-bit code units
+1221ec:                                        |[1221ec] com.miui.carlink.databus.p2cdatastructure.MusicInfo.<init>:(Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)V
+1221fc: 7010 3434 0200                         |0000: invoke-direct {v2}, Ljava/lang/Object;.<init>:()V // method@3434
+122202: 5430 0a6e                              |0003: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+122206: 5b20 0a6e                              |0005: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+12220a: 5430 0b6e                              |0007: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+12220e: 5b20 0b6e                              |0009: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+122212: 5430 0c6e                              |000b: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+122216: 5b20 0c6e                              |000d: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+12221a: 5430 0d6e                              |000f: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+12221e: 5b20 0d6e                              |0011: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+122222: 5330 0e6e                              |0013: iget-wide v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+122226: 5a20 0e6e                              |0015: iput-wide v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+12222a: 5430 0f6e                              |0017: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+12222e: 5b20 0f6e                              |0019: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+122232: 5430 106e                              |001b: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+122236: 5b20 106e                              |001d: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+12223a: 5430 116e                              |001f: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+12223e: 5b20 116e                              |0021: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+122242: 5430 126e                              |0023: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+122246: 5b20 126e                              |0025: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+12224a: 5230 136e                              |0027: iget v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+12224e: 5920 136e                              |0029: iput v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+122252: 5530 146e                              |002b: iget-boolean v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+122256: 5c20 146e                              |002d: iput-boolean v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+12225a: 5530 156e                              |002f: iget-boolean v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+12225e: 5c20 156e                              |0031: iput-boolean v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+122262: 5430 166e                              |0033: iget-object v0, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122266: 5b20 166e                              |0035: iput-object v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+12226a: 5233 176e                              |0037: iget v3, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+12226e: 5923 176e                              |0039: iput v3, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+122272: 0e00                                   |003b: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZ)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 14
+      ins           : 14
+      outs          : 1
+      insns size    : 28 16-bit code units
+122274:                                        |[122274] com.miui.carlink.databus.p2cdatastructure.MusicInfo.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZ)V
+122284: 7010 3434 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@3434
+12228a: 5b01 0a6e                              |0003: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+12228e: 5b02 0b6e                              |0005: iput-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+122292: 5b03 0c6e                              |0007: iput-object v3, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+122296: 5b04 0d6e                              |0009: iput-object v4, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+12229a: 5a05 0e6e                              |000b: iput-wide v5, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+12229e: 5b07 0f6e                              |000d: iput-object v7, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+1222a2: 5b08 106e                              |000f: iput-object v8, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+1222a6: 5b09 116e                              |0011: iput-object v9, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+1222aa: 5b0a 126e                              |0013: iput-object v10, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+1222ae: 590b 136e                              |0015: iput v11, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+1222b2: 5c0c 146e                              |0017: iput-boolean v12, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+1222b6: 5c0d 156e                              |0019: iput-boolean v13, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+1222ba: 0e00                                   |001b: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZ[B)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 15
+      ins           : 15
+      outs          : 1
+      insns size    : 30 16-bit code units
+1222bc:                                        |[1222bc] com.miui.carlink.databus.p2cdatastructure.MusicInfo.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZ[B)V
+1222cc: 7010 3434 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@3434
+1222d2: 5b01 0a6e                              |0003: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+1222d6: 5b02 0b6e                              |0005: iput-object v2, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+1222da: 5b03 0c6e                              |0007: iput-object v3, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+1222de: 5b04 0d6e                              |0009: iput-object v4, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+1222e2: 5a05 0e6e                              |000b: iput-wide v5, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+1222e6: 5b07 0f6e                              |000d: iput-object v7, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+1222ea: 5b08 106e                              |000f: iput-object v8, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+1222ee: 5b09 116e                              |0011: iput-object v9, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+1222f2: 5b0a 126e                              |0013: iput-object v10, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+1222f6: 590b 136e                              |0015: iput v11, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+1222fa: 5c0c 146e                              |0017: iput-boolean v12, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+1222fe: 5c0d 156e                              |0019: iput-boolean v13, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+122302: 5b0e 166e                              |001b: iput-object v14, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122306: 0e00                                   |001d: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'A'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122380:                                        |[122380] com.miui.carlink.databus.p2cdatastructure.MusicInfo.A:(I)V
+122390: 5901 136e                              |0000: iput v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+122394: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121e70:                                        |[121e70] com.miui.carlink.databus.p2cdatastructure.MusicInfo.a:()Ljava/lang/String;
+121e80: 5400 0b6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+121e84: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'b'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121e40:                                        |[121e40] com.miui.carlink.databus.p2cdatastructure.MusicInfo.b:()I
+121e50: 5200 176e                              |0000: iget v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+121e54: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #3              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'd'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121e88:                                        |[121e88] com.miui.carlink.databus.p2cdatastructure.MusicInfo.d:()Ljava/lang/String;
+121e98: 5400 0a6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+121e9c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'describeContents'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 2 16-bit code units
+121e2c:                                        |[121e2c] com.miui.carlink.databus.p2cdatastructure.MusicInfo.describeContents:()I
+121e3c: 1200                                   |0000: const/4 v0, #int 0 // #0
+121e3e: 0f00                                   |0001: return v0
+      catches       : (none)
+
+    #5              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'e'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121ea0:                                        |[121ea0] com.miui.carlink.databus.p2cdatastructure.MusicInfo.e:()Ljava/lang/String;
+121eb0: 5400 106e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+121eb4: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'f'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121eb8:                                        |[121eb8] com.miui.carlink.databus.p2cdatastructure.MusicInfo.f:()Ljava/lang/String;
+121ec8: 5400 126e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+121ecc: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #7              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'g'
+      type          : '()[B'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 8 16-bit code units
+121e0c:                                        |[121e0c] com.miui.carlink.databus.p2cdatastructure.MusicInfo.g:()[B
+121e1c: 5400 166e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+121e20: 3900 0500                              |0002: if-nez v0, 0007 // +0005
+121e24: 1200                                   |0004: const/4 v0, #int 0 // #0
+121e26: 2300 780b                              |0005: new-array v0, v0, [B // type@0b78
+121e2a: 1100                                   |0007: return-object v0
+      catches       : (none)
+
+    #8              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'h'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121ed0:                                        |[121ed0] com.miui.carlink.databus.p2cdatastructure.MusicInfo.h:()Ljava/lang/String;
+121ee0: 5400 0c6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+121ee4: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #9              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'i'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121ee8:                                        |[121ee8] com.miui.carlink.databus.p2cdatastructure.MusicInfo.i:()Ljava/lang/String;
+121ef8: 5400 0d6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+121efc: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #10              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'j'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121e58:                                        |[121e58] com.miui.carlink.databus.p2cdatastructure.MusicInfo.j:()I
+121e68: 5200 136e                              |0000: iget v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+121e6c: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #11              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'o'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 148 16-bit code units
+121f00:                                        |[121f00] com.miui.carlink.databus.p2cdatastructure.MusicInfo.o:()Ljava/lang/String;
+121f10: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+121f14: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+121f1a: 1a01 3506                              |0005: const-string v1, "Artist: " // string@0635
+121f1e: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f24: 5431 0a6e                              |000a: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+121f28: 6e20 8434 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f2e: 1a01 bc01                              |000f: const-string v1, ", Album: " // string@01bc
+121f32: 6e20 8434 1000                         |0011: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f38: 5431 0b6e                              |0014: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+121f3c: 6e20 8434 1000                         |0016: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f42: 1a01 c101                              |0019: const-string v1, ", Cover: " // string@01c1
+121f46: 6e20 8434 1000                         |001b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f4c: 5431 0c6e                              |001e: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+121f50: 6e20 8434 1000                         |0020: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f56: 1a01 c301                              |0023: const-string v1, ", Lyrics: " // string@01c3
+121f5a: 6e20 8434 1000                         |0025: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f60: 5431 0d6e                              |0028: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+121f64: 6e20 8434 1000                         |002a: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f6a: 1a01 c501                              |002d: const-string v1, ", TotalTimeMs: " // string@01c5
+121f6e: 6e20 8434 1000                         |002f: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f74: 5331 0e6e                              |0032: iget-wide v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+121f78: 6e30 8234 1002                         |0034: invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@3482
+121f7e: 1a01 c401                              |0037: const-string v1, ", Tile: " // string@01c4
+121f82: 6e20 8434 1000                         |0039: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f88: 5431 0f6e                              |003c: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+121f8c: 6e20 8434 1000                         |003e: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f92: 1a01 be01                              |0041: const-string v1, ", Author: " // string@01be
+121f96: 6e20 8434 1000                         |0043: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121f9c: 5431 106e                              |0046: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+121fa0: 6e20 8434 1000                         |0048: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fa6: 1a01 c601                              |004b: const-string v1, ", Writer: " // string@01c6
+121faa: 6e20 8434 1000                         |004d: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fb0: 5431 116e                              |0050: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+121fb4: 6e20 8434 1000                         |0052: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fba: 1a01 c001                              |0055: const-string v1, ", Composer: " // string@01c0
+121fbe: 6e20 8434 1000                         |0057: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fc4: 5431 126e                              |005a: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+121fc8: 6e20 8434 1000                         |005c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fce: 1a01 0b02                              |005f: const-string v1, ", isFavorite: " // string@020b
+121fd2: 6e20 8434 1000                         |0061: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fd8: 5531 146e                              |0064: iget-boolean v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+121fdc: 6e20 8534 1000                         |0066: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@3485
+121fe2: 1a01 1102                              |0069: const-string v1, ", isPlaying: " // string@0211
+121fe6: 6e20 8434 1000                         |006b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+121fec: 5531 156e                              |006e: iget-boolean v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+121ff0: 6e20 8534 1000                         |0070: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@3485
+121ff6: 1a01 e101                              |0073: const-string v1, ", cover: " // string@01e1
+121ffa: 6e20 8434 1000                         |0075: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+122000: 5431 166e                              |0078: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122004: 3801 0700                              |007a: if-eqz v1, 0081 // +0007
+122008: 2111                                   |007c: array-length v1, v1
+12200a: 6e20 8134 1000                         |007d: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+122010: 2805                                   |0080: goto 0085 // +0005
+122012: 1201                                   |0081: const/4 v1, #int 0 // #0
+122014: 6e20 8134 1000                         |0082: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+12201a: 1a01 cb01                              |0085: const-string v1, ", appId: " // string@01cb
+12201e: 6e20 8434 1000                         |0087: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+122024: 5233 176e                              |008a: iget v3, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+122028: 6e20 8134 3000                         |008c: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+12202e: 6e10 8b34 0000                         |008f: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+122034: 0c03                                   |0092: move-result-object v3
+122036: 1103                                   |0093: return-object v3
+      catches       : (none)
+
+    #12              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'q'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122038:                                        |[122038] com.miui.carlink.databus.p2cdatastructure.MusicInfo.q:()Ljava/lang/String;
+122048: 5400 0f6e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+12204c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #13              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'r'
+      type          : '()J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+1221b4:                                        |[1221b4] com.miui.carlink.databus.p2cdatastructure.MusicInfo.r:()J
+1221c4: 5320 0e6e                              |0000: iget-wide v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+1221c8: 1000                                   |0002: return-wide v0
+      catches       : (none)
+
+    #14              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 's'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+122050:                                        |[122050] com.miui.carlink.databus.p2cdatastructure.MusicInfo.s:()Ljava/lang/String;
+122060: 5400 116e                              |0000: iget-object v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+122064: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #15              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 't'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121ddc:                                        |[121ddc] com.miui.carlink.databus.p2cdatastructure.MusicInfo.t:()Z
+121dec: 5500 146e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+121df0: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #16              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 158 16-bit code units
+122068:                                        |[122068] com.miui.carlink.databus.p2cdatastructure.MusicInfo.toString:()Ljava/lang/String;
+122078: 2200 7d07                              |0000: new-instance v0, Ljava/lang/StringBuffer; // type@077d
+12207c: 7010 7334 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuffer;.<init>:()V // method@3473
+122082: 1a01 3506                              |0005: const-string v1, "Artist: " // string@0635
+122086: 6e20 7834 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+12208c: 5431 0a6e                              |000a: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+122090: 6e20 7834 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122096: 1a01 bc01                              |000f: const-string v1, ", Album: " // string@01bc
+12209a: 6e20 7834 1000                         |0011: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220a0: 5431 0b6e                              |0014: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+1220a4: 6e20 7834 1000                         |0016: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220aa: 1a01 c101                              |0019: const-string v1, ", Cover: " // string@01c1
+1220ae: 6e20 7834 1000                         |001b: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220b4: 5431 0c6e                              |001e: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+1220b8: 6e20 7834 1000                         |0020: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220be: 1a01 c301                              |0023: const-string v1, ", Lyrics: " // string@01c3
+1220c2: 6e20 7834 1000                         |0025: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220c8: 5431 0d6e                              |0028: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+1220cc: 6e20 7834 1000                         |002a: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220d2: 1a01 c501                              |002d: const-string v1, ", TotalTimeMs: " // string@01c5
+1220d6: 6e20 7834 1000                         |002f: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220dc: 5331 0e6e                              |0032: iget-wide v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+1220e0: 6e30 7734 1002                         |0034: invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuffer;.append:(J)Ljava/lang/StringBuffer; // method@3477
+1220e6: 1a01 c401                              |0037: const-string v1, ", Tile: " // string@01c4
+1220ea: 6e20 7834 1000                         |0039: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220f0: 5431 0f6e                              |003c: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+1220f4: 6e20 7834 1000                         |003e: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1220fa: 1a01 be01                              |0041: const-string v1, ", Author: " // string@01be
+1220fe: 6e20 7834 1000                         |0043: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122104: 5431 106e                              |0046: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+122108: 6e20 7834 1000                         |0048: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+12210e: 1a01 c601                              |004b: const-string v1, ", Writer: " // string@01c6
+122112: 6e20 7834 1000                         |004d: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122118: 5431 116e                              |0050: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+12211c: 6e20 7834 1000                         |0052: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122122: 1a01 c001                              |0055: const-string v1, ", Composer: " // string@01c0
+122126: 6e20 7834 1000                         |0057: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+12212c: 5431 126e                              |005a: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+122130: 6e20 7834 1000                         |005c: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122136: 1a01 c201                              |005f: const-string v1, ", CurrentTimeMs: " // string@01c2
+12213a: 6e20 7834 1000                         |0061: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122140: 5231 136e                              |0064: iget v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+122144: 6e20 7634 1000                         |0066: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+12214a: 1a01 0b02                              |0069: const-string v1, ", isFavorite: " // string@020b
+12214e: 6e20 7834 1000                         |006b: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122154: 5531 146e                              |006e: iget-boolean v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+122158: 6e20 7934 1000                         |0070: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Z)Ljava/lang/StringBuffer; // method@3479
+12215e: 1a01 1102                              |0073: const-string v1, ", isPlaying: " // string@0211
+122162: 6e20 7834 1000                         |0075: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+122168: 5531 156e                              |0078: iget-boolean v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+12216c: 6e20 7934 1000                         |007a: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Z)Ljava/lang/StringBuffer; // method@3479
+122172: 1a01 e101                              |007d: const-string v1, ", cover: " // string@01e1
+122176: 6e20 7834 1000                         |007f: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+12217c: 5431 166e                              |0082: iget-object v1, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122180: 3801 0700                              |0084: if-eqz v1, 008b // +0007
+122184: 2111                                   |0086: array-length v1, v1
+122186: 6e20 7634 1000                         |0087: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+12218c: 2805                                   |008a: goto 008f // +0005
+12218e: 1201                                   |008b: const/4 v1, #int 0 // #0
+122190: 6e20 7634 1000                         |008c: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+122196: 1a01 cb01                              |008f: const-string v1, ", appId: " // string@01cb
+12219a: 6e20 7834 1000                         |0091: invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer; // method@3478
+1221a0: 5233 176e                              |0094: iget v3, v3, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+1221a4: 6e20 7634 3000                         |0096: invoke-virtual {v0, v3}, Ljava/lang/StringBuffer;.append:(I)Ljava/lang/StringBuffer; // method@3476
+1221aa: 6e10 7a34 0000                         |0099: invoke-virtual {v0}, Ljava/lang/StringBuffer;.toString:()Ljava/lang/String; // method@347a
+1221b0: 0c03                                   |009c: move-result-object v3
+1221b2: 1103                                   |009d: return-object v3
+      catches       : (none)
+
+    #17              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'u'
+      type          : '()Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+121df4:                                        |[121df4] com.miui.carlink.databus.p2cdatastructure.MusicInfo.u:()Z
+121e04: 5500 156e                              |0000: iget-boolean v0, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+121e08: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #18              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'v'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122308:                                        |[122308] com.miui.carlink.databus.p2cdatastructure.MusicInfo.v:(I)V
+122318: 5901 176e                              |0000: iput v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.n:I // field@6e17
+12231c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #19              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'w'
+      type          : '([B)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122320:                                        |[122320] com.miui.carlink.databus.p2cdatastructure.MusicInfo.w:([B)V
+122330: 5b01 166e                              |0000: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122334: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #20              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'writeToParcel'
+      type          : '(Landroid/os/Parcel;I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 66 16-bit code units
+122398:                                        |[122398] com.miui.carlink.databus.p2cdatastructure.MusicInfo.writeToParcel:(Landroid/os/Parcel;I)V
+1223a8: 5424 0a6e                              |0000: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.a:Ljava/lang/String; // field@6e0a
+1223ac: 6e20 f902 4300                         |0002: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223b2: 5424 0b6e                              |0005: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.b:Ljava/lang/String; // field@6e0b
+1223b6: 6e20 f902 4300                         |0007: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223bc: 5424 0c6e                              |000a: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+1223c0: 6e20 f902 4300                         |000c: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223c6: 5424 0d6e                              |000f: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+1223ca: 6e20 f902 4300                         |0011: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223d0: 5320 0e6e                              |0014: iget-wide v0, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.e:J // field@6e0e
+1223d4: 6e30 f602 0301                         |0016: invoke-virtual {v3, v0, v1}, Landroid/os/Parcel;.writeLong:(J)V // method@02f6
+1223da: 5424 0f6e                              |0019: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.f:Ljava/lang/String; // field@6e0f
+1223de: 6e20 f902 4300                         |001b: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223e4: 5424 106e                              |001e: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.g:Ljava/lang/String; // field@6e10
+1223e8: 6e20 f902 4300                         |0020: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223ee: 5424 116e                              |0023: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.h:Ljava/lang/String; // field@6e11
+1223f2: 6e20 f902 4300                         |0025: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+1223f8: 5424 126e                              |0028: iget-object v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.i:Ljava/lang/String; // field@6e12
+1223fc: 6e20 f902 4300                         |002a: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeString:(Ljava/lang/String;)V // method@02f9
+122402: 5224 136e                              |002d: iget v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.j:I // field@6e13
+122406: 6e20 f302 4300                         |002f: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeInt:(I)V // method@02f3
+12240c: 5524 146e                              |0032: iget-boolean v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.k:Z // field@6e14
+122410: 6e20 ef02 4300                         |0034: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeBoolean:(Z)V // method@02ef
+122416: 5524 156e                              |0037: iget-boolean v4, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+12241a: 6e20 ef02 4300                         |0039: invoke-virtual {v3, v4}, Landroid/os/Parcel;.writeBoolean:(Z)V // method@02ef
+122420: 5422 166e                              |003c: iget-object v2, v2, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.m:[B // field@6e16
+122424: 7120 1c05 2300                         |003e: invoke-static {v3, v2}, Lba/a;.a:(Landroid/os/Parcel;[B)V // method@051c
+12242a: 0e00                                   |0041: return-void
+      catches       : (none)
+
+    #21              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'x'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122338:                                        |[122338] com.miui.carlink.databus.p2cdatastructure.MusicInfo.x:(Ljava/lang/String;)V
+122348: 5b01 0c6e                              |0000: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.c:Ljava/lang/String; // field@6e0c
+12234c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #22              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'y'
+      type          : '(Z)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122350:                                        |[122350] com.miui.carlink.databus.p2cdatastructure.MusicInfo.y:(Z)V
+122360: 5c01 156e                              |0000: iput-boolean v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.l:Z // field@6e15
+122364: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #23              : (in Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;)
+      name          : 'z'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+122368:                                        |[122368] com.miui.carlink.databus.p2cdatastructure.MusicInfo.z:(Ljava/lang/String;)V
+122378: 5b01 0d6e                              |0000: iput-object v1, v0, Lcom/miui/carlink/databus/p2cdatastructure/MusicInfo;.d:Ljava/lang/String; // field@6e0d
+12237c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 8220 (MusicInfo.java)
+

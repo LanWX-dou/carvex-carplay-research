@@ -1,0 +1,3 @@
+Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Android (13324770, +pgo, -bolt, +lto, -mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+JNI_OnLoad

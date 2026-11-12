@@ -1,0 +1,3 @@
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+JNI_OnLoad
+http://lame.sf.net

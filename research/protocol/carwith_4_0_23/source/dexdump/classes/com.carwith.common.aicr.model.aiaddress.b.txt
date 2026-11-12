@@ -1,0 +1,212 @@
+Class #3875            -
+  Class descriptor  : 'Lcom/carwith/common/aicr/model/aiaddress/b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'b'
+      type          : 'Lcom/google/gson/Gson;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'c'
+      type          : 'Ljava/lang/reflect/Type;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'a'
+      type          : 'Lx1/a;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 19 16-bit code units
+44164c:                                        |[44164c] com.carwith.common.aicr.model.aiaddress.b.<clinit>:()V
+44165c: 2200 491a                              |0000: new-instance v0, Lcom/google/gson/Gson; // type@1a49
+441660: 7010 c5ac 0000                         |0002: invoke-direct {v0}, Lcom/google/gson/Gson;.<init>:()V // method@acc5
+441666: 6900 b4e3                              |0005: sput-object v0, Lcom/carwith/common/aicr/model/aiaddress/b;.b:Lcom/google/gson/Gson; // field@e3b4
+44166a: 2200 3019                              |0007: new-instance v0, Lcom/carwith/common/aicr/model/aiaddress/b$a; // type@1930
+44166e: 7010 e0a4 0000                         |0009: invoke-direct {v0}, Lcom/carwith/common/aicr/model/aiaddress/b$a;.<init>:()V // method@a4e0
+441674: 6e10 d6ac 0000                         |000c: invoke-virtual {v0}, Lcom/google/gson/reflect/TypeToken;.getType:()Ljava/lang/reflect/Type; // method@acd6
+44167a: 0c00                                   |000f: move-result-object v0
+44167c: 6900 b5e3                              |0010: sput-object v0, Lcom/carwith/common/aicr/model/aiaddress/b;.c:Ljava/lang/reflect/Type; // field@e3b5
+441680: 0e00                                   |0012: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 29 16-bit code units
+441684:                                        |[441684] com.carwith.common.aicr.model.aiaddress.b.<init>:()V
+441694: 7010 32bc 0200                         |0000: invoke-direct {v2}, Ljava/lang/Object;.<init>:()V // method@bc32
+44169a: 1a00 6a0b                              |0003: const-string v0, "AIAddressPoiViewModel" // string@0b6a
+44169e: 1a01 7028                              |0005: const-string v1, "Initializing AddressPoiViewModel..." // string@2870
+4416a2: 7120 d3aa 1000                         |0007: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@aad3
+4416a8: 7100 58a4 0000                         |000a: invoke-static {}, Lcom/carwith/common/BaseApplication;.c:()Landroid/content/Context; // method@a458
+4416ae: 0c00                                   |000d: move-result-object v0
+4416b0: 7110 f4ac 0000                         |000e: invoke-static {v0}, Lcom/xiaomi/micloudsdk/request/utils/b;.g:(Landroid/content/Context;)V // method@acf4
+4416b6: 2200 9625                              |0011: new-instance v0, Lx1/a; // type@2596
+4416ba: 7100 58a4 0000                         |0013: invoke-static {}, Lcom/carwith/common/BaseApplication;.c:()Landroid/content/Context; // method@a458
+4416c0: 0c01                                   |0016: move-result-object v1
+4416c2: 7020 48e3 1000                         |0017: invoke-direct {v0, v1}, Lx1/a;.<init>:(Landroid/content/Context;)V // method@e348
+4416c8: 5b20 b3e3                              |001a: iput-object v0, v2, Lcom/carwith/common/aicr/model/aiaddress/b;.a:Lx1/a; // field@e3b3
+4416cc: 0e00                                   |001c: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'a'
+      type          : '(Lcom/carwith/common/aicr/model/aiaddress/b;Ljava/lang/String;Ly1/a;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+441634:                                        |[441634] com.carwith.common.aicr.model.aiaddress.b.a:(Lcom/carwith/common/aicr/model/aiaddress/b;Ljava/lang/String;Ly1/a;)V
+441644: 6e30 e4a4 1002                         |0000: invoke-virtual {v0, v1, v2}, Lcom/carwith/common/aicr/model/aiaddress/b;.b:(Ljava/lang/String;Ly1/a;)V // method@a4e4
+44164a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;Ly1/a;)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 8
+      ins           : 3
+      outs          : 4
+      insns size    : 172 16-bit code units
+4416d0:                                        |[4416d0] com.carwith.common.aicr.model.aiaddress.b.b:(Ljava/lang/String;Ly1/a;)V
+4416e0: 1a00 0000                              |0000: const-string v0, "" // string@0000
+4416e4: 1a01 6a0b                              |0002: const-string v1, "AIAddressPoiViewModel" // string@0b6a
+4416e8: 2202 f41d                              |0004: new-instance v2, Ljava/util/HashMap; // type@1df4
+4416ec: 7010 30bf 0200                         |0006: invoke-direct {v2}, Ljava/util/HashMap;.<init>:()V // method@bf30
+4416f2: 1a03 a688                              |0009: const-string v3, "bizCode" // string@88a6
+4416f6: 1a04 f60d                              |000b: const-string v4, "AiAddressRecognitionNavigation" // string@0df6
+4416fa: 6e30 3bbf 3204                         |000d: invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bf3b
+441700: 1a03 bbdc                              |0010: const-string v3, "openAiModel" // string@dcbb
+441704: 1a04 5ef9                              |0012: const-string v4, "tongYiQianWenTurbo" // string@f95e
+441708: 6e30 3bbf 3204                         |0014: invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bf3b
+44170e: 1a03 03ad                              |0017: const-string v3, "inputText" // string@ad03
+441712: 6e30 3bbf 3206                         |0019: invoke-virtual {v2, v3, v6}, Ljava/util/HashMap;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@bf3b
+441718: 5455 b3e3                              |001c: iget-object v5, v5, Lcom/carwith/common/aicr/model/aiaddress/b;.a:Lx1/a; // field@e3b3
+44171c: 1a06 66ab                              |001e: const-string v6, "https://ai.engine.miui.com/api/aiModel/completionText" // string@ab66
+441720: 1203                                   |0020: const/4 v3, #int 0 // #0
+441722: 6e40 4ae3 6523                         |0021: invoke-virtual {v5, v6, v3, v2}, Lx1/a;.b:(Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;)Ljava/lang/String; // method@e34a
+441728: 0c05                                   |0024: move-result-object v5
+44172a: 3805 5d00                              |0025: if-eqz v5, 0082 // +005d
+44172e: 6e10 6fbc 0500                         |0027: invoke-virtual {v5}, Ljava/lang/String;.isEmpty:()Z // method@bc6f
+441734: 0a06                                   |002a: move-result v6
+441736: 3806 0300                              |002b: if-eqz v6, 002e // +0003
+44173a: 2855                                   |002d: goto 0082 // +0055
+44173c: 1a06 977e                              |002e: const-string v6, "```json" // string@7e97
+441740: 6e30 7bbc 6500                         |0030: invoke-virtual {v5, v6, v0}, Ljava/lang/String;.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@bc7b
+441746: 0c05                                   |0033: move-result-object v5
+441748: 1a06 967e                              |0034: const-string v6, "```" // string@7e96
+44174c: 6e30 7bbc 6500                         |0036: invoke-virtual {v5, v6, v0}, Ljava/lang/String;.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@bc7b
+441752: 0c05                                   |0039: move-result-object v5
+441754: 6e10 8abc 0500                         |003a: invoke-virtual {v5}, Ljava/lang/String;.trim:()Ljava/lang/String; // method@bc8a
+44175a: 0c05                                   |003d: move-result-object v5
+44175c: 2206 4f1d                              |003e: new-instance v6, Ljava/lang/StringBuilder; // type@1d4f
+441760: 7010 9abc 0600                         |0040: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+441766: 1a00 e961                              |0043: const-string v0, "Received cleaned response :\n " // string@61e9
+44176a: 6e20 a5bc 0600                         |0045: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+441770: 6e20 a5bc 5600                         |0048: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+441776: 6e10 b7bc 0600                         |004b: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+44177c: 0c06                                   |004e: move-result-object v6
+44177e: 7120 c8aa 6100                         |004f: invoke-static {v1, v6}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+441784: 6206 b4e3                              |0052: sget-object v6, Lcom/carwith/common/aicr/model/aiaddress/b;.b:Lcom/google/gson/Gson; // field@e3b4
+441788: 6200 b5e3                              |0054: sget-object v0, Lcom/carwith/common/aicr/model/aiaddress/b;.c:Ljava/lang/reflect/Type; // field@e3b5
+44178c: 6e30 c7ac 5600                         |0056: invoke-virtual {v6, v5, v0}, Lcom/google/gson/Gson;.fromJson:(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object; // method@acc7
+441792: 0c05                                   |0059: move-result-object v5
+441794: 1f05 9725                              |005a: check-cast v5, Lx1/b; // type@2597
+441798: 3805 1800                              |005c: if-eqz v5, 0074 // +0018
+44179c: 6e10 4ce3 0500                         |005e: invoke-virtual {v5}, Lx1/b;.a:()Ljava/lang/Object; // method@e34c
+4417a2: 0c06                                   |0061: move-result-object v6
+4417a4: 3806 1200                              |0062: if-eqz v6, 0074 // +0012
+4417a8: 6e10 4ce3 0500                         |0064: invoke-virtual {v5}, Lx1/b;.a:()Ljava/lang/Object; // method@e34c
+4417ae: 0c05                                   |0067: move-result-object v5
+4417b0: 1f05 9825                              |0068: check-cast v5, Lx1/c; // type@2598
+4417b4: 6e10 4de3 0500                         |006a: invoke-virtual {v5}, Lx1/c;.a:()Ljava/lang/String; // method@e34d
+4417ba: 0c05                                   |006d: move-result-object v5
+4417bc: 7220 91e3 5700                         |006e: invoke-interface {v7, v5}, Ly1/a;.b:(Ljava/lang/String;)V // method@e391
+4417c2: 283a                                   |0071: goto 00ab // +003a
+4417c4: 0d05                                   |0072: move-exception v5
+4417c6: 281d                                   |0073: goto 0090 // +001d
+4417c8: 1a05 690b                              |0074: const-string v5, "AI response data is empty." // string@0b69
+4417cc: 7120 cbaa 5100                         |0076: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@aacb
+4417d2: 2206 221d                              |0079: new-instance v6, Ljava/lang/Exception; // type@1d22
+4417d6: 7020 c1bb 5600                         |007b: invoke-direct {v6, v5}, Ljava/lang/Exception;.<init>:(Ljava/lang/String;)V // method@bbc1
+4417dc: 7220 90e3 6700                         |007e: invoke-interface {v7, v6}, Ly1/a;.a:(Ljava/lang/Exception;)V // method@e390
+4417e2: 282a                                   |0081: goto 00ab // +002a
+4417e4: 1a05 eb61                              |0082: const-string v5, "Received empty response from AI service." // string@61eb
+4417e8: 7120 cbaa 5100                         |0084: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@aacb
+4417ee: 2206 221d                              |0087: new-instance v6, Ljava/lang/Exception; // type@1d22
+4417f2: 7020 c1bb 5600                         |0089: invoke-direct {v6, v5}, Ljava/lang/Exception;.<init>:(Ljava/lang/String;)V // method@bbc1
+4417f8: 7220 90e3 6700                         |008c: invoke-interface {v7, v6}, Ly1/a;.a:(Ljava/lang/Exception;)V // method@e390
+4417fe: 0e00                                   |008f: return-void
+441800: 2206 4f1d                              |0090: new-instance v6, Ljava/lang/StringBuilder; // type@1d4f
+441804: 7010 9abc 0600                         |0092: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+44180a: 1a00 851f                              |0095: const-string v0, "Error during requestCompletionText: " // string@1f85
+44180e: 6e20 a5bc 0600                         |0097: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+441814: 6e10 eabc 0500                         |009a: invoke-virtual {v5}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@bcea
+44181a: 0c00                                   |009d: move-result-object v0
+44181c: 6e20 a5bc 0600                         |009e: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+441822: 6e10 b7bc 0600                         |00a1: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+441828: 0c06                                   |00a4: move-result-object v6
+44182a: 7130 ccaa 6105                         |00a5: invoke-static {v1, v6, v5}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@aacc
+441830: 7220 90e3 5700                         |00a8: invoke-interface {v7, v5}, Ly1/a;.a:(Ljava/lang/Exception;)V // method@e390
+441836: 0e00                                   |00ab: return-void
+      catches       : 1
+        0x0004 - 0x008f
+          Ljava/lang/Exception; -> 0x0072
+
+    #1              : (in Lcom/carwith/common/aicr/model/aiaddress/b;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;Ly1/a;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 3
+      outs          : 4
+      insns size    : 52 16-bit code units
+441848:                                        |[441848] com.carwith.common.aicr.model.aiaddress.b.c:(Ljava/lang/String;Ly1/a;)V
+441858: 1a00 6a0b                              |0000: const-string v0, "AIAddressPoiViewModel" // string@0b6a
+44185c: 3804 2200                              |0002: if-eqz v4, 0024 // +0022
+441860: 3905 0300                              |0004: if-nez v5, 0007 // +0003
+441864: 281e                                   |0006: goto 0024 // +001e
+441866: 2201 4f1d                              |0007: new-instance v1, Ljava/lang/StringBuilder; // type@1d4f
+44186a: 7010 9abc 0100                         |0009: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+441870: 1a02 a566                              |000c: const-string v2, "Sending request for completion text: " // string@66a5
+441874: 6e20 a5bc 2100                         |000e: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+44187a: 6e20 a5bc 4100                         |0011: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+441880: 6e10 b7bc 0100                         |0014: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+441886: 0c01                                   |0017: move-result-object v1
+441888: 7120 c8aa 1000                         |0018: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+44188e: 2200 2f19                              |001b: new-instance v0, Lcom/carwith/common/aicr/model/aiaddress/a; // type@192f
+441892: 7040 dea4 3054                         |001d: invoke-direct {v0, v3, v4, v5}, Lcom/carwith/common/aicr/model/aiaddress/a;.<init>:(Lcom/carwith/common/aicr/model/aiaddress/b;Ljava/lang/String;Ly1/a;)V // method@a4de
+441898: 7110 b5aa 0000                         |0020: invoke-static {v0}, Lcom/carwith/common/utils/v2;.d:(Ljava/lang/Runnable;)Ljava/util/concurrent/Future; // method@aab5
+44189e: 0e00                                   |0023: return-void
+4418a0: 1a03 7b28                              |0024: const-string v3, "Input text or callback is null." // string@287b
+4418a4: 7120 cbaa 3000                         |0026: invoke-static {v0, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@aacb
+4418aa: 3805 0a00                              |0029: if-eqz v5, 0033 // +000a
+4418ae: 2204 281d                              |002b: new-instance v4, Ljava/lang/IllegalArgumentException; // type@1d28
+4418b2: 7020 d4bb 3400                         |002d: invoke-direct {v4, v3}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@bbd4
+4418b8: 7220 90e3 4500                         |0030: invoke-interface {v5, v4}, Ly1/a;.a:(Ljava/lang/Exception;)V // method@e390
+4418be: 0e00                                   |0033: return-void
+      catches       : (none)
+
+  source_file_idx   : 2923 (AIAddressPoiViewModel.java)
+

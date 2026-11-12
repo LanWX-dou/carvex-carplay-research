@@ -1,0 +1,92 @@
+Class #247            -
+  Class descriptor  : 'Lkr/f;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lkr/f;)
+      name          : 'a'
+      type          : 'Llr/c;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lkr/f;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 31 16-bit code units
+122f50:                                        |[122f50] kr.f.<clinit>:()V
+122f60: 7100 ca18 0000                         |0000: invoke-static {}, Lkr/e;.m:()Llr/e; // method@18ca
+122f66: 0c00                                   |0003: move-result-object v0
+122f68: 3800 0900                              |0004: if-eqz v0, 000d // +0009
+122f6c: 7210 721b 0000                         |0006: invoke-interface {v0}, Llr/e;.c:()Llr/c; // method@1b72
+122f72: 0c00                                   |0009: move-result-object v0
+122f74: 6900 3909                              |000a: sput-object v0, Lkr/f;.a:Llr/c; // field@0939
+122f78: 2812                                   |000c: goto 001e // +0012
+122f7a: 1a00 7316                              |000d: const-string v0, "Failed to find provider." // string@1673
+122f7e: 7110 3d61 0000                         |000f: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122f84: 1a00 d011                              |0012: const-string v0, "Defaulting to no-operation MDCAdapter implementation." // string@11d0
+122f88: 7110 3d61 0000                         |0014: invoke-static {v0}, Lorg/slf4j/helpers/m;.c:(Ljava/lang/String;)V // method@613d
+122f8e: 2200 140f                              |0017: new-instance v0, Lorg/slf4j/helpers/e; // type@0f14
+122f92: 7010 f060 0000                         |0019: invoke-direct {v0}, Lorg/slf4j/helpers/e;.<init>:()V // method@60f0
+122f98: 6900 3909                              |001c: sput-object v0, Lkr/f;.a:Llr/c; // field@0939
+122f9c: 0e00                                   |001e: return-void
+      catches       : (none)
+
+    #1              : (in Lkr/f;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 26 16-bit code units
+122fa0:                                        |[122fa0] kr.f.a:(Ljava/lang/String;Ljava/lang/String;)V
+122fb0: 3801 1200                              |0000: if-eqz v1, 0012 // +0012
+122fb4: 6200 3909                              |0002: sget-object v0, Lkr/f;.a:Llr/c; // field@0939
+122fb8: 3800 0600                              |0004: if-eqz v0, 000a // +0006
+122fbc: 7230 6b1b 1002                         |0006: invoke-interface {v0, v1, v2}, Llr/c;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@1b6b
+122fc2: 0e00                                   |0009: return-void
+122fc4: 2201 c503                              |000a: new-instance v1, Ljava/lang/IllegalStateException; // type@03c5
+122fc8: 1a02 3e2f                              |000c: const-string v2, "MDCAdapter cannot be null. See also http://www.slf4j.org/codes.html#null_MDCA" // string@2f3e
+122fcc: 7020 a811 2100                         |000e: invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@11a8
+122fd2: 2701                                   |0011: throw v1
+122fd4: 2201 c403                              |0012: new-instance v1, Ljava/lang/IllegalArgumentException; // type@03c4
+122fd8: 1a02 9a62                              |0014: const-string v2, "key parameter cannot be null" // string@629a
+122fdc: 7020 a411 2100                         |0016: invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@11a4
+122fe2: 2701                                   |0019: throw v1
+      catches       : (none)
+
+    #2              : (in Lkr/f;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 26 16-bit code units
+122fe4:                                        |[122fe4] kr.f.b:(Ljava/lang/String;)V
+122ff4: 3801 1200                              |0000: if-eqz v1, 0012 // +0012
+122ff8: 6200 3909                              |0002: sget-object v0, Lkr/f;.a:Llr/c; // field@0939
+122ffc: 3800 0600                              |0004: if-eqz v0, 000a // +0006
+123000: 7220 6c1b 1000                         |0006: invoke-interface {v0, v1}, Llr/c;.remove:(Ljava/lang/String;)V // method@1b6c
+123006: 0e00                                   |0009: return-void
+123008: 2201 c503                              |000a: new-instance v1, Ljava/lang/IllegalStateException; // type@03c5
+12300c: 1a00 3e2f                              |000c: const-string v0, "MDCAdapter cannot be null. See also http://www.slf4j.org/codes.html#null_MDCA" // string@2f3e
+123010: 7020 a811 0100                         |000e: invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@11a8
+123016: 2701                                   |0011: throw v1
+123018: 2201 c403                              |0012: new-instance v1, Ljava/lang/IllegalArgumentException; // type@03c4
+12301c: 1a00 9a62                              |0014: const-string v0, "key parameter cannot be null" // string@629a
+123020: 7020 a411 0100                         |0016: invoke-direct {v1, v0}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@11a4
+123026: 2701                                   |0019: throw v1
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 12093 (MDC.java)
+

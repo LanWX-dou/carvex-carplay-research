@@ -1,0 +1,1648 @@
+Class #765            -
+  Class descriptor  : 'Lmr/r$a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lmr/r$a;)
+      name          : 'x'
+      type          : 'Ljava/util/regex/Pattern;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lmr/r$a;)
+      name          : 'y'
+      type          : 'Ljava/util/regex/Pattern;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+    #0              : (in Lmr/r$a;)
+      name          : 'a'
+      type          : 'Lmr/t;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #1              : (in Lmr/r$a;)
+      name          : 'b'
+      type          : 'Ljava/lang/reflect/Method;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #2              : (in Lmr/r$a;)
+      name          : 'c'
+      type          : '[Ljava/lang/annotation/Annotation;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #3              : (in Lmr/r$a;)
+      name          : 'd'
+      type          : '[[Ljava/lang/annotation/Annotation;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #4              : (in Lmr/r$a;)
+      name          : 'e'
+      type          : '[Ljava/lang/reflect/Type;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #5              : (in Lmr/r$a;)
+      name          : 'f'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lmr/r$a;)
+      name          : 'g'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lmr/r$a;)
+      name          : 'h'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lmr/r$a;)
+      name          : 'i'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #9              : (in Lmr/r$a;)
+      name          : 'j'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #10              : (in Lmr/r$a;)
+      name          : 'k'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #11              : (in Lmr/r$a;)
+      name          : 'l'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #12              : (in Lmr/r$a;)
+      name          : 'm'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #13              : (in Lmr/r$a;)
+      name          : 'n'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #14              : (in Lmr/r$a;)
+      name          : 'o'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #15              : (in Lmr/r$a;)
+      name          : 'p'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #16              : (in Lmr/r$a;)
+      name          : 'q'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #17              : (in Lmr/r$a;)
+      name          : 'r'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #18              : (in Lmr/r$a;)
+      name          : 's'
+      type          : 'Lso/u;'
+      access        : 0x0001 (PUBLIC)
+    #19              : (in Lmr/r$a;)
+      name          : 't'
+      type          : 'Lso/x;'
+      access        : 0x0001 (PUBLIC)
+    #20              : (in Lmr/r$a;)
+      name          : 'u'
+      type          : 'Ljava/util/Set;'
+      access        : 0x0001 (PUBLIC)
+    #21              : (in Lmr/r$a;)
+      name          : 'v'
+      type          : '[Lmr/o;'
+      access        : 0x0001 (PUBLIC)
+    #22              : (in Lmr/r$a;)
+      name          : 'w'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lmr/r$a;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 17 16-bit code units
+18128c:                                        |[18128c] mr.r$a.<clinit>:()V
+18129c: 1a00 4547                              |0000: const-string v0, "\\{([a-zA-Z][a-zA-Z0-9_-]*)\\}" // string@4745
+1812a0: 7110 d315 0000                         |0002: invoke-static {v0}, Ljava/util/regex/Pattern;.compile:(Ljava/lang/String;)Ljava/util/regex/Pattern; // method@15d3
+1812a6: 0c00                                   |0005: move-result-object v0
+1812a8: 6900 d984                              |0006: sput-object v0, Lmr/r$a;.x:Ljava/util/regex/Pattern; // field@84d9
+1812ac: 1a00 1c47                              |0008: const-string v0, "[a-zA-Z][a-zA-Z0-9_-]*" // string@471c
+1812b0: 7110 d315 0000                         |000a: invoke-static {v0}, Ljava/util/regex/Pattern;.compile:(Ljava/lang/String;)Ljava/util/regex/Pattern; // method@15d3
+1812b6: 0c00                                   |000d: move-result-object v0
+1812b8: 6900 da84                              |000e: sput-object v0, Lmr/r$a;.y:Ljava/util/regex/Pattern; // field@84da
+1812bc: 0e00                                   |0010: return-void
+      catches       : (none)
+
+    #1              : (in Lmr/r$a;)
+      name          : '<init>'
+      type          : '(Lmr/t;Ljava/lang/reflect/Method;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 26 16-bit code units
+1812c0:                                        |[1812c0] mr.r$a.<init>:(Lmr/t;Ljava/lang/reflect/Method;)V
+1812d0: 7010 ea11 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@11ea
+1812d6: 5b01 c284                              |0003: iput-object v1, v0, Lmr/r$a;.a:Lmr/t; // field@84c2
+1812da: 5b02 c384                              |0005: iput-object v2, v0, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1812de: 6e10 a812 0200                         |0007: invoke-virtual {v2}, Ljava/lang/reflect/AccessibleObject;.getAnnotations:()[Ljava/lang/annotation/Annotation; // method@12a8
+1812e4: 0c01                                   |000a: move-result-object v1
+1812e6: 5b01 c484                              |000b: iput-object v1, v0, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+1812ea: 6e10 bc12 0200                         |000d: invoke-virtual {v2}, Ljava/lang/reflect/Method;.getGenericParameterTypes:()[Ljava/lang/reflect/Type; // method@12bc
+1812f0: 0c01                                   |0010: move-result-object v1
+1812f2: 5b01 c684                              |0011: iput-object v1, v0, Lmr/r$a;.e:[Ljava/lang/reflect/Type; // field@84c6
+1812f6: 6e10 c012 0200                         |0013: invoke-virtual {v2}, Ljava/lang/reflect/Method;.getParameterAnnotations:()[[Ljava/lang/annotation/Annotation; // method@12c0
+1812fc: 0c01                                   |0016: move-result-object v1
+1812fe: 5b01 c584                              |0017: iput-object v1, v0, Lmr/r$a;.d:[[Ljava/lang/annotation/Annotation; // field@84c5
+181302: 0e00                                   |0019: return-void
+      catches       : (none)
+
+    #2              : (in Lmr/r$a;)
+      name          : 'a'
+      type          : '(Ljava/lang/Class;)Ljava/lang/Class;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 56 16-bit code units
+18000c:                                        |[18000c] mr.r$a.a:(Ljava/lang/Class;)Ljava/lang/Class;
+18001c: 6200 4308                              |0000: sget-object v0, Ljava/lang/Boolean;.TYPE:Ljava/lang/Class; // field@0843
+180020: 3310 0500                              |0002: if-ne v0, v1, 0007 // +0005
+180024: 1c01 b203                              |0004: const-class v1, Ljava/lang/Boolean; // type@03b2
+180028: 1101                                   |0006: return-object v1
+18002a: 6200 4408                              |0007: sget-object v0, Ljava/lang/Byte;.TYPE:Ljava/lang/Class; // field@0844
+18002e: 3310 0500                              |0009: if-ne v0, v1, 000e // +0005
+180032: 1c01 b303                              |000b: const-class v1, Ljava/lang/Byte; // type@03b3
+180036: 1101                                   |000d: return-object v1
+180038: 6200 4508                              |000e: sget-object v0, Ljava/lang/Character;.TYPE:Ljava/lang/Class; // field@0845
+18003c: 3310 0500                              |0010: if-ne v0, v1, 0015 // +0005
+180040: 1c01 b503                              |0012: const-class v1, Ljava/lang/Character; // type@03b5
+180044: 1101                                   |0014: return-object v1
+180046: 6200 4608                              |0015: sget-object v0, Ljava/lang/Double;.TYPE:Ljava/lang/Class; // field@0846
+18004a: 3310 0500                              |0017: if-ne v0, v1, 001c // +0005
+18004e: 1c01 be03                              |0019: const-class v1, Ljava/lang/Double; // type@03be
+180052: 1101                                   |001b: return-object v1
+180054: 6200 4708                              |001c: sget-object v0, Ljava/lang/Float;.TYPE:Ljava/lang/Class; // field@0847
+180058: 3310 0500                              |001e: if-ne v0, v1, 0023 // +0005
+18005c: 1c01 c203                              |0020: const-class v1, Ljava/lang/Float; // type@03c2
+180060: 1101                                   |0022: return-object v1
+180062: 6200 4808                              |0023: sget-object v0, Ljava/lang/Integer;.TYPE:Ljava/lang/Class; // field@0848
+180066: 3310 0500                              |0025: if-ne v0, v1, 002a // +0005
+18006a: 1c01 c903                              |0027: const-class v1, Ljava/lang/Integer; // type@03c9
+18006e: 1101                                   |0029: return-object v1
+180070: 6200 4908                              |002a: sget-object v0, Ljava/lang/Long;.TYPE:Ljava/lang/Class; // field@0849
+180074: 3310 0500                              |002c: if-ne v0, v1, 0031 // +0005
+180078: 1c01 ce03                              |002e: const-class v1, Ljava/lang/Long; // type@03ce
+18007c: 1101                                   |0030: return-object v1
+18007e: 6200 4a08                              |0031: sget-object v0, Ljava/lang/Short;.TYPE:Ljava/lang/Class; // field@084a
+180082: 3310 0400                              |0033: if-ne v0, v1, 0037 // +0004
+180086: 1c01 e203                              |0035: const-class v1, Ljava/lang/Short; // type@03e2
+18008a: 1101                                   |0037: return-object v1
+      catches       : (none)
+
+    #3              : (in Lmr/r$a;)
+      name          : 'h'
+      type          : '(Ljava/lang/String;)Ljava/util/Set;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 27 16-bit code units
+18008c:                                        |[18008c] mr.r$a.h:(Ljava/lang/String;)Ljava/util/Set;
+18009c: 6200 d984                              |0000: sget-object v0, Lmr/r$a;.x:Ljava/util/regex/Pattern; // field@84d9
+1800a0: 6e20 d415 2000                         |0002: invoke-virtual {v0, v2}, Ljava/util/regex/Pattern;.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher; // method@15d4
+1800a6: 0c02                                   |0005: move-result-object v2
+1800a8: 2200 9104                              |0006: new-instance v0, Ljava/util/LinkedHashSet; // type@0491
+1800ac: 7010 bb14 0000                         |0008: invoke-direct {v0}, Ljava/util/LinkedHashSet;.<init>:()V // method@14bb
+1800b2: 6e10 ca15 0200                         |000b: invoke-virtual {v2}, Ljava/util/regex/Matcher;.find:()Z // method@15ca
+1800b8: 0a01                                   |000e: move-result v1
+1800ba: 3801 0b00                              |000f: if-eqz v1, 001a // +000b
+1800be: 1211                                   |0011: const/4 v1, #int 1 // #1
+1800c0: 6e20 cc15 1200                         |0012: invoke-virtual {v2, v1}, Ljava/util/regex/Matcher;.group:(I)Ljava/lang/String; // method@15cc
+1800c6: 0c01                                   |0015: move-result-object v1
+1800c8: 7220 0b15 1000                         |0016: invoke-interface {v0, v1}, Ljava/util/Set;.add:(Ljava/lang/Object;)Z // method@150b
+1800ce: 28f2                                   |0019: goto 000b // -000e
+1800d0: 1100                                   |001a: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lmr/r$a;)
+      name          : 'b'
+      type          : '()Lmr/r;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 9
+      ins           : 1
+      outs          : 5
+      insns size    : 197 16-bit code units
+18100c:                                        |[18100c] mr.r$a.b:()Lmr/r;
+18101c: 5480 c484                              |0000: iget-object v0, v8, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+181020: 2101                                   |0002: array-length v1, v0
+181022: 1202                                   |0003: const/4 v2, #int 0 // #0
+181024: 0123                                   |0004: move v3, v2
+181026: 3513 0a00                              |0005: if-ge v3, v1, 000f // +000a
+18102a: 4604 0003                              |0007: aget-object v4, v0, v3
+18102e: 6e20 0a2c 4800                         |0009: invoke-virtual {v8, v4}, Lmr/r$a;.e:(Ljava/lang/annotation/Annotation;)V // method@2c0a
+181034: d803 0301                              |000c: add-int/lit8 v3, v3, #int 1 // #01
+181038: 28f7                                   |000e: goto 0005 // -0009
+18103a: 5480 cf84                              |000f: iget-object v0, v8, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+18103e: 3800 a900                              |0011: if-eqz v0, 00ba // +00a9
+181042: 5580 d084                              |0013: iget-boolean v0, v8, Lmr/r$a;.o:Z // field@84d0
+181046: 3900 2100                              |0015: if-nez v0, 0036 // +0021
+18104a: 5580 d284                              |0017: iget-boolean v0, v8, Lmr/r$a;.q:Z // field@84d2
+18104e: 3900 1200                              |0019: if-nez v0, 002b // +0012
+181052: 5580 d184                              |001b: iget-boolean v0, v8, Lmr/r$a;.p:Z // field@84d1
+181056: 3900 0300                              |001d: if-nez v0, 0020 // +0003
+18105a: 2817                                   |001f: goto 0036 // +0017
+18105c: 5488 c384                              |0020: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181060: 1a00 2817                              |0022: const-string v0, "FormUrlEncoded can only be specified on HTTP methods with request body (e.g., @POST)." // string@1728
+181064: 2321 ca10                              |0024: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+181068: 7130 5b2c 0801                         |0026: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+18106e: 0c08                                   |0029: move-result-object v8
+181070: 2708                                   |002a: throw v8
+181072: 5488 c384                              |002b: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181076: 1a00 4b32                              |002d: const-string v0, "Multipart can only be specified on HTTP methods with request body (e.g., @POST)." // string@324b
+18107a: 2321 ca10                              |002f: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+18107e: 7130 5b2c 0801                         |0031: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181084: 0c08                                   |0034: move-result-object v8
+181086: 2708                                   |0035: throw v8
+181088: 5480 c584                              |0036: iget-object v0, v8, Lmr/r$a;.d:[[Ljava/lang/annotation/Annotation; // field@84c5
+18108c: 2100                                   |0038: array-length v0, v0
+18108e: 2301 f510                              |0039: new-array v1, v0, [Lmr/o; // type@10f5
+181092: 5b81 d784                              |003b: iput-object v1, v8, Lmr/r$a;.v:[Lmr/o; // field@84d7
+181096: d801 00ff                              |003d: add-int/lit8 v1, v0, #int -1 // #ff
+18109a: 0123                                   |003f: move v3, v2
+18109c: 3503 1a00                              |0040: if-ge v3, v0, 005a // +001a
+1810a0: 5484 d784                              |0042: iget-object v4, v8, Lmr/r$a;.v:[Lmr/o; // field@84d7
+1810a4: 5485 c684                              |0044: iget-object v5, v8, Lmr/r$a;.e:[Ljava/lang/reflect/Type; // field@84c6
+1810a8: 4605 0503                              |0046: aget-object v5, v5, v3
+1810ac: 5486 c584                              |0048: iget-object v6, v8, Lmr/r$a;.d:[[Ljava/lang/annotation/Annotation; // field@84c5
+1810b0: 4606 0603                              |004a: aget-object v6, v6, v3
+1810b4: 3313 0400                              |004c: if-ne v3, v1, 0050 // +0004
+1810b8: 1217                                   |004e: const/4 v7, #int 1 // #1
+1810ba: 2802                                   |004f: goto 0051 // +0002
+1810bc: 0127                                   |0050: move v7, v2
+1810be: 6e57 0b2c 3865                         |0051: invoke-virtual {v8, v3, v5, v6, v7}, Lmr/r$a;.f:(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lmr/o; // method@2c0b
+1810c4: 0c05                                   |0054: move-result-object v5
+1810c6: 4d05 0403                              |0055: aput-object v5, v4, v3
+1810ca: d803 0301                              |0057: add-int/lit8 v3, v3, #int 1 // #01
+1810ce: 28e7                                   |0059: goto 0040 // -0019
+1810d0: 5480 d384                              |005a: iget-object v0, v8, Lmr/r$a;.r:Ljava/lang/String; // field@84d3
+1810d4: 3900 1600                              |005c: if-nez v0, 0072 // +0016
+1810d8: 5580 ce84                              |005e: iget-boolean v0, v8, Lmr/r$a;.m:Z // field@84ce
+1810dc: 3800 0300                              |0060: if-eqz v0, 0063 // +0003
+1810e0: 2810                                   |0062: goto 0072 // +0010
+1810e2: 5480 c384                              |0063: iget-object v0, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1810e6: 5488 cf84                              |0065: iget-object v8, v8, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+1810ea: 2410 ca10 0800                         |0067: filled-new-array {v8}, [Ljava/lang/Object; // type@10ca
+1810f0: 0c08                                   |006a: move-result-object v8
+1810f2: 1a01 1631                              |006b: const-string v1, "Missing either @%s URL or @Url parameter." // string@3116
+1810f6: 7130 5b2c 1008                         |006d: invoke-static {v0, v1, v8}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+1810fc: 0c08                                   |0070: move-result-object v8
+1810fe: 2708                                   |0071: throw v8
+181100: 5580 d184                              |0072: iget-boolean v0, v8, Lmr/r$a;.p:Z // field@84d1
+181104: 3900 1a00                              |0074: if-nez v0, 008e // +001a
+181108: 5581 d284                              |0076: iget-boolean v1, v8, Lmr/r$a;.q:Z // field@84d2
+18110c: 3901 1600                              |0078: if-nez v1, 008e // +0016
+181110: 5581 d084                              |007a: iget-boolean v1, v8, Lmr/r$a;.o:Z // field@84d0
+181114: 3901 1200                              |007c: if-nez v1, 008e // +0012
+181118: 5581 c984                              |007e: iget-boolean v1, v8, Lmr/r$a;.h:Z // field@84c9
+18111c: 3901 0300                              |0080: if-nez v1, 0083 // +0003
+181120: 280c                                   |0082: goto 008e // +000c
+181122: 5488 c384                              |0083: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181126: 1a00 4333                              |0085: const-string v0, "Non-body HTTP method cannot contain @Body." // string@3343
+18112a: 2321 ca10                              |0087: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+18112e: 7130 5b2c 0801                         |0089: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181134: 0c08                                   |008c: move-result-object v8
+181136: 2708                                   |008d: throw v8
+181138: 3800 1200                              |008e: if-eqz v0, 00a0 // +0012
+18113c: 5580 c784                              |0090: iget-boolean v0, v8, Lmr/r$a;.f:Z // field@84c7
+181140: 3800 0300                              |0092: if-eqz v0, 0095 // +0003
+181144: 280c                                   |0094: goto 00a0 // +000c
+181146: 5488 c384                              |0095: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18114a: 1a00 2617                              |0097: const-string v0, "Form-encoded method must contain at least one @Field." // string@1726
+18114e: 2321 ca10                              |0099: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+181152: 7130 5b2c 0801                         |009b: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181158: 0c08                                   |009e: move-result-object v8
+18115a: 2708                                   |009f: throw v8
+18115c: 5580 d284                              |00a0: iget-boolean v0, v8, Lmr/r$a;.q:Z // field@84d2
+181160: 3800 1200                              |00a2: if-eqz v0, 00b4 // +0012
+181164: 5580 c884                              |00a4: iget-boolean v0, v8, Lmr/r$a;.g:Z // field@84c8
+181168: 3800 0300                              |00a6: if-eqz v0, 00a9 // +0003
+18116c: 280c                                   |00a8: goto 00b4 // +000c
+18116e: 5488 c384                              |00a9: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181172: 1a00 4c32                              |00ab: const-string v0, "Multipart method must contain at least one @Part." // string@324c
+181176: 2321 ca10                              |00ad: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+18117a: 7130 5b2c 0801                         |00af: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181180: 0c08                                   |00b2: move-result-object v8
+181182: 2708                                   |00b3: throw v8
+181184: 2200 f308                              |00b4: new-instance v0, Lmr/r; // type@08f3
+181188: 7020 102c 8000                         |00b6: invoke-direct {v0, v8}, Lmr/r;.<init>:(Lmr/r$a;)V // method@2c10
+18118e: 1100                                   |00b9: return-object v0
+181190: 5488 c384                              |00ba: iget-object v8, v8, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181194: 1a00 2318                              |00bc: const-string v0, "HTTP method annotation is required (e.g., @GET, @POST, etc.)." // string@1823
+181198: 2321 ca10                              |00be: new-array v1, v2, [Ljava/lang/Object; // type@10ca
+18119c: 7130 5b2c 0801                         |00c0: invoke-static {v8, v0, v1}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+1811a2: 0c08                                   |00c3: move-result-object v8
+1811a4: 2708                                   |00c4: throw v8
+      catches       : (none)
+
+    #1              : (in Lmr/r$a;)
+      name          : 'c'
+      type          : '([Ljava/lang/String;)Lso/u;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 9
+      ins           : 2
+      outs          : 4
+      insns size    : 98 16-bit code units
+1811a8:                                        |[1811a8] mr.r$a.c:([Ljava/lang/String;)Lso/u;
+1811b8: 2200 b50f                              |0000: new-instance v0, Lso/u$a; // type@0fb5
+1811bc: 7010 1f64 0000                         |0002: invoke-direct {v0}, Lso/u$a;.<init>:()V // method@641f
+1811c2: 2181                                   |0005: array-length v1, v8
+1811c4: 1202                                   |0006: const/4 v2, #int 0 // #0
+1811c6: 0123                                   |0007: move v3, v2
+1811c8: 3513 5500                              |0008: if-ge v3, v1, 005d // +0055
+1811cc: 4604 0803                              |000a: aget-object v4, v8, v3
+1811d0: 1305 3a00                              |000c: const/16 v5, #int 58 // #3a
+1811d4: 6e20 2012 5400                         |000e: invoke-virtual {v4, v5}, Ljava/lang/String;.indexOf:(I)I // method@1220
+1811da: 0a05                                   |0011: move-result v5
+1811dc: 12f6                                   |0012: const/4 v6, #int -1 // #ff
+1811de: 3265 3d00                              |0013: if-eq v5, v6, 0050 // +003d
+1811e2: 3805 3b00                              |0015: if-eqz v5, 0050 // +003b
+1811e6: 6e10 2712 0400                         |0017: invoke-virtual {v4}, Ljava/lang/String;.length:()I // method@1227
+1811ec: 0a06                                   |001a: move-result v6
+1811ee: d806 06ff                              |001b: add-int/lit8 v6, v6, #int -1 // #ff
+1811f2: 3265 3300                              |001d: if-eq v5, v6, 0050 // +0033
+1811f6: 6e30 3212 2405                         |001f: invoke-virtual {v4, v2, v5}, Ljava/lang/String;.substring:(II)Ljava/lang/String; // method@1232
+1811fc: 0c06                                   |0022: move-result-object v6
+1811fe: d805 0501                              |0023: add-int/lit8 v5, v5, #int 1 // #01
+181202: 6e20 3112 5400                         |0025: invoke-virtual {v4, v5}, Ljava/lang/String;.substring:(I)Ljava/lang/String; // method@1231
+181208: 0c04                                   |0028: move-result-object v4
+18120a: 6e10 3812 0400                         |0029: invoke-virtual {v4}, Ljava/lang/String;.trim:()Ljava/lang/String; // method@1238
+181210: 0c04                                   |002c: move-result-object v4
+181212: 1a05 a810                              |002d: const-string v5, "Content-Type" // string@10a8
+181216: 6e20 1812 6500                         |002f: invoke-virtual {v5, v6}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@1218
+18121c: 0a05                                   |0032: move-result v5
+18121e: 3805 1700                              |0033: if-eqz v5, 004a // +0017
+181222: 7110 9e64 0400                         |0035: invoke-static {v4}, Lso/x;.e:(Ljava/lang/String;)Lso/x; // method@649e
+181228: 0c05                                   |0038: move-result-object v5
+18122a: 5b75 d584                              |0039: iput-object v5, v7, Lmr/r$a;.t:Lso/x; // field@84d5
+18122e: 2812                                   |003b: goto 004d // +0012
+181230: 0d08                                   |003c: move-exception v8
+181232: 5477 c384                              |003d: iget-object v7, v7, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181236: 1a00 0930                              |003f: const-string v0, "Malformed content type: %s" // string@3009
+18123a: 2410 ca10 0400                         |0041: filled-new-array {v4}, [Ljava/lang/Object; // type@10ca
+181240: 0c01                                   |0044: move-result-object v1
+181242: 7140 5c2c 8710                         |0045: invoke-static {v7, v8, v0, v1}, Lmr/x;.n:(Ljava/lang/reflect/Method;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5c
+181248: 0c07                                   |0048: move-result-object v7
+18124a: 2707                                   |0049: throw v7
+18124c: 6e30 2064 6004                         |004a: invoke-virtual {v0, v6, v4}, Lso/u$a;.a:(Ljava/lang/String;Ljava/lang/String;)Lso/u$a; // method@6420
+181252: d803 0301                              |004d: add-int/lit8 v3, v3, #int 1 // #01
+181256: 28b9                                   |004f: goto 0008 // -0047
+181258: 5477 c384                              |0050: iget-object v7, v7, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18125c: 1a08 a307                              |0052: const-string v8, "@Headers value must be in the form \"Name: Value\". Found: \"%s\"" // string@07a3
+181260: 2410 ca10 0400                         |0054: filled-new-array {v4}, [Ljava/lang/Object; // type@10ca
+181266: 0c00                                   |0057: move-result-object v0
+181268: 7130 5b2c 8700                         |0058: invoke-static {v7, v8, v0}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+18126e: 0c07                                   |005b: move-result-object v7
+181270: 2707                                   |005c: throw v7
+181272: 6e10 2564 0000                         |005d: invoke-virtual {v0}, Lso/u$a;.f:()Lso/u; // method@6425
+181278: 0c07                                   |0060: move-result-object v7
+18127a: 1107                                   |0061: return-object v7
+      catches       : 1
+        0x0035 - 0x003b
+          Ljava/lang/IllegalArgumentException; -> 0x003c
+
+    #2              : (in Lmr/r$a;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Z)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 3
+      insns size    : 86 16-bit code units
+181304:                                        |[181304] mr.r$a.d:(Ljava/lang/String;Ljava/lang/String;Z)V
+181314: 5410 cf84                              |0000: iget-object v0, v1, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+181318: 3900 4700                              |0002: if-nez v0, 0049 // +0047
+18131c: 5b12 cf84                              |0004: iput-object v2, v1, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+181320: 5c14 d084                              |0006: iput-boolean v4, v1, Lmr/r$a;.o:Z // field@84d0
+181324: 6e10 2412 0300                         |0008: invoke-virtual {v3}, Ljava/lang/String;.isEmpty:()Z // method@1224
+18132a: 0a02                                   |000b: move-result v2
+18132c: 3802 0300                              |000c: if-eqz v2, 000f // +0003
+181330: 0e00                                   |000e: return-void
+181332: 1302 3f00                              |000f: const/16 v2, #int 63 // #3f
+181336: 6e20 2012 2300                         |0011: invoke-virtual {v3, v2}, Ljava/lang/String;.indexOf:(I)I // method@1220
+18133c: 0a02                                   |0014: move-result v2
+18133e: 12f4                                   |0015: const/4 v4, #int -1 // #ff
+181340: 3242 2a00                              |0016: if-eq v2, v4, 0040 // +002a
+181344: 6e10 2712 0300                         |0018: invoke-virtual {v3}, Ljava/lang/String;.length:()I // method@1227
+18134a: 0a04                                   |001b: move-result v4
+18134c: d804 04ff                              |001c: add-int/lit8 v4, v4, #int -1 // #ff
+181350: 3542 2200                              |001e: if-ge v2, v4, 0040 // +0022
+181354: d802 0201                              |0020: add-int/lit8 v2, v2, #int 1 // #01
+181358: 6e20 3112 2300                         |0022: invoke-virtual {v3, v2}, Ljava/lang/String;.substring:(I)Ljava/lang/String; // method@1231
+18135e: 0c02                                   |0025: move-result-object v2
+181360: 6204 d984                              |0026: sget-object v4, Lmr/r$a;.x:Ljava/util/regex/Pattern; // field@84d9
+181364: 6e20 d415 2400                         |0028: invoke-virtual {v4, v2}, Ljava/util/regex/Pattern;.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher; // method@15d4
+18136a: 0c04                                   |002b: move-result-object v4
+18136c: 6e10 ca15 0400                         |002c: invoke-virtual {v4}, Ljava/util/regex/Matcher;.find:()Z // method@15ca
+181372: 0a04                                   |002f: move-result v4
+181374: 3904 0300                              |0030: if-nez v4, 0033 // +0003
+181378: 280e                                   |0032: goto 0040 // +000e
+18137a: 5411 c384                              |0033: iget-object v1, v1, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18137e: 1a03 9040                              |0035: const-string v3, "URL query string \"%s\" must not have replace block. For dynamic query parameters use @Query." // string@4090
+181382: 2410 ca10 0200                         |0037: filled-new-array {v2}, [Ljava/lang/Object; // type@10ca
+181388: 0c02                                   |003a: move-result-object v2
+18138a: 7130 5b2c 3102                         |003b: invoke-static {v1, v3, v2}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181390: 0c01                                   |003e: move-result-object v1
+181392: 2701                                   |003f: throw v1
+181394: 5b13 d384                              |0040: iput-object v3, v1, Lmr/r$a;.r:Ljava/lang/String; // field@84d3
+181398: 7110 0d2c 0300                         |0042: invoke-static {v3}, Lmr/r$a;.h:(Ljava/lang/String;)Ljava/util/Set; // method@2c0d
+18139e: 0c02                                   |0045: move-result-object v2
+1813a0: 5b12 d684                              |0046: iput-object v2, v1, Lmr/r$a;.u:Ljava/util/Set; // field@84d6
+1813a4: 0e00                                   |0048: return-void
+1813a6: 5411 c384                              |0049: iget-object v1, v1, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1813aa: 1a03 2934                              |004b: const-string v3, "Only one HTTP method is allowed. Found: %s and %s." // string@3429
+1813ae: 2420 ca10 2000                         |004d: filled-new-array {v0, v2}, [Ljava/lang/Object; // type@10ca
+1813b4: 0c02                                   |0050: move-result-object v2
+1813b6: 7130 5b2c 3102                         |0051: invoke-static {v1, v3, v2}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+1813bc: 0c01                                   |0054: move-result-object v1
+1813be: 2701                                   |0055: throw v1
+      catches       : (none)
+
+    #3              : (in Lmr/r$a;)
+      name          : 'e'
+      type          : '(Ljava/lang/annotation/Annotation;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 4
+      insns size    : 216 16-bit code units
+1813c0:                                        |[1813c0] mr.r$a.e:(Ljava/lang/annotation/Annotation;)V
+1813d0: 2050 3f0f                              |0000: instance-of v0, v5, Lpr/b; // type@0f3f
+1813d4: 1201                                   |0002: const/4 v1, #int 0 // #0
+1813d6: 3800 0f00                              |0003: if-eqz v0, 0012 // +000f
+1813da: 1f05 3f0f                              |0005: check-cast v5, Lpr/b; // type@0f3f
+1813de: 7210 da61 0500                         |0007: invoke-interface {v5}, Lpr/b;.value:()Ljava/lang/String; // method@61da
+1813e4: 0c05                                   |000a: move-result-object v5
+1813e6: 1a00 3d11                              |000b: const-string v0, "DELETE" // string@113d
+1813ea: 6e40 092c 0415                         |000d: invoke-virtual {v4, v0, v5, v1}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+1813f0: 2900 c700                              |0010: goto/16 00d7 // +00c7
+1813f4: 2050 430f                              |0012: instance-of v0, v5, Lpr/f; // type@0f43
+1813f8: 3800 0f00                              |0014: if-eqz v0, 0023 // +000f
+1813fc: 1f05 430f                              |0016: check-cast v5, Lpr/f; // type@0f43
+181400: 7210 de61 0500                         |0018: invoke-interface {v5}, Lpr/f;.value:()Ljava/lang/String; // method@61de
+181406: 0c05                                   |001b: move-result-object v5
+181408: 1a00 6e17                              |001c: const-string v0, "GET" // string@176e
+18140c: 6e40 092c 0415                         |001e: invoke-virtual {v4, v0, v5, v1}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+181412: 2900 b600                              |0021: goto/16 00d7 // +00b6
+181416: 2050 440f                              |0023: instance-of v0, v5, Lpr/g; // type@0f44
+18141a: 3800 0f00                              |0025: if-eqz v0, 0034 // +000f
+18141e: 1f05 440f                              |0027: check-cast v5, Lpr/g; // type@0f44
+181422: 7210 df61 0500                         |0029: invoke-interface {v5}, Lpr/g;.value:()Ljava/lang/String; // method@61df
+181428: 0c05                                   |002c: move-result-object v5
+18142a: 1a00 ef17                              |002d: const-string v0, "HEAD" // string@17ef
+18142e: 6e40 092c 0415                         |002f: invoke-virtual {v4, v0, v5, v1}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+181434: 2900 a500                              |0032: goto/16 00d7 // +00a5
+181438: 2050 4b0f                              |0034: instance-of v0, v5, Lpr/n; // type@0f4b
+18143c: 1212                                   |0036: const/4 v2, #int 1 // #1
+18143e: 3800 0f00                              |0037: if-eqz v0, 0046 // +000f
+181442: 1f05 4b0f                              |0039: check-cast v5, Lpr/n; // type@0f4b
+181446: 7210 e661 0500                         |003b: invoke-interface {v5}, Lpr/n;.value:()Ljava/lang/String; // method@61e6
+18144c: 0c05                                   |003e: move-result-object v5
+18144e: 1a00 d634                              |003f: const-string v0, "PATCH" // string@34d6
+181452: 6e40 092c 0425                         |0041: invoke-virtual {v4, v0, v5, v2}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+181458: 2900 9300                              |0044: goto/16 00d7 // +0093
+18145c: 2050 4c0f                              |0046: instance-of v0, v5, Lpr/o; // type@0f4c
+181460: 3800 0f00                              |0048: if-eqz v0, 0057 // +000f
+181464: 1f05 4c0f                              |004a: check-cast v5, Lpr/o; // type@0f4c
+181468: 7210 e761 0500                         |004c: invoke-interface {v5}, Lpr/o;.value:()Ljava/lang/String; // method@61e7
+18146e: 0c05                                   |004f: move-result-object v5
+181470: 1a00 2835                              |0050: const-string v0, "POST" // string@3528
+181474: 6e40 092c 0425                         |0052: invoke-virtual {v4, v0, v5, v2}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+18147a: 2900 8200                              |0055: goto/16 00d7 // +0082
+18147e: 2050 4d0f                              |0057: instance-of v0, v5, Lpr/p; // type@0f4d
+181482: 3800 0f00                              |0059: if-eqz v0, 0068 // +000f
+181486: 1f05 4d0f                              |005b: check-cast v5, Lpr/p; // type@0f4d
+18148a: 7210 e861 0500                         |005d: invoke-interface {v5}, Lpr/p;.value:()Ljava/lang/String; // method@61e8
+181490: 0c05                                   |0060: move-result-object v5
+181492: 1a00 5835                              |0061: const-string v0, "PUT" // string@3558
+181496: 6e40 092c 0425                         |0063: invoke-virtual {v4, v0, v5, v2}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+18149c: 2900 7100                              |0066: goto/16 00d7 // +0071
+1814a0: 2050 4a0f                              |0068: instance-of v0, v5, Lpr/m; // type@0f4a
+1814a4: 3800 0e00                              |006a: if-eqz v0, 0078 // +000e
+1814a8: 1f05 4a0f                              |006c: check-cast v5, Lpr/m; // type@0f4a
+1814ac: 7210 e561 0500                         |006e: invoke-interface {v5}, Lpr/m;.value:()Ljava/lang/String; // method@61e5
+1814b2: 0c05                                   |0071: move-result-object v5
+1814b4: 1a00 b033                              |0072: const-string v0, "OPTIONS" // string@33b0
+1814b8: 6e40 092c 0415                         |0074: invoke-virtual {v4, v0, v5, v1}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+1814be: 2860                                   |0077: goto 00d7 // +0060
+1814c0: 2050 450f                              |0078: instance-of v0, v5, Lpr/h; // type@0f45
+1814c4: 3800 1400                              |007a: if-eqz v0, 008e // +0014
+1814c8: 1f05 450f                              |007c: check-cast v5, Lpr/h; // type@0f45
+1814cc: 7210 e161 0500                         |007e: invoke-interface {v5}, Lpr/h;.method:()Ljava/lang/String; // method@61e1
+1814d2: 0c00                                   |0081: move-result-object v0
+1814d4: 7210 e261 0500                         |0082: invoke-interface {v5}, Lpr/h;.path:()Ljava/lang/String; // method@61e2
+1814da: 0c01                                   |0085: move-result-object v1
+1814dc: 7210 e061 0500                         |0086: invoke-interface {v5}, Lpr/h;.hasBody:()Z // method@61e0
+1814e2: 0a05                                   |0089: move-result v5
+1814e4: 6e40 092c 0451                         |008a: invoke-virtual {v4, v0, v1, v5}, Lmr/r$a;.d:(Ljava/lang/String;Ljava/lang/String;Z)V // method@2c09
+1814ea: 284a                                   |008d: goto 00d7 // +004a
+1814ec: 2050 480f                              |008e: instance-of v0, v5, Lpr/k; // type@0f48
+1814f0: 3800 1d00                              |0090: if-eqz v0, 00ad // +001d
+1814f4: 1f05 480f                              |0092: check-cast v5, Lpr/k; // type@0f48
+1814f8: 7210 e461 0500                         |0094: invoke-interface {v5}, Lpr/k;.value:()[Ljava/lang/String; // method@61e4
+1814fe: 0c05                                   |0097: move-result-object v5
+181500: 2150                                   |0098: array-length v0, v5
+181502: 3800 0900                              |0099: if-eqz v0, 00a2 // +0009
+181506: 6e20 082c 5400                         |009b: invoke-virtual {v4, v5}, Lmr/r$a;.c:([Ljava/lang/String;)Lso/u; // method@2c08
+18150c: 0c05                                   |009e: move-result-object v5
+18150e: 5b45 d484                              |009f: iput-object v5, v4, Lmr/r$a;.s:Lso/u; // field@84d4
+181512: 2836                                   |00a1: goto 00d7 // +0036
+181514: 5444 c384                              |00a2: iget-object v4, v4, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181518: 1a05 a207                              |00a4: const-string v5, "@Headers annotation is empty." // string@07a2
+18151c: 2310 ca10                              |00a6: new-array v0, v1, [Ljava/lang/Object; // type@10ca
+181520: 7130 5b2c 5400                         |00a8: invoke-static {v4, v5, v0}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181526: 0c04                                   |00ab: move-result-object v4
+181528: 2704                                   |00ac: throw v4
+18152a: 2050 490f                              |00ad: instance-of v0, v5, Lpr/l; // type@0f49
+18152e: 1a03 2c34                              |00af: const-string v3, "Only one encoding annotation is allowed." // string@342c
+181532: 3800 1200                              |00b1: if-eqz v0, 00c3 // +0012
+181536: 5545 d184                              |00b3: iget-boolean v5, v4, Lmr/r$a;.p:Z // field@84d1
+18153a: 3905 0500                              |00b5: if-nez v5, 00ba // +0005
+18153e: 5c42 d284                              |00b7: iput-boolean v2, v4, Lmr/r$a;.q:Z // field@84d2
+181542: 281e                                   |00b9: goto 00d7 // +001e
+181544: 5444 c384                              |00ba: iget-object v4, v4, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181548: 2315 ca10                              |00bc: new-array v5, v1, [Ljava/lang/Object; // type@10ca
+18154c: 7130 5b2c 3405                         |00be: invoke-static {v4, v3, v5}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+181552: 0c04                                   |00c1: move-result-object v4
+181554: 2704                                   |00c2: throw v4
+181556: 2055 420f                              |00c3: instance-of v5, v5, Lpr/e; // type@0f42
+18155a: 3805 1200                              |00c5: if-eqz v5, 00d7 // +0012
+18155e: 5545 d284                              |00c7: iget-boolean v5, v4, Lmr/r$a;.q:Z // field@84d2
+181562: 3905 0500                              |00c9: if-nez v5, 00ce // +0005
+181566: 5c42 d184                              |00cb: iput-boolean v2, v4, Lmr/r$a;.p:Z // field@84d1
+18156a: 280a                                   |00cd: goto 00d7 // +000a
+18156c: 5444 c384                              |00ce: iget-object v4, v4, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181570: 2315 ca10                              |00d0: new-array v5, v1, [Ljava/lang/Object; // type@10ca
+181574: 7130 5b2c 3405                         |00d2: invoke-static {v4, v3, v5}, Lmr/x;.m:(Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5b
+18157a: 0c04                                   |00d5: move-result-object v4
+18157c: 2704                                   |00d6: throw v4
+18157e: 0e00                                   |00d7: return-void
+      catches       : (none)
+
+    #4              : (in Lmr/r$a;)
+      name          : 'f'
+      type          : '(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lmr/o;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 5
+      outs          : 5
+      insns size    : 64 16-bit code units
+1800d4:                                        |[1800d4] mr.r$a.f:(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lmr/o;
+1800e4: 1200                                   |0000: const/4 v0, #int 0 // #0
+1800e6: 1201                                   |0001: const/4 v1, #int 0 // #0
+1800e8: 3809 2100                              |0002: if-eqz v9, 0023 // +0021
+1800ec: 2192                                   |0004: array-length v2, v9
+1800ee: 0103                                   |0005: move v3, v0
+1800f0: 0714                                   |0006: move-object v4, v1
+1800f2: 3523 1d00                              |0007: if-ge v3, v2, 0024 // +001d
+1800f6: 4605 0903                              |0009: aget-object v5, v9, v3
+1800fa: 6e55 0c2c 7698                         |000b: invoke-virtual {v6, v7, v8, v9, v5}, Lmr/r$a;.g:(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lmr/o; // method@2c0c
+180100: 0c05                                   |000e: move-result-object v5
+180102: 3905 0300                              |000f: if-nez v5, 0012 // +0003
+180106: 2804                                   |0011: goto 0015 // +0004
+180108: 3904 0600                              |0012: if-nez v4, 0018 // +0006
+18010c: 0754                                   |0014: move-object v4, v5
+18010e: d803 0301                              |0015: add-int/lit8 v3, v3, #int 1 // #01
+180112: 28f0                                   |0017: goto 0007 // -0010
+180114: 5466 c384                              |0018: iget-object v6, v6, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180118: 1a08 5132                              |001a: const-string v8, "Multiple Retrofit annotations found, only one allowed." // string@3251
+18011c: 2309 ca10                              |001c: new-array v9, v0, [Ljava/lang/Object; // type@10ca
+180120: 7140 5d2c 7698                         |001e: invoke-static {v6, v7, v8, v9}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180126: 0c06                                   |0021: move-result-object v6
+180128: 2706                                   |0022: throw v6
+18012a: 0714                                   |0023: move-object v4, v1
+18012c: 3904 1b00                              |0024: if-nez v4, 003f // +001b
+180130: 380a 0e00                              |0026: if-eqz v10, 0034 // +000e
+180134: 7110 562c 0800                         |0028: invoke-static {v8}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+18013a: 0c08                                   |002b: move-result-object v8
+18013c: 1c09 9e08                              |002c: const-class v9, Lmk/a; // type@089e
+180140: 3398 0600                              |002e: if-ne v8, v9, 0034 // +0006
+180144: 1218                                   |0030: const/4 v8, #int 1 // #1
+180146: 5c68 d884                              |0031: iput-boolean v8, v6, Lmr/r$a;.w:Z // field@84d8
+18014a: 1101                                   |0033: return-object v1
+18014c: 5466 c384                              |0034: iget-object v6, v6, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180150: 1a08 3833                              |0036: const-string v8, "No Retrofit annotation found." // string@3338
+180154: 2309 ca10                              |0038: new-array v9, v0, [Ljava/lang/Object; // type@10ca
+180158: 7140 5d2c 7698                         |003a: invoke-static {v6, v7, v8, v9}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18015e: 0c06                                   |003d: move-result-object v6
+180160: 2706                                   |003e: throw v6
+180162: 1104                                   |003f: return-object v4
+      catches       : 1
+        0x0028 - 0x0033
+          Ljava/lang/NoClassDefFoundError; -> 0x0034
+
+    #5              : (in Lmr/r$a;)
+      name          : 'g'
+      type          : '(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lmr/o;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 15
+      ins           : 5
+      outs          : 6
+      insns size    : 1851 16-bit code units
+180174:                                        |[180174] mr.r$a.g:(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lmr/o;
+180184: 20e0 560f                              |0000: instance-of v0, v14, Lpr/y; // type@0f56
+180188: 1a01 ad07                              |0002: const-string v1, "@Path parameters may not be used with @Url." // string@07ad
+18018c: 1c02 e403                              |0004: const-class v2, Ljava/lang/String; // type@03e4
+180190: 1213                                   |0006: const/4 v3, #int 1 // #1
+180192: 1204                                   |0007: const/4 v4, #int 0 // #0
+180194: 3800 9300                              |0008: if-eqz v0, 009b // +0093
+180198: 6e30 0f2c ba0c                         |000a: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+18019e: 55ad ce84                              |000d: iget-boolean v13, v10, Lmr/r$a;.m:Z // field@84ce
+1801a2: 390d 8100                              |000f: if-nez v13, 0090 // +0081
+1801a6: 55ad ca84                              |0011: iget-boolean v13, v10, Lmr/r$a;.i:Z // field@84ca
+1801aa: 390d 7400                              |0013: if-nez v13, 0087 // +0074
+1801ae: 55ad cb84                              |0015: iget-boolean v13, v10, Lmr/r$a;.j:Z // field@84cb
+1801b2: 390d 6500                              |0017: if-nez v13, 007c // +0065
+1801b6: 55ad cc84                              |0019: iget-boolean v13, v10, Lmr/r$a;.k:Z // field@84cc
+1801ba: 390d 5600                              |001b: if-nez v13, 0071 // +0056
+1801be: 55ad cd84                              |001d: iget-boolean v13, v10, Lmr/r$a;.l:Z // field@84cd
+1801c2: 390d 4700                              |001f: if-nez v13, 0066 // +0047
+1801c6: 54ad d384                              |0021: iget-object v13, v10, Lmr/r$a;.r:Ljava/lang/String; // field@84d3
+1801ca: 390d 3400                              |0023: if-nez v13, 0057 // +0034
+1801ce: 5ca3 ce84                              |0025: iput-boolean v3, v10, Lmr/r$a;.m:Z // field@84ce
+1801d2: 1c0d bb0f                              |0027: const-class v13, Lso/v; // type@0fbb
+1801d6: 32dc 2600                              |0029: if-eq v12, v13, 004f // +0026
+1801da: 322c 2400                              |002b: if-eq v12, v2, 004f // +0024
+1801de: 1c0d 2804                              |002d: const-class v13, Ljava/net/URI; // type@0428
+1801e2: 32dc 2000                              |002f: if-eq v12, v13, 004f // +0020
+1801e6: 20cd b603                              |0031: instance-of v13, v12, Ljava/lang/Class; // type@03b6
+1801ea: 380d 1100                              |0033: if-eqz v13, 0044 // +0011
+1801ee: 1f0c b603                              |0035: check-cast v12, Ljava/lang/Class; // type@03b6
+1801f2: 6e10 6f11 0c00                         |0037: invoke-virtual {v12}, Ljava/lang/Class;.getName:()Ljava/lang/String; // method@116f
+1801f8: 0c0c                                   |003a: move-result-object v12
+1801fa: 1a0d 554a                              |003b: const-string v13, "android.net.Uri" // string@4a55
+1801fe: 6e20 1712 cd00                         |003d: invoke-virtual {v13, v12}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@1217
+180204: 0a0c                                   |0040: move-result v12
+180206: 380c 0300                              |0041: if-eqz v12, 0044 // +0003
+18020a: 280c                                   |0043: goto 004f // +000c
+18020c: 54aa c384                              |0044: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180210: 1a0c b307                              |0046: const-string v12, "@Url must be okhttp3.HttpUrl, String, java.net.URI, or android.net.Uri type." // string@07b3
+180214: 234d ca10                              |0048: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180218: 7140 5d2c badc                         |004a: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18021e: 0c0a                                   |004d: move-result-object v10
+180220: 270a                                   |004e: throw v10
+180222: 220c ea08                              |004f: new-instance v12, Lmr/o$p; // type@08ea
+180226: 54aa c384                              |0051: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18022a: 7030 da2b ac0b                         |0053: invoke-direct {v12, v10, v11}, Lmr/o$p;.<init>:(Ljava/lang/reflect/Method;I)V // method@2bda
+180230: 110c                                   |0056: return-object v12
+180232: 54ac c384                              |0057: iget-object v12, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180236: 54aa cf84                              |0059: iget-object v10, v10, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+18023a: 2410 ca10 0a00                         |005b: filled-new-array {v10}, [Ljava/lang/Object; // type@10ca
+180240: 0c0a                                   |005e: move-result-object v10
+180242: 1a0d b207                              |005f: const-string v13, "@Url cannot be used with @%s URL" // string@07b2
+180246: 7140 5d2c bcad                         |0061: invoke-static {v12, v11, v13, v10}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18024c: 0c0a                                   |0064: move-result-object v10
+18024e: 270a                                   |0065: throw v10
+180250: 54aa c384                              |0066: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180254: 1a0c ba07                              |0068: const-string v12, "A @Url parameter must not come after a @QueryMap." // string@07ba
+180258: 234d ca10                              |006a: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18025c: 7140 5d2c badc                         |006c: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180262: 0c0a                                   |006f: move-result-object v10
+180264: 270a                                   |0070: throw v10
+180266: 54aa c384                              |0071: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18026a: 1a0c bb07                              |0073: const-string v12, "A @Url parameter must not come after a @QueryName." // string@07bb
+18026e: 234d ca10                              |0075: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180272: 7140 5d2c badc                         |0077: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180278: 0c0a                                   |007a: move-result-object v10
+18027a: 270a                                   |007b: throw v10
+18027c: 54aa c384                              |007c: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180280: 1a0c b907                              |007e: const-string v12, "A @Url parameter must not come after a @Query." // string@07b9
+180284: 234d ca10                              |0080: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180288: 7140 5d2c badc                         |0082: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18028e: 0c0a                                   |0085: move-result-object v10
+180290: 270a                                   |0086: throw v10
+180292: 54aa c384                              |0087: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180296: 234c ca10                              |0089: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+18029a: 7140 5d2c bac1                         |008b: invoke-static {v10, v11, v1, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+1802a0: 0c0a                                   |008e: move-result-object v10
+1802a2: 270a                                   |008f: throw v10
+1802a4: 54aa c384                              |0090: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1802a8: 1a0c 5032                              |0092: const-string v12, "Multiple @Url method annotations found." // string@3250
+1802ac: 234d ca10                              |0094: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+1802b0: 7140 5d2c badc                         |0096: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+1802b6: 0c0a                                   |0099: move-result-object v10
+1802b8: 270a                                   |009a: throw v10
+1802ba: 20e0 500f                              |009b: instance-of v0, v14, Lpr/s; // type@0f50
+1802be: 3800 7100                              |009d: if-eqz v0, 010e // +0071
+1802c2: 6e30 0f2c ba0c                         |009f: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1802c8: 55a0 cb84                              |00a2: iget-boolean v0, v10, Lmr/r$a;.j:Z // field@84cb
+1802cc: 3900 5f00                              |00a4: if-nez v0, 0103 // +005f
+1802d0: 55a0 cc84                              |00a6: iget-boolean v0, v10, Lmr/r$a;.k:Z // field@84cc
+1802d4: 3900 5000                              |00a8: if-nez v0, 00f8 // +0050
+1802d8: 55a0 cd84                              |00aa: iget-boolean v0, v10, Lmr/r$a;.l:Z // field@84cd
+1802dc: 3900 4100                              |00ac: if-nez v0, 00ed // +0041
+1802e0: 55a0 ce84                              |00ae: iget-boolean v0, v10, Lmr/r$a;.m:Z // field@84ce
+1802e4: 3900 3400                              |00b0: if-nez v0, 00e4 // +0034
+1802e8: 54a0 d384                              |00b2: iget-object v0, v10, Lmr/r$a;.r:Ljava/lang/String; // field@84d3
+1802ec: 3800 2100                              |00b4: if-eqz v0, 00d5 // +0021
+1802f0: 5ca3 ca84                              |00b6: iput-boolean v3, v10, Lmr/r$a;.i:Z // field@84ca
+1802f4: 1f0e 500f                              |00b8: check-cast v14, Lpr/s; // type@0f50
+1802f8: 7210 ed61 0e00                         |00ba: invoke-interface {v14}, Lpr/s;.value:()Ljava/lang/String; // method@61ed
+1802fe: 0c03                                   |00bd: move-result-object v3
+180300: 6e30 0e2c ba03                         |00be: invoke-virtual {v10, v11, v3}, Lmr/r$a;.i:(ILjava/lang/String;)V // method@2c0e
+180306: 54a0 c284                              |00c1: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+18030a: 6e30 302c c00d                         |00c3: invoke-virtual {v0, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+180310: 0c04                                   |00c6: move-result-object v4
+180312: 220c e508                              |00c7: new-instance v12, Lmr/o$k; // type@08e5
+180316: 54a1 c384                              |00c9: iget-object v1, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18031a: 7210 ec61 0e00                         |00cb: invoke-interface {v14}, Lpr/s;.encoded:()Z // method@61ec
+180320: 0a05                                   |00ce: move-result v5
+180322: 07c0                                   |00cf: move-object v0, v12
+180324: 01b2                                   |00d0: move v2, v11
+180326: 7606 cd2b 0000                         |00d1: invoke-direct/range {v0, v1, v2, v3, v4, v5}, Lmr/o$k;.<init>:(Ljava/lang/reflect/Method;ILjava/lang/String;Lmr/f;Z)V // method@2bcd
+18032c: 110c                                   |00d4: return-object v12
+18032e: 54ac c384                              |00d5: iget-object v12, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180332: 54aa cf84                              |00d7: iget-object v10, v10, Lmr/r$a;.n:Ljava/lang/String; // field@84cf
+180336: 2410 ca10 0a00                         |00d9: filled-new-array {v10}, [Ljava/lang/Object; // type@10ca
+18033c: 0c0a                                   |00dc: move-result-object v10
+18033e: 1a0d ab07                              |00dd: const-string v13, "@Path can only be used with relative url on @%s" // string@07ab
+180342: 7140 5d2c bcad                         |00df: invoke-static {v12, v11, v13, v10}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180348: 0c0a                                   |00e2: move-result-object v10
+18034a: 270a                                   |00e3: throw v10
+18034c: 54aa c384                              |00e4: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180350: 234c ca10                              |00e6: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180354: 7140 5d2c bac1                         |00e8: invoke-static {v10, v11, v1, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18035a: 0c0a                                   |00eb: move-result-object v10
+18035c: 270a                                   |00ec: throw v10
+18035e: 54aa c384                              |00ed: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180362: 1a0c b707                              |00ef: const-string v12, "A @Path parameter must not come after a @QueryMap." // string@07b7
+180366: 234d ca10                              |00f1: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18036a: 7140 5d2c badc                         |00f3: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180370: 0c0a                                   |00f6: move-result-object v10
+180372: 270a                                   |00f7: throw v10
+180374: 54aa c384                              |00f8: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180378: 1a0c b807                              |00fa: const-string v12, "A @Path parameter must not come after a @QueryName." // string@07b8
+18037c: 234d ca10                              |00fc: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180380: 7140 5d2c badc                         |00fe: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180386: 0c0a                                   |0101: move-result-object v10
+180388: 270a                                   |0102: throw v10
+18038a: 54aa c384                              |0103: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18038e: 1a0c b607                              |0105: const-string v12, "A @Path parameter must not come after a @Query." // string@07b6
+180392: 234d ca10                              |0107: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180396: 7140 5d2c badc                         |0109: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18039c: 0c0a                                   |010c: move-result-object v10
+18039e: 270a                                   |010d: throw v10
+1803a0: 20e0 510f                              |010e: instance-of v0, v14, Lpr/t; // type@0f51
+1803a4: 1a01 4807                              |0110: const-string v1, "<String>)" // string@0748
+1803a8: 1a05 3801                              |0112: const-string v5, " must include generic type (e.g., " // string@0138
+1803ac: 1c06 cc03                              |0114: const-class v6, Ljava/lang/Iterable; // type@03cc
+1803b0: 3800 8500                              |0116: if-eqz v0, 019b // +0085
+1803b4: 6e30 0f2c ba0c                         |0118: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1803ba: 1f0e 510f                              |011b: check-cast v14, Lpr/t; // type@0f51
+1803be: 7210 ef61 0e00                         |011d: invoke-interface {v14}, Lpr/t;.value:()Ljava/lang/String; // method@61ef
+1803c4: 0c00                                   |0120: move-result-object v0
+1803c6: 7210 ee61 0e00                         |0121: invoke-interface {v14}, Lpr/t;.encoded:()Z // method@61ee
+1803cc: 0a0e                                   |0124: move-result v14
+1803ce: 7110 562c 0c00                         |0125: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1803d4: 0c02                                   |0128: move-result-object v2
+1803d6: 5ca3 cb84                              |0129: iput-boolean v3, v10, Lmr/r$a;.j:Z // field@84cb
+1803da: 6e20 7611 2600                         |012b: invoke-virtual {v6, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1803e0: 0a03                                   |012e: move-result v3
+1803e2: 3803 4200                              |012f: if-eqz v3, 0171 // +0042
+1803e6: 20c3 0704                              |0131: instance-of v3, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1803ea: 3803 1800                              |0133: if-eqz v3, 014b // +0018
+1803ee: 1f0c 0704                              |0135: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1803f2: 7120 552c c400                         |0137: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1803f8: 0c0b                                   |013a: move-result-object v11
+1803fa: 54aa c284                              |013b: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1803fe: 6e30 302c ba0d                         |013d: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+180404: 0c0a                                   |0140: move-result-object v10
+180406: 220b e608                              |0141: new-instance v11, Lmr/o$l; // type@08e6
+18040a: 7040 cf2b 0bea                         |0143: invoke-direct {v11, v0, v10, v14}, Lmr/o$l;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bcf
+180410: 6e10 e12b 0b00                         |0146: invoke-virtual {v11}, Lmr/o;.c:()Lmr/o; // method@2be1
+180416: 0c0a                                   |0149: move-result-object v10
+180418: 110a                                   |014a: return-object v10
+18041a: 54aa c384                              |014b: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18041e: 220c e603                              |014d: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180422: 7010 5212 0c00                         |014f: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180428: 6e10 7211 0200                         |0152: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+18042e: 0c0d                                   |0155: move-result-object v13
+180430: 6e20 5c12 dc00                         |0156: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180436: 6e20 5c12 5c00                         |0159: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18043c: 6e10 7211 0200                         |015c: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180442: 0c0d                                   |015f: move-result-object v13
+180444: 6e20 5c12 dc00                         |0160: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18044a: 6e20 5c12 1c00                         |0163: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180450: 6e10 6912 0c00                         |0166: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180456: 0c0c                                   |0169: move-result-object v12
+180458: 234d ca10                              |016a: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18045c: 7140 5d2c badc                         |016c: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180462: 0c0a                                   |016f: move-result-object v10
+180464: 270a                                   |0170: throw v10
+180466: 6e10 7511 0200                         |0171: invoke-virtual {v2}, Ljava/lang/Class;.isArray:()Z // method@1175
+18046c: 0a0b                                   |0174: move-result v11
+18046e: 380b 1a00                              |0175: if-eqz v11, 018f // +001a
+180472: 6e10 5f11 0200                         |0177: invoke-virtual {v2}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+180478: 0c0b                                   |017a: move-result-object v11
+18047a: 7110 062c 0b00                         |017b: invoke-static {v11}, Lmr/r$a;.a:(Ljava/lang/Class;)Ljava/lang/Class; // method@2c06
+180480: 0c0b                                   |017e: move-result-object v11
+180482: 54aa c284                              |017f: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180486: 6e30 302c ba0d                         |0181: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18048c: 0c0a                                   |0184: move-result-object v10
+18048e: 220b e608                              |0185: new-instance v11, Lmr/o$l; // type@08e6
+180492: 7040 cf2b 0bea                         |0187: invoke-direct {v11, v0, v10, v14}, Lmr/o$l;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bcf
+180498: 6e10 e02b 0b00                         |018a: invoke-virtual {v11}, Lmr/o;.b:()Lmr/o; // method@2be0
+18049e: 0c0a                                   |018d: move-result-object v10
+1804a0: 110a                                   |018e: return-object v10
+1804a2: 54aa c284                              |018f: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1804a6: 6e30 302c ca0d                         |0191: invoke-virtual {v10, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+1804ac: 0c0a                                   |0194: move-result-object v10
+1804ae: 220b e608                              |0195: new-instance v11, Lmr/o$l; // type@08e6
+1804b2: 7040 cf2b 0bea                         |0197: invoke-direct {v11, v0, v10, v14}, Lmr/o$l;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bcf
+1804b8: 110b                                   |019a: return-object v11
+1804ba: 20e0 530f                              |019b: instance-of v0, v14, Lpr/v; // type@0f53
+1804be: 3800 8100                              |019d: if-eqz v0, 021e // +0081
+1804c2: 6e30 0f2c ba0c                         |019f: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1804c8: 1f0e 530f                              |01a2: check-cast v14, Lpr/v; // type@0f53
+1804cc: 7210 f161 0e00                         |01a4: invoke-interface {v14}, Lpr/v;.encoded:()Z // method@61f1
+1804d2: 0a0e                                   |01a7: move-result v14
+1804d4: 7110 562c 0c00                         |01a8: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1804da: 0c00                                   |01ab: move-result-object v0
+1804dc: 5ca3 cc84                              |01ac: iput-boolean v3, v10, Lmr/r$a;.k:Z // field@84cc
+1804e0: 6e20 7611 0600                         |01ae: invoke-virtual {v6, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1804e6: 0a02                                   |01b1: move-result v2
+1804e8: 3802 4200                              |01b2: if-eqz v2, 01f4 // +0042
+1804ec: 20c2 0704                              |01b4: instance-of v2, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1804f0: 3802 1800                              |01b6: if-eqz v2, 01ce // +0018
+1804f4: 1f0c 0704                              |01b8: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1804f8: 7120 552c c400                         |01ba: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1804fe: 0c0b                                   |01bd: move-result-object v11
+180500: 54aa c284                              |01be: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180504: 6e30 302c ba0d                         |01c0: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18050a: 0c0a                                   |01c3: move-result-object v10
+18050c: 220b e808                              |01c4: new-instance v11, Lmr/o$n; // type@08e8
+180510: 7030 d42b ab0e                         |01c6: invoke-direct {v11, v10, v14}, Lmr/o$n;.<init>:(Lmr/f;Z)V // method@2bd4
+180516: 6e10 e12b 0b00                         |01c9: invoke-virtual {v11}, Lmr/o;.c:()Lmr/o; // method@2be1
+18051c: 0c0a                                   |01cc: move-result-object v10
+18051e: 110a                                   |01cd: return-object v10
+180520: 54aa c384                              |01ce: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180524: 220c e603                              |01d0: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180528: 7010 5212 0c00                         |01d2: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+18052e: 6e10 7211 0000                         |01d5: invoke-virtual {v0}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180534: 0c0d                                   |01d8: move-result-object v13
+180536: 6e20 5c12 dc00                         |01d9: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18053c: 6e20 5c12 5c00                         |01dc: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180542: 6e10 7211 0000                         |01df: invoke-virtual {v0}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180548: 0c0d                                   |01e2: move-result-object v13
+18054a: 6e20 5c12 dc00                         |01e3: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180550: 6e20 5c12 1c00                         |01e6: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180556: 6e10 6912 0c00                         |01e9: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+18055c: 0c0c                                   |01ec: move-result-object v12
+18055e: 234d ca10                              |01ed: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180562: 7140 5d2c badc                         |01ef: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180568: 0c0a                                   |01f2: move-result-object v10
+18056a: 270a                                   |01f3: throw v10
+18056c: 6e10 7511 0000                         |01f4: invoke-virtual {v0}, Ljava/lang/Class;.isArray:()Z // method@1175
+180572: 0a0b                                   |01f7: move-result v11
+180574: 380b 1a00                              |01f8: if-eqz v11, 0212 // +001a
+180578: 6e10 5f11 0000                         |01fa: invoke-virtual {v0}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+18057e: 0c0b                                   |01fd: move-result-object v11
+180580: 7110 062c 0b00                         |01fe: invoke-static {v11}, Lmr/r$a;.a:(Ljava/lang/Class;)Ljava/lang/Class; // method@2c06
+180586: 0c0b                                   |0201: move-result-object v11
+180588: 54aa c284                              |0202: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+18058c: 6e30 302c ba0d                         |0204: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+180592: 0c0a                                   |0207: move-result-object v10
+180594: 220b e808                              |0208: new-instance v11, Lmr/o$n; // type@08e8
+180598: 7030 d42b ab0e                         |020a: invoke-direct {v11, v10, v14}, Lmr/o$n;.<init>:(Lmr/f;Z)V // method@2bd4
+18059e: 6e10 e02b 0b00                         |020d: invoke-virtual {v11}, Lmr/o;.b:()Lmr/o; // method@2be0
+1805a4: 0c0a                                   |0210: move-result-object v10
+1805a6: 110a                                   |0211: return-object v10
+1805a8: 54aa c284                              |0212: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1805ac: 6e30 302c ca0d                         |0214: invoke-virtual {v10, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+1805b2: 0c0a                                   |0217: move-result-object v10
+1805b4: 220b e808                              |0218: new-instance v11, Lmr/o$n; // type@08e8
+1805b8: 7030 d42b ab0e                         |021a: invoke-direct {v11, v10, v14}, Lmr/o$n;.<init>:(Lmr/f;Z)V // method@2bd4
+1805be: 110b                                   |021d: return-object v11
+1805c0: 20e0 520f                              |021e: instance-of v0, v14, Lpr/u; // type@0f52
+1805c4: 1a07 0b30                              |0220: const-string v7, "Map must include generic types (e.g., Map<String, String>)" // string@300b
+1805c8: 1c08 9704                              |0222: const-class v8, Ljava/util/Map; // type@0497
+1805cc: 3800 6700                              |0224: if-eqz v0, 028b // +0067
+1805d0: 6e30 0f2c ba0c                         |0226: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1805d6: 7110 562c 0c00                         |0229: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1805dc: 0c00                                   |022c: move-result-object v0
+1805de: 5ca3 cd84                              |022d: iput-boolean v3, v10, Lmr/r$a;.l:Z // field@84cd
+1805e2: 6e20 7611 0800                         |022f: invoke-virtual {v8, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1805e8: 0a01                                   |0232: move-result v1
+1805ea: 3801 4d00                              |0233: if-eqz v1, 0280 // +004d
+1805ee: 7130 572c 0c08                         |0235: invoke-static {v12, v0, v8}, Lmr/x;.i:(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type; // method@2c57
+1805f4: 0c0c                                   |0238: move-result-object v12
+1805f6: 20c0 0704                              |0239: instance-of v0, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1805fa: 3800 3c00                              |023b: if-eqz v0, 0277 // +003c
+1805fe: 1f0c 0704                              |023d: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180602: 7120 552c c400                         |023f: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180608: 0c00                                   |0242: move-result-object v0
+18060a: 3302 1a00                              |0243: if-ne v2, v0, 025d // +001a
+18060e: 7120 552c c300                         |0245: invoke-static {v3, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180614: 0c0c                                   |0248: move-result-object v12
+180616: 54a0 c284                              |0249: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+18061a: 6e30 302c c00d                         |024b: invoke-virtual {v0, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+180620: 0c0c                                   |024e: move-result-object v12
+180622: 220d e708                              |024f: new-instance v13, Lmr/o$m; // type@08e7
+180626: 54aa c384                              |0251: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18062a: 1f0e 520f                              |0253: check-cast v14, Lpr/u; // type@0f52
+18062e: 7210 f061 0e00                         |0255: invoke-interface {v14}, Lpr/u;.encoded:()Z // method@61f0
+180634: 0a0e                                   |0258: move-result v14
+180636: 705e d12b adcb                         |0259: invoke-direct {v13, v10, v11, v12, v14}, Lmr/o$m;.<init>:(Ljava/lang/reflect/Method;ILmr/f;Z)V // method@2bd1
+18063c: 110d                                   |025c: return-object v13
+18063e: 54aa c384                              |025d: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180642: 220c e603                              |025f: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180646: 7010 5212 0c00                         |0261: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+18064c: 1a0d af07                              |0264: const-string v13, "@QueryMap keys must be of type String: " // string@07af
+180650: 6e20 5c12 dc00                         |0266: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180656: 6e20 5b12 0c00                         |0269: invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+18065c: 6e10 6912 0c00                         |026c: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180662: 0c0c                                   |026f: move-result-object v12
+180664: 234d ca10                              |0270: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180668: 7140 5d2c badc                         |0272: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18066e: 0c0a                                   |0275: move-result-object v10
+180670: 270a                                   |0276: throw v10
+180672: 54aa c384                              |0277: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180676: 234c ca10                              |0279: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+18067a: 7140 5d2c bac7                         |027b: invoke-static {v10, v11, v7, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180680: 0c0a                                   |027e: move-result-object v10
+180682: 270a                                   |027f: throw v10
+180684: 54aa c384                              |0280: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180688: 1a0c b007                              |0282: const-string v12, "@QueryMap parameter type must be Map." // string@07b0
+18068c: 234d ca10                              |0284: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180690: 7140 5d2c badc                         |0286: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180696: 0c0a                                   |0289: move-result-object v10
+180698: 270a                                   |028a: throw v10
+18069a: 20e0 460f                              |028b: instance-of v0, v14, Lpr/i; // type@0f46
+18069e: 3800 7f00                              |028d: if-eqz v0, 030c // +007f
+1806a2: 6e30 0f2c ba0c                         |028f: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1806a8: 1f0e 460f                              |0292: check-cast v14, Lpr/i; // type@0f46
+1806ac: 7210 e361 0e00                         |0294: invoke-interface {v14}, Lpr/i;.value:()Ljava/lang/String; // method@61e3
+1806b2: 0c0e                                   |0297: move-result-object v14
+1806b4: 7110 562c 0c00                         |0298: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1806ba: 0c00                                   |029b: move-result-object v0
+1806bc: 6e20 7611 0600                         |029c: invoke-virtual {v6, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1806c2: 0a02                                   |029f: move-result v2
+1806c4: 3802 4200                              |02a0: if-eqz v2, 02e2 // +0042
+1806c8: 20c2 0704                              |02a2: instance-of v2, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1806cc: 3802 1800                              |02a4: if-eqz v2, 02bc // +0018
+1806d0: 1f0c 0704                              |02a6: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1806d4: 7120 552c c400                         |02a8: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1806da: 0c0b                                   |02ab: move-result-object v11
+1806dc: 54aa c284                              |02ac: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1806e0: 6e30 302c ba0d                         |02ae: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+1806e6: 0c0a                                   |02b1: move-result-object v10
+1806e8: 220b e008                              |02b2: new-instance v11, Lmr/o$f; // type@08e0
+1806ec: 7030 c02b eb0a                         |02b4: invoke-direct {v11, v14, v10}, Lmr/o$f;.<init>:(Ljava/lang/String;Lmr/f;)V // method@2bc0
+1806f2: 6e10 e12b 0b00                         |02b7: invoke-virtual {v11}, Lmr/o;.c:()Lmr/o; // method@2be1
+1806f8: 0c0a                                   |02ba: move-result-object v10
+1806fa: 110a                                   |02bb: return-object v10
+1806fc: 54aa c384                              |02bc: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180700: 220c e603                              |02be: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180704: 7010 5212 0c00                         |02c0: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+18070a: 6e10 7211 0000                         |02c3: invoke-virtual {v0}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180710: 0c0d                                   |02c6: move-result-object v13
+180712: 6e20 5c12 dc00                         |02c7: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180718: 6e20 5c12 5c00                         |02ca: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18071e: 6e10 7211 0000                         |02cd: invoke-virtual {v0}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180724: 0c0d                                   |02d0: move-result-object v13
+180726: 6e20 5c12 dc00                         |02d1: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18072c: 6e20 5c12 1c00                         |02d4: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180732: 6e10 6912 0c00                         |02d7: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180738: 0c0c                                   |02da: move-result-object v12
+18073a: 234d ca10                              |02db: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18073e: 7140 5d2c badc                         |02dd: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180744: 0c0a                                   |02e0: move-result-object v10
+180746: 270a                                   |02e1: throw v10
+180748: 6e10 7511 0000                         |02e2: invoke-virtual {v0}, Ljava/lang/Class;.isArray:()Z // method@1175
+18074e: 0a0b                                   |02e5: move-result v11
+180750: 380b 1a00                              |02e6: if-eqz v11, 0300 // +001a
+180754: 6e10 5f11 0000                         |02e8: invoke-virtual {v0}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+18075a: 0c0b                                   |02eb: move-result-object v11
+18075c: 7110 062c 0b00                         |02ec: invoke-static {v11}, Lmr/r$a;.a:(Ljava/lang/Class;)Ljava/lang/Class; // method@2c06
+180762: 0c0b                                   |02ef: move-result-object v11
+180764: 54aa c284                              |02f0: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180768: 6e30 302c ba0d                         |02f2: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18076e: 0c0a                                   |02f5: move-result-object v10
+180770: 220b e008                              |02f6: new-instance v11, Lmr/o$f; // type@08e0
+180774: 7030 c02b eb0a                         |02f8: invoke-direct {v11, v14, v10}, Lmr/o$f;.<init>:(Ljava/lang/String;Lmr/f;)V // method@2bc0
+18077a: 6e10 e02b 0b00                         |02fb: invoke-virtual {v11}, Lmr/o;.b:()Lmr/o; // method@2be0
+180780: 0c0a                                   |02fe: move-result-object v10
+180782: 110a                                   |02ff: return-object v10
+180784: 54aa c284                              |0300: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180788: 6e30 302c ca0d                         |0302: invoke-virtual {v10, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18078e: 0c0a                                   |0305: move-result-object v10
+180790: 220b e008                              |0306: new-instance v11, Lmr/o$f; // type@08e0
+180794: 7030 c02b eb0a                         |0308: invoke-direct {v11, v14, v10}, Lmr/o$f;.<init>:(Ljava/lang/String;Lmr/f;)V // method@2bc0
+18079a: 110b                                   |030b: return-object v11
+18079c: 20e0 470f                              |030c: instance-of v0, v14, Lpr/j; // type@0f47
+1807a0: 3800 6b00                              |030e: if-eqz v0, 0379 // +006b
+1807a4: 1c0e b70f                              |0310: const-class v14, Lso/u; // type@0fb7
+1807a8: 33ec 0a00                              |0312: if-ne v12, v14, 031c // +000a
+1807ac: 220c e208                              |0314: new-instance v12, Lmr/o$h; // type@08e2
+1807b0: 54aa c384                              |0316: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1807b4: 7030 c52b ac0b                         |0318: invoke-direct {v12, v10, v11}, Lmr/o$h;.<init>:(Ljava/lang/reflect/Method;I)V // method@2bc5
+1807ba: 110c                                   |031b: return-object v12
+1807bc: 6e30 0f2c ba0c                         |031c: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1807c2: 7110 562c 0c00                         |031f: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1807c8: 0c0e                                   |0322: move-result-object v14
+1807ca: 6e20 7611 e800                         |0323: invoke-virtual {v8, v14}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1807d0: 0a00                                   |0326: move-result v0
+1807d2: 3800 4700                              |0327: if-eqz v0, 036e // +0047
+1807d6: 7130 572c ec08                         |0329: invoke-static {v12, v14, v8}, Lmr/x;.i:(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type; // method@2c57
+1807dc: 0c0c                                   |032c: move-result-object v12
+1807de: 20ce 0704                              |032d: instance-of v14, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1807e2: 380e 3600                              |032f: if-eqz v14, 0365 // +0036
+1807e6: 1f0c 0704                              |0331: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1807ea: 7120 552c c400                         |0333: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1807f0: 0c0e                                   |0336: move-result-object v14
+1807f2: 33e2 1400                              |0337: if-ne v2, v14, 034b // +0014
+1807f6: 7120 552c c300                         |0339: invoke-static {v3, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1807fc: 0c0c                                   |033c: move-result-object v12
+1807fe: 54ae c284                              |033d: iget-object v14, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180802: 6e30 302c ce0d                         |033f: invoke-virtual {v14, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+180808: 0c0c                                   |0342: move-result-object v12
+18080a: 220d e108                              |0343: new-instance v13, Lmr/o$g; // type@08e1
+18080e: 54aa c384                              |0345: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180812: 7040 c22b adcb                         |0347: invoke-direct {v13, v10, v11, v12}, Lmr/o$g;.<init>:(Ljava/lang/reflect/Method;ILmr/f;)V // method@2bc2
+180818: 110d                                   |034a: return-object v13
+18081a: 54aa c384                              |034b: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+18081e: 220c e603                              |034d: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180822: 7010 5212 0c00                         |034f: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180828: 1a0d a007                              |0352: const-string v13, "@HeaderMap keys must be of type String: " // string@07a0
+18082c: 6e20 5c12 dc00                         |0354: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180832: 6e20 5b12 ec00                         |0357: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+180838: 6e10 6912 0c00                         |035a: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+18083e: 0c0c                                   |035d: move-result-object v12
+180840: 234d ca10                              |035e: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180844: 7140 5d2c badc                         |0360: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18084a: 0c0a                                   |0363: move-result-object v10
+18084c: 270a                                   |0364: throw v10
+18084e: 54aa c384                              |0365: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180852: 234c ca10                              |0367: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180856: 7140 5d2c bac7                         |0369: invoke-static {v10, v11, v7, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18085c: 0c0a                                   |036c: move-result-object v10
+18085e: 270a                                   |036d: throw v10
+180860: 54aa c384                              |036e: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180864: 1a0c a107                              |0370: const-string v12, "@HeaderMap parameter type must be Map." // string@07a1
+180868: 234d ca10                              |0372: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18086c: 7140 5d2c badc                         |0374: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180872: 0c0a                                   |0377: move-result-object v10
+180874: 270a                                   |0378: throw v10
+180876: 20e0 400f                              |0379: instance-of v0, v14, Lpr/c; // type@0f40
+18087a: 3800 9400                              |037b: if-eqz v0, 040f // +0094
+18087e: 6e30 0f2c ba0c                         |037d: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+180884: 55a0 d184                              |0380: iget-boolean v0, v10, Lmr/r$a;.p:Z // field@84d1
+180888: 3800 8200                              |0382: if-eqz v0, 0404 // +0082
+18088c: 1f0e 400f                              |0384: check-cast v14, Lpr/c; // type@0f40
+180890: 7210 dc61 0e00                         |0386: invoke-interface {v14}, Lpr/c;.value:()Ljava/lang/String; // method@61dc
+180896: 0c00                                   |0389: move-result-object v0
+180898: 7210 db61 0e00                         |038a: invoke-interface {v14}, Lpr/c;.encoded:()Z // method@61db
+18089e: 0a0e                                   |038d: move-result v14
+1808a0: 5ca3 c784                              |038e: iput-boolean v3, v10, Lmr/r$a;.f:Z // field@84c7
+1808a4: 7110 562c 0c00                         |0390: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1808aa: 0c02                                   |0393: move-result-object v2
+1808ac: 6e20 7611 2600                         |0394: invoke-virtual {v6, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1808b2: 0a03                                   |0397: move-result v3
+1808b4: 3803 4200                              |0398: if-eqz v3, 03da // +0042
+1808b8: 20c3 0704                              |039a: instance-of v3, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1808bc: 3803 1800                              |039c: if-eqz v3, 03b4 // +0018
+1808c0: 1f0c 0704                              |039e: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1808c4: 7120 552c c400                         |03a0: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1808ca: 0c0b                                   |03a3: move-result-object v11
+1808cc: 54aa c284                              |03a4: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1808d0: 6e30 302c ba0d                         |03a6: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+1808d6: 0c0a                                   |03a9: move-result-object v10
+1808d8: 220b de08                              |03aa: new-instance v11, Lmr/o$d; // type@08de
+1808dc: 7040 bb2b 0bea                         |03ac: invoke-direct {v11, v0, v10, v14}, Lmr/o$d;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bbb
+1808e2: 6e10 e12b 0b00                         |03af: invoke-virtual {v11}, Lmr/o;.c:()Lmr/o; // method@2be1
+1808e8: 0c0a                                   |03b2: move-result-object v10
+1808ea: 110a                                   |03b3: return-object v10
+1808ec: 54aa c384                              |03b4: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1808f0: 220c e603                              |03b6: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+1808f4: 7010 5212 0c00                         |03b8: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+1808fa: 6e10 7211 0200                         |03bb: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180900: 0c0d                                   |03be: move-result-object v13
+180902: 6e20 5c12 dc00                         |03bf: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180908: 6e20 5c12 5c00                         |03c2: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18090e: 6e10 7211 0200                         |03c5: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180914: 0c0d                                   |03c8: move-result-object v13
+180916: 6e20 5c12 dc00                         |03c9: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+18091c: 6e20 5c12 1c00                         |03cc: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180922: 6e10 6912 0c00                         |03cf: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180928: 0c0c                                   |03d2: move-result-object v12
+18092a: 234d ca10                              |03d3: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+18092e: 7140 5d2c badc                         |03d5: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180934: 0c0a                                   |03d8: move-result-object v10
+180936: 270a                                   |03d9: throw v10
+180938: 6e10 7511 0200                         |03da: invoke-virtual {v2}, Ljava/lang/Class;.isArray:()Z // method@1175
+18093e: 0a0b                                   |03dd: move-result v11
+180940: 380b 1a00                              |03de: if-eqz v11, 03f8 // +001a
+180944: 6e10 5f11 0200                         |03e0: invoke-virtual {v2}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+18094a: 0c0b                                   |03e3: move-result-object v11
+18094c: 7110 062c 0b00                         |03e4: invoke-static {v11}, Lmr/r$a;.a:(Ljava/lang/Class;)Ljava/lang/Class; // method@2c06
+180952: 0c0b                                   |03e7: move-result-object v11
+180954: 54aa c284                              |03e8: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180958: 6e30 302c ba0d                         |03ea: invoke-virtual {v10, v11, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18095e: 0c0a                                   |03ed: move-result-object v10
+180960: 220b de08                              |03ee: new-instance v11, Lmr/o$d; // type@08de
+180964: 7040 bb2b 0bea                         |03f0: invoke-direct {v11, v0, v10, v14}, Lmr/o$d;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bbb
+18096a: 6e10 e02b 0b00                         |03f3: invoke-virtual {v11}, Lmr/o;.b:()Lmr/o; // method@2be0
+180970: 0c0a                                   |03f6: move-result-object v10
+180972: 110a                                   |03f7: return-object v10
+180974: 54aa c284                              |03f8: iget-object v10, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180978: 6e30 302c ca0d                         |03fa: invoke-virtual {v10, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+18097e: 0c0a                                   |03fd: move-result-object v10
+180980: 220b de08                              |03fe: new-instance v11, Lmr/o$d; // type@08de
+180984: 7040 bb2b 0bea                         |0400: invoke-direct {v11, v0, v10, v14}, Lmr/o$d;.<init>:(Ljava/lang/String;Lmr/f;Z)V // method@2bbb
+18098a: 110b                                   |0403: return-object v11
+18098c: 54aa c384                              |0404: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180990: 1a0c 9c07                              |0406: const-string v12, "@Field parameters can only be used with form encoding." // string@079c
+180994: 234d ca10                              |0408: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180998: 7140 5d2c badc                         |040a: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+18099e: 0c0a                                   |040d: move-result-object v10
+1809a0: 270a                                   |040e: throw v10
+1809a2: 20e0 410f                              |040f: instance-of v0, v14, Lpr/d; // type@0f41
+1809a6: 3800 7600                              |0411: if-eqz v0, 0487 // +0076
+1809aa: 6e30 0f2c ba0c                         |0413: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+1809b0: 55a0 d184                              |0416: iget-boolean v0, v10, Lmr/r$a;.p:Z // field@84d1
+1809b4: 3800 6400                              |0418: if-eqz v0, 047c // +0064
+1809b8: 7110 562c 0c00                         |041a: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+1809be: 0c00                                   |041d: move-result-object v0
+1809c0: 6e20 7611 0800                         |041e: invoke-virtual {v8, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+1809c6: 0a01                                   |0421: move-result v1
+1809c8: 3801 4f00                              |0422: if-eqz v1, 0471 // +004f
+1809cc: 7130 572c 0c08                         |0424: invoke-static {v12, v0, v8}, Lmr/x;.i:(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type; // method@2c57
+1809d2: 0c0c                                   |0427: move-result-object v12
+1809d4: 20c0 0704                              |0428: instance-of v0, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1809d8: 3800 3e00                              |042a: if-eqz v0, 0468 // +003e
+1809dc: 1f0c 0704                              |042c: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+1809e0: 7120 552c c400                         |042e: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1809e6: 0c00                                   |0431: move-result-object v0
+1809e8: 3302 1c00                              |0432: if-ne v2, v0, 044e // +001c
+1809ec: 7120 552c c300                         |0434: invoke-static {v3, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+1809f2: 0c0c                                   |0437: move-result-object v12
+1809f4: 54a0 c284                              |0438: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+1809f8: 6e30 302c c00d                         |043a: invoke-virtual {v0, v12, v13}, Lmr/t;.i:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c30
+1809fe: 0c0c                                   |043d: move-result-object v12
+180a00: 5ca3 c784                              |043e: iput-boolean v3, v10, Lmr/r$a;.f:Z // field@84c7
+180a04: 220d df08                              |0440: new-instance v13, Lmr/o$e; // type@08df
+180a08: 54aa c384                              |0442: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180a0c: 1f0e 410f                              |0444: check-cast v14, Lpr/d; // type@0f41
+180a10: 7210 dd61 0e00                         |0446: invoke-interface {v14}, Lpr/d;.encoded:()Z // method@61dd
+180a16: 0a0e                                   |0449: move-result v14
+180a18: 705e bd2b adcb                         |044a: invoke-direct {v13, v10, v11, v12, v14}, Lmr/o$e;.<init>:(Ljava/lang/reflect/Method;ILmr/f;Z)V // method@2bbd
+180a1e: 110d                                   |044d: return-object v13
+180a20: 54aa c384                              |044e: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180a24: 220c e603                              |0450: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180a28: 7010 5212 0c00                         |0452: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180a2e: 1a0d 9d07                              |0455: const-string v13, "@FieldMap keys must be of type String: " // string@079d
+180a32: 6e20 5c12 dc00                         |0457: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180a38: 6e20 5b12 0c00                         |045a: invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+180a3e: 6e10 6912 0c00                         |045d: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180a44: 0c0c                                   |0460: move-result-object v12
+180a46: 234d ca10                              |0461: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180a4a: 7140 5d2c badc                         |0463: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180a50: 0c0a                                   |0466: move-result-object v10
+180a52: 270a                                   |0467: throw v10
+180a54: 54aa c384                              |0468: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180a58: 234c ca10                              |046a: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180a5c: 7140 5d2c bac7                         |046c: invoke-static {v10, v11, v7, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180a62: 0c0a                                   |046f: move-result-object v10
+180a64: 270a                                   |0470: throw v10
+180a66: 54aa c384                              |0471: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180a6a: 1a0c 9e07                              |0473: const-string v12, "@FieldMap parameter type must be Map." // string@079e
+180a6e: 234d ca10                              |0475: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180a72: 7140 5d2c badc                         |0477: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180a78: 0c0a                                   |047a: move-result-object v10
+180a7a: 270a                                   |047b: throw v10
+180a7c: 54aa c384                              |047c: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180a80: 1a0c 9f07                              |047e: const-string v12, "@FieldMap parameters can only be used with form encoding." // string@079f
+180a84: 234d ca10                              |0480: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180a88: 7140 5d2c badc                         |0482: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180a8e: 0c0a                                   |0485: move-result-object v10
+180a90: 270a                                   |0486: throw v10
+180a92: 20e0 4e0f                              |0487: instance-of v0, v14, Lpr/q; // type@0f4e
+180a96: 1c09 c30f                              |0489: const-class v9, Lso/y$c; // type@0fc3
+180a9a: 3800 7f01                              |048b: if-eqz v0, 060a // +017f
+180a9e: 6e30 0f2c ba0c                         |048d: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+180aa4: 55a0 d284                              |0490: iget-boolean v0, v10, Lmr/r$a;.q:Z // field@84d2
+180aa8: 3800 6d01                              |0492: if-eqz v0, 05ff // +016d
+180aac: 1f0e 4e0f                              |0494: check-cast v14, Lpr/q; // type@0f4e
+180ab0: 5ca3 c884                              |0496: iput-boolean v3, v10, Lmr/r$a;.g:Z // field@84c8
+180ab4: 7210 ea61 0e00                         |0498: invoke-interface {v14}, Lpr/q;.value:()Ljava/lang/String; // method@61ea
+180aba: 0c00                                   |049b: move-result-object v0
+180abc: 7110 562c 0c00                         |049c: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180ac2: 0c02                                   |049f: move-result-object v2
+180ac4: 6e10 2412 0000                         |04a0: invoke-virtual {v0}, Ljava/lang/String;.isEmpty:()Z // method@1224
+180aca: 0a03                                   |04a3: move-result v3
+180acc: 3803 8600                              |04a4: if-eqz v3, 052a // +0086
+180ad0: 6e20 7611 2600                         |04a6: invoke-virtual {v6, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180ad6: 0a0d                                   |04a9: move-result v13
+180ad8: 1a0e a407                              |04aa: const-string v14, "@Part annotation must supply a name or use MultipartBody.Part parameter type." // string@07a4
+180adc: 380d 4c00                              |04ac: if-eqz v13, 04f8 // +004c
+180ae0: 20cd 0704                              |04ae: instance-of v13, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180ae4: 380d 2200                              |04b0: if-eqz v13, 04d2 // +0022
+180ae8: 1f0c 0704                              |04b2: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180aec: 7120 552c c400                         |04b4: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180af2: 0c0c                                   |04b7: move-result-object v12
+180af4: 7110 562c 0c00                         |04b8: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180afa: 0c0c                                   |04bb: move-result-object v12
+180afc: 6e20 7611 c900                         |04bc: invoke-virtual {v9, v12}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180b02: 0a0c                                   |04bf: move-result v12
+180b04: 380c 0900                              |04c0: if-eqz v12, 04c9 // +0009
+180b08: 620a ab84                              |04c2: sget-object v10, Lmr/o$o;.a:Lmr/o$o; // field@84ab
+180b0c: 6e10 e12b 0a00                         |04c4: invoke-virtual {v10}, Lmr/o;.c:()Lmr/o; // method@2be1
+180b12: 0c0a                                   |04c7: move-result-object v10
+180b14: 110a                                   |04c8: return-object v10
+180b16: 54aa c384                              |04c9: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180b1a: 234c ca10                              |04cb: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180b1e: 7140 5d2c bace                         |04cd: invoke-static {v10, v11, v14, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180b24: 0c0a                                   |04d0: move-result-object v10
+180b26: 270a                                   |04d1: throw v10
+180b28: 54aa c384                              |04d2: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180b2c: 220c e603                              |04d4: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180b30: 7010 5212 0c00                         |04d6: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180b36: 6e10 7211 0200                         |04d9: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180b3c: 0c0d                                   |04dc: move-result-object v13
+180b3e: 6e20 5c12 dc00                         |04dd: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180b44: 6e20 5c12 5c00                         |04e0: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180b4a: 6e10 7211 0200                         |04e3: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180b50: 0c0d                                   |04e6: move-result-object v13
+180b52: 6e20 5c12 dc00                         |04e7: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180b58: 6e20 5c12 1c00                         |04ea: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180b5e: 6e10 6912 0c00                         |04ed: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180b64: 0c0c                                   |04f0: move-result-object v12
+180b66: 234d ca10                              |04f1: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180b6a: 7140 5d2c badc                         |04f3: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180b70: 0c0a                                   |04f6: move-result-object v10
+180b72: 270a                                   |04f7: throw v10
+180b74: 6e10 7511 0200                         |04f8: invoke-virtual {v2}, Ljava/lang/Class;.isArray:()Z // method@1175
+180b7a: 0a0c                                   |04fb: move-result v12
+180b7c: 380c 1c00                              |04fc: if-eqz v12, 0518 // +001c
+180b80: 6e10 5f11 0200                         |04fe: invoke-virtual {v2}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+180b86: 0c0c                                   |0501: move-result-object v12
+180b88: 6e20 7611 c900                         |0502: invoke-virtual {v9, v12}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180b8e: 0a0c                                   |0505: move-result v12
+180b90: 380c 0900                              |0506: if-eqz v12, 050f // +0009
+180b94: 620a ab84                              |0508: sget-object v10, Lmr/o$o;.a:Lmr/o$o; // field@84ab
+180b98: 6e10 e02b 0a00                         |050a: invoke-virtual {v10}, Lmr/o;.b:()Lmr/o; // method@2be0
+180b9e: 0c0a                                   |050d: move-result-object v10
+180ba0: 110a                                   |050e: return-object v10
+180ba2: 54aa c384                              |050f: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180ba6: 234c ca10                              |0511: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180baa: 7140 5d2c bace                         |0513: invoke-static {v10, v11, v14, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180bb0: 0c0a                                   |0516: move-result-object v10
+180bb2: 270a                                   |0517: throw v10
+180bb4: 6e20 7611 2900                         |0518: invoke-virtual {v9, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180bba: 0a0c                                   |051b: move-result v12
+180bbc: 380c 0500                              |051c: if-eqz v12, 0521 // +0005
+180bc0: 620a ab84                              |051e: sget-object v10, Lmr/o$o;.a:Lmr/o$o; // field@84ab
+180bc4: 110a                                   |0520: return-object v10
+180bc6: 54aa c384                              |0521: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180bca: 234c ca10                              |0523: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180bce: 7140 5d2c bace                         |0525: invoke-static {v10, v11, v14, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180bd4: 0c0a                                   |0528: move-result-object v10
+180bd6: 270a                                   |0529: throw v10
+180bd8: 2203 e603                              |052a: new-instance v3, Ljava/lang/StringBuilder; // type@03e6
+180bdc: 7010 5212 0300                         |052c: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180be2: 1a07 9856                              |052f: const-string v7, "form-data; name=\"" // string@5698
+180be6: 6e20 5c12 7300                         |0531: invoke-virtual {v3, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180bec: 6e20 5c12 0300                         |0534: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180bf2: 1a00 b401                              |0537: const-string v0, "\"" // string@01b4
+180bf6: 6e20 5c12 0300                         |0539: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180bfc: 6e10 6912 0300                         |053c: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180c02: 0c00                                   |053f: move-result-object v0
+180c04: 1a03 a710                              |0540: const-string v3, "Content-Transfer-Encoding" // string@10a7
+180c08: 7210 e961 0e00                         |0542: invoke-interface {v14}, Lpr/q;.encoding:()Ljava/lang/String; // method@61e9
+180c0e: 0c0e                                   |0545: move-result-object v14
+180c10: 1a07 a210                              |0546: const-string v7, "Content-Disposition" // string@10a2
+180c14: 2440 cd10 07e3                         |0548: filled-new-array {v7, v0, v3, v14}, [Ljava/lang/String; // type@10cd
+180c1a: 0c0e                                   |054b: move-result-object v14
+180c1c: 7110 3864 0e00                         |054c: invoke-static {v14}, Lso/u;.d:([Ljava/lang/String;)Lso/u; // method@6438
+180c22: 0c0e                                   |054f: move-result-object v14
+180c24: 6e20 7611 2600                         |0550: invoke-virtual {v6, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180c2a: 0a00                                   |0553: move-result v0
+180c2c: 1a03 a607                              |0554: const-string v3, "@Part parameters using the MultipartBody.Part must not include a part name in the annotation." // string@07a6
+180c30: 3800 5900                              |0556: if-eqz v0, 05af // +0059
+180c34: 20c0 0704                              |0558: instance-of v0, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180c38: 3800 2f00                              |055a: if-eqz v0, 0589 // +002f
+180c3c: 1f0c 0704                              |055c: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180c40: 7120 552c c400                         |055e: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180c46: 0c0c                                   |0561: move-result-object v12
+180c48: 7110 562c 0c00                         |0562: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180c4e: 0c00                                   |0565: move-result-object v0
+180c50: 6e20 7611 0900                         |0566: invoke-virtual {v9, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180c56: 0a00                                   |0569: move-result v0
+180c58: 3900 1600                              |056a: if-nez v0, 0580 // +0016
+180c5c: 54a0 c284                              |056c: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180c60: 54a1 c484                              |056e: iget-object v1, v10, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+180c64: 6e40 2e2c c01d                         |0570: invoke-virtual {v0, v12, v13, v1}, Lmr/t;.g:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c2e
+180c6a: 0c0c                                   |0573: move-result-object v12
+180c6c: 220d e308                              |0574: new-instance v13, Lmr/o$i; // type@08e3
+180c70: 54aa c384                              |0576: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180c74: 705c c82b adeb                         |0578: invoke-direct {v13, v10, v11, v14, v12}, Lmr/o$i;.<init>:(Ljava/lang/reflect/Method;ILso/u;Lmr/f;)V // method@2bc8
+180c7a: 6e10 e12b 0d00                         |057b: invoke-virtual {v13}, Lmr/o;.c:()Lmr/o; // method@2be1
+180c80: 0c0a                                   |057e: move-result-object v10
+180c82: 110a                                   |057f: return-object v10
+180c84: 54aa c384                              |0580: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180c88: 234c ca10                              |0582: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180c8c: 7140 5d2c bac3                         |0584: invoke-static {v10, v11, v3, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180c92: 0c0a                                   |0587: move-result-object v10
+180c94: 270a                                   |0588: throw v10
+180c96: 54aa c384                              |0589: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180c9a: 220c e603                              |058b: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180c9e: 7010 5212 0c00                         |058d: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180ca4: 6e10 7211 0200                         |0590: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180caa: 0c0d                                   |0593: move-result-object v13
+180cac: 6e20 5c12 dc00                         |0594: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180cb2: 6e20 5c12 5c00                         |0597: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180cb8: 6e10 7211 0200                         |059a: invoke-virtual {v2}, Ljava/lang/Class;.getSimpleName:()Ljava/lang/String; // method@1172
+180cbe: 0c0d                                   |059d: move-result-object v13
+180cc0: 6e20 5c12 dc00                         |059e: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180cc6: 6e20 5c12 1c00                         |05a1: invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180ccc: 6e10 6912 0c00                         |05a4: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180cd2: 0c0c                                   |05a7: move-result-object v12
+180cd4: 234d ca10                              |05a8: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180cd8: 7140 5d2c badc                         |05aa: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180cde: 0c0a                                   |05ad: move-result-object v10
+180ce0: 270a                                   |05ae: throw v10
+180ce2: 6e10 7511 0200                         |05af: invoke-virtual {v2}, Ljava/lang/Class;.isArray:()Z // method@1175
+180ce8: 0a00                                   |05b2: move-result v0
+180cea: 3800 2d00                              |05b3: if-eqz v0, 05e0 // +002d
+180cee: 6e10 5f11 0200                         |05b5: invoke-virtual {v2}, Ljava/lang/Class;.getComponentType:()Ljava/lang/Class; // method@115f
+180cf4: 0c0c                                   |05b8: move-result-object v12
+180cf6: 7110 062c 0c00                         |05b9: invoke-static {v12}, Lmr/r$a;.a:(Ljava/lang/Class;)Ljava/lang/Class; // method@2c06
+180cfc: 0c0c                                   |05bc: move-result-object v12
+180cfe: 6e20 7611 c900                         |05bd: invoke-virtual {v9, v12}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180d04: 0a00                                   |05c0: move-result v0
+180d06: 3900 1600                              |05c1: if-nez v0, 05d7 // +0016
+180d0a: 54a0 c284                              |05c3: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180d0e: 54a1 c484                              |05c5: iget-object v1, v10, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+180d12: 6e40 2e2c c01d                         |05c7: invoke-virtual {v0, v12, v13, v1}, Lmr/t;.g:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c2e
+180d18: 0c0c                                   |05ca: move-result-object v12
+180d1a: 220d e308                              |05cb: new-instance v13, Lmr/o$i; // type@08e3
+180d1e: 54aa c384                              |05cd: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180d22: 705c c82b adeb                         |05cf: invoke-direct {v13, v10, v11, v14, v12}, Lmr/o$i;.<init>:(Ljava/lang/reflect/Method;ILso/u;Lmr/f;)V // method@2bc8
+180d28: 6e10 e02b 0d00                         |05d2: invoke-virtual {v13}, Lmr/o;.b:()Lmr/o; // method@2be0
+180d2e: 0c0a                                   |05d5: move-result-object v10
+180d30: 110a                                   |05d6: return-object v10
+180d32: 54aa c384                              |05d7: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180d36: 234c ca10                              |05d9: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180d3a: 7140 5d2c bac3                         |05db: invoke-static {v10, v11, v3, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180d40: 0c0a                                   |05de: move-result-object v10
+180d42: 270a                                   |05df: throw v10
+180d44: 6e20 7611 2900                         |05e0: invoke-virtual {v9, v2}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180d4a: 0a00                                   |05e3: move-result v0
+180d4c: 3900 1200                              |05e4: if-nez v0, 05f6 // +0012
+180d50: 54a0 c284                              |05e6: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180d54: 54a1 c484                              |05e8: iget-object v1, v10, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+180d58: 6e40 2e2c c01d                         |05ea: invoke-virtual {v0, v12, v13, v1}, Lmr/t;.g:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c2e
+180d5e: 0c0c                                   |05ed: move-result-object v12
+180d60: 220d e308                              |05ee: new-instance v13, Lmr/o$i; // type@08e3
+180d64: 54aa c384                              |05f0: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180d68: 705c c82b adeb                         |05f2: invoke-direct {v13, v10, v11, v14, v12}, Lmr/o$i;.<init>:(Ljava/lang/reflect/Method;ILso/u;Lmr/f;)V // method@2bc8
+180d6e: 110d                                   |05f5: return-object v13
+180d70: 54aa c384                              |05f6: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180d74: 234c ca10                              |05f8: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180d78: 7140 5d2c bac3                         |05fa: invoke-static {v10, v11, v3, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180d7e: 0c0a                                   |05fd: move-result-object v10
+180d80: 270a                                   |05fe: throw v10
+180d82: 54aa c384                              |05ff: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180d86: 1a0c a507                              |0601: const-string v12, "@Part parameters can only be used with multipart encoding." // string@07a5
+180d8a: 234d ca10                              |0603: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180d8e: 7140 5d2c badc                         |0605: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180d94: 0c0a                                   |0608: move-result-object v10
+180d96: 270a                                   |0609: throw v10
+180d98: 20e0 4f0f                              |060a: instance-of v0, v14, Lpr/r; // type@0f4f
+180d9c: 3800 8d00                              |060c: if-eqz v0, 0699 // +008d
+180da0: 6e30 0f2c ba0c                         |060e: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+180da6: 55a0 d284                              |0611: iget-boolean v0, v10, Lmr/r$a;.q:Z // field@84d2
+180daa: 3800 7b00                              |0613: if-eqz v0, 068e // +007b
+180dae: 5ca3 c884                              |0615: iput-boolean v3, v10, Lmr/r$a;.g:Z // field@84c8
+180db2: 7110 562c 0c00                         |0617: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180db8: 0c00                                   |061a: move-result-object v0
+180dba: 6e20 7611 0800                         |061b: invoke-virtual {v8, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180dc0: 0a01                                   |061e: move-result v1
+180dc2: 3801 6400                              |061f: if-eqz v1, 0683 // +0064
+180dc6: 7130 572c 0c08                         |0621: invoke-static {v12, v0, v8}, Lmr/x;.i:(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type; // method@2c57
+180dcc: 0c0c                                   |0624: move-result-object v12
+180dce: 20c0 0704                              |0625: instance-of v0, v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180dd2: 3800 5300                              |0627: if-eqz v0, 067a // +0053
+180dd6: 1f0c 0704                              |0629: check-cast v12, Ljava/lang/reflect/ParameterizedType; // type@0407
+180dda: 7120 552c c400                         |062b: invoke-static {v4, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180de0: 0c00                                   |062e: move-result-object v0
+180de2: 3302 3100                              |062f: if-ne v2, v0, 0660 // +0031
+180de6: 7120 552c c300                         |0631: invoke-static {v3, v12}, Lmr/x;.g:(ILjava/lang/reflect/ParameterizedType;)Ljava/lang/reflect/Type; // method@2c55
+180dec: 0c0c                                   |0634: move-result-object v12
+180dee: 7110 562c 0c00                         |0635: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180df4: 0c00                                   |0638: move-result-object v0
+180df6: 6e20 7611 0900                         |0639: invoke-virtual {v9, v0}, Ljava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z // method@1176
+180dfc: 0a00                                   |063c: move-result v0
+180dfe: 3900 1800                              |063d: if-nez v0, 0655 // +0018
+180e02: 54a0 c284                              |063f: iget-object v0, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180e06: 54a1 c484                              |0641: iget-object v1, v10, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+180e0a: 6e40 2e2c c01d                         |0643: invoke-virtual {v0, v12, v13, v1}, Lmr/t;.g:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c2e
+180e10: 0c0c                                   |0646: move-result-object v12
+180e12: 1f0e 4f0f                              |0647: check-cast v14, Lpr/r; // type@0f4f
+180e16: 220d e408                              |0649: new-instance v13, Lmr/o$j; // type@08e4
+180e1a: 54aa c384                              |064b: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180e1e: 7210 eb61 0e00                         |064d: invoke-interface {v14}, Lpr/r;.encoding:()Ljava/lang/String; // method@61eb
+180e24: 0c0e                                   |0650: move-result-object v14
+180e26: 705e ca2b adcb                         |0651: invoke-direct {v13, v10, v11, v12, v14}, Lmr/o$j;.<init>:(Ljava/lang/reflect/Method;ILmr/f;Ljava/lang/String;)V // method@2bca
+180e2c: 110d                                   |0654: return-object v13
+180e2e: 54aa c384                              |0655: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180e32: 1a0c aa07                              |0657: const-string v12, "@PartMap values cannot be MultipartBody.Part. Use @Part List<Part> or a different value type instead." // string@07aa
+180e36: 234d ca10                              |0659: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180e3a: 7140 5d2c badc                         |065b: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180e40: 0c0a                                   |065e: move-result-object v10
+180e42: 270a                                   |065f: throw v10
+180e44: 54aa c384                              |0660: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180e48: 220c e603                              |0662: new-instance v12, Ljava/lang/StringBuilder; // type@03e6
+180e4c: 7010 5212 0c00                         |0664: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180e52: 1a0d a707                              |0667: const-string v13, "@PartMap keys must be of type String: " // string@07a7
+180e56: 6e20 5c12 dc00                         |0669: invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180e5c: 6e20 5b12 0c00                         |066c: invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+180e62: 6e10 6912 0c00                         |066f: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180e68: 0c0c                                   |0672: move-result-object v12
+180e6a: 234d ca10                              |0673: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180e6e: 7140 5d2c badc                         |0675: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180e74: 0c0a                                   |0678: move-result-object v10
+180e76: 270a                                   |0679: throw v10
+180e78: 54aa c384                              |067a: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180e7c: 234c ca10                              |067c: new-array v12, v4, [Ljava/lang/Object; // type@10ca
+180e80: 7140 5d2c bac7                         |067e: invoke-static {v10, v11, v7, v12}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180e86: 0c0a                                   |0681: move-result-object v10
+180e88: 270a                                   |0682: throw v10
+180e8a: 54aa c384                              |0683: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180e8e: 1a0c a807                              |0685: const-string v12, "@PartMap parameter type must be Map." // string@07a8
+180e92: 234d ca10                              |0687: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180e96: 7140 5d2c badc                         |0689: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180e9c: 0c0a                                   |068c: move-result-object v10
+180e9e: 270a                                   |068d: throw v10
+180ea0: 54aa c384                              |068e: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180ea4: 1a0c a907                              |0690: const-string v12, "@PartMap parameters can only be used with multipart encoding." // string@07a9
+180ea8: 234d ca10                              |0692: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180eac: 7140 5d2c badc                         |0694: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180eb2: 0c0a                                   |0697: move-result-object v10
+180eb4: 270a                                   |0698: throw v10
+180eb6: 20e0 3e0f                              |0699: instance-of v0, v14, Lpr/a; // type@0f3e
+180eba: 3800 4700                              |069b: if-eqz v0, 06e2 // +0047
+180ebe: 6e30 0f2c ba0c                         |069d: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+180ec4: 55ae d184                              |06a0: iget-boolean v14, v10, Lmr/r$a;.p:Z // field@84d1
+180ec8: 390e 3500                              |06a2: if-nez v14, 06d7 // +0035
+180ecc: 55ae d284                              |06a4: iget-boolean v14, v10, Lmr/r$a;.q:Z // field@84d2
+180ed0: 390e 3100                              |06a6: if-nez v14, 06d7 // +0031
+180ed4: 55ae c984                              |06a8: iget-boolean v14, v10, Lmr/r$a;.h:Z // field@84c9
+180ed8: 390e 2200                              |06aa: if-nez v14, 06cc // +0022
+180edc: 54ae c284                              |06ac: iget-object v14, v10, Lmr/r$a;.a:Lmr/t; // field@84c2
+180ee0: 54a0 c484                              |06ae: iget-object v0, v10, Lmr/r$a;.c:[Ljava/lang/annotation/Annotation; // field@84c4
+180ee4: 6e40 2e2c ce0d                         |06b0: invoke-virtual {v14, v12, v13, v0}, Lmr/t;.g:(Ljava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;[Ljava/lang/annotation/Annotation;)Lmr/f; // method@2c2e
+180eea: 0c0c                                   |06b3: move-result-object v12
+180eec: 5ca3 c984                              |06b4: iput-boolean v3, v10, Lmr/r$a;.h:Z // field@84c9
+180ef0: 220d dd08                              |06b6: new-instance v13, Lmr/o$c; // type@08dd
+180ef4: 54aa c384                              |06b8: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180ef8: 7040 b92b adcb                         |06ba: invoke-direct {v13, v10, v11, v12}, Lmr/o$c;.<init>:(Ljava/lang/reflect/Method;ILmr/f;)V // method@2bb9
+180efe: 110d                                   |06bd: return-object v13
+180f00: 0d0d                                   |06be: move-exception v13
+180f02: 54aa c384                              |06bf: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180f06: 1a0e ae40                              |06c1: const-string v14, "Unable to create @Body converter for %s" // string@40ae
+180f0a: 2410 ca10 0c00                         |06c3: filled-new-array {v12}, [Ljava/lang/Object; // type@10ca
+180f10: 0c0c                                   |06c6: move-result-object v12
+180f12: 715c 5e2c daeb                         |06c7: invoke-static {v10, v13, v11, v14, v12}, Lmr/x;.p:(Ljava/lang/reflect/Method;Ljava/lang/Throwable;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5e
+180f18: 0c0a                                   |06ca: move-result-object v10
+180f1a: 270a                                   |06cb: throw v10
+180f1c: 54aa c384                              |06cc: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180f20: 1a0c 4f32                              |06ce: const-string v12, "Multiple @Body method annotations found." // string@324f
+180f24: 234d ca10                              |06d0: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180f28: 7140 5d2c badc                         |06d2: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180f2e: 0c0a                                   |06d5: move-result-object v10
+180f30: 270a                                   |06d6: throw v10
+180f32: 54aa c384                              |06d7: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180f36: 1a0c 9b07                              |06d9: const-string v12, "@Body parameters cannot be used with form or multi-part encoding." // string@079b
+180f3a: 234d ca10                              |06db: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180f3e: 7140 5d2c badc                         |06dd: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180f44: 0c0a                                   |06e0: move-result-object v10
+180f46: 270a                                   |06e1: throw v10
+180f48: 20ed 550f                              |06e2: instance-of v13, v14, Lpr/x; // type@0f55
+180f4c: 380d 5500                              |06e4: if-eqz v13, 0739 // +0055
+180f50: 6e30 0f2c ba0c                         |06e6: invoke-virtual {v10, v11, v12}, Lmr/r$a;.j:(ILjava/lang/reflect/Type;)V // method@2c0f
+180f56: 7110 562c 0c00                         |06e9: invoke-static {v12}, Lmr/x;.h:(Ljava/lang/reflect/Type;)Ljava/lang/Class; // method@2c56
+180f5c: 0c0c                                   |06ec: move-result-object v12
+180f5e: d80d 0bff                              |06ed: add-int/lit8 v13, v11, #int -1 // #ff
+180f62: 3a0d 4400                              |06ef: if-ltz v13, 0733 // +0044
+180f66: 54ae d784                              |06f1: iget-object v14, v10, Lmr/r$a;.v:[Lmr/o; // field@84d7
+180f6a: 460e 0e0d                              |06f3: aget-object v14, v14, v13
+180f6e: 20e0 eb08                              |06f5: instance-of v0, v14, Lmr/o$q; // type@08eb
+180f72: 3800 3900                              |06f7: if-eqz v0, 0730 // +0039
+180f76: 1f0e eb08                              |06f9: check-cast v14, Lmr/o$q; // type@08eb
+180f7a: 54ee ae84                              |06fb: iget-object v14, v14, Lmr/o$q;.a:Ljava/lang/Class; // field@84ae
+180f7e: 6e20 ec11 ce00                         |06fd: invoke-virtual {v14, v12}, Ljava/lang/Object;.equals:(Ljava/lang/Object;)Z // method@11ec
+180f84: 0a0e                                   |0700: move-result v14
+180f86: 390e 0300                              |0701: if-nez v14, 0704 // +0003
+180f8a: 282d                                   |0703: goto 0730 // +002d
+180f8c: 54aa c384                              |0704: iget-object v10, v10, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+180f90: 220e e603                              |0706: new-instance v14, Ljava/lang/StringBuilder; // type@03e6
+180f94: 7010 5212 0e00                         |0708: invoke-direct {v14}, Ljava/lang/StringBuilder;.<init>:()V // method@1252
+180f9a: 1a00 b107                              |070b: const-string v0, "@Tag type " // string@07b1
+180f9e: 6e20 5c12 0e00                         |070d: invoke-virtual {v14, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180fa4: 6e10 6f11 0c00                         |0710: invoke-virtual {v12}, Ljava/lang/Class;.getName:()Ljava/lang/String; // method@116f
+180faa: 0c0c                                   |0713: move-result-object v12
+180fac: 6e20 5c12 ce00                         |0714: invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180fb2: 1a0c 1701                              |0717: const-string v12, " is duplicate of parameter #" // string@0117
+180fb6: 6e20 5c12 ce00                         |0719: invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180fbc: b03d                                   |071c: add-int/2addr v13, v3
+180fbe: 6e20 5812 de00                         |071d: invoke-virtual {v14, v13}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+180fc4: 1a0c bc00                              |0720: const-string v12, " and would always overwrite its value." // string@00bc
+180fc8: 6e20 5c12 ce00                         |0722: invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+180fce: 6e10 6912 0e00                         |0725: invoke-virtual {v14}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+180fd4: 0c0c                                   |0728: move-result-object v12
+180fd6: 234d ca10                              |0729: new-array v13, v4, [Ljava/lang/Object; // type@10ca
+180fda: 7140 5d2c badc                         |072b: invoke-static {v10, v11, v12, v13}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+180fe0: 0c0a                                   |072e: move-result-object v10
+180fe2: 270a                                   |072f: throw v10
+180fe4: d80d 0dff                              |0730: add-int/lit8 v13, v13, #int -1 // #ff
+180fe8: 28bd                                   |0732: goto 06ef // -0043
+180fea: 220a eb08                              |0733: new-instance v10, Lmr/o$q; // type@08eb
+180fee: 7020 dc2b ca00                         |0735: invoke-direct {v10, v12}, Lmr/o$q;.<init>:(Ljava/lang/Class;)V // method@2bdc
+180ff4: 110a                                   |0738: return-object v10
+180ff6: 120a                                   |0739: const/4 v10, #int 0 // #0
+180ff8: 110a                                   |073a: return-object v10
+      catches       : 1
+        0x06ac - 0x06b4
+          Ljava/lang/RuntimeException; -> 0x06be
+
+    #6              : (in Lmr/r$a;)
+      name          : 'i'
+      type          : '(ILjava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 55 16-bit code units
+181580:                                        |[181580] mr.r$a.i:(ILjava/lang/String;)V
+181590: 6200 da84                              |0000: sget-object v0, Lmr/r$a;.y:Ljava/util/regex/Pattern; // field@84da
+181594: 6e20 d415 3000                         |0002: invoke-virtual {v0, v3}, Ljava/util/regex/Pattern;.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher; // method@15d4
+18159a: 0c00                                   |0005: move-result-object v0
+18159c: 6e10 ce15 0000                         |0006: invoke-virtual {v0}, Ljava/util/regex/Matcher;.matches:()Z // method@15ce
+1815a2: 0a00                                   |0009: move-result v0
+1815a4: 3800 1a00                              |000a: if-eqz v0, 0024 // +001a
+1815a8: 5410 d684                              |000c: iget-object v0, v1, Lmr/r$a;.u:Ljava/util/Set; // field@84d6
+1815ac: 7220 0e15 3000                         |000e: invoke-interface {v0, v3}, Ljava/util/Set;.contains:(Ljava/lang/Object;)Z // method@150e
+1815b2: 0a00                                   |0011: move-result v0
+1815b4: 3800 0300                              |0012: if-eqz v0, 0015 // +0003
+1815b8: 0e00                                   |0014: return-void
+1815ba: 5410 c384                              |0015: iget-object v0, v1, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1815be: 5411 d384                              |0017: iget-object v1, v1, Lmr/r$a;.r:Ljava/lang/String; // field@84d3
+1815c2: 2420 ca10 3100                         |0019: filled-new-array {v1, v3}, [Ljava/lang/Object; // type@10ca
+1815c8: 0c01                                   |001c: move-result-object v1
+1815ca: 1a03 8e40                              |001d: const-string v3, "URL \"%s\" does not contain \"{%s}\"." // string@408e
+1815ce: 7140 5d2c 2013                         |001f: invoke-static {v0, v2, v3, v1}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+1815d4: 0c01                                   |0022: move-result-object v1
+1815d6: 2701                                   |0023: throw v1
+1815d8: 5411 c384                              |0024: iget-object v1, v1, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+1815dc: 6200 d984                              |0026: sget-object v0, Lmr/r$a;.x:Ljava/util/regex/Pattern; // field@84d9
+1815e0: 6e10 d515 0000                         |0028: invoke-virtual {v0}, Ljava/util/regex/Pattern;.pattern:()Ljava/lang/String; // method@15d5
+1815e6: 0c00                                   |002b: move-result-object v0
+1815e8: 2420 ca10 3000                         |002c: filled-new-array {v0, v3}, [Ljava/lang/Object; // type@10ca
+1815ee: 0c03                                   |002f: move-result-object v3
+1815f0: 1a00 ac07                              |0030: const-string v0, "@Path parameter name must match %s. Found: %s" // string@07ac
+1815f4: 7140 5d2c 2130                         |0032: invoke-static {v1, v2, v0, v3}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+1815fa: 0c01                                   |0035: move-result-object v1
+1815fc: 2701                                   |0036: throw v1
+      catches       : (none)
+
+    #7              : (in Lmr/r$a;)
+      name          : 'j'
+      type          : '(ILjava/lang/reflect/Type;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 20 16-bit code units
+181600:                                        |[181600] mr.r$a.j:(ILjava/lang/reflect/Type;)V
+181610: 7110 582c 0300                         |0000: invoke-static {v3}, Lmr/x;.j:(Ljava/lang/reflect/Type;)Z // method@2c58
+181616: 0a00                                   |0003: move-result v0
+181618: 3900 0300                              |0004: if-nez v0, 0007 // +0003
+18161c: 0e00                                   |0006: return-void
+18161e: 5411 c384                              |0007: iget-object v1, v1, Lmr/r$a;.b:Ljava/lang/reflect/Method; // field@84c3
+181622: 1a00 9335                              |0009: const-string v0, "Parameter type must not include a type variable or wildcard: %s" // string@3593
+181626: 2410 ca10 0300                         |000b: filled-new-array {v3}, [Ljava/lang/Object; // type@10ca
+18162c: 0c03                                   |000e: move-result-object v3
+18162e: 7140 5d2c 2130                         |000f: invoke-static {v1, v2, v0, v3}, Lmr/x;.o:(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException; // method@2c5d
+181634: 0c01                                   |0012: move-result-object v1
+181636: 2701                                   |0013: throw v1
+      catches       : (none)
+
+  source_file_idx   : 14376 (RequestFactory.java)
+

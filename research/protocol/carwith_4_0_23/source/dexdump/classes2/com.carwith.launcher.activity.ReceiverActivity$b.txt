@@ -1,0 +1,58 @@
+Class #242            -
+  Class descriptor  : 'Lcom/carwith/launcher/activity/ReceiverActivity$b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/view/View$OnClickListener;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/activity/ReceiverActivity$b;)
+      name          : 'a'
+      type          : 'Lcom/carwith/launcher/activity/ReceiverActivity;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/activity/ReceiverActivity$b;)
+      name          : '<init>'
+      type          : '(Lcom/carwith/launcher/activity/ReceiverActivity;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+18286c:                                        |[18286c] com.carwith.launcher.activity.ReceiverActivity$b.<init>:(Lcom/carwith/launcher/activity/ReceiverActivity;)V
+18287c: 5b01 3dbf                              |0000: iput-object v1, v0, Lcom/carwith/launcher/activity/ReceiverActivity$b;.a:Lcom/carwith/launcher/activity/ReceiverActivity; // field@bf3d
+182880: 7010 8c81 0000                         |0002: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+182886: 0e00                                   |0005: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/activity/ReceiverActivity$b;)
+      name          : 'onClick'
+      type          : '(Landroid/view/View;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 34 16-bit code units
+182888:                                        |[182888] com.carwith.launcher.activity.ReceiverActivity$b.onClick:(Landroid/view/View;)V
+182898: 1a03 286b                              |0000: const-string v3, "content://com.android.externalstorage.documents/document/primary%3ADownload%2FcarShare" // string@6b28
+18289c: 7110 1404 0300                         |0002: invoke-static {v3}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+1828a2: 0c03                                   |0005: move-result-object v3
+1828a4: 2200 6500                              |0006: new-instance v0, Landroid/content/Intent; // type@0065
+1828a8: 1a01 db5d                              |0008: const-string v1, "android.intent.action.OPEN_DOCUMENT" // string@5ddb
+1828ac: 7020 9101 1000                         |000a: invoke-direct {v0, v1}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@0191
+1828b2: 1a01 e85d                              |000d: const-string v1, "android.intent.category.OPENABLE" // string@5de8
+1828b6: 6e20 9301 1000                         |000f: invoke-virtual {v0, v1}, Landroid/content/Intent;.addCategory:(Ljava/lang/String;)Landroid/content/Intent; // method@0193
+1828bc: 1a01 d402                              |0012: const-string v1, "*/*" // string@02d4
+1828c0: 6e20 bb01 1000                         |0014: invoke-virtual {v0, v1}, Landroid/content/Intent;.setType:(Ljava/lang/String;)Landroid/content/Intent; // method@01bb
+1828c6: 1a01 0e5e                              |0017: const-string v1, "android.provider.extra.INITIAL_URI" // string@5e0e
+1828ca: 6e30 aa01 1003                         |0019: invoke-virtual {v0, v1, v3}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent; // method@01aa
+1828d0: 5422 3dbf                              |001c: iget-object v2, v2, Lcom/carwith/launcher/activity/ReceiverActivity$b;.a:Lcom/carwith/launcher/activity/ReceiverActivity; // field@bf3d
+1828d4: 6e20 8201 0200                         |001e: invoke-virtual {v2, v0}, Landroid/content/Context;.startActivity:(Landroid/content/Intent;)V // method@0182
+1828da: 0e00                                   |0021: return-void
+      catches       : (none)
+
+  source_file_idx   : 17349 (ReceiverActivity.java)
+

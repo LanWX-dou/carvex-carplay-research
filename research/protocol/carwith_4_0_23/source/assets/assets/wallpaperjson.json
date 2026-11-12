@@ -1,0 +1,172 @@
+{
+  "wallpaperCategorys": [
+    {
+      "categoryId": "柔光",
+      "categoryNameKey": "phone_settings_wallpaper_soft_light",
+      "wallpapers": [
+        {
+          "id": "19",
+          "wallpaper_name": "wallpaper_19",
+          "light_color": "#DEDFE0",
+          "dark_color": "#5A5B5B"
+        },
+        {
+          "id": "20",
+          "wallpaper_name": "wallpaper_20",
+          "light_color": "#D1BFB9",
+          "dark_color": "#544C49"
+        },
+        {
+          "id": "21",
+          "wallpaper_name": "wallpaper_21",
+          "light_color": "#EBF1E8",
+          "dark_color": "#626560"
+        }
+      ]
+    },
+    {
+      "categoryId": "自然肌理",
+      "categoryNameKey": "phone_settings_wallpaper_natural_texture",
+      "wallpapers": [
+        {
+          "id": "1",
+          "wallpaper_name": "wallpaper_01",
+          "light_color": "#ACBBD3",
+          "dark_color": "#3E4652"
+        },
+        {
+          "id": "2",
+          "wallpaper_name": "wallpaper_02",
+          "light_color": "#C7D3DB",
+          "dark_color": "#52585A"
+        },
+        {
+          "id": "3",
+          "wallpaper_name": "wallpaper_03",
+          "light_color": "#DBDBDA",
+          "dark_color": "#585857"
+        }
+      ]
+    },
+    {
+      "categoryId": "大地颜色",
+      "categoryNameKey": "phone_settings_wallpaper_earth_color",
+      "wallpapers": [
+        {
+          "id": "4",
+          "wallpaper_name": "wallpaper_04",
+          "light_color": "#DEDFE0",
+          "dark_color": "#5A5B5B"
+        },
+        {
+          "id": "5",
+          "wallpaper_name": "wallpaper_05",
+          "light_color": "#D1BFB9",
+          "dark_color": "#544C49"
+        },
+        {
+          "id": "6",
+          "wallpaper_name": "wallpaper_06",
+          "light_color": "#EBF1E8",
+          "dark_color": "#626560"
+        }
+      ]
+    },
+    {
+      "categoryId": "重叠空间",
+      "categoryNameKey": "phone_settings_wallpaper_overlap_space",
+      "wallpapers": [
+        {
+          "id": "7",
+          "wallpaper_name": "wallpaper_07",
+          "light_color": "#CCC8D4",
+          "dark_color": "#515056"
+        },
+        {
+          "id": "8",
+          "wallpaper_name": "wallpaper_08",
+          "light_color": "#AACAF2",
+          "dark_color": "#475666"
+        },
+        {
+          "id": "9",
+          "wallpaper_name": "wallpaper_09",
+          "light_color": "#A5C1CE",
+          "dark_color": "#3F4D53"
+        }
+      ]
+    },
+    {
+      "categoryId": "白日梦境",
+      "categoryNameKey": "phone_settings_wallpaper_daydreaming",
+      "wallpapers": [
+        {
+          "id": "10",
+          "wallpaper_name": "wallpaper_10",
+          "light_color": "#EBEEF3",
+          "dark_color": "#626265"
+        },
+        {
+          "id": "11",
+          "wallpaper_name": "wallpaper_11",
+          "light_color": "#ECF0F3",
+          "dark_color": "#636464"
+        },
+        {
+          "id": "12",
+          "wallpaper_name": "wallpaper_12",
+          "light_color": "#E9EFF5",
+          "dark_color": "#606265"
+        }
+      ]
+    },
+    {
+      "categoryId": "花艺",
+      "categoryNameKey": "phone_settings_wallpaper_floriculture",
+      "wallpapers": [
+        {
+          "id": "13",
+          "wallpaper_name": "wallpaper_13",
+          "light_color": "#C5C5BF",
+          "dark_color": "#4E4E4B"
+        },
+        {
+          "id": "14",
+          "wallpaper_name": "wallpaper_14",
+          "light_color": "#D4CABB",
+          "dark_color": "#555049"
+        },
+        {
+          "id": "15",
+          "wallpaper_name": "wallpaper_15",
+          "light_color": "#DEB68D",
+          "dark_color": "#594733"
+        }
+      ]
+    },
+    {
+      "categoryId": "结晶",
+      "categoryNameKey": "phone_settings_wallpaper_crystallization",
+      "wallpapers": [
+        {
+          "id": "16",
+          "wallpaper_name": "wallpaper_16",
+          "light_color": "#6A6E70",
+          "dark_color": "#2A3033"
+        },
+        {
+          "id": "17",
+          "wallpaper_name": "wallpaper_17",
+          "light_color": "#717476",
+          "dark_color": "#353637"
+        },
+        {
+          "id": "18",
+          "wallpaper_name": "wallpaper_18",
+          "light_color": "#8899A1",
+          "dark_color": "#384347"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+syntax = 'proto3';
+
+option java_package = "com.ucar.databus.proto";
+option java_outer_classname = "ShareProto";
+
+message CheckStatus {
+    uint32 step = 1;
+}
+
+message NotifyStatus {
+    uint32 step = 1;
+    uint32 status = 2;
+}
+
+message TaskInfo {
+    string id = 1;
+    string name = 2;
+    int32 count = 3;
+    uint64 size = 4;
+    string thumbUri = 5;
+    int32 imageFileCount = 6;
+    int32 videoFileCount = 7;
+    int32 audioFileCount = 8;
+    int32 docFileCount = 9;
+    int32 otherFileCount = 10;
+    uint64 imageFileSize = 11;
+    uint64 videoFileSize = 12;
+    uint64 audioFileSize = 13;
+    uint64 docFileSize = 14;
+    uint64 otherFileSize = 15;
+}
+
+message TaskAction {
+    string id = 1;
+    uint32 action = 2;
+    uint64 timeout = 3;
+}
+
+message ThumbRequest {
+    string fileUri = 1;
+}
+
+message ThumbData {
+    bytes imageData = 1;
+    uint64 thumbSize = 2;
+}
+
+message DownloadIntention {
+    string id = 1;
+    uint32 action = 2;
+}
+
+message FileInfo {
+    string name = 1;
+    uint64 size = 2;
+    uint64 offset = 3;
+    uint32 count = 4;
+    bytes content = 5;
+}
+
+message DownloadFiles {
+    string id = 1;
+    FileInfo fileInfo = 2;
+}
+
+message ShareIndex {
+    CheckStatus checkStatus = 1;
+    NotifyStatus notifyStatus = 2;
+    TaskInfo taskInfo = 3;
+    TaskAction taskAction = 4;
+    ThumbRequest thumbRequest = 5;
+    ThumbData thumbData = 6;
+    DownloadIntention downloadIntention = 7;
+    FileInfo fileInfo = 8;
+    DownloadFiles downloadFiles = 9;
+}
+

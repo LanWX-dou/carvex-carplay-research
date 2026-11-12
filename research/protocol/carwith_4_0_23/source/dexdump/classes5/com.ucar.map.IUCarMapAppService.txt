@@ -1,0 +1,29 @@
+Class #82            -
+  Class descriptor  : 'Lcom/ucar/map/IUCarMapAppService;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+    #0              : (in Lcom/ucar/map/IUCarMapAppService;)
+      name          : 'DESCRIPTOR'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : "com.ucar.map.IUCarMapAppService"
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/ucar/map/IUCarMapAppService;)
+      name          : 'getValue'
+      type          : '(ILandroid/os/Bundle;)Landroid/os/Bundle;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/ucar/map/IUCarMapAppService;)
+      name          : 'setValue'
+      type          : '(ILandroid/os/Bundle;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 9005 (IUCarMapAppService.java)
+

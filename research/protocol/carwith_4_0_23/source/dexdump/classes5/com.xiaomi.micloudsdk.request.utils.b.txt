@@ -1,0 +1,661 @@
+Class #3267            -
+  Class descriptor  : 'Lcom/xiaomi/micloudsdk/request/utils/b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'a'
+      type          : '(Ljava/util/Map;Ljava/util/Map;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 3
+      insns size    : 127 16-bit code units
+3d2b14:                                        |[3d2b14] com.xiaomi.micloudsdk.request.utils.b.a:(Ljava/util/Map;Ljava/util/Map;)V
+3d2b24: 1a00 307c                              |0000: const-string v0, "_apkversioncode" // string@7c30
+3d2b28: 1a01 2f7c                              |0002: const-string v1, "_apkversion" // string@7c2f
+3d2b2c: 1a02 7580                              |0004: const-string v2, "apk-version-code" // string@8075
+3d2b30: 1a03 7480                              |0006: const-string v3, "apk-version" // string@8074
+3d2b34: 7100 fdb4 0000                         |0008: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.a:()Landroid/content/Context; // method@b4fd
+3d2b3a: 0c04                                   |000b: move-result-object v4
+3d2b3c: 6e10 bc01 0400                         |000c: invoke-virtual {v4}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@01bc
+3d2b42: 0c05                                   |000f: move-result-object v5
+3d2b44: 6e10 bb01 0400                         |0010: invoke-virtual {v4}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@01bb
+3d2b4a: 0c04                                   |0013: move-result-object v4
+3d2b4c: 1206                                   |0014: const/4 v6, #int 0 // #0
+3d2b4e: 6e30 1702 5406                         |0015: invoke-virtual {v4, v5, v6}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@0217
+3d2b54: 0c04                                   |0018: move-result-object v4
+3d2b56: 5446 7900                              |0019: iget-object v6, v4, Landroid/content/pm/PackageInfo;.versionName:Ljava/lang/String; // field@0079
+3d2b5a: 5244 7800                              |001b: iget v4, v4, Landroid/content/pm/PackageInfo;.versionCode:I // field@0078
+3d2b5e: 7110 2dcc 0400                         |001d: invoke-static {v4}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@cc2d
+3d2b64: 0c04                                   |0020: move-result-object v4
+3d2b66: 7220 a8cd 3800                         |0021: invoke-interface {v8, v3}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+3d2b6c: 0c07                                   |0024: move-result-object v7
+3d2b6e: 1f07 bd1f                              |0025: check-cast v7, Ljava/lang/CharSequence; // type@1fbd
+3d2b72: 7110 7204 0700                         |0027: invoke-static {v7}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3d2b78: 0a07                                   |002a: move-result v7
+3d2b7a: 3807 0800                              |002b: if-eqz v7, 0033 // +0008
+3d2b7e: 7230 accd 3806                         |002d: invoke-interface {v8, v3, v6}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+3d2b84: 2803                                   |0030: goto 0033 // +0003
+3d2b86: 0d08                                   |0031: move-exception v8
+3d2b88: 282f                                   |0032: goto 0061 // +002f
+3d2b8a: 7220 a8cd 2800                         |0033: invoke-interface {v8, v2}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+3d2b90: 0c03                                   |0036: move-result-object v3
+3d2b92: 1f03 bd1f                              |0037: check-cast v3, Ljava/lang/CharSequence; // type@1fbd
+3d2b96: 7110 7204 0300                         |0039: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3d2b9c: 0a03                                   |003c: move-result v3
+3d2b9e: 3803 0500                              |003d: if-eqz v3, 0042 // +0005
+3d2ba2: 7230 accd 2804                         |003f: invoke-interface {v8, v2, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+3d2ba8: 7220 a8cd 1900                         |0042: invoke-interface {v9, v1}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+3d2bae: 0c08                                   |0045: move-result-object v8
+3d2bb0: 1f08 bd1f                              |0046: check-cast v8, Ljava/lang/CharSequence; // type@1fbd
+3d2bb4: 7110 7204 0800                         |0048: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3d2bba: 0a08                                   |004b: move-result v8
+3d2bbc: 3808 0500                              |004c: if-eqz v8, 0051 // +0005
+3d2bc0: 7230 accd 1906                         |004e: invoke-interface {v9, v1, v6}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+3d2bc6: 7220 a8cd 0900                         |0051: invoke-interface {v9, v0}, Ljava/util/Map;.get:(Ljava/lang/Object;)Ljava/lang/Object; // method@cda8
+3d2bcc: 0c08                                   |0054: move-result-object v8
+3d2bce: 1f08 bd1f                              |0055: check-cast v8, Ljava/lang/CharSequence; // type@1fbd
+3d2bd2: 7110 7204 0800                         |0057: invoke-static {v8}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3d2bd8: 0a08                                   |005a: move-result v8
+3d2bda: 3808 2300                              |005b: if-eqz v8, 007e // +0023
+3d2bde: 7230 accd 0904                         |005d: invoke-interface {v9, v0, v4}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@cdac
+3d2be4: 281e                                   |0060: goto 007e // +001e
+3d2be6: 2209 ea1f                              |0061: new-instance v9, Ljava/lang/StringBuilder; // type@1fea
+3d2bea: 7010 3dcc 0900                         |0063: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2bf0: 6e20 47cc 5900                         |0066: invoke-virtual {v9, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2bf6: 1a00 c200                              |0069: const-string v0, " get apk version error —— Exception: " // string@00c2
+3d2bfa: 6e20 47cc 0900                         |006b: invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2c00: 6e10 76cc 0800                         |006e: invoke-virtual {v8}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@cc76
+3d2c06: 0c08                                   |0071: move-result-object v8
+3d2c08: 6e20 47cc 8900                         |0072: invoke-virtual {v9, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2c0e: 6e10 50cc 0900                         |0075: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d2c14: 0c08                                   |0078: move-result-object v8
+3d2c16: 1a09 6d5f                              |0079: const-string v9, "Request" // string@5f6d
+3d2c1a: 7120 8a04 8900                         |007b: invoke-static {v9, v8}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d2c20: 0e00                                   |007e: return-void
+      catches       : 1
+        0x0010 - 0x0060
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0031
+
+    #1              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 37 16-bit code units
+3d23c0:                                        |[3d23c0] com.xiaomi.micloudsdk.request.utils.b.b:(Ljava/lang/String;)Ljava/lang/String;
+3d23d0: 6200 dada                              |0000: sget-object v0, Lmf/g$a;.h:Ljava/lang/String; // field@dada
+3d23d4: 6e20 22cc 0300                         |0002: invoke-virtual {v3, v0}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@cc22
+3d23da: 0a01                                   |0005: move-result v1
+3d23dc: 3901 0800                              |0006: if-nez v1, 000e // +0008
+3d23e0: 1200                                   |0008: const/4 v0, #int 0 // #0
+3d23e2: 7120 ebb4 0300                         |0009: invoke-static {v3, v0}, Lcom/xiaomi/micloudsdk/request/utils/a;.h:(Ljava/lang/String;Z)Ljava/lang/String; // method@b4eb
+3d23e8: 0c03                                   |000c: move-result-object v3
+3d23ea: 2817                                   |000d: goto 0024 // +0017
+3d23ec: 2201 ea1f                              |000e: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+3d23f0: 7010 3dcc 0100                         |0010: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d23f6: 1a02 a1ce                              |0013: const-string v2, "relocation url " // string@cea1
+3d23fa: 6e20 47cc 2100                         |0015: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2400: 6e20 47cc 0100                         |0018: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2406: 6e10 50cc 0100                         |001b: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d240c: 0c00                                   |001e: move-result-object v0
+3d240e: 1a01 6d5f                              |001f: const-string v1, "Request" // string@5f6d
+3d2412: 7120 8804 0100                         |0021: invoke-static {v1, v0}, Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I // method@0488
+3d2418: 1103                                   |0024: return-object v3
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'c'
+      type          : '(Lmf/e;Ljava/lang/String;Ljava/util/Map;)Ljava/util/ArrayList;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 3
+      outs          : 3
+      insns size    : 114 16-bit code units
+3d28f4:                                        |[3d28f4] com.xiaomi.micloudsdk.request.utils.b.c:(Lmf/e;Ljava/lang/String;Ljava/util/Map;)Ljava/util/ArrayList;
+3d2904: 3905 0700                              |0000: if-nez v5, 0007 // +0007
+3d2908: 2205 5920                              |0002: new-instance v5, Ljava/util/HashMap; // type@2059
+3d290c: 7010 67cd 0500                         |0004: invoke-direct {v5}, Ljava/util/HashMap;.<init>:()V // method@cd67
+3d2912: 3804 1e00                              |0007: if-eqz v4, 0025 // +001e
+3d2916: 1a00 477c                              |0009: const-string v0, "_nonce" // string@7c47
+3d291a: 7220 a5cd 0500                         |000b: invoke-interface {v5, v0}, Ljava/util/Map;.containsKey:(Ljava/lang/Object;)Z // method@cda5
+3d2920: 0a01                                   |000e: move-result v1
+3d2922: 3901 1600                              |000f: if-nez v1, 0025 // +0016
+3d2926: 2201 4c20                              |0011: new-instance v1, Ljava/util/ArrayList; // type@204c
+3d292a: 7210 afcd 0500                         |0013: invoke-interface {v5}, Ljava/util/Map;.size:()I // method@cdaf
+3d2930: 0a02                                   |0016: move-result v2
+3d2932: d802 0201                              |0017: add-int/lit8 v2, v2, #int 1 // #01
+3d2936: 7020 1dcd 2100                         |0019: invoke-direct {v1, v2}, Ljava/util/ArrayList;.<init>:(I)V // method@cd1d
+3d293c: 2202 6822                              |001c: new-instance v2, Lorg/apache/http/message/BasicNameValuePair; // type@2268
+3d2940: 7030 add6 0204                         |001e: invoke-direct {v2, v0, v4}, Lorg/apache/http/message/BasicNameValuePair;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6ad
+3d2946: 6e20 20cd 2100                         |0021: invoke-virtual {v1, v2}, Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z // method@cd20
+3d294c: 280a                                   |0024: goto 002e // +000a
+3d294e: 2201 4c20                              |0025: new-instance v1, Ljava/util/ArrayList; // type@204c
+3d2952: 7210 afcd 0500                         |0027: invoke-interface {v5}, Ljava/util/Map;.size:()I // method@cdaf
+3d2958: 0a04                                   |002a: move-result v4
+3d295a: 7020 1dcd 4100                         |002b: invoke-direct {v1, v4}, Ljava/util/ArrayList;.<init>:(I)V // method@cd1d
+3d2960: 7210 a7cd 0500                         |002e: invoke-interface {v5}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@cda7
+3d2966: 0c04                                   |0031: move-result-object v4
+3d2968: 7210 c8cd 0400                         |0032: invoke-interface {v4}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@cdc8
+3d296e: 0c04                                   |0035: move-result-object v4
+3d2970: 7210 7ccd 0400                         |0036: invoke-interface {v4}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+3d2976: 0a05                                   |0039: move-result v5
+3d2978: 3805 3700                              |003a: if-eqz v5, 0071 // +0037
+3d297c: 7210 7dcd 0400                         |003c: invoke-interface {v4}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+3d2982: 0c05                                   |003f: move-result-object v5
+3d2984: 1f05 6120                              |0040: check-cast v5, Ljava/util/Map$Entry; // type@2061
+3d2988: 7210 a2cd 0500                         |0042: invoke-interface {v5}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+3d298e: 0c00                                   |0045: move-result-object v0
+3d2990: 1f00 e81f                              |0046: check-cast v0, Ljava/lang/String; // type@1fe8
+3d2994: 7210 a3cd 0500                         |0048: invoke-interface {v5}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+3d299a: 0c05                                   |004b: move-result-object v5
+3d299c: 1f05 e81f                              |004c: check-cast v5, Ljava/lang/String; // type@1fe8
+3d29a0: 1a02 047c                              |004e: const-string v2, "_" // string@7c04
+3d29a4: 6e20 22cc 2000                         |0050: invoke-virtual {v0, v2}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@cc22
+3d29aa: 0a02                                   |0053: move-result v2
+3d29ac: 3902 1400                              |0054: if-nez v2, 0068 // +0014
+3d29b0: 3805 0300                              |0056: if-eqz v5, 0059 // +0003
+3d29b4: 2803                                   |0058: goto 005b // +0003
+3d29b6: 1a05 0000                              |0059: const-string v5, "" // string@0000
+3d29ba: 7220 35d1 5300                         |005b: invoke-interface {v3, v5}, Lmf/e;.a:(Ljava/lang/String;)Ljava/lang/String; // method@d135
+3d29c0: 0c05                                   |005e: move-result-object v5
+3d29c2: 2202 6822                              |005f: new-instance v2, Lorg/apache/http/message/BasicNameValuePair; // type@2268
+3d29c6: 7030 add6 0205                         |0061: invoke-direct {v2, v0, v5}, Lorg/apache/http/message/BasicNameValuePair;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6ad
+3d29cc: 6e20 20cd 2100                         |0064: invoke-virtual {v1, v2}, Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z // method@cd20
+3d29d2: 28cf                                   |0067: goto 0036 // -0031
+3d29d4: 2202 6822                              |0068: new-instance v2, Lorg/apache/http/message/BasicNameValuePair; // type@2268
+3d29d8: 7030 add6 0205                         |006a: invoke-direct {v2, v0, v5}, Lorg/apache/http/message/BasicNameValuePair;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6ad
+3d29de: 6e20 20cd 2100                         |006d: invoke-virtual {v1, v2}, Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z // method@cd20
+3d29e4: 28c6                                   |0070: goto 0036 // -003a
+3d29e6: 1101                                   |0071: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 25
+      ins           : 6
+      outs          : 5
+      insns size    : 494 16-bit code units
+3d241c:                                        |[3d241c] com.xiaomi.micloudsdk.request.utils.b.d:(Ljava/lang/String;Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String;
+3d242c: 0801 1400                              |0000: move-object/from16 v1, v20
+3d2430: 1a02 4d52                              |0002: const-string v2, "Micloud" // string@524d
+3d2434: 3915 0900                              |0004: if-nez v21, 000d // +0009
+3d2438: 2200 5920                              |0006: new-instance v0, Ljava/util/HashMap; // type@2059
+3d243c: 7010 67cd 0000                         |0008: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+3d2442: 0703                                   |000b: move-object v3, v0
+3d2444: 2803                                   |000c: goto 000f // +0003
+3d2446: 0803 1500                              |000d: move-object/from16 v3, v21
+3d244a: 3916 0900                              |000f: if-nez v22, 0018 // +0009
+3d244e: 2200 5920                              |0011: new-instance v0, Ljava/util/HashMap; // type@2059
+3d2452: 7010 67cd 0000                         |0013: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@cd67
+3d2458: 0704                                   |0016: move-object v4, v0
+3d245a: 2803                                   |0017: goto 001a // +0003
+3d245c: 0804 1600                              |0018: move-object/from16 v4, v22
+3d2460: 7120 ecb4 4300                         |001a: invoke-static {v3, v4}, Lcom/xiaomi/micloudsdk/request/utils/b;.a:(Ljava/util/Map;Ljava/util/Map;)V // method@b4ec
+3d2466: 7120 83cf 4300                         |001d: invoke-static {v3, v4}, Lkf/d;.a:(Ljava/util/Map;Ljava/util/Map;)V // method@cf83
+3d246c: 7701 edb4 1300                         |0020: invoke-static/range {v19}, Lcom/xiaomi/micloudsdk/request/utils/b;.b:(Ljava/lang/String;)Ljava/lang/String; // method@b4ed
+3d2472: 0c06                                   |0023: move-result-object v6
+3d2474: 1a07 0000                              |0024: const-string v7, "" // string@0000
+3d2478: 7110 7ecf 0600                         |0026: invoke-static {v6}, Lkf/b;.l:(Ljava/lang/String;)Z // method@cf7e
+3d247e: 0a08                                   |0029: move-result v8
+3d2480: 1209                                   |002a: const/4 v9, #int 0 // #0
+3d2482: 1220                                   |002b: const/4 v0, #int 2 // #2
+3d2484: 3509 a901                              |002c: if-ge v9, v0, 01d5 // +01a9
+3d2488: 3918 0a00                              |002e: if-nez v24, 0038 // +000a
+3d248c: 7100 f0b4 0000                         |0030: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/b;.e:()Lhf/b; // method@b4f0
+3d2492: 0c00                                   |0033: move-result-object v0
+3d2494: 2806                                   |0034: goto 003a // +0006
+3d2496: 0d00                                   |0035: move-exception v0
+3d2498: 2900 af01                              |0036: goto/16 01e5 // +01af
+3d249c: 0800 1800                              |0038: move-object/from16 v0, v24
+3d24a0: 7210 5bca 0000                         |003a: invoke-interface {v0}, Lhf/b;.a:()Lhf/b$a; // method@ca5b
+3d24a6: 0c00                                   |003d: move-result-object v0
+3d24a8: 7220 56ca 6000                         |003e: invoke-interface {v0, v6}, Lhf/b$a;.a:(Ljava/lang/String;)Lmf/e; // method@ca56
+3d24ae: 0c0b                                   |0041: move-result-object v11
+3d24b0: 3808 0700                              |0042: if-eqz v8, 0049 // +0007
+3d24b4: 7100 22b5 0000                         |0044: invoke-static {}, Lcom/xiaomi/micloudsdk/utils/CloudCoder;.a:()Ljava/lang/String; // method@b522
+3d24ba: 0c0c                                   |0047: move-result-object v12
+3d24bc: 2802                                   |0048: goto 004a // +0002
+3d24be: 120c                                   |0049: const/4 v12, #int 0 // #0
+3d24c0: 7130 eeb4 cb04                         |004a: invoke-static {v11, v12, v4}, Lcom/xiaomi/micloudsdk/request/utils/b;.c:(Lmf/e;Ljava/lang/String;Ljava/util/Map;)Ljava/util/ArrayList; // method@b4ee
+3d24c6: 0c0c                                   |004d: move-result-object v12
+3d24c8: 7220 5aca c000                         |004e: invoke-interface {v0, v12}, Lhf/b$a;.e:(Ljava/util/ArrayList;)V // method@ca5a
+3d24ce: 7240 58ca 10c6                         |0051: invoke-interface {v0, v1, v6, v12}, Lhf/b$a;.c:(Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;Ljava/lang/String;Ljava/util/ArrayList;)V // method@ca58
+3d24d4: 7100 ffb4 0000                         |0054: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.c:()Lcom/xiaomi/micloudsdk/request/utils/c$a; // method@b4ff
+3d24da: 0c0d                                   |0057: move-result-object v13
+3d24dc: 7210 f9b4 0d00                         |0058: invoke-interface {v13}, Lcom/xiaomi/micloudsdk/request/utils/c$a;.c:()Ljava/lang/String; // method@b4f9
+3d24e2: 0c0d                                   |005b: move-result-object v13
+3d24e4: 7210 57ca 0000                         |005c: invoke-interface {v0}, Lhf/b$a;.b:()Ljava/lang/String; // method@ca57
+3d24ea: 0c0e                                   |005f: move-result-object v14
+3d24ec: 080f 1700                              |0060: move-object/from16 v15, v23
+3d24f0: 7130 f1b4 ed0f                         |0062: invoke-static {v13, v14, v15}, Lcom/xiaomi/micloudsdk/request/utils/b;.f:(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Lorg/apache/http/Header; // method@b4f1
+3d24f6: 0c0d                                   |0065: move-result-object v13
+3d24f8: 220e 4c20                              |0066: new-instance v14, Ljava/util/ArrayList; // type@204c
+3d24fc: 7010 1ccd 0e00                         |0068: invoke-direct {v14}, Ljava/util/ArrayList;.<init>:()V // method@cd1c
+3d2502: 7210 a7cd 0300                         |006b: invoke-interface {v3}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@cda7
+3d2508: 0c10                                   |006e: move-result-object v16
+3d250a: 7801 c8cd 1000                         |006f: invoke-interface/range {v16}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@cdc8
+3d2510: 0c10                                   |0072: move-result-object v16
+3d2512: 7801 7ccd 1000                         |0073: invoke-interface/range {v16}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+3d2518: 0a11                                   |0076: move-result v17
+3d251a: 3811 2500                              |0077: if-eqz v17, 009c // +0025
+3d251e: 7801 7dcd 1000                         |0079: invoke-interface/range {v16}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+3d2524: 0c11                                   |007c: move-result-object v17
+3d2526: 1f11 6120                              |007d: check-cast v17, Ljava/util/Map$Entry; // type@2061
+3d252a: 220a 6722                              |007f: new-instance v10, Lorg/apache/http/message/BasicHeader; // type@2267
+3d252e: 7801 a2cd 1100                         |0081: invoke-interface/range {v17}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+3d2534: 0c12                                   |0084: move-result-object v18
+3d2536: 0805 1200                              |0085: move-object/from16 v5, v18
+3d253a: 1f05 e81f                              |0087: check-cast v5, Ljava/lang/String; // type@1fe8
+3d253e: 7801 a3cd 1100                         |0089: invoke-interface/range {v17}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+3d2544: 0c11                                   |008c: move-result-object v17
+3d2546: 0812 0300                              |008d: move-object/from16 v18, v3
+3d254a: 0803 1100                              |008f: move-object/from16 v3, v17
+3d254e: 1f03 e81f                              |0091: check-cast v3, Ljava/lang/String; // type@1fe8
+3d2552: 7030 acd6 5a03                         |0093: invoke-direct {v10, v5, v3}, Lorg/apache/http/message/BasicHeader;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6ac
+3d2558: 7220 8bcd ae00                         |0096: invoke-interface {v14, v10}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@cd8b
+3d255e: 0803 1200                              |0099: move-object/from16 v3, v18
+3d2562: 28d8                                   |009b: goto 0073 // -0028
+3d2564: 0812 0300                              |009c: move-object/from16 v18, v3
+3d2568: 7220 59ca e000                         |009e: invoke-interface {v0, v14}, Lhf/b$a;.d:(Ljava/util/List;)V // method@ca59
+3d256e: 6200 a9cd                              |00a1: sget-object v0, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;.GET:Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod; // field@cda9
+3d2572: 6e20 e4cb 1000                         |00a3: invoke-virtual {v0, v1}, Ljava/lang/Object;.equals:(Ljava/lang/Object;)Z // method@cbe4
+3d2578: 0a00                                   |00a6: move-result v0
+3d257a: 3800 0e00                              |00a7: if-eqz v0, 00b5 // +000e
+3d257e: 7120 dbb4 c600                         |00a9: invoke-static {v6, v12}, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils;.a:(Ljava/lang/String;Ljava/util/List;)Ljava/lang/String; // method@b4db
+3d2584: 0c00                                   |00ac: move-result-object v0
+3d2586: 7140 79cf d0be                         |00ad: invoke-static {v0, v13, v14, v11}, Lkf/b;.g:(Ljava/lang/String;Lorg/apache/http/Header;Ljava/util/List;Lmf/e;)Ljava/lang/String; // method@cf79
+3d258c: 0c07                                   |00b0: move-result-object v7
+3d258e: 2900 2401                              |00b1: goto/16 01d5 // +0124
+3d2592: 0d00                                   |00b3: move-exception v0
+3d2594: 286a                                   |00b4: goto 011e // +006a
+3d2596: 6200 aacd                              |00b5: sget-object v0, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;.POST:Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod; // field@cdaa
+3d259a: 6e20 e4cb 1000                         |00b7: invoke-virtual {v0, v1}, Ljava/lang/Object;.equals:(Ljava/lang/Object;)Z // method@cbe4
+3d25a0: 0a00                                   |00ba: move-result v0
+3d25a2: 3800 0f00                              |00bb: if-eqz v0, 00ca // +000f
+3d25a6: 2200 5a22                              |00bd: new-instance v0, Lorg/apache/http/client/entity/UrlEncodedFormEntity; // type@225a
+3d25aa: 1a03 f46e                              |00bf: const-string v3, "UTF-8" // string@6ef4
+3d25ae: 7030 9cd6 c003                         |00c1: invoke-direct {v0, v12, v3}, Lorg/apache/http/client/entity/UrlEncodedFormEntity;.<init>:(Ljava/util/List;Ljava/lang/String;)V // method@d69c
+3d25b4: 715b 7ccf 06ed                         |00c4: invoke-static {v6, v0, v13, v14, v11}, Lkf/b;.j:(Ljava/lang/String;Lorg/apache/http/client/entity/UrlEncodedFormEntity;Lorg/apache/http/Header;Ljava/util/List;Lmf/e;)Ljava/lang/String; // method@cf7c
+3d25ba: 0c07                                   |00c7: move-result-object v7
+3d25bc: 2900 0d01                              |00c8: goto/16 01d5 // +010d
+3d25c0: 6200 abcd                              |00ca: sget-object v0, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;.POST_JSON:Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod; // field@cdab
+3d25c4: 6e20 e4cb 1000                         |00cc: invoke-virtual {v0, v1}, Ljava/lang/Object;.equals:(Ljava/lang/Object;)Z // method@cbe4
+3d25ca: 0a00                                   |00cf: move-result v0
+3d25cc: 3800 4600                              |00d0: if-eqz v0, 0116 // +0046
+3d25d0: 2200 7022                              |00d2: new-instance v0, Lorg/json/JSONObject; // type@2270
+3d25d4: 7010 bfd6 0000                         |00d4: invoke-direct {v0}, Lorg/json/JSONObject;.<init>:()V // method@d6bf
+3d25da: 1203                                   |00d7: const/4 v3, #int 0 // #0
+3d25dc: 6e10 2ccd 0c00                         |00d8: invoke-virtual {v12}, Ljava/util/ArrayList;.size:()I // method@cd2c
+3d25e2: 0a05                                   |00db: move-result v5
+3d25e4: 3553 1e00                              |00dc: if-ge v3, v5, 00fa // +001e
+3d25e8: 6e20 24cd 3c00                         |00de: invoke-virtual {v12, v3}, Ljava/util/ArrayList;.get:(I)Ljava/lang/Object; // method@cd24
+3d25ee: 0c05                                   |00e1: move-result-object v5
+3d25f0: 1f05 5522                              |00e2: check-cast v5, Lorg/apache/http/NameValuePair; // type@2255
+3d25f4: 7210 90d6 0500                         |00e4: invoke-interface {v5}, Lorg/apache/http/NameValuePair;.getName:()Ljava/lang/String; // method@d690
+3d25fa: 0c05                                   |00e7: move-result-object v5
+3d25fc: 6e20 24cd 3c00                         |00e8: invoke-virtual {v12, v3}, Ljava/util/ArrayList;.get:(I)Ljava/lang/Object; // method@cd24
+3d2602: 0c0a                                   |00eb: move-result-object v10
+3d2604: 1f0a 5522                              |00ec: check-cast v10, Lorg/apache/http/NameValuePair; // type@2255
+3d2608: 7210 91d6 0a00                         |00ee: invoke-interface {v10}, Lorg/apache/http/NameValuePair;.getValue:()Ljava/lang/String; // method@d691
+3d260e: 0c0a                                   |00f1: move-result-object v10
+3d2610: 6e30 ddd6 500a                         |00f2: invoke-virtual {v0, v5, v10}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3d2616: d803 0301                              |00f5: add-int/lit8 v3, v3, #int 1 // #01
+3d261a: 28e1                                   |00f7: goto 00d8 // -001f
+3d261c: 0d00                                   |00f8: move-exception v0
+3d261e: 2812                                   |00f9: goto 010b // +0012
+3d2620: 2203 6322                              |00fa: new-instance v3, Lorg/apache/http/entity/StringEntity; // type@2263
+3d2624: 6e10 e1d6 0000                         |00fc: invoke-virtual {v0}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@d6e1
+3d262a: 0c00                                   |00ff: move-result-object v0
+3d262c: 1a05 40eb                              |0100: const-string v5, "utf-8" // string@eb40
+3d2630: 7030 a8d6 0305                         |0102: invoke-direct {v3, v0, v5}, Lorg/apache/http/entity/StringEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6a8
+3d2636: 715b 7acf 36ed                         |0105: invoke-static {v6, v3, v13, v14, v11}, Lkf/b;.h:(Ljava/lang/String;Lorg/apache/http/entity/StringEntity;Lorg/apache/http/Header;Ljava/util/List;Lmf/e;)Ljava/lang/String; // method@cf7a
+3d263c: 0c07                                   |0108: move-result-object v7
+3d263e: 2900 cc00                              |0109: goto/16 01d5 // +00cc
+3d2642: 2203 731b                              |010b: new-instance v3, Lcom/xiaomi/micloudsdk/exception/CloudServerException; // type@1b73
+3d2646: 6e10 eacb 0000                         |010d: invoke-virtual {v0}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@cbea
+3d264c: 0c00                                   |0110: move-result-object v0
+3d264e: 1205                                   |0111: const/4 v5, #int 0 // #0
+3d2650: 7030 bcb4 5300                         |0112: invoke-direct {v3, v5, v0}, Lcom/xiaomi/micloudsdk/exception/CloudServerException;.<init>:(ILjava/lang/String;)V // method@b4bc
+3d2656: 2703                                   |0115: throw v3
+3d2658: 2200 cd1f                              |0116: new-instance v0, Ljava/lang/IllegalArgumentException; // type@1fcd
+3d265c: 1a03 e1a4                              |0118: const-string v3, "http method not supported." // string@a4e1
+3d2660: 7020 a4cb 3000                         |011a: invoke-direct {v0, v3}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@cba4
+3d2666: 2700                                   |011d: throw v0
+3d2668: 2203 ea1f                              |011e: new-instance v3, Ljava/lang/StringBuilder; // type@1fea
+3d266c: 7010 3dcc 0300                         |0120: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2672: 1a05 fa11                              |0123: const-string v5, "CloudServer Exception: " // string@11fa
+3d2676: 6e20 47cc 5300                         |0125: invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d267c: 7110 8c04 0000                         |0128: invoke-static {v0}, Landroid/util/Log;.getStackTraceString:(Ljava/lang/Throwable;)Ljava/lang/String; // method@048c
+3d2682: 0c05                                   |012b: move-result-object v5
+3d2684: 7110 a9d7 0500                         |012c: invoke-static {v5}, Lpl/a;.a:(Ljava/lang/String;)Ljava/lang/String; // method@d7a9
+3d268a: 0c05                                   |012f: move-result-object v5
+3d268c: 6e20 47cc 5300                         |0130: invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2692: 6e10 50cc 0300                         |0133: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d2698: 0c03                                   |0136: move-result-object v3
+3d269a: 7120 8a04 3200                         |0137: invoke-static {v2, v3}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d26a0: 6e10 c3b4 0000                         |013a: invoke-virtual {v0}, Lcom/xiaomi/micloudsdk/exception/CloudServerException;.getStatusCode:()I // method@b4c3
+3d26a6: 0a03                                   |013d: move-result v3
+3d26a8: 1305 9101                              |013e: const/16 v5, #int 401 // #191
+3d26ac: 3353 6400                              |0140: if-ne v3, v5, 01a4 // +0064
+3d26b0: 3918 5c00                              |0142: if-nez v24, 019e // +005c
+3d26b4: 1a03 f911                              |0144: const-string v3, "CloudServer 401 Exception: retry=" // string@11f9
+3d26b8: 3909 3100                              |0146: if-nez v9, 0177 // +0031
+3d26bc: 2205 ea1f                              |0148: new-instance v5, Ljava/lang/StringBuilder; // type@1fea
+3d26c0: 7010 3dcc 0500                         |014a: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d26c6: 6e20 47cc 3500                         |014d: invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d26cc: 6e20 43cc 9500                         |0150: invoke-virtual {v5, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+3d26d2: 7110 8c04 0000                         |0153: invoke-static {v0}, Landroid/util/Log;.getStackTraceString:(Ljava/lang/Throwable;)Ljava/lang/String; // method@048c
+3d26d8: 0c03                                   |0156: move-result-object v3
+3d26da: 7110 a9d7 0300                         |0157: invoke-static {v3}, Lpl/a;.a:(Ljava/lang/String;)Ljava/lang/String; // method@d7a9
+3d26e0: 0c03                                   |015a: move-result-object v3
+3d26e2: 6e20 47cc 3500                         |015b: invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d26e8: 6e10 50cc 0500                         |015e: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d26ee: 0c03                                   |0161: move-result-object v3
+3d26f0: 7120 8a04 3200                         |0162: invoke-static {v2, v3}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d26f6: 7100 ffb4 0000                         |0165: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.c:()Lcom/xiaomi/micloudsdk/request/utils/c$a; // method@b4ff
+3d26fc: 0c03                                   |0168: move-result-object v3
+3d26fe: 7210 fbb4 0300                         |0169: invoke-interface {v3}, Lcom/xiaomi/micloudsdk/request/utils/c$a;.e:()V // method@b4fb
+3d2704: 530a 8bcd                              |016c: iget-wide v10, v0, Lcom/xiaomi/micloudsdk/exception/CloudServerException;.serverDate:J // field@cd8b
+3d2708: 7100 52cc 0000                         |016e: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@cc52
+3d270e: 0b0c                                   |0171: move-result-wide v12
+3d2710: bcca                                   |0172: sub-long/2addr v10, v12
+3d2712: 7120 25b5 ba00                         |0173: invoke-static {v10, v11}, Lcom/xiaomi/micloudsdk/utils/CloudCoder;.d:(J)V // method@b525
+3d2718: 2804                                   |0176: goto 017a // +0004
+3d271a: 1215                                   |0177: const/4 v5, #int 1 // #1
+3d271c: 3259 0800                              |0178: if-eq v9, v5, 0180 // +0008
+3d2720: d809 0901                              |017a: add-int/lit8 v9, v9, #int 1 // #01
+3d2724: 0803 1200                              |017c: move-object/from16 v3, v18
+3d2728: 2900 adfe                              |017e: goto/16 002b // -0153
+3d272c: 2201 ea1f                              |0180: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+3d2730: 7010 3dcc 0100                         |0182: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2736: 6e20 47cc 3100                         |0185: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d273c: 6e20 43cc 9100                         |0188: invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@cc43
+3d2742: 7110 8c04 0000                         |018b: invoke-static {v0}, Landroid/util/Log;.getStackTraceString:(Ljava/lang/Throwable;)Ljava/lang/String; // method@048c
+3d2748: 0c03                                   |018e: move-result-object v3
+3d274a: 7110 a9d7 0300                         |018f: invoke-static {v3}, Lpl/a;.a:(Ljava/lang/String;)Ljava/lang/String; // method@d7a9
+3d2750: 0c03                                   |0192: move-result-object v3
+3d2752: 6e20 47cc 3100                         |0193: invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2758: 6e10 50cc 0100                         |0196: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d275e: 0c01                                   |0199: move-result-object v1
+3d2760: 7120 8a04 1200                         |019a: invoke-static {v2, v1}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d2766: 2700                                   |019d: throw v0
+3d2768: 1a01 f811                              |019e: const-string v1, "CloudServer 401 Exception: customize token is not null, throw exception" // string@11f8
+3d276c: 7120 8a04 1200                         |01a0: invoke-static {v2, v1}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d2772: 2700                                   |01a3: throw v0
+3d2774: 7100 fdb4 0000                         |01a4: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.a:()Landroid/content/Context; // method@b4fd
+3d277a: 0c01                                   |01a7: move-result-object v1
+3d277c: 7120 37d0 0100                         |01a8: invoke-static {v1, v0}, Lll/o;.b:(Landroid/content/Context;Lcom/xiaomi/micloudsdk/exception/CloudServerException;)V // method@d037
+3d2782: 2700                                   |01ab: throw v0
+3d2784: 0d00                                   |01ac: move-exception v0
+3d2786: 0701                                   |01ad: move-object v1, v0
+3d2788: 2200 ea1f                              |01ae: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+3d278c: 7010 3dcc 0000                         |01b0: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2792: 1a03 aa11                              |01b3: const-string v3, "CipherException: " // string@11aa
+3d2796: 6e20 47cc 3000                         |01b5: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d279c: 7110 8c04 0100                         |01b8: invoke-static {v1}, Landroid/util/Log;.getStackTraceString:(Ljava/lang/Throwable;)Ljava/lang/String; // method@048c
+3d27a2: 0c03                                   |01bb: move-result-object v3
+3d27a4: 7110 a9d7 0300                         |01bc: invoke-static {v3}, Lpl/a;.a:(Ljava/lang/String;)Ljava/lang/String; // method@d7a9
+3d27aa: 0c03                                   |01bf: move-result-object v3
+3d27ac: 6e20 47cc 3000                         |01c0: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d27b2: 6e10 50cc 0000                         |01c3: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d27b8: 0c00                                   |01c6: move-result-object v0
+3d27ba: 7120 8a04 0200                         |01c7: invoke-static {v2, v0}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I // method@048a
+3d27c0: 2200 731b                              |01ca: new-instance v0, Lcom/xiaomi/micloudsdk/exception/CloudServerException; // type@1b73
+3d27c4: 6e10 eacb 0100                         |01cc: invoke-virtual {v1}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@cbea
+3d27ca: 0c01                                   |01cf: move-result-object v1
+3d27cc: 1202                                   |01d0: const/4 v2, #int 0 // #0
+3d27ce: 7030 bcb4 2001                         |01d1: invoke-direct {v0, v2, v1}, Lcom/xiaomi/micloudsdk/exception/CloudServerException;.<init>:(ILjava/lang/String;)V // method@b4bc
+3d27d4: 2700                                   |01d4: throw v0
+3d27d6: 7100 fdb4 0000                         |01d5: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.a:()Landroid/content/Context; // method@b4fd
+3d27dc: 0c00                                   |01d8: move-result-object v0
+3d27de: 7120 36d0 7000                         |01d9: invoke-static {v0, v7}, Lll/o;.a:(Landroid/content/Context;Ljava/lang/String;)V // method@d036
+3d27e4: 7100 fdb4 0000                         |01dc: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.a:()Landroid/content/Context; // method@b4fd
+3d27ea: 0c00                                   |01df: move-result-object v0
+3d27ec: 1211                                   |01e0: const/4 v1, #int 1 // #1
+3d27ee: 7120 34d0 1000                         |01e1: invoke-static {v0, v1}, Lll/h;.a:(Landroid/content/Context;Z)V // method@d034
+3d27f4: 1107                                   |01e4: return-object v7
+3d27f6: 7100 fdb4 0000                         |01e5: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.a:()Landroid/content/Context; // method@b4fd
+3d27fc: 0c01                                   |01e8: move-result-object v1
+3d27fe: 1202                                   |01e9: const/4 v2, #int 0 // #0
+3d2800: 7120 34d0 2100                         |01ea: invoke-static {v1, v2}, Lll/h;.a:(Landroid/content/Context;Z)V // method@d034
+3d2806: 2700                                   |01ed: throw v0
+      catches       : 8
+        0x0020 - 0x0048
+          Ljava/io/IOException; -> 0x0035
+        0x004a - 0x004e
+          Lcom/xiaomi/micloudsdk/exception/CipherException; -> 0x01ac
+          Ljava/io/IOException; -> 0x0035
+        0x004e - 0x00a1
+          Ljava/io/IOException; -> 0x0035
+        0x00a1 - 0x00d7
+          Lcom/xiaomi/micloudsdk/exception/CloudServerException; -> 0x00b3
+          Ljava/io/IOException; -> 0x0035
+        0x00d8 - 0x00f5
+          Lorg/json/JSONException; -> 0x00f8
+          Lcom/xiaomi/micloudsdk/exception/CloudServerException; -> 0x00b3
+          Ljava/io/IOException; -> 0x0035
+        0x00fa - 0x011e
+          Lcom/xiaomi/micloudsdk/exception/CloudServerException; -> 0x00b3
+          Ljava/io/IOException; -> 0x0035
+        0x011e - 0x013e
+          Ljava/io/IOException; -> 0x0035
+        0x0148 - 0x01e4
+          Ljava/io/IOException; -> 0x0035
+
+    #4              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'e'
+      type          : '()Lhf/b;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 3
+      insns size    : 38 16-bit code units
+3d2354:                                        |[3d2354] com.xiaomi.micloudsdk.request.utils.b.e:()Lhf/b;
+3d2364: 7100 ffb4 0000                         |0000: invoke-static {}, Lcom/xiaomi/micloudsdk/request/utils/c;.c:()Lcom/xiaomi/micloudsdk/request/utils/c$a; // method@b4ff
+3d236a: 0c00                                   |0003: move-result-object v0
+3d236c: 7210 f8b4 0000                         |0004: invoke-interface {v0}, Lcom/xiaomi/micloudsdk/request/utils/c$a;.b:()Lhf/b; // method@b4f8
+3d2372: 0c00                                   |0007: move-result-object v0
+3d2374: 1100                                   |0008: return-object v0
+3d2376: 0d00                                   |0009: move-exception v0
+3d2378: 2201 731b                              |000a: new-instance v1, Lcom/xiaomi/micloudsdk/exception/CloudServerException; // type@1b73
+3d237c: 2202 ea1f                              |000c: new-instance v2, Ljava/lang/StringBuilder; // type@1fea
+3d2380: 7010 3dcc 0200                         |000e: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2386: 1a03 d6cc                              |0011: const-string v3, "queryAuthToken() returned null, errMsg = " // string@ccd6
+3d238a: 6e20 47cc 3200                         |0013: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2390: 6e10 44d1 0000                         |0016: invoke-virtual {v0}, Lmicloud/compat/independent/request/QueryAuthTokenException;.getMessage:()Ljava/lang/String; // method@d144
+3d2396: 0c00                                   |0019: move-result-object v0
+3d2398: 6e20 47cc 0200                         |001a: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d239e: 6e10 50cc 0200                         |001d: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d23a4: 0c00                                   |0020: move-result-object v0
+3d23a6: 1202                                   |0021: const/4 v2, #int 0 // #0
+3d23a8: 7030 bcb4 2100                         |0022: invoke-direct {v1, v2, v0}, Lcom/xiaomi/micloudsdk/exception/CloudServerException;.<init>:(ILjava/lang/String;)V // method@b4bc
+3d23ae: 2701                                   |0025: throw v1
+      catches       : 1
+        0x0000 - 0x0008
+          Lmicloud/compat/independent/request/QueryAuthTokenException; -> 0x0009
+
+    #5              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'f'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Lorg/apache/http/Header;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 142 16-bit code units
+3d29e8:                                        |[3d29e8] com.xiaomi.micloudsdk.request.utils.b.f:(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Lorg/apache/http/Header;
+3d29f8: 2200 ea1f                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@1fea
+3d29fc: 7010 3dcc 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3d2a02: 3803 0a00                              |0005: if-eqz v3, 000f // +000a
+3d2a06: 1a01 e5d1                              |0007: const-string v1, "serviceToken=" // string@d1e5
+3d2a0a: 6e20 47cc 1000                         |0009: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2a10: 6e20 47cc 3000                         |000c: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2a16: 3802 1300                              |000f: if-eqz v2, 0022 // +0013
+3d2a1a: 6e10 4dcc 0000                         |0011: invoke-virtual {v0}, Ljava/lang/StringBuilder;.length:()I // method@cc4d
+3d2a20: 0a03                                   |0014: move-result v3
+3d2a22: 3903 0500                              |0015: if-nez v3, 001a // +0005
+3d2a26: 1a03 7284                              |0017: const-string v3, "cUserId=" // string@8472
+3d2a2a: 2803                                   |0019: goto 001c // +0003
+3d2a2c: 1a03 6d05                              |001a: const-string v3, "; cUserId=" // string@056d
+3d2a30: 6e20 47cc 3000                         |001c: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2a36: 6e20 47cc 2000                         |001f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2a3c: 3804 6000                              |0022: if-eqz v4, 0082 // +0060
+3d2a40: 7210 afcd 0400                         |0024: invoke-interface {v4}, Ljava/util/Map;.size:()I // method@cdaf
+3d2a46: 0a02                                   |0027: move-result v2
+3d2a48: 3d02 5a00                              |0028: if-lez v2, 0082 // +005a
+3d2a4c: 7210 a7cd 0400                         |002a: invoke-interface {v4}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@cda7
+3d2a52: 0c02                                   |002d: move-result-object v2
+3d2a54: 7210 c8cd 0200                         |002e: invoke-interface {v2}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@cdc8
+3d2a5a: 0c02                                   |0031: move-result-object v2
+3d2a5c: 7210 7ccd 0200                         |0032: invoke-interface {v2}, Ljava/util/Iterator;.hasNext:()Z // method@cd7c
+3d2a62: 0a03                                   |0035: move-result v3
+3d2a64: 3803 4c00                              |0036: if-eqz v3, 0082 // +004c
+3d2a68: 7210 7dcd 0200                         |0038: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@cd7d
+3d2a6e: 0c03                                   |003b: move-result-object v3
+3d2a70: 1f03 6120                              |003c: check-cast v3, Ljava/util/Map$Entry; // type@2061
+3d2a74: 7210 a2cd 0300                         |003e: invoke-interface {v3}, Ljava/util/Map$Entry;.getKey:()Ljava/lang/Object; // method@cda2
+3d2a7a: 0c04                                   |0041: move-result-object v4
+3d2a7c: 1f04 e81f                              |0042: check-cast v4, Ljava/lang/String; // type@1fe8
+3d2a80: 1a01 7084                              |0044: const-string v1, "cUserId" // string@8470
+3d2a84: 6e20 09cc 4100                         |0046: invoke-virtual {v1, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+3d2a8a: 0a01                                   |0049: move-result v1
+3d2a8c: 3901 e8ff                              |004a: if-nez v1, 0032 // -0018
+3d2a90: 1a01 1deb                              |004c: const-string v1, "userId" // string@eb1d
+3d2a94: 6e20 09cc 4100                         |004e: invoke-virtual {v1, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+3d2a9a: 0a01                                   |0051: move-result v1
+3d2a9c: 3901 e0ff                              |0052: if-nez v1, 0032 // -0020
+3d2aa0: 1a01 e3d1                              |0054: const-string v1, "serviceToken" // string@d1e3
+3d2aa4: 6e20 09cc 4100                         |0056: invoke-virtual {v1, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@cc09
+3d2aaa: 0a01                                   |0059: move-result v1
+3d2aac: 3901 d8ff                              |005a: if-nez v1, 0032 // -0028
+3d2ab0: 7110 7204 0400                         |005c: invoke-static {v4}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0472
+3d2ab6: 0a01                                   |005f: move-result v1
+3d2ab8: 3901 d2ff                              |0060: if-nez v1, 0032 // -002e
+3d2abc: 6e10 4dcc 0000                         |0062: invoke-virtual {v0}, Ljava/lang/StringBuilder;.length:()I // method@cc4d
+3d2ac2: 0a01                                   |0065: move-result v1
+3d2ac4: 3901 0500                              |0066: if-nez v1, 006b // +0005
+3d2ac8: 1a01 0000                              |0068: const-string v1, "" // string@0000
+3d2acc: 2803                                   |006a: goto 006d // +0003
+3d2ace: 1a01 6b05                              |006b: const-string v1, "; " // string@056b
+3d2ad2: 6e20 47cc 1000                         |006d: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2ad8: 6e20 47cc 4000                         |0070: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2ade: 1a04 a105                              |0073: const-string v4, "=" // string@05a1
+3d2ae2: 6e20 47cc 4000                         |0075: invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2ae8: 7210 a3cd 0300                         |0078: invoke-interface {v3}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@cda3
+3d2aee: 0c03                                   |007b: move-result-object v3
+3d2af0: 1f03 e81f                              |007c: check-cast v3, Ljava/lang/String; // type@1fe8
+3d2af4: 6e20 47cc 3000                         |007e: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3d2afa: 28b1                                   |0081: goto 0032 // -004f
+3d2afc: 2202 6722                              |0082: new-instance v2, Lorg/apache/http/message/BasicHeader; // type@2267
+3d2b00: 1a03 c814                              |0084: const-string v3, "Cookie" // string@14c8
+3d2b04: 6e10 50cc 0000                         |0086: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3d2b0a: 0c04                                   |0089: move-result-object v4
+3d2b0c: 7030 acd6 3204                         |008a: invoke-direct {v2, v3, v4}, Lorg/apache/http/message/BasicHeader;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@d6ac
+3d2b12: 1102                                   |008d: return-object v2
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'g'
+      type          : '(Landroid/content/Context;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+3d2c30:                                        |[3d2c30] com.xiaomi.micloudsdk.request.utils.b.g:(Landroid/content/Context;)V
+3d2c40: 7110 01b5 0000                         |0000: invoke-static {v0}, Lcom/xiaomi/micloudsdk/request/utils/c;.e:(Landroid/content/Context;)V // method@b501
+3d2c46: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'h'
+      type          : '(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 6 16-bit code units
+3d286c:                                        |[3d286c] com.xiaomi.micloudsdk.request.utils.b.h:(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
+3d287c: 1200                                   |0000: const/4 v0, #int 0 // #0
+3d287e: 7130 f4b4 2100                         |0001: invoke-static {v1, v2, v0}, Lcom/xiaomi/micloudsdk/request/utils/b;.i:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String; // method@b4f4
+3d2884: 0c01                                   |0004: move-result-object v1
+3d2886: 1101                                   |0005: return-object v1
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'i'
+      type          : '(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 4
+      insns size    : 6 16-bit code units
+3d2888:                                        |[3d2888] com.xiaomi.micloudsdk.request.utils.b.i:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;
+3d2898: 1200                                   |0000: const/4 v0, #int 0 // #0
+3d289a: 7140 f5b4 0132                         |0001: invoke-static {v1, v0, v2, v3}, Lcom/xiaomi/micloudsdk/request/utils/b;.j:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String; // method@b4f5
+3d28a0: 0c01                                   |0004: move-result-object v1
+3d28a2: 1101                                   |0005: return-object v1
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'j'
+      type          : '(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 4
+      outs          : 6
+      insns size    : 12 16-bit code units
+3d28a4:                                        |[3d28a4] com.xiaomi.micloudsdk.request.utils.b.j:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;
+3d28b4: 6201 aacd                              |0000: sget-object v1, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;.POST:Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod; // field@cdaa
+3d28b8: 1205                                   |0002: const/4 v5, #int 0 // #0
+3d28ba: 0760                                   |0003: move-object v0, v6
+3d28bc: 0772                                   |0004: move-object v2, v7
+3d28be: 0783                                   |0005: move-object v3, v8
+3d28c0: 0794                                   |0006: move-object v4, v9
+3d28c2: 7706 efb4 0000                         |0007: invoke-static/range {v0, v1, v2, v3, v4, v5}, Lcom/xiaomi/micloudsdk/request/utils/b;.d:(Ljava/lang/String;Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String; // method@b4ef
+3d28c8: 0c06                                   |000a: move-result-object v6
+3d28ca: 1106                                   |000b: return-object v6
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/micloudsdk/request/utils/b;)
+      name          : 'k'
+      type          : '(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 11
+      ins           : 5
+      outs          : 6
+      insns size    : 12 16-bit code units
+3d28cc:                                        |[3d28cc] com.xiaomi.micloudsdk.request.utils.b.k:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String;
+3d28dc: 6201 aacd                              |0000: sget-object v1, Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;.POST:Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod; // field@cdaa
+3d28e0: 0760                                   |0002: move-object v0, v6
+3d28e2: 0772                                   |0003: move-object v2, v7
+3d28e4: 0783                                   |0004: move-object v3, v8
+3d28e6: 0794                                   |0005: move-object v4, v9
+3d28e8: 07a5                                   |0006: move-object v5, v10
+3d28ea: 7706 efb4 0000                         |0007: invoke-static/range {v0, v1, v2, v3, v4, v5}, Lcom/xiaomi/micloudsdk/request/utils/b;.d:(Ljava/lang/String;Lcom/xiaomi/micloudsdk/request/utils/HttpUtils$HttpMethod;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lhf/b;)Ljava/lang/String; // method@b4ef
+3d28f0: 0c06                                   |000a: move-result-object v6
+3d28f2: 1106                                   |000b: return-object v6
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 24430 (Request.java)
+

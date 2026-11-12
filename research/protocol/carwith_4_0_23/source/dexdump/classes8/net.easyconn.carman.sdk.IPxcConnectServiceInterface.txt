@@ -1,0 +1,48 @@
+Class #1268            -
+  Class descriptor  : 'Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'isForeground'
+      type          : '()Z'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'onNotificationContent'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'onPXCConnect'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'onPXCDisconnect'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'onProjectionConnected'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lnet/easyconn/carman/sdk/IPxcConnectServiceInterface;)
+      name          : 'onProjectionDisconnected'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 6595 (IPxcConnectServiceInterface.java)
+

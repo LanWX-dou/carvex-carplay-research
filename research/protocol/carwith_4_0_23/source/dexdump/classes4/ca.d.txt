@@ -1,0 +1,634 @@
+Class #19            -
+  Class descriptor  : 'Lca/d;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lca/d;)
+      name          : 'a'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lca/d;)
+      name          : 'b'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lca/d;)
+      name          : 'c'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lca/d;)
+      name          : 'd'
+      type          : 'Lca/b;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lca/d;)
+      name          : 'e'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lca/d;)
+      name          : 'f'
+      type          : '[B'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lca/d;)
+      name          : '<init>'
+      type          : '(IIILca/b;I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 7
+      ins           : 6
+      outs          : 2
+      insns size    : 19 16-bit code units
+0df94c:                                        |[0df94c] ca.d.<init>:(IIILca/b;I)V
+0df95c: 7010 3434 0100                         |0000: invoke-direct {v1}, Ljava/lang/Object;.<init>:()V // method@3434
+0df962: 1a00 b937                              |0003: const-string v0, "cmdDescription" // string@37b9
+0df966: 7120 6b05 0500                         |0005: invoke-static {v5, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0df96c: 5912 c100                              |0008: iput v2, v1, Lca/d;.a:I // field@00c1
+0df970: 5913 c200                              |000a: iput v3, v1, Lca/d;.b:I // field@00c2
+0df974: 5914 c300                              |000c: iput v4, v1, Lca/d;.c:I // field@00c3
+0df978: 5b15 c400                              |000e: iput-object v5, v1, Lca/d;.d:Lca/b; // field@00c4
+0df97c: 5916 c500                              |0010: iput v6, v1, Lca/d;.e:I // field@00c5
+0df980: 0e00                                   |0012: return-void
+      catches       : (none)
+
+    #1              : (in Lca/d;)
+      name          : '<init>'
+      type          : '(ILca/b;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 2
+      insns size    : 59 16-bit code units
+0df8c4:                                        |[0df8c4] ca.d.<init>:(ILca/b;)V
+0df8d4: 7010 3434 0400                         |0000: invoke-direct {v4}, Ljava/lang/Object;.<init>:()V // method@3434
+0df8da: 1a00 b937                              |0003: const-string v0, "cmdDescription" // string@37b9
+0df8de: 7120 6b05 0600                         |0005: invoke-static {v6, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0df8e4: 5945 c100                              |0008: iput v5, v4, Lca/d;.a:I // field@00c1
+0df8e8: 1300 1400                              |000a: const/16 v0, #int 20 // #14
+0df8ec: 3405 1800                              |000c: if-lt v5, v0, 0024 // +0018
+0df8f0: 7100 7905 0000                         |000e: invoke-static {}, Lca/g;.a:()I // method@0579
+0df8f6: 0a05                                   |0011: move-result v5
+0df8f8: 5945 c200                              |0012: iput v5, v4, Lca/d;.b:I // field@00c2
+0df8fc: 7100 8d34 0000                         |0014: invoke-static {}, Ljava/lang/System;.currentTimeMillis:()J // method@348d
+0df902: 0b00                                   |0017: move-result-wide v0
+0df904: 1602 e803                              |0018: const-wide/16 v2, #int 1000 // #3e8
+0df908: be20                                   |001a: div-long/2addr v0, v2
+0df90a: 8405                                   |001b: long-to-int v5, v0
+0df90c: 5945 c300                              |001c: iput v5, v4, Lca/d;.c:I // field@00c3
+0df910: 5b46 c400                              |001e: iput-object v6, v4, Lca/d;.d:Lca/b; // field@00c4
+0df914: 6e10 6305 0400                         |0020: invoke-virtual {v4}, Lca/d;.l:()V // method@0563
+0df91a: 0e00                                   |0023: return-void
+0df91c: 2204 f904                              |0024: new-instance v4, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0df920: 2206 7e07                              |0026: new-instance v6, Ljava/lang/StringBuilder; // type@077e
+0df924: 7010 7b34 0600                         |0028: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0df92a: 1a00 f40f                              |002b: const-string v0, "Illegal message size: " // string@0ff4
+0df92e: 6e20 8434 0600                         |002d: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df934: 6e20 8134 5600                         |0030: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df93a: 6e10 8b34 0600                         |0033: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0df940: 0c05                                   |0036: move-result-object v5
+0df942: 7020 d127 5400                         |0037: invoke-direct {v4, v5}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0df948: 2704                                   |003a: throw v4
+      catches       : (none)
+
+    #2              : (in Lca/d;)
+      name          : 'a'
+      type          : '([B)Lca/d;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 13
+      ins           : 1
+      outs          : 6
+      insns size    : 141 16-bit code units
+0df5a8:                                        |[0df5a8] ca.d.a:([B)Lca/d;
+0df5b8: 1a00 3c60                              |0000: const-string v0, "rawBytes" // string@603c
+0df5bc: 7120 6b05 0c00                         |0002: invoke-static {v12, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0df5c2: 21c0                                   |0005: array-length v0, v12
+0df5c4: 1301 1400                              |0006: const/16 v1, #int 20 // #14
+0df5c8: 3410 6500                              |0008: if-lt v0, v1, 006d // +0065
+0df5cc: 1200                                   |000a: const/4 v0, #int 0 // #0
+0df5ce: 7120 3f05 0c00                         |000b: invoke-static {v12, v0}, Lca/a;.a:([BI)I // method@053f
+0df5d4: 0a03                                   |000e: move-result v3
+0df5d6: 1242                                   |000f: const/4 v2, #int 4 // #4
+0df5d8: 7120 3f05 2c00                         |0010: invoke-static {v12, v2}, Lca/a;.a:([BI)I // method@053f
+0df5de: 0a04                                   |0013: move-result v4
+0df5e0: 1302 0800                              |0014: const/16 v2, #int 8 // #8
+0df5e4: 7120 3f05 2c00                         |0016: invoke-static {v12, v2}, Lca/a;.a:([BI)I // method@053f
+0df5ea: 0a05                                   |0019: move-result v5
+0df5ec: 7110 5e05 0c00                         |001a: invoke-static {v12}, Lca/d;.g:([B)Lca/b; // method@055e
+0df5f2: 0c06                                   |001d: move-result-object v6
+0df5f4: 2202 9e01                              |001e: new-instance v2, Lca/c; // type@019e
+0df5f8: 7010 4f05 0200                         |0020: invoke-direct {v2}, Lca/c;.<init>:()V // method@054f
+0df5fe: 1307 1200                              |0023: const/16 v7, #int 18 // #12
+0df602: 6e40 5505 c270                         |0025: invoke-virtual {v2, v12, v0, v7}, Lca/c;.update:([BII)V // method@0555
+0df608: 7120 4005 7c00                         |0028: invoke-static {v12, v7}, Lca/a;.b:([BI)I // method@0540
+0df60e: 0a07                                   |002b: move-result v7
+0df610: 8178                                   |002c: int-to-long v8, v7
+0df612: 6e10 5105 0200                         |002d: invoke-virtual {v2}, Lca/c;.getValue:()J // method@0551
+0df618: 0b0a                                   |0030: move-result-wide v10
+0df61a: 3108 080a                              |0031: cmp-long v8, v8, v10
+0df61e: 3908 0f00                              |0033: if-nez v8, 0042 // +000f
+0df622: 2208 9f01                              |0035: new-instance v8, Lca/d; // type@019f
+0df626: 0782                                   |0037: move-object v2, v8
+0df628: 7606 5605 0200                         |0038: invoke-direct/range {v2, v3, v4, v5, v6, v7}, Lca/d;.<init>:(IIILca/b;I)V // method@0556
+0df62e: 7130 5e35 0c01                         |003b: invoke-static {v12, v0, v1}, Ljava/util/Arrays;.copyOfRange:([BII)[B // method@355e
+0df634: 0c0c                                   |003e: move-result-object v12
+0df636: 5b8c c600                              |003f: iput-object v12, v8, Lca/d;.f:[B // field@00c6
+0df63a: 1108                                   |0041: return-object v8
+0df63c: 220c f904                              |0042: new-instance v12, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0df640: 2200 7e07                              |0044: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+0df644: 7010 7b34 0000                         |0046: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0df64a: 1a01 1810                              |0049: const-string v1, "Invalid header, checksum expect: " // string@1018
+0df64e: 6e20 8434 1000                         |004b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df654: 6e10 5105 0200                         |004e: invoke-virtual {v2}, Lca/c;.getValue:()J // method@0551
+0df65a: 0b01                                   |0051: move-result-wide v1
+0df65c: 7120 2034 2100                         |0052: invoke-static {v1, v2}, Ljava/lang/Long;.toHexString:(J)Ljava/lang/String; // method@3420
+0df662: 0c01                                   |0055: move-result-object v1
+0df664: 6e20 8434 1000                         |0056: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df66a: 1a01 c901                              |0059: const-string v1, ", actual: " // string@01c9
+0df66e: 6e20 8434 1000                         |005b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df674: 7110 1634 0700                         |005e: invoke-static {v7}, Ljava/lang/Integer;.toHexString:(I)Ljava/lang/String; // method@3416
+0df67a: 0c01                                   |0061: move-result-object v1
+0df67c: 6e20 8434 1000                         |0062: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df682: 6e10 8b34 0000                         |0065: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0df688: 0c00                                   |0068: move-result-object v0
+0df68a: 7020 d127 0c00                         |0069: invoke-direct {v12, v0}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0df690: 270c                                   |006c: throw v12
+0df692: 2200 f904                              |006d: new-instance v0, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0df696: 2202 7e07                              |006f: new-instance v2, Ljava/lang/StringBuilder; // type@077e
+0df69a: 7010 7b34 0200                         |0071: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0df6a0: 1a03 cb22                              |0074: const-string v3, "Protocol header bytes size[" // string@22cb
+0df6a4: 6e20 8434 3200                         |0076: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df6aa: 21cc                                   |0079: array-length v12, v12
+0df6ac: 6e20 8134 c200                         |007a: invoke-virtual {v2, v12}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df6b2: 1a0c 9c2e                              |007d: const-string v12, "] < " // string@2e9c
+0df6b6: 6e20 8434 c200                         |007f: invoke-virtual {v2, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df6bc: 6e20 8134 1200                         |0082: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df6c2: 6e10 8b34 0200                         |0085: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0df6c8: 0c0c                                   |0088: move-result-object v12
+0df6ca: 7020 d127 c000                         |0089: invoke-direct {v0, v12}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0df6d0: 2700                                   |008c: throw v0
+      catches       : (none)
+
+    #3              : (in Lca/d;)
+      name          : 'g'
+      type          : '([B)Lca/b;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 6
+      insns size    : 71 16-bit code units
+0df508:                                        |[0df508] ca.d.g:([B)Lca/b;
+0df518: 1300 0c00                              |0000: const/16 v0, #int 12 // #c
+0df51c: 4801 0900                              |0002: aget-byte v1, v9, v0
+0df520: dd01 0101                              |0004: and-int/lit8 v1, v1, #int 1 // #01
+0df524: 6202 f172                              |0006: sget-object v2, Lcom/miui/carlink/databus/protocol/SourceDevice;.PHONE:Lcom/miui/carlink/databus/protocol/SourceDevice; // field@72f1
+0df528: 6e10 d627 0200                         |0008: invoke-virtual {v2}, Lcom/miui/carlink/databus/protocol/SourceDevice;.getValue:()I // method@27d6
+0df52e: 0a03                                   |000b: move-result v3
+0df530: 3331 0400                              |000c: if-ne v1, v3, 0010 // +0004
+0df534: 0724                                   |000e: move-object v4, v2
+0df536: 2804                                   |000f: goto 0013 // +0004
+0df538: 6202 f072                              |0010: sget-object v2, Lcom/miui/carlink/databus/protocol/SourceDevice;.CAR:Lcom/miui/carlink/databus/protocol/SourceDevice; // field@72f0
+0df53c: 28fc                                   |0012: goto 000e // -0004
+0df53e: 4801 0900                              |0013: aget-byte v1, v9, v0
+0df542: dd01 0106                              |0015: and-int/lit8 v1, v1, #int 6 // #06
+0df546: e201 0101                              |0017: ushr-int/lit8 v1, v1, #int 1 // #01
+0df54a: 6202 e672                              |0019: sget-object v2, Lcom/miui/carlink/databus/protocol/DataFormat;.PB3:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e6
+0df54e: 6e10 c827 0200                         |001b: invoke-virtual {v2}, Lcom/miui/carlink/databus/protocol/DataFormat;.getValue:()I // method@27c8
+0df554: 0a03                                   |001e: move-result v3
+0df556: 3331 0400                              |001f: if-ne v1, v3, 0023 // +0004
+0df55a: 0725                                   |0021: move-object v5, v2
+0df55c: 2804                                   |0022: goto 0026 // +0004
+0df55e: 6201 e772                              |0023: sget-object v1, Lcom/miui/carlink/databus/protocol/DataFormat;.RAW:Lcom/miui/carlink/databus/protocol/DataFormat; // field@72e7
+0df562: 0715                                   |0025: move-object v5, v1
+0df564: 4800 0900                              |0026: aget-byte v0, v9, v0
+0df568: 7110 6105 0000                         |0028: invoke-static {v0}, Lca/d;.j:(B)Lcom/miui/carlink/databus/protocol/MessageType; // method@0561
+0df56e: 0c06                                   |002b: move-result-object v6
+0df570: 1300 0d00                              |002c: const/16 v0, #int 13 // #d
+0df574: 4800 0900                              |002e: aget-byte v0, v9, v0
+0df578: 7110 6005 0000                         |0030: invoke-static {v0}, Lca/d;.i:(I)Lcom/miui/carlink/databus/protocol/CmdCategory; // method@0560
+0df57e: 0c07                                   |0033: move-result-object v7
+0df580: 1300 0e00                              |0034: const/16 v0, #int 14 // #e
+0df584: 4800 0900                              |0036: aget-byte v0, v9, v0
+0df588: e000 0008                              |0038: shl-int/lit8 v0, v0, #int 8 // #08
+0df58c: 1301 0f00                              |003a: const/16 v1, #int 15 // #f
+0df590: 4809 0901                              |003c: aget-byte v9, v9, v1
+0df594: 9008 0009                              |003e: add-int v8, v0, v9
+0df598: 2209 9d01                              |0040: new-instance v9, Lca/b; // type@019d
+0df59c: 0793                                   |0042: move-object v3, v9
+0df59e: 7606 4405 0300                         |0043: invoke-direct/range {v3, v4, v5, v6, v7, v8}, Lca/b;.<init>:(Lcom/miui/carlink/databus/protocol/SourceDevice;Lcom/miui/carlink/databus/protocol/DataFormat;Lcom/miui/carlink/databus/protocol/MessageType;Lcom/miui/carlink/databus/protocol/CmdCategory;I)V // method@0544
+0df5a4: 1109                                   |0046: return-object v9
+      catches       : (none)
+
+    #4              : (in Lca/d;)
+      name          : 'i'
+      type          : '(I)Lcom/miui/carlink/databus/protocol/CmdCategory;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 2
+      insns size    : 51 16-bit code units
+0df6d4:                                        |[0df6d4] ca.d.i:(I)Lcom/miui/carlink/databus/protocol/CmdCategory;
+0df6e4: 6200 e072                              |0000: sget-object v0, Lcom/miui/carlink/databus/protocol/CmdCategory;.NONE:Lcom/miui/carlink/databus/protocol/CmdCategory; // field@72e0
+0df6e8: 7100 c427 0000                         |0002: invoke-static {}, Lcom/miui/carlink/databus/protocol/CmdCategory;.values:()[Lcom/miui/carlink/databus/protocol/CmdCategory; // method@27c4
+0df6ee: 0c01                                   |0005: move-result-object v1
+0df6f0: 2112                                   |0006: array-length v2, v1
+0df6f2: 1203                                   |0007: const/4 v3, #int 0 // #0
+0df6f4: 3523 0f00                              |0008: if-ge v3, v2, 0017 // +000f
+0df6f8: 4604 0103                              |000a: aget-object v4, v1, v3
+0df6fc: 6e10 c227 0400                         |000c: invoke-virtual {v4}, Lcom/miui/carlink/databus/protocol/CmdCategory;.getValue:()I // method@27c2
+0df702: 0a05                                   |000f: move-result v5
+0df704: 3356 0400                              |0010: if-ne v6, v5, 0014 // +0004
+0df708: 0740                                   |0012: move-object v0, v4
+0df70a: 2804                                   |0013: goto 0017 // +0004
+0df70c: d803 0301                              |0014: add-int/lit8 v3, v3, #int 1 // #01
+0df710: 28f2                                   |0016: goto 0008 // -000e
+0df712: 6201 e072                              |0017: sget-object v1, Lcom/miui/carlink/databus/protocol/CmdCategory;.NONE:Lcom/miui/carlink/databus/protocol/CmdCategory; // field@72e0
+0df716: 3210 0300                              |0019: if-eq v0, v1, 001c // +0003
+0df71a: 1100                                   |001b: return-object v0
+0df71c: 2200 f904                              |001c: new-instance v0, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0df720: 2201 7e07                              |001e: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+0df724: 7010 7b34 0100                         |0020: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0df72a: 1a02 ee29                              |0023: const-string v2, "Unknown CmdCategory: " // string@29ee
+0df72e: 6e20 8434 2100                         |0025: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df734: 6e20 8134 6100                         |0028: invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df73a: 6e10 8b34 0100                         |002b: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0df740: 0c06                                   |002e: move-result-object v6
+0df742: 7020 d127 6000                         |002f: invoke-direct {v0, v6}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0df748: 2700                                   |0032: throw v0
+      catches       : (none)
+
+    #5              : (in Lca/d;)
+      name          : 'j'
+      type          : '(B)Lcom/miui/carlink/databus/protocol/MessageType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 1
+      insns size    : 34 16-bit code units
+0df74c:                                        |[0df74c] ca.d.j:(B)Lcom/miui/carlink/databus/protocol/MessageType;
+0df75c: dd02 0218                              |0000: and-int/lit8 v2, v2, #int 24 // #18
+0df760: e202 0203                              |0002: ushr-int/lit8 v2, v2, #int 3 // #03
+0df764: 6200 ea72                              |0004: sget-object v0, Lcom/miui/carlink/databus/protocol/MessageType;.REQ:Lcom/miui/carlink/databus/protocol/MessageType; // field@72ea
+0df768: 6e10 ce27 0000                         |0006: invoke-virtual {v0}, Lcom/miui/carlink/databus/protocol/MessageType;.getValue:()I // method@27ce
+0df76e: 0a01                                   |0009: move-result v1
+0df770: 3312 0300                              |000a: if-ne v2, v1, 000d // +0003
+0df774: 1100                                   |000c: return-object v0
+0df776: 6200 eb72                              |000d: sget-object v0, Lcom/miui/carlink/databus/protocol/MessageType;.RES:Lcom/miui/carlink/databus/protocol/MessageType; // field@72eb
+0df77a: 6e10 ce27 0000                         |000f: invoke-virtual {v0}, Lcom/miui/carlink/databus/protocol/MessageType;.getValue:()I // method@27ce
+0df780: 0a01                                   |0012: move-result v1
+0df782: 3312 0300                              |0013: if-ne v2, v1, 0016 // +0003
+0df786: 1100                                   |0015: return-object v0
+0df788: 6200 ed72                              |0016: sget-object v0, Lcom/miui/carlink/databus/protocol/MessageType;.SEND_SYNC:Lcom/miui/carlink/databus/protocol/MessageType; // field@72ed
+0df78c: 6e10 ce27 0000                         |0018: invoke-virtual {v0}, Lcom/miui/carlink/databus/protocol/MessageType;.getValue:()I // method@27ce
+0df792: 0a01                                   |001b: move-result v1
+0df794: 3312 0300                              |001c: if-ne v2, v1, 001f // +0003
+0df798: 1100                                   |001e: return-object v0
+0df79a: 6202 ec72                              |001f: sget-object v2, Lcom/miui/carlink/databus/protocol/MessageType;.SEND:Lcom/miui/carlink/databus/protocol/MessageType; // field@72ec
+0df79e: 1102                                   |0021: return-object v2
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lca/d;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 9
+      ins           : 1
+      outs          : 3
+      insns size    : 99 16-bit code units
+0df7d0:                                        |[0df7d0] ca.d.b:()Ljava/lang/String;
+0df7e0: 2200 7e07                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+0df7e4: 7010 7b34 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0df7ea: 1a01 bc02                              |0005: const-string v1, "--------------------------------\n" // string@02bc
+0df7ee: 6e20 8434 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df7f4: 1a02 0846                              |000a: const-string v2, "length: " // string@4608
+0df7f8: 6e20 8434 2000                         |000c: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df7fe: 5282 c100                              |000f: iget v2, v8, Lca/d;.a:I // field@00c1
+0df802: 6e20 8134 2000                         |0011: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df808: 1a02 6002                              |0014: const-string v2, ", seqId: " // string@0260
+0df80c: 6e20 8434 2000                         |0016: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df812: 5282 c200                              |0019: iget v2, v8, Lca/d;.b:I // field@00c2
+0df816: 6e20 8134 2000                         |001b: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df81c: 1a02 dd01                              |001e: const-string v2, ", checksum: " // string@01dd
+0df820: 6e20 8434 2000                         |0020: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df826: 5282 c500                              |0023: iget v2, v8, Lca/d;.e:I // field@00c5
+0df82a: 7110 1634 0200                         |0025: invoke-static {v2}, Ljava/lang/Integer;.toHexString:(I)Ljava/lang/String; // method@3416
+0df830: 0c02                                   |0028: move-result-object v2
+0df832: 6e20 8434 2000                         |0029: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df838: 1302 0a00                              |002c: const/16 v2, #int 10 // #a
+0df83c: 6e20 7e34 2000                         |002e: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@347e
+0df842: 1a03 4d69                              |0031: const-string v3, "timestamp(s): " // string@694d
+0df846: 6e20 8434 3000                         |0033: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df84c: 5283 c300                              |0036: iget v3, v8, Lca/d;.c:I // field@00c3
+0df850: 6e20 8134 3000                         |0038: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@3481
+0df856: 1a03 4b00                              |003b: const-string v3, " (" // string@004b
+0df85a: 6e20 8434 3000                         |003d: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df860: 2203 e207                              |0040: new-instance v3, Ljava/util/Date; // type@07e2
+0df864: 5284 c300                              |0042: iget v4, v8, Lca/d;.c:I // field@00c3
+0df868: 8144                                   |0044: int-to-long v4, v4
+0df86a: 1606 e803                              |0045: const-wide/16 v6, #int 1000 // #3e8
+0df86e: bd64                                   |0047: mul-long/2addr v4, v6
+0df870: 7030 8335 4305                         |0048: invoke-direct {v3, v4, v5}, Ljava/util/Date;.<init>:(J)V // method@3583
+0df876: 6e20 8334 3000                         |004b: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@3483
+0df87c: 1a03 a201                              |004e: const-string v3, ")\ncmd: " // string@01a2
+0df880: 6e20 8434 3000                         |0050: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df886: 5488 c400                              |0053: iget-object v8, v8, Lca/d;.d:Lca/b; // field@00c4
+0df88a: 6e20 8334 8000                         |0055: invoke-virtual {v0, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@3483
+0df890: 6e20 7e34 2000                         |0058: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@347e
+0df896: 6e20 8434 1000                         |005b: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0df89c: 6e10 8b34 0000                         |005e: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0df8a2: 0c08                                   |0061: move-result-object v8
+0df8a4: 1108                                   |0062: return-object v8
+      catches       : (none)
+
+    #1              : (in Lca/d;)
+      name          : 'c'
+      type          : '()Lca/b;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0df4f0:                                        |[0df4f0] ca.d.c:()Lca/b;
+0df500: 5400 c400                              |0000: iget-object v0, v0, Lca/d;.d:Lca/b; // field@00c4
+0df504: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #2              : (in Lca/d;)
+      name          : 'd'
+      type          : '()[B'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0df45c:                                        |[0df45c] ca.d.d:()[B
+0df46c: 5400 c600                              |0000: iget-object v0, v0, Lca/d;.f:[B // field@00c6
+0df470: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lca/d;)
+      name          : 'e'
+      type          : '()I'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0df7a0:                                        |[0df7a0] ca.d.e:()I
+0df7b0: 5200 c100                              |0000: iget v0, v0, Lca/d;.a:I // field@00c1
+0df7b4: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #4              : (in Lca/d;)
+      name          : 'f'
+      type          : '()I'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0df7b8:                                        |[0df7b8] ca.d.f:()I
+0df7c8: 5200 c200                              |0000: iget v0, v0, Lca/d;.b:I // field@00c2
+0df7cc: 0f00                                   |0002: return v0
+      catches       : (none)
+
+    #5              : (in Lca/d;)
+      name          : 'h'
+      type          : '()[B'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 54 16-bit code units
+0df474:                                        |[0df474] ca.d.h:()[B
+0df484: 1300 1400                              |0000: const/16 v0, #int 20 // #14
+0df488: 2300 780b                              |0002: new-array v0, v0, [B // type@0b78
+0df48c: 5241 c100                              |0004: iget v1, v4, Lca/d;.a:I // field@00c1
+0df490: 1202                                   |0006: const/4 v2, #int 0 // #0
+0df492: 7130 4105 2001                         |0007: invoke-static {v0, v2, v1}, Lca/a;.c:([BII)V // method@0541
+0df498: 1241                                   |000a: const/4 v1, #int 4 // #4
+0df49a: 5243 c200                              |000b: iget v3, v4, Lca/d;.b:I // field@00c2
+0df49e: 7130 4105 1003                         |000d: invoke-static {v0, v1, v3}, Lca/a;.c:([BII)V // method@0541
+0df4a4: 1301 0800                              |0010: const/16 v1, #int 8 // #8
+0df4a8: 5243 c300                              |0012: iget v3, v4, Lca/d;.c:I // field@00c3
+0df4ac: 7130 4105 1003                         |0014: invoke-static {v0, v1, v3}, Lca/a;.c:([BII)V // method@0541
+0df4b2: 6e20 6605 0400                         |0017: invoke-virtual {v4, v0}, Lca/d;.o:([B)V // method@0566
+0df4b8: 1304 1000                              |001a: const/16 v4, #int 16 // #10
+0df4bc: 4f02 0004                              |001c: aput-byte v2, v0, v4
+0df4c0: 1304 1100                              |001e: const/16 v4, #int 17 // #11
+0df4c4: 4f02 0004                              |0020: aput-byte v2, v0, v4
+0df4c8: 2204 9e01                              |0022: new-instance v4, Lca/c; // type@019e
+0df4cc: 7010 4f05 0400                         |0024: invoke-direct {v4}, Lca/c;.<init>:()V // method@054f
+0df4d2: 1301 1200                              |0027: const/16 v1, #int 18 // #12
+0df4d6: 6e40 5505 0412                         |0029: invoke-virtual {v4, v0, v2, v1}, Lca/c;.update:([BII)V // method@0555
+0df4dc: 6e10 5105 0400                         |002c: invoke-virtual {v4}, Lca/c;.getValue:()J // method@0551
+0df4e2: 0b02                                   |002f: move-result-wide v2
+0df4e4: 8424                                   |0030: long-to-int v4, v2
+0df4e6: 8f44                                   |0031: int-to-short v4, v4
+0df4e8: 7130 4205 1004                         |0032: invoke-static {v0, v1, v4}, Lca/a;.d:([BIS)V // method@0542
+0df4ee: 1100                                   |0035: return-object v0
+      catches       : (none)
+
+    #6              : (in Lca/d;)
+      name          : 'k'
+      type          : '(I)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 18 16-bit code units
+0df984:                                        |[0df984] ca.d.k:(I)V
+0df994: 3a01 0a00                              |0000: if-ltz v1, 000a // +000a
+0df998: d801 0114                              |0002: add-int/lit8 v1, v1, #int 20 // #14
+0df99c: 5901 c100                              |0004: iput v1, v0, Lca/d;.a:I // field@00c1
+0df9a0: 6e10 6305 0000                         |0006: invoke-virtual {v0}, Lca/d;.l:()V // method@0563
+0df9a6: 0e00                                   |0009: return-void
+0df9a8: 2200 f904                              |000a: new-instance v0, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0df9ac: 1a01 c11e                              |000c: const-string v1, "Message body length must not less than 0" // string@1ec1
+0df9b0: 7020 d127 1000                         |000e: invoke-direct {v0, v1}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0df9b6: 2700                                   |0011: throw v0
+      catches       : (none)
+
+    #7              : (in Lca/d;)
+      name          : 'l'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 29 16-bit code units
+0df9b8:                                        |[0df9b8] ca.d.l:()V
+0df9c8: 6e10 5f05 0400                         |0000: invoke-virtual {v4}, Lca/d;.h:()[B // method@055f
+0df9ce: 0c00                                   |0003: move-result-object v0
+0df9d0: 5b40 c600                              |0004: iput-object v0, v4, Lca/d;.f:[B // field@00c6
+0df9d4: 2200 9e01                              |0006: new-instance v0, Lca/c; // type@019e
+0df9d8: 7010 4f05 0000                         |0008: invoke-direct {v0}, Lca/c;.<init>:()V // method@054f
+0df9de: 6e10 5b05 0400                         |000b: invoke-virtual {v4}, Lca/d;.d:()[B // method@055b
+0df9e4: 0c01                                   |000e: move-result-object v1
+0df9e6: 1202                                   |000f: const/4 v2, #int 0 // #0
+0df9e8: 1303 1200                              |0010: const/16 v3, #int 18 // #12
+0df9ec: 6e40 5505 1032                         |0012: invoke-virtual {v0, v1, v2, v3}, Lca/c;.update:([BII)V // method@0555
+0df9f2: 6e10 5105 0000                         |0015: invoke-virtual {v0}, Lca/c;.getValue:()J // method@0551
+0df9f8: 0b00                                   |0018: move-result-wide v0
+0df9fa: 8400                                   |0019: long-to-int v0, v0
+0df9fc: 5940 c500                              |001a: iput v0, v4, Lca/d;.e:I // field@00c5
+0dfa00: 0e00                                   |001c: return-void
+      catches       : (none)
+
+    #8              : (in Lca/d;)
+      name          : 'm'
+      type          : '(Lcom/miui/carlink/databus/protocol/MessageType;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 11 16-bit code units
+0dfa04:                                        |[0dfa04] ca.d.m:(Lcom/miui/carlink/databus/protocol/MessageType;)V
+0dfa14: 6e10 5a05 0100                         |0000: invoke-virtual {v1}, Lca/d;.c:()Lca/b; // method@055a
+0dfa1a: 0c00                                   |0003: move-result-object v0
+0dfa1c: 6e20 4b05 2000                         |0004: invoke-virtual {v0, v2}, Lca/b;.f:(Lcom/miui/carlink/databus/protocol/MessageType;)V // method@054b
+0dfa22: 6e10 6305 0100                         |0007: invoke-virtual {v1}, Lca/d;.l:()V // method@0563
+0dfa28: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #9              : (in Lca/d;)
+      name          : 'n'
+      type          : '(I)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 55 16-bit code units
+0dfa2c:                                        |[0dfa2c] ca.d.n:(I)V
+0dfa3c: 3a03 2f00                              |0000: if-ltz v3, 002f // +002f
+0dfa40: 5420 c400                              |0002: iget-object v0, v2, Lca/d;.d:Lca/b; // field@00c4
+0dfa44: 6e10 4705 0000                         |0004: invoke-virtual {v0}, Lca/b;.c:()Lcom/miui/carlink/databus/protocol/MessageType; // method@0547
+0dfa4a: 0c00                                   |0007: move-result-object v0
+0dfa4c: 6201 eb72                              |0008: sget-object v1, Lcom/miui/carlink/databus/protocol/MessageType;.RES:Lcom/miui/carlink/databus/protocol/MessageType; // field@72eb
+0dfa50: 3310 0800                              |000a: if-ne v0, v1, 0012 // +0008
+0dfa54: 5923 c200                              |000c: iput v3, v2, Lca/d;.b:I // field@00c2
+0dfa58: 6e10 6305 0200                         |000e: invoke-virtual {v2}, Lca/d;.l:()V // method@0563
+0dfa5e: 0e00                                   |0011: return-void
+0dfa60: 2203 f904                              |0012: new-instance v3, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0dfa64: 2200 7e07                              |0014: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+0dfa68: 7010 7b34 0000                         |0016: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+0dfa6e: 5422 c400                              |0019: iget-object v2, v2, Lca/d;.d:Lca/b; // field@00c4
+0dfa72: 6e10 4705 0200                         |001b: invoke-virtual {v2}, Lca/b;.c:()Lcom/miui/carlink/databus/protocol/MessageType; // method@0547
+0dfa78: 0c02                                   |001e: move-result-object v2
+0dfa7a: 6e20 8334 2000                         |001f: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@3483
+0dfa80: 1a02 7a00                              |0022: const-string v2, " can not update seq id" // string@007a
+0dfa84: 6e20 8434 2000                         |0024: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+0dfa8a: 6e10 8b34 0000                         |0027: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+0dfa90: 0c02                                   |002a: move-result-object v2
+0dfa92: 7020 d127 2300                         |002b: invoke-direct {v3, v2}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0dfa98: 2703                                   |002e: throw v3
+0dfa9a: 2202 f904                              |002f: new-instance v2, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0dfa9e: 1a03 e262                              |0031: const-string v3, "seq id must greater than 0" // string@62e2
+0dfaa2: 7020 d127 3200                         |0033: invoke-direct {v2, v3}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0dfaa8: 2702                                   |0036: throw v2
+      catches       : (none)
+
+    #10              : (in Lca/d;)
+      name          : 'o'
+      type          : '([B)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 2
+      outs          : 2
+      insns size    : 113 16-bit code units
+0dfaac:                                        |[0dfaac] ca.d.o:([B)V
+0dfabc: 5450 c400                              |0000: iget-object v0, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfac0: 6e10 4905 0000                         |0002: invoke-virtual {v0}, Lca/b;.e:()Lcom/miui/carlink/databus/protocol/SourceDevice; // method@0549
+0dfac6: 0c00                                   |0005: move-result-object v0
+0dfac8: 5451 c400                              |0006: iget-object v1, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfacc: 6e10 4605 0100                         |0008: invoke-virtual {v1}, Lca/b;.b:()Lcom/miui/carlink/databus/protocol/DataFormat; // method@0546
+0dfad2: 0c01                                   |000b: move-result-object v1
+0dfad4: 5452 c400                              |000c: iget-object v2, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfad8: 6e10 4505 0200                         |000e: invoke-virtual {v2}, Lca/b;.a:()Lcom/miui/carlink/databus/protocol/CmdCategory; // method@0545
+0dfade: 0c02                                   |0011: move-result-object v2
+0dfae0: 5453 c400                              |0012: iget-object v3, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfae4: 6e10 4705 0300                         |0014: invoke-virtual {v3}, Lca/b;.c:()Lcom/miui/carlink/databus/protocol/MessageType; // method@0547
+0dfaea: 0c03                                   |0017: move-result-object v3
+0dfaec: 1a04 8b66                              |0018: const-string v4, "sourceDevice" // string@668b
+0dfaf0: 7120 6a05 4000                         |001a: invoke-static {v0, v4}, Lca/e;.b:(Ljava/lang/Object;Ljava/lang/String;)V // method@056a
+0dfaf6: 1a04 293a                              |001d: const-string v4, "dataFormat" // string@3a29
+0dfafa: 7120 6a05 4100                         |001f: invoke-static {v1, v4}, Lca/e;.b:(Ljava/lang/Object;Ljava/lang/String;)V // method@056a
+0dfb00: 1a04 6135                              |0022: const-string v4, "category" // string@3561
+0dfb04: 7120 6a05 4200                         |0024: invoke-static {v2, v4}, Lca/e;.b:(Ljava/lang/Object;Ljava/lang/String;)V // method@056a
+0dfb0a: 1a04 b748                              |0027: const-string v4, "messageType" // string@48b7
+0dfb0e: 7120 6a05 4300                         |0029: invoke-static {v3, v4}, Lca/e;.b:(Ljava/lang/Object;Ljava/lang/String;)V // method@056a
+0dfb14: 6e10 d627 0000                         |002c: invoke-virtual {v0}, Lcom/miui/carlink/databus/protocol/SourceDevice;.getValue:()I // method@27d6
+0dfb1a: 0a00                                   |002f: move-result v0
+0dfb1c: 8d00                                   |0030: int-to-byte v0, v0
+0dfb1e: 1304 0c00                              |0031: const/16 v4, #int 12 // #c
+0dfb22: 4f00 0604                              |0033: aput-byte v0, v6, v4
+0dfb26: 6e10 c827 0100                         |0035: invoke-virtual {v1}, Lcom/miui/carlink/databus/protocol/DataFormat;.getValue:()I // method@27c8
+0dfb2c: 0a01                                   |0038: move-result v1
+0dfb2e: e001 0101                              |0039: shl-int/lit8 v1, v1, #int 1 // #01
+0dfb32: 8d11                                   |003b: int-to-byte v1, v1
+0dfb34: b010                                   |003c: add-int/2addr v0, v1
+0dfb36: 8d00                                   |003d: int-to-byte v0, v0
+0dfb38: 4f00 0604                              |003e: aput-byte v0, v6, v4
+0dfb3c: 6e10 ce27 0300                         |0040: invoke-virtual {v3}, Lcom/miui/carlink/databus/protocol/MessageType;.getValue:()I // method@27ce
+0dfb42: 0a01                                   |0043: move-result v1
+0dfb44: e001 0103                              |0044: shl-int/lit8 v1, v1, #int 3 // #03
+0dfb48: 8d11                                   |0046: int-to-byte v1, v1
+0dfb4a: b010                                   |0047: add-int/2addr v0, v1
+0dfb4c: 8d00                                   |0048: int-to-byte v0, v0
+0dfb4e: 4f00 0604                              |0049: aput-byte v0, v6, v4
+0dfb52: 6e10 c227 0200                         |004b: invoke-virtual {v2}, Lcom/miui/carlink/databus/protocol/CmdCategory;.getValue:()I // method@27c2
+0dfb58: 0a00                                   |004e: move-result v0
+0dfb5a: 8d00                                   |004f: int-to-byte v0, v0
+0dfb5c: 1301 0d00                              |0050: const/16 v1, #int 13 // #d
+0dfb60: 4f00 0601                              |0052: aput-byte v0, v6, v1
+0dfb64: 5450 c400                              |0054: iget-object v0, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfb68: 6e10 4805 0000                         |0056: invoke-virtual {v0}, Lca/b;.d:()I // method@0548
+0dfb6e: 0a00                                   |0059: move-result v0
+0dfb70: e200 0008                              |005a: ushr-int/lit8 v0, v0, #int 8 // #08
+0dfb74: d500 ff00                              |005c: and-int/lit16 v0, v0, #int 255 // #00ff
+0dfb78: 8d00                                   |005e: int-to-byte v0, v0
+0dfb7a: 1301 0e00                              |005f: const/16 v1, #int 14 // #e
+0dfb7e: 4f00 0601                              |0061: aput-byte v0, v6, v1
+0dfb82: 5455 c400                              |0063: iget-object v5, v5, Lca/d;.d:Lca/b; // field@00c4
+0dfb86: 6e10 4805 0500                         |0065: invoke-virtual {v5}, Lca/b;.d:()I // method@0548
+0dfb8c: 0a05                                   |0068: move-result v5
+0dfb8e: d555 ff00                              |0069: and-int/lit16 v5, v5, #int 255 // #00ff
+0dfb92: 8d55                                   |006b: int-to-byte v5, v5
+0dfb94: 1300 0f00                              |006c: const/16 v0, #int 15 // #f
+0dfb98: 4f05 0600                              |006e: aput-byte v5, v6, v0
+0dfb9c: 0e00                                   |0070: return-void
+      catches       : (none)
+
+    #11              : (in Lca/d;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 5 16-bit code units
+0df8a8:                                        |[0df8a8] ca.d.toString:()Ljava/lang/String;
+0df8b8: 6e10 5905 0000                         |0000: invoke-virtual {v0}, Lca/d;.b:()Ljava/lang/String; // method@0559
+0df8be: 0c00                                   |0003: move-result-object v0
+0df8c0: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+  source_file_idx   : 7874 (MessageHeader.java)
+

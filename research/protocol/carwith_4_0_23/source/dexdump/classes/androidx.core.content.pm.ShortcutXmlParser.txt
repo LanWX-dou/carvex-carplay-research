@@ -1,0 +1,276 @@
+Class #1123            -
+  Class descriptor  : 'Landroidx/core/content/pm/ShortcutXmlParser;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'ATTR_SHORTCUT_ID'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "shortcutId"
+    #1              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'GET_INSTANCE_LOCK'
+      type          : 'Ljava/lang/Object;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : null
+    #2              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'META_DATA_APP_SHORTCUTS'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "android.app.shortcuts"
+    #3              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'TAG'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "ShortcutXmlParser"
+    #4              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'TAG_SHORTCUT'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+      value         : "shortcut"
+    #5              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'sShortcutIds'
+      type          : 'Ljava/util/ArrayList;'
+      access        : 0x004a (PRIVATE STATIC VOLATILE)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+28c00c:                                        |[28c00c] androidx.core.content.pm.ShortcutXmlParser.<clinit>:()V
+28c01c: 2200 3f1d                              |0000: new-instance v0, Ljava/lang/Object; // type@1d3f
+28c020: 7010 32bc 0000                         |0002: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+28c026: 6900 1f31                              |0005: sput-object v0, Landroidx/core/content/pm/ShortcutXmlParser;.GET_INSTANCE_LOCK:Ljava/lang/Object; // field@311f
+28c02a: 0e00                                   |0007: return-void
+      catches       : (none)
+
+    #1              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+28c02c:                                        |[28c02c] androidx.core.content.pm.ShortcutXmlParser.<init>:()V
+28c03c: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+28c042: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'getAttributeValue'
+      type          : '(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x000a (PRIVATE STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 14 16-bit code units
+28bdd4:                                        |[28bdd4] androidx.core.content.pm.ShortcutXmlParser.getAttributeValue:(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+28bde4: 1a00 61ab                              |0000: const-string v0, "http://schemas.android.com/apk/res/android" // string@ab61
+28bde8: 7230 17da 0102                         |0002: invoke-interface {v1, v0, v2}, Lorg/xmlpull/v1/XmlPullParser;.getAttributeValue:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@da17
+28bdee: 0c00                                   |0005: move-result-object v0
+28bdf0: 3900 0700                              |0006: if-nez v0, 000d // +0007
+28bdf4: 1200                                   |0008: const/4 v0, #int 0 // #0
+28bdf6: 7230 17da 0102                         |0009: invoke-interface {v1, v0, v2}, Lorg/xmlpull/v1/XmlPullParser;.getAttributeValue:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@da17
+28bdfc: 0c00                                   |000c: move-result-object v0
+28bdfe: 1100                                   |000d: return-object v0
+      catches       : (none)
+
+    #3              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'getShortcutIds'
+      type          : '(Landroid/content/Context;)Ljava/util/List;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 37 16-bit code units
+28be00:                                        |[28be00] androidx.core.content.pm.ShortcutXmlParser.getShortcutIds:(Landroid/content/Context;)Ljava/util/List;
+28be10: 6200 2331                              |0000: sget-object v0, Landroidx/core/content/pm/ShortcutXmlParser;.sShortcutIds:Ljava/util/ArrayList; // field@3123
+28be14: 3900 2000                              |0002: if-nez v0, 0022 // +0020
+28be18: 6200 1f31                              |0004: sget-object v0, Landroidx/core/content/pm/ShortcutXmlParser;.GET_INSTANCE_LOCK:Ljava/lang/Object; // field@311f
+28be1c: 1d00                                   |0006: monitor-enter v0
+28be1e: 6201 2331                              |0007: sget-object v1, Landroidx/core/content/pm/ShortcutXmlParser;.sShortcutIds:Ljava/util/ArrayList; // field@3123
+28be22: 3901 1500                              |0009: if-nez v1, 001e // +0015
+28be26: 2201 e21d                              |000b: new-instance v1, Ljava/util/ArrayList; // type@1de2
+28be2a: 7010 8fbe 0100                         |000d: invoke-direct {v1}, Ljava/util/ArrayList;.<init>:()V // method@be8f
+28be30: 6901 2331                              |0010: sput-object v1, Landroidx/core/content/pm/ShortcutXmlParser;.sShortcutIds:Ljava/util/ArrayList; // field@3123
+28be34: 6201 2331                              |0012: sget-object v1, Landroidx/core/content/pm/ShortcutXmlParser;.sShortcutIds:Ljava/util/ArrayList; // field@3123
+28be38: 7110 a444 0200                         |0014: invoke-static {v2}, Landroidx/core/content/pm/ShortcutXmlParser;.parseShortcutIds:(Landroid/content/Context;)Ljava/util/Set; // method@44a4
+28be3e: 0c02                                   |0017: move-result-object v2
+28be40: 6e20 95be 2100                         |0018: invoke-virtual {v1, v2}, Ljava/util/ArrayList;.addAll:(Ljava/util/Collection;)Z // method@be95
+28be46: 2803                                   |001b: goto 001e // +0003
+28be48: 0d02                                   |001c: move-exception v2
+28be4a: 2803                                   |001d: goto 0020 // +0003
+28be4c: 1e00                                   |001e: monitor-exit v0
+28be4e: 2803                                   |001f: goto 0022 // +0003
+28be50: 1e00                                   |0020: monitor-exit v0
+28be52: 2702                                   |0021: throw v2
+28be54: 6202 2331                              |0022: sget-object v2, Landroidx/core/content/pm/ShortcutXmlParser;.sShortcutIds:Ljava/util/ArrayList; // field@3123
+28be58: 1102                                   |0024: return-object v2
+      catches       : 1
+        0x0007 - 0x0021
+          <any> -> 0x001c
+
+    #4              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'getXmlResourceParser'
+      type          : '(Landroid/content/Context;Landroid/content/pm/ActivityInfo;)Landroid/content/res/XmlResourceParser;'
+      access        : 0x000a (PRIVATE STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 38 16-bit code units
+28bd78:                                        |[28bd78] androidx.core.content.pm.ShortcutXmlParser.getXmlResourceParser:(Landroid/content/Context;Landroid/content/pm/ActivityInfo;)Landroid/content/res/XmlResourceParser;
+28bd88: 6e10 9604 0200                         |0000: invoke-virtual {v2}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@0496
+28bd8e: 0c02                                   |0003: move-result-object v2
+28bd90: 1a00 b183                              |0004: const-string v0, "android.app.shortcuts" // string@83b1
+28bd94: 6e30 2805 2300                         |0006: invoke-virtual {v3, v2, v0}, Landroid/content/pm/PackageItemInfo;.loadXmlMetaData:(Landroid/content/pm/PackageManager;Ljava/lang/String;)Landroid/content/res/XmlResourceParser; // method@0528
+28bd9a: 0c02                                   |0009: move-result-object v2
+28bd9c: 3802 0300                              |000a: if-eqz v2, 000d // +0003
+28bda0: 1102                                   |000c: return-object v2
+28bda2: 2202 281d                              |000d: new-instance v2, Ljava/lang/IllegalArgumentException; // type@1d28
+28bda6: 2200 4f1d                              |000f: new-instance v0, Ljava/lang/StringBuilder; // type@1d4f
+28bdaa: 7010 9abc 0000                         |0011: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+28bdb0: 1a01 0822                              |0014: const-string v1, "Failed to open android.app.shortcuts meta-data resource of " // string@2208
+28bdb4: 6e20 a5bc 1000                         |0016: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+28bdba: 5433 da00                              |0019: iget-object v3, v3, Landroid/content/pm/ActivityInfo;.name:Ljava/lang/String; // field@00da
+28bdbe: 6e20 a5bc 3000                         |001b: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+28bdc4: 6e10 b7bc 0000                         |001e: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+28bdca: 0c03                                   |0021: move-result-object v3
+28bdcc: 7020 d4bb 3200                         |0022: invoke-direct {v2, v3}, Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V // method@bbd4
+28bdd2: 2702                                   |0025: throw v2
+      catches       : (none)
+
+    #5              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'parseShortcutIds'
+      type          : '(Lorg/xmlpull/v1/XmlPullParser;)Ljava/util/List;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 2
+      insns size    : 56 16-bit code units
+28be68:                                        |[28be68] androidx.core.content.pm.ShortcutXmlParser.parseShortcutIds:(Lorg/xmlpull/v1/XmlPullParser;)Ljava/util/List;
+28be78: 2200 e21d                              |0000: new-instance v0, Ljava/util/ArrayList; // type@1de2
+28be7c: 1211                                   |0002: const/4 v1, #int 1 // #1
+28be7e: 7020 90be 1000                         |0003: invoke-direct {v0, v1}, Ljava/util/ArrayList;.<init>:(I)V // method@be90
+28be84: 7210 1fda 0600                         |0006: invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;.next:()I // method@da1f
+28be8a: 0a02                                   |0009: move-result v2
+28be8c: 3212 2d00                              |000a: if-eq v2, v1, 0037 // +002d
+28be90: 1233                                   |000c: const/4 v3, #int 3 // #3
+28be92: 3332 0800                              |000d: if-ne v2, v3, 0015 // +0008
+28be96: 7210 18da 0600                         |000f: invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;.getDepth:()I // method@da18
+28be9c: 0a03                                   |0012: move-result v3
+28be9e: 3d03 2400                              |0013: if-lez v3, 0037 // +0024
+28bea2: 7210 18da 0600                         |0015: invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;.getDepth:()I // method@da18
+28bea8: 0a03                                   |0018: move-result v3
+28beaa: 7210 1bda 0600                         |0019: invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;.getName:()Ljava/lang/String; // method@da1b
+28beb0: 0c04                                   |001c: move-result-object v4
+28beb2: 1225                                   |001d: const/4 v5, #int 2 // #2
+28beb4: 3352 e8ff                              |001e: if-ne v2, v5, 0006 // -0018
+28beb8: 3353 e6ff                              |0020: if-ne v3, v5, 0006 // -001a
+28bebc: 1a02 18f3                              |0022: const-string v2, "shortcut" // string@f318
+28bec0: 6e20 61bc 4200                         |0024: invoke-virtual {v2, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@bc61
+28bec6: 0a02                                   |0027: move-result v2
+28bec8: 3802 deff                              |0028: if-eqz v2, 0006 // -0022
+28becc: 1a02 19f3                              |002a: const-string v2, "shortcutId" // string@f319
+28bed0: 7120 a044 2600                         |002c: invoke-static {v6, v2}, Landroidx/core/content/pm/ShortcutXmlParser;.getAttributeValue:(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String; // method@44a0
+28bed6: 0c02                                   |002f: move-result-object v2
+28bed8: 3902 0300                              |0030: if-nez v2, 0033 // +0003
+28bedc: 28d4                                   |0032: goto 0006 // -002c
+28bede: 7220 6cbf 2000                         |0033: invoke-interface {v0, v2}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@bf6c
+28bee4: 28d0                                   |0036: goto 0006 // -0030
+28bee6: 1100                                   |0037: return-object v0
+      catches       : (none)
+
+    #6              : (in Landroidx/core/content/pm/ShortcutXmlParser;)
+      name          : 'parseShortcutIds'
+      type          : '(Landroid/content/Context;)Ljava/util/Set;'
+      access        : 0x000a (PRIVATE STATIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 112 16-bit code units
+28bee8:                                        |[28bee8] androidx.core.content.pm.ShortcutXmlParser.parseShortcutIds:(Landroid/content/Context;)Ljava/util/Set;
+28bef8: 2200 f51d                              |0000: new-instance v0, Ljava/util/HashSet; // type@1df5
+28befc: 7010 40bf 0000                         |0002: invoke-direct {v0}, Ljava/util/HashSet;.<init>:()V // method@bf40
+28bf02: 2201 c300                              |0005: new-instance v1, Landroid/content/Intent; // type@00c3
+28bf06: 1a02 db83                              |0007: const-string v2, "android.intent.action.MAIN" // string@83db
+28bf0a: 7020 c804 2100                         |0009: invoke-direct {v1, v2}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@04c8
+28bf10: 1a02 ec83                              |000c: const-string v2, "android.intent.category.LAUNCHER" // string@83ec
+28bf14: 6e20 ca04 2100                         |000e: invoke-virtual {v1, v2}, Landroid/content/Intent;.addCategory:(Ljava/lang/String;)Landroid/content/Intent; // method@04ca
+28bf1a: 6e10 9704 0500                         |0011: invoke-virtual {v5}, Landroid/content/Context;.getPackageName:()Ljava/lang/String; // method@0497
+28bf20: 0c02                                   |0014: move-result-object v2
+28bf22: 6e20 0105 2100                         |0015: invoke-virtual {v1, v2}, Landroid/content/Intent;.setPackage:(Ljava/lang/String;)Landroid/content/Intent; // method@0501
+28bf28: 6e10 9604 0500                         |0018: invoke-virtual {v5}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@0496
+28bf2e: 0c02                                   |001b: move-result-object v2
+28bf30: 1303 8000                              |001c: const/16 v3, #int 128 // #80
+28bf34: 6e30 4305 1203                         |001e: invoke-virtual {v2, v1, v3}, Landroid/content/pm/PackageManager;.queryIntentActivities:(Landroid/content/Intent;I)Ljava/util/List; // method@0543
+28bf3a: 0c01                                   |0021: move-result-object v1
+28bf3c: 3801 4d00                              |0022: if-eqz v1, 006f // +004d
+28bf40: 7210 80bf 0100                         |0024: invoke-interface {v1}, Ljava/util/List;.size:()I // method@bf80
+28bf46: 0a02                                   |0027: move-result v2
+28bf48: 3902 0300                              |0028: if-nez v2, 002b // +0003
+28bf4c: 2845                                   |002a: goto 006f // +0045
+28bf4e: 7210 77bf 0100                         |002b: invoke-interface {v1}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@bf77
+28bf54: 0c01                                   |002e: move-result-object v1
+28bf56: 7210 52bf 0100                         |002f: invoke-interface {v1}, Ljava/util/Iterator;.hasNext:()Z // method@bf52
+28bf5c: 0a02                                   |0032: move-result v2
+28bf5e: 3802 3c00                              |0033: if-eqz v2, 006f // +003c
+28bf62: 7210 53bf 0100                         |0035: invoke-interface {v1}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@bf53
+28bf68: 0c02                                   |0038: move-result-object v2
+28bf6a: 1f02 da00                              |0039: check-cast v2, Landroid/content/pm/ResolveInfo; // type@00da
+28bf6e: 5422 f200                              |003b: iget-object v2, v2, Landroid/content/pm/ResolveInfo;.activityInfo:Landroid/content/pm/ActivityInfo; // field@00f2
+28bf72: 5423 d900                              |003d: iget-object v3, v2, Landroid/content/pm/ActivityInfo;.metaData:Landroid/os/Bundle; // field@00d9
+28bf76: 3803 f0ff                              |003f: if-eqz v3, 002f // -0010
+28bf7a: 1a04 b183                              |0041: const-string v4, "android.app.shortcuts" // string@83b1
+28bf7e: 6e20 120a 4300                         |0043: invoke-virtual {v3, v4}, Landroid/os/BaseBundle;.containsKey:(Ljava/lang/String;)Z // method@0a12
+28bf84: 0a03                                   |0046: move-result v3
+28bf86: 3803 e8ff                              |0047: if-eqz v3, 002f // -0018
+28bf8a: 7120 a244 2500                         |0049: invoke-static {v5, v2}, Landroidx/core/content/pm/ShortcutXmlParser;.getXmlResourceParser:(Landroid/content/Context;Landroid/content/pm/ActivityInfo;)Landroid/content/res/XmlResourceParser; // method@44a2
+28bf90: 0c02                                   |004c: move-result-object v2
+28bf92: 7110 a344 0200                         |004d: invoke-static {v2}, Landroidx/core/content/pm/ShortcutXmlParser;.parseShortcutIds:(Lorg/xmlpull/v1/XmlPullParser;)Ljava/util/List; // method@44a3
+28bf98: 0c03                                   |0050: move-result-object v3
+28bf9a: 7220 e2bf 3000                         |0051: invoke-interface {v0, v3}, Ljava/util/Set;.addAll:(Ljava/util/Collection;)Z // method@bfe2
+28bfa0: 3802 dbff                              |0054: if-eqz v2, 002f // -0025
+28bfa4: 7210 0106 0200                         |0056: invoke-interface {v2}, Landroid/content/res/XmlResourceParser;.close:()V // method@0601
+28bfaa: 28d6                                   |0059: goto 002f // -002a
+28bfac: 0d05                                   |005a: move-exception v5
+28bfae: 280d                                   |005b: goto 0068 // +000d
+28bfb0: 0d05                                   |005c: move-exception v5
+28bfb2: 3802 0a00                              |005d: if-eqz v2, 0067 // +000a
+28bfb6: 7210 0106 0200                         |005f: invoke-interface {v2}, Landroid/content/res/XmlResourceParser;.close:()V // method@0601
+28bfbc: 2805                                   |0062: goto 0067 // +0005
+28bfbe: 0d01                                   |0063: move-exception v1
+28bfc0: 6e20 e6bc 1500                         |0064: invoke-virtual {v5, v1}, Ljava/lang/Throwable;.addSuppressed:(Ljava/lang/Throwable;)V // method@bce6
+28bfc6: 2705                                   |0067: throw v5
+28bfc8: 1a01 8167                              |0068: const-string v1, "ShortcutXmlParser" // string@6781
+28bfcc: 1a02 0e22                              |006a: const-string v2, "Failed to parse the Xml resource: " // string@220e
+28bfd0: 7130 4a10 2105                         |006c: invoke-static {v1, v2, v5}, Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I // method@104a
+28bfd6: 1100                                   |006f: return-object v0
+      catches       : 5
+        0x002b - 0x004d
+          Ljava/lang/Exception; -> 0x005a
+        0x004d - 0x0054
+          <any> -> 0x005c
+        0x0056 - 0x0059
+          Ljava/lang/Exception; -> 0x005a
+        0x005f - 0x0062
+          <any> -> 0x0063
+        0x0064 - 0x0068
+          Ljava/lang/Exception; -> 0x005a
+
+  Virtual methods   -
+  source_file_idx   : 26498 (ShortcutXmlParser.java)
+

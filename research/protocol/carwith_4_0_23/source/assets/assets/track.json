@@ -1,0 +1,38 @@
+{
+  "request_id": "sdfsdf",
+  "domain": "sdfsdf",
+  "timestamp": "123345",
+  "context": "sdfsdf",
+  "content": "sdfsdf",
+  "error_node_json": "sdfsdf",
+  "error_type": "sdfsdf",
+  "pkg_name": "sdfsdf",
+  "version_code": 4,
+  "version_name": "sdfsdf",
+  "query": "sdfsdf",
+  "node_version_code": 4,
+  "node_version_name": "sdfsdf",
+  "error_node_id": 4,
+  "all_execute_time": 234444444444,
+  "node_execute_time": [
+    {
+      "node_id": 4,
+      "execute_time": 234444444444,
+      "wait_user_time": 234444444444
+    },
+    {
+      "node_id": 5,
+      "execute_time": 234444444444,
+      "wait_user_time": 234444444444
+    }
+  ],
+  "sdk_access_node_info": "sdfsdf",
+  "uploadLogContext": true,
+  "AccessibilityServiceState": "sdfsf",
+  "useragent":"sdfsdf",
+
+  "event_category": "sdfsfd",
+  "event_type": "sdfsfd",
+  "event_value": "sdfsfd",
+  "event_params" : "sdfsdf"
+}

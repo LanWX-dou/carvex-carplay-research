@@ -1,0 +1,227 @@
+Class #3431            -
+  Class descriptor  : 'Lcom/carwith/launcher/map/m$a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Lcom/ucar/map/a;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'a'
+      type          : 'Lcom/carwith/launcher/map/m;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : '<init>'
+      type          : '(Lcom/carwith/launcher/map/m;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+1bb318:                                        |[1bb318] com.carwith.launcher.map.m$a.<init>:(Lcom/carwith/launcher/map/m;)V
+1bb328: 5b01 bbc5                              |0000: iput-object v1, v0, Lcom/carwith/launcher/map/m$a;.a:Lcom/carwith/launcher/map/m; // field@c5bb
+1bb32c: 7010 8c81 0000                         |0002: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+1bb332: 0e00                                   |0005: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;Lcom/ucar/map/UCarMapInfo;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 13
+      ins           : 3
+      outs          : 10
+      insns size    : 108 16-bit code units
+1bb4b0:                                        |[1bb4b0] com.carwith.launcher.map.m$a.a:(Ljava/lang/String;Lcom/ucar/map/UCarMapInfo;)V
+1bb4c0: 2200 aa14                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@14aa
+1bb4c4: 7010 e381 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1bb4ca: 1a01 3da2                              |0005: const-string v1, "onShowNavInfo: pkg=" // string@a23d
+1bb4ce: 6e20 ee81 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb4d4: 6e20 ee81 b000                         |000a: invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb4da: 6e10 fd81 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1bb4e0: 0c00                                   |0010: move-result-object v0
+1bb4e2: 1a01 f93b                              |0011: const-string v1, "MapInitMgr" // string@3bf9
+1bb4e6: 7120 7f0e 0100                         |0013: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7f
+1bb4ec: 54aa bbc5                              |0016: iget-object v10, v10, Lcom/carwith/launcher/map/m$a;.a:Lcom/carwith/launcher/map/m; // field@c5bb
+1bb4f0: 7110 2922 0a00                         |0018: invoke-static {v10}, Lcom/carwith/launcher/map/m;.a:(Lcom/carwith/launcher/map/m;)Ljava/lang/String; // method@2229
+1bb4f6: 0c0a                                   |001b: move-result-object v10
+1bb4f8: 7120 2805 ab00                         |001c: invoke-static {v11, v10}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+1bb4fe: 0a0a                                   |001f: move-result v10
+1bb500: 380a 4b00                              |0020: if-eqz v10, 006b // +004b
+1bb504: 220a aa14                              |0022: new-instance v10, Ljava/lang/StringBuilder; // type@14aa
+1bb508: 7010 e381 0a00                         |0024: invoke-direct {v10}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1bb50e: 1a00 3ca2                              |0027: const-string v0, "onShowNavInfo: UCarMapInfo=" // string@a23c
+1bb512: 6e20 ee81 0a00                         |0029: invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb518: 6e10 2d79 0c00                         |002c: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.toString:()Ljava/lang/String; // method@792d
+1bb51e: 0c00                                   |002f: move-result-object v0
+1bb520: 6e20 ee81 0a00                         |0030: invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb526: 6e10 fd81 0a00                         |0033: invoke-virtual {v10}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1bb52c: 0c0a                                   |0036: move-result-object v10
+1bb52e: 7120 7f0e a100                         |0037: invoke-static {v1, v10}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7f
+1bb534: 7100 2a22 0000                         |003a: invoke-static {}, Lcom/carwith/launcher/map/m;.b:()Landroid/content/Context; // method@222a
+1bb53a: 0c0a                                   |003d: move-result-object v10
+1bb53c: 7110 2d13 0a00                         |003e: invoke-static {v10}, Lcom/carwith/launcher/LauncherDataBusClient;.o:(Landroid/content/Context;)Lcom/carwith/launcher/LauncherDataBusClient; // method@132d
+1bb542: 0c00                                   |0041: move-result-object v0
+1bb544: 6e10 2379 0c00                         |0042: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getDirectionIcon:()Landroid/graphics/drawable/Icon; // method@7923
+1bb54a: 0c03                                   |0045: move-result-object v3
+1bb54c: 6e10 2479 0c00                         |0046: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getDistance:()Ljava/lang/String; // method@7924
+1bb552: 0c04                                   |0049: move-result-object v4
+1bb554: 6e10 2579 0c00                         |004a: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getDistanceUnit:()Ljava/lang/String; // method@7925
+1bb55a: 0c05                                   |004d: move-result-object v5
+1bb55c: 6e10 2679 0c00                         |004e: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getOperation:()Ljava/lang/String; // method@7926
+1bb562: 0c06                                   |0051: move-result-object v6
+1bb564: 6e10 2b79 0c00                         |0052: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getWhere:()Ljava/lang/String; // method@792b
+1bb56a: 0c07                                   |0055: move-result-object v7
+1bb56c: 6e10 2979 0c00                         |0056: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getTitle1:()Ljava/lang/String; // method@7929
+1bb572: 0c08                                   |0059: move-result-object v8
+1bb574: 6e10 2a79 0c00                         |005a: invoke-virtual {v12}, Lcom/ucar/map/UCarMapInfo;.getTitle2:()Ljava/lang/String; // method@792a
+1bb57a: 0c09                                   |005d: move-result-object v9
+1bb57c: 1211                                   |005e: const/4 v1, #int 1 // #1
+1bb57e: 07b2                                   |005f: move-object v2, v11
+1bb580: 740a 1913 0000                         |0060: invoke-virtual/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9}, Lcom/carwith/launcher/LauncherDataBusClient;.F:(ZLjava/lang/String;Landroid/graphics/drawable/Icon;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@1319
+1bb586: 7100 e721 0000                         |0063: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+1bb58c: 0c0a                                   |0066: move-result-object v10
+1bb58e: 121b                                   |0067: const/4 v11, #int 1 // #1
+1bb590: 6e20 a021 ba00                         |0068: invoke-virtual {v10, v11}, Lcom/carwith/launcher/map/k;.D0:(Z)V // method@21a0
+1bb596: 0e00                                   |006b: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;ZZ)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 0
+      insns size    : 1 16-bit code units
+1bb348:                                        |[1bb348] com.carwith.launcher.map.m$a.b:(Ljava/lang/String;ZZ)V
+1bb358: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;ILandroid/os/Bundle;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 0
+      insns size    : 1 16-bit code units
+1bb334:                                        |[1bb334] com.carwith.launcher.map.m$a.c:(Ljava/lang/String;ILandroid/os/Bundle;)V
+1bb344: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 4
+      insns size    : 66 16-bit code units
+1bb41c:                                        |[1bb41c] com.carwith.launcher.map.m$a.d:(Ljava/lang/String;)V
+1bb42c: 2200 aa14                              |0000: new-instance v0, Ljava/lang/StringBuilder; // type@14aa
+1bb430: 7010 e381 0000                         |0002: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1bb436: 1a01 02a2                              |0005: const-string v1, "onRemoveNavInfo: pkg=" // string@a202
+1bb43a: 6e20 ee81 1000                         |0007: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb440: 6e20 ee81 3000                         |000a: invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb446: 6e10 fd81 0000                         |000d: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1bb44c: 0c00                                   |0010: move-result-object v0
+1bb44e: 1a01 f93b                              |0011: const-string v1, "MapInitMgr" // string@3bf9
+1bb452: 7120 7f0e 0100                         |0013: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7f
+1bb458: 7100 e721 0000                         |0016: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+1bb45e: 0c00                                   |0019: move-result-object v0
+1bb460: 1201                                   |001a: const/4 v1, #int 0 // #0
+1bb462: 6e20 a021 1000                         |001b: invoke-virtual {v0, v1}, Lcom/carwith/launcher/map/k;.D0:(Z)V // method@21a0
+1bb468: 5422 bbc5                              |001e: iget-object v2, v2, Lcom/carwith/launcher/map/m$a;.a:Lcom/carwith/launcher/map/m; // field@c5bb
+1bb46c: 7110 2922 0200                         |0020: invoke-static {v2}, Lcom/carwith/launcher/map/m;.a:(Lcom/carwith/launcher/map/m;)Ljava/lang/String; // method@2229
+1bb472: 0c02                                   |0023: move-result-object v2
+1bb474: 7120 4d0c 3200                         |0024: invoke-static {v2, v3}, Lcom/blankj/utilcode/util/n;.a:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0c4d
+1bb47a: 0a02                                   |0027: move-result v2
+1bb47c: 3802 1900                              |0028: if-eqz v2, 0041 // +0019
+1bb480: 7100 2a22 0000                         |002a: invoke-static {}, Lcom/carwith/launcher/map/m;.b:()Landroid/content/Context; // method@222a
+1bb486: 0c02                                   |002d: move-result-object v2
+1bb488: 7110 2d13 0200                         |002e: invoke-static {v2}, Lcom/carwith/launcher/LauncherDataBusClient;.o:(Landroid/content/Context;)Lcom/carwith/launcher/LauncherDataBusClient; // method@132d
+1bb48e: 0c02                                   |0031: move-result-object v2
+1bb490: 1200                                   |0032: const/4 v0, #int 0 // #0
+1bb492: 6e40 1a13 1203                         |0033: invoke-virtual {v2, v1, v3, v0}, Lcom/carwith/launcher/LauncherDataBusClient;.G:(ZLjava/lang/String;Lcom/ucar/map/UCarMapInfo;)V // method@131a
+1bb498: 7100 2a22 0000                         |0036: invoke-static {}, Lcom/carwith/launcher/map/m;.b:()Landroid/content/Context; // method@222a
+1bb49e: 0c02                                   |0039: move-result-object v2
+1bb4a0: 7110 2d13 0200                         |003a: invoke-static {v2}, Lcom/carwith/launcher/LauncherDataBusClient;.o:(Landroid/content/Context;)Lcom/carwith/launcher/LauncherDataBusClient; // method@132d
+1bb4a6: 0c02                                   |003d: move-result-object v2
+1bb4a8: 6e10 1713 0200                         |003e: invoke-virtual {v2}, Lcom/carwith/launcher/LauncherDataBusClient;.D:()V // method@1317
+1bb4ae: 0e00                                   |0041: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'e'
+      type          : '(Ljava/lang/String;ZII)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 15
+      ins           : 5
+      outs          : 10
+      insns size    : 77 16-bit code units
+1bb370:                                        |[1bb370] com.carwith.launcher.map.m$a.e:(Ljava/lang/String;ZII)V
+1bb380: 220d aa14                              |0000: new-instance v13, Ljava/lang/StringBuilder; // type@14aa
+1bb384: 7010 e381 0d00                         |0002: invoke-direct {v13}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+1bb38a: 1a0e 5ca1                              |0005: const-string v14, "onNavStatusChanged: isNavOn=" // string@a15c
+1bb38e: 6e20 ee81 ed00                         |0007: invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb394: 6e20 ef81 cd00                         |000a: invoke-virtual {v13, v12}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@81ef
+1bb39a: 1a0e 7603                              |000d: const-string v14, ", pkg=" // string@0376
+1bb39e: 6e20 ee81 ed00                         |000f: invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb3a4: 6e20 ee81 bd00                         |0012: invoke-virtual {v13, v11}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+1bb3aa: 6e10 fd81 0d00                         |0015: invoke-virtual {v13}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+1bb3b0: 0c0d                                   |0018: move-result-object v13
+1bb3b2: 1a0e f93b                              |0019: const-string v14, "MapInitMgr" // string@3bf9
+1bb3b6: 7120 7f0e de00                         |001b: invoke-static {v14, v13}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@0e7f
+1bb3bc: 7100 e721 0000                         |001e: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+1bb3c2: 0c0d                                   |0021: move-result-object v13
+1bb3c4: 6e30 da21 bd0c                         |0022: invoke-virtual {v13, v11, v12}, Lcom/carwith/launcher/map/k;.o0:(Ljava/lang/String;Z)V // method@21da
+1bb3ca: 54aa bbc5                              |0025: iget-object v10, v10, Lcom/carwith/launcher/map/m$a;.a:Lcom/carwith/launcher/map/m; // field@c5bb
+1bb3ce: 7110 2922 0a00                         |0027: invoke-static {v10}, Lcom/carwith/launcher/map/m;.a:(Lcom/carwith/launcher/map/m;)Ljava/lang/String; // method@2229
+1bb3d4: 0c0a                                   |002a: move-result-object v10
+1bb3d6: 7120 2805 ab00                         |002b: invoke-static {v11, v10}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+1bb3dc: 0a0a                                   |002e: move-result v10
+1bb3de: 380a 1d00                              |002f: if-eqz v10, 004c // +001d
+1bb3e2: 7100 e721 0000                         |0031: invoke-static {}, Lcom/carwith/launcher/map/k;.v:()Lcom/carwith/launcher/map/k; // method@21e7
+1bb3e8: 0c0a                                   |0034: move-result-object v10
+1bb3ea: 6e20 a021 ca00                         |0035: invoke-virtual {v10, v12}, Lcom/carwith/launcher/map/k;.D0:(Z)V // method@21a0
+1bb3f0: 7100 2a22 0000                         |0038: invoke-static {}, Lcom/carwith/launcher/map/m;.b:()Landroid/content/Context; // method@222a
+1bb3f6: 0c0a                                   |003b: move-result-object v10
+1bb3f8: 7110 2d13 0a00                         |003c: invoke-static {v10}, Lcom/carwith/launcher/LauncherDataBusClient;.o:(Landroid/content/Context;)Lcom/carwith/launcher/LauncherDataBusClient; // method@132d
+1bb3fe: 0c00                                   |003f: move-result-object v0
+1bb400: 1208                                   |0040: const/4 v8, #int 0 // #0
+1bb402: 1209                                   |0041: const/4 v9, #int 0 // #0
+1bb404: 1203                                   |0042: const/4 v3, #int 0 // #0
+1bb406: 1204                                   |0043: const/4 v4, #int 0 // #0
+1bb408: 1205                                   |0044: const/4 v5, #int 0 // #0
+1bb40a: 1206                                   |0045: const/4 v6, #int 0 // #0
+1bb40c: 1207                                   |0046: const/4 v7, #int 0 // #0
+1bb40e: 01c1                                   |0047: move v1, v12
+1bb410: 07b2                                   |0048: move-object v2, v11
+1bb412: 740a 1913 0000                         |0049: invoke-virtual/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9}, Lcom/carwith/launcher/LauncherDataBusClient;.F:(ZLjava/lang/String;Landroid/graphics/drawable/Icon;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@1319
+1bb418: 0e00                                   |004c: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/launcher/map/m$a;)
+      name          : 'f'
+      type          : '(Ljava/lang/String;I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 0
+      insns size    : 1 16-bit code units
+1bb35c:                                        |[1bb35c] com.carwith.launcher.map.m$a.f:(Ljava/lang/String;I)V
+1bb36c: 0e00                                   |0000: return-void
+      catches       : (none)
+
+  source_file_idx   : 15354 (MapInitMgr.java)
+

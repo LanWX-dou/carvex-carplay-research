@@ -1,0 +1,128 @@
+Class #3228            -
+  Class descriptor  : 'Lcom/xiaomi/market/sdk/ServerType;'
+  Access flags      : 0x4011 (PUBLIC FINAL ENUM)
+  Superclass        : 'Ljava/lang/Enum;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : '$VALUES'
+      type          : '[Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x101a (PRIVATE STATIC FINAL SYNTHETIC)
+    #1              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'PREVIEW'
+      type          : 'Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #2              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'PRODUCT'
+      type          : 'Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+    #3              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'STAGING'
+      type          : 'Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x4019 (PUBLIC STATIC FINAL ENUM)
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'baseUrl'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 6
+      ins           : 0
+      outs          : 4
+      insns size    : 43 16-bit code units
+3ce904:                                        |[3ce904] com.xiaomi.market.sdk.ServerType.<clinit>:()V
+3ce914: 2200 491b                              |0000: new-instance v0, Lcom/xiaomi/market/sdk/ServerType; // type@1b49
+3ce918: 1201                                   |0002: const/4 v1, #int 0 // #0
+3ce91a: 1a02 27a5                              |0003: const-string v2, "https://api.developer.xiaomi.com/autoupdate/" // string@a527
+3ce91e: 1a03 4359                              |0005: const-string v3, "PRODUCT" // string@5943
+3ce922: 7040 f9b3 3021                         |0007: invoke-direct {v0, v3, v1, v2}, Lcom/xiaomi/market/sdk/ServerType;.<init>:(Ljava/lang/String;ILjava/lang/String;)V // method@b3f9
+3ce928: 6900 04cd                              |000a: sput-object v0, Lcom/xiaomi/market/sdk/ServerType;.PRODUCT:Lcom/xiaomi/market/sdk/ServerType; // field@cd04
+3ce92c: 2201 491b                              |000c: new-instance v1, Lcom/xiaomi/market/sdk/ServerType; // type@1b49
+3ce930: 1212                                   |000e: const/4 v2, #int 1 // #1
+3ce932: 1a03 0ba5                              |000f: const-string v3, "http://staging.api.developer.n.xiaomi.com/autoupdate/" // string@a50b
+3ce936: 1a04 ab61                              |0011: const-string v4, "STAGING" // string@61ab
+3ce93a: 7040 f9b3 4132                         |0013: invoke-direct {v1, v4, v2, v3}, Lcom/xiaomi/market/sdk/ServerType;.<init>:(Ljava/lang/String;ILjava/lang/String;)V // method@b3f9
+3ce940: 6901 05cd                              |0016: sput-object v1, Lcom/xiaomi/market/sdk/ServerType;.STAGING:Lcom/xiaomi/market/sdk/ServerType; // field@cd05
+3ce944: 2202 491b                              |0018: new-instance v2, Lcom/xiaomi/market/sdk/ServerType; // type@1b49
+3ce948: 1223                                   |001a: const/4 v3, #int 2 // #2
+3ce94a: 1a04 03a5                              |001b: const-string v4, "http://preview.api.developer.appstore.pt.xiaomi.com/autoupdate/" // string@a503
+3ce94e: 1a05 2859                              |001d: const-string v5, "PREVIEW" // string@5928
+3ce952: 7040 f9b3 5243                         |001f: invoke-direct {v2, v5, v3, v4}, Lcom/xiaomi/market/sdk/ServerType;.<init>:(Ljava/lang/String;ILjava/lang/String;)V // method@b3f9
+3ce958: 6902 03cd                              |0022: sput-object v2, Lcom/xiaomi/market/sdk/ServerType;.PREVIEW:Lcom/xiaomi/market/sdk/ServerType; // field@cd03
+3ce95c: 2430 1428 1002                         |0024: filled-new-array {v0, v1, v2}, [Lcom/xiaomi/market/sdk/ServerType; // type@2814
+3ce962: 0c00                                   |0027: move-result-object v0
+3ce964: 6900 02cd                              |0028: sput-object v0, Lcom/xiaomi/market/sdk/ServerType;.$VALUES:[Lcom/xiaomi/market/sdk/ServerType; // field@cd02
+3ce968: 0e00                                   |002a: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;ILjava/lang/String;)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 3
+      insns size    : 6 16-bit code units
+3ce96c:                                        |[3ce96c] com.xiaomi.market.sdk.ServerType.<init>:(Ljava/lang/String;ILjava/lang/String;)V
+3ce97c: 7030 93cb 1002                         |0000: invoke-direct {v0, v1, v2}, Ljava/lang/Enum;.<init>:(Ljava/lang/String;I)V // method@cb93
+3ce982: 5b03 06cd                              |0003: iput-object v3, v0, Lcom/xiaomi/market/sdk/ServerType;.baseUrl:Ljava/lang/String; // field@cd06
+3ce986: 0e00                                   |0005: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'valueOf'
+      type          : '(Ljava/lang/String;)Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+3ce8a4:                                        |[3ce8a4] com.xiaomi.market.sdk.ServerType.valueOf:(Ljava/lang/String;)Lcom/xiaomi/market/sdk/ServerType;
+3ce8b4: 1c00 491b                              |0000: const-class v0, Lcom/xiaomi/market/sdk/ServerType; // type@1b49
+3ce8b8: 7120 98cb 1000                         |0002: invoke-static {v0, v1}, Ljava/lang/Enum;.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum; // method@cb98
+3ce8be: 0c01                                   |0005: move-result-object v1
+3ce8c0: 1f01 491b                              |0006: check-cast v1, Lcom/xiaomi/market/sdk/ServerType; // type@1b49
+3ce8c4: 1101                                   |0008: return-object v1
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'values'
+      type          : '()[Lcom/xiaomi/market/sdk/ServerType;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 9 16-bit code units
+3ce8c8:                                        |[3ce8c8] com.xiaomi.market.sdk.ServerType.values:()[Lcom/xiaomi/market/sdk/ServerType;
+3ce8d8: 6200 02cd                              |0000: sget-object v0, Lcom/xiaomi/market/sdk/ServerType;.$VALUES:[Lcom/xiaomi/market/sdk/ServerType; // field@cd02
+3ce8dc: 6e10 d9e1 0000                         |0002: invoke-virtual {v0}, [Lcom/xiaomi/market/sdk/ServerType;.clone:()Ljava/lang/Object; // method@e1d9
+3ce8e2: 0c00                                   |0005: move-result-object v0
+3ce8e4: 1f00 1428                              |0006: check-cast v0, [Lcom/xiaomi/market/sdk/ServerType; // type@2814
+3ce8e8: 1100                                   |0008: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/market/sdk/ServerType;)
+      name          : 'getBaseUrl'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+3ce8ec:                                        |[3ce8ec] com.xiaomi.market.sdk.ServerType.getBaseUrl:()Ljava/lang/String;
+3ce8fc: 5400 06cd                              |0000: iget-object v0, v0, Lcom/xiaomi/market/sdk/ServerType;.baseUrl:Ljava/lang/String; // field@cd06
+3ce900: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  source_file_idx   : 25465 (ServerType.java)
+

@@ -1,0 +1,54 @@
+Class #1269            -
+  Class descriptor  : 'Lnet/easyconn/carman/sdk/IRemoteService;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'processAudio'
+      type          : '([BI)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'setAppStatus'
+      type          : '(Ljava/lang/String;Z)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'setCallback'
+      type          : '(Ljava/lang/String;ZLnet/easyconn/carman/sdk/IDataCallback;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'setPresentationStatus'
+      type          : '(Ljava/lang/String;Z)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'startAudio'
+      type          : '(III)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'startCarMICRecord'
+      type          : '(Z)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lnet/easyconn/carman/sdk/IRemoteService;)
+      name          : 'stopAudio'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 6596 (IRemoteService.java)
+

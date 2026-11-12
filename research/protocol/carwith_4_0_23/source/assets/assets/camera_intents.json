@@ -1,0 +1,314 @@
+{
+  "feature": [
+    {
+      "featureCode": "take_photo_front_outside_3s",
+      "name": "相机外倒计时3s自拍",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.COUNT_DOWN_TIME=3;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=true;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=true;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_smallvideo_front",
+      "name": "小视频前置",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=161;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_front_outside_im",
+      "name": "相机外即刻自拍",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.COUNT_DOWN_TIME=0;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=true;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=true;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_slowmotion",
+      "name": "慢动作视频",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=168;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SLOW_MOTION;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SLOW_MOTION;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_video",
+      "name": "录像模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=162;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;S.android.intent.extra.CAMERA_MODE=VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;S.android.intent.extra.CAMERA_MODE=VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "open_camera_settings",
+      "name": "打开相机设置",
+      "intents": [
+        "intent:#Intent;action=miui.intent.action.APP_SETTINGS;package=com.android.camera;component=com.android.camera/.CameraPreferenceActivity;end",
+        "intent:#Intent;action=miui.intent.action.APP_SETTINGS;package=com.android.camera;component=com.android.camera/.CameraPreferenceActivity;end",
+        "intent:#Intent;action=miui.intent.action.APP_SETTINGS;package=com.android.camera;component=com.android.camera/.VoiceCameraPreferenceActivity;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_beauty_back",
+      "name": "美颜后置",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.VoiceCamera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=0;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_smallvideo",
+      "name": "小视频模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=161;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_quickmotion",
+      "name": "快动作视频",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=169;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=FAST_MOTION;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=FAST_MOTION;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_video_back",
+      "name": "后置录像模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=162;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_outside_im",
+      "name": "相机外即刻拍照",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;i.android.intent.extras.COUNT_DOWN_TIME=0;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_night_mode",
+      "name": "夜景模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SUPER_NIGHT;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SUPER_NIGHT;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SUPER_NIGHT;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_video",
+      "name": "相机外录像",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=162;i.android.intent.extras.COUNT_DOWN_TIME=0;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extra.TIMER_DURATION_SECONDS=0;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;i.android.intent.extra.TIMER_DURATION_SECONDS=0;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_manual_mode",
+      "name": "人工模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=167;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=MANUAL;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=MANUAL;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "open_camera_correctly",
+      "name": "打开相机",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_back_outside_3s",
+      "name": "相机外倒计时3拍照",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;i.android.intent.extras.COUNT_DOWN_TIME=3;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_portrait_mode",
+      "name": "人像模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=171;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=PORTRAIT;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=PORTRAIT;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_square_mode",
+      "name": "方形模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=165;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SQUARE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SQUARE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_im",
+      "name": "相机内立即拍照",
+      "intents": [
+        "intent:#Intent;action=com.android.camera.action.XIAOAI_CONTROL;i.android.intent.extras.XIAOAI_CONTROL_ACTION=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end"
+      ],
+      "intent_type": "broadcast"
+    },
+    {
+      "featureCode": "switch_smallvideo_back",
+      "name": "后置小视频模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=161;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=SHORT_VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_photo",
+      "name": "拍照模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_outside_5s",
+      "name": "相机外倒计时5s拍照",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;i.android.intent.extras.COUNT_DOWN_TIME=5;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;i.android.intent.extra.TIMER_DURATION_SECONDS=5;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;i.android.intent.extra.TIMER_DURATION_SECONDS=5;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "open_camera",
+      "name": "打开相机",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_beauty_front",
+      "name": "美颜前置",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.VoiceCamera;i.android.intent.extras.CAMERA_MODULE=164;i.android.intent.extras.MIUI_CAMERA_FACING=1;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo_inside_5s",
+      "name": "相机内倒计时5s拍照",
+      "intents": [
+        "intent:#Intent;action=com.android.camera.action.XIAOAI_CONTROL;i.android.intent.extras.COUNT_DOWN_TIME=5;i.android.intent.extras.XIAOAI_CONTROL_ACTION=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;i.android.intent.extra.TIMER_DURATION_SECONDS=5;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;i.android.intent.extra.TIMER_DURATION_SECONDS=5;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end"
+      ],
+      "intent_type": "broadcast"
+    },
+    {
+      "featureCode": "switch_photo_front",
+      "name": "前置拍照模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_video_front",
+      "name": "前置录像",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=162;i.android.intent.extras.MIUI_CAMERA_FACING=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=VIDEO;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=true;S.android.intent.extra.CAMERA_MODE=VIDEO;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_panoramic_mode",
+      "name": "全景模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=166;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=PANORAMA;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=PANORAMA;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_photo_back",
+      "name": "后置拍照模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=163;i.android.intent.extras.MIUI_CAMERA_FACING=0;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.Camera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;package=com.android.camera;component=com.android.camera/.VoiceCamera;B.android.intent.extra.USE_FRONT_CAMERA=false;S.android.intent.extra.CAMERA_MODE=CAPTURE;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "switch_beauty_mode",
+      "name": "美颜模式",
+      "intents": [
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.Camera;i.android.intent.extras.CAMERA_MODULE=164;end",
+        "intent:#Intent;action=android.media.action.XIAOAI_CONTROL;package=com.android.camera;component=com.android.camera/.VoiceCamera;i.android.intent.extras.CAMERA_MODULE=164;end"
+      ],
+      "intent_type": "activity"
+    },
+    {
+      "featureCode": "take_photo",
+      "name": "相机内拍照",
+      "intents": [
+        "intent:#Intent;action=com.android.camera.action.XIAOAI_CONTROL;i.android.intent.extras.COUNT_DOWN_TIME=3;i.android.intent.extras.XIAOAI_CONTROL_ACTION=1;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end",
+        "intent:#Intent;action=android.media.action.VOICE_COMMAND;i.android.intent.extra.TIMER_DURATION_SECONDS=3;B.android.intent.extra.CAMERA_OPEN_ONLY=false;S.android.intent.extras.VOICE_CONTROL_ACTION=CAPTURE;end"
+      ],
+      "intent_type": "broadcast"
+    }
+  ]
+}

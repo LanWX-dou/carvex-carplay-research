@@ -1,0 +1,960 @@
+Class #536            -
+  Class descriptor  : 'Lcom/tencent/open/utils/b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/tencent/open/utils/b;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      value         : ""
+    #1              : (in Lcom/tencent/open/utils/b;)
+      name          : 'b'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      value         : ""
+    #2              : (in Lcom/tencent/open/utils/b;)
+      name          : 'c'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      value         : ""
+    #3              : (in Lcom/tencent/open/utils/b;)
+      name          : 'd'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      value         : ""
+    #4              : (in Lcom/tencent/open/utils/b;)
+      name          : 'e'
+      type          : 'I'
+      access        : 0x0009 (PUBLIC STATIC)
+      value         : -1
+    #5              : (in Lcom/tencent/open/utils/b;)
+      name          : 'f'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/tencent/open/utils/b;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 0
+      ins           : 0
+      outs          : 0
+      insns size    : 1 16-bit code units
+16c338:                                        |[16c338] com.tencent.open.utils.b.<clinit>:()V
+16c348: 0e00                                   |0000: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/tencent/open/utils/b;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 3
+      insns size    : 51 16-bit code units
+16b918:                                        |[16b918] com.tencent.open.utils.b.a:(Ljava/lang/String;)Landroid/os/Bundle;
+16b928: 2200 c600                              |0000: new-instance v0, Landroid/os/Bundle; // type@00c6
+16b92c: 7010 a602 0000                         |0002: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16b932: 3807 2d00                              |0005: if-eqz v7, 0032 // +002d
+16b936: 1a01 4e01                              |0007: const-string v1, "&" // string@014e
+16b93a: 6e20 6434 1700                         |0009: invoke-virtual {v7, v1}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@3464
+16b940: 0c07                                   |000c: move-result-object v7
+16b942: 2171                                   |000d: array-length v1, v7
+16b944: 1202                                   |000e: const/4 v2, #int 0 // #0
+16b946: 0123                                   |000f: move v3, v2
+16b948: 3513 2200                              |0010: if-ge v3, v1, 0032 // +0022
+16b94c: 4604 0703                              |0012: aget-object v4, v7, v3
+16b950: 1a05 aa03                              |0014: const-string v5, "=" // string@03aa
+16b954: 6e20 6434 5400                         |0016: invoke-virtual {v4, v5}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@3464
+16b95a: 0c04                                   |0019: move-result-object v4
+16b95c: 2145                                   |001a: array-length v5, v4
+16b95e: 1226                                   |001b: const/4 v6, #int 2 // #2
+16b960: 3365 1200                              |001c: if-ne v5, v6, 002e // +0012
+16b964: 4605 0402                              |001e: aget-object v5, v4, v2
+16b968: 7110 0635 0500                         |0020: invoke-static {v5}, Ljava/net/URLDecoder;.decode:(Ljava/lang/String;)Ljava/lang/String; // method@3506
+16b96e: 0c05                                   |0023: move-result-object v5
+16b970: 1216                                   |0024: const/4 v6, #int 1 // #1
+16b972: 4604 0406                              |0025: aget-object v4, v4, v6
+16b976: 7110 0635 0400                         |0027: invoke-static {v4}, Ljava/net/URLDecoder;.decode:(Ljava/lang/String;)Ljava/lang/String; // method@3506
+16b97c: 0c04                                   |002a: move-result-object v4
+16b97e: 6e30 a002 5004                         |002b: invoke-virtual {v0, v5, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16b984: d803 0301                              |002e: add-int/lit8 v3, v3, #int 1 // #01
+16b988: 28e0                                   |0030: goto 0010 // -0020
+16b98a: 1200                                   |0031: const/4 v0, #int 0 // #0
+16b98c: 1100                                   |0032: return-object v0
+      catches       : 1
+        0x0007 - 0x002e
+          Ljava/lang/Exception; -> 0x0031
+
+    #2              : (in Lcom/tencent/open/utils/b;)
+      name          : 'b'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 18
+      ins           : 6
+      outs          : 12
+      insns size    : 25 16-bit code units
+16b9a0:                                        |[16b9a0] com.tencent.open.utils.b.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+16b9b0: 1a0a 0000                              |0000: const-string v10, "" // string@0000
+16b9b4: 1a0b 0000                              |0002: const-string v11, "" // string@0000
+16b9b8: 1a06 0000                              |0004: const-string v6, "" // string@0000
+16b9bc: 1a07 0000                              |0006: const-string v7, "" // string@0000
+16b9c0: 1a08 0000                              |0008: const-string v8, "" // string@0000
+16b9c4: 1a09 0000                              |000a: const-string v9, "" // string@0000
+16b9c8: 07c0                                   |000c: move-object v0, v12
+16b9ca: 07e1                                   |000d: move-object v1, v14
+16b9cc: 07f2                                   |000e: move-object v2, v15
+16b9ce: 07d3                                   |000f: move-object v3, v13
+16b9d0: 0804 1000                              |0010: move-object/from16 v4, v16
+16b9d4: 0805 1100                              |0012: move-object/from16 v5, v17
+16b9d8: 770c 1f2c 0000                         |0014: invoke-static/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11}, Lcom/tencent/open/utils/b;.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle; // method@2c1f
+16b9de: 0c00                                   |0017: move-result-object v0
+16b9e0: 1100                                   |0018: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/tencent/open/utils/b;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 12
+      ins           : 9
+      outs          : 3
+      insns size    : 131 16-bit code units
+16b9e4:                                        |[16b9e4] com.tencent.open.utils.b.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+16b9f4: 2200 c600                              |0000: new-instance v0, Landroid/os/Bundle; // type@00c6
+16b9f8: 7010 a602 0000                         |0002: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16b9fe: 1a01 d75e                              |0005: const-string v1, "platform" // string@5ed7
+16ba02: 1a02 6103                              |0007: const-string v2, "1" // string@0361
+16ba06: 6e30 a002 1002                         |0009: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba0c: 1a01 4c61                              |000c: const-string v1, "result" // string@614c
+16ba10: 6e30 a002 1003                         |000e: invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba16: 1a03 be37                              |0011: const-string v3, "code" // string@37be
+16ba1a: 6e30 a002 3004                         |0013: invoke-virtual {v0, v3, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba20: 1a03 7169                              |0016: const-string v3, "tmcost" // string@6971
+16ba24: 6e30 a002 3005                         |0018: invoke-virtual {v0, v3, v5}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba2a: 1a03 3660                              |001b: const-string v3, "rate" // string@6036
+16ba2e: 6e30 a002 3006                         |001d: invoke-virtual {v0, v3, v6}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba34: 1a03 b737                              |0020: const-string v3, "cmd" // string@37b7
+16ba38: 6e30 a002 3007                         |0022: invoke-virtual {v0, v3, v7}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba3e: 1a03 696a                              |0025: const-string v3, "uin" // string@6a69
+16ba42: 6e30 a002 3008                         |0027: invoke-virtual {v0, v3, v8}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba48: 1a03 9f32                              |002a: const-string v3, "appid" // string@329f
+16ba4c: 6e30 a002 3009                         |002c: invoke-virtual {v0, v3, v9}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba52: 1a03 d965                              |002f: const-string v3, "share_type" // string@65d9
+16ba56: 6e30 a002 300a                         |0031: invoke-virtual {v0, v3, v10}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba5c: 1a03 213b                              |0034: const-string v3, "detail" // string@3b21
+16ba60: 6e30 a002 300b                         |0036: invoke-virtual {v0, v3, v11}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba66: 1a03 e65b                              |0039: const-string v3, "os_ver" // string@5be6
+16ba6a: 6204 6600                              |003b: sget-object v4, Landroid/os/Build$VERSION;.RELEASE:Ljava/lang/String; // field@0066
+16ba6e: 6e30 a002 3004                         |003d: invoke-virtual {v0, v3, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba74: 7100 1246 0000                         |0040: invoke-static {}, Lzb/c;.a:()Landroid/content/Context; // method@4612
+16ba7a: 0c03                                   |0043: move-result-object v3
+16ba7c: 7110 2e45 0300                         |0044: invoke-static {v3}, Lyb/a;.a:(Landroid/content/Context;)Ljava/lang/String; // method@452e
+16ba82: 0c03                                   |0047: move-result-object v3
+16ba84: 1a04 a759                              |0048: const-string v4, "network" // string@59a7
+16ba88: 6e30 a002 4003                         |004a: invoke-virtual {v0, v4, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16ba8e: 7100 1246 0000                         |004d: invoke-static {}, Lzb/c;.a:()Landroid/content/Context; // method@4612
+16ba94: 0c03                                   |0050: move-result-object v3
+16ba96: 7110 2f45 0300                         |0051: invoke-static {v3}, Lyb/a;.b:(Landroid/content/Context;)Ljava/lang/String; // method@452f
+16ba9c: 0c03                                   |0054: move-result-object v3
+16ba9e: 1a04 4732                              |0055: const-string v4, "apn" // string@3247
+16baa2: 6e30 a002 4003                         |0057: invoke-virtual {v0, v4, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16baa8: 1a03 6957                              |005a: const-string v3, "model_name" // string@5769
+16baac: 6204 6c00                              |005c: sget-object v4, Landroid/os/Build;.MODEL:Ljava/lang/String; // field@006c
+16bab0: 6e30 a002 3004                         |005e: invoke-virtual {v0, v3, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bab6: 1a03 fd61                              |0061: const-string v3, "sdk_ver" // string@61fd
+16baba: 1a04 8203                              |0063: const-string v4, "3.3.5.lite" // string@0382
+16babe: 6e30 a002 3004                         |0065: invoke-virtual {v0, v3, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bac4: 1a03 065c                              |0068: const-string v3, "packagename" // string@5c06
+16bac8: 7100 1446 0000                         |006a: invoke-static {}, Lzb/c;.c:()Ljava/lang/String; // method@4614
+16bace: 0c04                                   |006d: move-result-object v4
+16bad0: 6e30 a002 3004                         |006e: invoke-virtual {v0, v3, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bad6: 7100 1246 0000                         |0071: invoke-static {}, Lzb/c;.a:()Landroid/content/Context; // method@4612
+16badc: 0c03                                   |0074: move-result-object v3
+16bade: 7100 1446 0000                         |0075: invoke-static {}, Lzb/c;.c:()Ljava/lang/String; // method@4614
+16bae4: 0c04                                   |0078: move-result-object v4
+16bae6: 7120 2c2c 4300                         |0079: invoke-static {v3, v4}, Lcom/tencent/open/utils/b;.q:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String; // method@2c2c
+16baec: 0c03                                   |007c: move-result-object v3
+16baee: 1a04 9732                              |007d: const-string v4, "app_ver" // string@3297
+16baf2: 6e30 a002 4003                         |007f: invoke-virtual {v0, v4, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16baf8: 1100                                   |0082: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/tencent/open/utils/b;)
+      name          : 'd'
+      type          : '(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 14
+      ins           : 12
+      outs          : 3
+      insns size    : 66 16-bit code units
+16bafc:                                        |[16bafc] com.tencent.open.utils.b.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+16bb0c: 2200 c600                              |0000: new-instance v0, Landroid/os/Bundle; // type@00c6
+16bb10: 7010 a602 0000                         |0002: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16bb16: 1a01 cb5b                              |0005: const-string v1, "openid" // string@5bcb
+16bb1a: 6e30 a002 1002                         |0007: invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb20: 1a02 0561                              |000a: const-string v2, "report_type" // string@6105
+16bb24: 6e30 a002 2003                         |000c: invoke-virtual {v0, v2, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb2a: 1a02 7f30                              |000f: const-string v2, "act_type" // string@307f
+16bb2e: 6e30 a002 2004                         |0011: invoke-virtual {v0, v2, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb34: 1a02 156b                              |0014: const-string v2, "via" // string@6b15
+16bb38: 6e30 a002 2005                         |0016: invoke-virtual {v0, v2, v5}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb3e: 1a02 9332                              |0019: const-string v2, "app_id" // string@3293
+16bb42: 6e30 a002 2006                         |001b: invoke-virtual {v0, v2, v6}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb48: 1a02 4c61                              |001e: const-string v2, "result" // string@614c
+16bb4c: 6e30 a002 2007                         |0020: invoke-virtual {v0, v2, v7}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb52: 1a02 346a                              |0023: const-string v2, "type" // string@6a34
+16bb56: 6e30 a002 2008                         |0025: invoke-virtual {v0, v2, v8}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb5c: 1a02 7c46                              |0028: const-string v2, "login_status" // string@467c
+16bb60: 6e30 a002 2009                         |002a: invoke-virtual {v0, v2, v9}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb66: 1a02 9a59                              |002d: const-string v2, "need_user_auth" // string@599a
+16bb6a: 6e30 a002 200a                         |002f: invoke-virtual {v0, v2, v10}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb70: 1a02 8b69                              |0032: const-string v2, "to_uin" // string@698b
+16bb74: 6e30 a002 200b                         |0034: invoke-virtual {v0, v2, v11}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb7a: 1a02 8c34                              |0037: const-string v2, "call_source" // string@348c
+16bb7e: 6e30 a002 200c                         |0039: invoke-virtual {v0, v2, v12}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb84: 1a02 8a69                              |003c: const-string v2, "to_type" // string@698a
+16bb88: 6e30 a002 200d                         |003e: invoke-virtual {v0, v2, v13}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16bb8e: 1100                                   |0041: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/tencent/open/utils/b;)
+      name          : 'e'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 0
+      outs          : 3
+      insns size    : 60 16-bit code units
+16bedc:                                        |[16bedc] com.tencent.open.utils.b.e:()Ljava/lang/String;
+16beec: 7100 d434 0000                         |0000: invoke-static {}, Ljava/net/NetworkInterface;.getNetworkInterfaces:()Ljava/util/Enumeration; // method@34d4
+16bef2: 0c00                                   |0003: move-result-object v0
+16bef4: 3800 3500                              |0004: if-eqz v0, 0039 // +0035
+16bef8: 7210 8835 0000                         |0006: invoke-interface {v0}, Ljava/util/Enumeration;.hasMoreElements:()Z // method@3588
+16befe: 0a01                                   |0009: move-result v1
+16bf00: 3801 2f00                              |000a: if-eqz v1, 0039 // +002f
+16bf04: 7210 8935 0000                         |000c: invoke-interface {v0}, Ljava/util/Enumeration;.nextElement:()Ljava/lang/Object; // method@3589
+16bf0a: 0c01                                   |000f: move-result-object v1
+16bf0c: 1f01 9c07                              |0010: check-cast v1, Ljava/net/NetworkInterface; // type@079c
+16bf10: 6e10 d234 0100                         |0012: invoke-virtual {v1}, Ljava/net/NetworkInterface;.getInetAddresses:()Ljava/util/Enumeration; // method@34d2
+16bf16: 0c01                                   |0015: move-result-object v1
+16bf18: 7210 8835 0100                         |0016: invoke-interface {v1}, Ljava/util/Enumeration;.hasMoreElements:()Z // method@3588
+16bf1e: 0a02                                   |0019: move-result v2
+16bf20: 3802 eaff                              |001a: if-eqz v2, 0004 // -0016
+16bf24: 7210 8935 0100                         |001c: invoke-interface {v1}, Ljava/util/Enumeration;.nextElement:()Ljava/lang/Object; // method@3589
+16bf2a: 0c02                                   |001f: move-result-object v2
+16bf2c: 1f02 9907                              |0020: check-cast v2, Ljava/net/InetAddress; // type@0799
+16bf30: 6e10 cd34 0200                         |0022: invoke-virtual {v2}, Ljava/net/InetAddress;.isLoopbackAddress:()Z // method@34cd
+16bf36: 0a03                                   |0025: move-result v3
+16bf38: 3903 f0ff                              |0026: if-nez v3, 0016 // -0010
+16bf3c: 6e10 cc34 0200                         |0028: invoke-virtual {v2}, Ljava/net/InetAddress;.getHostAddress:()Ljava/lang/String; // method@34cc
+16bf42: 0c00                                   |002b: move-result-object v0
+16bf44: 6e10 6b34 0000                         |002c: invoke-virtual {v0}, Ljava/lang/String;.toString:()Ljava/lang/String; // method@346b
+16bf4a: 0c00                                   |002f: move-result-object v0
+16bf4c: 1100                                   |0030: return-object v0
+16bf4e: 0d00                                   |0031: move-exception v0
+16bf50: 1a01 c35b                              |0032: const-string v1, "openSDK_LOG.Util" // string@5bc3
+16bf54: 1a02 c641                              |0034: const-string v2, "getUserIp SocketException " // string@41c6
+16bf58: 7130 0e44 2100                         |0036: invoke-static {v1, v2, v0}, Lxb/i;.d:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@440e
+16bf5e: 1a00 0000                              |0039: const-string v0, "" // string@0000
+16bf62: 1100                                   |003b: return-object v0
+      catches       : 1
+        0x0000 - 0x0030
+          Ljava/net/SocketException; -> 0x0031
+
+    #6              : (in Lcom/tencent/open/utils/b;)
+      name          : 'f'
+      type          : '([B)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 2
+      insns size    : 61 16-bit code units
+16bf74:                                        |[16bf74] com.tencent.open.utils.b.f:([B)Ljava/lang/String;
+16bf84: 3905 0400                              |0000: if-nez v5, 0004 // +0004
+16bf88: 1205                                   |0002: const/4 v5, #int 0 // #0
+16bf8a: 1105                                   |0003: return-object v5
+16bf8c: 2150                                   |0004: array-length v0, v5
+16bf8e: da00 0002                              |0005: mul-int/lit8 v0, v0, #int 2 // #02
+16bf92: 2201 7e07                              |0007: new-instance v1, Ljava/lang/StringBuilder; // type@077e
+16bf96: 7020 7c34 0100                         |0009: invoke-direct {v1, v0}, Ljava/lang/StringBuilder;.<init>:(I)V // method@347c
+16bf9c: 1200                                   |000c: const/4 v0, #int 0 // #0
+16bf9e: 2152                                   |000d: array-length v2, v5
+16bfa0: 3520 2a00                              |000e: if-ge v0, v2, 0038 // +002a
+16bfa4: 4802 0500                              |0010: aget-byte v2, v5, v0
+16bfa8: d522 ff00                              |0012: and-int/lit16 v2, v2, #int 255 // #00ff
+16bfac: 1303 1000                              |0014: const/16 v3, #int 16 // #10
+16bfb0: 7120 1834 3200                         |0016: invoke-static {v2, v3}, Ljava/lang/Integer;.toString:(II)Ljava/lang/String; // method@3418
+16bfb6: 0c02                                   |0019: move-result-object v2
+16bfb8: 6e10 5e34 0200                         |001a: invoke-virtual {v2}, Ljava/lang/String;.length:()I // method@345e
+16bfbe: 0a03                                   |001d: move-result v3
+16bfc0: 1214                                   |001e: const/4 v4, #int 1 // #1
+16bfc2: 3343 1300                              |001f: if-ne v3, v4, 0032 // +0013
+16bfc6: 2203 7e07                              |0021: new-instance v3, Ljava/lang/StringBuilder; // type@077e
+16bfca: 7010 7b34 0300                         |0023: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16bfd0: 1a04 4703                              |0026: const-string v4, "0" // string@0347
+16bfd4: 6e20 8434 4300                         |0028: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16bfda: 6e20 8434 2300                         |002b: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16bfe0: 6e10 8b34 0300                         |002e: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16bfe6: 0c02                                   |0031: move-result-object v2
+16bfe8: 6e20 8434 2100                         |0032: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16bfee: d800 0001                              |0035: add-int/lit8 v0, v0, #int 1 // #01
+16bff2: 28d6                                   |0037: goto 000d // -002a
+16bff4: 6e10 8b34 0100                         |0038: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16bffa: 0c05                                   |003b: move-result-object v5
+16bffc: 1105                                   |003c: return-object v5
+      catches       : (none)
+
+    #7              : (in Lcom/tencent/open/utils/b;)
+      name          : 'g'
+      type          : '(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 2
+      outs          : 3
+      insns size    : 88 16-bit code units
+16c138:                                        |[16c138] com.tencent.open.utils.b.g:(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
+16c148: 3906 0700                              |0000: if-nez v6, 0007 // +0007
+16c14c: 2206 cf09                              |0002: new-instance v6, Lorg/json/JSONObject; // type@09cf
+16c150: 7010 603e 0600                         |0004: invoke-direct {v6}, Lorg/json/JSONObject;.<init>:()V // method@3e60
+16c156: 3807 5000                              |0007: if-eqz v7, 0057 // +0050
+16c15a: 1a00 4e01                              |0009: const-string v0, "&" // string@014e
+16c15e: 6e20 6434 0700                         |000b: invoke-virtual {v7, v0}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@3464
+16c164: 0c07                                   |000e: move-result-object v7
+16c166: 2170                                   |000f: array-length v0, v7
+16c168: 1201                                   |0010: const/4 v1, #int 0 // #0
+16c16a: 0112                                   |0011: move v2, v1
+16c16c: 3502 4500                              |0012: if-ge v2, v0, 0057 // +0045
+16c170: 4603 0702                              |0014: aget-object v3, v7, v2
+16c174: 1a04 aa03                              |0016: const-string v4, "=" // string@03aa
+16c178: 6e20 6434 4300                         |0018: invoke-virtual {v3, v4}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@3464
+16c17e: 0c03                                   |001b: move-result-object v3
+16c180: 2134                                   |001c: array-length v4, v3
+16c182: 1225                                   |001d: const/4 v5, #int 2 // #2
+16c184: 3354 3600                              |001e: if-ne v4, v5, 0054 // +0036
+16c188: 1214                                   |0020: const/4 v4, #int 1 // #1
+16c18a: 4605 0301                              |0021: aget-object v5, v3, v1
+16c18e: 7110 0635 0500                         |0023: invoke-static {v5}, Ljava/net/URLDecoder;.decode:(Ljava/lang/String;)Ljava/lang/String; // method@3506
+16c194: 0c05                                   |0026: move-result-object v5
+16c196: 4d05 0301                              |0027: aput-object v5, v3, v1
+16c19a: 4605 0304                              |0029: aget-object v5, v3, v4
+16c19e: 7110 0635 0500                         |002b: invoke-static {v5}, Ljava/net/URLDecoder;.decode:(Ljava/lang/String;)Ljava/lang/String; // method@3506
+16c1a4: 0c05                                   |002e: move-result-object v5
+16c1a6: 4d05 0304                              |002f: aput-object v5, v3, v4
+16c1aa: 4605 0301                              |0031: aget-object v5, v3, v1
+16c1ae: 4603 0304                              |0033: aget-object v3, v3, v4
+16c1b2: 6e30 6f3e 5603                         |0035: invoke-virtual {v6, v5, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@3e6f
+16c1b8: 281c                                   |0038: goto 0054 // +001c
+16c1ba: 0d03                                   |0039: move-exception v3
+16c1bc: 2204 7e07                              |003a: new-instance v4, Ljava/lang/StringBuilder; // type@077e
+16c1c0: 7010 7b34 0400                         |003c: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16c1c6: 1a05 633a                              |003f: const-string v5, "decodeUrlToJson has exception: " // string@3a63
+16c1ca: 6e20 8434 5400                         |0041: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c1d0: 6e10 b134 0300                         |0044: invoke-virtual {v3}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+16c1d6: 0c03                                   |0047: move-result-object v3
+16c1d8: 6e20 8434 3400                         |0048: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c1de: 6e10 8b34 0400                         |004b: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16c1e4: 0c03                                   |004e: move-result-object v3
+16c1e6: 1a04 c35b                              |004f: const-string v4, "openSDK_LOG.Util" // string@5bc3
+16c1ea: 7120 1644 3400                         |0051: invoke-static {v4, v3}, Lxb/i;.l:(Ljava/lang/String;Ljava/lang/String;)V // method@4416
+16c1f0: d802 0201                              |0054: add-int/lit8 v2, v2, #int 1 // #01
+16c1f4: 28bc                                   |0056: goto 0012 // -0044
+16c1f6: 1106                                   |0057: return-object v6
+      catches       : 2
+        0x0021 - 0x0031
+          Ljava/lang/Exception; -> 0x0031
+        0x0031 - 0x0038
+          Lorg/json/JSONException; -> 0x0039
+
+    #8              : (in Lcom/tencent/open/utils/b;)
+      name          : 'h'
+      type          : '(Landroid/content/Context;Ljava/lang/String;JLjava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 8
+      ins           : 5
+      outs          : 4
+      insns size    : 47 16-bit code units
+16c3ac:                                        |[16c3ac] com.tencent.open.utils.b.h:(Landroid/content/Context;Ljava/lang/String;JLjava/lang/String;)V
+16c3bc: 2200 c600                              |0000: new-instance v0, Landroid/os/Bundle; // type@00c6
+16c3c0: 7010 a602 0000                         |0002: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16c3c6: 1a01 a032                              |0005: const-string v1, "appid_for_getting_config" // string@32a0
+16c3ca: 6e30 a002 1007                         |0007: invoke-virtual {v0, v1, v7}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16c3d0: 1a01 8b67                              |000a: const-string v1, "strValue" // string@678b
+16c3d4: 6e30 a002 1007                         |000c: invoke-virtual {v0, v1, v7}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16c3da: 1a07 5259                              |000f: const-string v7, "nValue" // string@5952
+16c3de: 6e30 a002 7004                         |0011: invoke-virtual {v0, v7, v4}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16c3e4: 1a04 1e60                              |0014: const-string v4, "qver" // string@601e
+16c3e8: 1a07 8203                              |0016: const-string v7, "3.3.5.lite" // string@0382
+16c3ec: 6e30 a002 4007                         |0018: invoke-virtual {v0, v4, v7}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@02a0
+16c3f2: 1601 0000                              |001b: const-wide/16 v1, #int 0 // #0
+16c3f6: 3104 0501                              |001d: cmp-long v4, v5, v1
+16c3fa: 3804 0700                              |001f: if-eqz v4, 0026 // +0007
+16c3fe: 1a04 753c                              |0021: const-string v4, "elt" // string@3c75
+16c402: 6e40 9f02 4065                         |0023: invoke-virtual {v0, v4, v5, v6}, Landroid/os/BaseBundle;.putLong:(Ljava/lang/String;J)V // method@029f
+16c408: 2204 d305                              |0026: new-instance v4, Lcom/tencent/open/utils/b$a; // type@05d3
+16c40c: 7030 182c 3400                         |0028: invoke-direct {v4, v3, v0}, Lcom/tencent/open/utils/b$a;.<init>:(Landroid/content/Context;Landroid/os/Bundle;)V // method@2c18
+16c412: 6e10 a834 0400                         |002b: invoke-virtual {v4}, Ljava/lang/Thread;.start:()V // method@34a8
+16c418: 0e00                                   |002e: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/tencent/open/utils/b;)
+      name          : 'i'
+      type          : '(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 4
+      outs          : 3
+      insns size    : 39 16-bit code units
+16c34c:                                        |[16c34c] com.tencent.open.utils.b.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+16c35c: 2200 4100                              |0000: new-instance v0, Landroid/content/Intent; // type@0041
+16c360: 7010 ee00 0000                         |0002: invoke-direct {v0}, Landroid/content/Intent;.<init>:()V // method@00ee
+16c366: 2201 3600                              |0005: new-instance v1, Landroid/content/ComponentName; // type@0036
+16c36a: 7030 b600 3104                         |0007: invoke-direct {v1, v3, v4}, Landroid/content/ComponentName;.<init>:(Ljava/lang/String;Ljava/lang/String;)V // method@00b6
+16c370: 6e20 0c01 1000                         |000a: invoke-virtual {v0, v1}, Landroid/content/Intent;.setComponent:(Landroid/content/ComponentName;)Landroid/content/Intent; // method@010c
+16c376: 1a03 0432                              |000d: const-string v3, "android.intent.action.VIEW" // string@3204
+16c37a: 6e20 0801 3000                         |000f: invoke-virtual {v0, v3}, Landroid/content/Intent;.setAction:(Ljava/lang/String;)Landroid/content/Intent; // method@0108
+16c380: 1503 0040                              |0012: const/high16 v3, #int 1073741824 // #4000
+16c384: 6e20 f200 3000                         |0014: invoke-virtual {v0, v3}, Landroid/content/Intent;.addFlags:(I)Landroid/content/Intent; // method@00f2
+16c38a: 1503 0010                              |0017: const/high16 v3, #int 268435456 // #1000
+16c38e: 6e20 f200 3000                         |0019: invoke-virtual {v0, v3}, Landroid/content/Intent;.addFlags:(I)Landroid/content/Intent; // method@00f2
+16c394: 7110 7002 0500                         |001c: invoke-static {v5}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0270
+16c39a: 0c03                                   |001f: move-result-object v3
+16c39c: 6e20 0d01 3000                         |0020: invoke-virtual {v0, v3}, Landroid/content/Intent;.setData:(Landroid/net/Uri;)Landroid/content/Intent; // method@010d
+16c3a2: 6e20 e400 0200                         |0023: invoke-virtual {v2, v0}, Landroid/content/Context;.startActivity:(Landroid/content/Intent;)V // method@00e4
+16c3a8: 0e00                                   |0026: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/tencent/open/utils/b;)
+      name          : 'j'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 11
+      ins           : 2
+      outs          : 4
+      insns size    : 54 16-bit code units
+16bc00:                                        |[16bc00] com.tencent.open.utils.b.j:(Landroid/content/Context;Ljava/lang/String;)Z
+16bc10: 1a00 2f38                              |0000: const-string v0, "com.google.android.apps.chrome.Main" // string@382f
+16bc14: 1a01 1038                              |0002: const-string v1, "com.android.chrome" // string@3810
+16bc18: 1a02 3038                              |0004: const-string v2, "com.google.android.browser" // string@3830
+16bc1c: 1a03 0d38                              |0006: const-string v3, "com.android.browser.BrowserActivity" // string@380d
+16bc20: 1204                                   |0008: const/4 v4, #int 0 // #0
+16bc22: 7110 302c 0900                         |0009: invoke-static {v9}, Lcom/tencent/open/utils/b;.u:(Landroid/content/Context;)Z // method@2c30
+16bc28: 0a05                                   |000c: move-result v5
+16bc2a: 1a06 0c38                              |000d: const-string v6, "com.android.browser" // string@380c
+16bc2e: 3805 0a00                              |000f: if-eqz v5, 0019 // +000a
+16bc32: 1a07 8738                              |0011: const-string v7, "com.tencent.mtt" // string@3887
+16bc36: 1a08 8838                              |0013: const-string v8, "com.tencent.mtt.MainActivity" // string@3888
+16bc3a: 7140 242c 79a8                         |0015: invoke-static {v9, v7, v8, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc40: 281b                                   |0018: goto 0033 // +001b
+16bc42: 7140 242c 69a3                         |0019: invoke-static {v9, v6, v3, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc48: 2817                                   |001c: goto 0033 // +0017
+16bc4a: 3805 0f00                              |001d: if-eqz v5, 002c // +000f
+16bc4e: 7140 242c 69a3                         |001f: invoke-static {v9, v6, v3, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc54: 2811                                   |0022: goto 0033 // +0011
+16bc56: 7140 242c 29a3                         |0023: invoke-static {v9, v2, v3, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc5c: 280d                                   |0026: goto 0033 // +000d
+16bc5e: 7140 242c 19a0                         |0027: invoke-static {v9, v1, v0, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc64: 2809                                   |002a: goto 0033 // +0009
+16bc66: 0f04                                   |002b: return v4
+16bc68: 7140 242c 29a3                         |002c: invoke-static {v9, v2, v3, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc6e: 2804                                   |002f: goto 0033 // +0004
+16bc70: 7140 242c 19a0                         |0030: invoke-static {v9, v1, v0, v10}, Lcom/tencent/open/utils/b;.i:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V // method@2c24
+16bc76: 1219                                   |0033: const/4 v9, #int 1 // #1
+16bc78: 0f09                                   |0034: return v9
+16bc7a: 0f04                                   |0035: return v4
+      catches       : 7
+        0x0009 - 0x000d
+          Ljava/lang/Exception; -> 0x002c
+        0x0011 - 0x001c
+          Ljava/lang/Exception; -> 0x001d
+        0x001f - 0x0022
+          Ljava/lang/Exception; -> 0x0023
+        0x0023 - 0x0026
+          Ljava/lang/Exception; -> 0x0027
+        0x0027 - 0x002a
+          Ljava/lang/Exception; -> 0x002b
+        0x002c - 0x002f
+          Ljava/lang/Exception; -> 0x0030
+        0x0030 - 0x0033
+          Ljava/lang/Exception; -> 0x0035
+
+    #11              : (in Lcom/tencent/open/utils/b;)
+      name          : 'k'
+      type          : '(Ljava/lang/String;)Landroid/os/Bundle;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 39 16-bit code units
+16bb90:                                        |[16bb90] com.tencent.open.utils.b.k:(Ljava/lang/String;)Landroid/os/Bundle;
+16bba0: 1a00 fa32                              |0000: const-string v0, "auth://" // string@32fa
+16bba4: 1a01 3843                              |0002: const-string v1, "http://" // string@4338
+16bba8: 6e30 6134 0201                         |0004: invoke-virtual {v2, v0, v1}, Ljava/lang/String;.replace:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String; // method@3461
+16bbae: 0c02                                   |0007: move-result-object v2
+16bbb0: 2200 a707                              |0008: new-instance v0, Ljava/net/URL; // type@07a7
+16bbb4: 7020 f234 2000                         |000a: invoke-direct {v0, v2}, Ljava/net/URL;.<init>:(Ljava/lang/String;)V // method@34f2
+16bbba: 6e10 f634 0000                         |000d: invoke-virtual {v0}, Ljava/net/URL;.getQuery:()Ljava/lang/String; // method@34f6
+16bbc0: 0c02                                   |0010: move-result-object v2
+16bbc2: 7110 1c2c 0200                         |0011: invoke-static {v2}, Lcom/tencent/open/utils/b;.a:(Ljava/lang/String;)Landroid/os/Bundle; // method@2c1c
+16bbc8: 0c02                                   |0014: move-result-object v2
+16bbca: 6e10 f734 0000                         |0015: invoke-virtual {v0}, Ljava/net/URL;.getRef:()Ljava/lang/String; // method@34f7
+16bbd0: 0c00                                   |0018: move-result-object v0
+16bbd2: 7110 1c2c 0000                         |0019: invoke-static {v0}, Lcom/tencent/open/utils/b;.a:(Ljava/lang/String;)Landroid/os/Bundle; // method@2c1c
+16bbd8: 0c00                                   |001c: move-result-object v0
+16bbda: 6e20 ab02 0200                         |001d: invoke-virtual {v2, v0}, Landroid/os/Bundle;.putAll:(Landroid/os/Bundle;)V // method@02ab
+16bbe0: 1102                                   |0020: return-object v2
+16bbe2: 2202 c600                              |0021: new-instance v2, Landroid/os/Bundle; // type@00c6
+16bbe6: 7010 a602 0200                         |0023: invoke-direct {v2}, Landroid/os/Bundle;.<init>:()V // method@02a6
+16bbec: 1102                                   |0026: return-object v2
+      catches       : 1
+        0x0008 - 0x0020
+          Ljava/net/MalformedURLException; -> 0x0021
+
+    #12              : (in Lcom/tencent/open/utils/b;)
+      name          : 'l'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 2
+      outs          : 3
+      insns size    : 107 16-bit code units
+16c41c:                                        |[16c41c] com.tencent.open.utils.b.l:(Landroid/content/Context;Ljava/lang/String;)V
+16c42c: 1a00 f740                              |0000: const-string v0, "getPackageInfo has exception: " // string@40f7
+16c430: 1a01 c35b                              |0002: const-string v1, "openSDK_LOG.Util" // string@5bc3
+16c434: 3905 0300                              |0004: if-nez v5, 0007 // +0003
+16c438: 0e00                                   |0006: return-void
+16c43a: 6e10 d300 0500                         |0007: invoke-virtual {v5}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00d3
+16c440: 0c05                                   |000a: move-result-object v5
+16c442: 1202                                   |000b: const/4 v2, #int 0 // #0
+16c444: 6e30 2701 6502                         |000c: invoke-virtual {v5, v6, v2}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@0127
+16c44a: 0c05                                   |000f: move-result-object v5
+16c44c: 5456 1f00                              |0010: iget-object v6, v5, Landroid/content/pm/PackageInfo;.versionName:Ljava/lang/String; // field@001f
+16c450: 6906 37e2                              |0012: sput-object v6, Lcom/tencent/open/utils/b;.b:Ljava/lang/String; // field@e237
+16c454: 1303 2e00                              |0014: const/16 v3, #int 46 // #2e
+16c458: 6e20 5c34 3600                         |0016: invoke-virtual {v6, v3}, Ljava/lang/String;.lastIndexOf:(I)I // method@345c
+16c45e: 0a04                                   |0019: move-result v4
+16c460: 6e30 6734 2604                         |001a: invoke-virtual {v6, v2, v4}, Ljava/lang/String;.substring:(II)Ljava/lang/String; // method@3467
+16c466: 0c06                                   |001d: move-result-object v6
+16c468: 6906 36e2                              |001e: sput-object v6, Lcom/tencent/open/utils/b;.a:Ljava/lang/String; // field@e236
+16c46c: 6206 37e2                              |0020: sget-object v6, Lcom/tencent/open/utils/b;.b:Ljava/lang/String; // field@e237
+16c470: 6e20 5c34 3600                         |0022: invoke-virtual {v6, v3}, Ljava/lang/String;.lastIndexOf:(I)I // method@345c
+16c476: 0a02                                   |0025: move-result v2
+16c478: d802 0201                              |0026: add-int/lit8 v2, v2, #int 1 // #01
+16c47c: 6203 37e2                              |0028: sget-object v3, Lcom/tencent/open/utils/b;.b:Ljava/lang/String; // field@e237
+16c480: 6e10 5e34 0300                         |002a: invoke-virtual {v3}, Ljava/lang/String;.length:()I // method@345e
+16c486: 0a03                                   |002d: move-result v3
+16c488: 6e30 6734 2603                         |002e: invoke-virtual {v6, v2, v3}, Ljava/lang/String;.substring:(II)Ljava/lang/String; // method@3467
+16c48e: 0c06                                   |0031: move-result-object v6
+16c490: 6906 39e2                              |0032: sput-object v6, Lcom/tencent/open/utils/b;.d:Ljava/lang/String; // field@e239
+16c494: 5255 1e00                              |0034: iget v5, v5, Landroid/content/pm/PackageInfo;.versionCode:I // field@001e
+16c498: 6705 3ae2                              |0036: sput v5, Lcom/tencent/open/utils/b;.e:I // field@e23a
+16c49c: 2832                                   |0038: goto 006a // +0032
+16c49e: 0d05                                   |0039: move-exception v5
+16c4a0: 2803                                   |003a: goto 003d // +0003
+16c4a2: 0d05                                   |003b: move-exception v5
+16c4a4: 2818                                   |003c: goto 0054 // +0018
+16c4a6: 2206 7e07                              |003d: new-instance v6, Ljava/lang/StringBuilder; // type@077e
+16c4aa: 7010 7b34 0600                         |003f: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16c4b0: 6e20 8434 0600                         |0042: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c4b6: 6e10 b134 0500                         |0045: invoke-virtual {v5}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+16c4bc: 0c05                                   |0048: move-result-object v5
+16c4be: 6e20 8434 5600                         |0049: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c4c4: 6e10 8b34 0600                         |004c: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16c4ca: 0c05                                   |004f: move-result-object v5
+16c4cc: 7120 1644 5100                         |0050: invoke-static {v1, v5}, Lxb/i;.l:(Ljava/lang/String;Ljava/lang/String;)V // method@4416
+16c4d2: 2817                                   |0053: goto 006a // +0017
+16c4d4: 2206 7e07                              |0054: new-instance v6, Ljava/lang/StringBuilder; // type@077e
+16c4d8: 7010 7b34 0600                         |0056: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16c4de: 6e20 8434 0600                         |0059: invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c4e4: 6e10 b134 0500                         |005c: invoke-virtual {v5}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+16c4ea: 0c05                                   |005f: move-result-object v5
+16c4ec: 6e20 8434 5600                         |0060: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c4f2: 6e10 8b34 0600                         |0063: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16c4f8: 0c05                                   |0066: move-result-object v5
+16c4fa: 7120 1644 5100                         |0067: invoke-static {v1, v5}, Lxb/i;.l:(Ljava/lang/String;Ljava/lang/String;)V // method@4416
+16c500: 0e00                                   |006a: return-void
+      catches       : 1
+        0x0007 - 0x0038
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x003b
+          Ljava/lang/Exception; -> 0x0039
+
+    #13              : (in Lcom/tencent/open/utils/b;)
+      name          : 'm'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 2
+      insns size    : 36 16-bit code units
+16bcd4:                                        |[16bcd4] com.tencent.open.utils.b.m:(Landroid/content/Context;)Z
+16bce4: 1a00 2f39                              |0000: const-string v0, "connectivity" // string@392f
+16bce8: 6e20 d900 0400                         |0002: invoke-virtual {v4, v0}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@00d9
+16bcee: 0c04                                   |0005: move-result-object v4
+16bcf0: 1f04 a800                              |0006: check-cast v4, Landroid/net/ConnectivityManager; // type@00a8
+16bcf4: 1210                                   |0008: const/4 v0, #int 1 // #1
+16bcf6: 3904 0300                              |0009: if-nez v4, 000c // +0003
+16bcfa: 0f00                                   |000b: return v0
+16bcfc: 6e10 5b02 0400                         |000c: invoke-virtual {v4}, Landroid/net/ConnectivityManager;.getAllNetworkInfo:()[Landroid/net/NetworkInfo; // method@025b
+16bd02: 0c04                                   |000f: move-result-object v4
+16bd04: 1201                                   |0010: const/4 v1, #int 0 // #0
+16bd06: 3804 1200                              |0011: if-eqz v4, 0023 // +0012
+16bd0a: 0112                                   |0013: move v2, v1
+16bd0c: 2143                                   |0014: array-length v3, v4
+16bd0e: 3532 0e00                              |0015: if-ge v2, v3, 0023 // +000e
+16bd12: 4603 0402                              |0017: aget-object v3, v4, v2
+16bd16: 6e10 6602 0300                         |0019: invoke-virtual {v3}, Landroid/net/NetworkInfo;.isConnectedOrConnecting:()Z // method@0266
+16bd1c: 0a03                                   |001c: move-result v3
+16bd1e: 3803 0300                              |001d: if-eqz v3, 0020 // +0003
+16bd22: 0f00                                   |001f: return v0
+16bd24: d802 0201                              |0020: add-int/lit8 v2, v2, #int 1 // #01
+16bd28: 28f2                                   |0022: goto 0014 // -000e
+16bd2a: 0f01                                   |0023: return v1
+      catches       : (none)
+
+    #14              : (in Lcom/tencent/open/utils/b;)
+      name          : 'n'
+      type          : '(Landroid/content/Context;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 80 16-bit code units
+16c000:                                        |[16c000] com.tencent.open.utils.b.n:(Landroid/content/Context;)Ljava/lang/String;
+16c010: 1a00 0000                              |0000: const-string v0, "" // string@0000
+16c014: 3905 0300                              |0002: if-nez v5, 0005 // +0003
+16c018: 1100                                   |0004: return-object v0
+16c01a: 1a01 6346                              |0005: const-string v1, "location" // string@4663
+16c01e: 6e20 d900 1500                         |0007: invoke-virtual {v5, v1}, Landroid/content/Context;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object; // method@00d9
+16c024: 0c05                                   |000a: move-result-object v5
+16c026: 1f05 8d00                              |000b: check-cast v5, Landroid/location/LocationManager; // type@008d
+16c02a: 2201 8b00                              |000d: new-instance v1, Landroid/location/Criteria; // type@008b
+16c02e: 7010 fd01 0100                         |000f: invoke-direct {v1}, Landroid/location/Criteria;.<init>:()V // method@01fd
+16c034: 1202                                   |0012: const/4 v2, #int 0 // #0
+16c036: 6e20 ff01 2100                         |0013: invoke-virtual {v1, v2}, Landroid/location/Criteria;.setCostAllowed:(Z)V // method@01ff
+16c03c: 1222                                   |0016: const/4 v2, #int 2 // #2
+16c03e: 6e20 fe01 2100                         |0017: invoke-virtual {v1, v2}, Landroid/location/Criteria;.setAccuracy:(I)V // method@01fe
+16c044: 1212                                   |001a: const/4 v2, #int 1 // #1
+16c046: 6e30 0202 1502                         |001b: invoke-virtual {v5, v1, v2}, Landroid/location/LocationManager;.getBestProvider:(Landroid/location/Criteria;Z)Ljava/lang/String; // method@0202
+16c04c: 0c01                                   |001e: move-result-object v1
+16c04e: 3801 3000                              |001f: if-eqz v1, 004f // +0030
+16c052: 6e20 0302 1500                         |0021: invoke-virtual {v5, v1}, Landroid/location/LocationManager;.getLastKnownLocation:(Ljava/lang/String;)Landroid/location/Location; // method@0203
+16c058: 0c05                                   |0024: move-result-object v5
+16c05a: 3905 0300                              |0025: if-nez v5, 0028 // +0003
+16c05e: 1100                                   |0027: return-object v0
+16c060: 6e10 0002 0500                         |0028: invoke-virtual {v5}, Landroid/location/Location;.getLatitude:()D // method@0200
+16c066: 0b01                                   |002b: move-result-wide v1
+16c068: 6e10 0102 0500                         |002c: invoke-virtual {v5}, Landroid/location/Location;.getLongitude:()D // method@0201
+16c06e: 0b03                                   |002f: move-result-wide v3
+16c070: 2205 7e07                              |0030: new-instance v5, Ljava/lang/StringBuilder; // type@077e
+16c074: 7010 7b34 0500                         |0032: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16c07a: 6e30 7f34 1502                         |0035: invoke-virtual {v5, v1, v2}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@347f
+16c080: 1a01 af01                              |0038: const-string v1, "*" // string@01af
+16c084: 6e20 8434 1500                         |003a: invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c08a: 6e30 7f34 3504                         |003d: invoke-virtual {v5, v3, v4}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@347f
+16c090: 6e10 8b34 0500                         |0040: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16c096: 0c05                                   |0043: move-result-object v5
+16c098: 6905 3be2                              |0044: sput-object v5, Lcom/tencent/open/utils/b;.f:Ljava/lang/String; // field@e23b
+16c09c: 1105                                   |0046: return-object v5
+16c09e: 0d05                                   |0047: move-exception v5
+16c0a0: 1a01 c35b                              |0048: const-string v1, "openSDK_LOG.Util" // string@5bc3
+16c0a4: 1a02 8140                              |004a: const-string v2, "getLocation>>>" // string@4081
+16c0a8: 7130 1144 2105                         |004c: invoke-static {v1, v2, v5}, Lxb/i;.g:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@4411
+16c0ae: 1100                                   |004f: return-object v0
+      catches       : 1
+        0x0005 - 0x0046
+          Ljava/lang/Exception; -> 0x0047
+
+    #15              : (in Lcom/tencent/open/utils/b;)
+      name          : 'o'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 11 16-bit code units
+16c0c0:                                        |[16c0c0] com.tencent.open.utils.b.o:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+16c0d0: 3900 0500                              |0000: if-nez v0, 0005 // +0005
+16c0d4: 1a00 0000                              |0002: const-string v0, "" // string@0000
+16c0d8: 1100                                   |0004: return-object v0
+16c0da: 7120 272c 1000                         |0005: invoke-static {v0, v1}, Lcom/tencent/open/utils/b;.l:(Landroid/content/Context;Ljava/lang/String;)V // method@2c27
+16c0e0: 6200 37e2                              |0008: sget-object v0, Lcom/tencent/open/utils/b;.b:Ljava/lang/String; // field@e237
+16c0e4: 1100                                   |000a: return-object v0
+      catches       : (none)
+
+    #16              : (in Lcom/tencent/open/utils/b;)
+      name          : 'p'
+      type          : '(Ljava/lang/String;)Lorg/json/JSONObject;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 36 16-bit code units
+16c214:                                        |[16c214] com.tencent.open.utils.b.p:(Ljava/lang/String;)Lorg/json/JSONObject;
+16c224: 1a00 fa32                              |0000: const-string v0, "auth://" // string@32fa
+16c228: 1a01 3843                              |0002: const-string v1, "http://" // string@4338
+16c22c: 6e30 6134 0201                         |0004: invoke-virtual {v2, v0, v1}, Ljava/lang/String;.replace:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String; // method@3461
+16c232: 0c02                                   |0007: move-result-object v2
+16c234: 2200 a707                              |0008: new-instance v0, Ljava/net/URL; // type@07a7
+16c238: 7020 f234 2000                         |000a: invoke-direct {v0, v2}, Ljava/net/URL;.<init>:(Ljava/lang/String;)V // method@34f2
+16c23e: 6e10 f634 0000                         |000d: invoke-virtual {v0}, Ljava/net/URL;.getQuery:()Ljava/lang/String; // method@34f6
+16c244: 0c02                                   |0010: move-result-object v2
+16c246: 1201                                   |0011: const/4 v1, #int 0 // #0
+16c248: 7120 222c 2100                         |0012: invoke-static {v1, v2}, Lcom/tencent/open/utils/b;.g:(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject; // method@2c22
+16c24e: 0c02                                   |0015: move-result-object v2
+16c250: 6e10 f734 0000                         |0016: invoke-virtual {v0}, Ljava/net/URL;.getRef:()Ljava/lang/String; // method@34f7
+16c256: 0c00                                   |0019: move-result-object v0
+16c258: 7120 222c 0200                         |001a: invoke-static {v2, v0}, Lcom/tencent/open/utils/b;.g:(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject; // method@2c22
+16c25e: 1102                                   |001d: return-object v2
+16c260: 2202 cf09                              |001e: new-instance v2, Lorg/json/JSONObject; // type@09cf
+16c264: 7010 603e 0200                         |0020: invoke-direct {v2}, Lorg/json/JSONObject;.<init>:()V // method@3e60
+16c26a: 1102                                   |0023: return-object v2
+      catches       : 1
+        0x0008 - 0x001d
+          Ljava/net/MalformedURLException; -> 0x001e
+
+    #17              : (in Lcom/tencent/open/utils/b;)
+      name          : 'q'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 11 16-bit code units
+16c0e8:                                        |[16c0e8] com.tencent.open.utils.b.q:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+16c0f8: 3900 0500                              |0000: if-nez v0, 0005 // +0005
+16c0fc: 1a00 0000                              |0002: const-string v0, "" // string@0000
+16c100: 1100                                   |0004: return-object v0
+16c102: 7120 272c 1000                         |0005: invoke-static {v0, v1}, Lcom/tencent/open/utils/b;.l:(Landroid/content/Context;Ljava/lang/String;)V // method@2c27
+16c108: 6200 36e2                              |0008: sget-object v0, Lcom/tencent/open/utils/b;.a:Ljava/lang/String; // field@e236
+16c10c: 1100                                   |000a: return-object v0
+      catches       : (none)
+
+    #18              : (in Lcom/tencent/open/utils/b;)
+      name          : 'r'
+      type          : '(Ljava/lang/String;)Lorg/json/JSONObject;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 86 16-bit code units
+16c27c:                                        |[16c27c] com.tencent.open.utils.b.r:(Ljava/lang/String;)Lorg/json/JSONObject;
+16c28c: 1a00 743d                              |0000: const-string v0, "false" // string@3d74
+16c290: 6e20 5034 0200                         |0002: invoke-virtual {v2, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+16c296: 0a00                                   |0005: move-result v0
+16c298: 3800 0400                              |0006: if-eqz v0, 000a // +0004
+16c29c: 1a02 666c                              |0008: const-string v2, "{value : false}" // string@6c66
+16c2a0: 1a00 0b6a                              |000a: const-string v0, "true" // string@6a0b
+16c2a4: 6e20 5034 0200                         |000c: invoke-virtual {v2, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+16c2aa: 0a00                                   |000f: move-result v0
+16c2ac: 3800 0400                              |0010: if-eqz v0, 0014 // +0004
+16c2b0: 1a02 676c                              |0012: const-string v2, "{value : true}" // string@6c67
+16c2b4: 1a00 df31                              |0014: const-string v0, "allback(" // string@31df
+16c2b8: 6e20 4e34 0200                         |0016: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@344e
+16c2be: 0a00                                   |0019: move-result v0
+16c2c0: 3800 0e00                              |001a: if-eqz v0, 0028 // +000e
+16c2c4: 1a00 752e                              |001c: const-string v0, "[\\s\\S]*allback\\(([\\s\\S]*)\\);[^\\)]*\\z" // string@2e75
+16c2c8: 1a01 3f01                              |001e: const-string v1, "$1" // string@013f
+16c2cc: 6e30 6334 0201                         |0020: invoke-virtual {v2, v0, v1}, Ljava/lang/String;.replaceFirst:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@3463
+16c2d2: 0c02                                   |0023: move-result-object v2
+16c2d4: 6e10 6d34 0200                         |0024: invoke-virtual {v2}, Ljava/lang/String;.trim:()Ljava/lang/String; // method@346d
+16c2da: 0c02                                   |0027: move-result-object v2
+16c2dc: 1a00 995b                              |0028: const-string v0, "online[0]=" // string@5b99
+16c2e0: 6e20 4e34 0200                         |002a: invoke-virtual {v2, v0}, Ljava/lang/String;.contains:(Ljava/lang/CharSequence;)Z // method@344e
+16c2e6: 0a00                                   |002d: move-result v0
+16c2e8: 3800 2200                              |002e: if-eqz v0, 0050 // +0022
+16c2ec: 2200 7e07                              |0030: new-instance v0, Ljava/lang/StringBuilder; // type@077e
+16c2f0: 7010 7b34 0000                         |0032: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16c2f6: 1a01 656c                              |0035: const-string v1, "{online:" // string@6c65
+16c2fa: 6e20 8434 1000                         |0037: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c300: 6e10 5e34 0200                         |003a: invoke-virtual {v2}, Ljava/lang/String;.length:()I // method@345e
+16c306: 0a01                                   |003d: move-result v1
+16c308: d801 01fe                              |003e: add-int/lit8 v1, v1, #int -2 // #fe
+16c30c: 6e20 4a34 1200                         |0040: invoke-virtual {v2, v1}, Ljava/lang/String;.charAt:(I)C // method@344a
+16c312: 0a02                                   |0043: move-result v2
+16c314: 6e20 7e34 2000                         |0044: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder; // method@347e
+16c31a: 1a02 6d6c                              |0047: const-string v2, "}" // string@6c6d
+16c31e: 6e20 8434 2000                         |0049: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16c324: 6e10 8b34 0000                         |004c: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16c32a: 0c02                                   |004f: move-result-object v2
+16c32c: 2200 cf09                              |0050: new-instance v0, Lorg/json/JSONObject; // type@09cf
+16c330: 7020 613e 2000                         |0052: invoke-direct {v0, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@3e61
+16c336: 1100                                   |0055: return-object v0
+      catches       : (none)
+
+    #19              : (in Lcom/tencent/open/utils/b;)
+      name          : 's'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 4
+      insns size    : 50 16-bit code units
+16bd2c:                                        |[16bd2c] com.tencent.open.utils.b.s:(Landroid/content/Context;)Z
+16bd3c: 6e10 d500 0600                         |0000: invoke-virtual {v6}, Landroid/content/Context;.getResources:()Landroid/content/res/Resources; // method@00d5
+16bd42: 0c06                                   |0003: move-result-object v6
+16bd44: 6e10 3801 0600                         |0004: invoke-virtual {v6}, Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics; // method@0138
+16bd4a: 0c06                                   |0007: move-result-object v6
+16bd4c: 5260 7600                              |0008: iget v0, v6, Landroid/util/DisplayMetrics;.widthPixels:I // field@0076
+16bd50: 8200                                   |000a: int-to-float v0, v0
+16bd52: 5261 7700                              |000b: iget v1, v6, Landroid/util/DisplayMetrics;.xdpi:F // field@0077
+16bd56: c910                                   |000d: div-float/2addr v0, v1
+16bd58: 5261 7500                              |000e: iget v1, v6, Landroid/util/DisplayMetrics;.heightPixels:I // field@0075
+16bd5c: 8211                                   |0010: int-to-float v1, v1
+16bd5e: 5266 7800                              |0011: iget v6, v6, Landroid/util/DisplayMetrics;.ydpi:F // field@0078
+16bd62: c961                                   |0013: div-float/2addr v1, v6
+16bd64: 8902                                   |0014: float-to-double v2, v0
+16bd66: 1904 0040                              |0015: const-wide/high16 v4, #long 4611686018427387904 // #4000
+16bd6a: 7140 2c34 3254                         |0017: invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;.pow:(DD)D // method@342c
+16bd70: 0b02                                   |001a: move-result-wide v2
+16bd72: 8910                                   |001b: float-to-double v0, v1
+16bd74: 7140 2c34 1054                         |001c: invoke-static {v0, v1, v4, v5}, Ljava/lang/Math;.pow:(DD)D // method@342c
+16bd7a: 0b00                                   |001f: move-result-wide v0
+16bd7c: cb02                                   |0020: add-double/2addr v2, v0
+16bd7e: 7120 2f34 3200                         |0021: invoke-static {v2, v3}, Ljava/lang/Math;.sqrt:(D)D // method@342f
+16bd84: 0b00                                   |0024: move-result-wide v0
+16bd86: 2803                                   |0025: goto 0028 // +0003
+16bd88: 1600 0000                              |0026: const-wide/16 v0, #int 0 // #0
+16bd8c: 1902 1a40                              |0028: const-wide/high16 v2, #long 4619004367821864960 // #401a
+16bd90: 2f06 0002                              |002a: cmpl-double v6, v0, v2
+16bd94: 3d06 0400                              |002c: if-lez v6, 0030 // +0004
+16bd98: 1216                                   |002e: const/4 v6, #int 1 // #1
+16bd9a: 0f06                                   |002f: return v6
+16bd9c: 1206                                   |0030: const/4 v6, #int 0 // #0
+16bd9e: 0f06                                   |0031: return v6
+      catches       : 1
+        0x0000 - 0x0025
+          <any> -> 0x0026
+
+    #20              : (in Lcom/tencent/open/utils/b;)
+      name          : 't'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 12 16-bit code units
+16c110:                                        |[16c110] com.tencent.open.utils.b.t:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+16c120: 3900 0500                              |0000: if-nez v0, 0005 // +0005
+16c124: 1a00 0000                              |0002: const-string v0, "" // string@0000
+16c128: 1100                                   |0004: return-object v0
+16c12a: 7120 2c2c 1000                         |0005: invoke-static {v0, v1}, Lcom/tencent/open/utils/b;.q:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String; // method@2c2c
+16c130: 0c00                                   |0008: move-result-object v0
+16c132: 6900 38e2                              |0009: sput-object v0, Lcom/tencent/open/utils/b;.c:Ljava/lang/String; // field@e238
+16c136: 1100                                   |000b: return-object v0
+      catches       : (none)
+
+    #21              : (in Lcom/tencent/open/utils/b;)
+      name          : 'u'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 99 16-bit code units
+16bdac:                                        |[16bdac] com.tencent.open.utils.b.u:(Landroid/content/Context;)Z
+16bdbc: 1200                                   |0000: const/4 v0, #int 0 // #0
+16bdbe: 6e10 d300 0400                         |0001: invoke-virtual {v4}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@00d3
+16bdc4: 0c04                                   |0004: move-result-object v4
+16bdc6: 1a01 8738                              |0005: const-string v1, "com.tencent.mtt" // string@3887
+16bdca: 1302 4000                              |0007: const/16 v2, #int 64 // #40
+16bdce: 6e30 2701 1402                         |0009: invoke-virtual {v4, v1, v2}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@0127
+16bdd4: 0c04                                   |000c: move-result-object v4
+16bdd6: 5441 1f00                              |000d: iget-object v1, v4, Landroid/content/pm/PackageInfo;.versionName:Ljava/lang/String; // field@001f
+16bdda: 1a02 8903                              |000f: const-string v2, "4.3" // string@0389
+16bdde: 7120 1a46 2100                         |0011: invoke-static {v1, v2}, Lzb/e;.a:(Ljava/lang/String;Ljava/lang/String;)I // method@461a
+16bde4: 0a02                                   |0014: move-result v2
+16bde6: 3a02 4d00                              |0015: if-ltz v2, 0062 // +004d
+16bdea: 1a02 8a03                              |0017: const-string v2, "4.4" // string@038a
+16bdee: 6e20 6534 2100                         |0019: invoke-virtual {v1, v2}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@3465
+16bdf4: 0a01                                   |001c: move-result v1
+16bdf6: 3901 4500                              |001d: if-nez v1, 0062 // +0045
+16bdfa: 5444 1d00                              |001f: iget-object v4, v4, Landroid/content/pm/PackageInfo;.signatures:[Landroid/content/pm/Signature; // field@001d
+16bdfe: 3804 4100                              |0021: if-eqz v4, 0062 // +0041
+16be02: 1a01 d51d                              |0023: const-string v1, "MD5" // string@1dd5
+16be06: 7110 3035 0100                         |0025: invoke-static {v1}, Ljava/security/MessageDigest;.getInstance:(Ljava/lang/String;)Ljava/security/MessageDigest; // method@3530
+16be0c: 0c01                                   |0028: move-result-object v1
+16be0e: 4604 0400                              |0029: aget-object v4, v4, v0
+16be12: 6e10 2d01 0400                         |002b: invoke-virtual {v4}, Landroid/content/pm/Signature;.toByteArray:()[B // method@012d
+16be18: 0c04                                   |002e: move-result-object v4
+16be1a: 6e20 3235 4100                         |002f: invoke-virtual {v1, v4}, Ljava/security/MessageDigest;.update:([B)V // method@3532
+16be20: 6e10 2e35 0100                         |0032: invoke-virtual {v1}, Ljava/security/MessageDigest;.digest:()[B // method@352e
+16be26: 0c04                                   |0035: move-result-object v4
+16be28: 7110 212c 0400                         |0036: invoke-static {v4}, Lcom/tencent/open/utils/b;.f:([B)Ljava/lang/String; // method@2c21
+16be2e: 0c04                                   |0039: move-result-object v4
+16be30: 6e10 3135 0100                         |003a: invoke-virtual {v1}, Ljava/security/MessageDigest;.reset:()V // method@3531
+16be36: 1a01 203a                              |003d: const-string v1, "d8391a394d4a179e6fe7bdb8a301258b" // string@3a20
+16be3a: 6e20 5034 1400                         |003f: invoke-virtual {v4, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@3450
+16be40: 0a04                                   |0042: move-result v4
+16be42: 3804 1f00                              |0043: if-eqz v4, 0062 // +001f
+16be46: 1214                                   |0045: const/4 v4, #int 1 // #1
+16be48: 0f04                                   |0046: return v4
+16be4a: 0d04                                   |0047: move-exception v4
+16be4c: 1a01 c35b                              |0048: const-string v1, "openSDK_LOG.Util" // string@5bc3
+16be50: 2202 7e07                              |004a: new-instance v2, Ljava/lang/StringBuilder; // type@077e
+16be54: 7010 7b34 0200                         |004c: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@347b
+16be5a: 1a03 da44                              |004f: const-string v3, "isQQBrowerAvailable has exception: " // string@44da
+16be5e: 6e20 8434 3200                         |0051: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16be64: 6e10 b134 0400                         |0054: invoke-virtual {v4}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@34b1
+16be6a: 0c04                                   |0057: move-result-object v4
+16be6c: 6e20 8434 4200                         |0058: invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@3484
+16be72: 6e10 8b34 0200                         |005b: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@348b
+16be78: 0c04                                   |005e: move-result-object v4
+16be7a: 7120 1644 4100                         |005f: invoke-static {v1, v4}, Lxb/i;.l:(Ljava/lang/String;Ljava/lang/String;)V // method@4416
+16be80: 0f00                                   |0062: return v0
+      catches       : 3
+        0x0001 - 0x0021
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0062
+        0x0023 - 0x0043
+          Ljava/security/NoSuchAlgorithmException; -> 0x0047
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0062
+        0x0048 - 0x0062
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0062
+
+    #22              : (in Lcom/tencent/open/utils/b;)
+      name          : 'v'
+      type          : '(Ljava/lang/String;)[B'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+16bea8:                                        |[16bea8] com.tencent.open.utils.b.v:(Ljava/lang/String;)[B
+16beb8: 1a00 d229                              |0000: const-string v0, "UTF-8" // string@29d2
+16bebc: 6e20 5534 0100                         |0002: invoke-virtual {v1, v0}, Ljava/lang/String;.getBytes:(Ljava/lang/String;)[B // method@3455
+16bec2: 0c01                                   |0005: move-result-object v1
+16bec4: 1101                                   |0006: return-object v1
+16bec6: 1201                                   |0007: const/4 v1, #int 0 // #0
+16bec8: 1101                                   |0008: return-object v1
+      catches       : 1
+        0x0000 - 0x0006
+          Ljava/io/UnsupportedEncodingException; -> 0x0007
+
+  Virtual methods   -
+  source_file_idx   : 8879 (ProGuard)
+

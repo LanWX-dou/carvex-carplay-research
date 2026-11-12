@@ -1,0 +1,2 @@
+_ZN7android9RpcServer16setupVsockServerEjj
+_ZTVN7android18VsockSocketAddressE

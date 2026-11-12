@@ -1,0 +1,178 @@
+Class #2067            -
+  Class descriptor  : 'Ld6/e;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Ld6/e;)
+      name          : 'a'
+      type          : 'Landroid/content/Context;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Ld6/e;)
+      name          : 'b'
+      type          : 'Lmiuix/appcompat/app/AlertDialog;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Ld6/e;)
+      name          : 'c'
+      type          : 'Landroid/content/DialogInterface$OnClickListener;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Ld6/e;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 11 16-bit code units
+340fbc:                                        |[340fbc] d6.e.<init>:(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;)V
+340fcc: 7010 8c81 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+340fd2: 5b01 c0ef                              |0003: iput-object v1, v0, Ld6/e;.a:Landroid/content/Context; // field@efc0
+340fd6: 5b02 c2ef                              |0005: iput-object v2, v0, Ld6/e;.c:Landroid/content/DialogInterface$OnClickListener; // field@efc2
+340fda: 6e10 7179 0000                         |0007: invoke-virtual {v0}, Ld6/e;.b:()V // method@7971
+340fe0: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #1              : (in Ld6/e;)
+      name          : 'a'
+      type          : '(Ld6/e;Ljava/lang/String;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+340fa4:                                        |[340fa4] d6.e.a:(Ld6/e;Ljava/lang/String;)V
+340fb4: 6e20 7279 1000                         |0000: invoke-virtual {v0, v1}, Ld6/e;.c:(Ljava/lang/String;)V // method@7972
+340fba: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Ld6/e;)
+      name          : 'b'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 11
+      ins           : 1
+      outs          : 5
+      insns size    : 156 16-bit code units
+340fe4:                                        |[340fe4] d6.e.b:()V
+340ff4: 54a0 c0ef                              |0000: iget-object v0, v10, Ld6/e;.a:Landroid/content/Context; // field@efc0
+340ff8: 6001 c2a4                              |0002: sget v1, Lcom/carwith/launcher/R$string;.carlife_user_information_link_message:I // field@a4c2
+340ffc: 1a02 d07f                              |0004: const-string v2, "https://carlife.baidu.com/static/carlifemis/duty/secretright_new.html" // string@7fd0
+341000: 1a03 cf7f                              |0006: const-string v3, "https://carlife.baidu.com/static/carlifemis/duty/disclaimer_new.html" // string@7fcf
+341004: 1a04 d17f                              |0008: const-string v4, "https://carlife.baidu.com/static/carlifemis/duty/service_new.html" // string@7fd1
+341008: 2430 8f1b 2403                         |000a: filled-new-array {v4, v2, v3}, [Ljava/lang/Object; // type@1b8f
+34100e: 0c02                                   |000d: move-result-object v2
+341010: 6e30 7301 1002                         |000e: invoke-virtual {v0, v1, v2}, Landroid/content/Context;.getString:(I[Ljava/lang/Object;)Ljava/lang/String; // method@0173
+341016: 0c00                                   |0011: move-result-object v0
+341018: 54a1 c0ef                              |0012: iget-object v1, v10, Ld6/e;.a:Landroid/content/Context; // field@efc0
+34101c: 7110 9d7f 0100                         |0014: invoke-static {v1}, Lj2/a;.h:(Landroid/content/Context;)Z // method@7f9d
+341022: 0a01                                   |0017: move-result v1
+341024: 3801 0400                              |0018: if-eqz v1, 001c // +0004
+341028: 1a00 730c                              |001a: const-string v0, "Baidu CarLife+ ist eine App des Drittanbieters Baidu, die die Verbindung zwischen mobilen Geräten und Autos ermöglicht.\nUm diese <br>Interkonnektivitäts-<br>funktionen bereitstellen zu können, muss diese App auf die Bluetooth-Adresse und die Standortinformationen des Autos und des mobilen Geräts zugreifen. Die App muss mit dem Internet verbunden sein, um eine Verbindung zum Auto herstellen zu können, Daten zu aktualisieren, Standortinformationen zu erhalten, Geräte in der Nähe zu erkennen und Verbindungen mit ihnen herzustellen und die MAC-Adresse des mobilen Geräts zu erhalten, um die täglichen Aktivitätsdaten zu berechnen.\nDiese App fordert die oben genannten Berechtigungen nur an oder nutzt sie, wenn du die entsprechenden Funktionen verwendest.\nEinzelheiten findest du in den <font color=\"#0C84FF\"></color><a href=\"%1$s\">Nutzungsbedingungen</a></font>, der <font color=\"#0C84FF\"></color><a href=\"%2$s\">Datenschutzerklärung</a></font> und der <font color=\"#0C84FF\"><a href=\"%3$s\">Diensterklärung</a></font>." // string@0c73
+34102c: 2201 5501                              |001c: new-instance v1, Landroid/text/SpannableStringBuilder; // type@0155
+341030: 7110 0205 0000                         |001e: invoke-static {v0}, Landroid/text/Html;.fromHtml:(Ljava/lang/String;)Landroid/text/Spanned; // method@0502
+341036: 0c00                                   |0021: move-result-object v0
+341038: 7020 0e05 0100                         |0022: invoke-direct {v1, v0}, Landroid/text/SpannableStringBuilder;.<init>:(Ljava/lang/CharSequence;)V // method@050e
+34103e: 6e10 1805 0100                         |0025: invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;.length:()I // method@0518
+341044: 0a00                                   |0028: move-result v0
+341046: 1c02 6d01                              |0029: const-class v2, Landroid/text/style/URLSpan; // type@016d
+34104a: 1203                                   |002b: const/4 v3, #int 0 // #0
+34104c: 6e40 1705 3120                         |002c: invoke-virtual {v1, v3, v0, v2}, Landroid/text/SpannableStringBuilder;.getSpans:(IILjava/lang/Class;)[Ljava/lang/Object; // method@0517
+341052: 0c00                                   |002f: move-result-object v0
+341054: 1f00 d71a                              |0030: check-cast v0, [Landroid/text/style/URLSpan; // type@1ad7
+341058: 2102                                   |0032: array-length v2, v0
+34105a: 0134                                   |0033: move v4, v3
+34105c: 3524 1f00                              |0034: if-ge v4, v2, 0053 // +001f
+341060: 4605 0004                              |0036: aget-object v5, v0, v4
+341064: 6e20 1605 5100                         |0038: invoke-virtual {v1, v5}, Landroid/text/SpannableStringBuilder;.getSpanStart:(Ljava/lang/Object;)I // method@0516
+34106a: 0a06                                   |003b: move-result v6
+34106c: 6e20 1405 5100                         |003c: invoke-virtual {v1, v5}, Landroid/text/SpannableStringBuilder;.getSpanEnd:(Ljava/lang/Object;)I // method@0514
+341072: 0a07                                   |003f: move-result v7
+341074: 6e20 1505 5100                         |0040: invoke-virtual {v1, v5}, Landroid/text/SpannableStringBuilder;.getSpanFlags:(Ljava/lang/Object;)I // method@0515
+34107a: 0a08                                   |0043: move-result v8
+34107c: 2209 4913                              |0044: new-instance v9, Ld6/e$a; // type@1349
+341080: 6e10 3b05 0500                         |0046: invoke-virtual {v5}, Landroid/text/style/URLSpan;.getURL:()Ljava/lang/String; // method@053b
+341086: 0c05                                   |0049: move-result-object v5
+341088: 7030 6d79 a905                         |004a: invoke-direct {v9, v10, v5}, Ld6/e$a;.<init>:(Ld6/e;Ljava/lang/String;)V // method@796d
+34108e: 6e58 1905 9176                         |004d: invoke-virtual {v1, v9, v6, v7, v8}, Landroid/text/SpannableStringBuilder;.setSpan:(Ljava/lang/Object;III)V // method@0519
+341094: d804 0401                              |0050: add-int/lit8 v4, v4, #int 1 // #01
+341098: 28e2                                   |0052: goto 0034 // -001e
+34109a: 2200 9016                              |0053: new-instance v0, Lmiuix/appcompat/app/AlertDialog$a; // type@1690
+34109e: 54a2 c0ef                              |0055: iget-object v2, v10, Ld6/e;.a:Landroid/content/Context; // field@efc0
+3410a2: 7020 1589 2000                         |0057: invoke-direct {v0, v2}, Lmiuix/appcompat/app/AlertDialog$a;.<init>:(Landroid/content/Context;)V // method@8915
+3410a8: 6002 bfa4                              |005a: sget v2, Lcom/carwith/launcher/R$string;.carlife_user_information:I // field@a4bf
+3410ac: 6e20 1c89 2000                         |005c: invoke-virtual {v0, v2}, Lmiuix/appcompat/app/AlertDialog$a;.J:(I)Lmiuix/appcompat/app/AlertDialog$a; // method@891c
+3410b2: 0c02                                   |005f: move-result-object v2
+3410b4: 6e20 2a89 1200                         |0060: invoke-virtual {v2, v1}, Lmiuix/appcompat/app/AlertDialog$a;.r:(Ljava/lang/CharSequence;)Lmiuix/appcompat/app/AlertDialog$a; // method@892a
+3410ba: 0c01                                   |0063: move-result-object v1
+3410bc: 6e20 2289 3100                         |0064: invoke-virtual {v1, v3}, Lmiuix/appcompat/app/AlertDialog$a;.e:(Z)Lmiuix/appcompat/app/AlertDialog$a; // method@8922
+3410c2: 0c01                                   |0067: move-result-object v1
+3410c4: 6002 c0a4                              |0068: sget v2, Lcom/carwith/launcher/R$string;.carlife_user_information_dialog_agree:I // field@a4c0
+3410c8: 54a3 c2ef                              |006a: iget-object v3, v10, Ld6/e;.c:Landroid/content/DialogInterface$OnClickListener; // field@efc2
+3410cc: 6e30 1989 2103                         |006c: invoke-virtual {v1, v2, v3}, Lmiuix/appcompat/app/AlertDialog$a;.D:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@8919
+3410d2: 0c01                                   |006f: move-result-object v1
+3410d4: 6002 c1a4                              |0070: sget v2, Lcom/carwith/launcher/R$string;.carlife_user_information_dialog_disagree:I // field@a4c1
+3410d8: 54a3 c2ef                              |0072: iget-object v3, v10, Ld6/e;.c:Landroid/content/DialogInterface$OnClickListener; // field@efc2
+3410dc: 6e30 2b89 2103                         |0074: invoke-virtual {v1, v2, v3}, Lmiuix/appcompat/app/AlertDialog$a;.v:(ILandroid/content/DialogInterface$OnClickListener;)Lmiuix/appcompat/app/AlertDialog$a; // method@892b
+3410e2: 1211                                   |0077: const/4 v1, #int 1 // #1
+3410e4: 6e20 2589 1000                         |0078: invoke-virtual {v0, v1}, Lmiuix/appcompat/app/AlertDialog$a;.i:(Z)Lmiuix/appcompat/app/AlertDialog$a; // method@8925
+3410ea: 6e10 2089 0000                         |007b: invoke-virtual {v0}, Lmiuix/appcompat/app/AlertDialog$a;.a:()Lmiuix/appcompat/app/AlertDialog; // method@8920
+3410f0: 0c00                                   |007e: move-result-object v0
+3410f2: 5ba0 c1ef                              |007f: iput-object v0, v10, Ld6/e;.b:Lmiuix/appcompat/app/AlertDialog; // field@efc1
+3410f6: 6e20 3989 1000                         |0081: invoke-virtual {v0, v1}, Lmiuix/appcompat/app/AlertDialog;.setMaterialEnabled:(Z)V // method@8939
+3410fc: 54a0 c1ef                              |0084: iget-object v0, v10, Ld6/e;.b:Lmiuix/appcompat/app/AlertDialog; // field@efc1
+341100: 6e10 3c89 0000                         |0086: invoke-virtual {v0}, Lmiuix/appcompat/app/AlertDialog;.show:()V // method@893c
+341106: 54aa c1ef                              |0089: iget-object v10, v10, Ld6/e;.b:Lmiuix/appcompat/app/AlertDialog; // field@efc1
+34110a: 6e10 3489 0a00                         |008b: invoke-virtual {v10}, Lmiuix/appcompat/app/AlertDialog;.getMessageView:()Landroid/widget/TextView; // method@8934
+341110: 0c0a                                   |008e: move-result-object v10
+341112: 1300 0f00                              |008f: const/16 v0, #int 15 // #f
+341116: 6e20 6808 0a00                         |0091: invoke-virtual {v10, v0}, Landroid/widget/TextView;.setAutoLinkMask:(I)V // method@0868
+34111c: 7100 2e05 0000                         |0094: invoke-static {}, Landroid/text/method/LinkMovementMethod;.getInstance:()Landroid/text/method/MovementMethod; // method@052e
+341122: 0c00                                   |0097: move-result-object v0
+341124: 6e20 7408 0a00                         |0098: invoke-virtual {v10, v0}, Landroid/widget/TextView;.setMovementMethod:(Landroid/text/method/MovementMethod;)V // method@0874
+34112a: 0e00                                   |009b: return-void
+      catches       : (none)
+
+    #1              : (in Ld6/e;)
+      name          : 'c'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 17 16-bit code units
+34112c:                                        |[34112c] d6.e.c:(Ljava/lang/String;)V
+34113c: 7110 1404 0300                         |0000: invoke-static {v3}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+341142: 0c03                                   |0003: move-result-object v3
+341144: 2200 6500                              |0004: new-instance v0, Landroid/content/Intent; // type@0065
+341148: 1a01 e55d                              |0006: const-string v1, "android.intent.action.VIEW" // string@5de5
+34114c: 7030 9201 1003                         |0008: invoke-direct {v0, v1, v3}, Landroid/content/Intent;.<init>:(Ljava/lang/String;Landroid/net/Uri;)V // method@0192
+341152: 5422 c0ef                              |000b: iget-object v2, v2, Ld6/e;.a:Landroid/content/Context; // field@efc0
+341156: 6e20 8201 0200                         |000d: invoke-virtual {v2, v0}, Landroid/content/Context;.startActivity:(Landroid/content/Intent;)V // method@0182
+34115c: 0e00                                   |0010: return-void
+      catches       : (none)
+
+    #2              : (in Ld6/e;)
+      name          : 'd'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 8 16-bit code units
+341160:                                        |[341160] d6.e.d:()V
+341170: 5400 c1ef                              |0000: iget-object v0, v0, Ld6/e;.b:Lmiuix/appcompat/app/AlertDialog; // field@efc1
+341174: 3800 0500                              |0002: if-eqz v0, 0007 // +0005
+341178: 6e10 3c89 0000                         |0004: invoke-virtual {v0}, Lmiuix/appcompat/app/AlertDialog;.show:()V // method@893c
+34117e: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  source_file_idx   : 4293 (CarlifeUserInformationDialog.java)
+

@@ -1,0 +1,95 @@
+Class #6340            -
+  Class descriptor  : 'Lcom/amap/api/col/s/k;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Lcom/amap/api/col/s/dm;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/amap/api/col/s/k;)
+      name          : 'l'
+      type          : '[B'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/amap/api/col/s/k;)
+      name          : 'm'
+      type          : 'Ljava/util/Map;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/amap/api/col/s/k;)
+      name          : '<init>'
+      type          : '([BLjava/util/Map;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 18 16-bit code units
+400dc4:                                        |[400dc4] com.amap.api.col.s.k.<init>:([BLjava/util/Map;)V
+400dd4: 7010 1796 0000                         |0000: invoke-direct {v0}, Lcom/amap/api/col/s/dm;.<init>:()V // method@9617
+400dda: 5b01 ab69                              |0003: iput-object v1, v0, Lcom/amap/api/col/s/k;.l:[B // field@69ab
+400dde: 5b02 ac69                              |0005: iput-object v2, v0, Lcom/amap/api/col/s/k;.m:Ljava/util/Map; // field@69ac
+400de2: 6201 3f69                              |0007: sget-object v1, Lcom/amap/api/col/s/dm$a;.e:Lcom/amap/api/col/s/dm$a; // field@693f
+400de6: 6e20 2396 1000                         |0009: invoke-virtual {v0, v1}, Lcom/amap/api/col/s/dm;.e:(Lcom/amap/api/col/s/dm$a;)V // method@9623
+400dec: 6201 4c69                              |000c: sget-object v1, Lcom/amap/api/col/s/dm$c;.b:Lcom/amap/api/col/s/dm$c; // field@694c
+400df0: 6e20 2596 1000                         |000e: invoke-virtual {v0, v1}, Lcom/amap/api/col/s/dm;.g:(Lcom/amap/api/col/s/dm$c;)V // method@9625
+400df6: 0e00                                   |0011: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/amap/api/col/s/k;)
+      name          : 'n'
+      type          : '()Ljava/util/Map;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+400d98:                                        |[400d98] com.amap.api.col.s.k.n:()Ljava/util/Map;
+400da8: 5400 ac69                              |0000: iget-object v0, v0, Lcom/amap/api/col/s/k;.m:Ljava/util/Map; // field@69ac
+400dac: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/amap/api/col/s/k;)
+      name          : 'o'
+      type          : '()Ljava/util/Map;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 2 16-bit code units
+400db0:                                        |[400db0] com.amap.api.col.s.k.o:()Ljava/util/Map;
+400dc0: 1200                                   |0000: const/4 v0, #int 0 // #0
+400dc2: 1100                                   |0001: return-object v0
+      catches       : (none)
+
+    #2              : (in Lcom/amap/api/col/s/k;)
+      name          : 'p'
+      type          : '()[B'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+400d68:                                        |[400d68] com.amap.api.col.s.k.p:()[B
+400d78: 5400 ab69                              |0000: iget-object v0, v0, Lcom/amap/api/col/s/k;.l:[B // field@69ab
+400d7c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/amap/api/col/s/k;)
+      name          : 'q'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+400d80:                                        |[400d80] com.amap.api.col.s.k.q:()Ljava/lang/String;
+400d90: 1a00 65ab                              |0000: const-string v0, "https://adiu.amap.com/ws/device/adius" // string@ab65
+400d94: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+  source_file_idx   : 2912 (ADIURequest.java)
+

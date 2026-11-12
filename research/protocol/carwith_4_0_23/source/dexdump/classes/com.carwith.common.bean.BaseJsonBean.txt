@@ -1,0 +1,26 @@
+Class #3883            -
+  Class descriptor  : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljava/io/Serializable;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/BaseJsonBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+443150:                                        |[443150] com.carwith.common.bean.BaseJsonBean.<init>:()V
+443160: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+443166: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 4441 (BaseJsonBean.java)
+

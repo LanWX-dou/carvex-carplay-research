@@ -1,0 +1,237 @@
+[
+  {
+    "source": "assets/ReportPrefItem.json",
+    "bytes": 169,
+    "sha256": "64fb4551d81bc6a30b3d9a7447ad71c668741bc94e785df7719d7bd651ab23d8"
+  },
+  {
+    "source": "assets/ResourceUpdateItem.json",
+    "bytes": 163,
+    "sha256": "fe79bcad096b54d26c3519754bf96a9c34f770931bcf30fce6e0f6b38467eff1"
+  },
+  {
+    "source": "assets/ai_all_smart_shortcut.json",
+    "bytes": 118587,
+    "sha256": "1604d509fc234ba45bd713743530278ecfd40e7f80567e68a585f9fb51537d02"
+  },
+  {
+    "source": "assets/ai_shortcut.json",
+    "bytes": 21650,
+    "sha256": "a7f8160acaf0a69bef578d188e160d2192bdcbb98e7e5dea2e4c83d02c7e3bb6"
+  },
+  {
+    "source": "assets/ai_shortcut_headers.json",
+    "bytes": 11690,
+    "sha256": "d2a1fde30d000916c020b9936bd3032beb21d9c5b21f014fe07e8748a635dc08"
+  },
+  {
+    "source": "assets/ai_smart_shortcut.json",
+    "bytes": 14225,
+    "sha256": "f6ed102bff3be2e3d81141eb75a3f7dae323d978e638b61191a57ee79c82d72d"
+  },
+  {
+    "source": "assets/all_app_info.json",
+    "bytes": 3415,
+    "sha256": "3510e3096a66bddecb460595577e3a1f161dd9a37589fc275023a786cac12ba6"
+  },
+  {
+    "source": "assets/all_city_info.json",
+    "bytes": 25525,
+    "sha256": "6c789307991eb87db46b8718fd01875ef017c4621fd742fc485d9562a90d2488"
+  },
+  {
+    "source": "assets/asr_evaluate.json",
+    "bytes": 193,
+    "sha256": "8797226ac19dcb3340f4226debd5801b6f7900c111d223f594f55356dd7bd53a"
+  },
+  {
+    "source": "assets/camera_intents.json",
+    "bytes": 25081,
+    "sha256": "e745ebff3ccf6ec2511053707730debd4545efff70119b171524bc9514519a99"
+  },
+  {
+    "source": "assets/circle.json",
+    "bytes": 914,
+    "sha256": "cb97e1adc57e06cb93d877be0d5885772be6fbfc6d87e05e073bc40ec906dcf8"
+  },
+  {
+    "source": "assets/cloud_vad_config.json",
+    "bytes": 23,
+    "sha256": "0993acbafd7936081aa9828a6cbed4f8bffbc87c98381f96dc5a02f39945d174"
+  },
+  {
+    "source": "assets/com.qiyi.video.json",
+    "bytes": 960,
+    "sha256": "d2f34a3ab2e94650fb9b678a1dfd51bf302e8b22acbc6018b39531847a967f14"
+  },
+  {
+    "source": "assets/com.tencent.mm.config.json",
+    "bytes": 23342,
+    "sha256": "9226403c67b3ca61f9ce0279a2ba5b78f111dff8bdc53edfbd081ef8ad514662"
+  },
+  {
+    "source": "assets/com.tencent.mm.json",
+    "bytes": 10251,
+    "sha256": "04a89fb41218343ce495fbc5bfe51fd3ac14e39cc8357d9f9b3284b0e3f32ea8"
+  },
+  {
+    "source": "assets/com.tencent.open.config.json",
+    "bytes": 56,
+    "sha256": "18d68d491240549e0034c88879accc51744f8b43a8bde7ee0113bbf78a3a646a"
+  },
+  {
+    "source": "assets/com.tencent.qqlive.json",
+    "bytes": 960,
+    "sha256": "1ebf14467cd3c563c4b7d3048d5a9a33ee86e069c133b438985d14872e077ef2"
+  },
+  {
+    "source": "assets/com.youku.phone.json",
+    "bytes": 982,
+    "sha256": "c8f127463ca5c5984169f75923cc1cc9ae459d793619d2b597c629eec5761203"
+  },
+  {
+    "source": "assets/context.json",
+    "bytes": 487,
+    "sha256": "1c82f513142b1d0fa271728655650b46f63c27bb713b64e54b5eb20c02c98489"
+  },
+  {
+    "source": "assets/device_config.json",
+    "bytes": 66,
+    "sha256": "494432e6202980c2b9ee4f03194b2fe5e5301512d8b319392ac99f7d3d583fe8"
+  },
+  {
+    "source": "assets/ec_dpi.json",
+    "bytes": 45,
+    "sha256": "b21c9c045021f2e4a2a75aae0176ca9b1d9538455ae65f265ce97cec4969fdd3"
+  },
+  {
+    "source": "assets/first_guide_queries.json",
+    "bytes": 1849,
+    "sha256": "8c575b96d854b841bf4dd7617248ead508fb537953fba417567e68226ed0bba7"
+  },
+  {
+    "source": "assets/full_duplex_config.json",
+    "bytes": 163,
+    "sha256": "a881ffad36beb7048e9733b7d1f2eb0608ae25e863db821b046be6f0fce5487d"
+  },
+  {
+    "source": "assets/main_ai.json",
+    "bytes": 163601,
+    "sha256": "02138d4b8c1565186ffb65a25fc046998413c5dbc9b95122ea4090c942baf432"
+  },
+  {
+    "source": "assets/market.json",
+    "bytes": 97593,
+    "sha256": "ae551a7a1edf00e3b22df53a7bd718a433ae64e708a3ff27f3fa41ef8e0c8b36"
+  },
+  {
+    "source": "assets/notification_test.json",
+    "bytes": 2392,
+    "sha256": "94c8711e10291460db14bd4fd7986827d40c50a4a54c6fb920f8628ade895ac0"
+  },
+  {
+    "source": "assets/offline_recommend_conf.json",
+    "bytes": 160968,
+    "sha256": "80af4ad6374c70786ed9bb4e1aa0852d0b72d6c84c8c9d6f9ea5bc0514078006"
+  },
+  {
+    "source": "assets/operation_guide.json",
+    "bytes": 764,
+    "sha256": "8a045e21edb7fc7c6a4b9033d5fa66f97fc22fffcff0dd496554cbca95d84d04"
+  },
+  {
+    "source": "assets/preload_offline_ai.json",
+    "bytes": 12890,
+    "sha256": "2a52a8b189a1be3c8caa72a3877fb4d03b4ab465dc3f52104768176d641d9758"
+  },
+  {
+    "source": "assets/record_audio_upload_config.json",
+    "bytes": 34,
+    "sha256": "6aea5236076b842e575415fb9c4dd38211a388a612d3dde245f2174e3a2fe343"
+  },
+  {
+    "source": "assets/redpacket.json",
+    "bytes": 6355,
+    "sha256": "aa5e12288dbc76e28cf3abfa67192626666de4a603d0caf977e321ec9a096360"
+  },
+  {
+    "source": "assets/settings.json",
+    "bytes": 589,
+    "sha256": "af8ad42d25a11f345c80e19d24fa6445ead35bf86307bd456d776292e2e2d0b3"
+  },
+  {
+    "source": "assets/settings_config.json",
+    "bytes": 14790,
+    "sha256": "d38faf509d27f4c91492260d07f1dabd5eae77436a2798dfc8e5d9d6f4a73684"
+  },
+  {
+    "source": "assets/test_main_ai_nickname.json",
+    "bytes": 19613,
+    "sha256": "193daa335cd0e5fc9a9b32fa3ab71b1d709456d759acf131ff5f62ef448a2cde"
+  },
+  {
+    "source": "assets/track.json",
+    "bytes": 872,
+    "sha256": "68a192fa14ffb8cd80f0ac8f4939f3cb916bb405756afab49197b4a7b155902d"
+  },
+  {
+    "source": "assets/training_config.json",
+    "bytes": 226,
+    "sha256": "68b7528363e40b0ecea355da65dca54e655938cb4700e5be2449213142989c07"
+  },
+  {
+    "source": "assets/vad_prestart_switch_config.json",
+    "bytes": 27,
+    "sha256": "b867207356ad84e29cb64323f1234f38edf6a973b1398a71edbf3e54f1393ab1"
+  },
+  {
+    "source": "assets/vendor_tts_config.json",
+    "bytes": 108,
+    "sha256": "d73addfd7593be00f8c6852991d19fd596b7790957a173d2f23ecc14f161cccb"
+  },
+  {
+    "source": "assets/voice_wave_config.json",
+    "bytes": 101,
+    "sha256": "1133c11161596f3f761e0a4c2daeffe9dc4f38f7c18ea2bafd59df5233d986c1"
+  },
+  {
+    "source": "assets/wallpaperjson.json",
+    "bytes": 4484,
+    "sha256": "e7b0a52e8580a1d17042fea14ef3ee02b8fce43210c86602b330dac6c4a21290"
+  },
+  {
+    "source": "assets/weixin_contact_for_localnlp.json",
+    "bytes": 105,
+    "sha256": "8857f21576d19395d9863b7020aeece3358cc6c1b05742e81f16721274ed7239"
+  },
+  {
+    "source": "assets/whitelist.json",
+    "bytes": 103,
+    "sha256": "b876a69cd5b5a07e4b4ce3165be0d52dae8d804e034e4c7e91f9e491072dbeee"
+  },
+  {
+    "source": "debug.conf.json",
+    "bytes": 79,
+    "sha256": "6998a8761a8a68c9eb5d6e572a600dd4c459e347b6c577d4047dc7130535ec88"
+  },
+  {
+    "source": "nlp_edge_config.json",
+    "bytes": 58,
+    "sha256": "4e220ea363d639bb7f3ae47eca64ad434c5de6c251b6f68a8391c2a5572ce634"
+  },
+  {
+    "source": "parser.conf.json",
+    "bytes": 1685,
+    "sha256": "80e8c67ff2951d3aeb70fae336b57142e8627345664cfe9306e89c28bcb99199"
+  },
+  {
+    "source": "res/-Im.json",
+    "bytes": 486302,
+    "sha256": "d5c55bc1484e6c548e989a10c6519fa2ad7207f6adf63f8fb9b48eaea4700b01"
+  },
+  {
+    "source": "res/5Vo.json",
+    "bytes": 137795,
+    "sha256": "3a6579059da0cb214d839c3e8ef4fa1b57eb9ba40aaf4706cda10f33902b5bea"
+  }
+]

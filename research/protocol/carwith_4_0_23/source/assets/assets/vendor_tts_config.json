@@ -1,0 +1,8 @@
+{
+  "vendor_tts_model": [
+    "cmi",
+    "umi"
+  ],
+  "asr_detect_score": 0.4,
+  "total_feature_on": false
+}

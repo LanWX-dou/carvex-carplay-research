@@ -1,0 +1,54 @@
+Class #986            -
+  Class descriptor  : 'Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/view/View$OnClickListener;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;)
+      name          : 'a'
+      type          : 'Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;)
+      name          : '<init>'
+      type          : '(Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+2314c4:                                        |[2314c4] com.carwith.launcher.settings.phone.preference.IpcRecordNumberPreferenceCategory$a.<init>:(Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory;)V
+2314d4: 5b01 f7cf                              |0000: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;.a:Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory; // field@cff7
+2314d8: 7010 8c81 0000                         |0002: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@818c
+2314de: 0e00                                   |0005: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;)
+      name          : 'onClick'
+      type          : '(Landroid/view/View;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 23 16-bit code units
+2314e0:                                        |[2314e0] com.carwith.launcher.settings.phone.preference.IpcRecordNumberPreferenceCategory$a.onClick:(Landroid/view/View;)V
+2314f0: 2203 6500                              |0000: new-instance v3, Landroid/content/Intent; // type@0065
+2314f4: 1a00 cd7f                              |0002: const-string v0, "https://beian.miit.gov.cn" // string@7fcd
+2314f8: 7110 1404 0000                         |0004: invoke-static {v0}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+2314fe: 0c00                                   |0007: move-result-object v0
+231500: 1a01 e55d                              |0008: const-string v1, "android.intent.action.VIEW" // string@5de5
+231504: 7030 9201 1300                         |000a: invoke-direct {v3, v1, v0}, Landroid/content/Intent;.<init>:(Ljava/lang/String;Landroid/net/Uri;)V // method@0192
+23150a: 5422 f7cf                              |000d: iget-object v2, v2, Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory$a;.a:Lcom/carwith/launcher/settings/phone/preference/IpcRecordNumberPreferenceCategory; // field@cff7
+23150e: 6e10 bc09 0200                         |000f: invoke-virtual {v2}, Landroidx/preference/Preference;.getContext:()Landroid/content/Context; // method@09bc
+231514: 0c02                                   |0012: move-result-object v2
+231516: 6e20 8201 3200                         |0013: invoke-virtual {v2, v3}, Landroid/content/Context;.startActivity:(Landroid/content/Intent;)V // method@0182
+23151c: 0e00                                   |0016: return-void
+      catches       : (none)
+
+  source_file_idx   : 7350 (IpcRecordNumberPreferenceCategory.java)
+

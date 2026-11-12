@@ -1,0 +1,57 @@
+Class #6478            -
+  Class descriptor  : 'Lcom/carwith/common/bean/SettingsBean;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/common/bean/BaseJsonBean;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/SettingsBean;)
+      name          : 'settingData'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/SettingsBean;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+443850:                                        |[443850] com.carwith.common.bean.SettingsBean.<init>:()V
+443860: 7010 56a5 0000                         |0000: invoke-direct {v0}, Lcom/carwith/common/bean/BaseJsonBean;.<init>:()V // method@a556
+443866: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/SettingsBean;)
+      name          : 'getSettingData'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443838:                                        |[443838] com.carwith.common.bean.SettingsBean.getSettingData:()Ljava/util/List;
+443848: 5400 fce3                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/SettingsBean;.settingData:Ljava/util/List; // field@e3fc
+44384c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/SettingsBean;)
+      name          : 'setSettingData'
+      type          : '(Ljava/util/List;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+443868:                                        |[443868] com.carwith.common.bean.SettingsBean.setSettingData:(Ljava/util/List;)V
+443878: 5b01 fce3                              |0000: iput-object v1, v0, Lcom/carwith/common/bean/SettingsBean;.settingData:Ljava/util/List; // field@e3fc
+44387c: 0e00                                   |0002: return-void
+      catches       : (none)
+
+  source_file_idx   : 26385 (SettingsBean.java)
+

@@ -1,0 +1,390 @@
+{
+  "nodeInfo": [
+    {
+      "nodeIdInfos": [
+        {
+          "pageId": "weixin_video_chat_answer_or_hangup",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "接听",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "挂断",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "邀请你进行视频通话",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "接听",
+                  "enabled": ""
+                },
+                {
+                  "regex": "挂断",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_voice_chat_answer_or_hangup",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "接听",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "挂断",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "邀请你进行语音通话",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "接听",
+                  "enabled": ""
+                },
+                {
+                  "regex": "挂断",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },{
+          "pageId": "weixin_scan",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "扫码",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_login_remind",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "找回密码",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "紧急冻结",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_login_register",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "登录",
+                  "class_name": "android.widget.Button",
+                  "enabled": ""
+                },
+                {
+                  "text": "注册",
+                  "class_name": "android.widget.Button",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_login_success",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "微信",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "通讯录",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "发现",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "我",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_input_money_button_disable_over_range",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "false"
+                },
+                {
+                  "text": "单个红包金额不可超过(.*)元|单次支付总额不可超过(.*)元",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_group_input_money_no_number_button_disable",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": "false"
+                },
+                {
+                  "text": "红包个数",
+                  "class_name": "",
+                  "enabled": ""
+                },
+                {
+                  "text": "^¥(([1-9]+).*.*|[0].*[1-9].*|[0].*[0][1-9])",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "weixin_input_money_button_not_over_range",
+          "appVersions": [
+            {
+              "versionCode": "1160",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "塞钱进红包",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "当前所在页面,发红包",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

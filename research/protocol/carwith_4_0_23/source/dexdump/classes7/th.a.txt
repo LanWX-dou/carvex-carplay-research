@@ -1,0 +1,63 @@
+Class #1267            -
+  Class descriptor  : 'Lth/a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lth/a;)
+      name          : 'a'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 0
+      outs          : 2
+      insns size    : 23 16-bit code units
+1a150c:                                        |[1a150c] th.a.a:()Ljava/lang/String;
+1a151c: 1200                                   |0000: const/4 v0, #int 0 // #0
+1a151e: 7110 580b 0000                         |0001: invoke-static {v0}, Lcom/xiaomi/ai/api/common/APIUtils;.randomRequestId:(Z)Ljava/lang/String; // method@0b58
+1a1524: 0c00                                   |0004: move-result-object v0
+1a1526: 2201 030b                              |0005: new-instance v1, Ljava/lang/StringBuilder; // type@0b03
+1a152a: 7010 4334 0100                         |0007: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@3443
+1a1530: 1a02 4666                              |000a: const-string v2, "ptts_" // string@6646
+1a1534: 6e20 4c34 2100                         |000c: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a153a: 6e20 4c34 0100                         |000f: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@344c
+1a1540: 6e10 5334 0100                         |0012: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@3453
+1a1546: 0c00                                   |0015: move-result-object v0
+1a1548: 1100                                   |0016: return-object v0
+      catches       : (none)
+
+    #1              : (in Lth/a;)
+      name          : 'b'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 30 16-bit code units
+1a154c:                                        |[1a154c] th.a.b:()Ljava/lang/String;
+1a155c: 7100 a53a 0000                         |0000: invoke-static {}, Lrh/a;.m:()Z // method@3aa5
+1a1562: 0a00                                   |0003: move-result v0
+1a1564: 3800 0500                              |0004: if-eqz v0, 0009 // +0005
+1a1568: 1a00 b647                              |0006: const-string v0, "http://speech-staging.ai.srv/speech/v1.0/ptts/" // string@47b6
+1a156c: 2815                                   |0008: goto 001d // +0015
+1a156e: 7100 a43a 0000                         |0009: invoke-static {}, Lrh/a;.l:()Z // method@3aa4
+1a1574: 0a00                                   |000c: move-result v0
+1a1576: 3800 0500                              |000d: if-eqz v0, 0012 // +0005
+1a157a: 1a00 0648                              |000f: const-string v0, "https://speech-preview.xiaomixiaoai.com/speech/v1.0/ptts/" // string@4806
+1a157e: 280c                                   |0011: goto 001d // +000c
+1a1580: 7100 a33a 0000                         |0012: invoke-static {}, Lrh/a;.k:()Z // method@3aa3
+1a1586: 0a00                                   |0015: move-result v0
+1a1588: 3800 0500                              |0016: if-eqz v0, 001b // +0005
+1a158c: 1a00 0548                              |0018: const-string v0, "https://preview4test-speech.xiaomixiaoai.com/speech/v1.0/ptts/" // string@4805
+1a1590: 2803                                   |001a: goto 001d // +0003
+1a1592: 1a00 0748                              |001b: const-string v0, "https://speech.xiaomixiaoai.com/speech/v1.0/ptts/" // string@4807
+1a1596: 1100                                   |001d: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 26641 (repoUtils.kt)
+

@@ -1,0 +1,81 @@
+Class #36            -
+  Class descriptor  : 'Lch/e;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lch/e;)
+      name          : 'a'
+      type          : 'Z'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lch/e;)
+      name          : 'b'
+      type          : 'Z'
+      access        : 0x0049 (PUBLIC STATIC VOLATILE)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lch/e;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 14 16-bit code units
+0a62b0:                                        |[0a62b0] ch.e.<clinit>:()V
+0a62c0: 2200 7802                              |0000: new-instance v0, Ljava/io/File; // type@0278
+0a62c4: 1a01 8600                              |0002: const-string v1, "/data/system/verifaction_staging_preview" // string@0086
+0a62c8: 7020 4907 1000                         |0004: invoke-direct {v0, v1}, Ljava/io/File;.<init>:(Ljava/lang/String;)V // method@0749
+0a62ce: 6e10 4d07 0000                         |0007: invoke-virtual {v0}, Ljava/io/File;.exists:()Z // method@074d
+0a62d4: 0a00                                   |000a: move-result v0
+0a62d6: 6a00 ce00                              |000b: sput-boolean v0, Lch/e;.a:Z // field@00ce
+0a62da: 0e00                                   |000d: return-void
+      catches       : (none)
+
+    #1              : (in Lch/e;)
+      name          : 'a'
+      type          : '(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 67 16-bit code units
+0a6218:                                        |[0a6218] ch.e.a:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+0a6228: 7110 7601 0100                         |0000: invoke-static {v1}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0176
+0a622e: 0a00                                   |0003: move-result v0
+0a6230: 3800 2f00                              |0004: if-eqz v0, 0033 // +002f
+0a6234: 6301 cf00                              |0006: sget-boolean v1, Lch/e;.b:Z // field@00cf
+0a6238: 3901 1900                              |0008: if-nez v1, 0021 // +0019
+0a623c: 6301 ce00                              |000a: sget-boolean v1, Lch/e;.a:Z // field@00ce
+0a6240: 3801 0300                              |000c: if-eqz v1, 000f // +0003
+0a6244: 2813                                   |000e: goto 0021 // +0013
+0a6246: 2201 a502                              |000f: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a624a: 7010 bd07 0100                         |0011: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a6250: 1a00 d525                              |0014: const-string v0, "https://verify.sec.xiaomi.com" // string@25d5
+0a6254: 6e20 c507 0100                         |0016: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a625a: 6e20 c507 2100                         |0019: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a6260: 6e10 c907 0100                         |001c: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a6266: 0c01                                   |001f: move-result-object v1
+0a6268: 2822                                   |0020: goto 0042 // +0022
+0a626a: 2201 a502                              |0021: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a626e: 7010 bd07 0100                         |0023: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a6274: 1a00 d425                              |0026: const-string v0, "https://infosec-captcha-staging.pt.xiaomi.com" // string@25d4
+0a6278: 6e20 c507 0100                         |0028: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a627e: 6e20 c507 2100                         |002b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a6284: 6e10 c907 0100                         |002e: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a628a: 0c01                                   |0031: move-result-object v1
+0a628c: 2810                                   |0032: goto 0042 // +0010
+0a628e: 2200 a502                              |0033: new-instance v0, Ljava/lang/StringBuilder; // type@02a5
+0a6292: 7010 bd07 0000                         |0035: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a6298: 6e20 c507 1000                         |0038: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a629e: 6e20 c507 2000                         |003b: invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a62a4: 6e10 c907 0000                         |003e: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a62aa: 0c01                                   |0041: move-result-object v1
+0a62ac: 1101                                   |0042: return-object v1
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 1219 (Constants.java)
+

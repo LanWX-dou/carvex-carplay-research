@@ -1,0 +1,210 @@
+Class #13            -
+  Class descriptor  : 'La3/a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in La3/a;)
+      name          : 'a'
+      type          : 'Z'
+      access        : 0x0009 (PUBLIC STATIC)
+    #1              : (in La3/a;)
+      name          : 'b'
+      type          : 'Z'
+      access        : 0x0009 (PUBLIC STATIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in La3/a;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;Landroid/media/AudioManager;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 7 16-bit code units
+1a51b0:                                        |[1a51b0] a3.a.a:(Landroid/content/Context;Landroid/media/AudioManager;)Z
+1a51c0: 7120 a500 1000                         |0000: invoke-static {v0, v1}, La3/a;.c:(Landroid/content/Context;Landroid/media/AudioManager;)Z // method@00a5
+1a51c6: 0a00                                   |0003: move-result v0
+1a51c8: 6a00 4f00                              |0004: sput-boolean v0, La3/a;.b:Z // field@004f
+1a51cc: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #1              : (in La3/a;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 7 16-bit code units
+1a51d0:                                        |[1a51d0] a3.a.b:(Landroid/content/Context;)Z
+1a51e0: 7110 a600 0000                         |0000: invoke-static {v0}, La3/a;.d:(Landroid/content/Context;)Z // method@00a6
+1a51e6: 0a00                                   |0003: move-result v0
+1a51e8: 6a00 4e00                              |0004: sput-boolean v0, La3/a;.a:Z // field@004e
+1a51ec: 0f00                                   |0006: return v0
+      catches       : (none)
+
+    #2              : (in La3/a;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;Landroid/media/AudioManager;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 2
+      insns size    : 69 16-bit code units
+1a51f0:                                        |[1a51f0] a3.a.c:(Landroid/content/Context;Landroid/media/AudioManager;)Z
+1a5200: 1200                                   |0000: const/4 v0, #int 0 // #0
+1a5202: 3904 0300                              |0001: if-nez v4, 0004 // +0003
+1a5206: 0f00                                   |0003: return v0
+1a5208: 3905 0300                              |0004: if-nez v5, 0007 // +0003
+1a520c: 0f00                                   |0006: return v0
+1a520e: 6e10 f408 0500                         |0007: invoke-virtual {v5}, Landroid/media/AudioManager;.getActiveRecordingConfigurations:()Ljava/util/List; // method@08f4
+1a5214: 0c04                                   |000a: move-result-object v4
+1a5216: 7110 a700 0400                         |000b: invoke-static {v4}, La3/b;.a:(Ljava/util/Collection;)Z // method@00a7
+1a521c: 0a05                                   |000e: move-result v5
+1a521e: 3805 0300                              |000f: if-eqz v5, 0012 // +0003
+1a5222: 0f00                                   |0011: return v0
+1a5224: 0105                                   |0012: move v5, v0
+1a5226: 7210 80bf 0400                         |0013: invoke-interface {v4}, Ljava/util/List;.size:()I // method@bf80
+1a522c: 0a01                                   |0016: move-result v1
+1a522e: 3515 2d00                              |0017: if-ge v5, v1, 0044 // +002d
+1a5232: 7220 73bf 5400                         |0019: invoke-interface {v4, v5}, Ljava/util/List;.get:(I)Ljava/lang/Object; // method@bf73
+1a5238: 0c01                                   |001c: move-result-object v1
+1a523a: 1f01 8801                              |001d: check-cast v1, Landroid/media/AudioRecordingConfiguration; // type@0188
+1a523e: 3901 0300                              |001f: if-nez v1, 0022 // +0003
+1a5242: 2820                                   |0021: goto 0041 // +0020
+1a5244: 6e10 1809 0100                         |0022: invoke-virtual {v1}, Landroid/media/AudioRecordingConfiguration;.getClientAudioSource:()I // method@0918
+1a524a: 0a01                                   |0025: move-result v1
+1a524c: 2202 4f1d                              |0026: new-instance v2, Ljava/lang/StringBuilder; // type@1d4f
+1a5250: 7010 9abc 0200                         |0028: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+1a5256: 1a03 989c                              |002b: const-string v3, "getActiveRecordingConfigurations() clientAudioSource:" // string@9c98
+1a525a: 6e20 a5bc 3200                         |002d: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a5260: 6e20 a0bc 1200                         |0030: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@bca0
+1a5266: 6e10 b7bc 0200                         |0033: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+1a526c: 0c02                                   |0036: move-result-object v2
+1a526e: 1a03 5073                              |0037: const-string v3, "Utils" // string@7350
+1a5272: 7120 d3aa 2300                         |0039: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.p:(Ljava/lang/String;Ljava/lang/String;)V // method@aad3
+1a5278: 1242                                   |003c: const/4 v2, #int 4 // #4
+1a527a: 3321 0400                              |003d: if-ne v1, v2, 0041 // +0004
+1a527e: 1214                                   |003f: const/4 v4, #int 1 // #1
+1a5280: 0f04                                   |0040: return v4
+1a5282: d805 0501                              |0041: add-int/lit8 v5, v5, #int 1 // #01
+1a5286: 28d0                                   |0043: goto 0013 // -0030
+1a5288: 0f00                                   |0044: return v0
+      catches       : (none)
+
+    #3              : (in La3/a;)
+      name          : 'd'
+      type          : '(Landroid/content/Context;)Z'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 6
+      insns size    : 165 16-bit code units
+1a528c:                                        |[1a528c] a3.a.d:(Landroid/content/Context;)Z
+1a529c: 1a00 5073                              |0000: const-string v0, "Utils" // string@7350
+1a52a0: 1201                                   |0002: const/4 v1, #int 0 // #0
+1a52a2: 3909 0300                              |0003: if-nez v9, 0006 // +0003
+1a52a6: 0f01                                   |0005: return v1
+1a52a8: 1a02 7190                              |0006: const-string v2, "content://settings/system/button_auto_record_call" // string@9071
+1a52ac: 7110 020a 0200                         |0008: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0a02
+1a52b2: 0c04                                   |000b: move-result-object v4
+1a52b4: 6e10 8704 0900                         |000c: invoke-virtual {v9}, Landroid/content/Context;.getContentResolver:()Landroid/content/ContentResolver; // method@0487
+1a52ba: 0c03                                   |000f: move-result-object v3
+1a52bc: 1207                                   |0010: const/4 v7, #int 0 // #0
+1a52be: 1208                                   |0011: const/4 v8, #int 0 // #0
+1a52c0: 1205                                   |0012: const/4 v5, #int 0 // #0
+1a52c2: 1206                                   |0013: const/4 v6, #int 0 // #0
+1a52c4: 7406 6004 0300                         |0014: invoke-virtual/range {v3, v4, v5, v6, v7, v8}, Landroid/content/ContentResolver;.query:(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; // method@0460
+1a52ca: 0c09                                   |0017: move-result-object v9
+1a52cc: 3909 0b00                              |0018: if-nez v9, 0023 // +000b
+1a52d0: 3809 0800                              |001a: if-eqz v9, 0022 // +0008
+1a52d4: 7210 0406 0900                         |001c: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+1a52da: 2803                                   |001f: goto 0022 // +0003
+1a52dc: 0d09                                   |0020: move-exception v9
+1a52de: 2851                                   |0021: goto 0072 // +0051
+1a52e0: 0f01                                   |0022: return v1
+1a52e2: 7210 1606 0900                         |0023: invoke-interface {v9}, Landroid/database/Cursor;.moveToNext:()Z // method@0616
+1a52e8: 0a02                                   |0026: move-result v2
+1a52ea: 3802 3e00                              |0027: if-eqz v2, 0065 // +003e
+1a52ee: 1a02 087e                              |0029: const-string v2, "_id" // string@7e08
+1a52f2: 7220 0706 2900                         |002b: invoke-interface {v9, v2}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+1a52f8: 0a02                                   |002e: move-result v2
+1a52fa: 7220 1206 2900                         |002f: invoke-interface {v9, v2}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+1a5300: 1a02 e1d6                              |0032: const-string v2, "name" // string@d6e1
+1a5304: 7220 0706 2900                         |0034: invoke-interface {v9, v2}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+1a530a: 0a02                                   |0037: move-result v2
+1a530c: 7220 1206 2900                         |0038: invoke-interface {v9, v2}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+1a5312: 1a02 43fd                              |003b: const-string v2, "value" // string@fd43
+1a5316: 7220 0706 2900                         |003d: invoke-interface {v9, v2}, Landroid/database/Cursor;.getColumnIndex:(Ljava/lang/String;)I // method@0607
+1a531c: 0a02                                   |0040: move-result v2
+1a531e: 7220 1206 2900                         |0041: invoke-interface {v9, v2}, Landroid/database/Cursor;.getString:(I)Ljava/lang/String; // method@0612
+1a5324: 0c02                                   |0044: move-result-object v2
+1a5326: 2203 4f1d                              |0045: new-instance v3, Ljava/lang/StringBuilder; // type@1d4f
+1a532a: 7010 9abc 0300                         |0047: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+1a5330: 1a04 56e3                              |004a: const-string v4, "queryAutoRecordSetting() value:" // string@e356
+1a5334: 6e20 a5bc 4300                         |004c: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a533a: 6e20 a5bc 2300                         |004f: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a5340: 6e10 b7bc 0300                         |0052: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+1a5346: 0c03                                   |0055: move-result-object v3
+1a5348: 7120 c8aa 3000                         |0056: invoke-static {v0, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+1a534e: 1a03 3009                              |0059: const-string v3, "1" // string@0930
+1a5352: 6e20 61bc 2300                         |005b: invoke-virtual {v3, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@bc61
+1a5358: 0a02                                   |005e: move-result v2
+1a535a: 7210 0406 0900                         |005f: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+1a5360: 0f02                                   |0062: return v2
+1a5362: 0d02                                   |0063: move-exception v2
+1a5364: 2805                                   |0064: goto 0069 // +0005
+1a5366: 7210 0406 0900                         |0065: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+1a536c: 283c                                   |0068: goto 00a4 // +003c
+1a536e: 7210 0406 0900                         |0069: invoke-interface {v9}, Landroid/database/Cursor;.close:()V // method@0604
+1a5374: 2805                                   |006c: goto 0071 // +0005
+1a5376: 0d09                                   |006d: move-exception v9
+1a5378: 6e20 e6bc 9200                         |006e: invoke-virtual {v2, v9}, Ljava/lang/Throwable;.addSuppressed:(Ljava/lang/Throwable;)V // method@bce6
+1a537e: 2702                                   |0071: throw v2
+1a5380: 2202 4f1d                              |0072: new-instance v2, Ljava/lang/StringBuilder; // type@1d4f
+1a5384: 7010 9abc 0200                         |0074: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+1a538a: 1a03 8e90                              |0077: const-string v3, "contentResolver query exception:" // string@908e
+1a538e: 6e20 a5bc 3200                         |0079: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a5394: 6e10 e9bc 0900                         |007c: invoke-virtual {v9}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@bce9
+1a539a: 0c09                                   |007f: move-result-object v9
+1a539c: 6e20 a5bc 9200                         |0080: invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a53a2: 6e10 b7bc 0200                         |0083: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+1a53a8: 0c09                                   |0086: move-result-object v9
+1a53aa: 7120 c8aa 9000                         |0087: invoke-static {v0, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+1a53b0: 281a                                   |008a: goto 00a4 // +001a
+1a53b2: 0d09                                   |008b: move-exception v9
+1a53b4: 2202 4f1d                              |008c: new-instance v2, Ljava/lang/StringBuilder; // type@1d4f
+1a53b8: 7010 9abc 0200                         |008e: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@bc9a
+1a53be: 1a03 cc1f                              |0091: const-string v3, "Exception:" // string@1fcc
+1a53c2: 6e20 a5bc 3200                         |0093: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a53c8: 6e10 e9bc 0900                         |0096: invoke-virtual {v9}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@bce9
+1a53ce: 0c09                                   |0099: move-result-object v9
+1a53d0: 6e20 a5bc 9200                         |009a: invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@bca5
+1a53d6: 6e10 b7bc 0200                         |009d: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@bcb7
+1a53dc: 0c09                                   |00a0: move-result-object v9
+1a53de: 7120 c8aa 9000                         |00a1: invoke-static {v0, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@aac8
+1a53e4: 0f01                                   |00a4: return v1
+      catches       : 7
+        0x0006 - 0x0010
+          Ljava/lang/Exception; -> 0x008b
+        0x0014 - 0x001f
+          Ljava/lang/Exception; -> 0x0020
+        0x0023 - 0x005f
+          <any> -> 0x0063
+        0x005f - 0x0068
+          Ljava/lang/Exception; -> 0x0020
+        0x0069 - 0x006c
+          <any> -> 0x006d
+        0x006e - 0x0072
+          Ljava/lang/Exception; -> 0x0020
+        0x0072 - 0x008a
+          Ljava/lang/Exception; -> 0x008b
+
+  Virtual methods   -
+  source_file_idx   : 4201 (AudioDetection.java)
+

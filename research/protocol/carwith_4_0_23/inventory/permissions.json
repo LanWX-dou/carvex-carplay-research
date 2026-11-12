@@ -1,0 +1,396 @@
+[
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.SET_ORIENTATION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.permission.REFRESH_RATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.permission.HANG_UP_CHANGED"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.REMOVE_TASKS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MANAGE_ACTIVITY_TASKS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.FOREGROUND_SERVICE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.POST_NOTIFICATIONS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.TETHER_PRIVILEGED"
+  },
+  {
+    "kind": "permission",
+    "name": "easyconn.sdk.permission.DATA_SERVICE",
+    "protectionLevel": "0x12"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ACCESS_NETWORK_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BACKGROUND_CAMERA"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_BASIC_PHONE_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_WALLPAPER_INTERNAL"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.REORDER_TASKS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.SET_ACTIVITY_WATCHER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_PHONE_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.GET_TASKS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.VIBRATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.WRITE_SECURE_SETTINGS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.WRITE_SETTINGS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.INTERNET"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.QUERY_ALL_PACKAGES"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_PRIVILEGED_PHONE_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_CALENDAR"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.FORCE_STOP_PACKAGES"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "miui.car.permission.MI_CARLINK_THIRD_APP_PROCESS_STATUS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MEDIA_CONTENT_CONTROL"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.REAL_GET_TASKS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ADD_ALWAYS_UNLOCKED_DISPLAY"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.weather2.permission.WRITE_DB"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CAMERA"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "miui.permission.USE_INTERNAL_GENERAL_API"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BLUETOOTH_CONNECT"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.NETWORK_SETTING"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.NEARBY_WIFI_DEVICES"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_WIFI_CREDENTIAL"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MANAGE_USB"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.INTERACT_ACROSS_USERS"
+  },
+  {
+    "kind": "permission",
+    "name": "miui.carlink.permission.START_CARLINKSERVICE",
+    "protectionLevel": "0x3"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "miui.car.permission.MI_CARLINK_STATUS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "miui.car.permission.MI_CARLINK_ROTATION_STATUS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ACCESS_FINE_LOCATION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ACCESS_COARSE_LOCATION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CHANGE_NETWORK_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BIND_QUICK_SETTINGS_TILE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.NETWORK_SETTINGS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CAPTURE_VIDEO_OUTPUT"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.INTERNAL_SYSTEM_WINDOW"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.LOCAL_MAC_ADDRESS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ACCESS_WIFI_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CHANGE_WIFI_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CONNECTIVITY_INTERNAL"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BLUETOOTH_SCAN"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.ADD_TRUSTED_DISPLAY"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BLUETOOTH"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BLUETOOTH_ADMIN"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.SYSTEM_ALERT_WINDOW"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.WAKE_LOCK"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_EXTERNAL_STORAGE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CONTROL_INCALL_EXPERIENCE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CALL_PHONE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_CALL_LOG"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_CONTACTS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.xiaomi.permission.AUTH_SERVICE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.WRITE_CALENDAR"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "miui.permission.ACCESS_ALARM_PROVIDER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.android.incallui.ACCESS_INCALLUI_SERVICE",
+    "protectionLevel": "0x3"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.voiceassist.READ_PRIVACY_INFO_PROVIDER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.voiceassist.WRITE_PRIVACY_INFO_PROVIDER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.CAPTURE_AUDIO_OUTPUT"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.RECORD_AUDIO"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.android.incallui.permission.SET_RECORDER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MODIFY_AUDIO_ROUTING"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MODIFY_PHONE_STATE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.BLUETOOTH_PRIVILEGED"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.baidu.permission.READ_MAP_STATUS"
+  },
+  {
+    "kind": "permission",
+    "name": "com.ucar.permission.UCAR_SERVICE"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.ucar.permission.UCAR_APP_SERVICE"
+  },
+  {
+    "kind": "permission",
+    "name": "com.miui.carlink.permission.UCAR_SETTINGS_PROVIDER",
+    "protectionLevel": "0x2"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.READ_FRAME_BUFFER",
+    "protectionLevel": "0x3"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.xiaomi.permission.CLOUD_MANAGER"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.USE_CREDENTIALS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.MANAGE_ACCOUNTS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.bugreport.permission.DUMP_CACHED_LOG"
+  },
+  {
+    "kind": "permission",
+    "name": "com.miui.carlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "protectionLevel": "0x2"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.miui.carlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.xiaomi.aiservice.permission.AI_ABILITY"
+  },
+  {
+    "kind": "uses-permission",
+    "name": "com.xiaomi.ai.android.rpcserver.SPEECH_SERVER"
+  }
+]

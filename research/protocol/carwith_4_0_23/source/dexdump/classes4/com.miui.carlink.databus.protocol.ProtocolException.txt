@@ -1,0 +1,39 @@
+Class #366            -
+  Class descriptor  : 'Lcom/miui/carlink/databus/protocol/ProtocolException;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/RuntimeException;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/miui/carlink/databus/protocol/ProtocolException;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+15321c:                                        |[15321c] com.miui.carlink.databus.protocol.ProtocolException.<init>:(Ljava/lang/String;)V
+15322c: 7020 3d34 1000                         |0000: invoke-direct {v0, v1}, Ljava/lang/RuntimeException;.<init>:(Ljava/lang/String;)V // method@343d
+153232: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/miui/carlink/databus/protocol/ProtocolException;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/Throwable;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+153234:                                        |[153234] com.miui.carlink.databus.protocol.ProtocolException.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V
+153244: 7030 3e34 1002                         |0000: invoke-direct {v0, v1, v2}, Ljava/lang/RuntimeException;.<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V // method@343e
+15324a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 8910 (ProtocolException.java)
+

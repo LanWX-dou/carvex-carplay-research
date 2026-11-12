@@ -1,0 +1,65 @@
+Class #270            -
+  Class descriptor  : 'Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/provider/BaseColumns;'
+  Static fields     -
+    #0              : (in Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;)
+      name          : 'a'
+      type          : 'Landroid/net/Uri;'
+      access        : 0x0009 (PUBLIC STATIC)
+    #1              : (in Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;)
+      name          : 'b'
+      type          : '[Ljava/lang/String;'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x10008 (STATIC CONSTRUCTOR)
+      code          -
+      registers     : 13
+      ins           : 0
+      outs          : 12
+      insns size    : 64 16-bit code units
+1155a0:                                        |[1155a0] com.xiaomi.voiceassistant.instruction.model.Alarm$b.<clinit>:()V
+1155b0: 7100 901c 0000                         |0000: invoke-static {}, Lih/e;.b:()Landroid/content/Context; // method@1c90
+1155b6: 0c00                                   |0003: move-result-object v0
+1155b8: 7110 7314 0000                         |0004: invoke-static {v0}, Lcom/xiaomi/voiceassistant/instruction/utils/a;.f:(Landroid/content/Context;)I // method@1473
+1155be: 0a00                                   |0007: move-result v0
+1155c0: 1401 106c 8c00                         |0008: const v1, #float 1.28957e-38 // #008c6c10
+1155c6: 1a02 453c                              |000b: const-string v2, "content://com.android.deskclock/alarm" // string@3c45
+1155ca: 3410 0900                              |000d: if-lt v0, v1, 0016 // +0009
+1155ce: 7110 f601 0200                         |000f: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1155d4: 0c00                                   |0012: move-result-object v0
+1155d6: 6900 2f7f                              |0013: sput-object v0, Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;.a:Landroid/net/Uri; // field@7f2f
+1155da: 280c                                   |0015: goto 0021 // +000c
+1155dc: 7110 f601 0200                         |0016: invoke-static {v2}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@01f6
+1155e2: 0c00                                   |0019: move-result-object v0
+1155e4: 1201                                   |001a: const/4 v1, #int 0 // #0
+1155e6: 7120 8513 1000                         |001b: invoke-static {v0, v1}, Lcom/xiaomi/voiceassistant/instruction/model/Alarm;.a:(Landroid/net/Uri;I)Landroid/net/Uri; // method@1385
+1155ec: 0c00                                   |001e: move-result-object v0
+1155ee: 6900 2f7f                              |001f: sput-object v0, Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;.a:Landroid/net/Uri; // field@7f2f
+1155f2: 1a0b ae3d                              |0021: const-string v11, "deleteAfterUse" // string@3dae
+1155f6: 1a0c ce6d                              |0023: const-string v12, "skiptime" // string@6dce
+1155fa: 1a01 fd31                              |0025: const-string v1, "_id" // string@31fd
+1155fe: 1a02 a047                              |0027: const-string v2, "hour" // string@47a0
+115602: 1a03 574e                              |0029: const-string v3, "minutes" // string@4e57
+115606: 1a04 5d3d                              |002b: const-string v4, "daysofweek" // string@3d5d
+11560a: 1a05 6935                              |002d: const-string v5, "alarmtime" // string@3569
+11560e: 1a06 f33f                              |002f: const-string v6, "enabled" // string@3ff3
+115612: 1a07 b375                              |0031: const-string v7, "vibrate" // string@75b3
+115616: 1a08 0d4e                              |0033: const-string v8, "message" // string@4e0d
+11561a: 1a09 7335                              |0035: const-string v9, "alert" // string@3573
+11561e: 1a0a c173                              |0037: const-string v10, "type" // string@73c1
+115622: 250c 980d 0100                         |0039: filled-new-array/range {v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12}, [Ljava/lang/String; // type@0d98
+115628: 0c00                                   |003c: move-result-object v0
+11562a: 6900 307f                              |003d: sput-object v0, Lcom/xiaomi/voiceassistant/instruction/model/Alarm$b;.b:[Ljava/lang/String; // field@7f30
+11562e: 0e00                                   |003f: return-void
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 1027 (Alarm.java)
+

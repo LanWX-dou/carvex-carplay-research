@@ -1,0 +1,43 @@
+{
+  "nodeInfo": [
+    {
+      "nodeIdInfos": [
+        {
+          "pageId": "youku_have_progress_bar",
+          "appVersions": [
+            {
+              "versionCode": "146",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "com.youku.phone:id/plugin_small_play_control_btn",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

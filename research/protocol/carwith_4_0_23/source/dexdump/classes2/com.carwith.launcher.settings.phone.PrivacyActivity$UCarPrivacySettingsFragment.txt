@@ -1,0 +1,263 @@
+Class #5156            -
+  Class descriptor  : 'Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;'
+  Interfaces        -
+    #0              : 'Landroidx/preference/Preference$OnPreferenceClickListener;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'P'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'Q'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'R'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'S'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'T'
+      type          : 'Lmiuix/preference/TextPreference;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'U'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'V'
+      type          : 'J'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'W'
+      type          : 'Lcom/carwith/launcher/settings/phone/w;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'X'
+      type          : 'Lcom/carwith/launcher/settings/phone/w;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 1
+      insns size    : 10 16-bit code units
+21b7ec:                                        |[21b7ec] com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.<init>:()V
+21b7fc: 7010 c833 0200                         |0000: invoke-direct {v2}, Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;.<init>:()V // method@33c8
+21b802: 1600 0000                              |0003: const-wide/16 v0, #int 0 // #0
+21b806: 5a20 f1cd                              |0005: iput-wide v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.U:J // field@cdf1
+21b80a: 5a20 f2cd                              |0007: iput-wide v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.V:J // field@cdf2
+21b80e: 0e00                                   |0009: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'onCreatePreferences'
+      type          : '(Landroid/os/Bundle;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 91 16-bit code units
+21b810:                                        |[21b810] com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.onCreatePreferences:(Landroid/os/Bundle;Ljava/lang/String;)V
+21b820: 6001 febe                              |0000: sget v1, Lcom/carwith/launcher/R$xml;.ucar_privacy:I // field@befe
+21b824: 6e20 d209 1000                         |0002: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.addPreferencesFromResource:(I)V // method@09d2
+21b82a: 1a01 61c3                              |0005: const-string v1, "ucar_user_privacy" // string@c361
+21b82e: 6e20 d309 1000                         |0007: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21b834: 0c01                                   |000a: move-result-object v1
+21b836: 1f01 eb17                              |000b: check-cast v1, Lmiuix/preference/TextPreference; // type@17eb
+21b83a: 5b01 eccd                              |000d: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.P:Lmiuix/preference/TextPreference; // field@cdec
+21b83e: 1a01 28c3                              |000f: const-string v1, "ucar_privacy_protocol" // string@c328
+21b842: 6e20 d309 1000                         |0011: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21b848: 0c01                                   |0014: move-result-object v1
+21b84a: 1f01 eb17                              |0015: check-cast v1, Lmiuix/preference/TextPreference; // type@17eb
+21b84e: 5b01 edcd                              |0017: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.Q:Lmiuix/preference/TextPreference; // field@cded
+21b852: 1a01 18c3                              |0019: const-string v1, "ucar_permission_manager" // string@c318
+21b856: 6e20 d309 1000                         |001b: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21b85c: 0c01                                   |001e: move-result-object v1
+21b85e: 1f01 eb17                              |001f: check-cast v1, Lmiuix/preference/TextPreference; // type@17eb
+21b862: 5b01 eecd                              |0021: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.R:Lmiuix/preference/TextPreference; // field@cdee
+21b866: 1a01 6fc2                              |0023: const-string v1, "ucar_cancel_privacy_protocol" // string@c26f
+21b86a: 6e20 d309 1000                         |0025: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21b870: 0c01                                   |0028: move-result-object v1
+21b872: 1f01 eb17                              |0029: check-cast v1, Lmiuix/preference/TextPreference; // type@17eb
+21b876: 5b01 efcd                              |002b: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.S:Lmiuix/preference/TextPreference; // field@cdef
+21b87a: 1a01 06c3                              |002d: const-string v1, "ucar_log_out_privacy_protocol" // string@c306
+21b87e: 6e20 d309 1000                         |002f: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21b884: 0c01                                   |0032: move-result-object v1
+21b886: 1f01 eb17                              |0033: check-cast v1, Lmiuix/preference/TextPreference; // type@17eb
+21b88a: 5b01 f0cd                              |0035: iput-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.T:Lmiuix/preference/TextPreference; // field@cdf0
+21b88e: 5401 eccd                              |0037: iget-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.P:Lmiuix/preference/TextPreference; // field@cdec
+21b892: 3801 0500                              |0039: if-eqz v1, 003e // +0005
+21b896: 6e20 c909 0100                         |003b: invoke-virtual {v1, v0}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+21b89c: 5401 edcd                              |003e: iget-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.Q:Lmiuix/preference/TextPreference; // field@cded
+21b8a0: 3801 0500                              |0040: if-eqz v1, 0045 // +0005
+21b8a4: 6e20 c909 0100                         |0042: invoke-virtual {v1, v0}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+21b8aa: 5401 eecd                              |0045: iget-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.R:Lmiuix/preference/TextPreference; // field@cdee
+21b8ae: 3801 0500                              |0047: if-eqz v1, 004c // +0005
+21b8b2: 6e20 c909 0100                         |0049: invoke-virtual {v1, v0}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+21b8b8: 5401 efcd                              |004c: iget-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.S:Lmiuix/preference/TextPreference; // field@cdef
+21b8bc: 3801 0500                              |004e: if-eqz v1, 0053 // +0005
+21b8c0: 6e20 c909 0100                         |0050: invoke-virtual {v1, v0}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+21b8c6: 5401 f0cd                              |0053: iget-object v1, v0, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.T:Lmiuix/preference/TextPreference; // field@cdf0
+21b8ca: 3801 0500                              |0055: if-eqz v1, 005a // +0005
+21b8ce: 6e20 c909 0100                         |0057: invoke-virtual {v1, v0}, Landroidx/preference/Preference;.setOnPreferenceClickListener:(Landroidx/preference/Preference$OnPreferenceClickListener;)V // method@09c9
+21b8d4: 0e00                                   |005a: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'onDestroy'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 1
+      insns size    : 39 16-bit code units
+21b8d8:                                        |[21b8d8] com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.onDestroy:()V
+21b8e8: 6f10 5b09 0200                         |0000: invoke-super {v2}, Landroidx/fragment/app/Fragment;.onDestroy:()V // method@095b
+21b8ee: 5420 f3cd                              |0003: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.W:Lcom/carwith/launcher/settings/phone/w; // field@cdf3
+21b8f2: 1201                                   |0005: const/4 v1, #int 0 // #0
+21b8f4: 3800 0f00                              |0006: if-eqz v0, 0015 // +000f
+21b8f8: 6e10 533a 0000                         |0008: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/w;.m:()Z // method@3a53
+21b8fe: 0a00                                   |000b: move-result v0
+21b900: 3800 0900                              |000c: if-eqz v0, 0015 // +0009
+21b904: 5420 f3cd                              |000e: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.W:Lcom/carwith/launcher/settings/phone/w; // field@cdf3
+21b908: 6e10 503a 0000                         |0010: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/w;.j:()V // method@3a50
+21b90e: 5b21 f3cd                              |0013: iput-object v1, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.W:Lcom/carwith/launcher/settings/phone/w; // field@cdf3
+21b912: 5420 f4cd                              |0015: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.X:Lcom/carwith/launcher/settings/phone/w; // field@cdf4
+21b916: 3800 0f00                              |0017: if-eqz v0, 0026 // +000f
+21b91a: 6e10 533a 0000                         |0019: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/w;.m:()Z // method@3a53
+21b920: 0a00                                   |001c: move-result v0
+21b922: 3800 0900                              |001d: if-eqz v0, 0026 // +0009
+21b926: 5420 f4cd                              |001f: iget-object v0, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.X:Lcom/carwith/launcher/settings/phone/w; // field@cdf4
+21b92a: 6e10 503a 0000                         |0021: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/w;.j:()V // method@3a50
+21b930: 5b21 f4cd                              |0024: iput-object v1, v2, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.X:Lcom/carwith/launcher/settings/phone/w; // field@cdf4
+21b934: 0e00                                   |0026: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;)
+      name          : 'onPreferenceClick'
+      type          : '(Landroidx/preference/Preference;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 11
+      ins           : 2
+      outs          : 3
+      insns size    : 206 16-bit code units
+21b640:                                        |[21b640] com.carwith.launcher.settings.phone.PrivacyActivity$UCarPrivacySettingsFragment.onPreferenceClick:(Landroidx/preference/Preference;)Z
+21b650: 6e10 bd09 0a00                         |0000: invoke-virtual {v10}, Landroidx/preference/Preference;.getKey:()Ljava/lang/String; // method@09bd
+21b656: 0c0a                                   |0003: move-result-object v10
+21b658: 1a00 61c3                              |0004: const-string v0, "ucar_user_privacy" // string@c361
+21b65c: 7120 2805 0a00                         |0006: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+21b662: 0a00                                   |0009: move-result v0
+21b664: 1a01 e55d                              |000a: const-string v1, "android.intent.action.VIEW" // string@5de5
+21b668: 1212                                   |000c: const/4 v2, #int 1 // #1
+21b66a: 3800 1200                              |000d: if-eqz v0, 001f // +0012
+21b66e: 1a0a d47f                              |000f: const-string v10, "https://carwith.link.miui.com/static/userProtocol.html" // string@7fd4
+21b672: 7110 1404 0a00                         |0011: invoke-static {v10}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+21b678: 0c0a                                   |0014: move-result-object v10
+21b67a: 2200 6500                              |0015: new-instance v0, Landroid/content/Intent; // type@0065
+21b67e: 7030 9201 100a                         |0017: invoke-direct {v0, v1, v10}, Landroid/content/Intent;.<init>:(Ljava/lang/String;Landroid/net/Uri;)V // method@0192
+21b684: 6e20 6c09 0900                         |001a: invoke-virtual {v9, v0}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+21b68a: 2900 b000                              |001d: goto/16 00cd // +00b0
+21b68e: 1a00 28c3                              |001f: const-string v0, "ucar_privacy_protocol" // string@c328
+21b692: 7120 2805 0a00                         |0021: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+21b698: 0a00                                   |0024: move-result v0
+21b69a: 3800 1200                              |0025: if-eqz v0, 0037 // +0012
+21b69e: 1a0a d67f                              |0027: const-string v10, "https://privacy.mi.com/CarWith/zh_CN/" // string@7fd6
+21b6a2: 7110 1404 0a00                         |0029: invoke-static {v10}, Landroid/net/Uri;.parse:(Ljava/lang/String;)Landroid/net/Uri; // method@0414
+21b6a8: 0c0a                                   |002c: move-result-object v10
+21b6aa: 2200 6500                              |002d: new-instance v0, Landroid/content/Intent; // type@0065
+21b6ae: 7030 9201 100a                         |002f: invoke-direct {v0, v1, v10}, Landroid/content/Intent;.<init>:(Ljava/lang/String;Landroid/net/Uri;)V // method@0192
+21b6b4: 6e20 6c09 0900                         |0032: invoke-virtual {v9, v0}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+21b6ba: 2900 9800                              |0035: goto/16 00cd // +0098
+21b6be: 1a00 18c3                              |0037: const-string v0, "ucar_permission_manager" // string@c318
+21b6c2: 7120 2805 0a00                         |0039: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+21b6c8: 0a00                                   |003c: move-result v0
+21b6ca: 3800 1200                              |003d: if-eqz v0, 004f // +0012
+21b6ce: 220a 6500                              |003f: new-instance v10, Landroid/content/Intent; // type@0065
+21b6d2: 6e10 4409 0900                         |0041: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21b6d8: 0c00                                   |0044: move-result-object v0
+21b6da: 1c01 670a                              |0045: const-class v1, Lcom/carwith/launcher/settings/phone/PermissionMgrActivity; // type@0a67
+21b6de: 7030 8f01 0a01                         |0047: invoke-direct {v10, v0, v1}, Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V // method@018f
+21b6e4: 6e20 6c09 a900                         |004a: invoke-virtual {v9, v10}, Landroidx/fragment/app/Fragment;.startActivity:(Landroid/content/Intent;)V // method@096c
+21b6ea: 2900 8000                              |004d: goto/16 00cd // +0080
+21b6ee: 1a00 6fc2                              |004f: const-string v0, "ucar_cancel_privacy_protocol" // string@c26f
+21b6f2: 7120 2805 0a00                         |0051: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+21b6f8: 0a00                                   |0054: move-result v0
+21b6fa: 1603 f401                              |0055: const-wide/16 v3, #int 500 // #1f4
+21b6fe: 1a01 a942                              |0057: const-string v1, "PrivacyActivity" // string@42a9
+21b702: 3800 3700                              |0059: if-eqz v0, 0090 // +0037
+21b706: 7100 ae04 0000                         |005b: invoke-static {}, Landroid/os/SystemClock;.elapsedRealtime:()J // method@04ae
+21b70c: 0b05                                   |005e: move-result-wide v5
+21b70e: 5397 f1cd                              |005f: iget-wide v7, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.U:J // field@cdf1
+21b712: 9c07 0507                              |0061: sub-long v7, v5, v7
+21b716: 310a 0703                              |0063: cmp-long v10, v7, v3
+21b71a: 3b0a 0800                              |0065: if-gez v10, 006d // +0008
+21b71e: 1a09 a00f                              |0067: const-string v9, "Cancel click ignored (debounce)" // string@0fa0
+21b722: 7120 790e 9100                         |0069: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21b728: 0f02                                   |006c: return v2
+21b72a: 5a95 f1cd                              |006d: iput-wide v5, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.U:J // field@cdf1
+21b72e: 549a f3cd                              |006f: iget-object v10, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.W:Lcom/carwith/launcher/settings/phone/w; // field@cdf3
+21b732: 380a 0e00                              |0071: if-eqz v10, 007f // +000e
+21b736: 6e10 533a 0a00                         |0073: invoke-virtual {v10}, Lcom/carwith/launcher/settings/phone/w;.m:()Z // method@3a53
+21b73c: 0a0a                                   |0076: move-result v10
+21b73e: 380a 0800                              |0077: if-eqz v10, 007f // +0008
+21b742: 1a09 a10f                              |0079: const-string v9, "Cancel dialog already showing" // string@0fa1
+21b746: 7120 790e 9100                         |007b: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21b74c: 0f02                                   |007e: return v2
+21b74e: 220a 800b                              |007f: new-instance v10, Lcom/carwith/launcher/settings/phone/w; // type@0b80
+21b752: 6e10 4409 0900                         |0081: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21b758: 0c00                                   |0084: move-result-object v0
+21b75a: 7030 463a 0a02                         |0085: invoke-direct {v10, v0, v2}, Lcom/carwith/launcher/settings/phone/w;.<init>:(Landroid/content/Context;Z)V // method@3a46
+21b760: 5b9a f3cd                              |0088: iput-object v10, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.W:Lcom/carwith/launcher/settings/phone/w; // field@cdf3
+21b764: 6009 eaab                              |008a: sget v9, Lcom/carwith/launcher/R$string;.ucar_privacy_cancel_delay:I // field@abea
+21b768: 6e20 553a 9a00                         |008c: invoke-virtual {v10, v9}, Lcom/carwith/launcher/settings/phone/w;.o:(I)V // method@3a55
+21b76e: 283e                                   |008f: goto 00cd // +003e
+21b770: 1a00 06c3                              |0090: const-string v0, "ucar_log_out_privacy_protocol" // string@c306
+21b774: 7120 2805 0a00                         |0092: invoke-static {v10, v0}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0528
+21b77a: 0a0a                                   |0095: move-result v10
+21b77c: 380a 3700                              |0096: if-eqz v10, 00cd // +0037
+21b780: 7100 ae04 0000                         |0098: invoke-static {}, Landroid/os/SystemClock;.elapsedRealtime:()J // method@04ae
+21b786: 0b05                                   |009b: move-result-wide v5
+21b788: 5397 f2cd                              |009c: iget-wide v7, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.V:J // field@cdf2
+21b78c: 9c07 0507                              |009e: sub-long v7, v5, v7
+21b790: 310a 0703                              |00a0: cmp-long v10, v7, v3
+21b794: 3b0a 0800                              |00a2: if-gez v10, 00aa // +0008
+21b798: 1a09 af38                              |00a4: const-string v9, "Logout click ignored (debounce)" // string@38af
+21b79c: 7120 790e 9100                         |00a6: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21b7a2: 0f02                                   |00a9: return v2
+21b7a4: 5a95 f2cd                              |00aa: iput-wide v5, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.V:J // field@cdf2
+21b7a8: 549a f4cd                              |00ac: iget-object v10, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.X:Lcom/carwith/launcher/settings/phone/w; // field@cdf4
+21b7ac: 380a 0e00                              |00ae: if-eqz v10, 00bc // +000e
+21b7b0: 6e10 533a 0a00                         |00b0: invoke-virtual {v10}, Lcom/carwith/launcher/settings/phone/w;.m:()Z // method@3a53
+21b7b6: 0a0a                                   |00b3: move-result v10
+21b7b8: 380a 0800                              |00b4: if-eqz v10, 00bc // +0008
+21b7bc: 1a09 b038                              |00b6: const-string v9, "Logout dialog already showing" // string@38b0
+21b7c0: 7120 790e 9100                         |00b8: invoke-static {v1, v9}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21b7c6: 0f02                                   |00bb: return v2
+21b7c8: 220a 800b                              |00bc: new-instance v10, Lcom/carwith/launcher/settings/phone/w; // type@0b80
+21b7cc: 6e10 4409 0900                         |00be: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21b7d2: 0c00                                   |00c1: move-result-object v0
+21b7d4: 1201                                   |00c2: const/4 v1, #int 0 // #0
+21b7d6: 7030 463a 0a01                         |00c3: invoke-direct {v10, v0, v1}, Lcom/carwith/launcher/settings/phone/w;.<init>:(Landroid/content/Context;Z)V // method@3a46
+21b7dc: 5b9a f4cd                              |00c6: iput-object v10, v9, Lcom/carwith/launcher/settings/phone/PrivacyActivity$UCarPrivacySettingsFragment;.X:Lcom/carwith/launcher/settings/phone/w; // field@cdf4
+21b7e0: 6009 edab                              |00c8: sget v9, Lcom/carwith/launcher/R$string;.ucar_privacy_log_out_delay:I // field@abed
+21b7e4: 6e20 553a 9a00                         |00ca: invoke-virtual {v10, v9}, Lcom/carwith/launcher/settings/phone/w;.o:(I)V // method@3a55
+21b7ea: 0f02                                   |00cd: return v2
+      catches       : (none)
+
+  source_file_idx   : 17066 (PrivacyActivity.java)
+

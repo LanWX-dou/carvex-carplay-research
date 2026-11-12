@@ -1,0 +1,145 @@
+Class #7431            -
+  Class descriptor  : 'Lcom/xiaomi/passport/c;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Lcom/xiaomi/passport/SecurityDeviceSignManager$c;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/passport/c;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+3f2440:                                        |[3f2440] com.xiaomi.passport.c.<init>:()V
+3f2450: 7010 e2cb 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@cbe2
+3f2456: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/passport/c;)
+      name          : 'b'
+      type          : '(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 9
+      ins           : 4
+      outs          : 3
+      insns size    : 84 16-bit code units
+3f2378:                                        |[3f2378] com.xiaomi.passport.c.b:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+3f2388: 1a00 0000                              |0000: const-string v0, "" // string@0000
+3f238c: 2201 7022                              |0002: new-instance v1, Lorg/json/JSONObject; // type@2270
+3f2390: 7010 bfd6 0100                         |0004: invoke-direct {v1}, Lorg/json/JSONObject;.<init>:()V // method@d6bf
+3f2396: 1a02 918c                              |0007: const-string v2, "deviceType" // string@8c91
+3f239a: 6203 a900                              |0009: sget-object v3, Landroid/os/Build;.DEVICE:Ljava/lang/String; // field@00a9
+3f239e: 6e30 ddd6 2103                         |000b: invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23a4: 1a02 afc3                              |000e: const-string v2, "oaid" // string@c3af
+3f23a8: 6203 ab6b                              |0010: sget-object v3, Lcom/xiaomi/account/privacy_data/master/PrivacyDataType;.OAID:Lcom/xiaomi/account/privacy_data/master/PrivacyDataType; // field@6bab
+3f23ac: 1204                                   |0012: const/4 v4, #int 0 // #0
+3f23ae: 2344 6c28                              |0013: new-array v4, v4, [Ljava/lang/String; // type@286c
+3f23b2: 7130 4208 3504                         |0015: invoke-static {v5, v3, v4}, Lcd/a;.c:(Landroid/content/Context;Lcom/xiaomi/account/privacy_data/master/PrivacyDataType;[Ljava/lang/String;)Ljava/lang/String; // method@0842
+3f23b8: 0c05                                   |0018: move-result-object v5
+3f23ba: 6e30 ddd6 2105                         |0019: invoke-virtual {v1, v2, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23c0: 1a05 5687                              |001c: const-string v5, "code" // string@8756
+3f23c4: 7110 2dcc 0600                         |001e: invoke-static {v6}, Ljava/lang/String;.valueOf:(I)Ljava/lang/String; // method@cc2d
+3f23ca: 0c06                                   |0021: move-result-object v6
+3f23cc: 6e30 ddd6 5106                         |0022: invoke-virtual {v1, v5, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23d2: 1a05 d4c2                              |0025: const-string v5, "nonce" // string@c2d4
+3f23d6: 7100 45d7 0000                         |0027: invoke-static {}, Lpd/i;.a:()Ljava/lang/String; // method@d745
+3f23dc: 0c06                                   |002a: move-result-object v6
+3f23de: 6e30 ddd6 5106                         |002b: invoke-virtual {v1, v5, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23e4: 1a05 818c                              |002e: const-string v5, "deviceId" // string@8c81
+3f23e8: 6e30 ddd6 5108                         |0030: invoke-virtual {v1, v5, v8}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23ee: 1a05 558a                              |0033: const-string v5, "cpuId" // string@8a55
+3f23f2: 6e30 ddd6 5107                         |0035: invoke-virtual {v1, v5, v7}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f23f8: 1a05 f590                              |0038: const-string v5, "fid" // string@90f5
+3f23fc: 6e30 ddd6 5100                         |003a: invoke-virtual {v1, v5, v0}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f2402: 1a05 51cc                              |003d: const-string v5, "publicKey" // string@cc51
+3f2406: 6e30 ddd6 5100                         |003f: invoke-virtual {v1, v5, v0}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f240c: 1a05 12d0                              |0042: const-string v5, "root" // string@d012
+3f2410: 6e30 ddd6 5100                         |0044: invoke-virtual {v1, v5, v0}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@d6dd
+3f2416: 6e10 e1d6 0100                         |0047: invoke-virtual {v1}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@d6e1
+3f241c: 0c05                                   |004a: move-result-object v5
+3f241e: 1105                                   |004b: return-object v5
+3f2420: 2205 ce1f                              |004c: new-instance v5, Ljava/lang/IllegalStateException; // type@1fce
+3f2424: 1a06 32e2                              |004e: const-string v6, "should not happen" // string@e232
+3f2428: 7020 a7cb 6500                         |0050: invoke-direct {v5, v6}, Ljava/lang/IllegalStateException;.<init>:(Ljava/lang/String;)V // method@cba7
+3f242e: 2705                                   |0053: throw v5
+      catches       : 1
+        0x0002 - 0x004b
+          Lorg/json/JSONException; -> 0x004c
+
+    #2              : (in Lcom/xiaomi/passport/c;)
+      name          : 'c'
+      type          : '(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 71 16-bit code units
+3f2478:                                        |[3f2478] com.xiaomi.passport.c.c:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V
+3f2488: 7140 62bc 1032                         |0000: invoke-static {v0, v1, v2, v3}, Lcom/xiaomi/passport/c;.b:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String; // method@bc62
+3f248e: 0c00                                   |0003: move-result-object v0
+3f2490: 6201 edd9                              |0004: sget-object v1, Ljava/nio/charset/StandardCharsets;.UTF_8:Ljava/nio/charset/Charset; // field@d9ed
+3f2494: 6e20 0fcc 1000                         |0006: invoke-virtual {v0, v1}, Ljava/lang/String;.getBytes:(Ljava/nio/charset/Charset;)[B // method@cc0f
+3f249a: 0c00                                   |0009: move-result-object v0
+3f249c: 1301 0a00                              |000a: const/16 v1, #int 10 // #a
+3f24a0: 7120 8604 1000                         |000c: invoke-static {v0, v1}, Landroid/util/Base64;.encodeToString:([BI)Ljava/lang/String; // method@0486
+3f24a6: 0c00                                   |000f: move-result-object v0
+3f24a8: 2201 2404                              |0010: new-instance v1, Lcom/xiaomi/accountsdk/utils/EasyMap; // type@0424
+3f24ac: 7010 1811 0100                         |0012: invoke-direct {v1}, Lcom/xiaomi/accountsdk/utils/EasyMap;.<init>:()V // method@1118
+3f24b2: 1a02 f690                              |0015: const-string v2, "fidNonce" // string@90f6
+3f24b6: 6e30 1a11 2100                         |0017: invoke-virtual {v1, v2, v0}, Lcom/xiaomi/accountsdk/utils/EasyMap;.easyPut:(Ljava/lang/Object;Ljava/lang/Object;)Lcom/xiaomi/accountsdk/utils/EasyMap; // method@111a
+3f24bc: 0c00                                   |001a: move-result-object v0
+3f24be: 1a01 f790                              |001b: const-string v1, "fidNonceSign" // string@90f7
+3f24c2: 1a02 0000                              |001d: const-string v2, "" // string@0000
+3f24c6: 6e30 1a11 1002                         |001f: invoke-virtual {v0, v1, v2}, Lcom/xiaomi/accountsdk/utils/EasyMap;.easyPut:(Ljava/lang/Object;Ljava/lang/Object;)Lcom/xiaomi/accountsdk/utils/EasyMap; // method@111a
+3f24cc: 0c00                                   |0022: move-result-object v0
+3f24ce: 1a01 44a5                              |0023: const-string v1, "https://tz.sec.xiaomi.com/session" // string@a544
+3f24d2: 1202                                   |0025: const/4 v2, #int 0 // #0
+3f24d4: 1213                                   |0026: const/4 v3, #int 1 // #1
+3f24d6: 7140 dcd5 0132                         |0027: invoke-static {v1, v0, v2, v3}, Lnd/k;.t:(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Z)Lnd/k$h; // method@d5dc
+3f24dc: 281c                                   |002a: goto 0046 // +001c
+3f24de: 0d00                                   |002b: move-exception v0
+3f24e0: 2201 ea1f                              |002c: new-instance v1, Ljava/lang/StringBuilder; // type@1fea
+3f24e4: 7010 3dcc 0100                         |002e: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+3f24ea: 1a02 f0ce                              |0031: const-string v2, "reportNoService err msg:" // string@cef0
+3f24ee: 6e20 47cc 2100                         |0033: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3f24f4: 6e10 76cc 0000                         |0036: invoke-virtual {v0}, Ljava/lang/Throwable;.getMessage:()Ljava/lang/String; // method@cc76
+3f24fa: 0c00                                   |0039: move-result-object v0
+3f24fc: 6e20 47cc 0100                         |003a: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+3f2502: 6e10 50cc 0100                         |003d: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+3f2508: 0c00                                   |0040: move-result-object v0
+3f250a: 1a01 1963                              |0041: const-string v1, "SecurityDeviceReporter" // string@6319
+3f250e: 7120 1fd7 0100                         |0043: invoke-static {v1, v0}, Lpd/b;.f:(Ljava/lang/String;Ljava/lang/String;)V // method@d71f
+3f2514: 0e00                                   |0046: return-void
+      catches       : 1
+        0x0023 - 0x002a
+          Ljava/io/IOException; -> 0x002b
+          Lcom/xiaomi/accountsdk/request/AccessDeniedException; -> 0x002b
+          Lcom/xiaomi/accountsdk/request/AuthenticationFailureException; -> 0x002b
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/passport/c;)
+      name          : 'a'
+      type          : '(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 4
+      insns size    : 8 16-bit code units
+3f2458:                                        |[3f2458] com.xiaomi.passport.c.a:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V
+3f2468: 6e10 ae01 0100                         |0000: invoke-virtual {v1}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@01ae
+3f246e: 0c00                                   |0003: move-result-object v0
+3f2470: 7140 63bc 2043                         |0004: invoke-static {v0, v2, v3, v4}, Lcom/xiaomi/passport/c;.c:(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V // method@bc63
+3f2476: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  source_file_idx   : 25370 (SecurityDeviceReporter.java)
+

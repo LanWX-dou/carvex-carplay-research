@@ -1,0 +1,28 @@
+{
+    "settingData": [
+        {
+            "id": 1,
+            "type": 1,
+            "router": "Navigation",
+            "title": "导航设置"
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "router": "Audio",
+            "title": "音频设置"
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "router": "Display",
+            "title": "显示设置"
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "router": "Custom",
+            "title": "个性化"
+        }
+    ]
+}

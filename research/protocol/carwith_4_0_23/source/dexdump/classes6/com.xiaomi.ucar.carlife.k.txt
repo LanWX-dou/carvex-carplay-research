@@ -1,0 +1,2018 @@
+Class #76            -
+  Class descriptor  : 'Lcom/xiaomi/ucar/carlife/k;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'a'
+      type          : 'Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'b'
+      type          : 'Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'c'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'd'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'e'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'f'
+      type          : 'Z'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'g'
+      type          : 'Landroid/os/Handler;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #7              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'h'
+      type          : 'I'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #8              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'i'
+      type          : 'Ljava/lang/Runnable;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #9              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'j'
+      type          : 'Landroidx/lifecycle/Observer;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #10              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'k'
+      type          : 'Landroidx/lifecycle/Observer;'
+      access        : 0x0011 (PUBLIC FINAL)
+  Direct methods    -
+    #0              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 49 16-bit code units
+0a8370:                                        |[0a8370] com.xiaomi.ucar.carlife.k.<init>:()V
+0a8380: 7010 8f07 0200                         |0000: invoke-direct {v2}, Ljava/lang/Object;.<init>:()V // method@078f
+0a8386: 1200                                   |0003: const/4 v0, #int 0 // #0
+0a8388: 5c20 fe34                              |0004: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.c:Z // field@34fe
+0a838c: 5c20 ff34                              |0006: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.d:Z // field@34ff
+0a8390: 5c20 0035                              |0008: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.e:Z // field@3500
+0a8394: 5c20 0135                              |000a: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.f:Z // field@3501
+0a8398: 2200 6d00                              |000c: new-instance v0, Landroid/os/Handler; // type@006d
+0a839c: 7100 4901 0000                         |000e: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@0149
+0a83a2: 0c01                                   |0011: move-result-object v1
+0a83a4: 7020 3b01 1000                         |0012: invoke-direct {v0, v1}, Landroid/os/Handler;.<init>:(Landroid/os/Looper;)V // method@013b
+0a83aa: 5b20 0235                              |0015: iput-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a83ae: 1300 1400                              |0017: const/16 v0, #int 20 // #14
+0a83b2: 5920 0335                              |0019: iput v0, v2, Lcom/xiaomi/ucar/carlife/k;.h:I // field@3503
+0a83b6: 2200 a201                              |001b: new-instance v0, Lcom/xiaomi/ucar/carlife/k$a; // type@01a2
+0a83ba: 7020 8604 2000                         |001d: invoke-direct {v0, v2}, Lcom/xiaomi/ucar/carlife/k$a;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0486
+0a83c0: 5b20 0435                              |0020: iput-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.i:Ljava/lang/Runnable; // field@3504
+0a83c4: 2200 9d01                              |0022: new-instance v0, Lcom/xiaomi/ucar/carlife/f; // type@019d
+0a83c8: 7020 7c04 2000                         |0024: invoke-direct {v0, v2}, Lcom/xiaomi/ucar/carlife/f;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@047c
+0a83ce: 5b20 0535                              |0027: iput-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.j:Landroidx/lifecycle/Observer; // field@3505
+0a83d2: 2200 9e01                              |0029: new-instance v0, Lcom/xiaomi/ucar/carlife/g; // type@019e
+0a83d6: 7020 7e04 2000                         |002b: invoke-direct {v0, v2}, Lcom/xiaomi/ucar/carlife/g;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@047e
+0a83dc: 5b20 0635                              |002e: iput-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.k:Landroidx/lifecycle/Observer; // field@3506
+0a83e0: 0e00                                   |0030: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : '<init>'
+      type          : '(Lcom/xiaomi/ucar/carlife/l;)V'
+      access        : 0x11001 (PUBLIC SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a83e4:                                        |[0a83e4] com.xiaomi.ucar.carlife.k.<init>:(Lcom/xiaomi/ucar/carlife/l;)V
+0a83f4: 7010 9004 0000                         |0000: invoke-direct {v0}, Lcom/xiaomi/ucar/carlife/k;.<init>:()V // method@0490
+0a83fa: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'a'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a82b0:                                        |[0a82b0] com.xiaomi.ucar.carlife.k.a:(Lcom/xiaomi/ucar/carlife/k;)V
+0a82c0: 6e10 a304 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.R:()V // method@04a3
+0a82c6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'b'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a82c8:                                        |[0a82c8] com.xiaomi.ucar.carlife.k.b:(Lcom/xiaomi/ucar/carlife/k;)V
+0a82d8: 6e10 9a04 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.I:()V // method@049a
+0a82de: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #4              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'c'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a82e0:                                        |[0a82e0] com.xiaomi.ucar.carlife.k.c:(Lcom/xiaomi/ucar/carlife/k;)V
+0a82f0: 6e10 9904 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.H:()V // method@0499
+0a82f6: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #5              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'd'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;IFF)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 4 16-bit code units
+0a82f8:                                        |[0a82f8] com.xiaomi.ucar.carlife.k.d:(Lcom/xiaomi/ucar/carlife/k;IFF)V
+0a8308: 6e40 bd04 1032                         |0000: invoke-virtual {v0, v1, v2, v3}, Lcom/xiaomi/ucar/carlife/k;.z:(IFF)V // method@04bd
+0a830e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #6              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'e'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+0a8310:                                        |[0a8310] com.xiaomi.ucar.carlife.k.e:(Lcom/xiaomi/ucar/carlife/k;Ljava/lang/String;)V
+0a8320: 6e20 ba04 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/ucar/carlife/k;.w:(Ljava/lang/String;)V // method@04ba
+0a8326: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'f'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;Ljava/lang/String;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+0a8328:                                        |[0a8328] com.xiaomi.ucar.carlife.k.f:(Lcom/xiaomi/ucar/carlife/k;Ljava/lang/String;)V
+0a8338: 6e20 bb04 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/ucar/carlife/k;.x:(Ljava/lang/String;)V // method@04bb
+0a833e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'g'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a8340:                                        |[0a8340] com.xiaomi.ucar.carlife.k.g:(Lcom/xiaomi/ucar/carlife/k;)V
+0a8350: 6e10 bc04 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.y:()V // method@04bc
+0a8356: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'h'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 5 16-bit code units
+0a74d0:                                        |[0a74d0] com.xiaomi.ucar.carlife.k.h:(Lcom/xiaomi/ucar/carlife/k;Landroid/content/Intent;)Landroid/os/Bundle;
+0a74e0: 6e20 b604 1000                         |0000: invoke-virtual {v0, v1}, Lcom/xiaomi/ucar/carlife/k;.s:(Landroid/content/Intent;)Landroid/os/Bundle; // method@04b6
+0a74e6: 0c00                                   |0003: move-result-object v0
+0a74e8: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'i'
+      type          : '(Lcom/xiaomi/ucar/carlife/k;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a8358:                                        |[0a8358] com.xiaomi.ucar.carlife.k.i:(Lcom/xiaomi/ucar/carlife/k;)V
+0a8368: 6e10 9d04 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.L:()V // method@049d
+0a836e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'p'
+      type          : '()Lcom/xiaomi/ucar/carlife/k;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 0
+      insns size    : 5 16-bit code units
+0a8148:                                        |[0a8148] com.xiaomi.ucar.carlife.k.p:()Lcom/xiaomi/ucar/carlife/k;
+0a8158: 7100 8f04 0000                         |0000: invoke-static {}, Lcom/xiaomi/ucar/carlife/k$e;.a:()Lcom/xiaomi/ucar/carlife/k; // method@048f
+0a815e: 0c00                                   |0003: move-result-object v0
+0a8160: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'A'
+      type          : '(I)I'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 75 16-bit code units
+0a8164:                                        |[0a8164] com.xiaomi.ucar.carlife.k.A:(I)I
+0a8174: 1300 1400                              |0000: const/16 v0, #int 20 // #14
+0a8178: 3703 4800                              |0002: if-le v3, v0, 004a // +0048
+0a817c: 6e10 b804 0200                         |0004: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.u:()Z // method@04b8
+0a8182: 0a02                                   |0007: move-result v2
+0a8184: 3902 0300                              |0008: if-nez v2, 000b // +0003
+0a8188: 2840                                   |000a: goto 004a // +0040
+0a818a: 2202 a502                              |000b: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a818e: 7010 bd07 0200                         |000d: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8194: 1a01 f127                              |0010: const-string v1, "limit old CarLife box fps, origin=" // string@27f1
+0a8198: 6e20 c507 1200                         |0012: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a819e: 6e20 c207 3200                         |0015: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a81a4: 1a03 4d00                              |0018: const-string v3, ", limited=" // string@004d
+0a81a8: 6e20 c507 3200                         |001a: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a81ae: 6e20 c207 0200                         |001d: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a81b4: 1a03 4c00                              |0020: const-string v3, ", deviceName=" // string@004c
+0a81b8: 6e20 c507 3200                         |0022: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a81be: 7100 5406 0000                         |0025: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a81c4: 0c03                                   |0028: move-result-object v3
+0a81c6: 6e10 5306 0300                         |0029: invoke-virtual {v3}, Le2/g;.h:()Ljava/lang/String; // method@0653
+0a81cc: 0c03                                   |002c: move-result-object v3
+0a81ce: 6e20 c507 3200                         |002d: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a81d4: 1a03 4b00                              |0030: const-string v3, ", deviceId=" // string@004b
+0a81d8: 6e20 c507 3200                         |0032: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a81de: 7100 5406 0000                         |0035: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a81e4: 0c03                                   |0038: move-result-object v3
+0a81e6: 6e10 5206 0300                         |0039: invoke-virtual {v3}, Le2/g;.g:()Ljava/lang/String; // method@0652
+0a81ec: 0c03                                   |003c: move-result-object v3
+0a81ee: 6e20 c507 3200                         |003d: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a81f4: 6e10 c907 0200                         |0040: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a81fa: 0c02                                   |0043: move-result-object v2
+0a81fc: 1a03 1c04                              |0044: const-string v3, "CarlifeController" // string@041c
+0a8200: 7120 1304 2300                         |0046: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8206: 0f00                                   |0049: return v0
+0a8208: 0f03                                   |004a: return v3
+      catches       : (none)
+
+    #1              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'B'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 42 16-bit code units
+0a8a94:                                        |[0a8a94] com.xiaomi.ucar.carlife.k.B:(I)V
+0a8aa4: 5422 fc34                              |0000: iget-object v2, v2, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a8aa8: 1a00 1c04                              |0002: const-string v0, "CarlifeController" // string@041c
+0a8aac: 3902 0800                              |0004: if-nez v2, 000c // +0008
+0a8ab0: 1a02 7428                              |0006: const-string v2, "mCastCallback == null notifyAudioState" // string@2874
+0a8ab4: 7120 1604 2000                         |0008: invoke-static {v0, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8aba: 0e00                                   |000b: return-void
+0a8abc: 7220 dd03 3200                         |000c: invoke-interface {v2, v3}, Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;.notifyAudioState:(I)V // method@03dd
+0a8ac2: 281a                                   |000f: goto 0029 // +001a
+0a8ac4: 0d02                                   |0010: move-exception v2
+0a8ac6: 2203 a502                              |0011: new-instance v3, Ljava/lang/StringBuilder; // type@02a5
+0a8aca: 7010 bd07 0300                         |0013: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8ad0: 1a01 e53a                              |0016: const-string v1, "notifyAudioState fail: " // string@3ae5
+0a8ad4: 6e20 c507 1300                         |0018: invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8ada: 6e10 d707 0200                         |001b: invoke-virtual {v2}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a8ae0: 0c02                                   |001e: move-result-object v2
+0a8ae2: 6e20 c507 2300                         |001f: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8ae8: 6e10 c907 0300                         |0022: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8aee: 0c02                                   |0025: move-result-object v2
+0a8af0: 7120 1604 2000                         |0026: invoke-static {v0, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8af6: 0e00                                   |0029: return-void
+      catches       : 1
+        0x000c - 0x000f
+          Landroid/os/RemoteException; -> 0x0010
+
+    #2              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'C'
+      type          : '()Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 15 16-bit code units
+0a7f10:                                        |[0a7f10] com.xiaomi.ucar.carlife.k.C:()Landroid/os/Bundle;
+0a7f20: 2200 3000                              |0000: new-instance v0, Landroid/content/Intent; // type@0030
+0a7f24: 7010 8f00 0000                         |0002: invoke-direct {v0}, Landroid/content/Intent;.<init>:()V // method@008f
+0a7f2a: 1a01 7b38                              |0005: const-string v1, "mix_notify_media_state" // string@387b
+0a7f2e: 6e20 9a00 1000                         |0007: invoke-virtual {v0, v1}, Landroid/content/Intent;.setAction:(Ljava/lang/String;)Landroid/content/Intent; // method@009a
+0a7f34: 6e20 b604 0200                         |000a: invoke-virtual {v2, v0}, Lcom/xiaomi/ucar/carlife/k;.s:(Landroid/content/Intent;)Landroid/os/Bundle; // method@04b6
+0a7f3a: 0c02                                   |000d: move-result-object v2
+0a7f3c: 1102                                   |000e: return-object v2
+      catches       : (none)
+
+    #3              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'D'
+      type          : '(II)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 3
+      insns size    : 42 16-bit code units
+0a8b04:                                        |[0a8b04] com.xiaomi.ucar.carlife.k.D:(II)V
+0a8b14: 5411 fd34                              |0000: iget-object v1, v1, Lcom/xiaomi/ucar/carlife/k;.b:Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback; // field@34fd
+0a8b18: 1a00 1c04                              |0002: const-string v0, "CarlifeController" // string@041c
+0a8b1c: 3901 0800                              |0004: if-nez v1, 000c // +0008
+0a8b20: 1a01 6228                              |0006: const-string v1, "mAudioCallback == null onAudioStateChange" // string@2862
+0a8b24: 7120 1604 1000                         |0008: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8b2a: 0e00                                   |000b: return-void
+0a8b2c: 7230 e303 2103                         |000c: invoke-interface {v1, v2, v3}, Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;.onAudioStateChange:(II)V // method@03e3
+0a8b32: 281a                                   |000f: goto 0029 // +001a
+0a8b34: 0d01                                   |0010: move-exception v1
+0a8b36: 2202 a502                              |0011: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a8b3a: 7010 bd07 0200                         |0013: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8b40: 1a03 223b                              |0016: const-string v3, "onAudioStateChange fail: " // string@3b22
+0a8b44: 6e20 c507 3200                         |0018: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8b4a: 6e10 d707 0100                         |001b: invoke-virtual {v1}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a8b50: 0c01                                   |001e: move-result-object v1
+0a8b52: 6e20 c507 1200                         |001f: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8b58: 6e10 c907 0200                         |0022: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8b5e: 0c01                                   |0025: move-result-object v1
+0a8b60: 7120 1604 1000                         |0026: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8b66: 0e00                                   |0029: return-void
+      catches       : 1
+        0x000c - 0x000f
+          Landroid/os/RemoteException; -> 0x0010
+
+    #4              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'E'
+      type          : '([BIIII)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 12
+      ins           : 6
+      outs          : 6
+      insns size    : 47 16-bit code units
+0a8b74:                                        |[0a8b74] com.xiaomi.ucar.carlife.k.E:([BIIII)V
+0a8b84: 5460 fd34                              |0000: iget-object v0, v6, Lcom/xiaomi/ucar/carlife/k;.b:Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback; // field@34fd
+0a8b88: 1a06 1c04                              |0002: const-string v6, "CarlifeController" // string@041c
+0a8b8c: 3900 0800                              |0004: if-nez v0, 000c // +0008
+0a8b90: 1a07 6328                              |0006: const-string v7, "mAudioCallback == null onAudioStreamReady" // string@2863
+0a8b94: 7120 1604 7600                         |0008: invoke-static {v6, v7}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8b9a: 0e00                                   |000b: return-void
+0a8b9c: 0771                                   |000c: move-object v1, v7
+0a8b9e: 0182                                   |000d: move v2, v8
+0a8ba0: 0193                                   |000e: move v3, v9
+0a8ba2: 01a4                                   |000f: move v4, v10
+0a8ba4: 01b5                                   |0010: move v5, v11
+0a8ba6: 7806 e403 0000                         |0011: invoke-interface/range {v0, v1, v2, v3, v4, v5}, Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;.onAudioStreamReady:([BIIII)V // method@03e4
+0a8bac: 281a                                   |0014: goto 002e // +001a
+0a8bae: 0d07                                   |0015: move-exception v7
+0a8bb0: 2208 a502                              |0016: new-instance v8, Ljava/lang/StringBuilder; // type@02a5
+0a8bb4: 7010 bd07 0800                         |0018: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8bba: 1a09 243b                              |001b: const-string v9, "onAudioStreamReady fail: " // string@3b24
+0a8bbe: 6e20 c507 9800                         |001d: invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8bc4: 6e10 d707 0700                         |0020: invoke-virtual {v7}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a8bca: 0c07                                   |0023: move-result-object v7
+0a8bcc: 6e20 c507 7800                         |0024: invoke-virtual {v8, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8bd2: 6e10 c907 0800                         |0027: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8bd8: 0c07                                   |002a: move-result-object v7
+0a8bda: 7120 1604 7600                         |002b: invoke-static {v6, v7}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8be0: 0e00                                   |002e: return-void
+      catches       : 1
+        0x0011 - 0x0014
+          Landroid/os/RemoteException; -> 0x0015
+
+    #5              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'F'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 59 16-bit code units
+0a8bf0:                                        |[0a8bf0] com.xiaomi.ucar.carlife.k.F:(I)V
+0a8c00: 5420 fc34                              |0000: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a8c04: 3900 0300                              |0002: if-nez v0, 0005 // +0003
+0a8c08: 0e00                                   |0004: return-void
+0a8c0a: 1a00 8327                              |0005: const-string v0, "launcher do onCastPrepared" // string@2783
+0a8c0e: 1a01 1c04                              |0007: const-string v1, "CarlifeController" // string@041c
+0a8c12: 7120 1304 0100                         |0009: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8c18: 5420 fc34                              |000c: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a8c1c: 7220 de03 3000                         |000e: invoke-interface {v0, v3}, Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;.onCastPrepared:(I)V // method@03de
+0a8c22: 5523 ff34                              |0011: iget-boolean v3, v2, Lcom/xiaomi/ucar/carlife/k;.d:Z // field@34ff
+0a8c26: 3903 0b00                              |0013: if-nez v3, 001e // +000b
+0a8c2a: 6e10 9904 0200                         |0015: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.H:()V // method@0499
+0a8c30: 1213                                   |0018: const/4 v3, #int 1 // #1
+0a8c32: 5c23 ff34                              |0019: iput-boolean v3, v2, Lcom/xiaomi/ucar/carlife/k;.d:Z // field@34ff
+0a8c36: 2803                                   |001b: goto 001e // +0003
+0a8c38: 0d02                                   |001c: move-exception v2
+0a8c3a: 2805                                   |001d: goto 0022 // +0005
+0a8c3c: 6e10 9a04 0200                         |001e: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.I:()V // method@049a
+0a8c42: 2819                                   |0021: goto 003a // +0019
+0a8c44: 2203 a502                              |0022: new-instance v3, Ljava/lang/StringBuilder; // type@02a5
+0a8c48: 7010 bd07 0300                         |0024: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8c4e: 1a00 2d3b                              |0027: const-string v0, "onCastPrepared fail: " // string@3b2d
+0a8c52: 6e20 c507 0300                         |0029: invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8c58: 6e10 d707 0200                         |002c: invoke-virtual {v2}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a8c5e: 0c02                                   |002f: move-result-object v2
+0a8c60: 6e20 c507 2300                         |0030: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8c66: 6e10 c907 0300                         |0033: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8c6c: 0c02                                   |0036: move-result-object v2
+0a8c6e: 7120 1604 2100                         |0037: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8c74: 0e00                                   |003a: return-void
+      catches       : 1
+        0x000c - 0x0021
+          Landroid/os/RemoteException; -> 0x001c
+
+    #6              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'G'
+      type          : '()Landroid/os/Bundle;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 69 16-bit code units
+0a7f40:                                        |[0a7f40] com.xiaomi.ucar.carlife.k.G:()Landroid/os/Bundle;
+0a7f50: 7100 6800 0000                         |0000: invoke-static {}, Landroid/bluetooth/BluetoothAdapter;.getDefaultAdapter:()Landroid/bluetooth/BluetoothAdapter; // method@0068
+0a7f56: 0c03                                   |0003: move-result-object v3
+0a7f58: 1a00 1c04                              |0004: const-string v0, "CarlifeController" // string@041c
+0a7f5c: 3803 2d00                              |0006: if-eqz v3, 0033 // +002d
+0a7f60: 7100 1910 0000                         |0008: invoke-static {}, Ln1/f;.a:()Landroid/content/Context; // method@1019
+0a7f66: 0c01                                   |000b: move-result-object v1
+0a7f68: 1a02 dc1b                              |000c: const-string v2, "android.permission.BLUETOOTH_CONNECT" // string@1bdc
+0a7f6c: 6e20 7200 2100                         |000e: invoke-virtual {v1, v2}, Landroid/content/Context;.checkSelfPermission:(Ljava/lang/String;)I // method@0072
+0a7f72: 0a01                                   |0011: move-result v1
+0a7f74: 3901 2100                              |0012: if-nez v1, 0033 // +0021
+0a7f78: 1a01 6e02                              |0014: const-string v1, "BLUETOOTH_CONNECT permission granted" // string@026e
+0a7f7c: 7120 1104 1000                         |0016: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.B:(Ljava/lang/String;Ljava/lang/String;)V // method@0411
+0a7f82: 6e10 6600 0300                         |0019: invoke-virtual {v3}, Landroid/bluetooth/BluetoothAdapter;.getAddress:()Ljava/lang/String; // method@0066
+0a7f88: 0c03                                   |001c: move-result-object v3
+0a7f8a: 1a01 9200                              |001d: const-string v1, "02:00:00:00:00:00" // string@0092
+0a7f8e: 7120 7501 1300                         |001f: invoke-static {v3, v1}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0175
+0a7f94: 0a01                                   |0022: move-result v1
+0a7f96: 3801 0900                              |0023: if-eqz v1, 002c // +0009
+0a7f9a: 1a03 7e03                              |0025: const-string v3, "BluetoothAdapter getAddress failed" // string@037e
+0a7f9e: 7120 1604 3000                         |0027: invoke-static {v0, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7fa4: 1203                                   |002a: const/4 v3, #int 0 // #0
+0a7fa6: 1103                                   |002b: return-object v3
+0a7fa8: 1301 0800                              |002c: const/16 v1, #int 8 // #8
+0a7fac: 7120 0904 1300                         |002e: invoke-static {v3, v1}, Lcom/carwith/common/utils/t2;.b:(Ljava/lang/String;I)Ljava/lang/String; // method@0409
+0a7fb2: 0c03                                   |0031: move-result-object v3
+0a7fb4: 2803                                   |0032: goto 0035 // +0003
+0a7fb6: 1a03 0000                              |0033: const-string v3, "" // string@0000
+0a7fba: 1a01 153b                              |0035: const-string v1, "on send unique id" // string@3b15
+0a7fbe: 7120 1304 1000                         |0037: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7fc4: 2200 6b00                              |003a: new-instance v0, Landroid/os/Bundle; // type@006b
+0a7fc8: 7010 3501 0000                         |003c: invoke-direct {v0}, Landroid/os/Bundle;.<init>:()V // method@0135
+0a7fce: 1a01 3221                              |003f: const-string v1, "device_id" // string@2132
+0a7fd2: 6e30 3001 1003                         |0041: invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;.putString:(Ljava/lang/String;Ljava/lang/String;)V // method@0130
+0a7fd8: 1100                                   |0044: return-object v0
+      catches       : (none)
+
+    #7              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'H'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 35 16-bit code units
+0a8c84:                                        |[0a8c84] com.xiaomi.ucar.carlife.k.H:()V
+0a8c94: 7100 4b01 0000                         |0000: invoke-static {}, Landroid/os/Looper;.myLooper:()Landroid/os/Looper; // method@014b
+0a8c9a: 0c00                                   |0003: move-result-object v0
+0a8c9c: 7100 4901 0000                         |0004: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@0149
+0a8ca2: 0c01                                   |0007: move-result-object v1
+0a8ca4: 3210 0d00                              |0008: if-eq v0, v1, 0015 // +000d
+0a8ca8: 5420 0235                              |000a: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8cac: 2201 9b01                              |000c: new-instance v1, Lcom/xiaomi/ucar/carlife/d; // type@019b
+0a8cb0: 7020 7804 2100                         |000e: invoke-direct {v1, v2}, Lcom/xiaomi/ucar/carlife/d;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0478
+0a8cb6: 6e20 4101 1000                         |0011: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8cbc: 0e00                                   |0014: return-void
+0a8cbe: 1a00 281b                              |0015: const-string v0, "action_fps_settings_changed" // string@1b28
+0a8cc2: 1c01 a302                              |0017: const-class v1, Ljava/lang/String; // type@02a3
+0a8cc6: 7120 ac03 1000                         |0019: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@03ac
+0a8ccc: 0c00                                   |001c: move-result-object v0
+0a8cce: 5422 0535                              |001d: iget-object v2, v2, Lcom/xiaomi/ucar/carlife/k;.j:Landroidx/lifecycle/Observer; // field@3505
+0a8cd2: 7220 2404 2000                         |001f: invoke-interface {v0, v2}, Lcom/thkj/liveeventbus/core/b;.e:(Landroidx/lifecycle/Observer;)V // method@0424
+0a8cd8: 0e00                                   |0022: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'I'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 43 16-bit code units
+0a8cdc:                                        |[0a8cdc] com.xiaomi.ucar.carlife.k.I:()V
+0a8cec: 7100 4b01 0000                         |0000: invoke-static {}, Landroid/os/Looper;.myLooper:()Landroid/os/Looper; // method@014b
+0a8cf2: 0c00                                   |0003: move-result-object v0
+0a8cf4: 7100 4901 0000                         |0004: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@0149
+0a8cfa: 0c01                                   |0007: move-result-object v1
+0a8cfc: 3210 0d00                              |0008: if-eq v0, v1, 0015 // +000d
+0a8d00: 5420 0235                              |000a: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8d04: 2201 9a01                              |000c: new-instance v1, Lcom/xiaomi/ucar/carlife/c; // type@019a
+0a8d08: 7020 7604 2100                         |000e: invoke-direct {v1, v2}, Lcom/xiaomi/ucar/carlife/c;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0476
+0a8d0e: 6e20 4101 1000                         |0011: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8d14: 0e00                                   |0014: return-void
+0a8d16: 5520 0035                              |0015: iget-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.e:Z // field@3500
+0a8d1a: 3800 0300                              |0017: if-eqz v0, 001a // +0003
+0a8d1e: 0e00                                   |0019: return-void
+0a8d20: 1a00 201b                              |001a: const-string v0, "action_carlife_touch_frame_boost" // string@1b20
+0a8d24: 1c01 a302                              |001c: const-class v1, Ljava/lang/String; // type@02a3
+0a8d28: 7120 ac03 1000                         |001e: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@03ac
+0a8d2e: 0c00                                   |0021: move-result-object v0
+0a8d30: 5421 0635                              |0022: iget-object v1, v2, Lcom/xiaomi/ucar/carlife/k;.k:Landroidx/lifecycle/Observer; // field@3506
+0a8d34: 7220 2104 1000                         |0024: invoke-interface {v0, v1}, Lcom/thkj/liveeventbus/core/b;.a:(Landroidx/lifecycle/Observer;)V // method@0421
+0a8d3a: 1210                                   |0027: const/4 v0, #int 1 // #1
+0a8d3c: 5c20 0035                              |0028: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.e:Z // field@3500
+0a8d40: 0e00                                   |002a: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'J'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 11 16-bit code units
+0a8d44:                                        |[0a8d44] com.xiaomi.ucar.carlife.k.J:()V
+0a8d54: 5420 0235                              |0000: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8d58: 2201 a101                              |0002: new-instance v1, Lcom/xiaomi/ucar/carlife/j; // type@01a1
+0a8d5c: 7020 8404 2100                         |0004: invoke-direct {v1, v2}, Lcom/xiaomi/ucar/carlife/j;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0484
+0a8d62: 6e20 4101 1000                         |0007: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8d68: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'K'
+      type          : '(FFI)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 4
+      outs          : 5
+      insns size    : 11 16-bit code units
+0a8d6c:                                        |[0a8d6c] com.xiaomi.ucar.carlife.k.K:(FFI)V
+0a8d7c: 5420 0235                              |0000: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8d80: 2201 9f01                              |0002: new-instance v1, Lcom/xiaomi/ucar/carlife/h; // type@019f
+0a8d84: 7054 8004 2135                         |0004: invoke-direct {v1, v2, v5, v3, v4}, Lcom/xiaomi/ucar/carlife/h;.<init>:(Lcom/xiaomi/ucar/carlife/k;IFF)V // method@0480
+0a8d8a: 6e20 4101 1000                         |0007: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8d90: 0e00                                   |000a: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'L'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 38 16-bit code units
+0a8d94:                                        |[0a8d94] com.xiaomi.ucar.carlife.k.L:()V
+0a8da4: 5520 0135                              |0000: iget-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.f:Z // field@3501
+0a8da8: 3900 0300                              |0002: if-nez v0, 0005 // +0003
+0a8dac: 0e00                                   |0004: return-void
+0a8dae: 2200 a502                              |0005: new-instance v0, Ljava/lang/StringBuilder; // type@02a5
+0a8db2: 7010 bd07 0000                         |0007: invoke-direct {v0}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8db8: 1a01 7140                              |000a: const-string v1, "restore carlife frame rate after touch boost:" // string@4071
+0a8dbc: 6e20 c507 1000                         |000c: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8dc2: 5221 0335                              |000f: iget v1, v2, Lcom/xiaomi/ucar/carlife/k;.h:I // field@3503
+0a8dc6: 6e20 c207 1000                         |0011: invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8dcc: 6e10 c907 0000                         |0014: invoke-virtual {v0}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8dd2: 0c00                                   |0017: move-result-object v0
+0a8dd4: 1a01 1c04                              |0018: const-string v1, "CarlifeController" // string@041c
+0a8dd8: 7120 1304 0100                         |001a: invoke-static {v1, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8dde: 5220 0335                              |001d: iget v0, v2, Lcom/xiaomi/ucar/carlife/k;.h:I // field@3503
+0a8de2: 6e20 a104 0200                         |001f: invoke-virtual {v2, v0}, Lcom/xiaomi/ucar/carlife/k;.P:(I)V // method@04a1
+0a8de8: 1200                                   |0022: const/4 v0, #int 0 // #0
+0a8dea: 5c20 0135                              |0023: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.f:Z // field@3501
+0a8dee: 0e00                                   |0025: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'M'
+      type          : '(Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 20 16-bit code units
+0a7fdc:                                        |[0a7fdc] com.xiaomi.ucar.carlife.k.M:(Landroid/content/Intent;)Landroid/os/Bundle;
+0a7fec: 1200                                   |0000: const/4 v0, #int 0 // #0
+0a7fee: 3903 0a00                              |0001: if-nez v3, 000b // +000a
+0a7ff2: 1a02 1c04                              |0003: const-string v2, "CarlifeController" // string@041c
+0a7ff6: 1a03 fa18                              |0005: const-string v3, "[sendHudIntent] is null" // string@18fa
+0a7ffa: 7120 1604 3200                         |0007: invoke-static {v2, v3}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a8000: 1100                                   |000a: return-object v0
+0a8002: 2201 a401                              |000b: new-instance v1, Lcom/xiaomi/ucar/carlife/k$c; // type@01a4
+0a8006: 7030 8a04 2103                         |000d: invoke-direct {v1, v2, v3}, Lcom/xiaomi/ucar/carlife/k$c;.<init>:(Lcom/xiaomi/ucar/carlife/k;Landroid/content/Intent;)V // method@048a
+0a800c: 7110 1004 0100                         |0010: invoke-static {v1}, Lcom/carwith/common/utils/v2;.d:(Ljava/lang/Runnable;)Ljava/util/concurrent/Future; // method@0410
+0a8012: 1100                                   |0013: return-object v0
+      catches       : (none)
+
+    #13              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'N'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+0a8df0:                                        |[0a8df0] com.xiaomi.ucar.carlife.k.N:(Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback;)V
+0a8e00: 5b01 fd34                              |0000: iput-object v1, v0, Lcom/xiaomi/ucar/carlife/k;.b:Lcom/baidu/carlife/mixing/aidl/ISystemAudioCallback; // field@34fd
+0a8e04: 0e00                                   |0002: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'O'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 15 16-bit code units
+0a8e08:                                        |[0a8e08] com.xiaomi.ucar.carlife.k.O:(Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)V
+0a8e18: 5b12 fc34                              |0000: iput-object v2, v1, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a8e1c: 7100 4d06 0000                         |0002: invoke-static {}, Le2/d;.a:()Le2/d; // method@064d
+0a8e22: 0c02                                   |0005: move-result-object v2
+0a8e24: 2200 a301                              |0006: new-instance v0, Lcom/xiaomi/ucar/carlife/k$b; // type@01a3
+0a8e28: 7020 8804 1000                         |0008: invoke-direct {v0, v1}, Lcom/xiaomi/ucar/carlife/k$b;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0488
+0a8e2e: 6e20 4e06 0200                         |000b: invoke-virtual {v2, v0}, Le2/d;.d:(Le2/d$a;)V // method@064e
+0a8e34: 0e00                                   |000e: return-void
+      catches       : (none)
+
+    #15              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'P'
+      type          : '(I)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 24 16-bit code units
+0a8e38:                                        |[0a8e38] com.xiaomi.ucar.carlife.k.P:(I)V
+0a8e48: 2200 3000                              |0000: new-instance v0, Landroid/content/Intent; // type@0030
+0a8e4c: 7010 8f00 0000                         |0002: invoke-direct {v0}, Landroid/content/Intent;.<init>:()V // method@008f
+0a8e52: 1a01 321e                              |0005: const-string v1, "carlife_dynamic_params" // string@1e32
+0a8e56: 6e20 9a00 1000                         |0007: invoke-virtual {v0, v1}, Landroid/content/Intent;.setAction:(Ljava/lang/String;)Landroid/content/Intent; // method@009a
+0a8e5c: 1a01 341e                              |000a: const-string v1, "carlife_frame" // string@1e34
+0a8e60: 6e30 9800 1003                         |000c: invoke-virtual {v0, v1, v3}, Landroid/content/Intent;.putExtra:(Ljava/lang/String;I)Landroid/content/Intent; // method@0098
+0a8e66: 2203 a501                              |000f: new-instance v3, Lcom/xiaomi/ucar/carlife/k$d; // type@01a5
+0a8e6a: 7030 8c04 2300                         |0011: invoke-direct {v3, v2, v0}, Lcom/xiaomi/ucar/carlife/k$d;.<init>:(Lcom/xiaomi/ucar/carlife/k;Landroid/content/Intent;)V // method@048c
+0a8e70: 7110 1004 0300                         |0014: invoke-static {v3}, Lcom/carwith/common/utils/v2;.d:(Ljava/lang/Runnable;)Ljava/util/concurrent/Future; // method@0410
+0a8e76: 0e00                                   |0017: return-void
+      catches       : (none)
+
+    #16              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'Q'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 41 16-bit code units
+0a8e78:                                        |[0a8e78] com.xiaomi.ucar.carlife.k.Q:()V
+0a8e88: 7100 4b01 0000                         |0000: invoke-static {}, Landroid/os/Looper;.myLooper:()Landroid/os/Looper; // method@014b
+0a8e8e: 0c00                                   |0003: move-result-object v0
+0a8e90: 7100 4901 0000                         |0004: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@0149
+0a8e96: 0c01                                   |0007: move-result-object v1
+0a8e98: 3210 0d00                              |0008: if-eq v0, v1, 0015 // +000d
+0a8e9c: 5420 0235                              |000a: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8ea0: 2201 9c01                              |000c: new-instance v1, Lcom/xiaomi/ucar/carlife/e; // type@019c
+0a8ea4: 7020 7a04 2100                         |000e: invoke-direct {v1, v2}, Lcom/xiaomi/ucar/carlife/e;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@047a
+0a8eaa: 6e20 4101 1000                         |0011: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8eb0: 0e00                                   |0014: return-void
+0a8eb2: 1a00 281b                              |0015: const-string v0, "action_fps_settings_changed" // string@1b28
+0a8eb6: 1c01 a302                              |0017: const-class v1, Ljava/lang/String; // type@02a3
+0a8eba: 7120 ac03 1000                         |0019: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@03ac
+0a8ec0: 0c00                                   |001c: move-result-object v0
+0a8ec2: 5421 0535                              |001d: iget-object v1, v2, Lcom/xiaomi/ucar/carlife/k;.j:Landroidx/lifecycle/Observer; // field@3505
+0a8ec6: 7220 2204 1000                         |001f: invoke-interface {v0, v1}, Lcom/thkj/liveeventbus/core/b;.b:(Landroidx/lifecycle/Observer;)V // method@0422
+0a8ecc: 1200                                   |0022: const/4 v0, #int 0 // #0
+0a8ece: 5c20 ff34                              |0023: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.d:Z // field@34ff
+0a8ed2: 6e10 a304 0200                         |0025: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.R:()V // method@04a3
+0a8ed8: 0e00                                   |0028: return-void
+      catches       : (none)
+
+    #17              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'R'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 53 16-bit code units
+0a8edc:                                        |[0a8edc] com.xiaomi.ucar.carlife.k.R:()V
+0a8eec: 7100 4b01 0000                         |0000: invoke-static {}, Landroid/os/Looper;.myLooper:()Landroid/os/Looper; // method@014b
+0a8ef2: 0c00                                   |0003: move-result-object v0
+0a8ef4: 7100 4901 0000                         |0004: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@0149
+0a8efa: 0c01                                   |0007: move-result-object v1
+0a8efc: 3210 0d00                              |0008: if-eq v0, v1, 0015 // +000d
+0a8f00: 5420 0235                              |000a: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8f04: 2201 a001                              |000c: new-instance v1, Lcom/xiaomi/ucar/carlife/i; // type@01a0
+0a8f08: 7020 8204 2100                         |000e: invoke-direct {v1, v2}, Lcom/xiaomi/ucar/carlife/i;.<init>:(Lcom/xiaomi/ucar/carlife/k;)V // method@0482
+0a8f0e: 6e20 4101 1000                         |0011: invoke-virtual {v0, v1}, Landroid/os/Handler;.post:(Ljava/lang/Runnable;)Z // method@0141
+0a8f14: 0e00                                   |0014: return-void
+0a8f16: 5520 0035                              |0015: iget-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.e:Z // field@3500
+0a8f1a: 3900 0300                              |0017: if-nez v0, 001a // +0003
+0a8f1e: 0e00                                   |0019: return-void
+0a8f20: 1a00 201b                              |001a: const-string v0, "action_carlife_touch_frame_boost" // string@1b20
+0a8f24: 1c01 a302                              |001c: const-class v1, Ljava/lang/String; // type@02a3
+0a8f28: 7120 ac03 1000                         |001e: invoke-static {v0, v1}, Lcc/a;.c:(Ljava/lang/String;Ljava/lang/Class;)Lcom/thkj/liveeventbus/core/b; // method@03ac
+0a8f2e: 0c00                                   |0021: move-result-object v0
+0a8f30: 5421 0635                              |0022: iget-object v1, v2, Lcom/xiaomi/ucar/carlife/k;.k:Landroidx/lifecycle/Observer; // field@3506
+0a8f34: 7220 2204 1000                         |0024: invoke-interface {v0, v1}, Lcom/thkj/liveeventbus/core/b;.b:(Landroidx/lifecycle/Observer;)V // method@0422
+0a8f3a: 5420 0235                              |0027: iget-object v0, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8f3e: 5421 0435                              |0029: iget-object v1, v2, Lcom/xiaomi/ucar/carlife/k;.i:Ljava/lang/Runnable; // field@3504
+0a8f42: 6e20 4301 1000                         |002b: invoke-virtual {v0, v1}, Landroid/os/Handler;.removeCallbacks:(Ljava/lang/Runnable;)V // method@0143
+0a8f48: 6e10 9d04 0200                         |002e: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.L:()V // method@049d
+0a8f4e: 1200                                   |0031: const/4 v0, #int 0 // #0
+0a8f50: 5c20 0035                              |0032: iput-boolean v0, v2, Lcom/xiaomi/ucar/carlife/k;.e:Z // field@3500
+0a8f54: 0e00                                   |0034: return-void
+      catches       : (none)
+
+    #18              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'j'
+      type          : '()Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 15 16-bit code units
+0a74ec:                                        |[0a74ec] com.xiaomi.ucar.carlife.k.j:()Landroid/os/Bundle;
+0a74fc: 2200 3000                              |0000: new-instance v0, Landroid/content/Intent; // type@0030
+0a7500: 7010 8f00 0000                         |0002: invoke-direct {v0}, Landroid/content/Intent;.<init>:()V // method@008f
+0a7506: 1a01 2f1e                              |0005: const-string v1, "carlife_back_to_car_launcher" // string@1e2f
+0a750a: 6e20 9a00 1000                         |0007: invoke-virtual {v0, v1}, Landroid/content/Intent;.setAction:(Ljava/lang/String;)Landroid/content/Intent; // method@009a
+0a7510: 6e20 b604 0200                         |000a: invoke-virtual {v2, v0}, Lcom/xiaomi/ucar/carlife/k;.s:(Landroid/content/Intent;)Landroid/os/Bundle; // method@04b6
+0a7516: 0c02                                   |000d: move-result-object v2
+0a7518: 1102                                   |000e: return-object v2
+      catches       : (none)
+
+    #19              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'k'
+      type          : '(IFF)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 4
+      outs          : 4
+      insns size    : 75 16-bit code units
+0a83fc:                                        |[0a83fc] com.xiaomi.ucar.carlife.k.k:(IFF)V
+0a840c: 6e10 b804 0200                         |0000: invoke-virtual {v2}, Lcom/xiaomi/ucar/carlife/k;.u:()Z // method@04b8
+0a8412: 0a00                                   |0003: move-result v0
+0a8414: 1a01 1c04                              |0004: const-string v1, "CarlifeController" // string@041c
+0a8418: 3800 0800                              |0006: if-eqz v0, 000e // +0008
+0a841c: 1a02 6b43                              |0008: const-string v2, "skip carlife touch frame boost for old box" // string@436b
+0a8420: 7120 1304 2100                         |000a: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8426: 0e00                                   |000d: return-void
+0a8428: 6e40 b704 3254                         |000e: invoke-virtual {v2, v3, v4, v5}, Lcom/xiaomi/ucar/carlife/k;.t:(IFF)Z // method@04b7
+0a842e: 0a03                                   |0011: move-result v3
+0a8430: 3903 0800                              |0012: if-nez v3, 001a // +0008
+0a8434: 1a02 6a43                              |0014: const-string v2, "skip carlife touch frame boost for non-map scene" // string@436a
+0a8438: 7120 1304 2100                         |0016: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a843e: 0e00                                   |0019: return-void
+0a8440: 5523 0135                              |001a: iget-boolean v3, v2, Lcom/xiaomi/ucar/carlife/k;.f:Z // field@3501
+0a8444: 3903 1e00                              |001c: if-nez v3, 003a // +001e
+0a8448: 2203 a502                              |001e: new-instance v3, Ljava/lang/StringBuilder; // type@02a5
+0a844c: 7010 bd07 0300                         |0020: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8452: 1a04 3f1d                              |0023: const-string v4, "boost carlife frame rate for touch:" // string@1d3f
+0a8456: 6e20 c507 4300                         |0025: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a845c: 1304 1e00                              |0028: const/16 v4, #int 30 // #1e
+0a8460: 6e20 c207 4300                         |002a: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8466: 6e10 c907 0300                         |002d: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a846c: 0c03                                   |0030: move-result-object v3
+0a846e: 7120 1304 3100                         |0031: invoke-static {v1, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8474: 6e20 a104 4200                         |0034: invoke-virtual {v2, v4}, Lcom/xiaomi/ucar/carlife/k;.P:(I)V // method@04a1
+0a847a: 1213                                   |0037: const/4 v3, #int 1 // #1
+0a847c: 5c23 0135                              |0038: iput-boolean v3, v2, Lcom/xiaomi/ucar/carlife/k;.f:Z // field@3501
+0a8480: 5423 0235                              |003a: iget-object v3, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8484: 5424 0435                              |003c: iget-object v4, v2, Lcom/xiaomi/ucar/carlife/k;.i:Ljava/lang/Runnable; // field@3504
+0a8488: 6e20 4301 4300                         |003e: invoke-virtual {v3, v4}, Landroid/os/Handler;.removeCallbacks:(Ljava/lang/Runnable;)V // method@0143
+0a848e: 5423 0235                              |0041: iget-object v3, v2, Lcom/xiaomi/ucar/carlife/k;.g:Landroid/os/Handler; // field@3502
+0a8492: 5422 0435                              |0043: iget-object v2, v2, Lcom/xiaomi/ucar/carlife/k;.i:Ljava/lang/Runnable; // field@3504
+0a8496: 1604 e803                              |0045: const-wide/16 v4, #int 1000 // #3e8
+0a849a: 6e40 4201 2354                         |0047: invoke-virtual {v3, v2, v4, v5}, Landroid/os/Handler;.postDelayed:(Ljava/lang/Runnable;J)Z // method@0142
+0a84a0: 0e00                                   |004a: return-void
+      catches       : (none)
+
+    #20              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'l'
+      type          : '(Ljava/lang/String;)J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 57 16-bit code units
+0a822c:                                        |[0a822c] com.xiaomi.ucar.carlife.k.l:(Ljava/lang/String;)J
+0a823c: 7100 1910 0000                         |0000: invoke-static {}, Ln1/f;.a:()Landroid/content/Context; // method@1019
+0a8242: 0c03                                   |0003: move-result-object v3
+0a8244: 1600 ffff                              |0004: const-wide/16 v0, #int -1 // #ffff
+0a8248: 3903 0300                              |0006: if-nez v3, 0009 // +0003
+0a824c: 1000                                   |0008: return-wide v0
+0a824e: 7100 1910 0000                         |0009: invoke-static {}, Ln1/f;.a:()Landroid/content/Context; // method@1019
+0a8254: 0c03                                   |000c: move-result-object v3
+0a8256: 6e10 7800 0300                         |000d: invoke-virtual {v3}, Landroid/content/Context;.getPackageManager:()Landroid/content/pm/PackageManager; // method@0078
+0a825c: 0c03                                   |0010: move-result-object v3
+0a825e: 3903 1e00                              |0011: if-nez v3, 002f // +001e
+0a8262: 2203 a502                              |0013: new-instance v3, Ljava/lang/StringBuilder; // type@02a5
+0a8266: 7010 bd07 0300                         |0015: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a826c: 1a02 0b24                              |0018: const-string v2, "getAppVersionCode: " // string@240b
+0a8270: 6e20 c507 2300                         |001a: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8276: 6e20 c507 4300                         |001d: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a827c: 1a04 2100                              |0020: const-string v4, " packageManager is empty" // string@0021
+0a8280: 6e20 c507 4300                         |0022: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8286: 6e10 c907 0300                         |0025: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a828c: 0c03                                   |0028: move-result-object v3
+0a828e: 1a04 1c04                              |0029: const-string v4, "CarlifeController" // string@041c
+0a8292: 7120 1304 3400                         |002b: invoke-static {v4, v3}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8298: 1000                                   |002e: return-wide v0
+0a829a: 1200                                   |002f: const/4 v0, #int 0 // #0
+0a829c: 6e30 b300 4300                         |0030: invoke-virtual {v3, v4, v0}, Landroid/content/pm/PackageManager;.getPackageInfo:(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; // method@00b3
+0a82a2: 0c03                                   |0033: move-result-object v3
+0a82a4: 6e10 ae00 0300                         |0034: invoke-virtual {v3}, Landroid/content/pm/PackageInfo;.getLongVersionCode:()J // method@00ae
+0a82aa: 0b03                                   |0037: move-result-wide v3
+0a82ac: 1003                                   |0038: return-wide v3
+      catches       : (none)
+
+    #21              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'm'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 2
+      insns size    : 108 16-bit code units
+0a84a4:                                        |[0a84a4] com.xiaomi.ucar.carlife.k.m:()V
+0a84b4: 1a00 1c04                              |0000: const-string v0, "CarlifeController" // string@041c
+0a84b8: 1a01 a21f                              |0002: const-string v1, "com.baidu.carlife.xiaomi" // string@1fa2
+0a84bc: 6e20 af04 1700                         |0004: invoke-virtual {v7, v1}, Lcom/xiaomi/ucar/carlife/k;.l:(Ljava/lang/String;)J // method@04af
+0a84c2: 0b01                                   |0007: move-result-wide v1
+0a84c4: 281c                                   |0008: goto 0024 // +001c
+0a84c6: 0d01                                   |0009: move-exception v1
+0a84c8: 2202 a502                              |000a: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a84cc: 7010 bd07 0200                         |000c: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a84d2: 1a03 2010                              |000f: const-string v3, "NameNotFoundException " // string@1020
+0a84d6: 6e20 c507 3200                         |0011: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a84dc: 6e10 d707 0100                         |0014: invoke-virtual {v1}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a84e2: 0c01                                   |0017: move-result-object v1
+0a84e4: 6e20 c507 1200                         |0018: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a84ea: 6e10 c907 0200                         |001b: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a84f0: 0c01                                   |001e: move-result-object v1
+0a84f2: 7120 1604 1000                         |001f: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a84f8: 1601 0000                              |0022: const-wide/16 v1, #int 0 // #0
+0a84fc: 1603 ffff                              |0024: const-wide/16 v3, #int -1 // #ffff
+0a8500: 3103 0103                              |0026: cmp-long v3, v1, v3
+0a8504: 1404 44ac 0000                         |0028: const v4, #float 6.17973e-41 // #0000ac44
+0a850a: 3803 3300                              |002b: if-eqz v3, 005e // +0033
+0a850e: 1605 f600                              |002d: const-wide/16 v5, #int 246 // #f6
+0a8512: 3101 0105                              |002f: cmp-long v1, v1, v5
+0a8516: 3a01 2d00                              |0031: if-ltz v1, 005e // +002d
+0a851a: 2201 3000                              |0033: new-instance v1, Landroid/content/Intent; // type@0030
+0a851e: 7010 8f00 0100                         |0035: invoke-direct {v1}, Landroid/content/Intent;.<init>:()V // method@008f
+0a8524: 1a02 351e                              |0038: const-string v2, "carlife_music_sample_rate" // string@1e35
+0a8528: 6e20 9a00 2100                         |003a: invoke-virtual {v1, v2}, Landroid/content/Intent;.setAction:(Ljava/lang/String;)Landroid/content/Intent; // method@009a
+0a852e: 6e20 b604 1700                         |003d: invoke-virtual {v7, v1}, Lcom/xiaomi/ucar/carlife/k;.s:(Landroid/content/Intent;)Landroid/os/Bundle; // method@04b6
+0a8534: 0c07                                   |0040: move-result-object v7
+0a8536: 3807 1d00                              |0041: if-eqz v7, 005e // +001d
+0a853a: 1a01 563a                              |0043: const-string v1, "music_sample_rate" // string@3a56
+0a853e: 6e20 2c01 1700                         |0045: invoke-virtual {v7, v1}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;)I // method@012c
+0a8544: 0a07                                   |0048: move-result v7
+0a8546: 2201 a502                              |0049: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a854a: 7010 bd07 0100                         |004b: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8550: 1a02 f91d                              |004e: const-string v2, "car set music sample:" // string@1df9
+0a8554: 6e20 c507 2100                         |0050: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a855a: 6e20 c207 7100                         |0053: invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8560: 6e10 c907 0100                         |0056: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8566: 0c01                                   |0059: move-result-object v1
+0a8568: 7120 1304 1000                         |005a: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a856e: 2802                                   |005d: goto 005f // +0002
+0a8570: 0147                                   |005e: move v7, v4
+0a8572: 7100 4806 0000                         |005f: invoke-static {}, Le2/a;.n:()Le2/a; // method@0648
+0a8578: 0c00                                   |0062: move-result-object v0
+0a857a: 3347 0400                              |0063: if-ne v7, v4, 0067 // +0004
+0a857e: 1217                                   |0065: const/4 v7, #int 1 // #1
+0a8580: 2802                                   |0066: goto 0068 // +0002
+0a8582: 1207                                   |0067: const/4 v7, #int 0 // #0
+0a8584: 6e20 4406 7000                         |0068: invoke-virtual {v0, v7}, Le2/a;.M:(Z)V // method@0644
+0a858a: 0e00                                   |006b: return-void
+      catches       : 1
+        0x0002 - 0x0008
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0009
+
+    #22              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'n'
+      type          : '()Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+0a8130:                                        |[0a8130] com.xiaomi.ucar.carlife.k.n:()Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;
+0a8140: 5400 fc34                              |0000: iget-object v0, v0, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a8144: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #23              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'o'
+      type          : '()Ljava/lang/Boolean;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 7 16-bit code units
+0a820c:                                        |[0a820c] com.xiaomi.ucar.carlife.k.o:()Ljava/lang/Boolean;
+0a821c: 5500 fe34                              |0000: iget-boolean v0, v0, Lcom/xiaomi/ucar/carlife/k;.c:Z // field@34fe
+0a8220: 7110 6907 0000                         |0002: invoke-static {v0}, Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean; // method@0769
+0a8226: 0c00                                   |0005: move-result-object v0
+0a8228: 1100                                   |0006: return-object v0
+      catches       : (none)
+
+    #24              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'q'
+      type          : '(ZLandroid/content/Intent;Landroid/os/Bundle;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 16
+      ins           : 4
+      outs          : 4
+      insns size    : 504 16-bit code units
+0a8598:                                        |[0a8598] com.xiaomi.ucar.carlife.k.q:(ZLandroid/content/Intent;Landroid/os/Bundle;)V
+0a85a8: 1a00 1c04                              |0000: const-string v0, "CarlifeController" // string@041c
+0a85ac: 380e f501                              |0002: if-eqz v14, 01f7 // +01f5
+0a85b0: 390f 0400                              |0004: if-nez v15, 0008 // +0004
+0a85b4: 2900 f101                              |0006: goto/16 01f7 // +01f1
+0a85b8: 6e10 9500 0e00                         |0008: invoke-virtual {v14}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a85be: 0c0e                                   |000b: move-result-object v14
+0a85c0: 390e 0300                              |000c: if-nez v14, 000f // +0003
+0a85c4: 0e00                                   |000e: return-void
+0a85c6: 1a01 f93b                              |000f: const-string v1, "params" // string@3bf9
+0a85ca: 6e20 2d01 1e00                         |0011: invoke-virtual {v14, v1}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@012d
+0a85d0: 0c0e                                   |0014: move-result-object v14
+0a85d2: 7110 e703 0e00                         |0015: invoke-static {v14}, Lcom/blankj/utilcode/util/n;.e:(Ljava/lang/CharSequence;)Z // method@03e7
+0a85d8: 0a01                                   |0018: move-result v1
+0a85da: 3801 0300                              |0019: if-eqz v1, 001c // +0003
+0a85de: 0e00                                   |001b: return-void
+0a85e0: 2201 3d04                              |001c: new-instance v1, Lorg/json/JSONObject; // type@043d
+0a85e4: 7020 2710 e100                         |001e: invoke-direct {v1, v14}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@1027
+0a85ea: 1a0e a120                              |0021: const-string v14, "default_width" // string@20a1
+0a85ee: 1202                                   |0023: const/4 v2, #int 0 // #0
+0a85f0: 6e30 2e10 e102                         |0024: invoke-virtual {v1, v14, v2}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;I)I // method@102e
+0a85f6: 0a0e                                   |0027: move-result v14
+0a85f8: 1a03 9f20                              |0028: const-string v3, "default_height" // string@209f
+0a85fc: 6e30 2e10 3102                         |002a: invoke-virtual {v1, v3, v2}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;I)I // method@102e
+0a8602: 0a03                                   |002d: move-result v3
+0a8604: 1a04 1040                              |002e: const-string v4, "real_width" // string@4010
+0a8608: 6e30 2e10 4102                         |0030: invoke-virtual {v1, v4, v2}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;I)I // method@102e
+0a860e: 0a04                                   |0033: move-result v4
+0a8610: 1a05 0f40                              |0034: const-string v5, "real_height" // string@400f
+0a8614: 6e30 2e10 5102                         |0036: invoke-virtual {v1, v5, v2}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;I)I // method@102e
+0a861a: 0a01                                   |0039: move-result v1
+0a861c: 2205 a502                              |003a: new-instance v5, Ljava/lang/StringBuilder; // type@02a5
+0a8620: 7010 bd07 0500                         |003c: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8626: 1a06 f318                              |003f: const-string v6, "[handleCustomResolution] receive CarLife realWidth: " // string@18f3
+0a862a: 6e20 c507 6500                         |0041: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8630: 6e20 c207 4500                         |0044: invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8636: 1a06 6d00                              |0047: const-string v6, ", realHeight: " // string@006d
+0a863a: 6e20 c507 6500                         |0049: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8640: 6e20 c207 1500                         |004c: invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8646: 6e10 c907 0500                         |004f: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a864c: 0c05                                   |0052: move-result-object v5
+0a864e: 7120 1304 5000                         |0053: invoke-static {v0, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8654: 2205 a502                              |0056: new-instance v5, Ljava/lang/StringBuilder; // type@02a5
+0a8658: 7010 bd07 0500                         |0058: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a865e: 1a06 f218                              |005b: const-string v6, "[handleCustomResolution] receive CarLife default_width: " // string@18f2
+0a8662: 6e20 c507 6500                         |005d: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8668: 6e20 c207 e500                         |0060: invoke-virtual {v5, v14}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a866e: 1a06 4a00                              |0063: const-string v6, ", default_height: " // string@004a
+0a8672: 6e20 c507 6500                         |0065: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8678: 6e20 c207 3500                         |0068: invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a867e: 6e10 c907 0500                         |006b: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8684: 0c05                                   |006e: move-result-object v5
+0a8686: 7120 1304 5000                         |006f: invoke-static {v0, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a868c: 7100 4806 0000                         |0072: invoke-static {}, Le2/a;.n:()Le2/a; // method@0648
+0a8692: 0c05                                   |0075: move-result-object v5
+0a8694: 6e10 4706 0500                         |0076: invoke-virtual {v5}, Le2/a;.h:()Ljava/lang/String; // method@0647
+0a869a: 0c05                                   |0079: move-result-object v5
+0a869c: 1a06 2448                              |007a: const-string v6, "vAAI5Qv8c0o=" // string@4824
+0a86a0: 6e20 a507 5600                         |007c: invoke-virtual {v6, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a86a6: 0a05                                   |007f: move-result v5
+0a86a8: 1306 0004                              |0080: const/16 v6, #int 1024 // #400
+0a86ac: 3805 0a00                              |0082: if-eqz v5, 008c // +000a
+0a86b0: 1a0e f518                              |0084: const-string v14, "[handleCustomResolution]: VAAI5QV8C0O channel is car, set default resolution" // string@18f5
+0a86b4: 7120 1304 e000                         |0086: invoke-static {v0, v14}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a86ba: 1303 4002                              |0089: const/16 v3, #int 576 // #240
+0a86be: 016e                                   |008b: move v14, v6
+0a86c0: 7100 0e04 0000                         |008c: invoke-static {}, Lcom/carwith/common/utils/u2;.m:()Ljava/lang/String; // method@040e
+0a86c6: 0c05                                   |008f: move-result-object v5
+0a86c8: 2207 a502                              |0090: new-instance v7, Ljava/lang/StringBuilder; // type@02a5
+0a86cc: 7010 bd07 0700                         |0092: invoke-direct {v7}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a86d2: 6e20 c207 e700                         |0095: invoke-virtual {v7, v14}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a86d8: 1a08 2500                              |0098: const-string v8, " x " // string@0025
+0a86dc: 6e20 c507 8700                         |009a: invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a86e2: 6e20 c207 3700                         |009d: invoke-virtual {v7, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a86e8: 6e10 c907 0700                         |00a0: invoke-virtual {v7}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a86ee: 0c07                                   |00a3: move-result-object v7
+0a86f0: 2209 a502                              |00a4: new-instance v9, Ljava/lang/StringBuilder; // type@02a5
+0a86f4: 7010 bd07 0900                         |00a6: invoke-direct {v9}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a86fa: 6e20 c207 4900                         |00a9: invoke-virtual {v9, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8700: 6e20 c507 8900                         |00ac: invoke-virtual {v9, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8706: 6e20 c207 1900                         |00af: invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a870c: 6e10 c907 0900                         |00b2: invoke-virtual {v9}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8712: 0c09                                   |00b5: move-result-object v9
+0a8714: 7120 0b04 3e00                         |00b6: invoke-static {v14, v3}, Lcom/carwith/common/utils/u2;.Q:(II)V // method@040b
+0a871a: 7100 0d04 0000                         |00b9: invoke-static {}, Lcom/carwith/common/utils/u2;.h:()Ljava/lang/String; // method@040d
+0a8720: 0c0a                                   |00bc: move-result-object v10
+0a8722: 7110 e703 0a00                         |00bd: invoke-static {v10}, Lcom/blankj/utilcode/util/n;.e:(Ljava/lang/CharSequence;)Z // method@03e7
+0a8728: 0a0b                                   |00c0: move-result v11
+0a872a: 380b 2000                              |00c1: if-eqz v11, 00e1 // +0020
+0a872e: 6e30 b904 4c01                         |00c3: invoke-virtual {v12, v4, v1}, Lcom/xiaomi/ucar/carlife/k;.v:(II)Z // method@04b9
+0a8734: 0a0b                                   |00c6: move-result v11
+0a8736: 380b 1a00                              |00c7: if-eqz v11, 00e1 // +001a
+0a873a: 220c a502                              |00c9: new-instance v12, Ljava/lang/StringBuilder; // type@02a5
+0a873e: 7010 bd07 0c00                         |00cb: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8744: 1a0e f018                              |00ce: const-string v14, "[handleCustomResolution] init current resolution: " // string@18f0
+0a8748: 6e20 c507 ec00                         |00d0: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a874e: 6e20 c507 9c00                         |00d3: invoke-virtual {v12, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8754: 6e10 c907 0c00                         |00d6: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a875a: 0c0c                                   |00d9: move-result-object v12
+0a875c: 7120 1304 c000                         |00da: invoke-static {v0, v12}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8762: 7110 0a04 0900                         |00dd: invoke-static {v9}, Lcom/carwith/common/utils/u2;.P:(Ljava/lang/String;)V // method@040a
+0a8768: 2857                                   |00e0: goto 0137 // +0057
+0a876a: 7110 e703 0a00                         |00e1: invoke-static {v10}, Lcom/blankj/utilcode/util/n;.e:(Ljava/lang/CharSequence;)Z // method@03e7
+0a8770: 0a0b                                   |00e4: move-result v11
+0a8772: 380b 1700                              |00e5: if-eqz v11, 00fc // +0017
+0a8776: 220c a502                              |00e7: new-instance v12, Ljava/lang/StringBuilder; // type@02a5
+0a877a: 7010 bd07 0c00                         |00e9: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8780: 1a0e f118                              |00ec: const-string v14, "[handleCustomResolution] invalid recommended resolution: " // string@18f1
+0a8784: 6e20 c507 ec00                         |00ee: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a878a: 6e20 c507 9c00                         |00f1: invoke-virtual {v12, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8790: 6e10 c907 0c00                         |00f4: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8796: 0c0c                                   |00f7: move-result-object v12
+0a8798: 7120 1304 c000                         |00f8: invoke-static {v0, v12}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a879e: 283b                                   |00fb: goto 0136 // +003b
+0a87a0: 6e30 b904 ec03                         |00fc: invoke-virtual {v12, v14, v3}, Lcom/xiaomi/ucar/carlife/k;.v:(II)Z // method@04b9
+0a87a6: 0a0e                                   |00ff: move-result v14
+0a87a8: 380e 3600                              |0100: if-eqz v14, 0136 // +0036
+0a87ac: 6e30 b904 4c01                         |0102: invoke-virtual {v12, v4, v1}, Lcom/xiaomi/ucar/carlife/k;.v:(II)Z // method@04b9
+0a87b2: 0a0c                                   |0105: move-result v12
+0a87b4: 380c 3000                              |0106: if-eqz v12, 0136 // +0030
+0a87b8: 7120 7501 7500                         |0108: invoke-static {v5, v7}, Landroid/text/TextUtils;.equals:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z // method@0175
+0a87be: 0a0c                                   |010b: move-result v12
+0a87c0: 390c 2a00                              |010c: if-nez v12, 0136 // +002a
+0a87c4: 220c a502                              |010e: new-instance v12, Ljava/lang/StringBuilder; // type@02a5
+0a87c8: 7010 bd07 0c00                         |0110: invoke-direct {v12}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a87ce: 1a0e ef18                              |0113: const-string v14, "[handleCustomResolution] default resolution changed, auto adapt to CarLife recommended resolution: " // string@18ef
+0a87d2: 6e20 c507 ec00                         |0115: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87d8: 6e20 c507 9c00                         |0118: invoke-virtual {v12, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87de: 1a0e 6700                              |011b: const-string v14, ", oldDefault=" // string@0067
+0a87e2: 6e20 c507 ec00                         |011d: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87e8: 6e20 c507 5c00                         |0120: invoke-virtual {v12, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87ee: 1a0e 6600                              |0123: const-string v14, ", newDefault=" // string@0066
+0a87f2: 6e20 c507 ec00                         |0125: invoke-virtual {v12, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87f8: 6e20 c507 7c00                         |0128: invoke-virtual {v12, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a87fe: 6e10 c907 0c00                         |012b: invoke-virtual {v12}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8804: 0c0c                                   |012e: move-result-object v12
+0a8806: 7120 1304 c000                         |012f: invoke-static {v0, v12}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a880c: 7110 0a04 0900                         |0132: invoke-static {v9}, Lcom/carwith/common/utils/u2;.P:(Ljava/lang/String;)V // method@040a
+0a8812: 2802                                   |0135: goto 0137 // +0002
+0a8814: 07a9                                   |0136: move-object v9, v10
+0a8816: 6e20 b207 8900                         |0137: invoke-virtual {v9, v8}, Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String; // method@07b2
+0a881c: 0c0c                                   |013a: move-result-object v12
+0a881e: 21ce                                   |013b: array-length v14, v12
+0a8820: 1221                                   |013c: const/4 v1, #int 2 // #2
+0a8822: 331e a400                              |013d: if-ne v14, v1, 01e1 // +00a4
+0a8826: 460e 0c02                              |013f: aget-object v14, v12, v2
+0a882a: 7110 7f07 0e00                         |0141: invoke-static {v14}, Ljava/lang/Integer;.parseInt:(Ljava/lang/String;)I // method@077f
+0a8830: 0a0e                                   |0144: move-result v14
+0a8832: 1211                                   |0145: const/4 v1, #int 1 // #1
+0a8834: 460c 0c01                              |0146: aget-object v12, v12, v1
+0a8838: 7110 7f07 0c00                         |0148: invoke-static {v12}, Ljava/lang/Integer;.parseInt:(Ljava/lang/String;)I // method@077f
+0a883e: 0a0c                                   |014b: move-result v12
+0a8840: 3d0e 9500                              |014c: if-lez v14, 01e1 // +0095
+0a8844: 3d0c 9300                              |014e: if-lez v12, 01e1 // +0093
+0a8848: 7100 5e06 0000                         |0150: invoke-static {}, Le2/h;.d:()Z // method@065e
+0a884e: 0a03                                   |0153: move-result v3
+0a8850: 1a04 8049                              |0154: const-string v4, "x" // string@4980
+0a8854: 3803 3e00                              |0156: if-eqz v3, 0194 // +003e
+0a8858: 1303 6002                              |0158: const/16 v3, #int 608 // #260
+0a885c: 7140 5d06 ce36                         |015a: invoke-static {v14, v12, v6, v3}, Le2/h;.a:(IIII)[I // method@065d
+0a8862: 0c05                                   |015d: move-result-object v5
+0a8864: 4402 0502                              |015e: aget v2, v5, v2
+0a8868: 33e2 0900                              |0160: if-ne v2, v14, 0169 // +0009
+0a886c: 4407 0501                              |0162: aget v7, v5, v1
+0a8870: 32c7 3000                              |0164: if-eq v7, v12, 0194 // +0030
+0a8874: 2803                                   |0166: goto 0169 // +0003
+0a8876: 0d0c                                   |0167: move-exception v12
+0a8878: 2865                                   |0168: goto 01cd // +0065
+0a887a: 440c 0501                              |0169: aget v12, v5, v1
+0a887e: 220e a502                              |016b: new-instance v14, Ljava/lang/StringBuilder; // type@02a5
+0a8882: 7010 bd07 0e00                         |016d: invoke-direct {v14}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8888: 1a01 f418                              |0170: const-string v1, "[handleCustomResolution] temporary clamp current resolution to: " // string@18f4
+0a888c: 6e20 c507 1e00                         |0172: invoke-virtual {v14, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8892: 6e20 c207 2e00                         |0175: invoke-virtual {v14, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8898: 6e20 c507 8e00                         |0178: invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a889e: 6e20 c207 ce00                         |017b: invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a88a4: 1a01 6400                              |017e: const-string v1, ", max=" // string@0064
+0a88a8: 6e20 c507 1e00                         |0180: invoke-virtual {v14, v1}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a88ae: 6e20 c207 6e00                         |0183: invoke-virtual {v14, v6}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a88b4: 6e20 c507 4e00                         |0186: invoke-virtual {v14, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a88ba: 6e20 c207 3e00                         |0189: invoke-virtual {v14, v3}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a88c0: 6e10 c907 0e00                         |018c: invoke-virtual {v14}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a88c6: 0c0e                                   |018f: move-result-object v14
+0a88c8: 7120 1304 e000                         |0190: invoke-static {v0, v14}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a88ce: 012e                                   |0193: move v14, v2
+0a88d0: 2201 a502                              |0194: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a88d4: 7010 bd07 0100                         |0196: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a88da: 1a02 ed18                              |0199: const-string v2, "[handleCustomResolution] Current car resolution: " // string@18ed
+0a88de: 6e20 c507 2100                         |019b: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a88e4: 6e20 c207 e100                         |019e: invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a88ea: 6e20 c507 4100                         |01a1: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a88f0: 6e20 c207 c100                         |01a4: invoke-virtual {v1, v12}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a88f6: 6e20 c607 d100                         |01a7: invoke-virtual {v1, v13}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@07c6
+0a88fc: 6e10 c907 0100                         |01aa: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8902: 0c01                                   |01ad: move-result-object v1
+0a8904: 7120 1304 1000                         |01ae: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a890a: 1a01 9a25                              |01b1: const-string v1, "height" // string@259a
+0a890e: 1a02 d948                              |01b3: const-string v2, "width" // string@48d9
+0a8912: 380d 1100                              |01b5: if-eqz v13, 01c6 // +0011
+0a8916: 7120 8b07 ce00                         |01b7: invoke-static {v14, v12}, Ljava/lang/Math;.min:(II)I // method@078b
+0a891c: 0a0d                                   |01ba: move-result v13
+0a891e: 6e30 2f01 2f0d                         |01bb: invoke-virtual {v15, v2, v13}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a8924: 7120 8907 ce00                         |01be: invoke-static {v14, v12}, Ljava/lang/Math;.max:(II)I // method@0789
+0a892a: 0a0c                                   |01c1: move-result v12
+0a892c: 6e30 2f01 1f0c                         |01c2: invoke-virtual {v15, v1, v12}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a8932: 281c                                   |01c5: goto 01e1 // +001c
+0a8934: 6e30 2f01 2f0e                         |01c6: invoke-virtual {v15, v2, v14}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a893a: 6e30 2f01 1f0c                         |01c9: invoke-virtual {v15, v1, v12}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a8940: 2815                                   |01cc: goto 01e1 // +0015
+0a8942: 220d a502                              |01cd: new-instance v13, Ljava/lang/StringBuilder; // type@02a5
+0a8946: 7010 bd07 0d00                         |01cf: invoke-direct {v13}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a894c: 1a0e ee18                              |01d2: const-string v14, "[handleCustomResolution] Failed to parse currentCarResolution: " // string@18ee
+0a8950: 6e20 c507 ed00                         |01d4: invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8956: 6e20 c507 9d00                         |01d7: invoke-virtual {v13, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a895c: 6e10 c907 0d00                         |01da: invoke-virtual {v13}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8962: 0c0d                                   |01dd: move-result-object v13
+0a8964: 7130 1704 d00c                         |01de: invoke-static {v0, v13, v12}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0417
+0a896a: 0e00                                   |01e1: return-void
+0a896c: 0d0c                                   |01e2: move-exception v12
+0a896e: 220d a502                              |01e3: new-instance v13, Ljava/lang/StringBuilder; // type@02a5
+0a8972: 7010 bd07 0d00                         |01e5: invoke-direct {v13}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8978: 1a0f 9808                              |01e8: const-string v15, "Invalid JSON in params: " // string@0898
+0a897c: 6e20 c507 fd00                         |01ea: invoke-virtual {v13, v15}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8982: 6e20 c507 ed00                         |01ed: invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8988: 6e10 c907 0d00                         |01f0: invoke-virtual {v13}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a898e: 0c0d                                   |01f3: move-result-object v13
+0a8990: 7130 1704 d00c                         |01f4: invoke-static {v0, v13, v12}, Lcom/carwith/common/utils/w1;.i:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@0417
+0a8996: 0e00                                   |01f7: return-void
+      catches       : 4
+        0x001c - 0x0021
+          Lorg/json/JSONException; -> 0x01e2
+        0x0137 - 0x0154
+          Ljava/lang/NumberFormatException; -> 0x0167
+        0x015a - 0x01b1
+          Ljava/lang/NumberFormatException; -> 0x0167
+        0x01b7 - 0x01cc
+          Ljava/lang/NumberFormatException; -> 0x0167
+
+    #25              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'r'
+      type          : '(Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 18
+      ins           : 2
+      outs          : 4
+      insns size    : 1114 16-bit code units
+0a751c:                                        |[0a751c] com.xiaomi.ucar.carlife.k.r:(Landroid/content/Intent;)Landroid/os/Bundle;
+0a752c: 0801 1000                              |0000: move-object/from16 v1, v16
+0a7530: 0800 1100                              |0002: move-object/from16 v0, v17
+0a7534: 1202                                   |0004: const/4 v2, #int 0 // #0
+0a7536: 1a03 1c04                              |0005: const-string v3, "CarlifeController" // string@041c
+0a753a: 3900 0800                              |0007: if-nez v0, 000f // +0008
+0a753e: 1a00 8b26                              |0009: const-string v0, "intent is null!" // string@268b
+0a7542: 7120 1604 0300                         |000b: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7548: 1102                                   |000e: return-object v2
+0a754a: 7401 9400 1100                         |000f: invoke-virtual/range {v17}, Landroid/content/Intent;.getAction:()Ljava/lang/String; // method@0094
+0a7550: 0c04                                   |0012: move-result-object v4
+0a7552: 2205 a502                              |0013: new-instance v5, Ljava/lang/StringBuilder; // type@02a5
+0a7556: 7010 bd07 0500                         |0015: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a755c: 1a06 1840                              |0018: const-string v6, "receive CarLife invokeMethod action: " // string@4018
+0a7560: 6e20 c507 6500                         |001a: invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7566: 6e20 c507 4500                         |001d: invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a756c: 6e10 c907 0500                         |0020: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7572: 0c05                                   |0023: move-result-object v5
+0a7574: 7120 1304 5300                         |0024: invoke-static {v3, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a757a: 1a05 391e                              |0027: const-string v5, "carlife_request_device_id" // string@1e39
+0a757e: 6e20 a507 4500                         |0029: invoke-virtual {v5, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7584: 0a05                                   |002c: move-result v5
+0a7586: 3805 0800                              |002d: if-eqz v5, 0035 // +0008
+0a758a: 7401 9804 1000                         |002f: invoke-virtual/range {v16}, Lcom/xiaomi/ucar/carlife/k;.G:()Landroid/os/Bundle; // method@0498
+0a7590: 0c02                                   |0032: move-result-object v2
+0a7592: 2900 2604                              |0033: goto/16 0459 // +0426
+0a7596: 1a05 371e                              |0035: const-string v5, "carlife_notify_vehicle_channel" // string@1e37
+0a759a: 6e20 a507 4500                         |0037: invoke-virtual {v5, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a75a0: 0a05                                   |003a: move-result v5
+0a75a2: 1a06 f93b                              |003b: const-string v6, "params" // string@3bf9
+0a75a6: 3805 3600                              |003d: if-eqz v5, 0073 // +0036
+0a75aa: 7401 9500 1100                         |003f: invoke-virtual/range {v17}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a75b0: 0c00                                   |0042: move-result-object v0
+0a75b2: 3800 1604                              |0043: if-eqz v0, 0459 // +0416
+0a75b6: 6e20 2d01 6000                         |0045: invoke-virtual {v0, v6}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@012d
+0a75bc: 0c00                                   |0048: move-result-object v0
+0a75be: 3800 1004                              |0049: if-eqz v0, 0459 // +0410
+0a75c2: 2201 3d04                              |004b: new-instance v1, Lorg/json/JSONObject; // type@043d
+0a75c6: 7020 2710 0100                         |004d: invoke-direct {v1, v0}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@1027
+0a75cc: 1a00 2d48                              |0050: const-string v0, "vehicle_channel" // string@482d
+0a75d0: 6e20 3110 0100                         |0052: invoke-virtual {v1, v0}, Lorg/json/JSONObject;.optString:(Ljava/lang/String;)Ljava/lang/String; // method@1031
+0a75d6: 0c00                                   |0055: move-result-object v0
+0a75d8: 2201 a502                              |0056: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a75dc: 7010 bd07 0100                         |0058: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a75e2: 1a04 1b40                              |005b: const-string v4, "receive CarLife vehicle channel: " // string@401b
+0a75e6: 6e20 c507 4100                         |005d: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a75ec: 6e20 c507 0100                         |0060: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a75f2: 6e10 c907 0100                         |0063: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a75f8: 0c01                                   |0066: move-result-object v1
+0a75fa: 7120 1304 1300                         |0067: invoke-static {v3, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7600: 7100 4806 0000                         |006a: invoke-static {}, Le2/a;.n:()Le2/a; // method@0648
+0a7606: 0c01                                   |006d: move-result-object v1
+0a7608: 6e20 4306 0100                         |006e: invoke-virtual {v1, v0}, Le2/a;.F:(Ljava/lang/String;)V // method@0643
+0a760e: 2900 e803                              |0071: goto/16 0459 // +03e8
+0a7612: 1a05 331e                              |0073: const-string v5, "carlife_encode_format" // string@1e33
+0a7616: 6e20 a507 4500                         |0075: invoke-virtual {v5, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a761c: 0a05                                   |0078: move-result v5
+0a761e: 1a07 2010                              |0079: const-string v7, "NameNotFoundException " // string@1020
+0a7622: 1a0c 3a1e                              |007b: const-string v12, "carlifeversion " // string@1e3a
+0a7626: 1a0d a21f                              |007d: const-string v13, "com.baidu.carlife.xiaomi" // string@1fa2
+0a762a: 3805 2102                              |007f: if-eqz v5, 02a0 // +0221
+0a762e: 7100 4610 0000                         |0081: invoke-static {}, Lt2/d;.f:()Lt2/d; // method@1046
+0a7634: 0c04                                   |0084: move-result-object v4
+0a7636: 6e10 4510 0400                         |0085: invoke-virtual {v4}, Lt2/d;.d:()Z // method@1045
+0a763c: 0a04                                   |0088: move-result v4
+0a763e: 2205 a502                              |0089: new-instance v5, Ljava/lang/StringBuilder; // type@02a5
+0a7642: 7010 bd07 0500                         |008b: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7648: 1a09 f326                              |008e: const-string v9, "isPortrait: " // string@26f3
+0a764c: 6e20 c507 9500                         |0090: invoke-virtual {v5, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7652: 6e20 c607 4500                         |0093: invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@07c6
+0a7658: 6e10 c907 0500                         |0096: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a765e: 0c05                                   |0099: move-result-object v5
+0a7660: 7120 1304 5300                         |009a: invoke-static {v3, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7666: 3804 a200                              |009d: if-eqz v4, 013f // +00a2
+0a766a: 2205 6b00                              |009f: new-instance v5, Landroid/os/Bundle; // type@006b
+0a766e: 7010 3501 0500                         |00a1: invoke-direct {v5}, Landroid/os/Bundle;.<init>:()V // method@0135
+0a7674: 7401 9500 1100                         |00a4: invoke-virtual/range {v17}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a767a: 0c09                                   |00a7: move-result-object v9
+0a767c: 130a 8007                              |00a8: const/16 v10, #int 1920 // #780
+0a7680: 130b a005                              |00aa: const/16 v11, #int 1440 // #5a0
+0a7684: 1a0e 9a25                              |00ac: const-string v14, "height" // string@259a
+0a7688: 1a0f d948                              |00ae: const-string v15, "width" // string@48d9
+0a768c: 3809 8700                              |00b0: if-eqz v9, 0137 // +0087
+0a7690: 6e20 2d01 6900                         |00b2: invoke-virtual {v9, v6}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@012d
+0a7696: 0c06                                   |00b5: move-result-object v6
+0a7698: 3806 7a00                              |00b6: if-eqz v6, 0130 // +007a
+0a769c: 2209 3d04                              |00b8: new-instance v9, Lorg/json/JSONObject; // type@043d
+0a76a0: 7020 2710 6900                         |00ba: invoke-direct {v9, v6}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@1027
+0a76a6: 6e20 2810 f900                         |00bd: invoke-virtual {v9, v15}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@1028
+0a76ac: 0a06                                   |00c0: move-result v6
+0a76ae: 6e20 2810 e900                         |00c1: invoke-virtual {v9, v14}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@1028
+0a76b4: 0a0a                                   |00c4: move-result v10
+0a76b6: 220b a502                              |00c5: new-instance v11, Ljava/lang/StringBuilder; // type@02a5
+0a76ba: 7010 bd07 0b00                         |00c7: invoke-direct {v11}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a76c0: 1a02 1c40                              |00ca: const-string v2, "receive CarLife width: " // string@401c
+0a76c4: 6e20 c507 2b00                         |00cc: invoke-virtual {v11, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a76ca: 6e20 c207 6b00                         |00cf: invoke-virtual {v11, v6}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a76d0: 6e10 c907 0b00                         |00d2: invoke-virtual {v11}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a76d6: 0c02                                   |00d5: move-result-object v2
+0a76d8: 7120 1304 2300                         |00d6: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a76de: 2202 a502                              |00d9: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a76e2: 7010 bd07 0200                         |00db: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a76e8: 1a0b 1740                              |00de: const-string v11, "receive CarLife height: " // string@4017
+0a76ec: 6e20 c507 b200                         |00e0: invoke-virtual {v2, v11}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a76f2: 6e20 c207 a200                         |00e3: invoke-virtual {v2, v10}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a76f8: 6e10 c907 0200                         |00e6: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a76fe: 0c02                                   |00e9: move-result-object v2
+0a7700: 7120 1304 2300                         |00ea: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7706: 1a02 1040                              |00ed: const-string v2, "real_width" // string@4010
+0a770a: 6e20 2810 2900                         |00ef: invoke-virtual {v9, v2}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@1028
+0a7710: 0a02                                   |00f2: move-result v2
+0a7712: 1a0b 0f40                              |00f3: const-string v11, "real_height" // string@400f
+0a7716: 6e20 2810 b900                         |00f5: invoke-virtual {v9, v11}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@1028
+0a771c: 0a09                                   |00f8: move-result v9
+0a771e: 220b a502                              |00f9: new-instance v11, Ljava/lang/StringBuilder; // type@02a5
+0a7722: 7010 bd07 0b00                         |00fb: invoke-direct {v11}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7728: 1a08 1a40                              |00fe: const-string v8, "receive CarLife real_width: " // string@401a
+0a772c: 6e20 c507 8b00                         |0100: invoke-virtual {v11, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7732: 6e20 c207 2b00                         |0103: invoke-virtual {v11, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7738: 6e10 c907 0b00                         |0106: invoke-virtual {v11}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a773e: 0c02                                   |0109: move-result-object v2
+0a7740: 7120 1304 2300                         |010a: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7746: 2202 a502                              |010d: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a774a: 7010 bd07 0200                         |010f: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7750: 1a08 1940                              |0112: const-string v8, "receive CarLife real_height: " // string@4019
+0a7754: 6e20 c507 8200                         |0114: invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a775a: 6e20 c207 9200                         |0117: invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7760: 6e10 c907 0200                         |011a: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7766: 0c02                                   |011d: move-result-object v2
+0a7768: 7120 1304 2300                         |011e: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a776e: 35a6 0400                              |0121: if-ge v6, v10, 0125 // +0004
+0a7772: 0162                                   |0123: move v2, v6
+0a7774: 2802                                   |0124: goto 0126 // +0002
+0a7776: 01a2                                   |0125: move v2, v10
+0a7778: 6e30 2f01 f502                         |0126: invoke-virtual {v5, v15, v2}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a777e: 35a6 0300                              |0129: if-ge v6, v10, 012c // +0003
+0a7782: 01a6                                   |012b: move v6, v10
+0a7784: 6e30 2f01 e506                         |012c: invoke-virtual {v5, v14, v6}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a778a: 280e                                   |012f: goto 013d // +000e
+0a778c: 6e30 2f01 f50b                         |0130: invoke-virtual {v5, v15, v11}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7792: 6e30 2f01 e50a                         |0133: invoke-virtual {v5, v14, v10}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7798: 2807                                   |0136: goto 013d // +0007
+0a779a: 6e30 2f01 f50b                         |0137: invoke-virtual {v5, v15, v11}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a77a0: 6e30 2f01 e50a                         |013a: invoke-virtual {v5, v14, v10}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a77a6: 0752                                   |013d: move-object v2, v5
+0a77a8: 2802                                   |013e: goto 0140 // +0002
+0a77aa: 1202                                   |013f: const/4 v2, #int 0 // #0
+0a77ac: 7100 e503 0000                         |0140: invoke-static {}, Lcom/blankj/utilcode/util/k;.e:()Lcom/blankj/utilcode/util/k; // method@03e5
+0a77b2: 0c05                                   |0143: move-result-object v5
+0a77b4: 1a06 e747                              |0144: const-string v6, "user_setting_framerate" // string@47e7
+0a77b8: 1218                                   |0146: const/4 v8, #int 1 // #1
+0a77ba: 6e30 e603 6508                         |0147: invoke-virtual {v5, v6, v8}, Lcom/blankj/utilcode/util/k;.i:(Ljava/lang/String;I)I // method@03e6
+0a77c0: 0a05                                   |014a: move-result v5
+0a77c2: 7110 0c04 0500                         |014b: invoke-static {v5}, Lcom/carwith/common/utils/u2;.b:(I)I // method@040c
+0a77c8: 0a05                                   |014e: move-result v5
+0a77ca: 6e20 9204 5100                         |014f: invoke-virtual {v1, v5}, Lcom/xiaomi/ucar/carlife/k;.A:(I)I // method@0492
+0a77d0: 0a05                                   |0152: move-result v5
+0a77d2: 5915 0335                              |0153: iput v5, v1, Lcom/xiaomi/ucar/carlife/k;.h:I // field@3503
+0a77d6: 2206 a502                              |0155: new-instance v6, Ljava/lang/StringBuilder; // type@02a5
+0a77da: 7010 bd07 0600                         |0157: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a77e0: 1a08 e625                              |015a: const-string v8, "iCarlifeFrameRate=" // string@25e6
+0a77e4: 6e20 c507 8600                         |015c: invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a77ea: 6e20 c207 5600                         |015f: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a77f0: 6e10 c907 0600                         |0162: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a77f6: 0c06                                   |0165: move-result-object v6
+0a77f8: 7120 1304 6300                         |0166: invoke-static {v3, v6}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a77fe: 3902 0700                              |0169: if-nez v2, 0170 // +0007
+0a7802: 2202 6b00                              |016b: new-instance v2, Landroid/os/Bundle; // type@006b
+0a7806: 7010 3501 0200                         |016d: invoke-direct {v2}, Landroid/os/Bundle;.<init>:()V // method@0135
+0a780c: 1a06 ea27                              |0170: const-string v6, "level" // string@27ea
+0a7810: 1228                                   |0172: const/4 v8, #int 2 // #2
+0a7812: 6e30 2f01 6208                         |0173: invoke-virtual {v2, v6, v8}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7818: 1a09 e425                              |0176: const-string v9, "i-frame-interval" // string@25e4
+0a781c: 6e30 2f01 9208                         |0178: invoke-virtual {v2, v9, v8}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7822: 7100 6410 0000                         |017b: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a7828: 0c08                                   |017e: move-result-object v8
+0a782a: 1209                                   |017f: const/4 v9, #int 0 // #0
+0a782c: 4408 0809                              |0180: aget v8, v8, v9
+0a7830: 3808 2700                              |0182: if-eqz v8, 01a9 // +0027
+0a7834: 2208 a502                              |0184: new-instance v8, Ljava/lang/StringBuilder; // type@02a5
+0a7838: 7010 bd07 0800                         |0186: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a783e: 1a0a 6c3f                              |0189: const-string v10, "profile setting: " // string@3f6c
+0a7842: 6e20 c507 a800                         |018b: invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7848: 7100 6410 0000                         |018e: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a784e: 0c0a                                   |0191: move-result-object v10
+0a7850: 440a 0a09                              |0192: aget v10, v10, v9
+0a7854: 6e20 c207 a800                         |0194: invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a785a: 6e10 c907 0800                         |0197: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7860: 0c08                                   |019a: move-result-object v8
+0a7862: 7120 1304 8300                         |019b: invoke-static {v3, v8}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7868: 7100 6410 0000                         |019e: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a786e: 0c08                                   |01a1: move-result-object v8
+0a7870: 4408 0809                              |01a2: aget v8, v8, v9
+0a7874: 1a09 6b3f                              |01a4: const-string v9, "profile" // string@3f6b
+0a7878: 6e30 2f01 9208                         |01a6: invoke-virtual {v2, v9, v8}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a787e: 7100 6410 0000                         |01a9: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a7884: 0c08                                   |01ac: move-result-object v8
+0a7886: 1219                                   |01ad: const/4 v9, #int 1 // #1
+0a7888: 4408 0809                              |01ae: aget v8, v8, v9
+0a788c: 3808 2500                              |01b0: if-eqz v8, 01d5 // +0025
+0a7890: 2208 a502                              |01b2: new-instance v8, Ljava/lang/StringBuilder; // type@02a5
+0a7894: 7010 bd07 0800                         |01b4: invoke-direct {v8}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a789a: 1a0a ec27                              |01b7: const-string v10, "level setting: " // string@27ec
+0a789e: 6e20 c507 a800                         |01b9: invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a78a4: 7100 6410 0000                         |01bc: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a78aa: 0c0a                                   |01bf: move-result-object v10
+0a78ac: 440a 0a09                              |01c0: aget v10, v10, v9
+0a78b0: 6e20 c207 a800                         |01c2: invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a78b6: 6e10 c907 0800                         |01c5: invoke-virtual {v8}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a78bc: 0c08                                   |01c8: move-result-object v8
+0a78be: 7120 1304 8300                         |01c9: invoke-static {v3, v8}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a78c4: 7100 6410 0000                         |01cc: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a78ca: 0c08                                   |01cf: move-result-object v8
+0a78cc: 4408 0809                              |01d0: aget v8, v8, v9
+0a78d0: 6e30 2f01 6208                         |01d2: invoke-virtual {v2, v6, v8}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a78d6: 7100 6410 0000                         |01d5: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a78dc: 0c06                                   |01d8: move-result-object v6
+0a78de: 1228                                   |01d9: const/4 v8, #int 2 // #2
+0a78e0: 4406 0608                              |01da: aget v6, v6, v8
+0a78e4: 3806 2700                              |01dc: if-eqz v6, 0203 // +0027
+0a78e8: 2206 a502                              |01de: new-instance v6, Ljava/lang/StringBuilder; // type@02a5
+0a78ec: 7010 bd07 0600                         |01e0: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a78f2: 1a09 2e1d                              |01e3: const-string v9, "bit rate setting: " // string@1d2e
+0a78f6: 6e20 c507 9600                         |01e5: invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a78fc: 7100 6410 0000                         |01e8: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a7902: 0c09                                   |01eb: move-result-object v9
+0a7904: 4409 0908                              |01ec: aget v9, v9, v8
+0a7908: 6e20 c207 9600                         |01ee: invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a790e: 6e10 c907 0600                         |01f1: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7914: 0c06                                   |01f4: move-result-object v6
+0a7916: 7120 1304 6300                         |01f5: invoke-static {v3, v6}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a791c: 7100 6410 0000                         |01f8: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a7922: 0c06                                   |01fb: move-result-object v6
+0a7924: 4406 0608                              |01fc: aget v6, v6, v8
+0a7928: 1a08 2f1d                              |01fe: const-string v8, "bitrate" // string@1d2f
+0a792c: 6e30 2f01 8206                         |0200: invoke-virtual {v2, v8, v6}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7932: 7100 6410 0000                         |0203: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a7938: 0c06                                   |0206: move-result-object v6
+0a793a: 1238                                   |0207: const/4 v8, #int 3 // #3
+0a793c: 4406 0608                              |0208: aget v6, v6, v8
+0a7940: 3286 2f00                              |020a: if-eq v6, v8, 0239 // +002f
+0a7944: 7100 6410 0000                         |020c: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a794a: 0c06                                   |020f: move-result-object v6
+0a794c: 4406 0608                              |0210: aget v6, v6, v8
+0a7950: 3806 2700                              |0212: if-eqz v6, 0239 // +0027
+0a7954: 2206 a502                              |0214: new-instance v6, Ljava/lang/StringBuilder; // type@02a5
+0a7958: 7010 bd07 0600                         |0216: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a795e: 1a09 2d1d                              |0219: const-string v9, "bit rate mode setting: " // string@1d2d
+0a7962: 6e20 c507 9600                         |021b: invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7968: 7100 6410 0000                         |021e: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a796e: 0c09                                   |0221: move-result-object v9
+0a7970: 4409 0908                              |0222: aget v9, v9, v8
+0a7974: 6e20 c207 9600                         |0224: invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a797a: 6e10 c907 0600                         |0227: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7980: 0c06                                   |022a: move-result-object v6
+0a7982: 7120 1304 6300                         |022b: invoke-static {v3, v6}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7988: 7100 6410 0000                         |022e: invoke-static {}, Lw2/r;.j:()[I // method@1064
+0a798e: 0c06                                   |0231: move-result-object v6
+0a7990: 4406 0608                              |0232: aget v6, v6, v8
+0a7994: 1a08 301d                              |0234: const-string v8, "bitrate-mode" // string@1d30
+0a7998: 6e30 2f01 8206                         |0236: invoke-virtual {v2, v8, v6}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a799e: 6e40 b404 4120                         |0239: invoke-virtual {v1, v4, v0, v2}, Lcom/xiaomi/ucar/carlife/k;.q:(ZLandroid/content/Intent;Landroid/os/Bundle;)V // method@04b4
+0a79a4: 6e20 af04 d100                         |023c: invoke-virtual {v1, v13}, Lcom/xiaomi/ucar/carlife/k;.l:(Ljava/lang/String;)J // method@04af
+0a79aa: 0b00                                   |023f: move-result-wide v0
+0a79ac: 2204 a502                              |0240: new-instance v4, Ljava/lang/StringBuilder; // type@02a5
+0a79b0: 7010 bd07 0400                         |0242: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a79b6: 6e20 c507 c400                         |0245: invoke-virtual {v4, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a79bc: 6e30 c307 0401                         |0248: invoke-virtual {v4, v0, v1}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@07c3
+0a79c2: 6e10 c907 0400                         |024b: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a79c8: 0c04                                   |024e: move-result-object v4
+0a79ca: 7120 1304 4300                         |024f: invoke-static {v3, v4}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a79d0: 1608 ffff                              |0252: const-wide/16 v8, #int -1 // #ffff
+0a79d4: 3104 0008                              |0254: cmp-long v4, v0, v8
+0a79d8: 3804 2500                              |0256: if-eqz v4, 027b // +0025
+0a79dc: 1608 eb00                              |0258: const-wide/16 v8, #int 235 // #eb
+0a79e0: 3104 0008                              |025a: cmp-long v4, v0, v8
+0a79e4: 3c04 1f00                              |025c: if-gtz v4, 027b // +001f
+0a79e8: 2204 a502                              |025e: new-instance v4, Ljava/lang/StringBuilder; // type@02a5
+0a79ec: 7010 bd07 0400                         |0260: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a79f2: 1a06 cf29                              |0263: const-string v6, "max-fps-to-encoder: " // string@29cf
+0a79f6: 6e20 c507 6400                         |0265: invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a79fc: 6e20 c207 5400                         |0268: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7a02: 6e10 c907 0400                         |026b: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7a08: 0c04                                   |026e: move-result-object v4
+0a7a0a: 7120 1304 4300                         |026f: invoke-static {v3, v4}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7a10: 1a04 ce29                              |0272: const-string v4, "max-fps-to-encoder" // string@29ce
+0a7a14: 8256                                   |0274: int-to-float v6, v5
+0a7a16: 6e30 3701 4206                         |0275: invoke-virtual {v2, v4, v6}, Landroid/os/Bundle;.putFloat:(Ljava/lang/String;F)V // method@0137
+0a7a1c: 2803                                   |0278: goto 027b // +0003
+0a7a1e: 0d00                                   |0279: move-exception v0
+0a7a20: 280e                                   |027a: goto 0288 // +000e
+0a7a22: 1608 0201                              |027b: const-wide/16 v8, #int 258 // #102
+0a7a26: 3100 0008                              |027d: cmp-long v0, v0, v8
+0a7a2a: 3a00 da01                              |027f: if-ltz v0, 0459 // +01da
+0a7a2e: 1a00 d023                              |0281: const-string v0, "frame-rate" // string@23d0
+0a7a32: 6e30 2f01 0205                         |0283: invoke-virtual {v2, v0, v5}, Landroid/os/BaseBundle;.putInt:(Ljava/lang/String;I)V // method@012f
+0a7a38: 2900 d301                              |0286: goto/16 0459 // +01d3
+0a7a3c: 2201 a502                              |0288: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7a40: 7010 bd07 0100                         |028a: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7a46: 6e20 c507 7100                         |028d: invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7a4c: 6e10 d707 0000                         |0290: invoke-virtual {v0}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a7a52: 0c00                                   |0293: move-result-object v0
+0a7a54: 6e20 c507 0100                         |0294: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7a5a: 6e10 c907 0100                         |0297: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7a60: 0c00                                   |029a: move-result-object v0
+0a7a62: 7120 1604 0300                         |029b: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7a68: 2900 bb01                              |029e: goto/16 0459 // +01bb
+0a7a6c: 1a02 381e                              |02a0: const-string v2, "carlife_other_notify_driving_status" // string@1e38
+0a7a70: 6e20 a507 4200                         |02a2: invoke-virtual {v2, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7a76: 0a02                                   |02a5: move-result v2
+0a7a78: 3802 5a00                              |02a6: if-eqz v2, 0300 // +005a
+0a7a7c: 7401 9500 1100                         |02a8: invoke-virtual/range {v17}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a7a82: 0c00                                   |02ab: move-result-object v0
+0a7a84: 3800 5100                              |02ac: if-eqz v0, 02fd // +0051
+0a7a88: 6e20 2d01 6000                         |02ae: invoke-virtual {v0, v6}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@012d
+0a7a8e: 0c00                                   |02b1: move-result-object v0
+0a7a90: 3800 4b00                              |02b2: if-eqz v0, 02fd // +004b
+0a7a94: 2202 3d04                              |02b4: new-instance v2, Lorg/json/JSONObject; // type@043d
+0a7a98: 7020 2710 0200                         |02b6: invoke-direct {v2, v0}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@1027
+0a7a9e: 281b                                   |02b9: goto 02d4 // +001b
+0a7aa0: 0d00                                   |02ba: move-exception v0
+0a7aa2: 2202 a502                              |02bb: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a7aa6: 7010 bd07 0200                         |02bd: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7aac: 1a04 4a07                              |02c0: const-string v4, "Exception: " // string@074a
+0a7ab0: 6e20 c507 4200                         |02c2: invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ab6: 6e10 d707 0000                         |02c5: invoke-virtual {v0}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a7abc: 0c00                                   |02c8: move-result-object v0
+0a7abe: 6e20 c507 0200                         |02c9: invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ac4: 6e10 c907 0200                         |02cc: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7aca: 0c00                                   |02cf: move-result-object v0
+0a7acc: 7120 1604 0300                         |02d0: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7ad2: 1202                                   |02d3: const/4 v2, #int 0 // #0
+0a7ad4: 1a00 e921                              |02d4: const-string v0, "driving_status" // string@21e9
+0a7ad8: 6e20 3110 0200                         |02d6: invoke-virtual {v2, v0}, Lorg/json/JSONObject;.optString:(Ljava/lang/String;)Ljava/lang/String; // method@1031
+0a7ade: 0c00                                   |02d9: move-result-object v0
+0a7ae0: 1a02 6347                              |02da: const-string v2, "true" // string@4763
+0a7ae4: 6e20 a507 0200                         |02dc: invoke-virtual {v2, v0}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7aea: 0a02                                   |02df: move-result v2
+0a7aec: 3802 0600                              |02e0: if-eqz v2, 02e6 // +0006
+0a7af0: 1212                                   |02e2: const/4 v2, #int 1 // #1
+0a7af2: 5c12 fe34                              |02e3: iput-boolean v2, v1, Lcom/xiaomi/ucar/carlife/k;.c:Z // field@34fe
+0a7af6: 2804                                   |02e5: goto 02e9 // +0004
+0a7af8: 1202                                   |02e6: const/4 v2, #int 0 // #0
+0a7afa: 5c12 fe34                              |02e7: iput-boolean v2, v1, Lcom/xiaomi/ucar/carlife/k;.c:Z // field@34fe
+0a7afe: 2201 a502                              |02e9: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7b02: 7010 bd07 0100                         |02eb: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7b08: 1a02 1640                              |02ee: const-string v2, "receive CarLife driving_status: " // string@4016
+0a7b0c: 6e20 c507 2100                         |02f0: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7b12: 6e20 c507 0100                         |02f3: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7b18: 6e10 c907 0100                         |02f6: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7b1e: 0c00                                   |02f9: move-result-object v0
+0a7b20: 7120 1304 0300                         |02fa: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7b26: 1202                                   |02fd: const/4 v2, #int 0 // #0
+0a7b28: 2900 5b01                              |02fe: goto/16 0459 // +015b
+0a7b2c: 1a02 de47                              |0300: const-string v2, "use_carlife_opengl" // string@47de
+0a7b30: 6e20 a507 4200                         |0302: invoke-virtual {v2, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7b36: 0a02                                   |0305: move-result v2
+0a7b38: 3802 5600                              |0306: if-eqz v2, 035c // +0056
+0a7b3c: 6e20 af04 d100                         |0308: invoke-virtual {v1, v13}, Lcom/xiaomi/ucar/carlife/k;.l:(Ljava/lang/String;)J // method@04af
+0a7b42: 0b00                                   |030b: move-result-wide v0
+0a7b44: 2202 a502                              |030c: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a7b48: 7010 bd07 0200                         |030e: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7b4e: 6e20 c507 c200                         |0311: invoke-virtual {v2, v12}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7b54: 6e30 c307 0201                         |0314: invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@07c3
+0a7b5a: 6e10 c907 0200                         |0317: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7b60: 0c02                                   |031a: move-result-object v2
+0a7b62: 7120 1304 2300                         |031b: invoke-static {v3, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7b68: 1604 ffff                              |031e: const-wide/16 v4, #int -1 // #ffff
+0a7b6c: 3102 0004                              |0320: cmp-long v2, v0, v4
+0a7b70: 3802 2100                              |0322: if-eqz v2, 0343 // +0021
+0a7b74: 1604 eb00                              |0324: const-wide/16 v4, #int 235 // #eb
+0a7b78: 3100 0004                              |0326: cmp-long v0, v0, v4
+0a7b7c: 3c00 1b00                              |0328: if-gtz v0, 0343 // +001b
+0a7b80: 1202                                   |032a: const/4 v2, #int 0 // #0
+0a7b82: 1102                                   |032b: return-object v2
+0a7b84: 0d00                                   |032c: move-exception v0
+0a7b86: 2201 a502                              |032d: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7b8a: 7010 bd07 0100                         |032f: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7b90: 6e20 c507 7100                         |0332: invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7b96: 6e10 d707 0000                         |0335: invoke-virtual {v0}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a7b9c: 0c00                                   |0338: move-result-object v0
+0a7b9e: 6e20 c507 0100                         |0339: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ba4: 6e10 c907 0100                         |033c: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7baa: 0c00                                   |033f: move-result-object v0
+0a7bac: 7120 1604 0300                         |0340: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7bb2: 2202 6b00                              |0343: new-instance v2, Landroid/os/Bundle; // type@006b
+0a7bb6: 7010 3501 0200                         |0345: invoke-direct {v2}, Landroid/os/Bundle;.<init>:()V // method@0135
+0a7bbc: 7100 1910 0000                         |0348: invoke-static {}, Ln1/f;.a:()Landroid/content/Context; // method@1019
+0a7bc2: 0c00                                   |034b: move-result-object v0
+0a7bc4: 7110 f403 0000                         |034c: invoke-static {v0}, Lcom/carwith/common/utils/f0;.c:(Landroid/content/Context;)Lcom/carwith/common/utils/f0; // method@03f4
+0a7bca: 0c00                                   |034f: move-result-object v0
+0a7bcc: 1221                                   |0350: const/4 v1, #int 2 // #2
+0a7bce: 1214                                   |0351: const/4 v4, #int 1 // #1
+0a7bd0: 6e40 f503 4021                         |0352: invoke-virtual {v0, v4, v1, v2}, Lcom/carwith/common/utils/f0;.p:(IILandroid/os/Bundle;)I // method@03f5
+0a7bd6: 1a00 4022                              |0355: const-string v0, "enable opengl limited fps function, but disable video stream scale." // string@2240
+0a7bda: 7120 1304 0300                         |0357: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7be0: 2900 ff00                              |035a: goto/16 0459 // +00ff
+0a7be4: 1202                                   |035c: const/4 v2, #int 0 // #0
+0a7be6: 1a05 301e                              |035d: const-string v5, "carlife_change_theme" // string@1e30
+0a7bea: 6e20 a507 4500                         |035f: invoke-virtual {v5, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7bf0: 0a05                                   |0362: move-result v5
+0a7bf2: 3805 7100                              |0363: if-eqz v5, 03d4 // +0071
+0a7bf6: 7100 0404 0000                         |0365: invoke-static {}, Lcom/carwith/common/utils/j0;.f:()Lcom/carwith/common/utils/j0; // method@0404
+0a7bfc: 0c01                                   |0368: move-result-object v1
+0a7bfe: 6e10 0304 0100                         |0369: invoke-virtual {v1}, Lcom/carwith/common/utils/j0;.c:()I // method@0403
+0a7c04: 0a01                                   |036c: move-result v1
+0a7c06: 3901 6000                              |036d: if-nez v1, 03cd // +0060
+0a7c0a: 7401 9500 1100                         |036f: invoke-virtual/range {v17}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a7c10: 0c00                                   |0372: move-result-object v0
+0a7c12: 3800 e600                              |0373: if-eqz v0, 0459 // +00e6
+0a7c16: 1a01 9438                              |0375: const-string v1, "mode" // string@3894
+0a7c1a: 6e20 2c01 1000                         |0377: invoke-virtual {v0, v1}, Landroid/os/BaseBundle;.getInt:(Ljava/lang/String;)I // method@012c
+0a7c20: 0a00                                   |037a: move-result v0
+0a7c22: 2201 a502                              |037b: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7c26: 7010 bd07 0100                         |037d: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7c2c: 1a04 8420                              |0380: const-string v4, "dayNigheMode: " // string@2084
+0a7c30: 6e20 c507 4100                         |0382: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7c36: 6e20 c207 0100                         |0385: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7c3c: 6e10 c907 0100                         |0388: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7c42: 0c01                                   |038b: move-result-object v1
+0a7c44: 7120 1304 1300                         |038c: invoke-static {v3, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7c4a: 3800 2300                              |038f: if-eqz v0, 03b2 // +0023
+0a7c4e: 1211                                   |0391: const/4 v1, #int 1 // #1
+0a7c50: 3210 1700                              |0392: if-eq v0, v1, 03a9 // +0017
+0a7c54: 2201 a502                              |0394: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7c58: 7010 bd07 0100                         |0396: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7c5e: 1a04 8c47                              |0399: const-string v4, "unknown dayNigheMode: " // string@478c
+0a7c62: 6e20 c507 4100                         |039b: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7c68: 6e20 c207 0100                         |039e: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7c6e: 6e10 c907 0100                         |03a1: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7c74: 0c00                                   |03a4: move-result-object v0
+0a7c76: 7120 1304 0300                         |03a5: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7c7c: 2812                                   |03a8: goto 03ba // +0012
+0a7c7e: 7100 0404 0000                         |03a9: invoke-static {}, Lcom/carwith/common/utils/j0;.f:()Lcom/carwith/common/utils/j0; // method@0404
+0a7c84: 0c00                                   |03ac: move-result-object v0
+0a7c86: 1231                                   |03ad: const/4 v1, #int 3 // #3
+0a7c88: 6e20 0504 1000                         |03ae: invoke-virtual {v0, v1}, Lcom/carwith/common/utils/j0;.k:(I)V // method@0405
+0a7c8e: 2809                                   |03b1: goto 03ba // +0009
+0a7c90: 7100 0404 0000                         |03b2: invoke-static {}, Lcom/carwith/common/utils/j0;.f:()Lcom/carwith/common/utils/j0; // method@0404
+0a7c96: 0c00                                   |03b5: move-result-object v0
+0a7c98: 1221                                   |03b6: const/4 v1, #int 2 // #2
+0a7c9a: 6e20 0504 1000                         |03b7: invoke-virtual {v0, v1}, Lcom/carwith/common/utils/j0;.k:(I)V // method@0405
+0a7ca0: 7100 0404 0000                         |03ba: invoke-static {}, Lcom/carwith/common/utils/j0;.f:()Lcom/carwith/common/utils/j0; // method@0404
+0a7ca6: 0c00                                   |03bd: move-result-object v0
+0a7ca8: 1205                                   |03be: const/4 v5, #int 0 // #0
+0a7caa: 6e20 0604 5000                         |03bf: invoke-virtual {v0, v5}, Lcom/carwith/common/utils/j0;.l:(I)V // method@0406
+0a7cb0: 1a00 261b                              |03c2: const-string v0, "action_day_night_switch" // string@1b26
+0a7cb4: 7110 ab03 0000                         |03c4: invoke-static {v0}, Lcc/a;.b:(Ljava/lang/String;)Lcom/thkj/liveeventbus/core/b; // method@03ab
+0a7cba: 0c01                                   |03c7: move-result-object v1
+0a7cbc: 7220 2304 0100                         |03c8: invoke-interface {v1, v0}, Lcom/thkj/liveeventbus/core/b;.c:(Ljava/lang/Object;)V // method@0423
+0a7cc2: 2900 8e00                              |03cb: goto/16 0459 // +008e
+0a7cc6: 1a00 a149                              |03cd: const-string v0, "yundian data is not used" // string@49a1
+0a7cca: 7120 1304 0300                         |03cf: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7cd0: 2900 8700                              |03d2: goto/16 0459 // +0087
+0a7cd4: 1205                                   |03d4: const/4 v5, #int 0 // #0
+0a7cd6: 1a07 361e                              |03d5: const-string v7, "carlife_notify_disconnect" // string@1e36
+0a7cda: 6e20 a507 4700                         |03d7: invoke-virtual {v7, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7ce0: 0a07                                   |03da: move-result v7
+0a7ce2: 3807 2300                              |03db: if-eqz v7, 03fe // +0023
+0a7ce6: 7100 5406 0000                         |03dd: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a7cec: 0c00                                   |03e0: move-result-object v0
+0a7cee: 6e10 5606 0000                         |03e1: invoke-virtual {v0}, Le2/g;.p:()Z // method@0656
+0a7cf4: 0a00                                   |03e4: move-result v0
+0a7cf6: 3900 1500                              |03e5: if-nez v0, 03fa // +0015
+0a7cfa: 7100 5406 0000                         |03e7: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a7d00: 0c00                                   |03ea: move-result-object v0
+0a7d02: 1217                                   |03eb: const/4 v7, #int 1 // #1
+0a7d04: 6e20 4f06 7000                         |03ec: invoke-virtual {v0, v7}, Le2/g;.D:(Z)V // method@064f
+0a7d0a: 7100 5406 0000                         |03ef: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a7d10: 0c00                                   |03f2: move-result-object v0
+0a7d12: 7100 f303 0000                         |03f3: invoke-static {}, Lcom/carwith/common/utils/e;.a:()Landroid/app/Application; // method@03f3
+0a7d18: 0c03                                   |03f6: move-result-object v3
+0a7d1a: 6e20 5106 3000                         |03f7: invoke-virtual {v0, v3}, Le2/g;.e:(Landroid/content/Context;)V // method@0651
+0a7d20: 7401 a204 1000                         |03fa: invoke-virtual/range {v16}, Lcom/xiaomi/ucar/carlife/k;.Q:()V // method@04a2
+0a7d26: 285c                                   |03fd: goto 0459 // +005c
+0a7d28: 1217                                   |03fe: const/4 v7, #int 1 // #1
+0a7d2a: 1a01 311e                              |03ff: const-string v1, "carlife_connect_audio_type" // string@1e31
+0a7d2e: 6e20 a507 4100                         |0401: invoke-virtual {v1, v4}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a7d34: 0a01                                   |0404: move-result v1
+0a7d36: 3801 5400                              |0405: if-eqz v1, 0459 // +0054
+0a7d3a: 7401 9500 1100                         |0407: invoke-virtual/range {v17}, Landroid/content/Intent;.getExtras:()Landroid/os/Bundle; // method@0095
+0a7d40: 0c00                                   |040a: move-result-object v0
+0a7d42: 3800 4e00                              |040b: if-eqz v0, 0459 // +004e
+0a7d46: 6e20 2d01 6000                         |040d: invoke-virtual {v0, v6}, Landroid/os/BaseBundle;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@012d
+0a7d4c: 0c00                                   |0410: move-result-object v0
+0a7d4e: 3800 4800                              |0411: if-eqz v0, 0459 // +0048
+0a7d52: 2201 3d04                              |0413: new-instance v1, Lorg/json/JSONObject; // type@043d
+0a7d56: 7020 2710 0100                         |0415: invoke-direct {v1, v0}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@1027
+0a7d5c: 1a00 921c                              |0418: const-string v0, "audioType" // string@1c92
+0a7d60: 6e20 2810 0100                         |041a: invoke-virtual {v1, v0}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@1028
+0a7d66: 0a00                                   |041d: move-result v0
+0a7d68: 7100 4806 0000                         |041e: invoke-static {}, Le2/a;.n:()Le2/a; // method@0648
+0a7d6e: 0c01                                   |0421: move-result-object v1
+0a7d70: 1224                                   |0422: const/4 v4, #int 2 // #2
+0a7d72: 3304 0400                              |0423: if-ne v4, v0, 0427 // +0004
+0a7d76: 017f                                   |0425: move v15, v7
+0a7d78: 2802                                   |0426: goto 0428 // +0002
+0a7d7a: 015f                                   |0427: move v15, v5
+0a7d7c: 6e20 3f06 f100                         |0428: invoke-virtual {v1, v15}, Le2/a;.A:(Z)V // method@063f
+0a7d82: 2201 a502                              |042b: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7d86: 7010 bd07 0100                         |042d: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7d8c: 1a04 2e1e                              |0430: const-string v4, "carlife audio channel: " // string@1e2e
+0a7d90: 6e20 c507 4100                         |0432: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7d96: 6e20 c207 0100                         |0435: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a7d9c: 6e10 c907 0100                         |0438: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7da2: 0c00                                   |043b: move-result-object v0
+0a7da4: 7120 1304 0300                         |043c: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7daa: 281a                                   |043f: goto 0459 // +001a
+0a7dac: 0d00                                   |0440: move-exception v0
+0a7dae: 2201 a502                              |0441: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a7db2: 7010 bd07 0100                         |0443: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7db8: 1a04 9908                              |0446: const-string v4, "Invalid carlife audio params: " // string@0899
+0a7dbc: 6e20 c507 4100                         |0448: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7dc2: 6e10 d707 0000                         |044b: invoke-virtual {v0}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a7dc8: 0c00                                   |044e: move-result-object v0
+0a7dca: 6e20 c507 0100                         |044f: invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7dd0: 6e10 c907 0100                         |0452: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7dd6: 0c00                                   |0455: move-result-object v0
+0a7dd8: 7120 1104 0300                         |0456: invoke-static {v3, v0}, Lcom/carwith/common/utils/w1;.B:(Ljava/lang/String;Ljava/lang/String;)V // method@0411
+0a7dde: 1102                                   |0459: return-object v2
+      catches       : 4
+        0x023c - 0x0286
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x0279
+        0x02b4 - 0x02b9
+          Lorg/json/JSONException; -> 0x02ba
+        0x0308 - 0x031e
+          Landroid/content/pm/PackageManager$NameNotFoundException; -> 0x032c
+        0x0413 - 0x043f
+          Lorg/json/JSONException; -> 0x0440
+
+    #26              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 's'
+      type          : '(Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 2
+      outs          : 2
+      insns size    : 112 16-bit code units
+0a7e14:                                        |[0a7e14] com.xiaomi.ucar.carlife.k.s:(Landroid/content/Intent;)Landroid/os/Bundle;
+0a7e24: 1200                                   |0000: const/4 v0, #int 0 // #0
+0a7e26: 1a01 1c04                              |0001: const-string v1, "CarlifeController" // string@041c
+0a7e2a: 3906 0800                              |0003: if-nez v6, 000b // +0008
+0a7e2e: 1a05 f818                              |0005: const-string v5, "[invokeMethod], intent = null" // string@18f8
+0a7e32: 7120 1304 5100                         |0007: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7e38: 1100                                   |000a: return-object v0
+0a7e3a: 2202 a502                              |000b: new-instance v2, Ljava/lang/StringBuilder; // type@02a5
+0a7e3e: 7010 bd07 0200                         |000d: invoke-direct {v2}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7e44: 1a03 f618                              |0010: const-string v3, "[invokeMethod], action = " // string@18f6
+0a7e48: 6e20 c507 3200                         |0012: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7e4e: 6e10 9400 0600                         |0015: invoke-virtual {v6}, Landroid/content/Intent;.getAction:()Ljava/lang/String; // method@0094
+0a7e54: 0c03                                   |0018: move-result-object v3
+0a7e56: 6e20 c507 3200                         |0019: invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7e5c: 6e10 c907 0200                         |001c: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7e62: 0c02                                   |001f: move-result-object v2
+0a7e64: 7120 1304 2100                         |0020: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7e6a: 1a02 f93b                              |0023: const-string v2, "params" // string@3bf9
+0a7e6e: 6e20 9700 2600                         |0025: invoke-virtual {v6, v2}, Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String; // method@0097
+0a7e74: 0c03                                   |0028: move-result-object v3
+0a7e76: 7110 7601 0300                         |0029: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0176
+0a7e7c: 0a03                                   |002c: move-result v3
+0a7e7e: 3903 1a00                              |002d: if-nez v3, 0047 // +001a
+0a7e82: 2203 a502                              |002f: new-instance v3, Ljava/lang/StringBuilder; // type@02a5
+0a7e86: 7010 bd07 0300                         |0031: invoke-direct {v3}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7e8c: 1a04 fa3b                              |0034: const-string v4, "params = " // string@3bfa
+0a7e90: 6e20 c507 4300                         |0036: invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7e96: 6e20 9700 2600                         |0039: invoke-virtual {v6, v2}, Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String; // method@0097
+0a7e9c: 0c02                                   |003c: move-result-object v2
+0a7e9e: 6e20 c507 2300                         |003d: invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ea4: 6e10 c907 0300                         |0040: invoke-virtual {v3}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7eaa: 0c02                                   |0043: move-result-object v2
+0a7eac: 7120 1304 2100                         |0044: invoke-static {v1, v2}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7eb2: 5455 fc34                              |0047: iget-object v5, v5, Lcom/xiaomi/ucar/carlife/k;.a:Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback; // field@34fc
+0a7eb6: 3905 0800                              |0049: if-nez v5, 0051 // +0008
+0a7eba: 1a05 f918                              |004b: const-string v5, "[invokeMethod], mCastCallback = null" // string@18f9
+0a7ebe: 7120 1304 5100                         |004d: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a7ec4: 1100                                   |0050: return-object v0
+0a7ec6: 7220 dc03 6500                         |0051: invoke-interface {v5, v6}, Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;.invokeMethod:(Landroid/content/Intent;)Landroid/os/Bundle; // method@03dc
+0a7ecc: 0c05                                   |0054: move-result-object v5
+0a7ece: 1105                                   |0055: return-object v5
+0a7ed0: 0d05                                   |0056: move-exception v5
+0a7ed2: 2206 a502                              |0057: new-instance v6, Ljava/lang/StringBuilder; // type@02a5
+0a7ed6: 7010 bd07 0600                         |0059: invoke-direct {v6}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a7edc: 1a02 f718                              |005c: const-string v2, "[invokeMethod], fail: " // string@18f7
+0a7ee0: 6e20 c507 2600                         |005e: invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ee6: 6e10 d707 0500                         |0061: invoke-virtual {v5}, Ljava/lang/Throwable;.getLocalizedMessage:()Ljava/lang/String; // method@07d7
+0a7eec: 0c05                                   |0064: move-result-object v5
+0a7eee: 6e20 c507 5600                         |0065: invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a7ef4: 6e10 c907 0600                         |0068: invoke-virtual {v6}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a7efa: 0c05                                   |006b: move-result-object v5
+0a7efc: 7120 1604 5100                         |006c: invoke-static {v1, v5}, Lcom/carwith/common/utils/w1;.h:(Ljava/lang/String;Ljava/lang/String;)V // method@0416
+0a7f02: 1100                                   |006f: return-object v0
+      catches       : 1
+        0x0051 - 0x0055
+          Landroid/os/RemoteException; -> 0x0056
+
+    #27              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 't'
+      type          : '(IFF)Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 5
+      insns size    : 54 16-bit code units
+0a8014:                                        |[0a8014] com.xiaomi.ucar.carlife.k.t:(IFF)Z
+0a8024: 7100 ea03 0000                         |0000: invoke-static {}, Lcom/carwith/common/display/IDisplayStackManager;.a:()Lcom/carwith/common/display/IDisplayStackManager; // method@03ea
+0a802a: 0c01                                   |0003: move-result-object v1
+0a802c: 1200                                   |0004: const/4 v0, #int 0 // #0
+0a802e: 3901 0300                              |0005: if-nez v1, 0008 // +0003
+0a8032: 0f00                                   |0007: return v0
+0a8034: 3a02 0700                              |0008: if-ltz v2, 000f // +0007
+0a8038: 7254 ec03 0132                         |000a: invoke-interface {v1, v0, v2, v3, v4}, Lcom/carwith/common/display/IDisplayStackManager;.getTopWindowFocusDisplay:(ZIFF)Lcom/carwith/common/navigationrouting/DisplayStack; // method@03ec
+0a803e: 0c01                                   |000d: move-result-object v1
+0a8040: 2805                                   |000e: goto 0013 // +0005
+0a8042: 7210 eb03 0100                         |000f: invoke-interface {v1}, Lcom/carwith/common/display/IDisplayStackManager;.getTopWindowFocusDisplay:()Lcom/carwith/common/navigationrouting/DisplayStack; // method@03eb
+0a8048: 0c01                                   |0012: move-result-object v1
+0a804a: 3801 2200                              |0013: if-eqz v1, 0035 // +0022
+0a804e: 7210 ed03 0100                         |0015: invoke-interface {v1}, Lcom/carwith/common/navigationrouting/DisplayStack;.B:()Ljava/lang/String; // method@03ed
+0a8054: 0c02                                   |0018: move-result-object v2
+0a8056: 7110 7601 0200                         |0019: invoke-static {v2}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0176
+0a805c: 0a02                                   |001c: move-result v2
+0a805e: 3802 0300                              |001d: if-eqz v2, 0020 // +0003
+0a8062: 2816                                   |001f: goto 0035 // +0016
+0a8064: 7210 ed03 0100                         |0020: invoke-interface {v1}, Lcom/carwith/common/navigationrouting/DisplayStack;.B:()Ljava/lang/String; // method@03ed
+0a806a: 0c01                                   |0023: move-result-object v1
+0a806c: 1a02 7d03                              |0024: const-string v2, "BigMapDisplay" // string@037d
+0a8070: 6e20 a507 1200                         |0026: invoke-virtual {v2, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a8076: 0a02                                   |0029: move-result v2
+0a8078: 3902 0a00                              |002a: if-nez v2, 0034 // +000a
+0a807c: 1a02 e503                              |002c: const-string v2, "CardMinMapDisplay" // string@03e5
+0a8080: 6e20 a507 1200                         |002e: invoke-virtual {v2, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@07a5
+0a8086: 0a01                                   |0031: move-result v1
+0a8088: 3801 0300                              |0032: if-eqz v1, 0035 // +0003
+0a808c: 1210                                   |0034: const/4 v0, #int 1 // #1
+0a808e: 0f00                                   |0035: return v0
+      catches       : (none)
+
+    #28              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'u'
+      type          : '()Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 2
+      insns size    : 50 16-bit code units
+0a8090:                                        |[0a8090] com.xiaomi.ucar.carlife.k.u:()Z
+0a80a0: 7100 5406 0000                         |0000: invoke-static {}, Le2/g;.i:()Le2/g; // method@0654
+0a80a6: 0c03                                   |0003: move-result-object v3
+0a80a8: 6e10 5706 0300                         |0004: invoke-virtual {v3}, Le2/g;.r:()Z // method@0657
+0a80ae: 0a00                                   |0007: move-result v0
+0a80b0: 1201                                   |0008: const/4 v1, #int 0 // #0
+0a80b2: 3900 2800                              |0009: if-nez v0, 0031 // +0028
+0a80b6: 6e10 5506 0300                         |000b: invoke-virtual {v3}, Le2/g;.k:()Z // method@0655
+0a80bc: 0a00                                   |000e: move-result v0
+0a80be: 3900 0300                              |000f: if-nez v0, 0012 // +0003
+0a80c2: 2820                                   |0011: goto 0031 // +0020
+0a80c4: 6e10 5206 0300                         |0012: invoke-virtual {v3}, Le2/g;.g:()Ljava/lang/String; // method@0652
+0a80ca: 0c00                                   |0015: move-result-object v0
+0a80cc: 6e10 5306 0300                         |0016: invoke-virtual {v3}, Le2/g;.h:()Ljava/lang/String; // method@0653
+0a80d2: 0c03                                   |0019: move-result-object v3
+0a80d4: 1a02 9700                              |001a: const-string v2, "8C:BD:37:5B:05:17" // string@0097
+0a80d8: 6e20 a607 0200                         |001c: invoke-virtual {v2, v0}, Ljava/lang/String;.equalsIgnoreCase:(Ljava/lang/String;)Z // method@07a6
+0a80de: 0a00                                   |001f: move-result v0
+0a80e0: 3900 1000                              |0020: if-nez v0, 0030 // +0010
+0a80e4: 7110 7601 0300                         |0022: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0176
+0a80ea: 0a00                                   |0025: move-result v0
+0a80ec: 3900 0b00                              |0026: if-nez v0, 0031 // +000b
+0a80f0: 1a00 a203                              |0028: const-string v0, "Box-041D" // string@03a2
+0a80f4: 6e20 b307 0300                         |002a: invoke-virtual {v3, v0}, Ljava/lang/String;.startsWith:(Ljava/lang/String;)Z // method@07b3
+0a80fa: 0a03                                   |002d: move-result v3
+0a80fc: 3803 0300                              |002e: if-eqz v3, 0031 // +0003
+0a8100: 1211                                   |0030: const/4 v1, #int 1 // #1
+0a8102: 0f01                                   |0031: return v1
+      catches       : (none)
+
+    #29              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'v'
+      type          : '(II)Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 0
+      insns size    : 14 16-bit code units
+0a8104:                                        |[0a8104] com.xiaomi.ucar.carlife.k.v:(II)Z
+0a8114: 3d01 0c00                              |0000: if-lez v1, 000c // +000c
+0a8118: 1300 0010                              |0002: const/16 v0, #int 4096 // #1000
+0a811c: 3601 0800                              |0004: if-gt v1, v0, 000c // +0008
+0a8120: 3d02 0600                              |0006: if-lez v2, 000c // +0006
+0a8124: 3602 0400                              |0008: if-gt v2, v0, 000c // +0004
+0a8128: 1210                                   |000a: const/4 v0, #int 1 // #1
+0a812a: 2802                                   |000b: goto 000d // +0002
+0a812c: 1200                                   |000c: const/4 v0, #int 0 // #0
+0a812e: 0f00                                   |000d: return v0
+      catches       : (none)
+
+    #30              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'w'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 3
+      insns size    : 55 16-bit code units
+0a89c4:                                        |[0a89c4] com.xiaomi.ucar.carlife.k.w:(Ljava/lang/String;)V
+0a89d4: 1a04 773b                              |0000: const-string v4, "onReceive" // string@3b77
+0a89d8: 1a00 1c04                              |0002: const-string v0, "CarlifeController" // string@041c
+0a89dc: 7120 1304 4000                         |0004: invoke-static {v0, v4}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a89e2: 7100 e503 0000                         |0007: invoke-static {}, Lcom/blankj/utilcode/util/k;.e:()Lcom/blankj/utilcode/util/k; // method@03e5
+0a89e8: 0c04                                   |000a: move-result-object v4
+0a89ea: 1a01 e747                              |000b: const-string v1, "user_setting_framerate" // string@47e7
+0a89ee: 7100 f203 0000                         |000d: invoke-static {}, Lcom/carwith/common/utils/d;.b:()I // method@03f2
+0a89f4: 0a02                                   |0010: move-result v2
+0a89f6: 6e30 e603 1402                         |0011: invoke-virtual {v4, v1, v2}, Lcom/blankj/utilcode/util/k;.i:(Ljava/lang/String;I)I // method@03e6
+0a89fc: 0a04                                   |0014: move-result v4
+0a89fe: 7110 0c04 0400                         |0015: invoke-static {v4}, Lcom/carwith/common/utils/u2;.b:(I)I // method@040c
+0a8a04: 0a04                                   |0018: move-result v4
+0a8a06: 2201 a502                              |0019: new-instance v1, Ljava/lang/StringBuilder; // type@02a5
+0a8a0a: 7010 bd07 0100                         |001b: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@07bd
+0a8a10: 1a02 e047                              |001e: const-string v2, "user set frame rate:" // string@47e0
+0a8a14: 6e20 c507 2100                         |0020: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@07c5
+0a8a1a: 6e20 c207 4100                         |0023: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@07c2
+0a8a20: 6e10 c907 0100                         |0026: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@07c9
+0a8a26: 0c01                                   |0029: move-result-object v1
+0a8a28: 7120 1304 1000                         |002a: invoke-static {v0, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0413
+0a8a2e: 6e20 9204 4300                         |002d: invoke-virtual {v3, v4}, Lcom/xiaomi/ucar/carlife/k;.A:(I)I // method@0492
+0a8a34: 0a04                                   |0030: move-result v4
+0a8a36: 5934 0335                              |0031: iput v4, v3, Lcom/xiaomi/ucar/carlife/k;.h:I // field@3503
+0a8a3a: 6e20 a104 4300                         |0033: invoke-virtual {v3, v4}, Lcom/xiaomi/ucar/carlife/k;.P:(I)V // method@04a1
+0a8a40: 0e00                                   |0036: return-void
+      catches       : (none)
+
+    #31              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'x'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+0a8a44:                                        |[0a8a44] com.xiaomi.ucar.carlife.k.x:(Ljava/lang/String;)V
+0a8a54: 6e10 9b04 0000                         |0000: invoke-virtual {v0}, Lcom/xiaomi/ucar/carlife/k;.J:()V // method@049b
+0a8a5a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #32              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'y'
+      type          : '()V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 4
+      insns size    : 7 16-bit code units
+0a8a5c:                                        |[0a8a5c] com.xiaomi.ucar.carlife.k.y:()V
+0a8a6c: 12f0                                   |0000: const/4 v0, #int -1 // #ff
+0a8a6e: 1501 80bf                              |0001: const/high16 v1, #int -1082130432 // #bf80
+0a8a72: 6e40 ae04 0211                         |0003: invoke-virtual {v2, v0, v1, v1}, Lcom/xiaomi/ucar/carlife/k;.k:(IFF)V // method@04ae
+0a8a78: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #33              : (in Lcom/xiaomi/ucar/carlife/k;)
+      name          : 'z'
+      type          : '(IFF)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 4 16-bit code units
+0a8a7c:                                        |[0a8a7c] com.xiaomi.ucar.carlife.k.z:(IFF)V
+0a8a8c: 6e40 ae04 1032                         |0000: invoke-virtual {v0, v1, v2, v3}, Lcom/xiaomi/ucar/carlife/k;.k:(IFF)V // method@04ae
+0a8a92: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  source_file_idx   : 1053 (CarlifeController.java)
+

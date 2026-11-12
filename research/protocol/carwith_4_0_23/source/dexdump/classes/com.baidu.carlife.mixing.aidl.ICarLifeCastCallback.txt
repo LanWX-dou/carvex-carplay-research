@@ -1,0 +1,90 @@
+Class #3634            -
+  Class descriptor  : 'Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;'
+  Access flags      : 0x0601 (PUBLIC INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/os/IInterface;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'addAudioListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteAudioListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #1              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'addKeyListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteKeyListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #2              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'addTouchListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteTouchListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #3              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'invokeMethod'
+      type          : '(Landroid/content/Intent;)Landroid/os/Bundle;'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #4              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'notifyAudioState'
+      type          : '(I)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #5              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'notifyMusicProgress'
+      type          : '(J)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #6              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'onCastPrepared'
+      type          : '(I)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #7              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'onServiceDestroy'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #8              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'onServiceReady'
+      type          : '()V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #9              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'removeAudioListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteAudioListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #10              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'removeKeyListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteKeyListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #11              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'removeTouchListener'
+      type          : '(Lcom/baidu/carlife/mixing/aidl/IRemoteTouchListener;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+    #12              : (in Lcom/baidu/carlife/mixing/aidl/ICarLifeCastCallback;)
+      name          : 'sendMusicInfo'
+      type          : '(Lcom/baidu/carlife/mixing/MusicInfo;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 9756 (ICarLifeCastCallback.java)
+

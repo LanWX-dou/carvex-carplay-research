@@ -1,0 +1,9 @@
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupDebugFeedData
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupDestroy
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupFeedData
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupGetFrameSize
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupInit
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupReset
+Java_com_xiaomi_asr_engine_jni_WakeupEngineInterface_wakeupVersion

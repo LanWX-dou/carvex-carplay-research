@@ -1,0 +1,51 @@
+[
+  {
+    "dex": "classes.dex",
+    "class": "Lcom/carwith/audio/services/IPhoneAudioCallback$Stub;",
+    "field": "TRANSACTION_setAudioPort",
+    "type": "I",
+    "value": 1
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcom/carwith/audio/services/IPhoneAudioCallback$Stub;",
+    "field": "TRANSACTION_setHFPSupportStatus",
+    "type": "I",
+    "value": 11
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcom/carwith/launcher/market/bean/FlatItem;",
+    "field": "TYPE_HEADER",
+    "type": "I",
+    "value": 1
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcom/miui/carlink/databus/ControlChannel;",
+    "field": "EVENT_ID_VRCMD",
+    "type": "I",
+    "value": 5
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcom/miui/carlink/databus/ControlChannel;",
+    "field": "HEADER_LENGTH",
+    "type": "I",
+    "value": 12
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcom/miui/carlink/databus/IDataBusService$Stub;",
+    "field": "TRANSACTION_setAudioSvrPort",
+    "type": "I",
+    "value": 7
+  },
+  {
+    "dex": "classes4.dex",
+    "class": "Lcom/miui/carlink/databus/IDataObserver$Stub;",
+    "field": "TRANSACTION_handleUndefineVRCmd",
+    "type": "I",
+    "value": 25
+  }
+]

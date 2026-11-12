@@ -1,0 +1,354 @@
+Class #4006            -
+  Class descriptor  : 'Llc/d;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Llc/d;)
+      name          : 'a'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Llc/d;)
+      name          : 'b'
+      type          : 'Llc/b;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Llc/d;)
+      name          : 'c'
+      type          : 'Ljava/util/concurrent/atomic/AtomicBoolean;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #3              : (in Llc/d;)
+      name          : 'd'
+      type          : 'Ljava/util/concurrent/atomic/AtomicInteger;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #4              : (in Llc/d;)
+      name          : 'e'
+      type          : 'Z'
+      access        : 0x0041 (PUBLIC VOLATILE)
+    #5              : (in Llc/d;)
+      name          : 'f'
+      type          : '[Z'
+      access        : 0x0041 (PUBLIC VOLATILE)
+  Direct methods    -
+    #0              : (in Llc/d;)
+      name          : '<init>'
+      type          : '(Landroid/content/Context;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 41 16-bit code units
+435850:                                        |[435850] lc.d.<init>:(Landroid/content/Context;Ljava/lang/String;)V
+435860: 7010 e2cb 0200                         |0000: invoke-direct {v2}, Ljava/lang/Object;.<init>:()V // method@cbe2
+435866: 2200 8a20                              |0003: new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean; // type@208a
+43586a: 1201                                   |0005: const/4 v1, #int 0 // #0
+43586c: 7020 34ce 1000                         |0006: invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.<init>:(Z)V // method@ce34
+435872: 5b20 5cda                              |0009: iput-object v0, v2, Llc/d;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@da5c
+435876: 2200 8b20                              |000b: new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger; // type@208b
+43587a: 7020 3ace 1000                         |000d: invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;.<init>:(I)V // method@ce3a
+435880: 5b20 5dda                              |0010: iput-object v0, v2, Llc/d;.d:Ljava/util/concurrent/atomic/AtomicInteger; // field@da5d
+435884: 1220                                   |0012: const/4 v0, #int 2 // #2
+435886: 2300 7d28                              |0013: new-array v0, v0, [Z // type@287d
+43588a: 2600 0f00 0000                         |0015: fill-array-data v0, 00000024 // +0000000f
+435890: 5b20 5fda                              |0018: iput-object v0, v2, Llc/d;.f:[Z // field@da5f
+435894: 5b24 5ada                              |001a: iput-object v4, v2, Llc/d;.a:Ljava/lang/String; // field@da5a
+435898: 2200 ff20                              |001c: new-instance v0, Llc/b; // type@20ff
+43589c: 7030 c6cf 3004                         |001e: invoke-direct {v0, v3, v4}, Llc/b;.<init>:(Landroid/content/Context;Ljava/lang/String;)V // method@cfc6
+4358a2: 5b20 5bda                              |0021: iput-object v0, v2, Llc/d;.b:Llc/b; // field@da5b
+4358a6: 0e00                                   |0023: return-void
+4358a8: 0003 0100 0200 0000 0000               |0024: array-data (5 units)
+      catches       : (none)
+
+    #1              : (in Llc/d;)
+      name          : 'a'
+      type          : '(Llc/d;I)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+435838:                                        |[435838] lc.d.a:(Llc/d;I)V
+435848: 6e20 d7cf 1000                         |0000: invoke-virtual {v0, v1}, Llc/d;.d:(I)V // method@cfd7
+43584e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Llc/d;)
+      name          : 'b'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 7 16-bit code units
+4358b4:                                        |[4358b4] lc.d.b:()V
+4358c4: 5411 5bda                              |0000: iget-object v1, v1, Llc/d;.b:Llc/b; // field@da5b
+4358c8: 1200                                   |0002: const/4 v0, #int 0 // #0
+4358ca: 6e20 cfcf 0100                         |0003: invoke-virtual {v1, v0}, Llc/b;.i:(Llc/b$b;)V // method@cfcf
+4358d0: 0e00                                   |0006: return-void
+      catches       : (none)
+
+    #1              : (in Llc/d;)
+      name          : 'c'
+      type          : '()[Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 2
+      insns size    : 30 16-bit code units
+43568c:                                        |[43568c] lc.d.c:()[Z
+43569c: 7100 e403 0000                         |0000: invoke-static {}, Landroid/os/Looper;.myLooper:()Landroid/os/Looper; // method@03e4
+4356a2: 0c00                                   |0003: move-result-object v0
+4356a4: 7100 e103 0000                         |0004: invoke-static {}, Landroid/os/Looper;.getMainLooper:()Landroid/os/Looper; // method@03e1
+4356aa: 0c01                                   |0007: move-result-object v1
+4356ac: 3310 1100                              |0008: if-ne v0, v1, 0019 // +0011
+4356b0: 6e10 dbcf 0200                         |000a: invoke-virtual {v2}, Llc/d;.h:()V // method@cfdb
+4356b6: 1a00 526e                              |000d: const-string v0, "UCarMapReader" // string@6e52
+4356ba: 1a01 c6a3                              |000f: const-string v1, "hasCommuterAddress() on main thread, return cache only" // string@a3c6
+4356be: 7120 0bcf 1000                         |0011: invoke-static {v0, v1}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+4356c4: 6e10 dccf 0200                         |0014: invoke-virtual {v2}, Llc/d;.i:()[Z // method@cfdc
+4356ca: 0c02                                   |0017: move-result-object v2
+4356cc: 1102                                   |0018: return-object v2
+4356ce: 6e10 d9cf 0200                         |0019: invoke-virtual {v2}, Llc/d;.f:()[Z // method@cfd9
+4356d4: 0c02                                   |001c: move-result-object v2
+4356d6: 1102                                   |001d: return-object v2
+      catches       : (none)
+
+    #2              : (in Llc/d;)
+      name          : 'd'
+      type          : '(I)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 2
+      insns size    : 33 16-bit code units
+4358d4:                                        |[4358d4] lc.d.d:(I)V
+4358e4: 1200                                   |0000: const/4 v0, #int 0 // #0
+4358e6: 6e10 d9cf 0300                         |0001: invoke-virtual {v3}, Llc/d;.f:()[Z // method@cfd9
+4358ec: 0c01                                   |0004: move-result-object v1
+4358ee: 3801 1000                              |0005: if-eqz v1, 0015 // +0010
+4358f2: 5432 5dda                              |0007: iget-object v2, v3, Llc/d;.d:Ljava/util/concurrent/atomic/AtomicInteger; // field@da5d
+4358f6: 6e10 3bce 0200                         |0009: invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;.get:()I // method@ce3b
+4358fc: 0a02                                   |000c: move-result v2
+4358fe: 3324 0800                              |000d: if-ne v4, v2, 0015 // +0008
+435902: 6e20 ddcf 1300                         |000f: invoke-virtual {v3, v1}, Llc/d;.j:([Z)V // method@cfdd
+435908: 2803                                   |0012: goto 0015 // +0003
+43590a: 0d04                                   |0013: move-exception v4
+43590c: 2807                                   |0014: goto 001b // +0007
+43590e: 5433 5cda                              |0015: iget-object v3, v3, Llc/d;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@da5c
+435912: 6e20 38ce 0300                         |0017: invoke-virtual {v3, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@ce38
+435918: 0e00                                   |001a: return-void
+43591a: 5433 5cda                              |001b: iget-object v3, v3, Llc/d;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@da5c
+43591e: 6e20 38ce 0300                         |001d: invoke-virtual {v3, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@ce38
+435924: 2704                                   |0020: throw v4
+      catches       : 1
+        0x0001 - 0x0012
+          <any> -> 0x0013
+
+    #3              : (in Llc/d;)
+      name          : 'e'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+435934:                                        |[435934] lc.d.e:()V
+435944: 6e10 dbcf 0000                         |0000: invoke-virtual {v0}, Llc/d;.h:()V // method@cfdb
+43594a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #4              : (in Llc/d;)
+      name          : 'f'
+      type          : '()[Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 3
+      insns size    : 129 16-bit code units
+4356d8:                                        |[4356d8] lc.d.f:()[Z
+4356e8: 1220                                   |0000: const/4 v0, #int 2 // #2
+4356ea: 7100 6bd0 0000                         |0001: invoke-static {}, Lmc/c;.h:()Lmc/c; // method@d06b
+4356f0: 0c01                                   |0004: move-result-object v1
+4356f2: 5466 5ada                              |0005: iget-object v6, v6, Llc/d;.a:Ljava/lang/String; // field@da5a
+4356f6: 6e20 68d0 6100                         |0007: invoke-virtual {v1, v6}, Lmc/c;.e:(Ljava/lang/String;)Lcom/ucar/map/IUCarMapCallback; // method@d068
+4356fc: 0c06                                   |000a: move-result-object v6
+4356fe: 1a01 526e                              |000b: const-string v1, "UCarMapReader" // string@6e52
+435702: 1202                                   |000d: const/4 v2, #int 0 // #0
+435704: 3906 0d00                              |000e: if-nez v6, 001b // +000d
+435708: 1a06 dca3                              |0010: const-string v6, "hasNavAddress ==> callback is null" // string@a3dc
+43570c: 7120 0bcf 6100                         |0012: invoke-static {v1, v6}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+435712: 2306 7d28                              |0015: new-array v6, v0, [Z // type@287d
+435716: 2606 5f00 0000                         |0017: fill-array-data v6, 00000076 // +0000005f
+43571c: 1106                                   |001a: return-object v6
+43571e: 7210 e003 0600                         |001b: invoke-interface {v6}, Landroid/os/IInterface;.asBinder:()Landroid/os/IBinder; // method@03e0
+435724: 0c03                                   |001e: move-result-object v3
+435726: 7210 db03 0300                         |001f: invoke-interface {v3}, Landroid/os/IBinder;.isBinderAlive:()Z // method@03db
+43572c: 0a03                                   |0022: move-result v3
+43572e: 3903 0d00                              |0023: if-nez v3, 0030 // +000d
+435732: 1a06 dba3                              |0025: const-string v6, "hasNavAddress ==> callback is dead" // string@a3db
+435736: 7120 0bcf 6100                         |0027: invoke-static {v1, v6}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+43573c: 2306 7d28                              |002a: new-array v6, v0, [Z // type@287d
+435740: 2606 5000 0000                         |002c: fill-array-data v6, 0000007c // +00000050
+435746: 1106                                   |002f: return-object v6
+435748: 7210 dc09 0600                         |0030: invoke-interface {v6}, Lcom/ucar/map/IUCarMapCallback;.getCommuterAddress:()Landroid/os/Bundle; // method@09dc
+43574e: 0c06                                   |0033: move-result-object v6
+435750: 3806 1400                              |0034: if-eqz v6, 0048 // +0014
+435754: 1a03 f4e9                              |0036: const-string v3, "ucar.map.bundle.HAS_HAS_SET_HOME" // string@e9f4
+435758: 6e20 6c03 3600                         |0038: invoke-virtual {v6, v3}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@036c
+43575e: 0a03                                   |003b: move-result v3
+435760: 1a04 f3e9                              |003c: const-string v4, "ucar.map.bundle.HAS_HAS_SET_COMPANY" // string@e9f3
+435764: 6e20 6c03 4600                         |003e: invoke-virtual {v6, v4}, Landroid/os/BaseBundle;.getBoolean:(Ljava/lang/String;)Z // method@036c
+43576a: 0a06                                   |0041: move-result v6
+43576c: 280f                                   |0042: goto 0051 // +000f
+43576e: 0d06                                   |0043: move-exception v6
+435770: 2807                                   |0044: goto 004b // +0007
+435772: 0d06                                   |0045: move-exception v6
+435774: 0123                                   |0046: move v3, v2
+435776: 2804                                   |0047: goto 004b // +0004
+435778: 0126                                   |0048: move v6, v2
+43577a: 0163                                   |0049: move v3, v6
+43577c: 2807                                   |004a: goto 0051 // +0007
+43577e: 1a04 e495                              |004b: const-string v4, "getCommuterAddress" // string@95e4
+435782: 7130 0dcf 4106                         |004d: invoke-static {v1, v4, v6}, Lkc/a;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@cf0d
+435788: 0126                                   |0050: move v6, v2
+43578a: 2204 ea1f                              |0051: new-instance v4, Ljava/lang/StringBuilder; // type@1fea
+43578e: 7010 3dcc 0400                         |0053: invoke-direct {v4}, Ljava/lang/StringBuilder;.<init>:()V // method@cc3d
+435794: 1a05 d0a3                              |0056: const-string v5, "hasHomeAddress ==> " // string@a3d0
+435798: 6e20 47cc 5400                         |0058: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+43579e: 6e20 48cc 3400                         |005b: invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+4357a4: 1a05 e202                              |005e: const-string v5, ", hasCompanyAddress => " // string@02e2
+4357a8: 6e20 47cc 5400                         |0060: invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@cc47
+4357ae: 6e20 48cc 6400                         |0063: invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@cc48
+4357b4: 6e10 50cc 0400                         |0066: invoke-virtual {v4}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@cc50
+4357ba: 0c04                                   |0069: move-result-object v4
+4357bc: 7120 0bcf 4100                         |006a: invoke-static {v1, v4}, Lkc/a;.a:(Ljava/lang/String;Ljava/lang/String;)V // method@cf0b
+4357c2: 2300 7d28                              |006d: new-array v0, v0, [Z // type@287d
+4357c6: 4e03 0002                              |006f: aput-boolean v3, v0, v2
+4357ca: 1211                                   |0071: const/4 v1, #int 1 // #1
+4357cc: 4e06 0001                              |0072: aput-boolean v6, v0, v1
+4357d0: 1100                                   |0074: return-object v0
+4357d2: 0000                                   |0075: nop // spacer
+4357d4: 0003 0100 0200 0000 0000               |0076: array-data (5 units)
+4357de: 0000                                   |007b: nop // spacer
+4357e0: 0003 0100 0200 0000 0000               |007c: array-data (5 units)
+      catches       : 2
+        0x0030 - 0x003c
+          Landroid/os/RemoteException; -> 0x0045
+        0x003c - 0x0042
+          Landroid/os/RemoteException; -> 0x0043
+
+    #5              : (in Llc/d;)
+      name          : 'g'
+      type          : '(Llc/b$b;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 3
+      insns size    : 13 16-bit code units
+43594c:                                        |[43594c] lc.d.g:(Llc/b$b;)V
+43595c: 5410 5bda                              |0000: iget-object v0, v1, Llc/d;.b:Llc/b; // field@da5b
+435960: 6e20 cfcf 2000                         |0002: invoke-virtual {v0, v2}, Llc/b;.i:(Llc/b$b;)V // method@cfcf
+435966: 5411 5bda                              |0005: iget-object v1, v1, Llc/d;.b:Llc/b; // field@da5b
+43596a: 1212                                   |0007: const/4 v2, #int 1 // #1
+43596c: 1200                                   |0008: const/4 v0, #int 0 // #0
+43596e: 6e30 cecf 2100                         |0009: invoke-virtual {v1, v2, v0}, Llc/b;.h:(ILandroid/os/Bundle;)V // method@cfce
+435974: 0e00                                   |000c: return-void
+      catches       : (none)
+
+    #6              : (in Llc/d;)
+      name          : 'h'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 44 16-bit code units
+435978:                                        |[435978] lc.d.h:()V
+435988: 5440 5cda                              |0000: iget-object v0, v4, Llc/d;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@da5c
+43598c: 1211                                   |0002: const/4 v1, #int 1 // #1
+43598e: 1202                                   |0003: const/4 v2, #int 0 // #0
+435990: 6e30 35ce 2001                         |0004: invoke-virtual {v0, v2, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;.compareAndSet:(ZZ)Z // method@ce35
+435996: 0a00                                   |0007: move-result v0
+435998: 3900 0300                              |0008: if-nez v0, 000b // +0003
+43599c: 0e00                                   |000a: return-void
+43599e: 5440 5dda                              |000b: iget-object v0, v4, Llc/d;.d:Ljava/util/concurrent/atomic/AtomicInteger; // field@da5d
+4359a2: 6e10 3bce 0000                         |000d: invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;.get:()I // method@ce3b
+4359a8: 0a00                                   |0010: move-result v0
+4359aa: 7100 ffd5 0000                         |0011: invoke-static {}, Loc/a;.b:()Loc/a; // method@d5ff
+4359b0: 0c01                                   |0014: move-result-object v1
+4359b2: 2203 0021                              |0015: new-instance v3, Llc/c; // type@2100
+4359b6: 7030 d1cf 4300                         |0017: invoke-direct {v3, v4, v0}, Llc/c;.<init>:(Llc/d;I)V // method@cfd1
+4359bc: 6e20 fed5 3100                         |001a: invoke-virtual {v1, v3}, Loc/a;.a:(Ljava/lang/Runnable;)V // method@d5fe
+4359c2: 280e                                   |001d: goto 002b // +000e
+4359c4: 0d00                                   |001e: move-exception v0
+4359c6: 5444 5cda                              |001f: iget-object v4, v4, Llc/d;.c:Ljava/util/concurrent/atomic/AtomicBoolean; // field@da5c
+4359ca: 6e20 38ce 2400                         |0021: invoke-virtual {v4, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;.set:(Z)V // method@ce38
+4359d0: 1a04 526e                              |0024: const-string v4, "UCarMapReader" // string@6e52
+4359d4: 1a01 28ce                              |0026: const-string v1, "refreshCommuterAddressAsync execute fail" // string@ce28
+4359d8: 7130 0dcf 1400                         |0028: invoke-static {v4, v1, v0}, Lkc/a;.c:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V // method@cf0d
+4359de: 0e00                                   |002b: return-void
+      catches       : 1
+        0x0011 - 0x001d
+          Ljava/lang/Exception; -> 0x001e
+
+    #7              : (in Llc/d;)
+      name          : 'i'
+      type          : '()[Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 0
+      insns size    : 16 16-bit code units
+435808:                                        |[435808] lc.d.i:()[Z
+435818: 5444 5fda                              |0000: iget-object v4, v4, Llc/d;.f:[Z // field@da5f
+43581c: 1200                                   |0002: const/4 v0, #int 0 // #0
+43581e: 4701 0400                              |0003: aget-boolean v1, v4, v0
+435822: 1212                                   |0005: const/4 v2, #int 1 // #1
+435824: 4704 0402                              |0006: aget-boolean v4, v4, v2
+435828: 1223                                   |0008: const/4 v3, #int 2 // #2
+43582a: 2333 7d28                              |0009: new-array v3, v3, [Z // type@287d
+43582e: 4e01 0300                              |000b: aput-boolean v1, v3, v0
+435832: 4e04 0302                              |000d: aput-boolean v4, v3, v2
+435836: 1103                                   |000f: return-object v3
+      catches       : (none)
+
+    #8              : (in Llc/d;)
+      name          : 'j'
+      type          : '([Z)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 0
+      insns size    : 24 16-bit code units
+4359f0:                                        |[4359f0] lc.d.j:([Z)V
+435a00: 1210                                   |0000: const/4 v0, #int 1 // #1
+435a02: 1201                                   |0001: const/4 v1, #int 0 // #0
+435a04: 1222                                   |0002: const/4 v2, #int 2 // #2
+435a06: 3805 1400                              |0003: if-eqz v5, 0017 // +0014
+435a0a: 2153                                   |0005: array-length v3, v5
+435a0c: 3523 0300                              |0006: if-ge v3, v2, 0009 // +0003
+435a10: 280f                                   |0008: goto 0017 // +000f
+435a12: 4703 0501                              |0009: aget-boolean v3, v5, v1
+435a16: 4705 0500                              |000b: aget-boolean v5, v5, v0
+435a1a: 2322 7d28                              |000d: new-array v2, v2, [Z // type@287d
+435a1e: 4e03 0201                              |000f: aput-boolean v3, v2, v1
+435a22: 4e05 0200                              |0011: aput-boolean v5, v2, v0
+435a26: 5b42 5fda                              |0013: iput-object v2, v4, Llc/d;.f:[Z // field@da5f
+435a2a: 5c40 5eda                              |0015: iput-boolean v0, v4, Llc/d;.e:Z // field@da5e
+435a2e: 0e00                                   |0017: return-void
+      catches       : (none)
+
+  source_file_idx   : 28243 (UCarMapReader.java)
+

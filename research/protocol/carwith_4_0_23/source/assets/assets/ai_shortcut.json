@@ -1,0 +1,731 @@
+[
+  {
+    "skill_id": "35",
+    "name": "记个便签",
+    "brief": "随时记下灵感瞬间",
+    "description": "一键快速创建新便签，随时记录生活点滴，不错过灵感瞬间",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#ebad2e",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "cover_info": {
+      "cover_layout_type": 0,
+      "data_type": 0,
+      "cover_data": {
+        "bg_color": "#ebad2e",
+        "html_text": "",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/bianqian2.png",
+        "title": "记个便签",
+        "sub_title": "随手记录身边事"
+      }
+    },
+    "path": {
+      "node_id": "1946",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "新建便签",
+      "sub_nodes": [
+        {
+          "exe_query_template": "新建便签",
+          "node_name": "新建便签",
+          "node_id": "1947",
+          "intent_uri": "intent:#Intent;action=android.intent.action.SEND;type=text/plain;package=com.miui.notes;B.StartActivityWhenLocked=true;S.android.intent.extra.TEXT=;end",
+          "intent_type": "activity",
+          "package_name": "com.miui.notes"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "69",
+    "name": "天天出行",
+    "brief": "日常通勤一卡通，你要的都在这里了",
+    "description": "往来家和公司，开车打车公交各种交通方式全部一卡集成",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#33bfd1",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "cover_info": {
+      "cover_layout_type": 0,
+      "data_type": 0,
+      "cover_data": {
+        "bg_color": "#33bfd1",
+        "html_text": "",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/tiantianchuxing2.png",
+        "title": "天天出行",
+        "sub_title": "一键快速出发"
+      }
+    },
+    "path": {
+      "node_id": "2267",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "打车去公司",
+      "params": [
+        {
+          "name": "address_home",
+          "display_name": "家庭地址",
+          "value": "",
+          "default_value": "",
+          "sys_var": true,
+          "widget": "search_poi",
+          "required": true
+        },
+        {
+          "name": "address_company",
+          "display_name": "公司/学校地址",
+          "value": "",
+          "default_value": "",
+          "sys_var": true,
+          "widget": "search_poi",
+          "required": false
+        }
+      ],
+      "sub_nodes": [
+
+        {
+          "exe_query_template": "打车去公司",
+          "node_name": "打车去公司",
+          "node_id": "2273",
+          "params": [
+            {
+              "name": "address_company",
+              "display_name": "公司/学校地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        },
+        {
+          "exe_query_template": "打车回家",
+          "node_name": "打车回家",
+          "node_id": "2274",
+          "params": [
+            {
+              "name": "address_home",
+              "display_name": "家庭地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        },
+        {
+          "exe_query_template": "去公司路况",
+          "node_name": "开车去公司",
+          "node_id": "2269",
+          "params": [
+            {
+              "name": "address_company",
+              "display_name": "公司/学校地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        },
+        {
+          "exe_query_template": "回家路况",
+          "node_name": "开车回家",
+          "node_id": "2270",
+          "params": [
+            {
+              "name": "address_home",
+              "display_name": "家庭地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        },
+        {
+          "exe_query_template": "公交去公司",
+          "node_name": "公交去公司",
+          "node_id": "2271",
+          "params": [
+            {
+              "name": "address_company",
+              "display_name": "公司/学校地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        },
+        {
+          "exe_query_template": "公交回家",
+          "node_name": "公交回家",
+          "node_id": "2272",
+          "params": [
+            {
+              "name": "address_home",
+              "display_name": "家庭地址",
+              "value": "",
+              "default_value": "",
+              "sys_var": false,
+              "widget": "search_poi",
+              "required": true
+            }
+          ],
+          "always_display":true
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "104",
+    "name": "微博热搜榜",
+    "brief": "随时随地，发现新鲜事",
+    "description": "一键直达微博热搜榜，热点事件不错过，帮你成为全面掌握八卦热点的小能手。",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#e85853",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "auto_close": false,
+    "cover_info": {
+      "layout_type": 1,
+      "data_type": 5,
+      "expire_time": 60,
+      "cover_data": {
+        "bg_color": "#e85853",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/weibo2.png",
+        "nodes": [
+          {
+            "title": "西瓜味小龙虾",
+            "sub_title": "5194690热度",
+            "intent": {}
+          },
+          {
+            "title": "小猪佩奇的真实身高",
+            "sub_title": "1387528热度",
+            "intent": {}
+          },
+          {
+            "title": "普通人用维C不能治疗缺乏症",
+            "sub_title": "775243热度",
+            "intent": {}
+          }
+        ]
+      }
+    },
+    "path": {
+      "node_id": "2146",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "微博热搜榜",
+      "sub_nodes": [
+        {
+          "exe_query_template": "微博热搜榜",
+          "node_name": "微博热搜榜",
+          "node_id": "2147",
+          "intent_uri": "sinaweibo://pageinfo?containerid=106003type%3D25%26t%3D3%26disable_hot%3D1%26filter_type%3Drealtimehot&luicode=10000360&lfid=${appKey}",
+          "intent_type": "activity",
+          "package_name": "com.sina.weibo"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "141",
+    "name": "放假还有多少天",
+    "brief": "距离下一次假期还有多少天？",
+    "description": "牢记放假时间，为假期出行早做计划",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#9156f4",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "auto_close": false,
+    "cover_info": {
+      "cover_layout_type": 0,
+      "data_type": 2,
+      "expire_time": 3600,
+      "cover_data": {
+        "bg_color": "#9156f4",
+        "html_text": "",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/rili2.png",
+        "title": "假期倒计时",
+        "sub_title": "联网显示最近的假期"
+      }
+    },
+    "path": {
+      "node_id": "2047",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "放假还有多少天",
+      "sub_nodes": [
+        {
+          "exe_query_template": "放假还有多少天",
+          "node_name": "放假还有多少天",
+          "node_id": "2048"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "43",
+    "name": "每日英语",
+    "brief": "让我看看你的小脑袋能记住几个单词呀",
+    "description": "小爱精心挑选了一批英语单词，和我每天一起坚持学习吧～",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#31a754",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "auto_close": false,
+    "cover_info": {
+      "cover_layout_type": 0,
+      "data_type": 4,
+      "cover_data": {
+        "bg_color": "#31a754",
+        "html_text": "",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/meiriyingyu2.png",
+        "title": "democratic",
+        "sub_title": "民主的，民主政体的，民有的"
+      }
+    },
+    "path": {
+      "node_id": "863",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "每日英语",
+      "sub_nodes": [
+        {
+          "exe_query_template": "每日英语",
+          "node_name": "每日英语",
+          "node_id": "864"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "45",
+    "name": "QQ音乐",
+    "brief": "快捷播放指定功能",
+    "description": "聚合了QQ音乐内最受欢迎的功能，个性电台、最近播放、本地音乐..你常用的功能都可以实现一键播放！",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#00c888",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "cover_info": {
+      "cover_layout_type": 0,
+      "data_type": 0,
+      "cover_data": {
+        "bg_color": "#00c888",
+        "html_text": "",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/qqyinyue2.png",
+        "title": "QQ音乐",
+        "sub_title": "快捷播放指定功能"
+      }
+    },
+    "path": {
+      "node_id": "870",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "打开QQ音乐",
+      "sub_nodes": [
+        {
+          "exe_query_template": "播放QQ音乐的电台",
+          "node_name": "个性电台",
+          "node_id": "871"
+        },
+        {
+          "exe_query_template": "打开QQ音乐最近播放",
+          "node_name": "最近播放",
+          "node_id": "872"
+        },
+        {
+          "exe_query_template": "打开QQ音乐本地音乐",
+          "node_name": "本地音乐",
+          "node_id": "873"
+        },
+        {
+          "exe_query_template": "打开QQ音乐排行",
+          "node_name": "排行榜",
+          "node_id": "874"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "195",
+    "name": "股票行情",
+    "brief": "股票行情实时看",
+    "description": "股票行情实时看，股民必备",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#515569",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "auto_close": false,
+    "cover_info": {
+      "layout_type": 2,
+      "data_type": 5,
+      "expire_time": 5,
+      "cover_data": {
+        "bg_color": "#515569",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/gupiaohangqing2.png",
+        "nodes": [
+          {
+            "name": "小米集团",
+            "percent": "-.-%",
+            "img": "HK",
+            "code": "01810",
+            "value": "0.00",
+            "intent": {}
+          },
+          {
+            "name": "特斯拉",
+            "percent": "-.-%",
+            "img": "US",
+            "code": "TSLA",
+            "value": "0.00",
+            "intent": {}
+          },
+          {
+            "name": "上证指数",
+            "percent": "-.-%",
+            "img": "SH",
+            "code": "000001",
+            "value": "0.00",
+            "intent": {}
+          }
+        ]
+      }
+    },
+    "path": {
+      "node_id": "2295",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "股票行情",
+      "sub_nodes": [
+        {
+          "exe_query_template": "股票行情",
+          "node_name": "股票行情",
+          "node_id": "2296",
+          "intent_uri": "com.miui.hybrid://hybrid.xiaomi.com/app/com.eastmoney.marketingapp/?__DSP__=true&__SRC__=%7B%22internal%22%3A%7B%22subScene%22%3A%22aishortcut%22%7D%7D",
+          "intent_type": "activity",
+          "package_name": "com.miui.voiceassist"
+        }
+      ],
+      "params": [
+        {
+          "name": "stock_1",
+          "display_name": "股票1",
+          "value": "",
+          "sys_var": "false",
+          "widget": "picker",
+          "widget_config": "http://test",
+          "required": "1",
+          "defaultValue": {
+            "code": "01810",
+            "data_type": "eqty",
+            "market": "hk",
+            "name": "小米集团-W"
+          }
+        },
+        {
+          "name": "stock_2",
+          "display_name": "股票2",
+          "value": "",
+          "sys_var": "false",
+          "widget": "picker",
+          "widget_config": "http://test",
+          "required": "1",
+          "defaultValue": {
+            "code": "TSLA",
+            "data_type": "eqty",
+            "market": "us",
+            "name": "特斯拉"
+          }
+        },
+        {
+          "name": "stock_3",
+          "display_name": "股票3",
+          "value": "",
+          "sys_var": "false",
+          "widget": "picker",
+          "widget_config": "http://test",
+          "required": "1",
+          "defaultValue": {
+            "code": "000001",
+            "data_type": "eqty",
+            "market": "sh",
+            "name": "上证指数"
+          }
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "196",
+    "name": "纪念日",
+    "brief": "记住有意义的那一天",
+    "description": "记住有意义的那一天，不论是过去或是未来，写下一个日子，小爱帮你每一天细数",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#f169ac",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": true,
+    "speak_txt_enable": true,
+    "version": 18,
+    "minAiVersion": 0,
+    "auto_close": false,
+    "path": {
+      "node_id": "2293",
+      "params": [],
+      "exe_query_template": "距离还有多少天",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "sub_nodes": [
+        {
+          "node_id": "2294",
+          "params": [
+            {
+              "name": "name",
+              "display_name": "纪念日",
+              "default_value": "",
+              "sys_var": "false",
+              "widget": "text",
+              "required": "1"
+            },
+            {
+              "name": "date",
+              "display_name": "设定日期",
+              "sys_var": "false",
+              "widget": "date",
+              "required": "1"
+            }
+          ],
+          "exe_query_template": "距离${date.value}多少天",
+          "node_name": "${name.value}",
+          "title_for_sub_nodes": "",
+          "sub_nodes": [],
+          "always_display": false,
+          "intent_uri": "",
+          "intent_type": "",
+          "package_name": "",
+          "offline_template_on": false
+        }
+      ]
+    },
+    "cover_info": {
+      "layout_type": 0,
+      "data_type": 1,
+      "expire_time": 3600,
+      "cover_privacy":true,
+      "cover_data": {
+        "bg_color": "#f169ac",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/jinianri2.png",
+        "html_text": "",
+        "title": "纪念日",
+        "sub_title": "点击设置一个日子"
+      }
+    }
+  },
+  {
+    "skill_id": "144",
+    "name": "今日步数",
+    "brief": "快看看你今天走了多少步",
+    "description": "每天一万步，快乐生活每一天",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#33bfd1",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "cover_info": {
+      "layout_type": 0,
+      "data_type": 1,
+      "expire_time": 100,
+      "cover_data": {
+        "bg_color": "#33bfd1",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/jinribushu2.png",
+        "html_text": "",
+        "title": "今日步数",
+        "sub_title": "定个小目标,每天1万步"
+      }
+    },
+    "path": {
+      "node_id": "2064",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "查看步数",
+      "sub_nodes": [
+        {
+          "exe_query_template": "查看步数",
+          "node_name": "今日步数",
+          "node_id": "2065"
+        }
+      ]
+    },
+    "version": "123"
+  },
+  {
+    "skill_id": "34",
+    "name": "追剧神器",
+    "brief": "全网资源，人生追剧神器",
+    "description": "新剧热剧第一时间更新，一点快捷进入各大视频APP，继续观看下一集",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#ea7630",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "cover_info": {
+      "layout_type": 0,
+      "data_type": 0,
+      "expire_time": 0,
+      "cover_data": {
+        "bg_color": "#ea7630",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/zhuijushenqi2.png",
+        "html_text": "",
+        "title": "追剧神器",
+        "sub_title": "追全网资源"
+      }
+    },
+    "path": {
+      "node_id": "1940",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "最新电视剧",
+      "sub_nodes": [
+        {
+          "exe_query_template": "我要看电视剧",
+          "node_name": "找新剧",
+          "node_id": "1941"
+        },
+        {
+          "exe_query_template": "打开小米视频",
+          "node_name": "继续追 - 小米视频",
+          "node_id": "1942"
+        },
+        {
+          "exe_query_template": "打开爱奇艺最近播放",
+          "node_name": "继续追 - 爱奇艺",
+          "node_id": "1943"
+        },
+        {
+          "exe_query_template": "打开腾讯视频最近播放",
+          "node_name": "继续追 - 腾讯视频",
+          "node_id": "1944"
+        },
+        {
+          "exe_query_template": "打开优酷视频最近播放",
+          "node_name": "继续追 - 优酷视频",
+          "node_id": "1945"
+        }
+      ]
+    },
+    "version": "123"
+  },
+
+  {
+    "skill_id": "30",
+    "name": "看看榜单",
+    "brief": "想了解今天的实时热点？快来看看榜单吧",
+    "description": "查看各种各样的榜单",
+    "icon": "",
+    "icon_border_color": "#00000000",
+    "bg_image": "",
+    "bg_color": "#ebad2e",
+    "text_color": "#ffffff",
+    "border_color": "",
+    "speak_enable": false,
+    "speak_txt_enable": false,
+    "cover_info": {
+      "layout_type": 0,
+      "data_type": 0,
+      "cover_data": {
+        "bg_color": "#ebad2e",
+        "icon": "http://cnbj1.fds.api.xiaomi.com/ai-open-file-service/ai_shortcut/new/kankanbangdan2.png",
+        "html_text": "",
+        "title": "看看榜单",
+        "sub_title": "精彩榜单"
+      }
+    },
+    "path": {
+      "node_id": "2220",
+      "node_name": "root",
+      "title_for_sub_nodes": "",
+      "exe_query_template": "微博热搜榜",
+      "sub_nodes": [
+        {
+          "exe_query_template": "微博热搜榜",
+          "node_name": "微博热搜榜",
+          "node_id": "2221"
+        },
+        {
+          "exe_query_template": "百度热搜榜",
+          "node_name": "百度热搜榜",
+          "node_id": "2222"
+        },
+        {
+          "exe_query_template": "抖音热搜榜",
+          "node_name": "抖音热搜榜",
+          "node_id": "2223"
+        },
+        {
+          "exe_query_template": "知乎热榜",
+          "node_name": "知乎热榜",
+          "node_id": "2224"
+        }
+      ]
+    },
+    "version": "123"
+  }
+]

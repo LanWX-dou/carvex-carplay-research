@@ -1,0 +1,8 @@
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Java_com_xiaomi_ai_android_vad_Vad2_createTask
+Java_com_xiaomi_ai_android_vad_Vad2_endDelay
+Java_com_xiaomi_ai_android_vad_Vad2_hasVoice
+Java_com_xiaomi_ai_android_vad_Vad2_newVad
+Java_com_xiaomi_ai_android_vad_Vad2_releaseVad
+Java_com_xiaomi_ai_android_vad_Vad2_startDelay
+Java_com_xiaomi_ai_android_vad_Vad2_stopTask

@@ -1,0 +1,15 @@
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Java_com_xiaomi_ai_core_XMDChannel_connect_1xmd
+Java_com_xiaomi_ai_core_XMDChannel_create_1xmd_1instance
+Java_com_xiaomi_ai_core_XMDChannel_post_1data
+Java_com_xiaomi_ai_core_XMDChannel_post_1event
+Java_com_xiaomi_ai_core_XMDChannel_release_1xmd_1instance
+Java_com_xiaomi_ai_core_XMDChannel_reset
+Java_com_xiaomi_ai_core_XMDChannel_set_1log_1level
+UNAUTHENTICATED
+_ZN11BindRequest17set_authorizationEPKcm
+miss authorization params
+postBindRequest: authorization is empty
+postBindRequest: authorization=%s

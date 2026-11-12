@@ -1,0 +1,92 @@
+Class #955            -
+  Class descriptor  : 'Lr9/a$d;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Ljava/lang/Runnable;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lr9/a$d;)
+      name          : 'a'
+      type          : 'Lr9/a$c;'
+      access        : 0x0011 (PUBLIC FINAL)
+    #1              : (in Lr9/a$d;)
+      name          : 'b'
+      type          : 'Lr9/a;'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lr9/a$d;)
+      name          : '<init>'
+      type          : '(Lr9/a;Lr9/a$c;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+1ae404:                                        |[1ae404] r9.a$d.<init>:(Lr9/a;Lr9/a$c;)V
+1ae414: 5b01 3ef9                              |0000: iput-object v1, v0, Lr9/a$d;.b:Lr9/a; // field@f93e
+1ae418: 7010 3434 0000                         |0002: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@3434
+1ae41e: 5b02 3df9                              |0005: iput-object v2, v0, Lr9/a$d;.a:Lr9/a$c; // field@f93d
+1ae422: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lr9/a$d;)
+      name          : 'a'
+      type          : '(Lr9/a$c;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 4
+      insns size    : 61 16-bit code units
+1ae424:                                        |[1ae424] r9.a$d.a:(Lr9/a$c;)V
+1ae434: 2200 e507                              |0000: new-instance v0, Ljava/util/HashMap; // type@07e5
+1ae438: 7010 8a35 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@358a
+1ae43e: 5441 3ef9                              |0005: iget-object v1, v4, Lr9/a$d;.b:Lr9/a; // field@f93e
+1ae442: 7110 3140 0100                         |0007: invoke-static {v1}, Lr9/a;.j:(Lr9/a;)Z // method@4031
+1ae448: 0a01                                   |000a: move-result v1
+1ae44a: 1a02 3d6a                              |000b: const-string v2, "uCarAppVersion" // string@6a3d
+1ae44e: 3801 0800                              |000d: if-eqz v1, 0015 // +0008
+1ae452: 1a01 283b                              |000f: const-string v1, "dev_version" // string@3b28
+1ae456: 7230 cb35 2001                         |0011: invoke-interface {v0, v2, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+1ae45c: 281a                                   |0014: goto 002e // +001a
+1ae45e: 7100 0c09 0000                         |0015: invoke-static {}, Lcom/miui/carlink/castfwk/CastController;.isAndroidVOrAbove:()Z // method@090c
+1ae464: 0a01                                   |0018: move-result v1
+1ae466: 3801 1000                              |0019: if-eqz v1, 0029 // +0010
+1ae46a: 5441 3ef9                              |001b: iget-object v1, v4, Lr9/a$d;.b:Lr9/a; // field@f93e
+1ae46e: 7110 2a40 0100                         |001d: invoke-static {v1}, Lr9/a;.c:(Lr9/a;)Landroid/content/Context; // method@402a
+1ae474: 0c03                                   |0020: move-result-object v3
+1ae476: 7120 3040 3100                         |0021: invoke-static {v1, v3}, Lr9/a;.i:(Lr9/a;Landroid/content/Context;)Ljava/lang/String; // method@4030
+1ae47c: 0c01                                   |0024: move-result-object v1
+1ae47e: 7230 cb35 2001                         |0025: invoke-interface {v0, v2, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+1ae484: 2806                                   |0028: goto 002e // +0006
+1ae486: 1a01 8f03                              |0029: const-string v1, "999999999" // string@038f
+1ae48a: 7230 cb35 2001                         |002b: invoke-interface {v0, v2, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@35cb
+1ae490: 7100 e937 0000                         |002e: invoke-static {}, Ll2/a;.c:()Ll2/a; // method@37e9
+1ae496: 0c01                                   |0031: move-result-object v1
+1ae498: 2202 320a                              |0032: new-instance v2, Lr9/a$d$a; // type@0a32
+1ae49c: 7030 1f40 4205                         |0034: invoke-direct {v2, v4, v5}, Lr9/a$d$a;.<init>:(Lr9/a$d;Lr9/a$c;)V // method@401f
+1ae4a2: 1a04 4243                              |0037: const-string v4, "https://carwith.link.miui.com/api/carLink/getConfig" // string@4342
+1ae4a6: 6e40 ea37 0124                         |0039: invoke-virtual {v1, v0, v4, v2}, Ll2/a;.e:(Ljava/util/Map;Ljava/lang/String;Ll2/e;)V // method@37ea
+1ae4ac: 0e00                                   |003c: return-void
+      catches       : (none)
+
+    #1              : (in Lr9/a$d;)
+      name          : 'run'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 6 16-bit code units
+1ae4b0:                                        |[1ae4b0] r9.a$d.run:()V
+1ae4c0: 5410 3df9                              |0000: iget-object v0, v1, Lr9/a$d;.a:Lr9/a$c; // field@f93d
+1ae4c4: 6e20 2440 0100                         |0002: invoke-virtual {v1, v0}, Lr9/a$d;.a:(Lr9/a$c;)V // method@4024
+1ae4ca: 0e00                                   |0005: return-void
+      catches       : (none)
+
+  source_file_idx   : 2442 (CloudControlMgr.java)
+

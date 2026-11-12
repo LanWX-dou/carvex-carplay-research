@@ -1,0 +1,1050 @@
+Class #5158            -
+  Class descriptor  : 'Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;'
+  Interfaces        -
+    #0              : 'Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference$f;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'P'
+      type          : 'Landroidx/preference/PreferenceCategory;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Q'
+      type          : 'Landroidx/preference/PreferenceCategory;'
+      access        : 0x0001 (PUBLIC)
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'R'
+      type          : 'Landroidx/preference/PreferenceCategory;'
+      access        : 0x0001 (PUBLIC)
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'S'
+      type          : 'Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'T'
+      type          : 'Landroid/content/SharedPreferences;'
+      access        : 0x0001 (PUBLIC)
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'U'
+      type          : 'Landroid/content/SharedPreferences;'
+      access        : 0x0001 (PUBLIC)
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'V'
+      type          : 'Landroid/content/SharedPreferences;'
+      access        : 0x0001 (PUBLIC)
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'W'
+      type          : 'Ljava/util/Set;'
+      access        : 0x0001 (PUBLIC)
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'X'
+      type          : 'Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+    #9              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Y'
+      type          : 'Lcom/carwith/common/bean/CloudControlBean;'
+      access        : 0x0001 (PUBLIC)
+    #10              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Z'
+      type          : 'Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+    #11              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'a0'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+    #12              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'b0'
+      type          : 'Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;'
+      access        : 0x0001 (PUBLIC)
+    #13              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'c0'
+      type          : 'Lh6/a;'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 30 16-bit code units
+21c8bc:                                        |[21c8bc] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.<init>:()V
+21c8cc: 7010 c833 0100                         |0000: invoke-direct {v1}, Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;.<init>:()V // method@33c8
+21c8d2: 2200 0415                              |0003: new-instance v0, Ljava/util/ArrayList; // type@1504
+21c8d6: 7010 2283 0000                         |0005: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@8322
+21c8dc: 5b10 fdcd                              |0008: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S:Ljava/util/List; // field@cdfd
+21c8e0: 2200 1315                              |000a: new-instance v0, Ljava/util/HashSet; // type@1513
+21c8e4: 7010 ae83 0000                         |000c: invoke-direct {v0}, Ljava/util/HashSet;.<init>:()V // method@83ae
+21c8ea: 5b10 01ce                              |000f: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21c8ee: 2200 0415                              |0011: new-instance v0, Ljava/util/ArrayList; // type@1504
+21c8f2: 7010 2283 0000                         |0013: invoke-direct {v0}, Ljava/util/ArrayList;.<init>:()V // method@8322
+21c8f8: 5b10 02ce                              |0016: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X:Ljava/util/List; // field@ce02
+21c8fc: 1200                                   |0018: const/4 v0, #int 0 // #0
+21c8fe: 5b10 03ce                              |0019: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21c902: 5b10 04ce                              |001b: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21c906: 0e00                                   |001d: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'K0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;Landroidx/recyclerview/widget/RecyclerView;II)V'
+      access        : 0x1009 (PUBLIC STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 4 16-bit code units
+21c874:                                        |[21c874] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.K0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;Landroidx/recyclerview/widget/RecyclerView;II)V
+21c884: 6e40 be34 1032                         |0000: invoke-virtual {v0, v1, v2, v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X0:(Landroidx/recyclerview/widget/RecyclerView;II)V // method@34be
+21c88a: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'L0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Lh6/a;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+21c764:                                        |[21c764] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.L0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Lh6/a;
+21c774: 5400 07ce                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.c0:Lh6/a; // field@ce07
+21c778: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'M0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Landroid/content/SharedPreferences;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+21c650:                                        |[21c650] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.M0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Landroid/content/SharedPreferences;
+21c660: 5400 00ce                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.V:Landroid/content/SharedPreferences; // field@ce00
+21c664: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'N0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Landroidx/preference/PreferenceCategory;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+21c668:                                        |[21c668] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.N0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Landroidx/preference/PreferenceCategory;
+21c678: 5400 facd                              |0000: iget-object v0, v0, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21c67c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'O0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 5 16-bit code units
+21c70c:                                        |[21c70c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.O0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;
+21c71c: 6e10 bb34 0000                         |0000: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21c722: 0c00                                   |0003: move-result-object v0
+21c724: 1100                                   |0004: return-object v0
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'P0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+21c88c:                                        |[21c88c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.P0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V
+21c89c: 7010 bc34 0000                         |0000: invoke-direct {v0}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.V0:()V // method@34bc
+21c8a2: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Q0'
+      type          : '(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;Lcom/carwith/common/bean/CloudControlBean;)V'
+      access        : 0x1049 (PUBLIC STATIC BRIDGE SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 2
+      insns size    : 4 16-bit code units
+21c8a4:                                        |[21c8a4] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.Q0:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;Lcom/carwith/common/bean/CloudControlBean;)V
+21c8b4: 6e20 bf34 1000                         |0000: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y0:(Lcom/carwith/common/bean/CloudControlBean;)V // method@34bf
+21c8ba: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'V0'
+      type          : '()V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 10
+      ins           : 1
+      outs          : 4
+      insns size    : 320 16-bit code units
+21c98c:                                        |[21c98c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.V0:()V
+21c99c: 5490 fdcd                              |0000: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S:Ljava/util/List; // field@cdfd
+21c9a0: 7210 d783 0000                         |0002: invoke-interface {v0}, Ljava/util/List;.clear:()V // method@83d7
+21c9a6: 7100 660d 0000                         |0005: invoke-static {}, Lcom/carwith/common/utils/d0;.R:()Lcom/carwith/common/utils/d0; // method@0d66
+21c9ac: 0c00                                   |0008: move-result-object v0
+21c9ae: 6e10 680d 0000                         |0009: invoke-virtual {v0}, Lcom/carwith/common/utils/d0;.T:()Ljava/util/List; // method@0d68
+21c9b4: 0c00                                   |000c: move-result-object v0
+21c9b6: 7210 df83 0000                         |000d: invoke-interface {v0}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@83df
+21c9bc: 0c00                                   |0010: move-result-object v0
+21c9be: 7210 bc83 0000                         |0011: invoke-interface {v0}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+21c9c4: 0a01                                   |0014: move-result v1
+21c9c6: 1212                                   |0015: const/4 v2, #int 1 // #1
+21c9c8: 3801 3200                              |0016: if-eqz v1, 0048 // +0032
+21c9cc: 7210 bd83 0000                         |0018: invoke-interface {v0}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+21c9d2: 0c01                                   |001b: move-result-object v1
+21c9d4: 1f01 a814                              |001c: check-cast v1, Ljava/lang/String; // type@14a8
+21c9d8: 5293 05ce                              |001e: iget v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21c9dc: 1244                                   |0020: const/4 v4, #int 4 // #4
+21c9de: 3343 0b00                              |0021: if-ne v3, v4, 002c // +000b
+21c9e2: 1a03 b269                              |0023: const-string v3, "com.xiaomi.market" // string@69b2
+21c9e6: 6e20 b181 1300                         |0025: invoke-virtual {v3, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21c9ec: 0a03                                   |0028: move-result v3
+21c9ee: 3903 0300                              |0029: if-nez v3, 002c // +0003
+21c9f2: 28e6                                   |002b: goto 0011 // -001a
+21c9f4: 6e10 4409 0900                         |002c: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21c9fa: 0c03                                   |002f: move-result-object v3
+21c9fc: 7120 100e 1300                         |0030: invoke-static {v3, v1}, Lcom/carwith/common/utils/n;.x:(Landroid/content/Context;Ljava/lang/String;)Z // method@0e10
+21ca02: 0a03                                   |0033: move-result v3
+21ca04: 3903 0300                              |0034: if-nez v3, 0037 // +0003
+21ca08: 28db                                   |0036: goto 0011 // -0025
+21ca0a: 5493 01ce                              |0037: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21ca0e: 7220 2084 1300                         |0039: invoke-interface {v3, v1}, Ljava/util/Set;.contains:(Ljava/lang/Object;)Z // method@8420
+21ca14: 0a03                                   |003c: move-result v3
+21ca16: b723                                   |003d: xor-int/2addr v3, v2
+21ca18: 5494 fdcd                              |003e: iget-object v4, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S:Ljava/util/List; // field@cdfd
+21ca1c: 6e40 b934 1932                         |0040: invoke-virtual {v9, v1, v2, v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S0:(Ljava/lang/String;IZ)Lj6/d; // method@34b9
+21ca22: 0c01                                   |0043: move-result-object v1
+21ca24: 7220 d483 1400                         |0044: invoke-interface {v4, v1}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@83d4
+21ca2a: 28ca                                   |0047: goto 0011 // -0036
+21ca2c: 5490 04ce                              |0048: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21ca30: 7210 df83 0000                         |004a: invoke-interface {v0}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@83df
+21ca36: 0c00                                   |004d: move-result-object v0
+21ca38: 7210 bc83 0000                         |004e: invoke-interface {v0}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+21ca3e: 0a01                                   |0051: move-result v1
+21ca40: 3801 2c00                              |0052: if-eqz v1, 007e // +002c
+21ca44: 7210 bd83 0000                         |0054: invoke-interface {v0}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+21ca4a: 0c01                                   |0057: move-result-object v1
+21ca4c: 1f01 5c03                              |0058: check-cast v1, Lcom/carwith/common/bean/AppWhiteItem; // type@035c
+21ca50: 6e10 a70c 0100                         |005a: invoke-virtual {v1}, Lcom/carwith/common/bean/AppWhiteItem;.getPackageName:()Ljava/lang/String; // method@0ca7
+21ca56: 0c03                                   |005d: move-result-object v3
+21ca58: 6e10 4409 0900                         |005e: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21ca5e: 0c04                                   |0061: move-result-object v4
+21ca60: 7120 100e 3400                         |0062: invoke-static {v4, v3}, Lcom/carwith/common/utils/n;.x:(Landroid/content/Context;Ljava/lang/String;)Z // method@0e10
+21ca66: 0a04                                   |0065: move-result v4
+21ca68: 3904 0300                              |0066: if-nez v4, 0069 // +0003
+21ca6c: 28e6                                   |0068: goto 004e // -001a
+21ca6e: 6e10 a30c 0100                         |0069: invoke-virtual {v1}, Lcom/carwith/common/bean/AppWhiteItem;.getAppMode:()I // method@0ca3
+21ca74: 0a01                                   |006c: move-result v1
+21ca76: 5494 01ce                              |006d: iget-object v4, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21ca7a: 7220 2084 3400                         |006f: invoke-interface {v4, v3}, Ljava/util/Set;.contains:(Ljava/lang/Object;)Z // method@8420
+21ca80: 0a04                                   |0072: move-result v4
+21ca82: b724                                   |0073: xor-int/2addr v4, v2
+21ca84: 6e40 b934 3941                         |0074: invoke-virtual {v9, v3, v1, v4}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S0:(Ljava/lang/String;IZ)Lj6/d; // method@34b9
+21ca8a: 0c01                                   |0077: move-result-object v1
+21ca8c: 5493 fdcd                              |0078: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S:Ljava/util/List; // field@cdfd
+21ca90: 7220 d483 1300                         |007a: invoke-interface {v3, v1}, Ljava/util/List;.add:(Ljava/lang/Object;)Z // method@83d4
+21ca96: 28d1                                   |007d: goto 004e // -002f
+21ca98: 5490 fdcd                              |007e: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.S:Ljava/util/List; // field@cdfd
+21ca9c: 7210 df83 0000                         |0080: invoke-interface {v0}, Ljava/util/List;.iterator:()Ljava/util/Iterator; // method@83df
+21caa2: 0c00                                   |0083: move-result-object v0
+21caa4: 7210 bc83 0000                         |0084: invoke-interface {v0}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+21caaa: 0a01                                   |0087: move-result v1
+21caac: 1203                                   |0088: const/4 v3, #int 0 // #0
+21caae: 3801 8200                              |0089: if-eqz v1, 010b // +0082
+21cab2: 7210 bd83 0000                         |008b: invoke-interface {v0}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+21cab8: 0c01                                   |008e: move-result-object v1
+21caba: 1f01 5014                              |008f: check-cast v1, Lj6/d; // type@1450
+21cabe: 2204 580b                              |0091: new-instance v4, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21cac2: 6e10 4409 0900                         |0093: invoke-virtual {v9}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21cac8: 0c05                                   |0096: move-result-object v5
+21caca: 7040 a139 5491                         |0097: invoke-direct {v4, v5, v1, v9}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.<init>:(Landroid/content/Context;Lj6/d;Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference$f;)V // method@39a1
+21cad0: 6e10 fc7f 0100                         |009a: invoke-virtual {v1}, Lj6/d;.e:()Z // method@7ffc
+21cad6: 0a05                                   |009d: move-result v5
+21cad8: 3805 6600                              |009e: if-eqz v5, 0104 // +0066
+21cadc: 5495 ffcd                              |00a0: iget-object v5, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21cae0: 6e10 fb7f 0100                         |00a2: invoke-virtual {v1}, Lj6/d;.d:()Ljava/lang/String; // method@7ffb
+21cae6: 0c06                                   |00a5: move-result-object v6
+21cae8: 12f7                                   |00a6: const/4 v7, #int -1 // #ff
+21caea: 7230 ce01 6507                         |00a7: invoke-interface {v5, v6, v7}, Landroid/content/SharedPreferences;.getInt:(Ljava/lang/String;I)I // method@01ce
+21caf0: 0a05                                   |00aa: move-result v5
+21caf2: 6e20 bd34 1900                         |00ab: invoke-virtual {v9, v1}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W0:(Lj6/d;)Z // method@34bd
+21caf8: 0a06                                   |00ae: move-result v6
+21cafa: 3806 3000                              |00af: if-eqz v6, 00df // +0030
+21cafe: 5496 00ce                              |00b1: iget-object v6, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.V:Landroid/content/SharedPreferences; // field@ce00
+21cb02: 6e10 fb7f 0100                         |00b3: invoke-virtual {v1}, Lj6/d;.d:()Ljava/lang/String; // method@7ffb
+21cb08: 0c08                                   |00b6: move-result-object v8
+21cb0a: 7230 cc01 8603                         |00b7: invoke-interface {v6, v8, v3}, Landroid/content/SharedPreferences;.getBoolean:(Ljava/lang/String;Z)Z // method@01cc
+21cb10: 0a03                                   |00ba: move-result v3
+21cb12: 3903 2400                              |00bb: if-nez v3, 00df // +0024
+21cb16: 3375 1900                              |00bd: if-ne v5, v7, 00d6 // +0019
+21cb1a: 5493 fccd                              |00bf: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21cb1e: 6e10 da09 0300                         |00c1: invoke-virtual {v3}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cb24: 0a05                                   |00c4: move-result v5
+21cb26: 5493 ffcd                              |00c5: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21cb2a: 7210 ca01 0300                         |00c7: invoke-interface {v3}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@01ca
+21cb30: 0c03                                   |00ca: move-result-object v3
+21cb32: 6e10 fb7f 0100                         |00cb: invoke-virtual {v1}, Lj6/d;.d:()Ljava/lang/String; // method@7ffb
+21cb38: 0c01                                   |00ce: move-result-object v1
+21cb3a: 7230 c501 1305                         |00cf: invoke-interface {v3, v1, v5}, Landroid/content/SharedPreferences$Editor;.putInt:(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor; // method@01c5
+21cb40: 0c01                                   |00d2: move-result-object v1
+21cb42: 7210 c001 0100                         |00d3: invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@01c0
+21cb48: 6e20 ca09 5400                         |00d6: invoke-virtual {v4, v5}, Landroidx/preference/Preference;.setOrder:(I)V // method@09ca
+21cb4e: 5491 fccd                              |00d9: iget-object v1, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21cb52: 6e20 d709 4100                         |00db: invoke-virtual {v1, v4}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+21cb58: 28a6                                   |00de: goto 0084 // -005a
+21cb5a: 3375 1c00                              |00df: if-ne v5, v7, 00fb // +001c
+21cb5e: 5493 facd                              |00e1: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21cb62: 6e10 da09 0300                         |00e3: invoke-virtual {v3}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cb68: 0a05                                   |00e6: move-result v5
+21cb6a: 6e20 ca09 5400                         |00e7: invoke-virtual {v4, v5}, Landroidx/preference/Preference;.setOrder:(I)V // method@09ca
+21cb70: 5493 ffcd                              |00ea: iget-object v3, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21cb74: 7210 ca01 0300                         |00ec: invoke-interface {v3}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@01ca
+21cb7a: 0c03                                   |00ef: move-result-object v3
+21cb7c: 6e10 fb7f 0100                         |00f0: invoke-virtual {v1}, Lj6/d;.d:()Ljava/lang/String; // method@7ffb
+21cb82: 0c01                                   |00f3: move-result-object v1
+21cb84: 7230 c501 1305                         |00f4: invoke-interface {v3, v1, v5}, Landroid/content/SharedPreferences$Editor;.putInt:(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor; // method@01c5
+21cb8a: 0c01                                   |00f7: move-result-object v1
+21cb8c: 7210 c001 0100                         |00f8: invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@01c0
+21cb92: 6e20 ca09 5400                         |00fb: invoke-virtual {v4, v5}, Landroidx/preference/Preference;.setOrder:(I)V // method@09ca
+21cb98: 5491 facd                              |00fe: iget-object v1, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21cb9c: 6e20 d709 4100                         |0100: invoke-virtual {v1, v4}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+21cba2: 2881                                   |0103: goto 0084 // -007f
+21cba4: 5491 fbcd                              |0104: iget-object v1, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cba8: 6e20 d709 4100                         |0106: invoke-virtual {v1, v4}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+21cbae: 2900 7bff                              |0109: goto/16 0084 // -0085
+21cbb2: 5490 fbcd                              |010b: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cbb6: 6e10 da09 0000                         |010d: invoke-virtual {v0}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cbbc: 0a00                                   |0110: move-result v0
+21cbbe: 3d00 0800                              |0111: if-lez v0, 0119 // +0008
+21cbc2: 5490 fbcd                              |0113: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cbc6: 6e20 cf09 2000                         |0115: invoke-virtual {v0, v2}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+21cbcc: 2806                                   |0118: goto 011e // +0006
+21cbce: 5490 fbcd                              |0119: iget-object v0, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cbd2: 6e20 cf09 3000                         |011b: invoke-virtual {v0, v3}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+21cbd8: 6e10 bb34 0900                         |011e: invoke-virtual {v9}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21cbde: 0c00                                   |0121: move-result-object v0
+21cbe0: 5491 facd                              |0122: iget-object v1, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21cbe4: 6e10 da09 0100                         |0124: invoke-virtual {v1}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cbea: 0a01                                   |0127: move-result v1
+21cbec: 5492 fccd                              |0128: iget-object v2, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21cbf0: 6e10 da09 0200                         |012a: invoke-virtual {v2}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cbf6: 0a02                                   |012d: move-result v2
+21cbf8: b021                                   |012e: add-int/2addr v1, v2
+21cbfa: 6e20 4238 1000                         |012f: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.c:(I)V // method@3842
+21cc00: 6e10 bb34 0900                         |0132: invoke-virtual {v9}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21cc06: 0c00                                   |0135: move-result-object v0
+21cc08: 5499 facd                              |0136: iget-object v9, v9, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21cc0c: 6e10 da09 0900                         |0138: invoke-virtual {v9}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21cc12: 0a09                                   |013b: move-result v9
+21cc14: 6e20 4338 9000                         |013c: invoke-virtual {v0, v9}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.d:(I)V // method@3843
+21cc1a: 0e00                                   |013f: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'M'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 2
+      outs          : 4
+      insns size    : 159 16-bit code units
+21cf70:                                        |[21cf70] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.M:(Ljava/lang/String;)V
+21cf80: 5460 fbcd                              |0000: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cf84: 6e20 d809 7000                         |0002: invoke-virtual {v0, v7}, Landroidx/preference/PreferenceGroup;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d8
+21cf8a: 0c00                                   |0005: move-result-object v0
+21cf8c: 1f00 580b                              |0006: check-cast v0, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21cf90: 5461 fbcd                              |0008: iget-object v1, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cf94: 6e20 dc09 0100                         |000a: invoke-virtual {v1, v0}, Landroidx/preference/PreferenceGroup;.removePreference:(Landroidx/preference/Preference;)Z // method@09dc
+21cf9a: 2201 580b                              |000d: new-instance v1, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21cf9e: 6e10 4409 0600                         |000f: invoke-virtual {v6}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21cfa4: 0c02                                   |0012: move-result-object v2
+21cfa6: 6e10 aa39 0000                         |0013: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.x:()Lj6/d; // method@39aa
+21cfac: 0c00                                   |0016: move-result-object v0
+21cfae: 7040 a139 2160                         |0017: invoke-direct {v1, v2, v0, v6}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.<init>:(Landroid/content/Context;Lj6/d;Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference$f;)V // method@39a1
+21cfb4: 5460 ffcd                              |001a: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21cfb8: 7210 cb01 0000                         |001c: invoke-interface {v0}, Landroid/content/SharedPreferences;.getAll:()Ljava/util/Map; // method@01cb
+21cfbe: 0c00                                   |001f: move-result-object v0
+21cfc0: 7210 fb83 0000                         |0020: invoke-interface {v0}, Ljava/util/Map;.entrySet:()Ljava/util/Set; // method@83fb
+21cfc6: 0c00                                   |0023: move-result-object v0
+21cfc8: 7210 2384 0000                         |0024: invoke-interface {v0}, Ljava/util/Set;.iterator:()Ljava/util/Iterator; // method@8423
+21cfce: 0c00                                   |0027: move-result-object v0
+21cfd0: 1202                                   |0028: const/4 v2, #int 0 // #0
+21cfd2: 0123                                   |0029: move v3, v2
+21cfd4: 7210 bc83 0000                         |002a: invoke-interface {v0}, Ljava/util/Iterator;.hasNext:()Z // method@83bc
+21cfda: 0a04                                   |002d: move-result v4
+21cfdc: 3804 1f00                              |002e: if-eqz v4, 004d // +001f
+21cfe0: 7210 bd83 0000                         |0030: invoke-interface {v0}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@83bd
+21cfe6: 0c04                                   |0033: move-result-object v4
+21cfe8: 1f04 1c15                              |0034: check-cast v4, Ljava/util/Map$Entry; // type@151c
+21cfec: 7210 f783 0400                         |0036: invoke-interface {v4}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@83f7
+21cff2: 0c05                                   |0039: move-result-object v5
+21cff4: 2055 9014                              |003a: instance-of v5, v5, Ljava/lang/Integer; // type@1490
+21cff8: 3805 eeff                              |003c: if-eqz v5, 002a // -0012
+21cffc: 7210 f783 0400                         |003e: invoke-interface {v4}, Ljava/util/Map$Entry;.getValue:()Ljava/lang/Object; // method@83f7
+21d002: 0c04                                   |0041: move-result-object v4
+21d004: 1f04 9014                              |0042: check-cast v4, Ljava/lang/Integer; // type@1490
+21d008: 6e10 5b81 0400                         |0044: invoke-virtual {v4}, Ljava/lang/Integer;.intValue:()I // method@815b
+21d00e: 0a04                                   |0047: move-result v4
+21d010: 7120 7581 4300                         |0048: invoke-static {v3, v4}, Ljava/lang/Math;.max:(II)I // method@8175
+21d016: 0a03                                   |004b: move-result v3
+21d018: 28de                                   |004c: goto 002a // -0022
+21d01a: d803 0301                              |004d: add-int/lit8 v3, v3, #int 1 // #01
+21d01e: 5460 ffcd                              |004f: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21d022: 7210 ca01 0000                         |0051: invoke-interface {v0}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@01ca
+21d028: 0c00                                   |0054: move-result-object v0
+21d02a: 6e10 aa39 0100                         |0055: invoke-virtual {v1}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.x:()Lj6/d; // method@39aa
+21d030: 0c04                                   |0058: move-result-object v4
+21d032: 6e10 fb7f 0400                         |0059: invoke-virtual {v4}, Lj6/d;.d:()Ljava/lang/String; // method@7ffb
+21d038: 0c04                                   |005c: move-result-object v4
+21d03a: 7230 c501 4003                         |005d: invoke-interface {v0, v4, v3}, Landroid/content/SharedPreferences$Editor;.putInt:(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor; // method@01c5
+21d040: 0c00                                   |0060: move-result-object v0
+21d042: 7210 c001 0000                         |0061: invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@01c0
+21d048: 6e20 ca09 3100                         |0064: invoke-virtual {v1, v3}, Landroidx/preference/Preference;.setOrder:(I)V // method@09ca
+21d04e: 5460 fccd                              |0067: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21d052: 6e20 d709 1000                         |0069: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+21d058: 5460 01ce                              |006c: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21d05c: 7220 2484 7000                         |006e: invoke-interface {v0, v7}, Ljava/util/Set;.remove:(Ljava/lang/Object;)Z // method@8424
+21d062: 6e10 c234 0600                         |0071: invoke-virtual {v6}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.b1:()V // method@34c2
+21d068: 7100 bb0b 0000                         |0074: invoke-static {}, Lc6/b;.c:()Lc6/b; // method@0bbb
+21d06e: 0c00                                   |0077: move-result-object v0
+21d070: 5461 01ce                              |0078: iget-object v1, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21d074: 6e40 bc0b 1027                         |007a: invoke-virtual {v0, v1, v7, v2}, Lc6/b;.d:(Ljava/util/Set;Ljava/lang/String;Z)V // method@0bbc
+21d07a: 6e10 bb34 0600                         |007d: invoke-virtual {v6}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21d080: 0c07                                   |0080: move-result-object v7
+21d082: 5460 facd                              |0081: iget-object v0, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d086: 6e10 da09 0000                         |0083: invoke-virtual {v0}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d08c: 0a00                                   |0086: move-result v0
+21d08e: 5461 fccd                              |0087: iget-object v1, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21d092: 6e10 da09 0100                         |0089: invoke-virtual {v1}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d098: 0a01                                   |008c: move-result v1
+21d09a: b010                                   |008d: add-int/2addr v0, v1
+21d09c: 6e20 4238 0700                         |008e: invoke-virtual {v7, v0}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.c:(I)V // method@3842
+21d0a2: 6e10 bb34 0600                         |0091: invoke-virtual {v6}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21d0a8: 0c07                                   |0094: move-result-object v7
+21d0aa: 5466 facd                              |0095: iget-object v6, v6, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d0ae: 6e10 da09 0600                         |0097: invoke-virtual {v6}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d0b4: 0a06                                   |009a: move-result v6
+21d0b6: 6e20 4338 6700                         |009b: invoke-virtual {v7, v6}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.d:(I)V // method@3843
+21d0bc: 0e00                                   |009e: return-void
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'R0'
+      type          : '(Ljava/lang/String;Landroid/content/Context;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 3
+      insns size    : 58 16-bit code units
+21c908:                                        |[21c908] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.R0:(Ljava/lang/String;Landroid/content/Context;)V
+21c918: 7110 2905 0300                         |0000: invoke-static {v3}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0529
+21c91e: 0a02                                   |0003: move-result v2
+21c920: 3902 3500                              |0004: if-nez v2, 0039 // +0035
+21c924: 3904 0300                              |0006: if-nez v4, 0009 // +0003
+21c928: 2831                                   |0008: goto 0039 // +0031
+21c92a: 7100 6b0d 0000                         |0009: invoke-static {}, Lcom/carwith/common/utils/d0;.X:()Lcom/carwith/common/utils/d0; // method@0d6b
+21c930: 0c02                                   |000c: move-result-object v2
+21c932: 1a00 118b                              |000d: const-string v0, "media_app" // string@8b11
+21c936: 6e30 840d 0203                         |000f: invoke-virtual {v2, v0, v3}, Lcom/carwith/common/utils/d0;.y:(Ljava/lang/String;Ljava/lang/String;)I // method@0d84
+21c93c: 0a02                                   |0012: move-result v2
+21c93e: 1220                                   |0013: const/4 v0, #int 2 // #2
+21c940: 1201                                   |0014: const/4 v1, #int 0 // #0
+21c942: 3320 1500                              |0015: if-ne v0, v2, 002a // +0015
+21c946: 7120 089a 1400                         |0017: invoke-static {v4, v1}, Lp6/e;.i:(Landroid/content/Context;Ljava/lang/String;)V // method@9a08
+21c94c: 7120 b29a 1400                         |001a: invoke-static {v4, v1}, Lp6/o0;.t:(Landroid/content/Context;Ljava/lang/String;)V // method@9ab2
+21c952: 7110 a59a 0400                         |001d: invoke-static {v4}, Lp6/o0;.g:(Landroid/content/Context;)Ljava/lang/String; // method@9aa5
+21c958: 0c02                                   |0020: move-result-object v2
+21c95a: 6e20 b181 2300                         |0021: invoke-virtual {v3, v2}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21c960: 0a02                                   |0024: move-result v2
+21c962: 3802 0500                              |0025: if-eqz v2, 002a // +0005
+21c966: 7120 b39a 1400                         |0027: invoke-static {v4, v1}, Lp6/o0;.u:(Landroid/content/Context;Ljava/lang/String;)V // method@9ab3
+21c96c: 7100 6b0d 0000                         |002a: invoke-static {}, Lcom/carwith/common/utils/d0;.X:()Lcom/carwith/common/utils/d0; // method@0d6b
+21c972: 0c02                                   |002d: move-result-object v2
+21c974: 1a04 aea3                              |002e: const-string v4, "other" // string@a3ae
+21c978: 6e30 760d 3204                         |0030: invoke-virtual {v2, v3, v4}, Lcom/carwith/common/utils/d0;.m0:(Ljava/lang/String;Ljava/lang/String;)Z // method@0d76
+21c97e: 0a02                                   |0033: move-result v2
+21c980: 3802 0500                              |0034: if-eqz v2, 0039 // +0005
+21c984: 7110 099a 0100                         |0036: invoke-static {v1}, Lp6/e;.j:(Ljava/lang/String;)V // method@9a09
+21c98a: 0e00                                   |0039: return-void
+      catches       : (none)
+
+    #2              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'S0'
+      type          : '(Ljava/lang/String;IZ)Lj6/d;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 8
+      ins           : 4
+      outs          : 2
+      insns size    : 80 16-bit code units
+21c7c4:                                        |[21c7c4] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.S0:(Ljava/lang/String;IZ)Lj6/d;
+21c7d4: 2200 5014                              |0000: new-instance v0, Lj6/d; // type@1450
+21c7d8: 7010 f77f 0000                         |0002: invoke-direct {v0}, Lj6/d;.<init>:()V // method@7ff7
+21c7de: 6e10 4409 0400                         |0005: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21c7e4: 0c01                                   |0008: move-result-object v1
+21c7e6: 7120 020e 5100                         |0009: invoke-static {v1, v5}, Lcom/carwith/common/utils/n;.i:(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable; // method@0e02
+21c7ec: 0c01                                   |000c: move-result-object v1
+21c7ee: 6e10 4409 0400                         |000d: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21c7f4: 0c02                                   |0010: move-result-object v2
+21c7f6: 7120 030e 5200                         |0011: invoke-static {v2, v5}, Lcom/carwith/common/utils/n;.j:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String; // method@0e03
+21c7fc: 0c02                                   |0014: move-result-object v2
+21c7fe: 6e10 4409 0400                         |0015: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21c804: 0c04                                   |0018: move-result-object v4
+21c806: 7120 100e 5400                         |0019: invoke-static {v4, v5}, Lcom/carwith/common/utils/n;.x:(Landroid/content/Context;Ljava/lang/String;)Z // method@0e10
+21c80c: 0a04                                   |001c: move-result v4
+21c80e: 6e20 0380 5000                         |001d: invoke-virtual {v0, v5}, Lj6/d;.l:(Ljava/lang/String;)V // method@8003
+21c814: 1a03 e968                              |0020: const-string v3, "com.android.phone" // string@68e9
+21c818: 6e20 b181 5300                         |0022: invoke-virtual {v3, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21c81e: 0a03                                   |0025: move-result v3
+21c820: 3903 1200                              |0026: if-nez v3, 0038 // +0012
+21c824: 1a03 eb68                              |0028: const-string v3, "com.android.settings" // string@68eb
+21c828: 6e20 b181 5300                         |002a: invoke-virtual {v3, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21c82e: 0a03                                   |002d: move-result v3
+21c830: 3903 0a00                              |002e: if-nez v3, 0038 // +000a
+21c834: 1a03 4569                              |0030: const-string v3, "com.miui.carlink" // string@6945
+21c838: 6e20 b181 5300                         |0032: invoke-virtual {v3, v5}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21c83e: 0a05                                   |0035: move-result v5
+21c840: 3805 0600                              |0036: if-eqz v5, 003c // +0006
+21c844: 1215                                   |0038: const/4 v5, #int 1 // #1
+21c846: 6e20 0480 5000                         |0039: invoke-virtual {v0, v5}, Lj6/d;.m:(Z)V // method@8004
+21c84c: 3801 0500                              |003c: if-eqz v1, 0041 // +0005
+21c850: 6e20 0080 1000                         |003e: invoke-virtual {v0, v1}, Lj6/d;.i:(Landroid/graphics/drawable/Drawable;)V // method@8000
+21c856: 3802 0500                              |0041: if-eqz v2, 0046 // +0005
+21c85a: 6e20 ff7f 2000                         |0043: invoke-virtual {v0, v2}, Lj6/d;.h:(Ljava/lang/String;)V // method@7fff
+21c860: 6e20 0280 6000                         |0046: invoke-virtual {v0, v6}, Lj6/d;.k:(I)V // method@8002
+21c866: 6e20 fe7f 7000                         |0049: invoke-virtual {v0, v7}, Lj6/d;.g:(Z)V // method@7ffe
+21c86c: 6e20 0180 4000                         |004c: invoke-virtual {v0, v4}, Lj6/d;.j:(Z)V // method@8001
+21c872: 1100                                   |004f: return-object v0
+      catches       : (none)
+
+    #3              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'T0'
+      type          : '(Landroidx/preference/PreferenceGroupAdapter;)Lh6/a;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 6
+      ins           : 2
+      outs          : 5
+      insns size    : 28 16-bit code units
+21c77c:                                        |[21c77c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.T0:(Landroidx/preference/PreferenceGroupAdapter;)Lh6/a;
+21c78c: 5440 07ce                              |0000: iget-object v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.c0:Lh6/a; // field@ce07
+21c790: 3900 1700                              |0002: if-nez v0, 0019 // +0017
+21c794: 2200 ef13                              |0004: new-instance v0, Lh6/a; // type@13ef
+21c798: 5441 facd                              |0006: iget-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21c79c: 5442 fccd                              |0008: iget-object v2, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21c7a0: 5443 ffcd                              |000a: iget-object v3, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21c7a4: 7053 0c7d 5021                         |000c: invoke-direct {v0, v5, v1, v2, v3}, Lh6/a;.<init>:(Landroidx/preference/PreferenceGroupAdapter;Landroidx/preference/PreferenceCategory;Landroidx/preference/PreferenceCategory;Landroid/content/SharedPreferences;)V // method@7d0c
+21c7aa: 5b40 07ce                              |000f: iput-object v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.c0:Lh6/a; // field@ce07
+21c7ae: 2205 7c0a                              |0011: new-instance v5, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$a; // type@0a7c
+21c7b2: 7020 a634 4500                         |0013: invoke-direct {v5, v4}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$a;.<init>:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V // method@34a6
+21c7b8: 6e20 177d 5000                         |0016: invoke-virtual {v0, v5}, Lh6/a;.k:(Lh6/a$a;)V // method@7d17
+21c7be: 5444 07ce                              |0019: iget-object v4, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.c0:Lh6/a; // field@ce07
+21c7c2: 1104                                   |001b: return-object v4
+      catches       : (none)
+
+    #4              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'U0'
+      type          : '()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 4
+      insns size    : 21 16-bit code units
+21c728:                                        |[21c728] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;
+21c738: 5440 06ce                              |0000: iget-object v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.b0:Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // field@ce06
+21c73c: 3900 1000                              |0002: if-nez v0, 0012 // +0010
+21c740: 2200 060b                              |0004: new-instance v0, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // type@0b06
+21c744: 2201 840b                              |0006: new-instance v1, Lcom/carwith/launcher/settings/phone/y; // type@0b84
+21c748: 7020 5c3a 4100                         |0008: invoke-direct {v1, v4}, Lcom/carwith/launcher/settings/phone/y;.<init>:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V // method@3a5c
+21c74e: 1222                                   |000b: const/4 v2, #int 2 // #2
+21c750: 1213                                   |000c: const/4 v3, #int 1 // #1
+21c752: 7040 3f38 2013                         |000d: invoke-direct {v0, v2, v3, v1}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.<init>:(IILcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack$a;)V // method@383f
+21c758: 5b40 06ce                              |0010: iput-object v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.b0:Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // field@ce06
+21c75c: 5444 06ce                              |0012: iget-object v4, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.b0:Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // field@ce06
+21c760: 1104                                   |0014: return-object v4
+      catches       : (none)
+
+    #5              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'W0'
+      type          : '(Lj6/d;)Z'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 33 16-bit code units
+21c6b8:                                        |[21c6b8] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.W0:(Lj6/d;)Z
+21c6c8: 6e10 fa7f 0200                         |0000: invoke-virtual {v2}, Lj6/d;.c:()I // method@7ffa
+21c6ce: 0a01                                   |0003: move-result v1
+21c6d0: 1240                                   |0004: const/4 v0, #int 4 // #4
+21c6d2: 3201 1a00                              |0005: if-eq v1, v0, 001f // +001a
+21c6d6: 6e10 fa7f 0200                         |0007: invoke-virtual {v2}, Lj6/d;.c:()I // method@7ffa
+21c6dc: 0a01                                   |000a: move-result v1
+21c6de: 1250                                   |000b: const/4 v0, #int 5 // #5
+21c6e0: 3201 1300                              |000c: if-eq v1, v0, 001f // +0013
+21c6e4: 6e10 fa7f 0200                         |000e: invoke-virtual {v2}, Lj6/d;.c:()I // method@7ffa
+21c6ea: 0a01                                   |0011: move-result v1
+21c6ec: 1260                                   |0012: const/4 v0, #int 6 // #6
+21c6ee: 3201 0c00                              |0013: if-eq v1, v0, 001f // +000c
+21c6f2: 6e10 fa7f 0200                         |0015: invoke-virtual {v2}, Lj6/d;.c:()I // method@7ffa
+21c6f8: 0a01                                   |0018: move-result v1
+21c6fa: 1272                                   |0019: const/4 v2, #int 7 // #7
+21c6fc: 3321 0300                              |001a: if-ne v1, v2, 001d // +0003
+21c700: 2803                                   |001c: goto 001f // +0003
+21c702: 1201                                   |001d: const/4 v1, #int 0 // #0
+21c704: 2802                                   |001e: goto 0020 // +0002
+21c706: 1211                                   |001f: const/4 v1, #int 1 // #1
+21c708: 0f01                                   |0020: return v1
+      catches       : (none)
+
+    #6              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'X0'
+      type          : '(Landroidx/recyclerview/widget/RecyclerView;II)V'
+      access        : 0x1011 (PUBLIC FINAL SYNTHETIC)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 3
+      insns size    : 18 16-bit code units
+21cc1c:                                        |[21cc1c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.X0:(Landroidx/recyclerview/widget/RecyclerView;II)V
+21cc2c: 6e10 490a 0200                         |0000: invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;.getAdapter:()Landroidx/recyclerview/widget/RecyclerView$Adapter; // method@0a49
+21cc32: 0c02                                   |0003: move-result-object v2
+21cc34: 2020 9902                              |0004: instance-of v0, v2, Landroidx/preference/PreferenceGroupAdapter; // type@0299
+21cc38: 3800 0b00                              |0006: if-eqz v0, 0011 // +000b
+21cc3c: 1f02 9902                              |0008: check-cast v2, Landroidx/preference/PreferenceGroupAdapter; // type@0299
+21cc40: 6e20 ba34 2100                         |000a: invoke-virtual {v1, v2}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.T0:(Landroidx/preference/PreferenceGroupAdapter;)Lh6/a; // method@34ba
+21cc46: 0c01                                   |000d: move-result-object v1
+21cc48: 6e30 187d 3104                         |000e: invoke-virtual {v1, v3, v4}, Lh6/a;.l:(II)V // method@7d18
+21cc4e: 0e00                                   |0011: return-void
+      catches       : (none)
+
+    #7              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Y0'
+      type          : '(Lcom/carwith/common/bean/CloudControlBean;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 99 16-bit code units
+21cc50:                                        |[21cc50] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.Y0:(Lcom/carwith/common/bean/CloudControlBean;)V
+21cc60: 5b12 03ce                              |0000: iput-object v2, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21cc64: 3802 2d00                              |0002: if-eqz v2, 002f // +002d
+21cc68: 6e10 a80c 0200                         |0004: invoke-virtual {v2}, Lcom/carwith/common/bean/CloudControlBean;.getAppWhiteList:()Ljava/util/List; // method@0ca8
+21cc6e: 0c02                                   |0007: move-result-object v2
+21cc70: 3802 2700                              |0008: if-eqz v2, 002f // +0027
+21cc74: 7100 660d 0000                         |000a: invoke-static {}, Lcom/carwith/common/utils/d0;.R:()Lcom/carwith/common/utils/d0; // method@0d66
+21cc7a: 0c02                                   |000d: move-result-object v2
+21cc7c: 5410 03ce                              |000e: iget-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21cc80: 6e10 a80c 0000                         |0010: invoke-virtual {v0}, Lcom/carwith/common/bean/CloudControlBean;.getAppWhiteList:()Ljava/util/List; // method@0ca8
+21cc86: 0c00                                   |0013: move-result-object v0
+21cc88: 6e20 7f0d 0200                         |0014: invoke-virtual {v2, v0}, Lcom/carwith/common/utils/d0;.v0:(Ljava/util/List;)V // method@0d7f
+21cc8e: 7100 660d 0000                         |0017: invoke-static {}, Lcom/carwith/common/utils/d0;.R:()Lcom/carwith/common/utils/d0; // method@0d66
+21cc94: 0c02                                   |001a: move-result-object v2
+21cc96: 5210 05ce                              |001b: iget v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21cc9a: 6e20 650d 0200                         |001d: invoke-virtual {v2, v0}, Lcom/carwith/common/utils/d0;.Q:(I)Ljava/util/List; // method@0d65
+21cca0: 0c02                                   |0020: move-result-object v2
+21cca2: 5b12 04ce                              |0021: iput-object v2, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21cca6: 3802 0c00                              |0023: if-eqz v2, 002f // +000c
+21ccaa: 7210 e483 0200                         |0025: invoke-interface {v2}, Ljava/util/List;.size:()I // method@83e4
+21ccb0: 0a02                                   |0028: move-result v2
+21ccb2: 3d02 0600                              |0029: if-lez v2, 002f // +0006
+21ccb6: 6e10 c134 0100                         |002b: invoke-virtual {v1}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a1:()V // method@34c1
+21ccbc: 0e00                                   |002e: return-void
+21ccbe: 6202 e401                              |002f: sget-object v2, Lcom/carwith/common/Constants;.g:[Lcom/carwith/common/bean/AppWhiteItem; // field@01e4
+21ccc2: 7110 3783 0200                         |0031: invoke-static {v2}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@8337
+21ccc8: 0c02                                   |0034: move-result-object v2
+21ccca: 2200 0415                              |0035: new-instance v0, Ljava/util/ArrayList; // type@1504
+21ccce: 7020 2483 2000                         |0037: invoke-direct {v0, v2}, Ljava/util/ArrayList;.<init>:(Ljava/util/Collection;)V // method@8324
+21ccd4: 5b10 02ce                              |003a: iput-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X:Ljava/util/List; // field@ce02
+21ccd8: 6202 e501                              |003c: sget-object v2, Lcom/carwith/common/Constants;.j:[Lcom/carwith/common/bean/AppWhiteItem; // field@01e5
+21ccdc: 7110 3783 0200                         |003e: invoke-static {v2}, Ljava/util/Arrays;.asList:([Ljava/lang/Object;)Ljava/util/List; // method@8337
+21cce2: 0c02                                   |0041: move-result-object v2
+21cce4: 5410 02ce                              |0042: iget-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X:Ljava/util/List; // field@ce02
+21cce8: 7220 d683 2000                         |0044: invoke-interface {v0, v2}, Ljava/util/List;.addAll:(Ljava/util/Collection;)Z // method@83d6
+21ccee: 5412 04ce                              |0047: iget-object v2, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21ccf2: 3802 0d00                              |0049: if-eqz v2, 0056 // +000d
+21ccf6: 7210 d783 0200                         |004b: invoke-interface {v2}, Ljava/util/List;.clear:()V // method@83d7
+21ccfc: 5412 04ce                              |004e: iget-object v2, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21cd00: 5410 02ce                              |0050: iget-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X:Ljava/util/List; // field@ce02
+21cd04: 7220 d683 0200                         |0052: invoke-interface {v2, v0}, Ljava/util/List;.addAll:(Ljava/util/Collection;)Z // method@83d6
+21cd0a: 280a                                   |0055: goto 005f // +000a
+21cd0c: 2202 0415                              |0056: new-instance v2, Ljava/util/ArrayList; // type@1504
+21cd10: 5410 02ce                              |0058: iget-object v0, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.X:Ljava/util/List; // field@ce02
+21cd14: 7020 2483 0200                         |005a: invoke-direct {v2, v0}, Ljava/util/ArrayList;.<init>:(Ljava/util/Collection;)V // method@8324
+21cd1a: 5b12 04ce                              |005d: iput-object v2, v1, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21cd1e: 6e10 c134 0100                         |005f: invoke-virtual {v1}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a1:()V // method@34c1
+21cd24: 0e00                                   |0062: return-void
+      catches       : (none)
+
+    #8              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'Z0'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 4
+      insns size    : 45 16-bit code units
+21d20c:                                        |[21d20c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.Z0:()V
+21d21c: 2200 1215                              |0000: new-instance v0, Ljava/util/HashMap; // type@1512
+21d220: 7010 a083 0000                         |0002: invoke-direct {v0}, Ljava/util/HashMap;.<init>:()V // method@83a0
+21d226: 7100 5278 0000                         |0005: invoke-static {}, Lcom/miui/carlink/castfwk/CastController;.isAndroidVOrAbove:()Z // method@7852
+21d22c: 0a01                                   |0008: move-result v1
+21d22e: 1a02 2dc2                              |0009: const-string v2, "uCarAppVersion" // string@c22d
+21d232: 3801 0e00                              |000b: if-eqz v1, 0019 // +000e
+21d236: 6e10 4409 0300                         |000d: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21d23c: 0c01                                   |0010: move-result-object v1
+21d23e: 7110 060e 0100                         |0011: invoke-static {v1}, Lcom/carwith/common/utils/n;.m:(Landroid/content/Context;)Ljava/lang/String; // method@0e06
+21d244: 0c01                                   |0014: move-result-object v1
+21d246: 7230 0284 2001                         |0015: invoke-interface {v0, v2, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+21d24c: 2806                                   |0018: goto 001e // +0006
+21d24e: 1a01 8107                              |0019: const-string v1, "999999999" // string@0781
+21d252: 7230 0284 2001                         |001b: invoke-interface {v0, v2, v1}, Ljava/util/Map;.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; // method@8402
+21d258: 7100 9585 0000                         |001e: invoke-static {}, Ll2/a;.c:()Ll2/a; // method@8595
+21d25e: 0c01                                   |0021: move-result-object v1
+21d260: 2202 7d0a                              |0022: new-instance v2, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$b; // type@0a7d
+21d264: 7020 a934 3200                         |0024: invoke-direct {v2, v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$b;.<init>:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V // method@34a9
+21d26a: 1a03 d27f                              |0027: const-string v3, "https://carwith.link.miui.com/api/carLink/getConfig" // string@7fd2
+21d26e: 6e40 9685 0123                         |0029: invoke-virtual {v1, v0, v3, v2}, Ll2/a;.d:(Ljava/util/Map;Ljava/lang/String;Ll2/e;)V // method@8596
+21d274: 0e00                                   |002c: return-void
+      catches       : (none)
+
+    #9              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'a1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 9 16-bit code units
+21d278:                                        |[21d278] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.a1:()V
+21d288: 2200 7e0a                              |0000: new-instance v0, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$c; // type@0a7e
+21d28c: 7020 ad34 1000                         |0002: invoke-direct {v0, v1}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment$c;.<init>:(Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)V // method@34ad
+21d292: 7110 740e 0000                         |0005: invoke-static {v0}, Lcom/carwith/common/utils/v2;.d:(Ljava/lang/Runnable;)Ljava/util/concurrent/Future; // method@0e74
+21d298: 0e00                                   |0008: return-void
+      catches       : (none)
+
+    #10              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'b1'
+      type          : '()V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 4
+      ins           : 1
+      outs          : 3
+      insns size    : 38 16-bit code units
+21d29c:                                        |[21d29c] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.b1:()V
+21d2ac: 5430 fecd                              |0000: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.T:Landroid/content/SharedPreferences; // field@cdfe
+21d2b0: 7210 ca01 0000                         |0002: invoke-interface {v0}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@01ca
+21d2b6: 0c00                                   |0005: move-result-object v0
+21d2b8: 1a01 15c3                              |0006: const-string v1, "ucar_need_more_app" // string@c315
+21d2bc: 5432 01ce                              |0008: iget-object v2, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21d2c0: 7230 c801 1002                         |000a: invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;.putStringSet:(Ljava/lang/String;Ljava/util/Set;)Landroid/content/SharedPreferences$Editor; // method@01c8
+21d2c6: 7210 c201 0000                         |000d: invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;.commit:()Z // method@01c2
+21d2cc: 5430 fbcd                              |0010: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21d2d0: 6e10 da09 0000                         |0012: invoke-virtual {v0}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d2d6: 0a00                                   |0015: move-result v0
+21d2d8: 3d00 0900                              |0016: if-lez v0, 001f // +0009
+21d2dc: 5433 fbcd                              |0018: iget-object v3, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21d2e0: 1210                                   |001a: const/4 v0, #int 1 // #1
+21d2e2: 6e20 cf09 0300                         |001b: invoke-virtual {v3, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+21d2e8: 2807                                   |001e: goto 0025 // +0007
+21d2ea: 5433 fbcd                              |001f: iget-object v3, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21d2ee: 1200                                   |0021: const/4 v0, #int 0 // #0
+21d2f0: 6e20 cf09 0300                         |0022: invoke-virtual {v3, v0}, Landroidx/preference/Preference;.setVisible:(Z)V // method@09cf
+21d2f6: 0e00                                   |0025: return-void
+      catches       : (none)
+
+    #11              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'onCreatePreferences'
+      type          : '(Landroid/os/Bundle;Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 3
+      insns size    : 272 16-bit code units
+21cd28:                                        |[21cd28] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.onCreatePreferences:(Landroid/os/Bundle;Ljava/lang/String;)V
+21cd38: 6005 fabe                              |0000: sget v5, Lcom/carwith/launcher/R$xml;.ucar_cast_app_manager:I // field@befa
+21cd3c: 6e20 d209 5400                         |0002: invoke-virtual {v4, v5}, Landroidx/preference/PreferenceFragmentCompat;.addPreferencesFromResource:(I)V // method@09d2
+21cd42: 6e10 4109 0400                         |0005: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getActivity:()Landroidx/fragment/app/FragmentActivity; // method@0941
+21cd48: 0c05                                   |0008: move-result-object v5
+21cd4a: 6e10 d000 0500                         |0009: invoke-virtual {v5}, Landroid/app/Activity;.getIntent:()Landroid/content/Intent; // method@00d0
+21cd50: 0c05                                   |000c: move-result-object v5
+21cd52: 1a06 940c                              |000d: const-string v6, "BaseMiuixSettingsFragment" // string@0c94
+21cd56: 1200                                   |000f: const/4 v0, #int 0 // #0
+21cd58: 3805 3700                              |0010: if-eqz v5, 0047 // +0037
+21cd5c: 1a01 c96e                              |0012: const-string v1, "device_id" // string@6ec9
+21cd60: 6e20 a501 1500                         |0014: invoke-virtual {v5, v1}, Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String; // method@01a5
+21cd66: 0c01                                   |0017: move-result-object v1
+21cd68: 1a02 cb6e                              |0018: const-string v2, "device_name" // string@6ecb
+21cd6c: 6e20 a501 2500                         |001a: invoke-virtual {v5, v2}, Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String; // method@01a5
+21cd72: 0c05                                   |001d: move-result-object v5
+21cd74: 7100 d30d 0000                         |001e: invoke-static {}, Lcom/carwith/common/utils/i3;.e:()Lcom/carwith/common/utils/i3; // method@0dd3
+21cd7a: 0c02                                   |0021: move-result-object v2
+21cd7c: 6e10 6a09 0400                         |0022: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.requireContext:()Landroid/content/Context; // method@096a
+21cd82: 0c03                                   |0025: move-result-object v3
+21cd84: 6e10 6401 0300                         |0026: invoke-virtual {v3}, Landroid/content/Context;.getApplicationContext:()Landroid/content/Context; // method@0164
+21cd8a: 0c03                                   |0029: move-result-object v3
+21cd8c: 6e30 df0d 3201                         |002a: invoke-virtual {v2, v3, v1}, Lcom/carwith/common/utils/i3;.v:(Landroid/content/Context;Ljava/lang/String;)I // method@0ddf
+21cd92: 0a01                                   |002d: move-result v1
+21cd94: 5941 05ce                              |002e: iput v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21cd98: 2201 aa14                              |0030: new-instance v1, Ljava/lang/StringBuilder; // type@14aa
+21cd9c: 7010 e381 0100                         |0032: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+21cda2: 1a02 1db7                              |0035: const-string v2, "show cast app manager activity, work mode: " // string@b71d
+21cda6: 6e20 ee81 2100                         |0037: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+21cdac: 5242 05ce                              |003a: iget v2, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21cdb0: 6e20 e981 2100                         |003c: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@81e9
+21cdb6: 6e10 fd81 0100                         |003f: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+21cdbc: 0c01                                   |0042: move-result-object v1
+21cdbe: 7120 790e 1600                         |0043: invoke-static {v6, v1}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21cdc4: 2802                                   |0046: goto 0048 // +0002
+21cdc6: 0705                                   |0047: move-object v5, v0
+21cdc8: 1a01 54c2                              |0048: const-string v1, "ucar_added_app" // string@c254
+21cdcc: 6e20 d309 1400                         |004a: invoke-virtual {v4, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21cdd2: 0c01                                   |004d: move-result-object v1
+21cdd4: 1f01 9602                              |004e: check-cast v1, Landroidx/preference/PreferenceCategory; // type@0296
+21cdd8: 5b41 facd                              |0050: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21cddc: 1a01 10c3                              |0052: const-string v1, "ucar_more_app" // string@c310
+21cde0: 6e20 d309 1400                         |0054: invoke-virtual {v4, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21cde6: 0c01                                   |0057: move-result-object v1
+21cde8: 1f01 9602                              |0058: check-cast v1, Landroidx/preference/PreferenceCategory; // type@0296
+21cdec: 5b41 fbcd                              |005a: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21cdf0: 1a01 f7c2                              |005c: const-string v1, "ucar_experience_app" // string@c2f7
+21cdf4: 6e20 d309 1400                         |005e: invoke-virtual {v4, v1}, Landroidx/preference/PreferenceFragmentCompat;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d3
+21cdfa: 0c01                                   |0061: move-result-object v1
+21cdfc: 1f01 9602                              |0062: check-cast v1, Landroidx/preference/PreferenceCategory; // type@0296
+21ce00: 5b41 fccd                              |0064: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21ce04: 6e10 4409 0400                         |0066: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21ce0a: 0c01                                   |0069: move-result-object v1
+21ce0c: 1a02 4ec3                              |006a: const-string v2, "ucar_settings_data_bg" // string@c34e
+21ce10: 1203                                   |006c: const/4 v3, #int 0 // #0
+21ce12: 6e30 7101 2103                         |006d: invoke-virtual {v1, v2, v3}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+21ce18: 0c01                                   |0070: move-result-object v1
+21ce1a: 5b41 fecd                              |0071: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.T:Landroid/content/SharedPreferences; // field@cdfe
+21ce1e: 6e10 6a09 0400                         |0073: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.requireContext:()Landroid/content/Context; // method@096a
+21ce24: 0c01                                   |0076: move-result-object v1
+21ce26: 1a02 4dc3                              |0077: const-string v2, "ucar_settings_added_app_sort" // string@c34d
+21ce2a: 6e30 7101 2103                         |0079: invoke-virtual {v1, v2, v3}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+21ce30: 0c01                                   |007c: move-result-object v1
+21ce32: 5b41 ffcd                              |007d: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U:Landroid/content/SharedPreferences; // field@cdff
+21ce36: 6e10 6a09 0400                         |007f: invoke-virtual {v4}, Landroidx/fragment/app/Fragment;.requireContext:()Landroid/content/Context; // method@096a
+21ce3c: 0c01                                   |0082: move-result-object v1
+21ce3e: 1a02 f8c2                              |0083: const-string v2, "ucar_experience_app_added_category" // string@c2f8
+21ce42: 6e30 7101 2103                         |0085: invoke-virtual {v1, v2, v3}, Landroid/content/Context;.getSharedPreferences:(Ljava/lang/String;I)Landroid/content/SharedPreferences; // method@0171
+21ce48: 0c01                                   |0088: move-result-object v1
+21ce4a: 5b41 00ce                              |0089: iput-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.V:Landroid/content/SharedPreferences; // field@ce00
+21ce4e: 5441 fecd                              |008b: iget-object v1, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.T:Landroid/content/SharedPreferences; // field@cdfe
+21ce52: 2202 1315                              |008d: new-instance v2, Ljava/util/HashSet; // type@1513
+21ce56: 7010 ae83 0200                         |008f: invoke-direct {v2}, Ljava/util/HashSet;.<init>:()V // method@83ae
+21ce5c: 1a03 15c3                              |0092: const-string v3, "ucar_need_more_app" // string@c315
+21ce60: 7230 d101 3102                         |0094: invoke-interface {v1, v3, v2}, Landroid/content/SharedPreferences;.getStringSet:(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set; // method@01d1
+21ce66: 0c01                                   |0097: move-result-object v1
+21ce68: 3801 0c00                              |0098: if-eqz v1, 00a4 // +000c
+21ce6c: 5442 01ce                              |009a: iget-object v2, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21ce70: 7210 1f84 0200                         |009c: invoke-interface {v2}, Ljava/util/Set;.clear:()V // method@841f
+21ce76: 5442 01ce                              |009f: iget-object v2, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21ce7a: 7220 1e84 1200                         |00a1: invoke-interface {v2, v1}, Ljava/util/Set;.addAll:(Ljava/util/Collection;)Z // method@841e
+21ce80: 7110 6798 0500                         |00a4: invoke-static {v5}, Lo1/i;.a:(Ljava/lang/String;)Z // method@9867
+21ce86: 0a05                                   |00a7: move-result v5
+21ce88: 3805 0600                              |00a8: if-eqz v5, 00ae // +0006
+21ce8c: 6e20 bf34 0400                         |00aa: invoke-virtual {v4, v0}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y0:(Lcom/carwith/common/bean/CloudControlBean;)V // method@34bf
+21ce92: 2862                                   |00ad: goto 010f // +0062
+21ce94: 7100 2e9e 0000                         |00ae: invoke-static {}, Lr9/a;.o:()Lr9/a; // method@9e2e
+21ce9a: 0c05                                   |00b1: move-result-object v5
+21ce9c: 6e10 2d9e 0500                         |00b2: invoke-virtual {v5}, Lr9/a;.n:()Lcom/carwith/common/bean/CloudControlBean; // method@9e2d
+21cea2: 0c05                                   |00b5: move-result-object v5
+21cea4: 5b45 03ce                              |00b6: iput-object v5, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21cea8: 3805 4500                              |00b8: if-eqz v5, 00fd // +0045
+21ceac: 6e10 a80c 0500                         |00ba: invoke-virtual {v5}, Lcom/carwith/common/bean/CloudControlBean;.getAppWhiteList:()Ljava/util/List; // method@0ca8
+21ceb2: 0c05                                   |00bd: move-result-object v5
+21ceb4: 3805 3f00                              |00be: if-eqz v5, 00fd // +003f
+21ceb8: 2205 aa14                              |00c0: new-instance v5, Ljava/lang/StringBuilder; // type@14aa
+21cebc: 7010 e381 0500                         |00c2: invoke-direct {v5}, Ljava/lang/StringBuilder;.<init>:()V // method@81e3
+21cec2: 1a00 a188                              |00c5: const-string v0, "mCloudControlBean.getAppWhiteList()=" // string@88a1
+21cec6: 6e20 ee81 0500                         |00c7: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+21cecc: 5440 03ce                              |00ca: iget-object v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21ced0: 6e10 a80c 0000                         |00cc: invoke-virtual {v0}, Lcom/carwith/common/bean/CloudControlBean;.getAppWhiteList:()Ljava/util/List; // method@0ca8
+21ced6: 0c00                                   |00cf: move-result-object v0
+21ced8: 6e20 ed81 0500                         |00d0: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@81ed
+21cede: 1a00 bf03                              |00d3: const-string v0, ",mWorkMode=" // string@03bf
+21cee2: 6e20 ee81 0500                         |00d5: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@81ee
+21cee8: 5240 05ce                              |00d8: iget v0, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21ceec: 6e20 e981 0500                         |00da: invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@81e9
+21cef2: 6e10 fd81 0500                         |00dd: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@81fd
+21cef8: 0c05                                   |00e0: move-result-object v5
+21cefa: 7120 790e 5600                         |00e1: invoke-static {v6, v5}, Lcom/carwith/common/utils/w1;.e:(Ljava/lang/String;Ljava/lang/String;)V // method@0e79
+21cf00: 7100 660d 0000                         |00e4: invoke-static {}, Lcom/carwith/common/utils/d0;.R:()Lcom/carwith/common/utils/d0; // method@0d66
+21cf06: 0c05                                   |00e7: move-result-object v5
+21cf08: 5446 03ce                              |00e8: iget-object v6, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Y:Lcom/carwith/common/bean/CloudControlBean; // field@ce03
+21cf0c: 6e10 a80c 0600                         |00ea: invoke-virtual {v6}, Lcom/carwith/common/bean/CloudControlBean;.getAppWhiteList:()Ljava/util/List; // method@0ca8
+21cf12: 0c06                                   |00ed: move-result-object v6
+21cf14: 6e20 7f0d 6500                         |00ee: invoke-virtual {v5, v6}, Lcom/carwith/common/utils/d0;.v0:(Ljava/util/List;)V // method@0d7f
+21cf1a: 7100 660d 0000                         |00f1: invoke-static {}, Lcom/carwith/common/utils/d0;.R:()Lcom/carwith/common/utils/d0; // method@0d66
+21cf20: 0c05                                   |00f4: move-result-object v5
+21cf22: 5246 05ce                              |00f5: iget v6, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a0:I // field@ce05
+21cf26: 6e20 650d 6500                         |00f7: invoke-virtual {v5, v6}, Lcom/carwith/common/utils/d0;.Q:(I)Ljava/util/List; // method@0d65
+21cf2c: 0c05                                   |00fa: move-result-object v5
+21cf2e: 5b45 04ce                              |00fb: iput-object v5, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21cf32: 5445 04ce                              |00fd: iget-object v5, v4, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z:Ljava/util/List; // field@ce04
+21cf36: 3805 0d00                              |00ff: if-eqz v5, 010c // +000d
+21cf3a: 7210 e483 0500                         |0101: invoke-interface {v5}, Ljava/util/List;.size:()I // method@83e4
+21cf40: 0a05                                   |0104: move-result v5
+21cf42: 3905 0300                              |0105: if-nez v5, 0108 // +0003
+21cf46: 2805                                   |0107: goto 010c // +0005
+21cf48: 6e10 c134 0400                         |0108: invoke-virtual {v4}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.a1:()V // method@34c1
+21cf4e: 2804                                   |010b: goto 010f // +0004
+21cf50: 6e10 c034 0400                         |010c: invoke-virtual {v4}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Z0:()V // method@34c0
+21cf56: 0e00                                   |010f: return-void
+      catches       : (none)
+
+    #12              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'onCreateRecyclerView'
+      type          : '(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroidx/recyclerview/widget/RecyclerView;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 4
+      insns size    : 19 16-bit code units
+21c680:                                        |[21c680] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.onCreateRecyclerView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroidx/recyclerview/widget/RecyclerView;
+21c690: 6f40 cc33 1032                         |0000: invoke-super {v0, v1, v2, v3}, Lcom/carwith/launcher/settings/phone/BaseSettingsFragment;.onCreateRecyclerView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroidx/recyclerview/widget/RecyclerView; // method@33cc
+21c696: 0c01                                   |0003: move-result-object v1
+21c698: 3801 0e00                              |0004: if-eqz v1, 0012 // +000e
+21c69c: 2202 a702                              |0006: new-instance v2, Landroidx/recyclerview/widget/ItemTouchHelper; // type@02a7
+21c6a0: 6e10 bb34 0000                         |0008: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21c6a6: 0c00                                   |000b: move-result-object v0
+21c6a8: 7020 fc09 0200                         |000c: invoke-direct {v2, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;.<init>:(Landroidx/recyclerview/widget/ItemTouchHelper$Callback;)V // method@09fc
+21c6ae: 6e20 fd09 1200                         |000f: invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/ItemTouchHelper;.attachToRecyclerView:(Landroidx/recyclerview/widget/RecyclerView;)V // method@09fd
+21c6b4: 1101                                   |0012: return-object v1
+      catches       : (none)
+
+    #13              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 'onDestroy'
+      type          : '()V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+21cf58:                                        |[21cf58] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.onDestroy:()V
+21cf68: 6f10 5b09 0000                         |0000: invoke-super {v0}, Landroidx/fragment/app/Fragment;.onDestroy:()V // method@095b
+21cf6e: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #14              : (in Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;)
+      name          : 's'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 4
+      insns size    : 157 16-bit code units
+21d0c0:                                        |[21d0c0] com.carwith.launcher.settings.phone.UCarCastAppManagerActivity$UCarCastAppManagerFragment.s:(Ljava/lang/String;)V
+21d0d0: 5430 facd                              |0000: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d0d4: 6e20 d809 4000                         |0002: invoke-virtual {v0, v4}, Landroidx/preference/PreferenceGroup;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d8
+21d0da: 0c00                                   |0005: move-result-object v0
+21d0dc: 1f00 580b                              |0006: check-cast v0, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21d0e0: 3900 0b00                              |0008: if-nez v0, 0013 // +000b
+21d0e4: 5430 fccd                              |000a: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21d0e8: 6e20 d809 4000                         |000c: invoke-virtual {v0, v4}, Landroidx/preference/PreferenceGroup;.findPreference:(Ljava/lang/CharSequence;)Landroidx/preference/Preference; // method@09d8
+21d0ee: 0c00                                   |000f: move-result-object v0
+21d0f0: 1f00 580b                              |0010: check-cast v0, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21d0f4: 280f                                   |0012: goto 0021 // +000f
+21d0f6: 5431 00ce                              |0013: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.V:Landroid/content/SharedPreferences; // field@ce00
+21d0fa: 7210 ca01 0100                         |0015: invoke-interface {v1}, Landroid/content/SharedPreferences;.edit:()Landroid/content/SharedPreferences$Editor; // method@01ca
+21d100: 0c01                                   |0018: move-result-object v1
+21d102: 1202                                   |0019: const/4 v2, #int 0 // #0
+21d104: 7230 c301 4102                         |001a: invoke-interface {v1, v4, v2}, Landroid/content/SharedPreferences$Editor;.putBoolean:(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor; // method@01c3
+21d10a: 0c01                                   |001d: move-result-object v1
+21d10c: 7210 c001 0100                         |001e: invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;.apply:()V // method@01c0
+21d112: 5431 fccd                              |0021: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21d116: 6e20 dc09 0100                         |0023: invoke-virtual {v1, v0}, Landroidx/preference/PreferenceGroup;.removePreference:(Landroidx/preference/Preference;)Z // method@09dc
+21d11c: 5431 facd                              |0026: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d120: 6e20 dc09 0100                         |0028: invoke-virtual {v1, v0}, Landroidx/preference/PreferenceGroup;.removePreference:(Landroidx/preference/Preference;)Z // method@09dc
+21d126: 2201 580b                              |002b: new-instance v1, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference; // type@0b58
+21d12a: 6e10 4409 0300                         |002d: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21d130: 0c02                                   |0030: move-result-object v2
+21d132: 6e10 aa39 0000                         |0031: invoke-virtual {v0}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.x:()Lj6/d; // method@39aa
+21d138: 0c00                                   |0034: move-result-object v0
+21d13a: 7040 a139 2130                         |0035: invoke-direct {v1, v2, v0, v3}, Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference;.<init>:(Landroid/content/Context;Lj6/d;Lcom/carwith/launcher/settings/phone/preference/UCarAppItemPreference$f;)V // method@39a1
+21d140: 5430 fbcd                              |0038: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.Q:Landroidx/preference/PreferenceCategory; // field@cdfb
+21d144: 6e20 d709 1000                         |003a: invoke-virtual {v0, v1}, Landroidx/preference/PreferenceGroup;.addPreference:(Landroidx/preference/Preference;)Z // method@09d7
+21d14a: 5430 01ce                              |003d: iget-object v0, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21d14e: 7220 1d84 4000                         |003f: invoke-interface {v0, v4}, Ljava/util/Set;.add:(Ljava/lang/Object;)Z // method@841d
+21d154: 6e10 c234 0300                         |0042: invoke-virtual {v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.b1:()V // method@34c2
+21d15a: 7100 bb0b 0000                         |0045: invoke-static {}, Lc6/b;.c:()Lc6/b; // method@0bbb
+21d160: 0c00                                   |0048: move-result-object v0
+21d162: 5431 01ce                              |0049: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.W:Ljava/util/Set; // field@ce01
+21d166: 1212                                   |004b: const/4 v2, #int 1 // #1
+21d168: 6e40 bc0b 1024                         |004c: invoke-virtual {v0, v1, v4, v2}, Lc6/b;.d:(Ljava/util/Set;Ljava/lang/String;Z)V // method@0bbc
+21d16e: 6e10 bb34 0300                         |004f: invoke-virtual {v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21d174: 0c00                                   |0052: move-result-object v0
+21d176: 5431 facd                              |0053: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d17a: 6e10 da09 0100                         |0055: invoke-virtual {v1}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d180: 0a01                                   |0058: move-result v1
+21d182: 5432 fccd                              |0059: iget-object v2, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R:Landroidx/preference/PreferenceCategory; // field@cdfc
+21d186: 6e10 da09 0200                         |005b: invoke-virtual {v2}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d18c: 0a02                                   |005e: move-result v2
+21d18e: b021                                   |005f: add-int/2addr v1, v2
+21d190: 6e20 4238 1000                         |0060: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.c:(I)V // method@3842
+21d196: 6e10 bb34 0300                         |0063: invoke-virtual {v3}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.U0:()Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack; // method@34bb
+21d19c: 0c00                                   |0066: move-result-object v0
+21d19e: 5431 facd                              |0067: iget-object v1, v3, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.P:Landroidx/preference/PreferenceCategory; // field@cdfa
+21d1a2: 6e10 da09 0100                         |0069: invoke-virtual {v1}, Landroidx/preference/PreferenceGroup;.getPreferenceCount:()I // method@09da
+21d1a8: 0a01                                   |006c: move-result v1
+21d1aa: 6e20 4338 1000                         |006d: invoke-virtual {v0, v1}, Lcom/carwith/launcher/settings/phone/helper/CastAppItemDragHelperCallBack;.d:(I)V // method@3843
+21d1b0: 6e10 4409 0300                         |0070: invoke-virtual {v3}, Landroidx/fragment/app/Fragment;.getContext:()Landroid/content/Context; // method@0944
+21d1b6: 0c00                                   |0073: move-result-object v0
+21d1b8: 7110 2905 0400                         |0074: invoke-static {v4}, Landroid/text/TextUtils;.isEmpty:(Ljava/lang/CharSequence;)Z // method@0529
+21d1be: 0a01                                   |0077: move-result v1
+21d1c0: 3901 2400                              |0078: if-nez v1, 009c // +0024
+21d1c4: 3800 2200                              |007a: if-eqz v0, 009c // +0022
+21d1c8: 7110 a49a 0000                         |007c: invoke-static {v0}, Lp6/o0;.f:(Landroid/content/Context;)Ljava/lang/String; // method@9aa4
+21d1ce: 0c01                                   |007f: move-result-object v1
+21d1d0: 6e20 b181 1400                         |0080: invoke-virtual {v4, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21d1d6: 0a01                                   |0083: move-result v1
+21d1d8: 3901 0c00                              |0084: if-nez v1, 0090 // +000c
+21d1dc: 7110 a69a 0000                         |0086: invoke-static {v0}, Lp6/o0;.h:(Landroid/content/Context;)Ljava/lang/String; // method@9aa6
+21d1e2: 0c01                                   |0089: move-result-object v1
+21d1e4: 6e20 b181 1400                         |008a: invoke-virtual {v4, v1}, Ljava/lang/String;.equals:(Ljava/lang/Object;)Z // method@81b1
+21d1ea: 0a01                                   |008d: move-result v1
+21d1ec: 3801 0e00                              |008e: if-eqz v1, 009c // +000e
+21d1f0: 7120 120e 4000                         |0090: invoke-static {v0, v4}, Lcom/carwith/common/utils/n;.z:(Landroid/content/Context;Ljava/lang/String;)Z // method@0e12
+21d1f6: 0a01                                   |0093: move-result v1
+21d1f8: 3801 0500                              |0094: if-eqz v1, 0099 // +0005
+21d1fc: 7120 000e 4000                         |0096: invoke-static {v0, v4}, Lcom/carwith/common/utils/n;.g:(Landroid/content/Context;Ljava/lang/String;)V // method@0e00
+21d202: 6e30 b834 4300                         |0099: invoke-virtual {v3, v4, v0}, Lcom/carwith/launcher/settings/phone/UCarCastAppManagerActivity$UCarCastAppManagerFragment;.R0:(Ljava/lang/String;Landroid/content/Context;)V // method@34b8
+21d208: 0e00                                   |009c: return-void
+      catches       : (none)
+
+  source_file_idx   : 19766 (UCarCastAppManagerActivity.java)
+

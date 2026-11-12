@@ -1,0 +1,43 @@
+{
+  "nodeInfo": [
+    {
+      "nodeIdInfos": [
+        {
+          "pageId": "qiyi_have_progress_bar",
+          "appVersions": [
+            {
+              "versionCode": "146",
+              "classPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "textPatterns": [
+                {
+                  "text": "",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "idPatterns": [
+                {
+                  "text": "com.qiyi.video:id/btn_pause",
+                  "class_name": "",
+                  "enabled": ""
+                }
+              ],
+              "contentPatterns": [
+                {
+                  "regex": "",
+                  "enabled": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

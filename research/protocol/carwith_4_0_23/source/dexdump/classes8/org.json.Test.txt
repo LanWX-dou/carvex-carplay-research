@@ -1,0 +1,1423 @@
+Class #1725            -
+  Class descriptor  : 'Lorg/json/Test;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lorg/json/Test;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+253d4c:                                        |[253d4c] org.json.Test.<init>:()V
+253d5c: 7010 ea11 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@11ea
+253d62: 0e00                                   |0003: return-void
+      catches       : (none)
+
+    #1              : (in Lorg/json/Test;)
+      name          : 'main'
+      type          : '([Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 25
+      ins           : 1
+      outs          : 5
+      insns size    : 2895 16-bit code units
+253d64:                                        |[253d64] org.json.Test.main:([Ljava/lang/String;)V
+253d74: 1a01 c188                              |0000: const-string v1, "string" // string@88c1
+253d78: 1a02 c288                              |0002: const-string v2, "string " // string@88c2
+253d7c: 1a03 9153                              |0004: const-string v3, "double " // string@5391
+253d80: 1a04 d463                              |0006: const-string v4, "longer" // string@63d4
+253d84: 1a05 d563                              |0008: const-string v5, "longer " // string@63d5
+253d88: 1a06 d163                              |000a: const-string v6, "long   " // string@63d1
+253d8c: 1a07 c35f                              |000c: const-string v7, "int    " // string@5fc3
+253d90: 1a08 8355                              |000e: const-string v8, "false" // string@5583
+253d94: 1a09 8056                              |0010: const-string v9, "foo" // string@5680
+253d98: 1a0a 8788                              |0012: const-string v10, "stooges" // string@8887
+253d9c: 1a0b 9053                              |0014: const-string v11, "double" // string@5390
+253da0: 1a0c c25f                              |0016: const-string v12, "int" // string@5fc2
+253da4: 1a0d d063                              |0018: const-string v13, "long" // string@63d0
+253da8: 1a0e ac8b                              |001a: const-string v14, "true" // string@8bac
+253dac: 1a0f 8588                              |001c: const-string v15, "stooge" // string@8885
+253db0: 0818 0a00                              |001e: move-object/from16 v24, v10
+253db4: 1a0a dc15                              |0020: const-string v10, "Exception: " // string@15dc
+253db8: 0810 0a00                              |0022: move-object/from16 v16, v10
+253dbc: 1a0a 0000                              |0024: const-string v10, "" // string@0000
+253dc0: 0811 0f00                              |0026: move-object/from16 v17, v15
+253dc4: 220f fd0e                              |0028: new-instance v15, Lorg/json/Test$1Obj; // type@0efd
+253dc8: 0812 0100                              |002a: move-object/from16 v18, v1
+253dcc: 1a01 c007                              |002c: const-string v1, "A beany object" // string@07c0
+253dd0: 0813 0200                              |002e: move-object/from16 v19, v2
+253dd4: 0814 0300                              |0030: move-object/from16 v20, v3
+253dd8: 1902 4540                              |0032: const-wide/high16 v2, #long 4631107791820423168 // #4045
+253ddc: 0815 0400                              |0034: move-object/from16 v21, v4
+253de0: 1214                                   |0036: const/4 v4, #int 1 // #1
+253de2: 7054 9c5f 1f32                         |0037: invoke-direct {v15, v1, v2, v3, v4}, Lorg/json/Test$1Obj;.<init>:(Ljava/lang/String;DZ)V // method@5f9c
+253de8: 1a01 2e07                              |003a: const-string v1, "<![CDATA[This is a collection of test patterns and examples for org.json.]]>  Ignore the stuff past the end.  " // string@072e
+253dec: 7110 ab5f 0100                         |003c: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+253df2: 0c01                                   |003f: move-result-object v1
+253df4: 6202 4d08                              |0040: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+253df8: 6e10 755f 0100                         |0042: invoke-virtual {v1}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+253dfe: 0c01                                   |0045: move-result-object v1
+253e00: 6e20 1911 1200                         |0046: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e06: 1a01 af8e                              |0049: const-string v1, "{     \"list of lists\" : [         [1, 2, 3],         [4, 5, 6],     ] }" // string@8eaf
+253e0a: 2203 f80e                              |004b: new-instance v3, Lorg/json/JSONObject; // type@0ef8
+253e0e: 7020 3f5f 1300                         |004d: invoke-direct {v3, v1}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+253e14: 1241                                   |0050: const/4 v1, #int 4 // #4
+253e16: 6e20 765f 1300                         |0051: invoke-virtual {v3, v1}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+253e1c: 0c04                                   |0054: move-result-object v4
+253e1e: 6e20 1911 4200                         |0055: invoke-virtual {v2, v4}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e24: 7110 ac5f 0300                         |0058: invoke-static {v3}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+253e2a: 0c03                                   |005b: move-result-object v3
+253e2c: 6e20 1911 3200                         |005c: invoke-virtual {v2, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e32: 1a03 5a07                              |005f: const-string v3, "<recipe name=\"bread\" prep_time=\"5 mins\" cook_time=\"3 hours\"> <title>Basic bread</title> <ingredient amount=\"8\" unit=\"dL\">Flour</ingredient> <ingredient amount=\"10\" unit=\"grams\">Yeast</ingredient> <ingredient amount=\"4\" unit=\"dL\" state=\"warm\">Water</ingredient> <ingredient amount=\"1\" unit=\"teaspoon\">Salt</ingredient> <instructions> <step>Mix all ingredients together.</step> <step>Knead thoroughly.</step> <step>Cover with a cloth, and leave for one hour in warm room.</step> <step>Knead again.</step> <step>Place in a bread baking tin.</step> <step>Cover with a cloth, and leave for one hour in warm room.</step> <step>Bake in the oven at 180(degrees)C for 30 minutes.</step> </instructions> </recipe> " // string@075a
+253e36: 7110 ab5f 0300                         |0061: invoke-static {v3}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+253e3c: 0c04                                   |0064: move-result-object v4
+253e3e: 6e20 765f 1400                         |0065: invoke-virtual {v4, v1}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+253e44: 0c04                                   |0068: move-result-object v4
+253e46: 6e20 1911 4200                         |0069: invoke-virtual {v2, v4}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e4c: 6e10 1511 0200                         |006c: invoke-virtual {v2}, Ljava/io/PrintStream;.println:()V // method@1115
+253e52: 7110 315f 0300                         |006f: invoke-static {v3}, Lorg/json/JSONML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5f31
+253e58: 0c04                                   |0072: move-result-object v4
+253e5a: 6e10 755f 0400                         |0073: invoke-virtual {v4}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+253e60: 0c01                                   |0076: move-result-object v1
+253e62: 6e20 1911 1200                         |0077: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e68: 7110 345f 0400                         |007a: invoke-static {v4}, Lorg/json/JSONML;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5f34
+253e6e: 0c01                                   |007d: move-result-object v1
+253e70: 6e20 1911 1200                         |007e: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e76: 6e10 1511 0200                         |0081: invoke-virtual {v2}, Ljava/io/PrintStream;.println:()V // method@1115
+253e7c: 7110 2f5f 0300                         |0084: invoke-static {v3}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+253e82: 0c01                                   |0087: move-result-object v1
+253e84: 1243                                   |0088: const/4 v3, #int 4 // #4
+253e86: 6e20 275f 3100                         |0089: invoke-virtual {v1, v3}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+253e8c: 0c04                                   |008c: move-result-object v4
+253e8e: 6e20 1911 4200                         |008d: invoke-virtual {v2, v4}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253e94: 7110 335f 0100                         |0090: invoke-static {v1}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+253e9a: 0c01                                   |0093: move-result-object v1
+253e9c: 6e20 1911 1200                         |0094: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253ea2: 6e10 1511 0200                         |0097: invoke-virtual {v2}, Ljava/io/PrintStream;.println:()V // method@1115
+253ea8: 1a01 5307                              |009a: const-string v1, "<div id=\"demo\" class=\"JSONML\"><p>JSONML is a transformation between <b>JSON</b> and <b>XML</b> that preserves ordering of document features.</p><p>JSONML can work with JSON arrays or JSON objects.</p><p>Three<br/>little<br/>words</p></div>" // string@0753
+253eac: 7110 315f 0100                         |009c: invoke-static {v1}, Lorg/json/JSONML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5f31
+253eb2: 0c03                                   |009f: move-result-object v3
+253eb4: 0816 0500                              |00a0: move-object/from16 v22, v5
+253eb8: 1244                                   |00a2: const/4 v4, #int 4 // #4
+253eba: 6e20 765f 4300                         |00a3: invoke-virtual {v3, v4}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+253ec0: 0c05                                   |00a6: move-result-object v5
+253ec2: 6e20 1911 5200                         |00a7: invoke-virtual {v2, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253ec8: 7110 345f 0300                         |00aa: invoke-static {v3}, Lorg/json/JSONML;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5f34
+253ece: 0c03                                   |00ad: move-result-object v3
+253ed0: 6e20 1911 3200                         |00ae: invoke-virtual {v2, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253ed6: 6e10 1511 0200                         |00b1: invoke-virtual {v2}, Ljava/io/PrintStream;.println:()V // method@1115
+253edc: 7110 2f5f 0100                         |00b4: invoke-static {v1}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+253ee2: 0c01                                   |00b7: move-result-object v1
+253ee4: 1243                                   |00b8: const/4 v3, #int 4 // #4
+253ee6: 6e20 275f 3100                         |00b9: invoke-virtual {v1, v3}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+253eec: 0c04                                   |00bc: move-result-object v4
+253eee: 6e20 1911 4200                         |00bd: invoke-virtual {v2, v4}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253ef4: 7110 335f 0100                         |00c0: invoke-static {v1}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+253efa: 0c01                                   |00c3: move-result-object v1
+253efc: 6e20 1911 1200                         |00c4: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253f02: 6e10 1511 0200                         |00c7: invoke-virtual {v2}, Ljava/io/PrintStream;.println:()V // method@1115
+253f08: 1a01 5907                              |00ca: const-string v1, "<person created=\"2006-11-11T19:23\" modified=\"2006-12-31T23:59\">\n <firstName>Robert</firstName>\n <lastName>Smith</lastName>\n <address type=\"home\">\n <street>12345 Sixth Ave</street>\n <city>Anytown</city>\n <state>CA</state>\n <postalCode>98765-4321</postalCode>\n </address>\n </person>" // string@0759
+253f0c: 7110 ab5f 0100                         |00cc: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+253f12: 0c01                                   |00cf: move-result-object v1
+253f14: 1243                                   |00d0: const/4 v3, #int 4 // #4
+253f16: 6e20 765f 3100                         |00d1: invoke-virtual {v1, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+253f1c: 0c01                                   |00d4: move-result-object v1
+253f1e: 6e20 1911 1200                         |00d5: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253f24: 2201 f80e                              |00d8: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+253f28: 7020 3c5f f100                         |00da: invoke-direct {v1, v15}, Lorg/json/JSONObject;.<init>:(Ljava/lang/Object;)V // method@5f3c
+253f2e: 6e10 755f 0100                         |00dd: invoke-virtual {v1}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+253f34: 0c01                                   |00e0: move-result-object v1
+253f36: 6e20 1911 1200                         |00e1: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253f3c: 1a01 b08e                              |00e4: const-string v1, "{ \"entity\": { \"imageURL\": \"\", \"name\": \"IXXXXXXXXXXXXX\", \"id\": 12336, \"ratingCount\": null, \"averageRating\": null } }" // string@8eb0
+253f40: 2203 f80e                              |00e6: new-instance v3, Lorg/json/JSONObject; // type@0ef8
+253f44: 7020 3f5f 1300                         |00e8: invoke-direct {v3, v1}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+253f4a: 1221                                   |00eb: const/4 v1, #int 2 // #2
+253f4c: 6e20 765f 1300                         |00ec: invoke-virtual {v3, v1}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+253f52: 0c03                                   |00ef: move-result-object v3
+253f54: 6e20 1911 3200                         |00f0: invoke-virtual {v2, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+253f5a: 2203 fa0e                              |00f3: new-instance v3, Lorg/json/JSONStringer; // type@0efa
+253f5e: 7010 7c5f 0300                         |00f5: invoke-direct {v3}, Lorg/json/JSONStringer;.<init>:()V // method@5f7c
+253f64: 6e10 955f 0300                         |00f8: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+253f6a: 0c03                                   |00fb: move-result-object v3
+253f6c: 1a04 9f86                              |00fc: const-string v4, "single" // string@869f
+253f70: 6e20 945f 4300                         |00fe: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253f76: 0c03                                   |0101: move-result-object v3
+253f78: 1a04 0a2f                              |0102: const-string v4, "MARIE HAA'S" // string@2f0a
+253f7c: 6e20 9a5f 4300                         |0104: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+253f82: 0c03                                   |0107: move-result-object v3
+253f84: 1a04 f21a                              |0108: const-string v4, "Johnny" // string@1af2
+253f88: 6e20 945f 4300                         |010a: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253f8e: 0c03                                   |010d: move-result-object v3
+253f90: 1a04 0b2f                              |010e: const-string v4, "MARIE HAA\\'S" // string@2f0b
+253f94: 6e20 9a5f 4300                         |0110: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+253f9a: 0c03                                   |0113: move-result-object v3
+253f9c: 6e20 945f 9300                         |0114: invoke-virtual {v3, v9}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253fa2: 0c03                                   |0117: move-result-object v3
+253fa4: 1a04 9f4b                              |0118: const-string v4, "bar" // string@4b9f
+253fa8: 6e20 9a5f 4300                         |011a: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+253fae: 0c03                                   |011d: move-result-object v3
+253fb0: 1a04 ae4b                              |011e: const-string v4, "baz" // string@4bae
+253fb4: 6e20 945f 4300                         |0120: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253fba: 0c03                                   |0123: move-result-object v3
+253fbc: 6e10 905f 0300                         |0124: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+253fc2: 0c03                                   |0127: move-result-object v3
+253fc4: 6e10 955f 0300                         |0128: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+253fca: 0c03                                   |012b: move-result-object v3
+253fcc: 1a04 b37d                              |012c: const-string v4, "quux" // string@7db3
+253fd0: 6e20 945f 4300                         |012e: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253fd6: 0c03                                   |0131: move-result-object v3
+253fd8: 1a04 d03e                              |0132: const-string v4, "Thanks, Josh!" // string@3ed0
+253fdc: 6e20 9a5f 4300                         |0134: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+253fe2: 0c03                                   |0137: move-result-object v3
+253fe4: 6e10 935f 0300                         |0138: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+253fea: 0c03                                   |013b: move-result-object v3
+253fec: 6e10 925f 0300                         |013c: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+253ff2: 0c03                                   |013f: move-result-object v3
+253ff4: 1a04 b677                              |0140: const-string v4, "obj keys" // string@77b6
+253ff8: 6e20 945f 4300                         |0142: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+253ffe: 0c03                                   |0145: move-result-object v3
+254000: 7110 4e5f 0f00                         |0146: invoke-static {v15}, Lorg/json/JSONObject;.getNames:(Ljava/lang/Object;)[Ljava/lang/String; // method@5f4e
+254006: 0c04                                   |0149: move-result-object v4
+254008: 6e20 9a5f 4300                         |014a: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+25400e: 0c03                                   |014d: move-result-object v3
+254010: 6e10 935f 0300                         |014e: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+254016: 0c03                                   |0151: move-result-object v3
+254018: 6e10 f111 0300                         |0152: invoke-virtual {v3}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@11f1
+25401e: 0c03                                   |0155: move-result-object v3
+254020: 6e20 1911 3200                         |0156: invoke-virtual {v2, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254026: 2203 fa0e                              |0159: new-instance v3, Lorg/json/JSONStringer; // type@0efa
+25402a: 7010 7c5f 0300                         |015b: invoke-direct {v3}, Lorg/json/JSONStringer;.<init>:()V // method@5f7c
+254030: 6e10 955f 0300                         |015e: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+254036: 0c03                                   |0161: move-result-object v3
+254038: 1a04 6247                              |0162: const-string v4, "a" // string@4762
+25403c: 6e20 945f 4300                         |0164: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254042: 0c03                                   |0167: move-result-object v3
+254044: 6e10 905f 0300                         |0168: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+25404a: 0c03                                   |016b: move-result-object v3
+25404c: 6e10 905f 0300                         |016c: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+254052: 0c03                                   |016f: move-result-object v3
+254054: 6e10 905f 0300                         |0170: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+25405a: 0c03                                   |0173: move-result-object v3
+25405c: 1a04 6b4b                              |0174: const-string v4, "b" // string@4b6b
+254060: 6e20 9a5f 4300                         |0176: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+254066: 0c03                                   |0179: move-result-object v3
+254068: 6e10 925f 0300                         |017a: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+25406e: 0c03                                   |017d: move-result-object v3
+254070: 6e10 925f 0300                         |017e: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+254076: 0c03                                   |0181: move-result-object v3
+254078: 6e10 925f 0300                         |0182: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+25407e: 0c03                                   |0185: move-result-object v3
+254080: 6e10 935f 0300                         |0186: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+254086: 0c03                                   |0189: move-result-object v3
+254088: 6e10 f111 0300                         |018a: invoke-virtual {v3}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@11f1
+25408e: 0c03                                   |018d: move-result-object v3
+254090: 6e20 1911 3200                         |018e: invoke-virtual {v2, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254096: 2203 fa0e                              |0191: new-instance v3, Lorg/json/JSONStringer; // type@0efa
+25409a: 7010 7c5f 0300                         |0193: invoke-direct {v3}, Lorg/json/JSONStringer;.<init>:()V // method@5f7c
+2540a0: 6e10 905f 0300                         |0196: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+2540a6: 1604 0100                              |0199: const-wide/16 v4, #int 1 // #1
+2540aa: 6e30 995f 4305                         |019b: invoke-virtual {v3, v4, v5}, Lorg/json/JSONWriter;.value:(J)Lorg/json/JSONWriter; // method@5f99
+2540b0: 6e10 905f 0300                         |019e: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+2540b6: 1204                                   |01a1: const/4 v4, #int 0 // #0
+2540b8: 6e20 9a5f 4300                         |01a2: invoke-virtual {v3, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+2540be: 6e10 905f 0300                         |01a5: invoke-virtual {v3}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+2540c4: 6e10 955f 0300                         |01a8: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+2540ca: 1a05 5554                              |01ab: const-string v5, "empty-array" // string@5455
+2540ce: 6e20 945f 5300                         |01ad: invoke-virtual {v3, v5}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+2540d4: 0c05                                   |01b0: move-result-object v5
+2540d6: 6e10 905f 0500                         |01b1: invoke-virtual {v5}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+2540dc: 0c05                                   |01b4: move-result-object v5
+2540de: 6e10 925f 0500                         |01b5: invoke-virtual {v5}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+2540e4: 1a05 934a                              |01b8: const-string v5, "answer" // string@4a93
+2540e8: 6e20 945f 5300                         |01ba: invoke-virtual {v3, v5}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+2540ee: 0c05                                   |01bd: move-result-object v5
+2540f0: 0817 0200                              |01be: move-object/from16 v23, v2
+2540f4: 1601 2a00                              |01c0: const-wide/16 v1, #int 42 // #2a
+2540f8: 6e30 995f 1502                         |01c2: invoke-virtual {v5, v1, v2}, Lorg/json/JSONWriter;.value:(J)Lorg/json/JSONWriter; // method@5f99
+2540fe: 1a01 8877                              |01c5: const-string v1, "null" // string@7788
+254102: 6e20 945f 1300                         |01c7: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254108: 0c01                                   |01ca: move-result-object v1
+25410a: 6e20 9a5f 4100                         |01cb: invoke-virtual {v1, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+254110: 6e20 945f 8300                         |01ce: invoke-virtual {v3, v8}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254116: 0c01                                   |01d1: move-result-object v1
+254118: 1202                                   |01d2: const/4 v2, #int 0 // #0
+25411a: 6e20 9b5f 2100                         |01d3: invoke-virtual {v1, v2}, Lorg/json/JSONWriter;.value:(Z)Lorg/json/JSONWriter; // method@5f9b
+254120: 6e20 945f e300                         |01d6: invoke-virtual {v3, v14}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254126: 0c01                                   |01d9: move-result-object v1
+254128: 1215                                   |01da: const/4 v5, #int 1 // #1
+25412a: 6e20 9b5f 5100                         |01db: invoke-virtual {v1, v5}, Lorg/json/JSONWriter;.value:(Z)Lorg/json/JSONWriter; // method@5f9b
+254130: 1a01 db4b                              |01de: const-string v1, "big" // string@4bdb
+254134: 6e20 945f 1300                         |01e0: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+25413a: 0c01                                   |01e3: move-result-object v1
+25413c: 1804 b389 0ed5 d97e e253               |01e4: const-wide v4, #double 1.23457e+96 // #53e27ed9d50e89b3
+254146: 6e30 985f 4105                         |01e9: invoke-virtual {v1, v4, v5}, Lorg/json/JSONWriter;.value:(D)Lorg/json/JSONWriter; // method@5f98
+25414c: 1a01 ed86                              |01ec: const-string v1, "small" // string@86ed
+254150: 6e20 945f 1300                         |01ee: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254156: 0c01                                   |01f1: move-result-object v1
+254158: 1804 544b 1e3f e46b 572f               |01f2: const-wide v4, #double 1.23457e-80 // #2f576be43f1e4b54
+254162: 6e30 985f 4105                         |01f7: invoke-virtual {v1, v4, v5}, Lorg/json/JSONWriter;.value:(D)Lorg/json/JSONWriter; // method@5f98
+254168: 1a01 5654                              |01fa: const-string v1, "empty-object" // string@5456
+25416c: 6e20 945f 1300                         |01fc: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254172: 0c01                                   |01ff: move-result-object v1
+254174: 6e10 955f 0100                         |0200: invoke-virtual {v1}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+25417a: 0c01                                   |0203: move-result-object v1
+25417c: 6e10 935f 0100                         |0204: invoke-virtual {v1}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+254182: 6e20 945f d300                         |0207: invoke-virtual {v3, v13}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+254188: 1804 ffff ffff ffff ff7f               |020a: const-wide v4, #double nan // #7fffffffffffffff
+254192: 6e30 995f 4305                         |020f: invoke-virtual {v3, v4, v5}, Lorg/json/JSONWriter;.value:(J)Lorg/json/JSONWriter; // method@5f99
+254198: 6e10 935f 0300                         |0212: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+25419e: 1a01 de8b                              |0215: const-string v1, "two" // string@8bde
+2541a2: 6e20 9a5f 1300                         |0217: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+2541a8: 6e10 925f 0300                         |021a: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+2541ae: 1211                                   |021d: const/4 v1, #int 1 // #1
+2541b0: 6e20 9b5f 1300                         |021e: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.value:(Z)Lorg/json/JSONWriter; // method@5f9b
+2541b6: 6e10 925f 0300                         |0221: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+2541bc: 1804 6666 6666 66a6 5840               |0224: const-wide v4, #double 98.6 // #4058a66666666666
+2541c6: 6e30 985f 4305                         |0229: invoke-virtual {v3, v4, v5}, Lorg/json/JSONWriter;.value:(D)Lorg/json/JSONWriter; // method@5f98
+2541cc: 1904 59c0                              |022c: const-wide/high16 v4, #long -4586634745500139520 // #c059
+2541d0: 6e30 985f 4305                         |022e: invoke-virtual {v3, v4, v5}, Lorg/json/JSONWriter;.value:(D)Lorg/json/JSONWriter; // method@5f98
+2541d6: 6e10 955f 0300                         |0231: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+2541dc: 6e10 935f 0300                         |0234: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+2541e2: 6e10 955f 0300                         |0237: invoke-virtual {v3}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+2541e8: 1a01 ad7a                              |023a: const-string v1, "one" // string@7aad
+2541ec: 6e20 945f 1300                         |023c: invoke-virtual {v3, v1}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+2541f2: 1904 f03f                              |023f: const-wide/high16 v4, #long 4607182418800017408 // #3ff0
+2541f6: 6e30 985f 4305                         |0241: invoke-virtual {v3, v4, v5}, Lorg/json/JSONWriter;.value:(D)Lorg/json/JSONWriter; // method@5f98
+2541fc: 6e10 935f 0300                         |0244: invoke-virtual {v3}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+254202: 6e20 9a5f f300                         |0247: invoke-virtual {v3, v15}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+254208: 6e10 925f 0300                         |024a: invoke-virtual {v3}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+25420e: 6e10 7d5f 0300                         |024d: invoke-virtual {v3}, Lorg/json/JSONStringer;.toString:()Ljava/lang/String; // method@5f7d
+254214: 0c01                                   |0250: move-result-object v1
+254216: 0804 1700                              |0251: move-object/from16 v4, v23
+25421a: 6e20 1911 1400                         |0253: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254220: 2201 f40e                              |0256: new-instance v1, Lorg/json/JSONArray; // type@0ef4
+254224: 6e10 7d5f 0300                         |0258: invoke-virtual {v3}, Lorg/json/JSONStringer;.toString:()Ljava/lang/String; // method@5f7d
+25422a: 0c03                                   |025b: move-result-object v3
+25422c: 7020 fa5e 3100                         |025c: invoke-direct {v1, v3}, Lorg/json/JSONArray;.<init>:(Ljava/lang/String;)V // method@5efa
+254232: 1243                                   |025f: const/4 v3, #int 4 // #4
+254234: 6e20 275f 3100                         |0260: invoke-virtual {v1, v3}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+25423a: 0c01                                   |0263: move-result-object v1
+25423c: 6e20 1911 1400                         |0264: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254242: 1231                                   |0267: const/4 v1, #int 3 // #3
+254244: 1213                                   |0268: const/4 v3, #int 1 // #1
+254246: 1225                                   |0269: const/4 v5, #int 2 // #2
+254248: 2430 a310 5301                         |026a: filled-new-array {v3, v5, v1}, [I // type@10a3
+25424e: 0c01                                   |026d: move-result-object v1
+254250: 2203 f40e                              |026e: new-instance v3, Lorg/json/JSONArray; // type@0ef4
+254254: 7020 f85e 1300                         |0270: invoke-direct {v3, v1}, Lorg/json/JSONArray;.<init>:(Ljava/lang/Object;)V // method@5ef8
+25425a: 6e10 265f 0300                         |0273: invoke-virtual {v3}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+254260: 0c01                                   |0276: move-result-object v1
+254262: 6e20 1911 1400                         |0277: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254268: 1a01 7247                              |027a: const-string v1, "aString" // string@4772
+25426c: 1a03 7147                              |027c: const-string v3, "aNumber" // string@4771
+254270: 1a05 7047                              |027e: const-string v5, "aBoolean" // string@4770
+254274: 2430 cd10 3105                         |0280: filled-new-array {v1, v3, v5}, [Ljava/lang/String; // type@10cd
+25427a: 0c01                                   |0283: move-result-object v1
+25427c: 2203 f80e                              |0284: new-instance v3, Lorg/json/JSONObject; // type@0ef8
+254280: 7030 3e5f f301                         |0286: invoke-direct {v3, v15, v1}, Lorg/json/JSONObject;.<init>:(Ljava/lang/Object;[Ljava/lang/String;)V // method@5f3e
+254286: 1a01 ee3d                              |0289: const-string v1, "Testing JSONString interface" // string@3dee
+25428a: 6e30 695f 130f                         |028b: invoke-virtual {v3, v1, v15}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254290: 1241                                   |028e: const/4 v1, #int 4 // #4
+254292: 6e20 765f 1300                         |028f: invoke-virtual {v3, v1}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254298: 0c03                                   |0292: move-result-object v3
+25429a: 6e20 1911 3400                         |0293: invoke-virtual {v4, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2542a0: 2201 f80e                              |0296: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+2542a4: 1a03 bf8e                              |0298: const-string v3, "{slashes: '///', closetag: '</script>', backslash:'\\\\', ei: {quotes: '\"\\''},eo: {a: '\"quoted\"', b:\"don't\"}, quotes: [\"'\", '\"']}" // string@8ebf
+2542a8: 7020 3f5f 3100                         |029a: invoke-direct {v1, v3}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+2542ae: 1223                                   |029d: const/4 v3, #int 2 // #2
+2542b0: 6e20 765f 3100                         |029e: invoke-virtual {v1, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2542b6: 0c05                                   |02a1: move-result-object v5
+2542b8: 6e20 1911 5400                         |02a2: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2542be: 7110 ac5f 0100                         |02a5: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+2542c4: 0c01                                   |02a8: move-result-object v1
+2542c6: 6e20 1911 1400                         |02a9: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2542cc: 6e20 1911 a400                         |02ac: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2542d2: 2201 f80e                              |02af: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+2542d6: 1a03 b88e                              |02b1: const-string v3, "{foo: [true, false,9876543210,    0.0, 1.00000001,  1.000000000001, 1.00000000000000001, .00000000000000001, 2.00, 0.1, 2e100, -32,[],{}, \"string\"],   to   : null, op : 'Good',ten:10} postfix comment" // string@8eb8
+2542da: 7020 3f5f 3100                         |02b3: invoke-direct {v1, v3}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+2542e0: 1a03 233c                              |02b6: const-string v3, "String" // string@3c23
+2542e4: 1a05 0007                              |02b8: const-string v5, "98.6" // string@0700
+2542e8: 6e30 695f 3105                         |02ba: invoke-virtual {v1, v3, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+2542ee: 1a03 ce1a                              |02bd: const-string v3, "JSONObject" // string@1ace
+2542f2: 2205 f80e                              |02bf: new-instance v5, Lorg/json/JSONObject; // type@0ef8
+2542f6: 7010 3b5f 0500                         |02c1: invoke-direct {v5}, Lorg/json/JSONObject;.<init>:()V // method@5f3b
+2542fc: 6e30 695f 3105                         |02c4: invoke-virtual {v1, v3, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254302: 1a03 c71a                              |02c7: const-string v3, "JSONArray" // string@1ac7
+254306: 2205 f40e                              |02c9: new-instance v5, Lorg/json/JSONArray; // type@0ef4
+25430a: 7010 f75e 0500                         |02cb: invoke-direct {v5}, Lorg/json/JSONArray;.<init>:()V // method@5ef7
+254310: 6e30 695f 3105                         |02ce: invoke-virtual {v1, v3, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254316: 1303 3900                              |02d1: const/16 v3, #int 57 // #39
+25431a: 6e30 675f c103                         |02d3: invoke-virtual {v1, v12, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;I)Lorg/json/JSONObject; // method@5f67
+254320: 1802 3e37 6cff 90ee f845               |02d6: const-wide v2, #double 1.23457e+29 // #45f8ee90ff6c373e
+25432a: 6e40 665f b132                         |02db: invoke-virtual {v1, v11, v2, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;D)Lorg/json/JSONObject; // method@5f66
+254330: 1212                                   |02de: const/4 v2, #int 1 // #1
+254332: 6e30 6c5f e102                         |02df: invoke-virtual {v1, v14, v2}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Z)Lorg/json/JSONObject; // method@5f6c
+254338: 1202                                   |02e2: const/4 v2, #int 0 // #0
+25433a: 6e30 6c5f 8102                         |02e3: invoke-virtual {v1, v8, v2}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Z)Lorg/json/JSONObject; // method@5f6c
+254340: 1a02 8877                              |02e6: const-string v2, "null" // string@7788
+254344: 6203 5ec2                              |02e8: sget-object v3, Lorg/json/JSONObject;.NULL:Ljava/lang/Object; // field@c25e
+254348: 6e30 695f 2103                         |02ea: invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+25434e: 1a02 0f4c                              |02ed: const-string v2, "bool" // string@4c0f
+254352: 6e30 695f 210e                         |02ef: invoke-virtual {v1, v2, v14}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254358: 1a02 a38e                              |02f2: const-string v2, "zero" // string@8ea3
+25435c: 0763                                   |02f4: move-object v3, v6
+25435e: 1905 0080                              |02f5: const-wide/high16 v5, #long -9223372036854775808 // #8000
+254362: 6e40 665f 2165                         |02f7: invoke-virtual {v1, v2, v5, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;D)Lorg/json/JSONObject; // method@5f66
+254368: 1a02 4347                              |02fa: const-string v2, "\\u2028" // string@4743
+25436c: 1a05 e08e                              |02fc: const-string v5, " " // string@8ee0
+254370: 6e30 695f 2105                         |02fe: invoke-virtual {v1, v2, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254376: 1a02 4447                              |0301: const-string v2, "\\u2029" // string@4744
+25437a: 1a05 e18e                              |0303: const-string v5, " " // string@8ee1
+25437e: 6e30 695f 2105                         |0305: invoke-virtual {v1, v2, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254384: 6e20 4b5f 9100                         |0308: invoke-virtual {v1, v9}, Lorg/json/JSONObject;.getJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f4b
+25438a: 0c02                                   |030b: move-result-object v2
+25438c: 1305 9a02                              |030c: const/16 v5, #int 666 // #29a
+254390: 6e20 175f 5200                         |030e: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.put:(I)Lorg/json/JSONArray; // method@5f17
+254396: 1805 295c 8fc2 f547 9f40               |0311: const-wide v5, #double 2001.99 // #409f47f5c28f5c29
+2543a0: 6e30 165f 5206                         |0316: invoke-virtual {v2, v5, v6}, Lorg/json/JSONArray;.put:(D)Lorg/json/JSONArray; // method@5f16
+2543a6: 1a05 fe86                              |0319: const-string v5, "so \"fine\"." // string@86fe
+2543aa: 6e20 205f 5200                         |031b: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.put:(Ljava/lang/Object;)Lorg/json/JSONArray; // method@5f20
+2543b0: 1a05 ff86                              |031e: const-string v5, "so <fine>." // string@86ff
+2543b4: 6e20 205f 5200                         |0320: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.put:(Ljava/lang/Object;)Lorg/json/JSONArray; // method@5f20
+2543ba: 1215                                   |0323: const/4 v5, #int 1 // #1
+2543bc: 6e20 235f 5200                         |0324: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.put:(Z)Lorg/json/JSONArray; // method@5f23
+2543c2: 1205                                   |0327: const/4 v5, #int 0 // #0
+2543c4: 6e20 235f 5200                         |0328: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.put:(Z)Lorg/json/JSONArray; // method@5f23
+2543ca: 2206 f40e                              |032b: new-instance v6, Lorg/json/JSONArray; // type@0ef4
+2543ce: 7010 f75e 0600                         |032d: invoke-direct {v6}, Lorg/json/JSONArray;.<init>:()V // method@5ef7
+2543d4: 6e20 205f 6200                         |0330: invoke-virtual {v2, v6}, Lorg/json/JSONArray;.put:(Ljava/lang/Object;)Lorg/json/JSONArray; // method@5f20
+2543da: 2206 f80e                              |0333: new-instance v6, Lorg/json/JSONObject; // type@0ef8
+2543de: 7010 3b5f 0600                         |0335: invoke-direct {v6}, Lorg/json/JSONObject;.<init>:()V // method@5f3b
+2543e4: 6e20 205f 6200                         |0338: invoke-virtual {v2, v6}, Lorg/json/JSONArray;.put:(Ljava/lang/Object;)Lorg/json/JSONArray; // method@5f20
+2543ea: 1a02 af62                              |033b: const-string v2, "keys" // string@62af
+2543ee: 7110 4f5f 0100                         |033d: invoke-static {v1}, Lorg/json/JSONObject;.getNames:(Lorg/json/JSONObject;)[Ljava/lang/String; // method@5f4f
+2543f4: 0c06                                   |0340: move-result-object v6
+2543f6: 6e30 695f 2106                         |0341: invoke-virtual {v1, v2, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+2543fc: 1242                                   |0344: const/4 v2, #int 4 // #4
+2543fe: 6e20 765f 2100                         |0345: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254404: 0c06                                   |0348: move-result-object v6
+254406: 6e20 1911 6400                         |0349: invoke-virtual {v4, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25440c: 7110 ac5f 0100                         |034c: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254412: 0c02                                   |034f: move-result-object v2
+254414: 6e20 1911 2400                         |0350: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25441a: 2202 e603                              |0353: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+25441e: 1a06 243c                              |0355: const-string v6, "String: " // string@3c24
+254422: 7020 5412 6200                         |0357: invoke-direct {v2, v6}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254428: 1a06 233c                              |035a: const-string v6, "String" // string@3c23
+25442c: 6e20 495f 6100                         |035c: invoke-virtual {v1, v6}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254432: 0b05                                   |035f: move-result-wide v5
+254434: 6e30 5612 5206                         |0360: invoke-virtual {v2, v5, v6}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+25443a: 6e10 6912 0200                         |0363: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254440: 0c02                                   |0366: move-result-object v2
+254442: 6e20 1911 2400                         |0367: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254448: 2202 e603                              |036a: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+25444c: 1a05 3f00                              |036c: const-string v5, "  bool: " // string@003f
+254450: 7020 5412 5200                         |036e: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254456: 1a05 0f4c                              |0371: const-string v5, "bool" // string@4c0f
+25445a: 6e20 485f 5100                         |0373: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.getBoolean:(Ljava/lang/String;)Z // method@5f48
+254460: 0a05                                   |0376: move-result v5
+254462: 6e20 5d12 5200                         |0377: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@125d
+254468: 6e10 6912 0200                         |037a: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25446e: 0c02                                   |037d: move-result-object v2
+254470: 6e20 1911 2400                         |037e: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254476: 2202 e603                              |0381: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+25447a: 1a05 3000                              |0383: const-string v5, "    to: " // string@0030
+25447e: 7020 5412 5200                         |0385: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254484: 1a05 068b                              |0388: const-string v5, "to" // string@8b06
+254488: 6e20 505f 5100                         |038a: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@5f50
+25448e: 0c05                                   |038d: move-result-object v5
+254490: 6e20 5c12 5200                         |038e: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+254496: 6e10 6912 0200                         |0391: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25449c: 0c02                                   |0394: move-result-object v2
+25449e: 6e20 1911 2400                         |0395: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2544a4: 2202 e603                              |0398: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+2544a8: 1a05 4600                              |039a: const-string v5, "  true: " // string@0046
+2544ac: 7020 5412 5200                         |039c: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+2544b2: 6e20 505f e100                         |039f: invoke-virtual {v1, v14}, Lorg/json/JSONObject;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@5f50
+2544b8: 0c05                                   |03a2: move-result-object v5
+2544ba: 6e20 5c12 5200                         |03a3: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2544c0: 6e10 6912 0200                         |03a6: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2544c6: 0c02                                   |03a9: move-result-object v2
+2544c8: 6e20 1911 2400                         |03aa: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2544ce: 2202 e603                              |03ad: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+2544d2: 1a05 3500                              |03af: const-string v5, "   foo: " // string@0035
+2544d6: 7020 5412 5200                         |03b1: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+2544dc: 6e20 4b5f 9100                         |03b4: invoke-virtual {v1, v9}, Lorg/json/JSONObject;.getJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f4b
+2544e2: 0c05                                   |03b7: move-result-object v5
+2544e4: 6e20 5b12 5200                         |03b8: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder; // method@125b
+2544ea: 6e10 6912 0200                         |03bb: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2544f0: 0c02                                   |03be: move-result-object v2
+2544f2: 6e20 1911 2400                         |03bf: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2544f8: 2202 e603                              |03c2: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+2544fc: 1a05 2f00                              |03c4: const-string v5, "    op: " // string@002f
+254500: 7020 5412 5200                         |03c6: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254506: 1a05 b97a                              |03c9: const-string v5, "op" // string@7ab9
+25450a: 6e20 505f 5100                         |03cb: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@5f50
+254510: 0c05                                   |03ce: move-result-object v5
+254512: 6e20 5c12 5200                         |03cf: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+254518: 6e10 6912 0200                         |03d2: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25451e: 0c02                                   |03d5: move-result-object v2
+254520: 6e20 1911 2400                         |03d6: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254526: 2202 e603                              |03d9: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+25452a: 1a05 3800                              |03db: const-string v5, "   ten: " // string@0038
+25452e: 7020 5412 5200                         |03dd: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254534: 1a05 f089                              |03e0: const-string v5, "ten" // string@89f0
+254538: 6e20 4a5f 5100                         |03e2: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+25453e: 0a05                                   |03e5: move-result v5
+254540: 6e20 5812 5200                         |03e6: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254546: 6e10 6912 0200                         |03e9: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25454c: 0c02                                   |03ec: move-result-object v2
+25454e: 6e20 1911 2400                         |03ed: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254554: 2202 e603                              |03f0: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254558: 1a05 4400                              |03f2: const-string v5, "  oops: " // string@0044
+25455c: 7020 5412 5200                         |03f4: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254562: 1a05 b87a                              |03f7: const-string v5, "oops" // string@7ab8
+254566: 6e20 595f 5100                         |03f9: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.optBoolean:(Ljava/lang/String;)Z // method@5f59
+25456c: 0a01                                   |03fc: move-result v1
+25456e: 6e20 5d12 1200                         |03fd: invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@125d
+254574: 6e10 6912 0200                         |0400: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25457a: 0c01                                   |0403: move-result-object v1
+25457c: 6e20 1911 1400                         |0404: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254582: 1a01 6207                              |0407: const-string v1, "<xml one = 1 two=' \"2\" '><five></five>First \t&lt;content&gt;<five></five> This is \"content\". <three>  3  </three>JSON does not preserve the sequencing of elements and contents.<three>  III  </three>  <three>  T H R E E</three><four/>Content text is an implied structure in XML. <six content=\"6\"/>JSON does not have implied structure:<seven>7</seven>everything is explicit.<![CDATA[CDATA blocks<are><supported>!]]></xml>" // string@0762
+254586: 7110 ab5f 0100                         |0409: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+25458c: 0c02                                   |040c: move-result-object v2
+25458e: 1225                                   |040d: const/4 v5, #int 2 // #2
+254590: 6e20 765f 5200                         |040e: invoke-virtual {v2, v5}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254596: 0c06                                   |0411: move-result-object v6
+254598: 6e20 1911 6400                         |0412: invoke-virtual {v4, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25459e: 7110 ac5f 0200                         |0415: invoke-static {v2}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+2545a4: 0c02                                   |0418: move-result-object v2
+2545a6: 6e20 1911 2400                         |0419: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545ac: 6e20 1911 a400                         |041c: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545b2: 7110 2f5f 0100                         |041f: invoke-static {v1}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+2545b8: 0c01                                   |0422: move-result-object v1
+2545ba: 1242                                   |0423: const/4 v2, #int 4 // #4
+2545bc: 6e20 275f 2100                         |0424: invoke-virtual {v1, v2}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+2545c2: 0c05                                   |0427: move-result-object v5
+2545c4: 6e20 1911 5400                         |0428: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545ca: 7110 335f 0100                         |042b: invoke-static {v1}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+2545d0: 0c01                                   |042e: move-result-object v1
+2545d2: 6e20 1911 1400                         |042f: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545d8: 6e20 1911 a400                         |0432: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545de: 1a01 6007                              |0435: const-string v1, "<xml do='0'>uno<a re='1' mi='2'>dos<b fa='3'/>tres<c>true</c>quatro</a>cinqo<d>seis<e/></d></xml>" // string@0760
+2545e2: 7110 2f5f 0100                         |0437: invoke-static {v1}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+2545e8: 0c01                                   |043a: move-result-object v1
+2545ea: 1242                                   |043b: const/4 v2, #int 4 // #4
+2545ec: 6e20 275f 2100                         |043c: invoke-virtual {v1, v2}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+2545f2: 0c05                                   |043f: move-result-object v5
+2545f4: 6e20 1911 5400                         |0440: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2545fa: 7110 335f 0100                         |0443: invoke-static {v1}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+254600: 0c01                                   |0446: move-result-object v1
+254602: 6e20 1911 1400                         |0447: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254608: 6e20 1911 a400                         |044a: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25460e: 1a01 5707                              |044d: const-string v1, "<mapping><empty/>   <class name = \"Customer\">      <field name = \"ID\" type = \"string\">         <bind-xml name=\"ID\" node=\"attribute\"/>      </field>      <field name = \"FirstName\" type = \"FirstName\"/>      <field name = \"MI\" type = \"MI\"/>      <field name = \"LastName\" type = \"LastName\"/>   </class>   <class name = \"FirstName\">      <field name = \"text\">         <bind-xml name = \"text\" node = \"text\"/>      </field>   </class>   <class name = \"MI\">      <field name = \"text\">         <bind-xml name = \"text\" node = \"text\"/>      </field>   </class>   <class name = \"LastName\">      <field name = \"text\">         <bind-xml name = \"text\" node = \"text\"/>      </field>   </class></mapping>" // string@0757
+254612: 7110 ab5f 0100                         |044f: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254618: 0c02                                   |0452: move-result-object v2
+25461a: 1225                                   |0453: const/4 v5, #int 2 // #2
+25461c: 6e20 765f 5200                         |0454: invoke-virtual {v2, v5}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254622: 0c06                                   |0457: move-result-object v6
+254624: 6e20 1911 6400                         |0458: invoke-virtual {v4, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25462a: 7110 ac5f 0200                         |045b: invoke-static {v2}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254630: 0c02                                   |045e: move-result-object v2
+254632: 6e20 1911 2400                         |045f: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254638: 6e20 1911 a400                         |0462: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25463e: 7110 2f5f 0100                         |0465: invoke-static {v1}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+254644: 0c01                                   |0468: move-result-object v1
+254646: 1242                                   |0469: const/4 v2, #int 4 // #4
+254648: 6e20 275f 2100                         |046a: invoke-virtual {v1, v2}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+25464e: 0c05                                   |046d: move-result-object v5
+254650: 6e20 1911 5400                         |046e: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254656: 7110 335f 0100                         |0471: invoke-static {v1}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+25465c: 0c01                                   |0474: move-result-object v1
+25465e: 6e20 1911 1400                         |0475: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254664: 6e20 1911 a400                         |0478: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25466a: 1a01 3907                              |047b: const-string v1, "<?xml version=\"1.0\" ?><Book Author=\"Anonymous\"><Title>Sample Book</Title><Chapter id=\"1\">This is chapter 1. It is not very long or interesting.</Chapter><Chapter id=\"2\">This is chapter 2. Although it is longer than chapter 1, it is not any more interesting.</Chapter></Book>" // string@0739
+25466e: 7110 ab5f 0100                         |047d: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254674: 0c01                                   |0480: move-result-object v1
+254676: 1222                                   |0481: const/4 v2, #int 2 // #2
+254678: 6e20 765f 2100                         |0482: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+25467e: 0c05                                   |0485: move-result-object v5
+254680: 6e20 1911 5400                         |0486: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254686: 7110 ac5f 0100                         |0489: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+25468c: 0c01                                   |048c: move-result-object v1
+25468e: 6e20 1911 1400                         |048d: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254694: 6e20 1911 a400                         |0490: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25469a: 1a01 2c07                              |0493: const-string v1, "<!DOCTYPE bCard 'http://www.cs.caltech.edu/~adam/schemas/bCard'><bCard><?xml default bCard        firstname = ''        lastname  = '' company   = '' email = '' homepage  = ''?><bCard        firstname = 'Rohit'        lastname  = 'Khare'        company   = 'MCI'        email     = 'khare@mci.net'        homepage  = 'http://pest.w3.org/'/><bCard        firstname = 'Adam'        lastname  = 'Rifkin'        company   = 'Caltech Infospheres Project'        email     = 'adam@cs.caltech.edu'        homepage  = 'http://www.cs.caltech.edu/~adam/'/></bCard>" // string@072c
+25469e: 7110 ab5f 0100                         |0495: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+2546a4: 0c01                                   |0498: move-result-object v1
+2546a6: 1222                                   |0499: const/4 v2, #int 2 // #2
+2546a8: 6e20 765f 2100                         |049a: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2546ae: 0c05                                   |049d: move-result-object v5
+2546b0: 6e20 1911 5400                         |049e: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546b6: 7110 ac5f 0100                         |04a1: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+2546bc: 0c01                                   |04a4: move-result-object v1
+2546be: 6e20 1911 1400                         |04a5: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546c4: 6e20 1911 a400                         |04a8: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546ca: 1a01 3a07                              |04ab: const-string v1, "<?xml version=\"1.0\"?><customer>    <firstName>        <text>Fred</text>    </firstName>    <ID>fbs0001</ID>    <lastName> <text>Scerbo</text>    </lastName>    <MI>        <text>B</text>    </MI></customer>" // string@073a
+2546ce: 7110 ab5f 0100                         |04ad: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+2546d4: 0c01                                   |04b0: move-result-object v1
+2546d6: 1222                                   |04b1: const/4 v2, #int 2 // #2
+2546d8: 6e20 765f 2100                         |04b2: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2546de: 0c05                                   |04b5: move-result-object v5
+2546e0: 6e20 1911 5400                         |04b6: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546e6: 7110 ac5f 0100                         |04b9: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+2546ec: 0c01                                   |04bc: move-result-object v1
+2546ee: 6e20 1911 1400                         |04bd: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546f4: 6e20 1911 a400                         |04c0: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2546fa: 1a01 2d07                              |04c3: const-string v1, "<!ENTITY tp-address PUBLIC '-//ABC University::Special Collections Library//TEXT (titlepage: name and address)//EN' 'tpspcoll.sgm'><list type='simple'><head>Repository Address </head><item>Special Collections Library</item><item>ABC University</item><item>Main Library, 40 Circle Drive</item><item>Ourtown, Pennsylvania</item><item>17654 USA</item></list>" // string@072d
+2546fe: 7110 ab5f 0100                         |04c5: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254704: 0c01                                   |04c8: move-result-object v1
+254706: 6e10 755f 0100                         |04c9: invoke-virtual {v1}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+25470c: 0c02                                   |04cc: move-result-object v2
+25470e: 6e20 1911 2400                         |04cd: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254714: 7110 ac5f 0100                         |04d0: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+25471a: 0c01                                   |04d3: move-result-object v1
+25471c: 6e20 1911 1400                         |04d4: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254722: 6e20 1911 a400                         |04d7: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254728: 1a01 5e07                              |04da: const-string v1, "<test intertag status=ok><empty/>deluxe<blip sweet=true>&amp;&quot;toot&quot;&toot;&#x41;</blip><x>eks</x><w>bonus</w><w>bonus2</w></test>" // string@075e
+25472c: 7110 ab5f 0100                         |04dc: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254732: 0c01                                   |04df: move-result-object v1
+254734: 1222                                   |04e0: const/4 v2, #int 2 // #2
+254736: 6e20 765f 2100                         |04e1: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+25473c: 0c05                                   |04e4: move-result-object v5
+25473e: 6e20 1911 5400                         |04e5: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254744: 7110 ac5f 0100                         |04e8: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+25474a: 0c01                                   |04eb: move-result-object v1
+25474c: 6e20 1911 1400                         |04ec: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254752: 6e20 1911 a400                         |04ef: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254758: 1a01 6f17                              |04f2: const-string v1, "GET / HTTP/1.0\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-powerpoint, application/vnd.ms-excel, application/msword, */*\nAccept-Language: en-us\nUser-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Win 9x 4.90; T312461; Q312461)\nHost: www.nokko.com\nConnection: keep-alive\nAccept-encoding: gzip, deflate\n" // string@176f
+25475c: 7110 f35e 0100                         |04f4: invoke-static {v1}, Lorg/json/HTTP;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5ef3
+254762: 0c01                                   |04f7: move-result-object v1
+254764: 1222                                   |04f8: const/4 v2, #int 2 // #2
+254766: 6e20 765f 2100                         |04f9: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+25476c: 0c05                                   |04fc: move-result-object v5
+25476e: 6e20 1911 5400                         |04fd: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254774: 7110 f45e 0100                         |0500: invoke-static {v1}, Lorg/json/HTTP;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5ef4
+25477a: 0c01                                   |0503: move-result-object v1
+25477c: 6e20 1911 1400                         |0504: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254782: 6e20 1911 a400                         |0507: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254788: 1a01 2a18                              |050a: const-string v1, "HTTP/1.1 200 Oki Doki\nDate: Sun, 26 May 2002 17:38:52 GMT\nServer: Apache/1.3.23 (Unix) mod_perl/1.26\nKeep-Alive: timeout=15, max=100\nConnection: Keep-Alive\nTransfer-Encoding: chunked\nContent-Type: text/html\n" // string@182a
+25478c: 7110 f35e 0100                         |050c: invoke-static {v1}, Lorg/json/HTTP;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5ef3
+254792: 0c01                                   |050f: move-result-object v1
+254794: 1222                                   |0510: const/4 v2, #int 2 // #2
+254796: 6e20 765f 2100                         |0511: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+25479c: 0c05                                   |0514: move-result-object v5
+25479e: 6e20 1911 5400                         |0515: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2547a4: 7110 f45e 0100                         |0518: invoke-static {v1}, Lorg/json/HTTP;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5ef4
+2547aa: 0c01                                   |051b: move-result-object v1
+2547ac: 6e20 1911 1400                         |051c: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2547b2: 6e20 1911 a400                         |051f: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2547b8: 2201 f80e                              |0522: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+2547bc: 1a02 ba8e                              |0524: const-string v2, "{nix: null, nux: false, null: 'null', 'Request-URI': '/', Method: 'GET', 'HTTP-Version': 'HTTP/1.0'}" // string@8eba
+2547c0: 7020 3f5f 2100                         |0526: invoke-direct {v1, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+2547c6: 1222                                   |0529: const/4 v2, #int 2 // #2
+2547c8: 6e20 765f 2100                         |052a: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2547ce: 0c05                                   |052d: move-result-object v5
+2547d0: 6e20 1911 5400                         |052e: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2547d6: 2202 e603                              |0531: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+2547da: 1a05 2161                              |0533: const-string v5, "isNull: " // string@6121
+2547de: 7020 5412 5200                         |0535: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+2547e4: 1a05 1377                              |0538: const-string v5, "nix" // string@7713
+2547e8: 6e20 525f 5100                         |053a: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.isNull:(Ljava/lang/String;)Z // method@5f52
+2547ee: 0a05                                   |053d: move-result v5
+2547f0: 6e20 5d12 5200                         |053e: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@125d
+2547f6: 6e10 6912 0200                         |0541: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2547fc: 0c02                                   |0544: move-result-object v2
+2547fe: 6e20 1911 2400                         |0545: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254804: 2202 e603                              |0548: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254808: 1a05 3600                              |054a: const-string v5, "   has: " // string@0036
+25480c: 7020 5412 5200                         |054c: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254812: 1a05 1377                              |054f: const-string v5, "nix" // string@7713
+254816: 6e20 515f 5100                         |0551: invoke-virtual {v1, v5}, Lorg/json/JSONObject;.has:(Ljava/lang/String;)Z // method@5f51
+25481c: 0a05                                   |0554: move-result v5
+25481e: 6e20 5d12 5200                         |0555: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder; // method@125d
+254824: 6e10 6912 0200                         |0558: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+25482a: 0c02                                   |055b: move-result-object v2
+25482c: 6e20 1911 2400                         |055c: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254832: 7110 ac5f 0100                         |055f: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254838: 0c02                                   |0562: move-result-object v2
+25483a: 6e20 1911 2400                         |0563: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254840: 7110 f45e 0100                         |0566: invoke-static {v1}, Lorg/json/HTTP;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5ef4
+254846: 0c01                                   |0569: move-result-object v1
+254848: 6e20 1911 1400                         |056a: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25484e: 6e20 1911 a400                         |056d: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254854: 1a01 3b07                              |0570: const-string v1, "<?xml version='1.0' encoding='UTF-8'?>\n\n<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/1999/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\"><SOAP-ENV:Body><ns1:doGoogleSearch xmlns:ns1=\"urn:GoogleSearch\" SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><key xsi:type=\"xsd:string\">GOOGLEKEY</key> <q xsi:type=\"xsd:string\">'+search+'</q> <start xsi:type=\"xsd:int\">0</start> <maxResults xsi:type=\"xsd:int\">10</maxResults> <filter xsi:type=\"xsd:boolean\">true</filter> <restrict xsi:type=\"xsd:string\"></restrict> <safeSearch xsi:type=\"xsd:boolean\">false</safeSearch> <lr xsi:type=\"xsd:string\"></lr> <ie xsi:type=\"xsd:string\">latin1</ie> <oe xsi:type=\"xsd:string\">latin1</oe></ns1:doGoogleSearch></SOAP-ENV:Body></SOAP-ENV:Envelope>" // string@073b
+254858: 7110 ab5f 0100                         |0572: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+25485e: 0c01                                   |0575: move-result-object v1
+254860: 1222                                   |0576: const/4 v2, #int 2 // #2
+254862: 6e20 765f 2100                         |0577: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254868: 0c05                                   |057a: move-result-object v5
+25486a: 6e20 1911 5400                         |057b: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254870: 7110 ac5f 0100                         |057e: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254876: 0c01                                   |0581: move-result-object v1
+254878: 6e20 1911 1400                         |0582: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25487e: 6e20 1911 a400                         |0585: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254884: 2201 f80e                              |0588: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+254888: 1a02 b78e                              |058a: const-string v2, "{Envelope: {Body: {\"ns1:doGoogleSearch\": {oe: \"latin1\", filter: true, q: \"'+search+'\", key: \"GOOGLEKEY\", maxResults: 10, \"SOAP-ENV:encodingStyle\": \"http://schemas.xmlsoap.org/soap/encoding/\", start: 0, ie: \"latin1\", safeSearch:false, \"xmlns:ns1\": \"urn:GoogleSearch\"}}}}" // string@8eb7
+25488c: 7020 3f5f 2100                         |058c: invoke-direct {v1, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+254892: 1222                                   |058f: const/4 v2, #int 2 // #2
+254894: 6e20 765f 2100                         |0590: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+25489a: 0c05                                   |0593: move-result-object v5
+25489c: 6e20 1911 5400                         |0594: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548a2: 7110 ac5f 0100                         |0597: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+2548a8: 0c01                                   |059a: move-result-object v1
+2548aa: 6e20 1911 1400                         |059b: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548b0: 6e20 1911 a400                         |059e: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548b6: 1a01 4100                              |05a1: const-string v1, "  f%oo = b+l=ah  ; o;n%40e = t.wo " // string@0041
+2548ba: 7110 f05e 0100                         |05a3: invoke-static {v1}, Lorg/json/CookieList;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5ef0
+2548c0: 0c01                                   |05a6: move-result-object v1
+2548c2: 1222                                   |05a7: const/4 v2, #int 2 // #2
+2548c4: 6e20 765f 2100                         |05a8: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2548ca: 0c05                                   |05ab: move-result-object v5
+2548cc: 6e20 1911 5400                         |05ac: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548d2: 7110 f15e 0100                         |05af: invoke-static {v1}, Lorg/json/CookieList;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5ef1
+2548d8: 0c01                                   |05b2: move-result-object v1
+2548da: 6e20 1911 1400                         |05b3: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548e0: 6e20 1911 a400                         |05b6: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2548e6: 1a01 5755                              |05b9: const-string v1, "f%oo=blah; secure ;expires = April 24, 2002" // string@5557
+2548ea: 7110 ec5e 0100                         |05bb: invoke-static {v1}, Lorg/json/Cookie;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5eec
+2548f0: 0c01                                   |05be: move-result-object v1
+2548f2: 1222                                   |05bf: const/4 v2, #int 2 // #2
+2548f4: 6e20 765f 2100                         |05c0: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2548fa: 0c05                                   |05c3: move-result-object v5
+2548fc: 6e20 1911 5400                         |05c4: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254902: 7110 ed5e 0100                         |05c7: invoke-static {v1}, Lorg/json/Cookie;.toString:(Lorg/json/JSONObject;)Ljava/lang/String; // method@5eed
+254908: 0c01                                   |05ca: move-result-object v1
+25490a: 6e20 1911 1400                         |05cb: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254910: 6e20 1911 a400                         |05ce: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254916: 2201 f80e                              |05d1: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+25491a: 1a02 be8e                              |05d3: const-string v2, "{script: 'It is not allowed in HTML to send a close script tag in a string<script>because it confuses browsers</script>so we insert a backslash before the /'}" // string@8ebe
+25491e: 7020 3f5f 2100                         |05d5: invoke-direct {v1, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+254924: 6e10 755f 0100                         |05d8: invoke-virtual {v1}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+25492a: 0c01                                   |05db: move-result-object v1
+25492c: 6e20 1911 1400                         |05dc: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254932: 6e20 1911 a400                         |05df: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254938: 2201 fb0e                              |05e2: new-instance v1, Lorg/json/JSONTokener; // type@0efb
+25493c: 1a02 bc8e                              |05e4: const-string v2, "{op:'test', to:'session', pre:1}{op:'test', to:'session', pre:2}" // string@8ebc
+254940: 7020 7f5f 2100                         |05e6: invoke-direct {v1, v2}, Lorg/json/JSONTokener;.<init>:(Ljava/lang/String;)V // method@5f7f
+254946: 2202 f80e                              |05e9: new-instance v2, Lorg/json/JSONObject; // type@0ef8
+25494a: 7020 435f 1200                         |05eb: invoke-direct {v2, v1}, Lorg/json/JSONObject;.<init>:(Lorg/json/JSONTokener;)V // method@5f43
+254950: 6e10 755f 0200                         |05ee: invoke-virtual {v2}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+254956: 0c05                                   |05f1: move-result-object v5
+254958: 6e20 1911 5400                         |05f2: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25495e: 2205 e603                              |05f5: new-instance v5, Ljava/lang/StringBuilder; // type@03e6
+254962: 1a06 5c7c                              |05f7: const-string v6, "pre: " // string@7c5c
+254966: 7020 5412 6500                         |05f9: invoke-direct {v5, v6}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+25496c: 1a06 5b7c                              |05fc: const-string v6, "pre" // string@7c5b
+254970: 6e20 5d5f 6200                         |05fe: invoke-virtual {v2, v6}, Lorg/json/JSONObject;.optInt:(Ljava/lang/String;)I // method@5f5d
+254976: 0a02                                   |0601: move-result v2
+254978: 6e20 5812 2500                         |0602: invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+25497e: 6e10 6912 0500                         |0605: invoke-virtual {v5}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254984: 0c02                                   |0608: move-result-object v2
+254986: 6e20 1911 2400                         |0609: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25498c: 1302 7b00                              |060c: const/16 v2, #int 123 // #7b
+254990: 6e20 8b5f 2100                         |060e: invoke-virtual {v1, v2}, Lorg/json/JSONTokener;.skipTo:(C)C // method@5f8b
+254996: 0a02                                   |0611: move-result v2
+254998: 6e20 1711 2400                         |0612: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(I)V // method@1117
+25499e: 2202 f80e                              |0615: new-instance v2, Lorg/json/JSONObject; // type@0ef8
+2549a2: 7020 435f 1200                         |0617: invoke-direct {v2, v1}, Lorg/json/JSONObject;.<init>:(Lorg/json/JSONTokener;)V // method@5f43
+2549a8: 6e10 755f 0200                         |061a: invoke-virtual {v2}, Lorg/json/JSONObject;.toString:()Ljava/lang/String; // method@5f75
+2549ae: 0c01                                   |061d: move-result-object v1
+2549b0: 6e20 1911 1400                         |061e: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549b6: 6e20 1911 a400                         |0621: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549bc: 1a01 760e                              |0624: const-string v1, "Comma delimited list test, '\"Strip\"Quotes', 'quote, comma', No quotes, 'Single Quotes', \"Double Quotes\"\n1,'2',\"3\"\n,'It is \"good,\"', \"It works.\"\n\n" // string@0e76
+2549c0: 7110 e45e 0100                         |0626: invoke-static {v1}, Lorg/json/CDL;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5ee4
+2549c6: 0c01                                   |0629: move-result-object v1
+2549c8: 7110 e85e 0100                         |062a: invoke-static {v1}, Lorg/json/CDL;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5ee8
+2549ce: 0c02                                   |062d: move-result-object v2
+2549d0: 6e20 1911 2400                         |062e: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549d6: 6e20 1911 a400                         |0631: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549dc: 1245                                   |0634: const/4 v5, #int 4 // #4
+2549de: 6e20 275f 5100                         |0635: invoke-virtual {v1, v5}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+2549e4: 0c01                                   |0638: move-result-object v1
+2549e6: 6e20 1911 1400                         |0639: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549ec: 6e20 1911 a400                         |063c: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2549f2: 7110 e45e 0200                         |063f: invoke-static {v2}, Lorg/json/CDL;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5ee4
+2549f8: 0c01                                   |0642: move-result-object v1
+2549fa: 6e20 275f 5100                         |0643: invoke-virtual {v1, v5}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+254a00: 0c01                                   |0646: move-result-object v1
+254a02: 6e20 1911 1400                         |0647: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a08: 6e20 1911 a400                         |064a: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a0e: 2201 f40e                              |064d: new-instance v1, Lorg/json/JSONArray; // type@0ef4
+254a12: 1a02 b200                              |064f: const-string v2, " [\"<escape>\", next is an implied null , , ok,] " // string@00b2
+254a16: 7020 fa5e 2100                         |0651: invoke-direct {v1, v2}, Lorg/json/JSONArray;.<init>:(Ljava/lang/String;)V // method@5efa
+254a1c: 6e10 265f 0100                         |0654: invoke-virtual {v1}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+254a22: 0c02                                   |0657: move-result-object v2
+254a24: 6e20 1911 2400                         |0658: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a2a: 6e20 1911 a400                         |065b: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a30: 7110 ac5f 0100                         |065e: invoke-static {v1}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254a36: 0c02                                   |0661: move-result-object v2
+254a38: 6e20 1911 2400                         |0662: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a3e: 6e20 1911 a400                         |0665: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a44: 2202 f80e                              |0668: new-instance v2, Lorg/json/JSONObject; // type@0ef8
+254a48: 1a05 b28e                              |066a: const-string v5, "{ fun => with non-standard forms ; forgiving => This package can be used to parse formats that are similar to but not stricting conforming to JSON; why=To make it easier to migrate existing data to JSON,one = [[1.00]]; uno=[[{1=>1}]];'+':+6e66 ;pluses=+++;empty = '' , 'double':0.666,true: TRUE, false: FALSE, null=NULL;[true] = [[!,@;*]]; string=>  o. k. ; \r oct=0666; hex=0x666; dec=666; o=0999; noh=0x0x}" // string@8eb2
+254a4c: 7020 3f5f 5200                         |066c: invoke-direct {v2, v5}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+254a52: 1245                                   |066f: const/4 v5, #int 4 // #4
+254a54: 6e20 765f 5200                         |0670: invoke-virtual {v2, v5}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254a5a: 0c06                                   |0673: move-result-object v6
+254a5c: 6e20 1911 6400                         |0674: invoke-virtual {v4, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a62: 6e20 1911 a400                         |0677: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a68: 6e20 485f e200                         |067a: invoke-virtual {v2, v14}, Lorg/json/JSONObject;.getBoolean:(Ljava/lang/String;)Z // method@5f48
+254a6e: 0a05                                   |067d: move-result v5
+254a70: 3805 1200                              |067e: if-eqz v5, 0690 // +0012
+254a74: 6e20 485f 8200                         |0680: invoke-virtual {v2, v8}, Lorg/json/JSONObject;.getBoolean:(Ljava/lang/String;)Z // method@5f48
+254a7a: 0a05                                   |0683: move-result v5
+254a7c: 3905 0c00                              |0684: if-nez v5, 0690 // +000c
+254a80: 1a05 801a                              |0686: const-string v5, "It's all good" // string@1a80
+254a84: 6e20 1911 5400                         |0688: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a8a: 2805                                   |068b: goto 0690 // +0005
+254a8c: 0d00                                   |068c: move-exception v0
+254a8e: 0701                                   |068d: move-object v1, v0
+254a90: 2900 b704                              |068e: goto/16 0b45 // +04b7
+254a94: 6e20 1911 a400                         |0690: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254a9a: 2205 f80e                              |0693: new-instance v5, Lorg/json/JSONObject; // type@0ef8
+254a9e: 1a06 f151                              |0695: const-string v6, "dec" // string@51f1
+254aa2: 1a08 bf77                              |0697: const-string v8, "oct" // string@77bf
+254aa6: 1a09 6a5e                              |0699: const-string v9, "hex" // string@5e6a
+254aaa: 1a0e ef65                              |069b: const-string v14, "missing" // string@65ef
+254aae: 2440 cd10 86e9                         |069d: filled-new-array {v6, v8, v9, v14}, [Ljava/lang/String; // type@10cd
+254ab4: 0c06                                   |06a0: move-result-object v6
+254ab6: 7030 425f 2506                         |06a1: invoke-direct {v5, v2, v6}, Lorg/json/JSONObject;.<init>:(Lorg/json/JSONObject;[Ljava/lang/String;)V // method@5f42
+254abc: 1242                                   |06a4: const/4 v2, #int 4 // #4
+254abe: 6e20 765f 2500                         |06a5: invoke-virtual {v5, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254ac4: 0c06                                   |06a8: move-result-object v6
+254ac6: 6e20 1911 6400                         |06a9: invoke-virtual {v4, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254acc: 6e20 1911 a400                         |06ac: invoke-virtual {v4, v10}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ad2: 2202 fa0e                              |06af: new-instance v2, Lorg/json/JSONStringer; // type@0efa
+254ad6: 7010 7c5f 0200                         |06b1: invoke-direct {v2}, Lorg/json/JSONStringer;.<init>:()V // method@5f7c
+254adc: 6e10 905f 0200                         |06b4: invoke-virtual {v2}, Lorg/json/JSONWriter;.array:()Lorg/json/JSONWriter; // method@5f90
+254ae2: 0c02                                   |06b7: move-result-object v2
+254ae4: 6e20 9a5f 1200                         |06b8: invoke-virtual {v2, v1}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+254aea: 0c01                                   |06bb: move-result-object v1
+254aec: 6e20 9a5f 5100                         |06bc: invoke-virtual {v1, v5}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+254af2: 0c01                                   |06bf: move-result-object v1
+254af4: 6e10 925f 0100                         |06c0: invoke-virtual {v1}, Lorg/json/JSONWriter;.endArray:()Lorg/json/JSONWriter; // method@5f92
+254afa: 0c01                                   |06c3: move-result-object v1
+254afc: 6e20 1811 1400                         |06c4: invoke-virtual {v4, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+254b02: 2201 f80e                              |06c7: new-instance v1, Lorg/json/JSONObject; // type@0ef8
+254b06: 1a02 c18e                              |06c9: const-string v2, "{string: \"98.6\", long: 2147483648, int: 2147483647, longer: 9223372036854775807, double: 9223372036854775808}" // string@8ec1
+254b0a: 7020 3f5f 2100                         |06cb: invoke-direct {v1, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+254b10: 1242                                   |06ce: const/4 v2, #int 4 // #4
+254b12: 6e20 765f 2100                         |06cf: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254b18: 0c05                                   |06d2: move-result-object v5
+254b1a: 6e20 1911 5400                         |06d3: invoke-virtual {v4, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254b20: 1a02 1b00                              |06d6: const-string v2, "\ngetInt" // string@001b
+254b24: 6e20 1911 2400                         |06d8: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254b2a: 2202 e603                              |06db: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254b2e: 7020 5412 7200                         |06dd: invoke-direct {v2, v7}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254b34: 6e20 4a5f c100                         |06e0: invoke-virtual {v1, v12}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+254b3a: 0a05                                   |06e3: move-result v5
+254b3c: 6e20 5812 5200                         |06e4: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254b42: 6e10 6912 0200                         |06e7: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254b48: 0c02                                   |06ea: move-result-object v2
+254b4a: 6e20 1911 2400                         |06eb: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254b50: 2202 e603                              |06ee: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254b54: 7020 5412 3200                         |06f0: invoke-direct {v2, v3}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254b5a: 6e20 4a5f d100                         |06f3: invoke-virtual {v1, v13}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+254b60: 0a05                                   |06f6: move-result v5
+254b62: 6e20 5812 5200                         |06f7: invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254b68: 6e10 6912 0200                         |06fa: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254b6e: 0c02                                   |06fd: move-result-object v2
+254b70: 6e20 1911 2400                         |06fe: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254b76: 2202 e603                              |0701: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254b7a: 0805 1600                              |0703: move-object/from16 v5, v22
+254b7e: 7020 5412 5200                         |0705: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254b84: 0806 1500                              |0708: move-object/from16 v6, v21
+254b88: 6e20 4a5f 6100                         |070a: invoke-virtual {v1, v6}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+254b8e: 0a08                                   |070d: move-result v8
+254b90: 6e20 5812 8200                         |070e: invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254b96: 6e10 6912 0200                         |0711: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254b9c: 0c02                                   |0714: move-result-object v2
+254b9e: 6e20 1911 2400                         |0715: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ba4: 2202 e603                              |0718: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254ba8: 0808 1400                              |071a: move-object/from16 v8, v20
+254bac: 7020 5412 8200                         |071c: invoke-direct {v2, v8}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254bb2: 6e20 4a5f b100                         |071f: invoke-virtual {v1, v11}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+254bb8: 0a09                                   |0722: move-result v9
+254bba: 6e20 5812 9200                         |0723: invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254bc0: 6e10 6912 0200                         |0726: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254bc6: 0c02                                   |0729: move-result-object v2
+254bc8: 6e20 1911 2400                         |072a: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254bce: 2202 e603                              |072d: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254bd2: 0809 1300                              |072f: move-object/from16 v9, v19
+254bd6: 7020 5412 9200                         |0731: invoke-direct {v2, v9}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254bdc: 080e 1200                              |0734: move-object/from16 v14, v18
+254be0: 6e20 4a5f e100                         |0736: invoke-virtual {v1, v14}, Lorg/json/JSONObject;.getInt:(Ljava/lang/String;)I // method@5f4a
+254be6: 0a0f                                   |0739: move-result v15
+254be8: 6e20 5812 f200                         |073a: invoke-virtual {v2, v15}, Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder; // method@1258
+254bee: 6e10 6912 0200                         |073d: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254bf4: 0c02                                   |0740: move-result-object v2
+254bf6: 6e20 1911 2400                         |0741: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254bfc: 1a02 1c00                              |0744: const-string v2, "\ngetLong" // string@001c
+254c00: 6e20 1911 2400                         |0746: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254c06: 2202 e603                              |0749: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254c0a: 7020 5412 7200                         |074b: invoke-direct {v2, v7}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254c10: 0813 0e00                              |074e: move-object/from16 v19, v14
+254c14: 6e20 4d5f c100                         |0750: invoke-virtual {v1, v12}, Lorg/json/JSONObject;.getLong:(Ljava/lang/String;)J // method@5f4d
+254c1a: 0b0e                                   |0753: move-result-wide v14
+254c1c: 6e30 5912 e20f                         |0754: invoke-virtual {v2, v14, v15}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@1259
+254c22: 6e10 6912 0200                         |0757: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254c28: 0c02                                   |075a: move-result-object v2
+254c2a: 6e20 1911 2400                         |075b: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254c30: 2202 e603                              |075e: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254c34: 7020 5412 3200                         |0760: invoke-direct {v2, v3}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254c3a: 6e20 4d5f d100                         |0763: invoke-virtual {v1, v13}, Lorg/json/JSONObject;.getLong:(Ljava/lang/String;)J // method@5f4d
+254c40: 0b0e                                   |0766: move-result-wide v14
+254c42: 6e30 5912 e20f                         |0767: invoke-virtual {v2, v14, v15}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@1259
+254c48: 6e10 6912 0200                         |076a: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254c4e: 0c02                                   |076d: move-result-object v2
+254c50: 6e20 1911 2400                         |076e: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254c56: 2202 e603                              |0771: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254c5a: 7020 5412 5200                         |0773: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254c60: 6e20 4d5f 6100                         |0776: invoke-virtual {v1, v6}, Lorg/json/JSONObject;.getLong:(Ljava/lang/String;)J // method@5f4d
+254c66: 0b0e                                   |0779: move-result-wide v14
+254c68: 6e30 5912 e20f                         |077a: invoke-virtual {v2, v14, v15}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@1259
+254c6e: 6e10 6912 0200                         |077d: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254c74: 0c02                                   |0780: move-result-object v2
+254c76: 6e20 1911 2400                         |0781: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254c7c: 2202 e603                              |0784: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254c80: 7020 5412 8200                         |0786: invoke-direct {v2, v8}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254c86: 6e20 4d5f b100                         |0789: invoke-virtual {v1, v11}, Lorg/json/JSONObject;.getLong:(Ljava/lang/String;)J // method@5f4d
+254c8c: 0b0e                                   |078c: move-result-wide v14
+254c8e: 6e30 5912 e20f                         |078d: invoke-virtual {v2, v14, v15}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@1259
+254c94: 6e10 6912 0200                         |0790: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254c9a: 0c02                                   |0793: move-result-object v2
+254c9c: 6e20 1911 2400                         |0794: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ca2: 2202 e603                              |0797: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254ca6: 7020 5412 9200                         |0799: invoke-direct {v2, v9}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254cac: 07af                                   |079c: move-object v15, v10
+254cae: 080e 1300                              |079d: move-object/from16 v14, v19
+254cb2: 0813 0900                              |079f: move-object/from16 v19, v9
+254cb6: 6e20 4d5f e100                         |07a1: invoke-virtual {v1, v14}, Lorg/json/JSONObject;.getLong:(Ljava/lang/String;)J // method@5f4d
+254cbc: 0b09                                   |07a4: move-result-wide v9
+254cbe: 6e30 5912 920a                         |07a5: invoke-virtual {v2, v9, v10}, Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder; // method@1259
+254cc4: 6e10 6912 0200                         |07a8: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254cca: 0c02                                   |07ab: move-result-object v2
+254ccc: 6e20 1911 2400                         |07ac: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254cd2: 1a02 1a00                              |07af: const-string v2, "\ngetDouble" // string@001a
+254cd6: 6e20 1911 2400                         |07b1: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254cdc: 2202 e603                              |07b4: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254ce0: 7020 5412 7200                         |07b6: invoke-direct {v2, v7}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254ce6: 6e20 495f c100                         |07b9: invoke-virtual {v1, v12}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254cec: 0b09                                   |07bc: move-result-wide v9
+254cee: 6e30 5612 920a                         |07bd: invoke-virtual {v2, v9, v10}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+254cf4: 6e10 6912 0200                         |07c0: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254cfa: 0c02                                   |07c3: move-result-object v2
+254cfc: 6e20 1911 2400                         |07c4: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254d02: 2202 e603                              |07c7: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254d06: 7020 5412 3200                         |07c9: invoke-direct {v2, v3}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254d0c: 6e20 495f d100                         |07cc: invoke-virtual {v1, v13}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254d12: 0b09                                   |07cf: move-result-wide v9
+254d14: 6e30 5612 920a                         |07d0: invoke-virtual {v2, v9, v10}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+254d1a: 6e10 6912 0200                         |07d3: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254d20: 0c02                                   |07d6: move-result-object v2
+254d22: 6e20 1911 2400                         |07d7: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254d28: 2202 e603                              |07da: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254d2c: 7020 5412 5200                         |07dc: invoke-direct {v2, v5}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254d32: 6e20 495f 6100                         |07df: invoke-virtual {v1, v6}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254d38: 0b05                                   |07e2: move-result-wide v5
+254d3a: 6e30 5612 5206                         |07e3: invoke-virtual {v2, v5, v6}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+254d40: 6e10 6912 0200                         |07e6: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254d46: 0c02                                   |07e9: move-result-object v2
+254d48: 6e20 1911 2400                         |07ea: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254d4e: 2202 e603                              |07ed: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254d52: 7020 5412 8200                         |07ef: invoke-direct {v2, v8}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254d58: 6e20 495f b100                         |07f2: invoke-virtual {v1, v11}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254d5e: 0b05                                   |07f5: move-result-wide v5
+254d60: 6e30 5612 5206                         |07f6: invoke-virtual {v2, v5, v6}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+254d66: 6e10 6912 0200                         |07f9: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254d6c: 0c02                                   |07fc: move-result-object v2
+254d6e: 6e20 1911 2400                         |07fd: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254d74: 2202 e603                              |0800: new-instance v2, Ljava/lang/StringBuilder; // type@03e6
+254d78: 0803 1300                              |0802: move-object/from16 v3, v19
+254d7c: 7020 5412 3200                         |0804: invoke-direct {v2, v3}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+254d82: 6e20 495f e100                         |0807: invoke-virtual {v1, v14}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+254d88: 0b05                                   |080a: move-result-wide v5
+254d8a: 6e30 5612 5206                         |080b: invoke-virtual {v2, v5, v6}, Ljava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder; // method@1256
+254d90: 6e10 6912 0200                         |080e: invoke-virtual {v2}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+254d96: 0c02                                   |0811: move-result-object v2
+254d98: 6e20 1911 2400                         |0812: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254d9e: 1a02 905d                              |0815: const-string v2, "good sized" // string@5d90
+254da2: 1805 ffff ffff ffff ff7f               |0817: const-wide v5, #double nan // #7fffffffffffffff
+254dac: 6e40 685f 2165                         |081c: invoke-virtual {v1, v2, v5, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;J)Lorg/json/JSONObject; // method@5f68
+254db2: 1242                                   |081f: const/4 v2, #int 4 // #4
+254db4: 6e20 765f 2100                         |0820: invoke-virtual {v1, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254dba: 0c03                                   |0823: move-result-object v3
+254dbc: 6e20 1911 3400                         |0824: invoke-virtual {v4, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254dc2: 2203 f40e                              |0827: new-instance v3, Lorg/json/JSONArray; // type@0ef4
+254dc6: 1a05 6c46                              |0829: const-string v5, "[2147483647, 2147483648, 9223372036854775807, 9223372036854775808]" // string@466c
+254dca: 7020 fa5e 5300                         |082b: invoke-direct {v3, v5}, Lorg/json/JSONArray;.<init>:(Ljava/lang/String;)V // method@5efa
+254dd0: 6e20 275f 2300                         |082e: invoke-virtual {v3, v2}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+254dd6: 0c03                                   |0831: move-result-object v3
+254dd8: 6e20 1911 3400                         |0832: invoke-virtual {v4, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254dde: 1a02 1400                              |0835: const-string v2, "\nKeys: " // string@0014
+254de2: 6e20 1911 2400                         |0837: invoke-virtual {v4, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254de8: 6e10 545f 0100                         |083a: invoke-virtual {v1}, Lorg/json/JSONObject;.keys:()Ljava/util/Iterator; // method@5f54
+254dee: 0c02                                   |083d: move-result-object v2
+254df0: 7210 b414 0200                         |083e: invoke-interface {v2}, Ljava/util/Iterator;.hasNext:()Z // method@14b4
+254df6: 0a03                                   |0841: move-result v3
+254df8: 3903 cb02                              |0842: if-nez v3, 0b0d // +02cb
+254dfc: 6201 4d08                              |0844: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+254e00: 1a02 1900                              |0846: const-string v2, "\naccumulate: " // string@0019
+254e04: 6e20 1911 2100                         |0848: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254e0a: 2202 f80e                              |084b: new-instance v2, Lorg/json/JSONObject; // type@0ef8
+254e0e: 7010 3b5f 0200                         |084d: invoke-direct {v2}, Lorg/json/JSONObject;.<init>:()V // method@5f3b
+254e14: 1a03 e210                              |0850: const-string v3, "Curly" // string@10e2
+254e18: 0804 1100                              |0852: move-object/from16 v4, v17
+254e1c: 6e30 445f 4203                         |0854: invoke-virtual {v2, v4, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254e22: 1a03 fa1e                              |0857: const-string v3, "Larry" // string@1efa
+254e26: 6e30 445f 4203                         |0859: invoke-virtual {v2, v4, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254e2c: 1a03 f731                              |085c: const-string v3, "Moe" // string@31f7
+254e30: 6e30 445f 4203                         |085e: invoke-virtual {v2, v4, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254e36: 6e20 4b5f 4200                         |0861: invoke-virtual {v2, v4}, Lorg/json/JSONObject;.getJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f4b
+254e3c: 0c03                                   |0864: move-result-object v3
+254e3e: 1a05 1d3b                              |0865: const-string v5, "Shemp" // string@3b1d
+254e42: 1256                                   |0867: const/4 v6, #int 5 // #5
+254e44: 6e30 1b5f 6305                         |0868: invoke-virtual {v3, v6, v5}, Lorg/json/JSONArray;.put:(ILjava/lang/Object;)Lorg/json/JSONArray; // method@5f1b
+254e4a: 1243                                   |086b: const/4 v3, #int 4 // #4
+254e4c: 6e20 765f 3200                         |086c: invoke-virtual {v2, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254e52: 0c05                                   |086f: move-result-object v5
+254e54: 6e20 1911 5100                         |0870: invoke-virtual {v1, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254e5a: 1a03 2100                              |0873: const-string v3, "\nwrite:" // string@0021
+254e5e: 6e20 1911 3100                         |0875: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254e64: 2203 ab03                              |0878: new-instance v3, Ljava/io/StringWriter; // type@03ab
+254e68: 7010 3011 0300                         |087a: invoke-direct {v3}, Ljava/io/StringWriter;.<init>:()V // method@1130
+254e6e: 6e20 7a5f 3200                         |087d: invoke-virtual {v2, v3}, Lorg/json/JSONObject;.write:(Ljava/io/Writer;)Ljava/io/Writer; // method@5f7a
+254e74: 0c02                                   |0880: move-result-object v2
+254e76: 6e20 1811 2100                         |0881: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+254e7c: 1a02 6107                              |0884: const-string v2, "<xml empty><a></a><a>1</a><a>22</a><a>333</a></xml>" // string@0761
+254e80: 7110 ab5f 0200                         |0886: invoke-static {v2}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254e86: 0c02                                   |0889: move-result-object v2
+254e88: 1243                                   |088a: const/4 v3, #int 4 // #4
+254e8a: 6e20 765f 3200                         |088b: invoke-virtual {v2, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254e90: 0c05                                   |088e: move-result-object v5
+254e92: 6e20 1911 5100                         |088f: invoke-virtual {v1, v5}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254e98: 7110 ac5f 0200                         |0892: invoke-static {v2}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254e9e: 0c02                                   |0895: move-result-object v2
+254ea0: 6e20 1911 2100                         |0896: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ea6: 1a02 5107                              |0899: const-string v2, "<book><chapter>Content of the first chapter</chapter><chapter>Content of the second chapter      <chapter>Content of the first subchapter</chapter>      <chapter>Content of the second subchapter</chapter></chapter><chapter>Third Chapter</chapter></book>" // string@0751
+254eaa: 7110 ab5f 0200                         |089b: invoke-static {v2}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254eb0: 0c03                                   |089e: move-result-object v3
+254eb2: 1245                                   |089f: const/4 v5, #int 4 // #4
+254eb4: 6e20 765f 5300                         |08a0: invoke-virtual {v3, v5}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254eba: 0c06                                   |08a3: move-result-object v6
+254ebc: 6e20 1911 6100                         |08a4: invoke-virtual {v1, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ec2: 7110 ac5f 0300                         |08a7: invoke-static {v3}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254ec8: 0c03                                   |08aa: move-result-object v3
+254eca: 6e20 1911 3100                         |08ab: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ed0: 7110 2f5f 0200                         |08ae: invoke-static {v2}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+254ed6: 0c02                                   |08b1: move-result-object v2
+254ed8: 6e20 275f 5200                         |08b2: invoke-virtual {v2, v5}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+254ede: 0c03                                   |08b5: move-result-object v3
+254ee0: 6e20 1911 3100                         |08b6: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ee6: 7110 335f 0200                         |08b9: invoke-static {v2}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+254eec: 0c02                                   |08bc: move-result-object v2
+254eee: 6e20 1911 2100                         |08bd: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ef4: 2202 f80e                              |08c0: new-instance v2, Lorg/json/JSONObject; // type@0ef8
+254ef8: 1203                                   |08c2: const/4 v3, #int 0 // #0
+254efa: 7020 405f 3200                         |08c3: invoke-direct {v2, v3}, Lorg/json/JSONObject;.<init>:(Ljava/util/Map;)V // method@5f40
+254f00: 2205 f40e                              |08c6: new-instance v5, Lorg/json/JSONArray; // type@0ef4
+254f04: 7020 fb5e 3500                         |08c8: invoke-direct {v5, v3}, Lorg/json/JSONArray;.<init>:(Ljava/util/Collection;)V // method@5efb
+254f0a: 1a03 f11a                              |08cb: const-string v3, "Joe DeRita" // string@1af1
+254f0e: 6e30 455f 4203                         |08cd: invoke-virtual {v2, v4, v3}, Lorg/json/JSONObject;.append:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f45
+254f14: 1a03 1d3b                              |08d0: const-string v3, "Shemp" // string@3b1d
+254f18: 6e30 455f 4203                         |08d2: invoke-virtual {v2, v4, v3}, Lorg/json/JSONObject;.append:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f45
+254f1e: 1a03 e210                              |08d5: const-string v3, "Curly" // string@10e2
+254f22: 0806 1800                              |08d7: move-object/from16 v6, v24
+254f26: 6e30 445f 6203                         |08d9: invoke-virtual {v2, v6, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254f2c: 1a03 fa1e                              |08dc: const-string v3, "Larry" // string@1efa
+254f30: 6e30 445f 6203                         |08de: invoke-virtual {v2, v6, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254f36: 1a03 f731                              |08e1: const-string v3, "Moe" // string@31f7
+254f3a: 6e30 445f 6203                         |08e3: invoke-virtual {v2, v6, v3}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254f40: 1a03 8688                              |08e6: const-string v3, "stoogearray" // string@8886
+254f44: 6e20 475f 6200                         |08e8: invoke-virtual {v2, v6}, Lorg/json/JSONObject;.get:(Ljava/lang/String;)Ljava/lang/Object; // method@5f47
+254f4a: 0c06                                   |08eb: move-result-object v6
+254f4c: 6e30 445f 3206                         |08ec: invoke-virtual {v2, v3, v6}, Lorg/json/JSONObject;.accumulate:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f44
+254f52: 1a03 a664                              |08ef: const-string v3, "map" // string@64a6
+254f56: 1206                                   |08f1: const/4 v6, #int 0 // #0
+254f58: 6e30 6b5f 3206                         |08f2: invoke-virtual {v2, v3, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/util/Map;)Lorg/json/JSONObject; // method@5f6b
+254f5e: 1a03 904f                              |08f5: const-string v3, "collection" // string@4f90
+254f62: 6e30 6a5f 3206                         |08f7: invoke-virtual {v2, v3, v6}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/util/Collection;)Lorg/json/JSONObject; // method@5f6a
+254f68: 1a03 014b                              |08fa: const-string v3, "array" // string@4b01
+254f6c: 6e30 695f 3205                         |08fc: invoke-virtual {v2, v3, v5}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+254f72: 6e20 225f 6500                         |08ff: invoke-virtual {v5, v6}, Lorg/json/JSONArray;.put:(Ljava/util/Map;)Lorg/json/JSONArray; // method@5f22
+254f78: 6e20 215f 6500                         |0902: invoke-virtual {v5, v6}, Lorg/json/JSONArray;.put:(Ljava/util/Collection;)Lorg/json/JSONArray; // method@5f21
+254f7e: 1243                                   |0905: const/4 v3, #int 4 // #4
+254f80: 6e20 765f 3200                         |0906: invoke-virtual {v2, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254f86: 0c02                                   |0909: move-result-object v2
+254f88: 6e20 1911 2100                         |090a: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254f8e: 1a02 bd8e                              |090d: const-string v2, "{plist=Apple; AnimalSmells = { pig = piggish; lamb = lambish; worm = wormy; }; AnimalSounds = { pig = oink; lamb = baa; worm = baa;  Lisa = \"Why is the worm talking like a lamb?\" } ; AnimalColors = { pig = pink; lamb = black; worm = pink; } } " // string@8ebd
+254f92: 2205 f80e                              |090f: new-instance v5, Lorg/json/JSONObject; // type@0ef8
+254f96: 7020 3f5f 2500                         |0911: invoke-direct {v5, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+254f9c: 6e20 765f 3500                         |0914: invoke-virtual {v5, v3}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254fa2: 0c02                                   |0917: move-result-object v2
+254fa4: 6e20 1911 2100                         |0918: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254faa: 1a02 5c00                              |091b: const-string v2, " (\"San Francisco\", \"New York\", \"Seoul\", \"London\", \"Seattle\", \"Shanghai\")" // string@005c
+254fae: 2203 f40e                              |091d: new-instance v3, Lorg/json/JSONArray; // type@0ef4
+254fb2: 7020 fa5e 2300                         |091f: invoke-direct {v3, v2}, Lorg/json/JSONArray;.<init>:(Ljava/lang/String;)V // method@5efa
+254fb8: 6e10 265f 0300                         |0922: invoke-virtual {v3}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+254fbe: 0c02                                   |0925: move-result-object v2
+254fc0: 6e20 1911 2100                         |0926: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254fc6: 1a02 4d07                              |0929: const-string v2, "<a ichi='1' ni='2'><b>The content of b</b> and <c san='3'>The content of c</c><d>do</d><e></e><d>re</d><f/><d>mi</d></a>" // string@074d
+254fca: 7110 ab5f 0200                         |092b: invoke-static {v2}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+254fd0: 0c05                                   |092e: move-result-object v5
+254fd2: 1227                                   |092f: const/4 v7, #int 2 // #2
+254fd4: 6e20 765f 7500                         |0930: invoke-virtual {v5, v7}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+254fda: 0c06                                   |0933: move-result-object v6
+254fdc: 6e20 1911 6100                         |0934: invoke-virtual {v1, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254fe2: 7110 ac5f 0500                         |0937: invoke-static {v5}, Lorg/json/XML;.toString:(Ljava/lang/Object;)Ljava/lang/String; // method@5fac
+254fe8: 0c06                                   |093a: move-result-object v6
+254fea: 6e20 1911 6100                         |093b: invoke-virtual {v1, v6}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ff0: 07f8                                   |093e: move-object v8, v15
+254ff2: 6e20 1911 8100                         |093f: invoke-virtual {v1, v8}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+254ff8: 7110 2f5f 0200                         |0942: invoke-static {v2}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+254ffe: 0c02                                   |0945: move-result-object v2
+255000: 1246                                   |0946: const/4 v6, #int 4 // #4
+255002: 6e20 275f 6200                         |0947: invoke-virtual {v2, v6}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+255008: 0c07                                   |094a: move-result-object v7
+25500a: 6e20 1911 7100                         |094b: invoke-virtual {v1, v7}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+255010: 7110 335f 0200                         |094e: invoke-static {v2}, Lorg/json/JSONML;.toString:(Lorg/json/JSONArray;)Ljava/lang/String; // method@5f33
+255016: 0c02                                   |0951: move-result-object v2
+255018: 6e20 1911 2100                         |0952: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25501e: 6e20 1911 8100                         |0955: invoke-virtual {v1, v8}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+255024: 1a02 1700                              |0958: const-string v2, "\nTesting Exceptions: " // string@0017
+255028: 6e20 1911 2100                         |095a: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25502e: 0809 1000                              |095d: move-object/from16 v9, v16
+255032: 6e20 1411 9100                         |095f: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+255038: 2202 f40e                              |0962: new-instance v2, Lorg/json/JSONArray; // type@0ef4
+25503c: 7010 f75e 0200                         |0964: invoke-direct {v2}, Lorg/json/JSONArray;.<init>:()V // method@5ef7
+255042: 1906 f0ff                              |0967: const-wide/high16 v6, #long -4503599627370496 // #fff0
+255046: 6e30 165f 6207                         |0969: invoke-virtual {v2, v6, v7}, Lorg/json/JSONArray;.put:(D)Lorg/json/JSONArray; // method@5f16
+25504c: 1906 f87f                              |096c: const-wide/high16 v6, #long 9221120237041090560 // #7ff8
+255050: 6e30 165f 6207                         |096e: invoke-virtual {v2, v6, v7}, Lorg/json/JSONArray;.put:(D)Lorg/json/JSONArray; // method@5f16
+255056: 6e10 265f 0200                         |0971: invoke-virtual {v2}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+25505c: 0c03                                   |0974: move-result-object v3
+25505e: 6e20 1911 3100                         |0975: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+255064: 280d                                   |0978: goto 0985 // +000d
+255066: 0d00                                   |0979: move-exception v0
+255068: 0701                                   |097a: move-object v1, v0
+25506a: 0723                                   |097b: move-object v3, v2
+25506c: 2803                                   |097c: goto 097f // +0003
+25506e: 0d00                                   |097d: move-exception v0
+255070: 0701                                   |097e: move-object v1, v0
+255072: 6202 4d08                              |097f: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255076: 6e20 1811 1200                         |0981: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+25507c: 0732                                   |0984: move-object v2, v3
+25507e: 6201 4d08                              |0985: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255082: 6e20 1411 9100                         |0987: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+255088: 6e20 495f 4500                         |098a: invoke-virtual {v5, v4}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+25508e: 0b03                                   |098d: move-result-wide v3
+255090: 6e30 1611 3104                         |098e: invoke-virtual {v1, v3, v4}, Ljava/io/PrintStream;.println:(D)V // method@1116
+255096: 2808                                   |0991: goto 0999 // +0008
+255098: 0d00                                   |0992: move-exception v0
+25509a: 0701                                   |0993: move-object v1, v0
+25509c: 6203 4d08                              |0994: sget-object v3, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2550a0: 6e20 1811 1300                         |0996: invoke-virtual {v3, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2550a6: 6201 4d08                              |0999: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2550aa: 6e20 1411 9100                         |099b: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2550b0: 1a03 ae5e                              |099e: const-string v3, "howard" // string@5eae
+2550b4: 6e20 495f 3500                         |09a0: invoke-virtual {v5, v3}, Lorg/json/JSONObject;.getDouble:(Ljava/lang/String;)D // method@5f49
+2550ba: 0b03                                   |09a3: move-result-wide v3
+2550bc: 6e30 1611 3104                         |09a4: invoke-virtual {v1, v3, v4}, Ljava/io/PrintStream;.println:(D)V // method@1116
+2550c2: 2808                                   |09a7: goto 09af // +0008
+2550c4: 0d00                                   |09a8: move-exception v0
+2550c6: 0701                                   |09a9: move-object v1, v0
+2550c8: 6203 4d08                              |09aa: sget-object v3, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2550cc: 6e20 1811 1300                         |09ac: invoke-virtual {v3, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2550d2: 6201 4d08                              |09af: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2550d6: 6e20 1411 9100                         |09b1: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2550dc: 1a03 ae5e                              |09b4: const-string v3, "howard" // string@5eae
+2550e0: 120a                                   |09b6: const/4 v10, #int 0 // #0
+2550e2: 6e30 695f a503                         |09b7: invoke-virtual {v5, v10, v3}, Lorg/json/JSONObject;.put:(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; // method@5f69
+2550e8: 0c03                                   |09ba: move-result-object v3
+2550ea: 6e20 1811 3100                         |09bb: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2550f0: 2808                                   |09be: goto 09c6 // +0008
+2550f2: 0d00                                   |09bf: move-exception v0
+2550f4: 0701                                   |09c0: move-object v1, v0
+2550f6: 6203 4d08                              |09c1: sget-object v3, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2550fa: 6e20 1811 1300                         |09c3: invoke-virtual {v3, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255100: 6201 4d08                              |09c6: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255104: 6e20 1411 9100                         |09c8: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+25510a: 1203                                   |09cb: const/4 v3, #int 0 // #0
+25510c: 6e20 005f 3200                         |09cc: invoke-virtual {v2, v3}, Lorg/json/JSONArray;.getDouble:(I)D // method@5f00
+255112: 0b03                                   |09cf: move-result-wide v3
+255114: 6e30 1611 3104                         |09d0: invoke-virtual {v1, v3, v4}, Ljava/io/PrintStream;.println:(D)V // method@1116
+25511a: 2808                                   |09d3: goto 09db // +0008
+25511c: 0d00                                   |09d4: move-exception v0
+25511e: 0701                                   |09d5: move-object v1, v0
+255120: 6203 4d08                              |09d6: sget-object v3, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255124: 6e20 1811 1300                         |09d8: invoke-virtual {v3, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+25512a: 6201 4d08                              |09db: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25512e: 6e20 1411 9100                         |09dd: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+255134: 12f3                                   |09e0: const/4 v3, #int -1 // #ff
+255136: 6e20 fe5e 3200                         |09e1: invoke-virtual {v2, v3}, Lorg/json/JSONArray;.get:(I)Ljava/lang/Object; // method@5efe
+25513c: 0c03                                   |09e4: move-result-object v3
+25513e: 6e20 1811 3100                         |09e5: invoke-virtual {v1, v3}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255144: 2808                                   |09e8: goto 09f0 // +0008
+255146: 0d00                                   |09e9: move-exception v0
+255148: 0701                                   |09ea: move-object v1, v0
+25514a: 6203 4d08                              |09eb: sget-object v3, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25514e: 6e20 1811 1300                         |09ed: invoke-virtual {v3, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255154: 6201 4d08                              |09f0: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255158: 6e20 1411 9100                         |09f2: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+25515e: 1903 f87f                              |09f5: const-wide/high16 v3, #long 9221120237041090560 // #7ff8
+255162: 6e30 165f 3204                         |09f7: invoke-virtual {v2, v3, v4}, Lorg/json/JSONArray;.put:(D)Lorg/json/JSONArray; // method@5f16
+255168: 0c02                                   |09fa: move-result-object v2
+25516a: 6e20 1811 2100                         |09fb: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255170: 2808                                   |09fe: goto 0a06 // +0008
+255172: 0d00                                   |09ff: move-exception v0
+255174: 0701                                   |0a00: move-object v1, v0
+255176: 6202 4d08                              |0a01: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25517a: 6e20 1811 1200                         |0a03: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255180: 6201 4d08                              |0a06: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255184: 6e20 1411 9100                         |0a08: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+25518a: 1a01 5007                              |0a0b: const-string v1, "<a><b>    " // string@0750
+25518e: 7110 ab5f 0100                         |0a0d: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+255194: 0c05                                   |0a10: move-result-object v5
+255196: 2808                                   |0a11: goto 0a19 // +0008
+255198: 0d00                                   |0a12: move-exception v0
+25519a: 0701                                   |0a13: move-object v1, v0
+25519c: 6202 4d08                              |0a14: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551a0: 6e20 1811 1200                         |0a16: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2551a6: 6201 4d08                              |0a19: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551aa: 6e20 1411 9100                         |0a1b: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2551b0: 1a01 4f07                              |0a1e: const-string v1, "<a></b>    " // string@074f
+2551b4: 7110 ab5f 0100                         |0a20: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+2551ba: 0c05                                   |0a23: move-result-object v5
+2551bc: 2808                                   |0a24: goto 0a2c // +0008
+2551be: 0d00                                   |0a25: move-exception v0
+2551c0: 0701                                   |0a26: move-object v1, v0
+2551c2: 6202 4d08                              |0a27: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551c6: 6e20 1811 1200                         |0a29: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2551cc: 6201 4d08                              |0a2c: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551d0: 6e20 1411 9100                         |0a2e: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2551d6: 1a01 4e07                              |0a31: const-string v1, "<a></a    " // string@074e
+2551da: 7110 ab5f 0100                         |0a33: invoke-static {v1}, Lorg/json/XML;.toJSONObject:(Ljava/lang/String;)Lorg/json/JSONObject; // method@5fab
+2551e0: 0c05                                   |0a36: move-result-object v5
+2551e2: 2808                                   |0a37: goto 0a3f // +0008
+2551e4: 0d00                                   |0a38: move-exception v0
+2551e6: 0701                                   |0a39: move-object v1, v0
+2551e8: 6202 4d08                              |0a3a: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551ec: 6e20 1811 1200                         |0a3c: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2551f2: 6201 4d08                              |0a3f: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2551f6: 6e20 1411 9100                         |0a41: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2551fc: 2202 f40e                              |0a44: new-instance v2, Lorg/json/JSONArray; // type@0ef4
+255200: 2203 d703                              |0a46: new-instance v3, Ljava/lang/Object; // type@03d7
+255204: 7010 ea11 0300                         |0a48: invoke-direct {v3}, Ljava/lang/Object;.<init>:()V // method@11ea
+25520a: 7020 f85e 3200                         |0a4b: invoke-direct {v2, v3}, Lorg/json/JSONArray;.<init>:(Ljava/lang/Object;)V // method@5ef8
+255210: 6e10 265f 0200                         |0a4e: invoke-virtual {v2}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+255216: 0c02                                   |0a51: move-result-object v2
+255218: 6e20 1911 2100                         |0a52: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25521e: 2808                                   |0a55: goto 0a5d // +0008
+255220: 0d00                                   |0a56: move-exception v0
+255222: 0701                                   |0a57: move-object v1, v0
+255224: 6202 4d08                              |0a58: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255228: 6e20 1811 1200                         |0a5a: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+25522e: 6201 4d08                              |0a5d: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255232: 6e20 1411 9100                         |0a5f: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+255238: 1a02 6a46                              |0a62: const-string v2, "[)" // string@466a
+25523c: 2203 f40e                              |0a64: new-instance v3, Lorg/json/JSONArray; // type@0ef4
+255240: 7020 fa5e 2300                         |0a66: invoke-direct {v3, v2}, Lorg/json/JSONArray;.<init>:(Ljava/lang/String;)V // method@5efa
+255246: 6e10 265f 0300                         |0a69: invoke-virtual {v3}, Lorg/json/JSONArray;.toString:()Ljava/lang/String; // method@5f26
+25524c: 0c02                                   |0a6c: move-result-object v2
+25524e: 6e20 1911 2100                         |0a6d: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+255254: 2808                                   |0a70: goto 0a78 // +0008
+255256: 0d00                                   |0a71: move-exception v0
+255258: 0701                                   |0a72: move-object v1, v0
+25525a: 6202 4d08                              |0a73: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25525e: 6e20 1811 1200                         |0a75: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255264: 6201 4d08                              |0a78: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255268: 6e20 1411 9100                         |0a7a: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+25526e: 1a02 5f07                              |0a7d: const-string v2, "<xml" // string@075f
+255272: 7110 2f5f 0200                         |0a7f: invoke-static {v2}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+255278: 0c02                                   |0a82: move-result-object v2
+25527a: 1243                                   |0a83: const/4 v3, #int 4 // #4
+25527c: 6e20 275f 3200                         |0a84: invoke-virtual {v2, v3}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+255282: 0c02                                   |0a87: move-result-object v2
+255284: 6e20 1911 2100                         |0a88: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25528a: 2808                                   |0a8b: goto 0a93 // +0008
+25528c: 0d00                                   |0a8c: move-exception v0
+25528e: 0701                                   |0a8d: move-object v1, v0
+255290: 6202 4d08                              |0a8e: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255294: 6e20 1811 1200                         |0a90: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+25529a: 6201 4d08                              |0a93: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25529e: 6e20 1411 9100                         |0a95: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2552a4: 1a02 5b07                              |0a98: const-string v2, "<right></wrong>" // string@075b
+2552a8: 7110 2f5f 0200                         |0a9a: invoke-static {v2}, Lorg/json/JSONML;.toJSONArray:(Ljava/lang/String;)Lorg/json/JSONArray; // method@5f2f
+2552ae: 0c02                                   |0a9d: move-result-object v2
+2552b0: 1243                                   |0a9e: const/4 v3, #int 4 // #4
+2552b2: 6e20 275f 3200                         |0a9f: invoke-virtual {v2, v3}, Lorg/json/JSONArray;.toString:(I)Ljava/lang/String; // method@5f27
+2552b8: 0c02                                   |0aa2: move-result-object v2
+2552ba: 6e20 1911 2100                         |0aa3: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2552c0: 2808                                   |0aa6: goto 0aae // +0008
+2552c2: 0d00                                   |0aa7: move-exception v0
+2552c4: 0701                                   |0aa8: move-object v1, v0
+2552c6: 6202 4d08                              |0aa9: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2552ca: 6e20 1811 1200                         |0aab: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+2552d0: 6201 4d08                              |0aae: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2552d4: 6e20 1411 9100                         |0ab0: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+2552da: 1a02 b48e                              |0ab3: const-string v2, "{\"koda\": true, \"koda\": true}" // string@8eb4
+2552de: 2203 f80e                              |0ab5: new-instance v3, Lorg/json/JSONObject; // type@0ef8
+2552e2: 7020 3f5f 2300                         |0ab7: invoke-direct {v3, v2}, Lorg/json/JSONObject;.<init>:(Ljava/lang/String;)V // method@5f3f
+2552e8: 1242                                   |0aba: const/4 v2, #int 4 // #4
+2552ea: 6e20 765f 2300                         |0abb: invoke-virtual {v3, v2}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+2552f0: 0c04                                   |0abe: move-result-object v4
+2552f2: 6e20 1911 4100                         |0abf: invoke-virtual {v1, v4}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2552f8: 280d                                   |0ac2: goto 0acf // +000d
+2552fa: 0d00                                   |0ac3: move-exception v0
+2552fc: 0701                                   |0ac4: move-object v1, v0
+2552fe: 0735                                   |0ac5: move-object v5, v3
+255300: 2803                                   |0ac6: goto 0ac9 // +0003
+255302: 0d00                                   |0ac7: move-exception v0
+255304: 0701                                   |0ac8: move-object v1, v0
+255306: 6202 4d08                              |0ac9: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+25530a: 6e20 1811 1200                         |0acb: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+255310: 0753                                   |0ace: move-object v3, v5
+255312: 6201 4d08                              |0acf: sget-object v1, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255316: 6e20 1411 9100                         |0ad1: invoke-virtual {v1, v9}, Ljava/io/PrintStream;.print:(Ljava/lang/String;)V // method@1114
+25531c: 2202 fa0e                              |0ad4: new-instance v2, Lorg/json/JSONStringer; // type@0efa
+255320: 7010 7c5f 0200                         |0ad6: invoke-direct {v2}, Lorg/json/JSONStringer;.<init>:()V // method@5f7c
+255326: 6e10 955f 0200                         |0ad9: invoke-virtual {v2}, Lorg/json/JSONWriter;.object:()Lorg/json/JSONWriter; // method@5f95
+25532c: 0c02                                   |0adc: move-result-object v2
+25532e: 1a04 174c                              |0add: const-string v4, "bosanda" // string@4c17
+255332: 6e20 945f 4200                         |0adf: invoke-virtual {v2, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+255338: 0c02                                   |0ae2: move-result-object v2
+25533a: 1a04 0a2f                              |0ae3: const-string v4, "MARIE HAA'S" // string@2f0a
+25533e: 6e20 9a5f 4200                         |0ae5: invoke-virtual {v2, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+255344: 0c02                                   |0ae8: move-result-object v2
+255346: 1a04 174c                              |0ae9: const-string v4, "bosanda" // string@4c17
+25534a: 6e20 945f 4200                         |0aeb: invoke-virtual {v2, v4}, Lorg/json/JSONWriter;.key:(Ljava/lang/String;)Lorg/json/JSONWriter; // method@5f94
+255350: 0c02                                   |0aee: move-result-object v2
+255352: 1a04 0b2f                              |0aef: const-string v4, "MARIE HAA\\'S" // string@2f0b
+255356: 6e20 9a5f 4200                         |0af1: invoke-virtual {v2, v4}, Lorg/json/JSONWriter;.value:(Ljava/lang/Object;)Lorg/json/JSONWriter; // method@5f9a
+25535c: 0c02                                   |0af4: move-result-object v2
+25535e: 6e10 935f 0200                         |0af5: invoke-virtual {v2}, Lorg/json/JSONWriter;.endObject:()Lorg/json/JSONWriter; // method@5f93
+255364: 0c02                                   |0af8: move-result-object v2
+255366: 6e10 f111 0200                         |0af9: invoke-virtual {v2}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@11f1
+25536c: 1245                                   |0afc: const/4 v5, #int 4 // #4
+25536e: 6e20 765f 5300                         |0afd: invoke-virtual {v3, v5}, Lorg/json/JSONObject;.toString:(I)Ljava/lang/String; // method@5f76
+255374: 0c02                                   |0b00: move-result-object v2
+255376: 6e20 1911 2100                         |0b01: invoke-virtual {v1, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+25537c: 284a                                   |0b04: goto 0b4e // +004a
+25537e: 0d00                                   |0b05: move-exception v0
+255380: 0701                                   |0b06: move-object v1, v0
+255382: 6202 4d08                              |0b07: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255386: 6e20 1811 1200                         |0b09: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@1118
+25538c: 2842                                   |0b0c: goto 0b4e // +0042
+25538e: 0806 1800                              |0b0d: move-object/from16 v6, v24
+255392: 07f8                                   |0b0f: move-object v8, v15
+255394: 0809 1000                              |0b10: move-object/from16 v9, v16
+255398: 0804 1100                              |0b12: move-object/from16 v4, v17
+25539c: 1203                                   |0b14: const/4 v3, #int 0 // #0
+25539e: 1245                                   |0b15: const/4 v5, #int 4 // #4
+2553a0: 1227                                   |0b16: const/4 v7, #int 2 // #2
+2553a2: 120a                                   |0b17: const/4 v10, #int 0 // #0
+2553a4: 7210 b514 0200                         |0b18: invoke-interface {v2}, Ljava/util/Iterator;.next:()Ljava/lang/Object; // method@14b5
+2553aa: 0c0b                                   |0b1b: move-result-object v11
+2553ac: 1f0b e403                              |0b1c: check-cast v11, Ljava/lang/String; // type@03e4
+2553b0: 620c 4d08                              |0b1e: sget-object v12, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+2553b4: 220d e603                              |0b20: new-instance v13, Ljava/lang/StringBuilder; // type@03e6
+2553b8: 7110 3e12 0b00                         |0b22: invoke-static {v11}, Ljava/lang/String;.valueOf:(Ljava/lang/Object;)Ljava/lang/String; // method@123e
+2553be: 0c0e                                   |0b25: move-result-object v14
+2553c0: 7020 5412 ed00                         |0b26: invoke-direct {v13, v14}, Ljava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V // method@1254
+2553c6: 1a0e 0b07                              |0b29: const-string v14, ": " // string@070b
+2553ca: 6e20 5c12 ed00                         |0b2b: invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2553d0: 6e20 505f b100                         |0b2e: invoke-virtual {v1, v11}, Lorg/json/JSONObject;.getString:(Ljava/lang/String;)Ljava/lang/String; // method@5f50
+2553d6: 0c0b                                   |0b31: move-result-object v11
+2553d8: 6e20 5c12 bd00                         |0b32: invoke-virtual {v13, v11}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@125c
+2553de: 6e10 6912 0d00                         |0b35: invoke-virtual {v13}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@1269
+2553e4: 0c0b                                   |0b38: move-result-object v11
+2553e6: 6e20 1911 bc00                         |0b39: invoke-virtual {v12, v11}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+2553ec: 0811 0400                              |0b3c: move-object/from16 v17, v4
+2553f0: 0818 0600                              |0b3e: move-object/from16 v24, v6
+2553f4: 078f                                   |0b40: move-object v15, v8
+2553f6: 0810 0900                              |0b41: move-object/from16 v16, v9
+2553fa: 2900 fbfc                              |0b43: goto/16 083e // -0305
+2553fe: 6202 4d08                              |0b45: sget-object v2, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@084d
+255402: 6e10 f111 0100                         |0b47: invoke-virtual {v1}, Ljava/lang/Object;.toString:()Ljava/lang/String; // method@11f1
+255408: 0c01                                   |0b4a: move-result-object v1
+25540a: 6e20 1911 1200                         |0b4b: invoke-virtual {v2, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@1119
+255410: 0e00                                   |0b4e: return-void
+      catches       : 35
+        0x003a - 0x0962
+          Ljava/lang/Exception; -> 0x068c
+        0x0962 - 0x0967
+          Ljava/lang/Exception; -> 0x097d
+        0x0969 - 0x0978
+          Ljava/lang/Exception; -> 0x0979
+        0x097f - 0x098a
+          Ljava/lang/Exception; -> 0x068c
+        0x098a - 0x0991
+          Ljava/lang/Exception; -> 0x0992
+        0x0994 - 0x099e
+          Ljava/lang/Exception; -> 0x068c
+        0x099e - 0x09a7
+          Ljava/lang/Exception; -> 0x09a8
+        0x09aa - 0x09b4
+          Ljava/lang/Exception; -> 0x068c
+        0x09b4 - 0x09be
+          Ljava/lang/Exception; -> 0x09bf
+        0x09c1 - 0x09cb
+          Ljava/lang/Exception; -> 0x068c
+        0x09cc - 0x09d3
+          Ljava/lang/Exception; -> 0x09d4
+        0x09d6 - 0x09e0
+          Ljava/lang/Exception; -> 0x068c
+        0x09e1 - 0x09e8
+          Ljava/lang/Exception; -> 0x09e9
+        0x09eb - 0x09f5
+          Ljava/lang/Exception; -> 0x068c
+        0x09f7 - 0x09fe
+          Ljava/lang/Exception; -> 0x09ff
+        0x0a01 - 0x0a0b
+          Ljava/lang/Exception; -> 0x068c
+        0x0a0b - 0x0a11
+          Ljava/lang/Exception; -> 0x0a12
+        0x0a14 - 0x0a1e
+          Ljava/lang/Exception; -> 0x068c
+        0x0a1e - 0x0a24
+          Ljava/lang/Exception; -> 0x0a25
+        0x0a27 - 0x0a31
+          Ljava/lang/Exception; -> 0x068c
+        0x0a31 - 0x0a37
+          Ljava/lang/Exception; -> 0x0a38
+        0x0a3a - 0x0a44
+          Ljava/lang/Exception; -> 0x068c
+        0x0a44 - 0x0a55
+          Ljava/lang/Exception; -> 0x0a56
+        0x0a58 - 0x0a62
+          Ljava/lang/Exception; -> 0x068c
+        0x0a62 - 0x0a70
+          Ljava/lang/Exception; -> 0x0a71
+        0x0a73 - 0x0a7d
+          Ljava/lang/Exception; -> 0x068c
+        0x0a7d - 0x0a8b
+          Ljava/lang/Exception; -> 0x0a8c
+        0x0a8e - 0x0a98
+          Ljava/lang/Exception; -> 0x068c
+        0x0a98 - 0x0aa6
+          Ljava/lang/Exception; -> 0x0aa7
+        0x0aa9 - 0x0ab3
+          Ljava/lang/Exception; -> 0x068c
+        0x0ab3 - 0x0aba
+          Ljava/lang/Exception; -> 0x0ac7
+        0x0abb - 0x0ac2
+          Ljava/lang/Exception; -> 0x0ac3
+        0x0ac9 - 0x0ad4
+          Ljava/lang/Exception; -> 0x068c
+        0x0ad4 - 0x0b04
+          Ljava/lang/Exception; -> 0x0b05
+        0x0b07 - 0x0b3c
+          Ljava/lang/Exception; -> 0x068c
+
+  Virtual methods   -
+  source_file_idx   : 15837 (Test.java)
+

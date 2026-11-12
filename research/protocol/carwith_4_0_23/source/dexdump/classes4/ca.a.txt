@@ -1,0 +1,151 @@
+Class #16            -
+  Class descriptor  : 'Lca/a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lca/a;)
+      name          : 'a'
+      type          : '([BI)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 50 16-bit code units
+0dea9c:                                        |[0dea9c] ca.a.a:([BI)I
+0deaac: 1a00 6134                              |0000: const-string v0, "byteArray" // string@3461
+0deab0: 7120 6b05 0200                         |0002: invoke-static {v2, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0deab6: 2120                                   |0005: array-length v0, v2
+0deab8: d801 0304                              |0006: add-int/lit8 v1, v3, #int 4 // #04
+0deabc: 3410 2200                              |0008: if-lt v0, v1, 002a // +0022
+0deac0: 4800 0203                              |000a: aget-byte v0, v2, v3
+0deac4: d500 ff00                              |000c: and-int/lit16 v0, v0, #int 255 // #00ff
+0deac8: e000 0018                              |000e: shl-int/lit8 v0, v0, #int 24 // #18
+0deacc: d801 0301                              |0010: add-int/lit8 v1, v3, #int 1 // #01
+0dead0: 4801 0201                              |0012: aget-byte v1, v2, v1
+0dead4: d511 ff00                              |0014: and-int/lit16 v1, v1, #int 255 // #00ff
+0dead8: e001 0110                              |0016: shl-int/lit8 v1, v1, #int 16 // #10
+0deadc: b610                                   |0018: or-int/2addr v0, v1
+0deade: d801 0302                              |0019: add-int/lit8 v1, v3, #int 2 // #02
+0deae2: 4801 0201                              |001b: aget-byte v1, v2, v1
+0deae6: d511 ff00                              |001d: and-int/lit16 v1, v1, #int 255 // #00ff
+0deaea: e001 0108                              |001f: shl-int/lit8 v1, v1, #int 8 // #08
+0deaee: b610                                   |0021: or-int/2addr v0, v1
+0deaf0: d803 0303                              |0022: add-int/lit8 v3, v3, #int 3 // #03
+0deaf4: 4802 0203                              |0024: aget-byte v2, v2, v3
+0deaf8: d522 ff00                              |0026: and-int/lit16 v2, v2, #int 255 // #00ff
+0deafc: b602                                   |0028: or-int/2addr v2, v0
+0deafe: 0f02                                   |0029: return v2
+0deb00: 2202 f904                              |002a: new-instance v2, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0deb04: 1a03 3623                              |002c: const-string v3, "Read int from protocol bytes error" // string@2336
+0deb08: 7020 d127 3200                         |002e: invoke-direct {v2, v3}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0deb0e: 2702                                   |0031: throw v2
+      catches       : (none)
+
+    #1              : (in Lca/a;)
+      name          : 'b'
+      type          : '([BI)I'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 2
+      insns size    : 36 16-bit code units
+0deb10:                                        |[0deb10] ca.a.b:([BI)I
+0deb20: 1a00 6134                              |0000: const-string v0, "byteArray" // string@3461
+0deb24: 7120 6b05 0200                         |0002: invoke-static {v2, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0deb2a: 2120                                   |0005: array-length v0, v2
+0deb2c: d801 0302                              |0006: add-int/lit8 v1, v3, #int 2 // #02
+0deb30: 3410 1400                              |0008: if-lt v0, v1, 001c // +0014
+0deb34: 4800 0203                              |000a: aget-byte v0, v2, v3
+0deb38: d500 ff00                              |000c: and-int/lit16 v0, v0, #int 255 // #00ff
+0deb3c: e000 0008                              |000e: shl-int/lit8 v0, v0, #int 8 // #08
+0deb40: d803 0301                              |0010: add-int/lit8 v3, v3, #int 1 // #01
+0deb44: 4802 0203                              |0012: aget-byte v2, v2, v3
+0deb48: d522 ff00                              |0014: and-int/lit16 v2, v2, #int 255 // #00ff
+0deb4c: b602                                   |0016: or-int/2addr v2, v0
+0deb4e: 1403 ffff 0000                         |0017: const v3, #float 9.18341e-41 // #0000ffff
+0deb54: b532                                   |001a: and-int/2addr v2, v3
+0deb56: 0f02                                   |001b: return v2
+0deb58: 2202 f904                              |001c: new-instance v2, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0deb5c: 1a03 3623                              |001e: const-string v3, "Read int from protocol bytes error" // string@2336
+0deb60: 7020 d127 3200                         |0020: invoke-direct {v2, v3}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0deb66: 2702                                   |0023: throw v2
+      catches       : (none)
+
+    #2              : (in Lca/a;)
+      name          : 'c'
+      type          : '([BII)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 2
+      insns size    : 51 16-bit code units
+0deb68:                                        |[0deb68] ca.a.c:([BII)V
+0deb78: 1a00 6134                              |0000: const-string v0, "byteArray" // string@3461
+0deb7c: 7120 6b05 0200                         |0002: invoke-static {v2, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0deb82: 2120                                   |0005: array-length v0, v2
+0deb84: d801 0304                              |0006: add-int/lit8 v1, v3, #int 4 // #04
+0deb88: 3410 2300                              |0008: if-lt v0, v1, 002b // +0023
+0deb8c: e200 0418                              |000a: ushr-int/lit8 v0, v4, #int 24 // #18
+0deb90: d500 ff00                              |000c: and-int/lit16 v0, v0, #int 255 // #00ff
+0deb94: 8d00                                   |000e: int-to-byte v0, v0
+0deb96: 4f00 0203                              |000f: aput-byte v0, v2, v3
+0deb9a: d800 0301                              |0011: add-int/lit8 v0, v3, #int 1 // #01
+0deb9e: e201 0410                              |0013: ushr-int/lit8 v1, v4, #int 16 // #10
+0deba2: d511 ff00                              |0015: and-int/lit16 v1, v1, #int 255 // #00ff
+0deba6: 8d11                                   |0017: int-to-byte v1, v1
+0deba8: 4f01 0200                              |0018: aput-byte v1, v2, v0
+0debac: d800 0302                              |001a: add-int/lit8 v0, v3, #int 2 // #02
+0debb0: e201 0408                              |001c: ushr-int/lit8 v1, v4, #int 8 // #08
+0debb4: d511 ff00                              |001e: and-int/lit16 v1, v1, #int 255 // #00ff
+0debb8: 8d11                                   |0020: int-to-byte v1, v1
+0debba: 4f01 0200                              |0021: aput-byte v1, v2, v0
+0debbe: d803 0303                              |0023: add-int/lit8 v3, v3, #int 3 // #03
+0debc2: d544 ff00                              |0025: and-int/lit16 v4, v4, #int 255 // #00ff
+0debc6: 8d44                                   |0027: int-to-byte v4, v4
+0debc8: 4f04 0203                              |0028: aput-byte v4, v2, v3
+0debcc: 0e00                                   |002a: return-void
+0debce: 2202 f904                              |002b: new-instance v2, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0debd2: 1a03 3623                              |002d: const-string v3, "Read int from protocol bytes error" // string@2336
+0debd6: 7020 d127 3200                         |002f: invoke-direct {v2, v3}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0debdc: 2702                                   |0032: throw v2
+      catches       : (none)
+
+    #3              : (in Lca/a;)
+      name          : 'd'
+      type          : '([BIS)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 3
+      outs          : 2
+      insns size    : 33 16-bit code units
+0debe0:                                        |[0debe0] ca.a.d:([BIS)V
+0debf0: 1a00 6134                              |0000: const-string v0, "byteArray" // string@3461
+0debf4: 7120 6b05 0200                         |0002: invoke-static {v2, v0}, Lca/e;.c:(Ljava/lang/Object;Ljava/lang/String;)V // method@056b
+0debfa: 2120                                   |0005: array-length v0, v2
+0debfc: d801 0302                              |0006: add-int/lit8 v1, v3, #int 2 // #02
+0dec00: 3410 1100                              |0008: if-lt v0, v1, 0019 // +0011
+0dec04: e200 0408                              |000a: ushr-int/lit8 v0, v4, #int 8 // #08
+0dec08: d500 ff00                              |000c: and-int/lit16 v0, v0, #int 255 // #00ff
+0dec0c: 8d00                                   |000e: int-to-byte v0, v0
+0dec0e: 4f00 0203                              |000f: aput-byte v0, v2, v3
+0dec12: d803 0301                              |0011: add-int/lit8 v3, v3, #int 1 // #01
+0dec16: d544 ff00                              |0013: and-int/lit16 v4, v4, #int 255 // #00ff
+0dec1a: 8d44                                   |0015: int-to-byte v4, v4
+0dec1c: 4f04 0203                              |0016: aput-byte v4, v2, v3
+0dec20: 0e00                                   |0018: return-void
+0dec22: 2202 f904                              |0019: new-instance v2, Lcom/miui/carlink/databus/protocol/ProtocolException; // type@04f9
+0dec26: 1a03 3623                              |001b: const-string v3, "Read int from protocol bytes error" // string@2336
+0dec2a: 7020 d127 3200                         |001d: invoke-direct {v2, v3}, Lcom/miui/carlink/databus/protocol/ProtocolException;.<init>:(Ljava/lang/String;)V // method@27d1
+0dec30: 2702                                   |0020: throw v2
+      catches       : (none)
+
+  Virtual methods   -
+  source_file_idx   : 2030 (ByteUtil.java)
+

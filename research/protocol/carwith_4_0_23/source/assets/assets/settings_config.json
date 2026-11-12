@@ -1,0 +1,549 @@
+[
+  {
+    "type": "normal",
+    "title": "导航设置",
+    "key": "nav_setting",
+    "value": [
+      {
+        "type": "switch",
+        "title": "POI信息流转",
+        "key": "prefer_auto_poi"
+      },
+      {
+        "type": "switch",
+        "title": "导航胶囊",
+        "key": "nav_capsule"
+      },
+      {
+        "type": "switch",
+        "title": "自动巡航",
+        "key": "nav_gao_de_cruise"
+      }
+    ],
+    "router": "Navigation"
+  },
+  {
+    "type": "normal",
+    "title": "音频设置",
+    "value": [
+      {
+        "type": "click",
+        "title": "导航音量",
+        "key": "nav_volume"
+      },
+      {
+        "type": "click",
+        "title": "媒体音量",
+        "key": "media_volume"
+      },
+      {
+        "type": "click",
+        "title": "小爱音量",
+        "key": "xiaoai_volume"
+      },
+      {
+        "type": "radio",
+        "title": "音频输出",
+        "key": "prefer_auto_bt_play",
+        "value": [
+          {
+            "type": "radioButton",
+            "title": "车机蓝牙",
+            "key": "prefer_auto_bt_play"
+          },
+          {
+            "type": "radioButton",
+            "title": "CarWith",
+            "key": "prefer_auto_bt_play"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "title": "媒体音频高采样率",
+        "subTitle": "开启后提升部分车型媒体音质，如异常请关闭该设置",
+        "key": "prefer_default_sample"
+      },
+      {
+        "type": "radio",
+        "title": "麦克风",
+        "key": "mic",
+        "value": [
+          {
+            "type": "radioButton",
+            "title": "车机",
+            "key": "mic"
+          },
+          {
+            "type": "radioButton",
+            "title": "手机",
+            "key": "mic"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "title": "手机免提通话",
+        "subTitle": "手机通话声音将由手机扬声器播放，同时会关闭手机蓝牙通话功能",
+        "key": "hand_free_call"
+      },
+      {
+        "type": "switch",
+        "title": "音频融合",
+        "subTitle": "重连后生效，适用于音频卡顿的车机",
+        "key": "media_mix"
+      },
+      {
+        "type": "normal",
+        "title": "通话音频通道",
+        "key": "default_call_device",
+        "router": "Audio",
+        "subTitle": "车机",
+        "value": [
+          {
+            "type": "check",
+            "title": "车机",
+            "key": "default_call_device"
+          },
+          {
+            "type": "check",
+            "title": "蓝牙",
+            "key": "default_call_device"
+          },
+          {
+            "type": "check",
+            "title": "手机",
+            "key": "default_call_device"
+          }
+        ]
+      }
+    ],
+    "router": "Audio"
+  },
+  {
+    "type": "normal",
+    "title": "显示设置",
+    "value": [
+      {
+        "type": "switch",
+        "title": "HUD显示",
+        "subTitle": "打开开关后，显示导航、音乐信息",
+        "key": "prefer_hud"
+      },
+      {
+        "type": "normal",
+        "title": "分辨率",
+        "key": "user_setting_resolution",
+        "subTitle": "1920 x 1080",
+        "value": [
+          {
+            "type": "warning",
+            "title": "调整分辨率可能导致画面异常、连接异常等问题！若出现问题请在手机设置页面\"我的车-车辆管理-自定义分辨率\"内重置分辨率",
+            "key": "user_setting_resolution"
+          },
+          {
+            "type": "check",
+            "title": "1920 x 111",
+            "key": "user_setting_default_resolution"
+          },
+          {
+            "type": "normal",
+            "title": "全部分辨率",
+            "key": "user_setting_resolution",
+            "subTitle": "1920 x 1080",
+            "value": [
+              {
+                "type": "title",
+                "title": "标准屏幕（16:9）"
+              },
+              {
+                "type": "check",
+                "title": "800 x 480",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "832 x 480",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "848 x 480",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1024 x 576",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1024 x 600",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1024 x 608",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1280 x 720",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1280 x 768",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1920 x 1080",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1920 x 1140",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "title",
+                "title": "宽屏屏幕（24:9）"
+              },
+              {
+                "type": "check",
+                "title": "1024 x 384",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1280 x 480",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "check",
+                "title": "1920 x 720",
+                "key": "user_setting_resolution"
+              },
+              {
+                "type": "title",
+                "title": "自定义设置"
+              },
+              {
+                "type": "normal",
+                "title": "自定义分辨率",
+                "key": "user_setting_resolution",
+                "subTitle": "1920 x 1080",
+                "router": "custom_resolution"
+              }
+            ],
+            "router": "Resolution"
+          }
+        ],
+        "router": "Resolution"
+      },
+      {
+        "type": "normal",
+        "title": "帧率设置",
+        "subTitle": "30FPS",
+        "key": "user_setting_framerate",
+        "value": [
+          {
+            "type": "check",
+            "title": "15FPS",
+            "key": "user_setting_framerate"
+          },
+          {
+            "type": "check",
+            "title": "20FPS",
+            "key": "user_setting_framerate"
+          },
+          {
+            "type": "check",
+            "title": "30FPS",
+            "key": "user_setting_framerate"
+          },
+          {
+            "type": "check",
+            "title": "60FPS",
+            "subTitle": "（部分车型存在硬件兼容性问题，如出现卡顿等异常请恢复默认帧率）",
+            "key": "user_setting_framerate"
+          }
+        ],
+        "router": "Frame"
+      },{
+        "type": "normal",
+        "title": "画面分辨率",
+        "subTitle": "标准分辨率",
+        "key": "user_setting_carlink_resolution",
+        "value": [
+          {
+            "type": "warning",
+            "title": "降低分辨率可提升流畅度、缓解画面卡顿，但也可能导致画面异常、卡屏、触控异常、连接异常等问题！\n若出现问题请尝试重新连接，如果重新连接后触控异常，请恢复标准分辨率",
+            "key": "user_setting_carlink_resolution"
+          },
+          {
+            "type": "check",
+            "title": "高分辨率",
+            "key": "user_setting_carlink_resolution"
+          },
+          {
+            "type": "check",
+            "title": "标准分辨率",
+            "key": "user_setting_carlink_resolution"
+          },
+          {
+            "type": "check",
+            "title": "中分辨率",
+            "key": "user_setting_carlink_resolution"
+          },
+          {
+            "type": "check",
+            "title": "低分辨率",
+            "key": "user_setting_carlink_resolution"
+          },
+          {
+            "type": "check",
+            "title": "超低分辨率",
+            "key": "user_setting_carlink_resolution"
+          }
+        ],
+        "router": "Frame"
+      },
+      {
+        "type": "normal",
+        "title": "画质设置",
+        "subTitle": "流畅模式",
+        "key": "bitrate_select_mode",
+        "value": [
+          {
+            "type": "check",
+            "title": "流畅模式",
+            "key": "bitrate_select_mode"
+          },
+          {
+            "type": "check",
+            "title": "均衡模式",
+            "key": "bitrate_select_mode"
+          },
+          {
+            "type": "check",
+            "title": "高画质模式",
+            "key": "bitrate_select_mode"
+          },
+          {
+            "type": "check",
+            "title": "自适应模式",
+            "key": "bitrate_select_mode"
+          }
+        ],
+        "router": "ImageQuality"
+      },
+      {
+        "type": "normal",
+        "title": "显示大小",
+        "key": "carwith_ui_size",
+        "value": [
+          {
+            "type": "check",
+            "title": "小",
+            "key": "carwith_ui_size"
+          },
+          {
+            "type": "check",
+            "title": "标准",
+            "key": "carwith_ui_size"
+          },
+          {
+            "type": "check",
+            "title": "大",
+            "key": "carwith_ui_size"
+          },
+          {
+            "type": "switch",
+            "title": "地图显示大小调节",
+            "key": "carwith_map_size",
+            "subTitle": "开启后，支持地图应用内单独调节显示大小"
+          }
+        ],
+        "router": "DisplaySize"
+      },
+      {
+        "type": "switch",
+        "key": "prefer_screen_corners",
+        "title": "屏幕圆角"
+      },
+      {
+        "type": "switch",
+        "key": "prefer_parallel_window",
+        "title": "平行视窗",
+        "subTitle": "应用以居中、平行窗口的形式显示，兼容性更强"
+      },
+      {
+        "type": "normal",
+        "key": "prefer_animation",
+        "router": "Animation",
+        "title": "动画效果",
+        "value": [
+          {
+            "type": "switch",
+            "key": "jump_animation",
+            "title": "页面切换基础动画"
+          },
+          {
+            "type": "switch",
+            "key": "app_animation",
+            "title": "应用启动动画"
+          },
+          {
+            "type": "switch",
+            "key": "settings_animation",
+            "title": "设置动画"
+          }
+        ]
+      }
+    ],
+    "router": "Display"
+  },
+  {
+    "type": "normal",
+    "title": "个性化",
+    "key": "prefer_setting",
+    "value": [
+      {
+        "type": "switch",
+        "title": "音乐卡片",
+        "subTitle": "打开开关后，未导航时，组合卡片只显示音乐卡片。",
+        "key": "music_card"
+      },
+      {
+        "type": "normal",
+        "title": "主题深浅色切换",
+        "subTitle": "跟随车机系统自动切换",
+        "key": "day_night_mode",
+        "value": [
+          {
+            "type": "check",
+            "title": "跟随车机系统自动切换",
+            "subTitle": "推荐习惯车机、耘电盒子深浅模式变化的用户使用（仅支持部分车机）",
+            "key": "day_night_mode"
+          },
+          {
+            "type": "check",
+            "title": "跟随时间自动切换",
+            "subTitle": "打开“天气”后，切换时间更准确",
+            "key": "day_night_mode"
+          },
+          {
+            "type": "check",
+            "title": "浅色模式",
+            "key": "day_night_mode"
+          },
+          {
+            "type": "check",
+            "title": "深色模式",
+            "key": "day_night_mode"
+          }
+        ],
+        "router": "Theme"
+      },
+      {
+        "type": "normal",
+        "title": "背景效果",
+        "key": "prefer_dock_bg",
+        "subTitle": "经典",
+        "value": [
+          {
+            "type": "check",
+            "title": "经典",
+            "key": "prefer_dock_bg"
+          },
+          {
+            "type": "check",
+            "title": "毛玻璃",
+            "key": "prefer_dock_bg"
+          },
+          {
+            "type": "check",
+            "title": "全透明",
+            "key": "prefer_dock_bg"
+          },
+          {
+            "type": "check",
+            "title": "高级材质",
+            "key": "prefer_dock_bg"
+          }
+        ],
+        "router": "Background"
+      },
+      {
+        "type": "normal",
+        "title": "桌面首页布局",
+        "router": "Layout",
+        "key": "card_type_info"
+      },
+      {
+        "type": "normal",
+        "title": "快捷应用",
+        "router": "QuickSetting",
+        "key": "quick_setting"
+      },
+      {
+        "type": "switch",
+        "title": "全屏地图",
+        "key": "prefer_dock_show_hide"
+      },
+      {
+        "type": "switch",
+        "title": "全屏体验应用",
+        "key": "experience_app_dock_show_hide"
+      },
+      {
+        "type": "switch",
+        "title": "上车续播",
+        "key": "prefer_auto_play"
+      },
+      {
+        "type": "radio",
+        "title": "音乐卡片",
+        "key": "prefer_media_card_bg",
+        "value": [
+          {
+            "type": "radioButton",
+            "title": "专辑封面",
+            "key": "prefer_media_card_bg"
+          },
+          {
+            "type": "radioButton",
+            "title": "显示歌词",
+            "key": "prefer_media_card_bg"
+          }
+        ]
+      },
+      {
+        "type": "radio",
+        "title": "Dock栏位置",
+        "subTitle": "请在未导航时设置",
+        "key": "prefer_dock_style",
+        "value": [
+          {
+            "type": "radioButton",
+            "title": "左侧显示",
+            "key": "prefer_dock_style"
+          },
+          {
+            "type": "radioButton",
+            "title": "底部显示",
+            "key": "prefer_dock_style"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "title": "QQ音乐个性化",
+        "key": "prefer_qq_music_individuation"
+      }
+    ],
+    "router": "Custom"
+  }
+]

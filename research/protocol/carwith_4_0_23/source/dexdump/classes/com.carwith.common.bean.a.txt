@@ -1,0 +1,63 @@
+Class #3885            -
+  Class descriptor  : 'Lcom/carwith/common/bean/a;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/carwith/common/bean/a;)
+      name          : 'a'
+      type          : 'Landroid/bluetooth/BluetoothDevice;'
+      access        : 0x0001 (PUBLIC)
+    #1              : (in Lcom/carwith/common/bean/a;)
+      name          : 'b'
+      type          : 'I'
+      access        : 0x0001 (PUBLIC)
+  Direct methods    -
+    #0              : (in Lcom/carwith/common/bean/a;)
+      name          : '<init>'
+      type          : '(Landroid/bluetooth/BluetoothDevice;I)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 1
+      insns size    : 8 16-bit code units
+443198:                                        |[443198] com.carwith.common.bean.a.<init>:(Landroid/bluetooth/BluetoothDevice;I)V
+4431a8: 7010 32bc 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@bc32
+4431ae: 5b01 05e4                              |0003: iput-object v1, v0, Lcom/carwith/common/bean/a;.a:Landroid/bluetooth/BluetoothDevice; // field@e405
+4431b2: 5902 06e4                              |0005: iput v2, v0, Lcom/carwith/common/bean/a;.b:I // field@e406
+4431b6: 0e00                                   |0007: return-void
+      catches       : (none)
+
+  Virtual methods   -
+    #0              : (in Lcom/carwith/common/bean/a;)
+      name          : 'a'
+      type          : '()Landroid/bluetooth/BluetoothDevice;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443168:                                        |[443168] com.carwith.common.bean.a.a:()Landroid/bluetooth/BluetoothDevice;
+443178: 5400 05e4                              |0000: iget-object v0, v0, Lcom/carwith/common/bean/a;.a:Landroid/bluetooth/BluetoothDevice; // field@e405
+44317c: 1100                                   |0002: return-object v0
+      catches       : (none)
+
+    #1              : (in Lcom/carwith/common/bean/a;)
+      name          : 'b'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+443180:                                        |[443180] com.carwith.common.bean.a.b:()I
+443190: 5200 06e4                              |0000: iget v0, v0, Lcom/carwith/common/bean/a;.b:I // field@e406
+443194: 0f00                                   |0002: return v0
+      catches       : (none)
+
+  source_file_idx   : 4785 (BluetoothUtilBean.java)
+
