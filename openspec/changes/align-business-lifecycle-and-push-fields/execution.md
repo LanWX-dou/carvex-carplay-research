@@ -94,3 +94,17 @@ git diff --check通过，任务1.4备份完成。没有打包/安装/实车验�
 本轮协议单测和小米编译成功（同1.2命令），76 tasks中4 executed/72 up-to-date；
 140 suites/1159 tests，failure/error/skipped均0；生产解析器未改。git diff --check通过，备份任务2.1。
 没有打包/安装/实车验证。
+
+## 2.2 换曲媒体文本清除
+
+仅替换时显式清除旧已知媒体文本，省略未知数字；START初始默认消息保持独立顺序。
+详见[修正记录](../../../android/docs/fixes/2026-11-12-nowplaying-replacement-text.md)。
+新增实际DiPlay parser用例确认artist/album清空、增量保留、零进度有效及未知duration未补零。
+数字无清除证据时接收旧duration可能保留，此限制明确OPEN。
+
+执行 `prepare.py C:/Users/admin/IdeaProjects/DiPlay`（干净615b32c，14源哈希/2原body），然后
+`:protocol-carplay:testDebugUnitTest :bridge:testDebugUnitTest :host-carlife-mixing:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache -I build/receiver-interop/receiver-tests.init.gradle`。
+首次1个新增单测未订阅artist却期待其输出，修正测试的实际订阅后成功退出：90 tasks中2 executed/88 up-to-date。
+此次第二次仅协议单测重新执行，其余使用首次已成功的有效缓存报告；不记成全部重跑。
+`verify_results.py`通过，含新增换曲的全部实际接收合同无失败/跳过；摘要保存在本地task-2.2备份目录。
+git diff --check通过。未改DiPlay生产、未打包/安装/实车验证。
