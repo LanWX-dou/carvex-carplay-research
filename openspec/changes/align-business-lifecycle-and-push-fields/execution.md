@@ -69,3 +69,10 @@ START替换、STOP、linkReady边界撤销尚未提交工作；非法START保留
 其中6个新增guarded writer用例全部执行。按XML文件名排序，拼接文件名+内容的SHA256：
 `846d90607d830a19877ed27892817010cc90f80cf30f470d2f6741f3df1443d9`。
 git diff --check通过，任务1.2备份完成。没有打包/安装/实车验证。
+
+## 1.3 挂起/恢复对账（OPEN）
+
+实际IapLink拒绝含08控制帧并进入runtime失败关闭，尚无已接受SUS/经确认Resume入口。
+本项[对账记录](lifecycle-boundaries.md)明确ACK、平台休眠、流关闭的区别及完整实施待证条件。
+1.3未勾选；没有把失败关闭称为挂起支持，没有新增transport行为或实车结论。
+继续独立推进无需该未证恢复路径的清理与字段任务。
