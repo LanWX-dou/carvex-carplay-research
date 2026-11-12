@@ -85,3 +85,12 @@ publisher永久close撤销待发送工作，AirSession停止/资源释放均关�
 本轮协议/bridge单测和小米编译成功（同1.1命令），83 tasks中12 executed/71 up-to-date。
 149 suites/1222 tests，failure/error/skipped均0；新增detach/close/真实writer关闭用例执行。
 git diff --check通过，任务1.4备份完成。没有打包/安装/实车验证；更细的封面引用撤销继续2.4。
+
+## 2.1 5000订阅合同
+
+按0.2原字节核对既有selection，新增未知顶层无nested解析、组2空flag及后置非法组保留旧writer guard回归。
+顺序/重复、U32子项11、非法替换均与已核局部合同一致；本地资源上限与组2高ID防御不当作线上上限。
+详见[合同记录](../../../android/docs/fixes/2026-11-12-nowplaying-subscription-contract.md)。
+本轮协议单测和小米编译成功（同1.2命令），76 tasks中4 executed/72 up-to-date；
+140 suites/1159 tests，failure/error/skipped均0；生产解析器未改。git diff --check通过，备份任务2.1。
+没有打包/安装/实车验证。
