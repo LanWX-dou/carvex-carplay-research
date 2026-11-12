@@ -57,3 +57,15 @@ C16/C18 及九个完整 body/六个注册/八个构造锚点复核通过；命�
 `0b20c2a3eb5aeddafb9a0f471248ece417fb3e027900c40d8a35068496b4428f`。
 默认编译没有加载接收源码。git diff --check通过；备份位于local-backups任务1.1目录。
 没有打包、安装或实车验证。Bluetooth音乐发布器未实现，完整Apple早期业务路径仍OPEN。
+
+## 1.2 音乐在途撤销
+
+手机提交 `1a66476`。初始、快照和增量5001携带原子订阅代际；AirSession合并源owner/关闭guard。
+START替换、STOP、linkReady边界撤销尚未提交工作；非法START保留旧订阅；已提交CSM继续可靠传输。
+详见[修正记录](../../../android/docs/fixes/2026-11-12-music-queued-revocation.md)。
+
+本轮 `:protocol-carplay:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache`
+成功退出；76 tasks中8 executed/68 up-to-date。协议140 suites/1156 tests，failure/error/skipped均0，
+其中6个新增guarded writer用例全部执行。按XML文件名排序，拼接文件名+内容的SHA256：
+`846d90607d830a19877ed27892817010cc90f80cf30f470d2f6741f3df1443d9`。
+git diff --check通过，任务1.2备份完成。没有打包/安装/实车验证。
