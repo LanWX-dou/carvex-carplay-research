@@ -29,9 +29,9 @@
 
 ## 3. 导航核心与能力
 
-- [ ] 3.1 复核 5200/5203 的组件/选项与消息能力、Identification 的显示声明。位置：`NavigationGuidance`/`NavigationDisplayCapabilities` 与 DiPlay `Iap2Messages`/`Iap2IdentificationClient`。验收：组件来自实际订阅，样本 42/8 不成为发送端默认，无组件或未声明能力保持明确门控。
-- [ ] 3.2 核对 5202 定义 → 5201 引用/状态/距离的字段及在途一致性。位置：`NavigationWireEncoding`/`NavigationPublisher` 和 `BydHudRouteState`。验收：多组件、最小容量、单槽顺序、100 次机动及 U16 边界均覆盖。
-- [ ] 3.3 收口重算、未知转向/距离、结束、退订与新路线。位置：`HostNavigationRelay`、发布器和接收快照。验收：只使用已有可证 reset/重建语义，不推断抵达原因；STOP 后无新更新，START 后旧任务失效。
+- [x] 3.1 复核 5200/5203 的组件/选项与消息能力、Identification 的显示声明。位置：`NavigationGuidance`/`NavigationDisplayCapabilities` 与 DiPlay `Iap2Messages`/`Iap2IdentificationClient`。验收：组件来自实际订阅，样本 42/8 不成为发送端默认，无组件或未声明能力保持明确门控。
+- [x] 3.2 核对 5202 定义 → 5201 引用/状态/距离的字段及在途一致性。位置：`NavigationWireEncoding`/`NavigationPublisher` 和 `BydHudRouteState`。验收：多组件、最小容量、单槽顺序、100 次机动及 U16 边界均覆盖。
+- [x] 3.3 收口重算、未知转向/距离、结束、退订与新路线。位置：`HostNavigationRelay`、发布器和接收快照。验收：只使用已有可证 reset/重建语义，不推断抵达原因；STOP 后无新更新，START 后旧任务失效。
 
 ## 4. 扩展字段与接收输出
 

@@ -157,3 +157,15 @@ DiPlay完整CI未完成：首次Gradle9.5下载超时，镜像归档按仓库固
 默认生产输出未引入接收源码；未打包、安装或实车验证。
 2.4按用户已确定的本地代码验收范围完成；2.3真实播放器provider、2.5接收项目完整编译仍OPEN。
 手机补验收提交 `f2a0283`，只包含两个fixture；后续导航修改另属第3大项。
+
+## 2026-11-14 第3大项导航验收
+
+永久关闭导航发布器并在 AirSession 正常停止/资源释放调用；迟到ready、START、源回调不能复活旧owner。
+现有订阅与容量门复核，新增能力替换/旧batch迟到失败隔离和实际parser双组件、最小容量、U16边界、重算/新路线合同。
+详见[修正记录](../../../android/docs/fixes/2026-11-14-navigation-lifecycle-contract.md)。
+命令同本轮第2大项，成功（90 tasks：10 executed/80 up-to-date）；实际接收合同17+2均存在、无失败/跳过。
+摘要保存在 `local-backups/2026-11-14-align-business/phase-3-receiver-results.json`。
+3.1–3.3按本地代码范围完成；保留无组件profile、精细组件STOP、SUS/Resume证据OPEN。
+DiPlay完整CI本轮已重试，但配置失败：NDK28.2.13676358仅有安装残留、缺source.properties，未进入编译。
+没有使用旧CI结果或联测代替DiPlay完整构建；未打包、安装或实车验证。
+第3大项手机提交 `7ac992c`，根仓库同步该指针及本项验收。
