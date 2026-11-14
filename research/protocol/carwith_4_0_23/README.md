@@ -20,4 +20,7 @@
 
 [Protobuf 附录](APPENDIX_PROTO.md) · [Binder 附录](APPENDIX_BINDER.md) · [模型/配置附录](APPENDIX_MODELS.md) · [URL 附录](APPENDIX_URLS.md)
 
+[2026-11-14 全程剩余距离复查](ROUTE_DISTANCE.md)：核对`destinationRemainingDistance`及原生概要文本候选，
+撤下`total_distance`试验；真实混合回调provider仍OPEN。
+
 本目录包含文档、CSV/JSON 清单、关键原始反汇编和可复现工具。所有结果为静态分析，未测试远端接口。

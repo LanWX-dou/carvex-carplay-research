@@ -6,7 +6,7 @@
 | 任务 | 实际来源/当前行为 | 本轮结果与剩余条件 |
 |---|---|---|
 | 4.1 | CarWithNavigation `road_name`→maneuver.afterRoad→5202/p4；没有 currentRoad、destination、maneuver.description 赋值provider | 已有角色保持独立，新增实际parser多语言/NUL/孤立surrogate/空清除合同。Identification文字计量及上限仍未证，4096字节只是本地防御；完整任务OPEN |
-| 4.2 | `total_distance`→distanceRemainingMeters→5201/p7，evidence保留`user-test-20261112` | 没有新实车raw/p7/屏显日志，不关闭试验；OPEN |
+| 4.2 | 用户2026-11-14否定`total_distance`的全程角色，已撤下映射；仅保留缓存参考诊断 | 另找到SDK `destinationRemainingDistance`与原生TITLE候选，当前混合回调无真实provider；来源/单位/屏显仍OPEN，见[复查](../../../research/protocol/carwith_4_0_23/ROUTE_DISTANCE.md) |
 | 4.3 | HostNavigationDelta有timeRemainingSeconds/arrivalEpochSeconds模型；真实host适配器无Value赋值 | 模型/接收字段存在不等于provider，继续省略p5/p6；单位与未知/清除待闭合，OPEN |
 | 4.4 | HostNavigationLanes模型及原5204编码器存在；适配器没有真实lane赋值 | 无完整源模型/枚举/容量，不发布5204。新增实际lane解析仅使用人工测试值检查跨域隔离，不当作真实来源；OPEN |
 | 4.5 | worker原先只在入队时检查accepting，clear只清队列；输出与控制回调没有owner参数 | 新增controller owner、link有效性与worker原子代际；旧queued/init/failure/cleanup拒绝，溢出及执行失败停止增量流，清理后必须start。已进入厂商服务的调用无法强制中断，返回后clear先于新initialize；完整项目验证见execution |

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-14",
+  "android_base": "7e2ce04",
+  "scope": "Phone module regression and static APK audit; no new vehicle observation or DiPlay CI",
+  "gradle": {
+    "exit_code": 0,
+    "seconds": 5,
+    "executed": 9,
+    "up_to_date": 81
+  },
+  "junit": {
+    "protocol-carplay": {
+      "tests": 1195,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xml_combined_sha256": "33b692e127998017cd789e4d95a10cefff6dd3c361fa6729f778df1c3b5b263b",
+      "execution": "valid Gradle cache"
+    },
+    "bridge": {
+      "tests": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xml_combined_sha256": "2afe333b4ce26d9769e5018a1d23c02cd2ff73406aff1e810a1e23368f57701a",
+      "execution": "rerun"
+    },
+    "host-carlife-mixing": {
+      "tests": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xml_combined_sha256": "01c65b9d5c18e90ab309531d2efcc03bf9f22ac6db2227394fd1df55cf2513db",
+      "execution": "rerun"
+    }
+  },
+  "source_sha256": {
+    "android/host-carlife-mixing/src/main/java/io/github/iamr0s/carvex/host/vendor/CarWithNavigation.kt": "fc26e006b4db79eb1726ea8469cc5ce518dca1de9f912580706213d42ce8194d",
+    "android/host-carlife-mixing/src/test/java/io/github/iamr0s/carvex/host/vendor/CarWithNavigationTest.kt": "e4e68c2e7b23d1d78944485a0d487746c20e005103d3bb33a62b87017294453d",
+    "android/bridge/src/test/java/io/github/iamr0s/carvex/session/HostNavigationRelayTest.kt": "9dd80e1d5f3a81c2be7320f21f1d5f448b101b5d627758583bb79f08aee13344"
+  },
+  "audit_sha256": "3cd6857ca6f330dce73d7bba3fcccce5faedd9a3efce150a279e90e001515fc2",
+  "interop_result_sha256": "4b1eff198d4dd17b8559b3948738104b61b4bf7fd702a214489bee72699dc32d",
+  "android_final": "c8282b3"
+}

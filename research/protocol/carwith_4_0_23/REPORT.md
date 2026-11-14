@@ -250,6 +250,12 @@
 
 EasyConn SDK 还定义 `BMapBridge.NavigationInfo.remainDistance/remainTime`、`onLaneInfoUpdate(int,List)`、`ECP_P2C_PHONE_HUDINFO_LANE_GUIDANCE_PICTURE`（`0x20440`）。包内存在这些定义或封装代码，但本次静态索引没有确认 CarWith 主导航业务调用并传出这些数据；`BMapBridgeImpl` 的反射目标不在当前 DEX。它们标为 SDK 能力定义，不作为已接通出口。
 
+2026-11-14另核EasyConn `ECP_P2C_PHONE_HUDINFO`（`0x20110`）：`destinationRemainingDistance:int`
+来自`HUDINFO.k`，与`roadRemainingDistance:int`的`HUDINFO.i`分开编码；
+未找到目的地距离setter、消息构造或`setHudinfo`的DEX直接调用。
+这是专门的目的地剩余距离候选，不能直接用作当前混合HUD字段。
+原字节、引用及`TITLE_1/TITLE_2`边界见[全程距离复查](ROUTE_DISTANCE.md)。
+
 ### 5.3 音乐、通话、传感器与控制
 
 `NotifyMusicInfo` 的 14 个字段：`artist_name`、`album_name`、`cover_art`、`lyrics`、`playing_times_ms:uint64`、`title`、`author_name`、`writer_name`、`composer_name`、`playing_current_time_ms:int32`、`is_favorite:bool`、`is_playing:bool`、可选 `cover_art_bitmap:bytes`、可选 `id:int32`。两个时间字段的名称明确包含毫秒，但运行时量程没有采样。

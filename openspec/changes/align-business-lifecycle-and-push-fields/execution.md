@@ -223,3 +223,31 @@ failure/error/skipped全0；仅protocol在此次串行调用重跑，其余为�
 5.1/5.3按本地代码范围完成；5.2因DiPlay shared失败/跳过未完成。
 1.3、2.3、4.1–4.4及5.4继续OPEN，未启用无来源provider或更改距离试验标记，未安装或实车观察。
 根仓库同步第5大项Android指针和验收记录；未包含原firmware既有改动。
+
+## 2026-11-14 4.2全程距离来源纠正
+
+用户明确`total_distance`不是总距离，要求查找其他字段，取代之前的试验要求。
+重新比较CarWith4.0.23 APK的8份DEX并新反汇编9个相关类，核对缓存/JSON写入/原生概要输入。
+查到EasyConn `destinationRemainingDistance:int`（`0x20110`消息，`HUDINFO.k`，JSON写入`classes8:200dfe`），
+与`roadRemainingDistance`的`HUDINFO.i`独立；另有桥模型`remainDistance`和原生`TITLE_1/TITLE_2`候选。
+完整DEX引用索引222476个有代码方法中，目的地距离setter/消息构造/`setHudinfo`调用均0，
+getter唯一调用为JSON封装；现有混合HUD没有传出这些候选值，真实provider/距离单位仍OPEN。
+详见[来源调查](../../../research/protocol/carwith_4_0_23/ROUTE_DISTANCE.md)和原字节哈希/调用计数。
+
+撤下`total_distance`→route.distanceRemainingMeters试验映射；活动HUD清除旧路线试验值，
+缓存仅用于referenceDistanceMeters诊断，remain_distance继续独立供机动距离。
+没有按未知SDK/原生字段名猜测接入，任务4.2更新为寻找真实provider并保持未勾选。
+修正记录见[fix](../../../android/docs/fixes/2026-11-14-navigation-route-distance-source.md)。
+
+运行手机最终完整模块命令（同第5大项，含receiver init）退出0，5s，90 tasks（9 executed/81 up-to-date）。
+协议1195使用有效Gradle缓存；bridge65、host37实际重跑，failure/error/skipped均0；小米Kotlin重新编译成功。
+20+2接收合同及7个原worker测试核对通过；[本轮报告/源哈希](route-distance-validation.json)另存，
+未重用上轮host36报告作为本次新测试，未重跑DiPlay CI、安装或进行实车验证。
+原始报告与本轮反汇编保存在local-backups/2026-11-14-route-distance。
+
+本次手机修正提交`c8282b3`；根仓库同步该指针、候选字段审计、4.2任务说明及本轮验收。
+
+同日用户询问“显示上个路口的箭头”是否解决，并明确是每条车道方向的小箭头。
+该症状属于4.4未完成范围：当前宿主无真实lane provider，CarVeX未发布实际5204车道更新，
+已有lane合同仅用人工输入检查解析/跨域隔离，不证明真实换路口后的车道更新或清除。
+第4阶段旧owner/旧link worker修正不能作为此车道症状已修复的结论，继续保留未解决及实车待复核。

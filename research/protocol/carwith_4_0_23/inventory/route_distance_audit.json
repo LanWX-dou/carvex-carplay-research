@@ -1,0 +1,65 @@
+{
+  "scope": "Static APK dataflow and cached full-DEX call index; no live provider/unit/vehicle claim",
+  "apk_sha256": "c897a45d92c84f06e670fc4edd323824093a093f67d8e7d7b058fee2a737d06c",
+  "dex_sha256": {
+    "classes.dex": "efab5b247679424ec553c8f271bbb3f10e2623135c5669e14c1e5e19a160c792",
+    "classes2.dex": "09a0967aa62f5d0e78705759934a607a95a1c0c7bd9f6d2a2fad2efcad844797",
+    "classes3.dex": "a31eafc522139781c645f1207cf8c47cd9e199524cc1a97a5597cf7d3191a2b1",
+    "classes4.dex": "b5bd708d997fc2543de29e429327cc00a5603237d2bceb74f76dc4500ece0e1a",
+    "classes5.dex": "819e710465751ad9e151dad6eda6e175bc7152bca75a86f56f717238d0a45b34",
+    "classes6.dex": "b51d1282060b85466deaa47c7cfa05b3f6393b328b87adae395826ed319533d8",
+    "classes7.dex": "aebe945864282cf5942dcd9662aa8ec773fcc185dca785827d57274177670eef",
+    "classes8.dex": "c8347a8c02639eea99b083f399208fa21ca83b3f108fd8c64efac15b26aa3ecc"
+  },
+  "fresh_class_disassembly_sha256": {
+    "classes2.dex:com.carwith.launcher.LauncherDataBusClient.txt": "7e1daeed34487833eea96c74937f107a626463a826d198511de23884853508f3",
+    "classes2.dex:com.carwith.launcher.notification.view.UcarNotifyMapView.txt": "87ab3fde93874fa4a43d9fb62a4b75f0e1b795c8076123e2223052b233f31cdd",
+    "classes2.dex:com.carwith.launcher.map.m$a.txt": "e866a171341f89f432214a82161a06518bb237125ac7c0f44b1bdcbbb2b54a19",
+    "classes2.dex:com.carwith.launcher.card.v2.widget.NavProgressBaseView.txt": "f6d17166f322e863e45f86f635e0c4da8313a3c54a25baa20f8b5dc9707825f5",
+    "classes5.dex:com.ucar.map.UCarMapInfo.txt": "165310900085e25035cf9ff3b3ec98f1dbab1d94facb8d8968c6d43be8fb4da9",
+    "classes8.dex:net.easyconn.carman.bridge.BMapBridge$NavigationInfo.txt": "e6d42d47022cdb7e6f94b7a4f0937a011942e1329941b075a794ee6379585829",
+    "classes8.dex:net.easyconn.carman.sdk_communication.P2C.ECP_P2C_PHONE_HUDINFO$HUDINFO.txt": "a3c5b884ce28c7fc20f9238d33c3cec2dd841b66c839fb707463b64f2fc85886",
+    "classes8.dex:net.easyconn.carman.bridge.BMapBridge.txt": "4ce1a975b982b46c11f09dc92b15ca8948ff3d9631f21bc6a063da6967907181",
+    "classes8.dex:net.easyconn.carman.sdk_communication.P2C.ECP_P2C_PHONE_HUDINFO.txt": "fd1b912b1f64040460672e4c4ed409bee18b204358783eea2d617421d62f5bdd"
+  },
+  "references_index_sha256": {
+    "classes": "3b5bf3d2b3ca35483da712db84d5a52da03eb6584c4cb281b290992560ebd8f6",
+    "classes2": "c3c6869328d7378576b72d069d4d19f4d4d46318d3869b196b4ab6278254512b",
+    "classes3": "3bc94867bc84dabca859843ac11675a6748f5d5d76bf236fec86c9bfc8f81a73",
+    "classes4": "10c97a2224e2c572c2dbcb02d61350d09d5b9022533b07dc1c1cca6c53d622b1",
+    "classes5": "4c2990295be10d95a6c8ca96320717338cb977488675e7030852b9779b3ccbcb",
+    "classes6": "6f95b112bce55c2ff07074e8a840eaea11866eab9574504b71988704ebe6b9ec",
+    "classes7": "0b2b533aea820bd04228ab37a54a2c6c42e76085bf557cc8bbca59c27312ac37",
+    "classes8": "158d42816584f97a3ec549a034855499476fe56d3aeb4ee2ac1cb7bb575f14ed"
+  },
+  "methods_scanned": 222476,
+  "callers": {
+    "destination_distance_setter": [],
+    "destination_distance_getter": [
+      {
+        "dex": "classes8",
+        "method": "net.easyconn.carman.sdk_communication.P2C.ECP_P2C_PHONE_HUDINFO.preRequest:()I",
+        "offset": "200cf4"
+      }
+    ],
+    "hudinfo_input": [],
+    "hudinfo_constructor": [],
+    "navigation_distance_getter": [],
+    "navigation_distance_setter": []
+  },
+  "destination_remaining_distance": {
+    "command": "0x20110",
+    "json_key": "destinationRemainingDistance",
+    "type": "int",
+    "model_field": "HUDINFO.k",
+    "getter_code_item": "classes8:200444",
+    "setter_code_item": "classes8:2005cc",
+    "json_put_instruction": "classes8:200dfe",
+    "unit": "OPEN",
+    "current_mixing_provider": "not found"
+  },
+  "native_text_candidates": [
+    "ucar.map.bundle.TITLE_1",
+    "ucar.map.bundle.TITLE_2"
+  ]
+}
