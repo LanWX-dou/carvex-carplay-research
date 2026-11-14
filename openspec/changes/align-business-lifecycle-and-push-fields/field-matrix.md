@@ -73,8 +73,9 @@ DiPlay读取入口：`shared/src/main/java/com/shilapi/xcertplay/` 下的
 | navi_turn → 部分已证turn enum | 5202 p3 U8；p8驾驶侧 | BydManeuverCodes；未知不造默认箭头/驾驶侧 |
 | remain_distance → maneuver.distanceMeters | 5201 p10 U32；5202 p5 U32 | 距离米；当前来源1..IntMAX-1；0/缺失来源有效性未证，走未知/reset |
 | total_distance → observation.referenceDistanceMeters | 不再映射5201 p7 | 用户2026-11-14否定全程角色，活动HUD清除旧路线试验值；原始缓存参考值仅作诊断 |
-| 无真实provider → route.distanceRemainingMeters | 5201 p7 U32，目前省略 | SDK `destinationRemainingDistance`及原生TITLE文本是另一通道候选，未取得真实来源/单位不启用；见[字段复查](../../../research/protocol/carwith_4_0_23/ROUTE_DISTANCE.md) |
-| timeRemainingSeconds/arrivalEpochSeconds（暂无provider） | 5201 p6/p5 U64 | remainingSeconds/arrivalEpochSeconds；单位/清除/来源未闭合不启用，不由距离估算 |
+| destinationRemainingDistance → route.distanceRemainingMeters（用户试验） | 5201 p7 U32，按米直传 | 用户2026-11-14授权先接入同名HUD extra；Int/Long非负且不超过U32，缺失/非法先reset再重建；真实宿主是否携带与单位待实车，见[试验记录](../../../android/docs/fixes/2026-11-14-navigation-destination-distance-time-trial.md) |
+| destinationRemainingTime → timeRemainingSeconds（用户试验） | 5201 p6 U64，按秒直传 | 用户授权同名extra，非负Int/Long；显式0有效，缺失/非法reset清除旧时间；remainingSeconds消费合同已测，实时来源待实车 |
+| arrivalEpochSeconds（暂无provider） | 5201 p5 U64，目前省略 | 不生成到达时刻，不由距离或剩余时间估算 |
 | maneuver identity / capacity复用 | 5202 p1 U16 → 5201 p13 repeated U16 refs、p14 count | cache/activeIndex；最小已选容量；单槽先reset再定义/引用；未知内容清旧重建 |
 | lanes（暂无完整provider） | 5204 p1 U16、p2子组、p3文本；5201 p16..18 | Iap2LaneGuidance→laneListener；独立音乐/路线；无来源/声明/容量不发布，不由图标反推 |
 | 其余路线/机动扩展项 | 编码器p8/9/11/12/15/19..26等 | 当前完整链路未启用；布局/业务含义/来源未证保持OPEN |
@@ -102,8 +103,8 @@ HostNavigationField区分Absent/Unknown/Clear/Value；发布器已有reset/重�
 | 3.2 | 既有定义/引用/容量边界复核 | NavigationWireEncodingTest/NavigationPublisherTest/NavigationGuardedTransportTest/ReceiverProtocolContractTest：多组件/最小容量/单槽/100次/U16 |
 | 3.3 | 既有reset路径复核 | HostNavigationRelayTest/NavigationPublisherTest/实际route parser：未知/重算/结束/重订阅 |
 | 4.1 | afterRoad已接通，长度计量未闭合 | CarWithNavigationTest/NavigationWireEncodingTest/实际parser；多语言/NUL/surrogate；未证计量保持OPEN |
-| 4.2 | total_distance全程角色已否定，另找真实provider | SDK目的地距离/原生概要候选须闭合来源和单位，取得同路线raw→normalized→p7→屏显日志；完整任务OPEN |
-| 4.3 | 无ETA/时间来源 | 实际宿主字段、类型、单位、未知/清除和消费者证据；当前OPEN |
+| 4.2 | total_distance角色已否定；目的地距离字段按米启用用户试验 | 同名输入、p7和清除已有本地回归，仍需同路线raw→normalized→p7→屏显确认实时provider及单位；完整任务OPEN |
+| 4.3 | 目的地剩余时间按秒启用用户试验；ETA无来源 | p6 U64更新/清除及原接收消费合同已测；实际宿主来源、单位/屏显和ETA仍待核实，完整任务OPEN |
 | 4.4 | 无完整lane来源 | 完整源模型、原wire枚举、容量和清除证据；当前OPEN |
 | 4.5 | worker无queued/in-flight owner代际 | NavigationOutputWorkerTest：阻塞vendor后clear/start、队列满、终止清理；已进vendor不可中断调用须记录限制 |
 | 4.6 | 独立分派，非法lane清除需核 | DiPlay glance/route/song/lane测试与实际interop逐域frame |

@@ -251,3 +251,31 @@ getter唯一调用为JSON封装；现有混合HUD没有传出这些候选值，�
 该症状属于4.4未完成范围：当前宿主无真实lane provider，CarVeX未发布实际5204车道更新，
 已有lane合同仅用人工输入检查解析/跨域隔离，不证明真实换路口后的车道更新或清除。
 第4阶段旧owner/旧link worker修正不能作为此车道症状已修复的结论，继续保留未解决及实车待复核。
+
+## 2026-11-14 目的地距离/剩余时间用户试验
+
+用户明确要求`destinationRemainingDistance`按米、`destinationRemainingTime`按秒先设置，
+实车不符后再修改，替代此前候选输入暂不启用的实现决定。
+已审CarWith版本的活动HUD读取两个同名extra，非负Int/Long直传，距离限U32，
+缺失/非法时清除对应快照字段，保留`user-test-20261114:destination-HUDINFO:meters-seconds`来源标签。
+原始诊断增加两个字段的类型/数值和单位；已撤下的`total_distance`仍仅用于参考诊断。
+
+补齐实际发布器p6 U64剩余时间；p7 U32距离沿用原布局。
+Apple原accessoryd `100002b74..100002b8c`选择p6/字段writer，
+EasyConn时间getter `classes8:20046c`读取`l:I`，`200e40..200e50`按Calendar.SECOND使用。
+距离getter `200454`读取独立`k:I`。单位试验由用户授权，不记为通用Apple单位或真实mixing来源证据。
+原DiPlay接收合同验证剩余秒数更新、显式0、时间缺失清除及距离/箭头隔离；没有生成到达时刻。
+
+重新准备DiPlay `ad4ccbfb`原接收输入（18 source hashes、2 body hashes），
+执行与上一轮相同的手机完整模块命令（含receiver init）：协议/bridge/宿主单测及小米Kotlin编译。
+退出0，1m，90 tasks（13 executed/77 up-to-date），协议1197、bridge65、宿主38，failure/error/skipped均0。
+三模块单测本轮实际执行；结果工具核对21+2接收合同及7原worker测试通过。
+原输入/报告摘要保存在`local-backups/2026-11-14-destination-distance-time-trial/receiver-results.json`。
+随后只修正文档和宿主测试缩进，未改变已通过的测试逻辑。
+
+详见[试验记录](../../../android/docs/fixes/2026-11-14-navigation-destination-distance-time-trial.md)。
+现有mixing上游是否实际携带这两个extra仍未证实；absent日志表示继续接通来源，不能靠换单位生成数据。
+4.2/4.3完整验收保持OPEN，未重跑DiPlay完整CI，未打包、安装或进行实车观察。
+
+本次手机试验提交`d6a4b30`；研究仓库同步该Android指针及本项字段/任务记录，
+原firmware既有改动不包含在本次提交。

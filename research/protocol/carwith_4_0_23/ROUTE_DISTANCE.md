@@ -47,7 +47,7 @@ getter调用1个且仅为上述JSON封装；`setHudinfo`调用0个，HUD消息�
 对现有地图导航继续取证，应在`UCarMapInfo.fromBundle`、`LauncherDataBusClient.G/F`
 简化之前记录这两个字段的实际类型、文本和地图屏显，而不是给当前混合回调增加猜测的Extra名。
 
-## 实现处理
+## 实现处理（首次撤下旧试验）
 
 CarVeX撤下此前用户要求的`total_distance`试验映射。活动HUD明确清除
 `HostNavigationDelta.distanceRemainingMeters`，使旧试验值不能保留；
@@ -64,3 +64,15 @@ python -X utf8 -B research/protocol/carwith_4_0_23/tools/audit_route_distance.py
 ```
 
 本次不安装或运行APK，不代替实车来源/单位验证。原反汇编只保留在local-backups；工具可由同一APK复现。
+
+## 后续用户授权的目的地距离/时间试验
+
+2026-11-14用户明确要求`destinationRemainingDistance`先按米、
+`destinationRemainingTime`先按秒设置，实车不符后调整。
+CarVeX已审版本的活动mixing HUD启用两个同名extra的输入映射；
+距离→`distanceRemainingMeters`→5201/p7 U32，时间→`timeRemainingSeconds`→5201/p6 U64。
+缺失/非法时清除旧值，显式0直传，保留用户试验来源标签；不恢复`total_distance`映射。
+此次按用户授权启用候选输入，不将静态getter/JSON封装记为真实mixing provider证据；
+如实际回调未携带对应字段，日志将显示absent，继续追踪上游来源。
+单位和实时来源仍待实车核对，4.2/4.3完整验收保持OPEN。
+详见[试验实现与验证](../../../android/docs/fixes/2026-11-14-navigation-destination-distance-time-trial.md)。
