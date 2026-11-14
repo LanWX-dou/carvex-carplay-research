@@ -142,3 +142,18 @@ DiPlay完整CI未完成：首次Gradle9.5下载超时，镜像归档按仓库固
 
 本轮代码提交：手机 `bfe3263`（封面撤销及接收合同），DiPlay `5436f91d`（播放状态消费者）。
 根仓库本次提交更新手机子模块指针并保存上述验证边界；本次提交操作未重新运行编译或测试。
+
+## 2026-11-14 第2大项补验收
+
+手机起点 `bfe3263`、接收起点 `5436f91d`，两端工作区干净；firmware 既有改动保留。
+刷新实际接收输入：15 个完整源文件哈希、2 个原 body 哈希。
+完整命令为 `:protocol-carplay:testDebugUnitTest :bridge:testDebugUnitTest :host-carlife-mixing:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache -I build/receiver-interop/receiver-tests.init.gradle`。
+首次发现两个 bridge 封面 fixture 使用旧的双参数引用回调；修正为现有三参数签名。
+第二次成功（90 tasks：4 executed、86 up-to-date）：协议 1181、bridge 65、宿主 36 tests，failure/error/skipped 全0。
+实际接收合同15+2全部存在，`verify_results.py`通过；宿主和主代码编译使用本轮有效缓存，协议/bridge测试实际执行。
+报告摘要及源哈希保存在 `local-backups/2026-11-14-align-business/phase-2-receiver-results.json`。
+
+原固件 verifier C16/C18、九条完整消息、六个注册、八个构造锚点复核通过。
+默认生产输出未引入接收源码；未打包、安装或实车验证。
+2.4按用户已确定的本地代码验收范围完成；2.3真实播放器provider、2.5接收项目完整编译仍OPEN。
+手机补验收提交 `f2a0283`，只包含两个fixture；后续导航修改另属第3大项。

@@ -24,7 +24,7 @@
 - [x] 2.1 核对 5000 参数 0/1/2 的空子项、0x11 U32、未知项、顺序/重复及非法替换行为。位置：`NowPlayingUpdate.selection`。依据：R-2.2–2.5/2.11、A14。验收：非法 START 不改变有效旧选择，更新按实际选择编码。
 - [x] 2.2 完善 5001 初始/增量与换曲清除合同。位置：`NowPlayingPublisher`、`HostMusicRelay` 及元数据来源。验收：初始化不被实时值越过；省略保留、显式清除有效；换曲不残留旧歌手/专辑，同时不虚构未知数值。
 - [ ] 2.3 核对 5003 解析、订阅子项门和实际播放器请求。位置：`NowPlayingPublisher.setInfo` 及平台接口。依据：A14.3。验收：请求、平台接受、实际状态分别记录；没有 provider 的操作明确待实现，不能用回写 snapshot 冒充执行。
-- [ ] 2.4 核对封面引用、曲目身份、订阅变化和失败清理。位置：`NowPlayingArtwork`、`AirSession` 与 DiPlay 文件接收/封面消费者。依据：R-2.9。验收：图像走文件通道，旧曲目/旧 owner 的迟到图片不覆盖新封面。
+- [x] 2.4 核对封面引用、曲目身份、订阅变化和失败清理。位置：`NowPlayingArtwork`、`AirSession` 与 DiPlay 文件接收/封面消费者。依据：R-2.9。验收：图像走文件通道，旧曲目/旧 owner 的迟到图片不覆盖新封面。
 - [ ] 2.5 统一播放状态的模型及各消费者用途。位置：手机 `PlaybackStatus`，DiPlay `CarPlayPlaybackStatus`/`ClusterSongState`。验收：PLAYING/PAUSED/STOPPED/SEEK/未知值各有明确行为和回归，音乐暂停不清活动导航。
 
 ## 3. 导航核心与能力
