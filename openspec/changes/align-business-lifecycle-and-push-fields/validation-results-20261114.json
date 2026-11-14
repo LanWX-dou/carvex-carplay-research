@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-14",
+  "scope": "Local code/JUnit/lint only; no vehicle observation",
+  "junit": {
+    "phone/protocol-carplay": {
+      "tests": 1195,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": 144,
+      "combined_name_xml_sha256": "33b692e127998017cd789e4d95a10cefff6dd3c361fa6729f778df1c3b5b263b",
+      "failed_cases": [],
+      "skipped_cases": []
+    },
+    "phone/bridge": {
+      "tests": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": 9,
+      "combined_name_xml_sha256": "31a65cf5dd1f1495d501bc0303a4ef49174cd500f97367981a9aa25080cdfd89",
+      "failed_cases": [],
+      "skipped_cases": []
+    },
+    "phone/host-carlife-mixing": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": 7,
+      "combined_name_xml_sha256": "82655c0bff72aafe34280d21dbebfc8d242717849a18210a9f0270b513808b9e",
+      "failed_cases": [],
+      "skipped_cases": []
+    },
+    "receiver/shared": {
+      "tests": 1807,
+      "failures": 3,
+      "errors": 0,
+      "skipped": 2,
+      "suites": 275,
+      "combined_name_xml_sha256": "abd3d61f4ca10e473eec71fd4515d20e2d953e40bbf83117d0e4132ee3157c39",
+      "failed_cases": [
+        "com.shilapi.xcertplay.hud.AmbientWorkerOwnerLockSymlinkTest.aPlantedSymlinkIsRefusedAndItsTargetIsNotCreated",
+        "com.shilapi.xcertplay.hud.AmbientWorkerOwnerLockSymlinkTest.aSymlinkToAnExistingFileIsRefused",
+        "com.shilapi.xcertplay.hud.AmbientWorkerOwnerLockSymlinkTest.aRegularFileInsideASymlinkedDirectoryStillLocks"
+      ],
+      "skipped_cases": [
+        "com.shilapi.xcertplay.hud.BydCarPlayCallQuotingTest.anOrdinaryApkPathStillReachesEveryTool",
+        "com.shilapi.xcertplay.hud.BydCarPlayCallQuotingTest.anApkPathWithASpaceAndAQuoteReachesEveryToolAsOneClasspath"
+      ]
+    },
+    "receiver/common": {
+      "tests": 1730,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": 211,
+      "combined_name_xml_sha256": "595f9b0548b5c1c9aa41de5beec8c70b0f0e3f0f2eb8187c682c995980d17e63",
+      "failed_cases": [],
+      "skipped_cases": []
+    },
+    "receiver/home": {
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "suites": 2,
+      "combined_name_xml_sha256": "bac783da38be91c57789bcb0ca08bb82c0e61ede6068f1750057969b621532ba",
+      "failed_cases": [],
+      "skipped_cases": []
+    }
+  },
+  "lint": {
+    "mobile": {
+      "errors": 0,
+      "warnings": 18,
+      "format": "xml",
+      "sha256": "6ddcb137a2d65253e793010c004a51fd9a1b11bfa0b25f8a1a5b4f7da0a559fc",
+      "report_modified_utc": "2026-11-14T02:56:21.126146+00:00"
+    },
+    "home": {
+      "errors": 0,
+      "warnings": 10,
+      "format": "xml",
+      "sha256": "a9d10833d4a8c042cc7e1d6f40899de3c56ad4de281750141f9d259604f93a0e",
+      "report_modified_utc": "2026-11-14T02:54:53.746232+00:00"
+    },
+    "maphost": {
+      "errors": 0,
+      "warnings": 2,
+      "format": "xml",
+      "sha256": "1162b7946bdea95facf1c385eb4319afb9b6e0985fa5176af925761bcf13d6bf",
+      "report_modified_utc": "2026-11-14T02:54:58.823678+00:00"
+    }
+  },
+  "receiver_debug_apks": {
+    "mobile": {
+      "mobile-debug.apk": {
+        "bytes": 25004858,
+        "sha256": "4e24fb6d34e0c7151f4e4dd97378a7d9f7c910d4d514dc1bccf3475361ec25d9"
+      }
+    },
+    "home": {
+      "home-debug.apk": {
+        "bytes": 5481021,
+        "sha256": "0844a69cf2ac87cb79dd684209e69c2e551a71c975bad5d00d152b2180388716"
+      }
+    },
+    "maphost": {
+      "maphost-debug.apk": {
+        "bytes": 2540006,
+        "sha256": "163cdea887b6febc6eeed5e59236086171955ab14c0f1615a0acd354f378d3aa"
+      }
+    }
+  },
+  "final_audit": {
+    "schema": 1,
+    "source_hashes_checked": 18,
+    "manifest_sha256": "958c40d497fc0708b28eaa6dfefbd424c34a97c3b5760a9328a697366b400a80",
+    "staged_tampering_rejected_and_restored": true,
+    "production_kotlin_isolation": {
+      "protocol-carplay/debug": {
+        "classes": 548,
+        "receiver_classes": 0,
+        "combined_name_class_sha256": "9a138ccdb4abfe454b291c1605a770a60396e15ec7b3b2f88e26b133d9c828d3"
+      },
+      "host-carlife-mixing/debug": {
+        "classes": 57,
+        "receiver_classes": 0,
+        "combined_name_class_sha256": "9ffa08cdfe0ffa15a8011815d6a6759895a8689f26999dae9f156a0bf3382898"
+      }
+    }
+  },
+  "receiver_full_ci_status": "FAIL: three shared symlink privilege failures and two environment skips",
+  "commits": {
+    "sender_final": "7e2ce0468557148f118ee62dc11131dd5cccfdce",
+    "receiver": "ad4ccbfbcd19e755dfe33dc2e90eb8784adac100",
+    "sender_at_prepare": "7ac992cce95ac4e77a1772644a56256dac2531b4",
+    "phase_4_root": "c9921ef45bce891b3f32461b410dab61b0467004"
+  },
+  "interop_inputs": {
+    "source_sha256": {
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/wire/Iap2Wire.kt": "20c1d5b911826927b610cbdd54920d865938177b8ca626f82664161836a1d2d7",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/wire/Iap2WireCodec.kt": "8fad8a288103ad417314c40d2bcdf70662a7970a646bb1ffa93bdf2020e5d9dd",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/wire/Iap2CsmFramer.kt": "1fe14e34290da058c6f934c35bb923e724a17de5f766e3eeb83653384c55a838",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/catalog/Iap2Endpoint.kt": "cf5a314177062e5ce78f79ae5006913675bbbb58e72d308f7ef057107fbce1db",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/body/Iap2BodyReader.kt": "5c8efabf7674ddf49b67c1c6a106d78ec6b4bf14636c03393d3d34826b283476",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/body/Iap2BodyBuilder.kt": "111f8892fa3bcae5e15b5464a224836e70dc18108a8e50ec7c425dc0de58b716",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/message/Iap2Messages.kt": "56651f0707fb8c3490948e1a567521f96f3eee1222860985ae45c0b6c8a14471",
+      "shared/src/main/java/com/shilapi/xcertplay/media/CarPlayPlaybackStatus.kt": "02f8a836e847e3e716e7d4660045f6609fd5d6c79e37dbf2fc9196a9d8840609",
+      "shared/src/main/java/com/shilapi/xcertplay/iap2/message/Iap2LaneGuidance.kt": "417bc5d002c1996accc003861d5ee7b375ff863613989ddfd9858eb430ec5705",
+      "shared/src/main/java/com/shilapi/xcertplay/hud/NavigationOutputWorker.kt": "9fce2a1a54521b6c3c8b157a325f491acff22d5115f476c6206a8c5078c6984c",
+      "shared/src/main/java/com/shilapi/xcertplay/transport/Iap2FileTransferReceiver.kt": "41190cfadd5a9c0e93f6bcb0838f7b1964d8a42b14d4e1c56fcc2d78a015bfdd",
+      "shared/src/main/java/com/shilapi/xcertplay/hud/BydHudRouteState.kt": "a6f2c0623f3574c28589635d10c39555e3e4d5213a048fa6b93203646257202f",
+      "shared/src/main/java/com/shilapi/xcertplay/hud/BydManeuverCodes.kt": "bfaa4294b4b8cab2e2dbf916222c9498c420d070fa5008a1f1b6a75882fe6b6b",
+      "shared/src/main/java/com/shilapi/xcertplay/airplay/AirPlayHid.kt": "a058302aefb1f252297dd7844f574469774c7d4c1c8ff5cfdf5dfc34716b047f",
+      "shared/src/test/java/com/shilapi/xcertplay/hud/NavigationOutputWorkerTest.kt": "079752b967c785f43e36a447595f302f37ed657250c4af504db9f5f4100563a1",
+      "shared/src/main/java/com/shilapi/xcertplay/hud/BydCarPlayCall.kt": "481a8d9f7e2ea3af1b88a5105b5dcca2f120942a633cc959a00f6a56ddd8e5ef",
+      "shared/src/main/java/com/shilapi/xcertplay/airplay/AirPlayInfoPlist.kt": "68dcd0f6c47bee875093ab1f779cbed781674635c5bad01ac8398ee85c9ae259",
+      "shared/src/main/java/com/shilapi/xcertplay/airplay/BufferedAudioStream.kt": "4ad54ab054664bfaf5f164339a373560d971e2c2e66e6f3c2f8badc51d7a1401"
+    },
+    "staged_sha256": {
+      "protocol-carplay/receiver/iap2/wire/Iap2Wire.kt": "20c1d5b911826927b610cbdd54920d865938177b8ca626f82664161836a1d2d7",
+      "protocol-carplay/receiver/iap2/wire/Iap2WireCodec.kt": "8fad8a288103ad417314c40d2bcdf70662a7970a646bb1ffa93bdf2020e5d9dd",
+      "protocol-carplay/receiver/iap2/wire/Iap2CsmFramer.kt": "1fe14e34290da058c6f934c35bb923e724a17de5f766e3eeb83653384c55a838",
+      "protocol-carplay/receiver/iap2/catalog/Iap2Endpoint.kt": "cf5a314177062e5ce78f79ae5006913675bbbb58e72d308f7ef057107fbce1db",
+      "protocol-carplay/receiver/iap2/body/Iap2BodyReader.kt": "5c8efabf7674ddf49b67c1c6a106d78ec6b4bf14636c03393d3d34826b283476",
+      "protocol-carplay/receiver/iap2/body/Iap2BodyBuilder.kt": "111f8892fa3bcae5e15b5464a224836e70dc18108a8e50ec7c425dc0de58b716",
+      "protocol-carplay/receiver/iap2/message/Iap2Messages.kt": "56651f0707fb8c3490948e1a567521f96f3eee1222860985ae45c0b6c8a14471",
+      "protocol-carplay/receiver/media/CarPlayPlaybackStatus.kt": "02f8a836e847e3e716e7d4660045f6609fd5d6c79e37dbf2fc9196a9d8840609",
+      "protocol-carplay/receiver/iap2/message/Iap2LaneGuidance.kt": "417bc5d002c1996accc003861d5ee7b375ff863613989ddfd9858eb430ec5705",
+      "protocol-carplay/receiver/hud/NavigationOutputWorker.kt": "9fce2a1a54521b6c3c8b157a325f491acff22d5115f476c6206a8c5078c6984c",
+      "protocol-carplay/receiver/transport/Iap2FileTransferReceiver.kt": "41190cfadd5a9c0e93f6bcb0838f7b1964d8a42b14d4e1c56fcc2d78a015bfdd",
+      "protocol-carplay/receiver/hud/BydHudRouteState.kt": "a6f2c0623f3574c28589635d10c39555e3e4d5213a048fa6b93203646257202f",
+      "protocol-carplay/receiver/hud/BydManeuverCodes.kt": "bfaa4294b4b8cab2e2dbf916222c9498c420d070fa5008a1f1b6a75882fe6b6b",
+      "protocol-carplay/receiver/airplay/AirPlayHid.kt": "a058302aefb1f252297dd7844f574469774c7d4c1c8ff5cfdf5dfc34716b047f",
+      "host-carlife-mixing/receiver/airplay/AirPlayHid.kt": "a058302aefb1f252297dd7844f574469774c7d4c1c8ff5cfdf5dfc34716b047f",
+      "protocol-carplay/receiver/hud/NavigationOutputWorkerTest.kt": "079752b967c785f43e36a447595f302f37ed657250c4af504db9f5f4100563a1",
+      "protocol-carplay/receiver/hud/CarPlayCallState.kt": "708f32cfd40b2d4c2655e5bd042552699078ef311d0087b0152a62498ceff2eb",
+      "protocol-carplay/receiver/airplay/ReceiverAudioFormats.kt": "839e94b62d3d19a8309c379483d0c0ba06c4be732e0a3f1364936f3ee5240203",
+      "protocol-carplay/contracts/ReceiverProtocolContractTest.kt": "5967b5c81e98b35f325e0ebd9040a89bbbc9e66a04e2bb06e435cb70f3f6dfcc",
+      "host-carlife-mixing/contracts/ReceiverCallKeyContractTest.kt": "1133811ba6e720021a607f1ad0deddafea4641c00ac85dbd4ce5daaae00935cb",
+      "receiver-tests.init.gradle": "63213c1bbc64f4c53026374ccc13b83ddd137c3422a280acb3f9b8259db53894"
+    },
+    "unchanged_body_slice_sha256": {
+      "hud/CarPlayCallState.kt": "779c781c985b08fcbac5e6b06a06f0e46ec6ddafb1aaa94ef7b53e184937e1a7",
+      "airplay/ReceiverAudioFormats.kt": "fc8f86256be230a380e7533d77671dce1a575639a8f08d161a90e7e8ed868b74"
+    },
+    "contract_template_sha256": {
+      "ReceiverProtocolContractTest.kt": "5967b5c81e98b35f325e0ebd9040a89bbbc9e66a04e2bb06e435cb70f3f6dfcc",
+      "ReceiverCallKeyContractTest.kt": "1133811ba6e720021a607f1ad0deddafea4641c00ac85dbd4ce5daaae00935cb"
+    },
+    "sender_source_sha256": {
+      "protocol-carplay/src/main/java/io/github/iamr0s/carvex/carplay/core/NavigationPublisher.kt": "13635c91c1af07c4072450723a87a402e3e1be555a66174a9403e5e35cc8f761",
+      "host-carlife-mixing/src/main/java/io/github/iamr0s/carvex/host/MixingKeys.kt": "f9b8ef6778c2bfc3b149bb2319ad1af147165cde05d19cccd2339f9c14d1be48"
+    }
+  },
+  "interop_contracts": {
+    "protocol": 20,
+    "host": 2,
+    "original_worker_tests": 7
+  },
+  "interop_tool_sha256": {
+    "prepare.py": "7ab6c892b4c7de9fc13ba34507ff24118218d5c302e01a577e885640f1caac7f",
+    "README.md": "79fef8aed1fc02ab7ebbd8c98eb2ddef7eb8f4d4dffb2c98a4235152e9d8a2bb",
+    "ReceiverCallKeyContractTest.kt": "1133811ba6e720021a607f1ad0deddafea4641c00ac85dbd4ce5daaae00935cb",
+    "ReceiverProtocolContractTest.kt": "5967b5c81e98b35f325e0ebd9040a89bbbc9e66a04e2bb06e435cb70f3f6dfcc",
+    "verify_results.py": "a8c346fbfe28f0967ace31ab2181a08fdbc96aa4799a7007b6dbc448a49a8e97"
+  },
+  "commands": [
+    {
+      "repository": "android",
+      "tasks": ":protocol-carplay:testDebugUnitTest :bridge:testDebugUnitTest :host-carlife-mixing:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache -I build/receiver-interop/receiver-tests.init.gradle",
+      "exit_code": 0,
+      "duration": "57s",
+      "executed": 1,
+      "up_to_date": 89,
+      "cache_scope": "Only protocol tests reran in the final serial invocation; other reports and compilation outputs were valid Gradle cache results from this round."
+    },
+    {
+      "repository": "DiPlay",
+      "tasks": ":shared:testDebugUnitTest :common:testDebugUnitTest :home:testDebugUnitTest :mobile:lintDebug :home:lintDebug :maphost:lintDebug :mobile:assembleDebug :home:assembleDebug :maphost:assembleDebug --console=plain --no-configuration-cache",
+      "exit_code": 1,
+      "status": "Failed at shared tests; three Windows symlink privilege failures, two environment skips."
+    },
+    {
+      "repository": "DiPlay",
+      "tasks": ":common:testDebugUnitTest :home:testDebugUnitTest :mobile:lintDebug :home:lintDebug :maphost:lintDebug :mobile:assembleDebug :home:assembleDebug :maphost:assembleDebug --continue --console=plain --no-configuration-cache",
+      "exit_code": 0,
+      "duration": "11m1s",
+      "executed": 155,
+      "up_to_date": 90
+    }
+  ],
+  "detailed_report_sha256": "69b1d6f967604aa4d0332b5b7a0127073077dc54e364665ea83e7a55c5efd014",
+  "open_tasks": [
+    "1.3",
+    "2.3",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "5.2",
+    "5.4"
+  ]
+}
