@@ -146,7 +146,7 @@ DiPlay完整CI未完成：首次Gradle9.5下载超时，镜像归档按仓库固
 ## 2026-11-14 第2大项补验收
 
 手机起点 `bfe3263`、接收起点 `5436f91d`，两端工作区干净；firmware 既有改动保留。
-刷新实际接收输入：15 个完整源文件哈希、2 个原 body 哈希。
+刷新实际接收输入：15 个原源文件哈希、2 个原 body 哈希。
 完整命令为 `:protocol-carplay:testDebugUnitTest :bridge:testDebugUnitTest :host-carlife-mixing:testDebugUnitTest :app:compileXiaomiDebugKotlin --offline --console=plain --no-configuration-cache -I build/receiver-interop/receiver-tests.init.gradle`。
 首次发现两个 bridge 封面 fixture 使用旧的双参数引用回调；修正为现有三参数签名。
 第二次成功（90 tasks：4 executed、86 up-to-date）：协议 1181、bridge 65、宿主 36 tests，failure/error/skipped 全0。
@@ -169,3 +169,39 @@ DiPlay完整CI未完成：首次Gradle9.5下载超时，镜像归档按仓库固
 DiPlay完整CI本轮已重试，但配置失败：NDK28.2.13676358仅有安装残留、缺source.properties，未进入编译。
 没有使用旧CI结果或联测代替DiPlay完整构建；未打包、安装或实车验证。
 第3大项手机提交 `7ac992c`，根仓库同步该指针及本项验收。
+
+## 2026-11-14 第4大项输出所有权与扩展边界
+
+DiPlay提交 `ad4ccbfb`：controller owner及实际channel/generation guard传至输出worker；
+排队、初始化、迟到失败/清理、overflow与阻塞厂商调用均按原子代际隔离。
+详细修改和已进入厂商调用的边界见[fix](../../../android/docs/fixes/2026-11-14-navigation-output-owner.md)。
+扩展来源见[边界调查](extension-boundaries.md)，4.1–4.4继续OPEN，未增加时间/ETA/lane provider或更改距离试验标记。
+
+本轮补全NDK28.2.13676358，官方归档748118221字节、SHA1
+`086bba43ff2f5eb0e387b15c8278bb4e0d89ba1d`与内含版本验证通过；SHA256
+`6bec98ac2354d8a919760889a1a41d020132e5e8cfa1b1fe51610a72c36a466b`，安装详情留在local-backups。
+没有修改仓库依赖或NDK版本；联网补齐原有依赖后，DiPlay shared/common/home及修改的生产Kotlin通过编译。
+
+AGENTS.md完整CI命令本轮执行到shared全量测试：1807 tests、3 failures、2 skipped，退出1。
+3项均为`AmbientWorkerOwnerLockSymlinkTest`在`Files.createSymbolicLink`前置条件失败，Windows返回“客户端没有所需的特权”。
+2项为原`BydCarPlayCallQuotingTest`环境跳过；没有修改或屏蔽这些用例，完整CI保留FAIL，5.2暂不勾选。
+本次相关测试实际通过：worker7、owner分派2、PlaybackStatus5、ClusterSong9、Glance8；common全量1730无失败/跳过，
+其中Android MediaSession映射/metadata回归12全部通过。2.5按本地代码范围完成。
+缺少真实车机观察，相关实车任务仍OPEN。
+
+随后执行剩余CI任务（不重复shared）：
+
+```powershell
+$env:JAVA_HOME='C:\Users\admin\.jdks\openjdk-24.0.2+12-54'
+$env:ANDROID_HOME='C:\Users\admin\AppData\Local\Android\Sdk'
+Set-Location -LiteralPath C:/Users/admin/IdeaProjects/DiPlay
+.\gradlew.bat :common:testDebugUnitTest :home:testDebugUnitTest :mobile:lintDebug :home:lintDebug :maphost:lintDebug :mobile:assembleDebug :home:assembleDebug :maphost:assembleDebug --continue --console=plain --no-configuration-cache
+```
+
+退出0，11m1s，245 tasks（155 executed/90 up-to-date）；common 1730、home 11 tests，failure/error/skipped全0。
+mobile/home/maphost的Debug lint各0 errors、18/10/2 warnings；三个Debug APK生成成功，未安装。
+XML和SARIF报告均存在，本轮最终摘要采用实际XML；源码及报告哈希随后归入第5大项交付记录。
+shared失败/跳过未被此成功命令覆盖，完整CI保持FAIL。
+
+第4大项接收实现提交`ad4ccbfb`，手机修正记录提交`ab1d2b0`；根仓库同步该Android指针、
+扩展来源调查与2.5/4.5/4.6本地验收。原firmware既有改动不包含在本项提交。

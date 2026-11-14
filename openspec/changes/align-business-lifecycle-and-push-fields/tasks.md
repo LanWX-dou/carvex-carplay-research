@@ -25,7 +25,7 @@
 - [x] 2.2 完善 5001 初始/增量与换曲清除合同。位置：`NowPlayingPublisher`、`HostMusicRelay` 及元数据来源。验收：初始化不被实时值越过；省略保留、显式清除有效；换曲不残留旧歌手/专辑，同时不虚构未知数值。
 - [ ] 2.3 核对 5003 解析、订阅子项门和实际播放器请求。位置：`NowPlayingPublisher.setInfo` 及平台接口。依据：A14.3。验收：请求、平台接受、实际状态分别记录；没有 provider 的操作明确待实现，不能用回写 snapshot 冒充执行。
 - [x] 2.4 核对封面引用、曲目身份、订阅变化和失败清理。位置：`NowPlayingArtwork`、`AirSession` 与 DiPlay 文件接收/封面消费者。依据：R-2.9。验收：图像走文件通道，旧曲目/旧 owner 的迟到图片不覆盖新封面。
-- [ ] 2.5 统一播放状态的模型及各消费者用途。位置：手机 `PlaybackStatus`，DiPlay `CarPlayPlaybackStatus`/`ClusterSongState`。验收：PLAYING/PAUSED/STOPPED/SEEK/未知值各有明确行为和回归，音乐暂停不清活动导航。
+- [x] 2.5 统一播放状态的模型及各消费者用途。位置：手机 `PlaybackStatus`，DiPlay `CarPlayPlaybackStatus`/`ClusterSongState`。验收：PLAYING/PAUSED/STOPPED/SEEK/未知值各有明确行为和回归，音乐暂停不清活动导航。
 
 ## 3. 导航核心与能力
 
@@ -39,8 +39,8 @@
 - [ ] 4.2 实车核查 `total_distance` 试验角色，记录 raw/normalized/p7/屏显对应。位置：CarWith 适配器与现场日志。验收：同路段、道路切换、零/缺失/错误值、结束/新路线均有观察；来源未闭合则保留试验标记。
 - [ ] 4.3 取证并接入全程剩余时间/ETA/其他路线概览字段。位置：实际宿主输入、host-api、发布器和接收消费者。验收：字段来源、类型、单位、未知/清除及显示合同全闭合后才启用，没有 provider 时保持 OPEN。
 - [ ] 4.4 取证并接入 5204 车道信息。位置：原宿主完整输入、导航快照/发布器及 DiPlay `Iap2LaneGuidance`。验收：源 lane 模型、wire 枚举/布局、组件容量和清除有证据；无声明/来源不发布。
-- [ ] 4.5 修正对账确认的 DiPlay 输出所有权/worker 在途缺陷。位置：`BydNavigationOutputs`、`NavigationOutputWorker`、各 HUD/仪表输出。验收：旧 owner 不更新新输出，阻塞/队列满后的清理明确，保留展示有失效边界。
-- [ ] 4.6 覆盖音乐、路线和车道的独立更新/清理。位置：DiPlay 分派、快照和消费者。验收：暂停/结束音乐不清有效导航；导航结束不改音乐；字段清空和非法更新不串域。
+- [x] 4.5 修正对账确认的 DiPlay 输出所有权/worker 在途缺陷。位置：`BydNavigationOutputs`、`NavigationOutputWorker`、各 HUD/仪表输出。验收：旧 owner 不更新新输出，阻塞/队列满后的清理明确，保留展示有失效边界。
+- [x] 4.6 覆盖音乐、路线和车道的独立更新/清理。位置：DiPlay 分派、快照和消费者。验收：暂停/结束音乐不清有效导航；导航结束不改音乐；字段清空和非法更新不串域。
 
 ## 5. 联测与交付
 
